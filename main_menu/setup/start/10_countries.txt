@@ -13729,10 +13729,7 @@ countries = {
 
 	POR = {
 		own_control_core = { #BR Edit
-			lagos faro silves tavira
-			evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
-			coimbra besteiros castelo_branco covilha esgueira guarda idanha proenca_nova sabugal seia
-			lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
+			lisbon torres_vedras
 		}
 
 		starting_technology_level = 3
@@ -13948,6 +13945,11 @@ countries = {
             murcia albacete caravaca cartagena chinchilla cieza hellin lorca mula segura_de_la_sierra villena
             sevilla arcos_de_la_frontera cadiz carmona constantina ecija jerez_de_la_frontera medina_sidonia moron olvera osuna sanlucar tarifa
             huelva almonaster_la_real aracena aroche ayamonte coria_del_rio niebla puebla_de_guzman sanlucar_la_mayor
+            #Portugal
+            lagos faro silves tavira
+            evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
+            coimbra besteiros castelo_branco covilha esgueira guarda idanha proenca_nova sabugal seia
+            alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas
 		}
 
 		starting_technology_level = 3
