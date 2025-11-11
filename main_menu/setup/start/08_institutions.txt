@@ -8940,6 +8940,7 @@ tarifa = {
 cordoba = {
 	feudalism = yes
 	legalism = yes
+	meritocracy = yes #BR EDIT
 }
 baena = {
 	feudalism = yes
@@ -19543,7 +19544,7 @@ sozopol = {
 constantinople = {
 	feudalism = yes
 	legalism = yes
-	meritocracy = yes
+	meritocracy = yes #BR EDIT 
 }
 vize = {
 	feudalism = yes
@@ -19812,7 +19813,7 @@ vonitsa = {
 athens = {
 	feudalism = yes
 	legalism = yes
-	meritocracy = yes
+	meritocracy = yes #BR EDIT
 }
 atalanti = {
 	feudalism = yes
@@ -19829,6 +19830,7 @@ megara = {
 thebes = {
 	feudalism = yes
 	legalism = yes
+	meritocracy = yes #BR EDIT
 }
 corfu = {
 	feudalism = yes
