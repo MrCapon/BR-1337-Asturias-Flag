@@ -12845,8 +12845,8 @@ countries = {
 
 		tolerated_cultures = {
 			aromanian
-			cappadocian_greek_culture
-			pontic_greek_culture
+			#cappadocian_greek_culture
+			#pontic_greek_culture
 		}
 
 		liturgical_language = greek_language
