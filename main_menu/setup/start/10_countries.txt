@@ -31253,45 +31253,7 @@ countries = {
 	}
 
 	#Eretnids - ERE https://en.wikipedia.org/wiki/Eretnids
-	ERE = {
-		own_control_core = {
-			akdagmadeni aydincik koyulhisar sulusaray tokat zile
-			bozok baliseyh candir dinek_keskin sorgun
-			corum huseyinabad sungurlu
-			divrigi arapgir egin arguvan
-			hacibektas urgup
-			sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
-			bayburt erzincan ilic kelkit kemah sebinkarahisar siran
-			malatya
-			}
-
-		our_cores_conquered_by_others = {
-			amasya
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast_no_greek"
-		government = {
-			ruler_term = {	 character = ere_eretna start_date = 1335.1.1 }
-			ruler = ere_eretna
-			privilege = {
-				dhimmi_abrahamic_communities
-
-				trunk_road_to_erzurum_privilege
-			}
-		}
-
-		country_rank = rank_duchy
-
-		capital = sivas
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-		tolerated_cultures = {
-			armenian_culture
-			turkoman_culture
-		}
-	}
+	#BR REMOVED
 
 	#Germiyanids - GRM https://en.wikipedia.org/wiki/Germiyanids
 	#BR REMOVED
@@ -31346,6 +31308,13 @@ countries = {
 
 			#AHI
 			ankara cubuk haymana kalecik polatli karakecili
+
+			#ERE
+			bozok baliseyh candir dinek_keskin sorgun
+			hacibektas
+			corum huseyinabad sungurlu
+			akdagmadeni aydincik koyulhisar sulusaray tokat zile
+
 		}
 
 		own_control_integrated = {
@@ -31353,16 +31322,6 @@ countries = {
 		}
 
 		our_cores_conquered_by_others = {
-			#ERE
-			akdagmadeni aydincik koyulhisar sulusaray tokat zile
-			bozok baliseyh candir dinek_keskin sorgun
-			corum huseyinabad sungurlu
-			divrigi arapgir egin arguvan
-			kayseri bogazliyan comana_cil develi tomarza
-			hacibektas urgup
-			sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
-			bayburt erzincan ilic kelkit kemah sebinkarahisar siran
-			yahyali malatya
 
 		}
 
@@ -31390,6 +31349,7 @@ countries = {
 			#ERE
 			kayseri develi tomarza yahyali bogazliyan
 			urgup
+			sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
 
 		}
 
@@ -56643,6 +56603,11 @@ countries = {
 
 			#CEM
 			cemisgezek kuzucan pertek
+
+			#ERE
+			divrigi arapgir egin arguvan
+			bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+			malatya
 
 		}
 
