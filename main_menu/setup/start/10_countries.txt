@@ -16092,7 +16092,7 @@ countries = {
 				feudal_de_jure_law = by_tradition
 				legal_code_law = civil_law_policy
 			}
-			ruler = eng_edward_iii
+			# ruler = eng_edward_iii    #BR edit
 
 			ruler_term = { character = fra_louis_vii_capet start_date = 1137.7.25 end_date = 1152.3.21 regnal_number = 1 } # As Marital Co-Ruler
 			ruler_term = { character = eng_henry_ii_curtmantle start_date = 1152.3.21 end_date = 1189.7.6 regnal_number = 1 } # As Marital Co-Ruler
@@ -16128,7 +16128,7 @@ countries = {
 		}
 		capital = bordeaux
 		tolerated_cultures = {
-			english
+			# english   #BR edit
 			saintongeais
 			basque
 		}
