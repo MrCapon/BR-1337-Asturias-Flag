@@ -12799,17 +12799,18 @@ countries = {
 			outward_vs_inward = 70
 
 			privilege = {
+				#BR EDIT, I wanted to keep the challenge of these modifiers but it turns them into such a mess the ai ends up in an endless revolt loop as it loses all its buildings and pop drops by 3/4ths.
 				#Nobles
 				elaborate_court_ceremonies
 				noble_serfdom_rights
 				manorial_courts
-				consolidated_corruption_of_the_nobles
+				#consolidated_corruption_of_the_nobles #BR EDIT
 
 				#Clergy
 				embellish_great_works_of_faith
 				clergy_powerful_dioceses
 				clergy_strengthen_faith
-				consolidated_corruption_of_the_clergy
+				#consolidated_corruption_of_the_clergy #BR EDIT
 
 				#Burghers
 				formal_guilds
@@ -12818,11 +12819,11 @@ countries = {
 				sponsor_maritime_contracts
 				control_over_monetary_policy
 				control_over_the_coinage
-				consolidated_corruption_of_the_burghers
+				#consolidated_corruption_of_the_burghers #BR EDIT
 
 				#Commoners
 				access_to_royal_and_ecclesiastical_courts
-				consolidated_corruption_of_the_peasants
+				#consolidated_corruption_of_the_peasants #BR EDIT
 			}
 			reforms = {
 				autocracy
