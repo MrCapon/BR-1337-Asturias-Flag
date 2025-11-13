@@ -13514,10 +13514,9 @@ countries = {
 	ASU = { #BR edit
 		own_control_core = { #BR edit
 			avila arevalo villatoro #Avila
-			burgos aranda_de_duero briviesca castrojeriz lerma logrono miranda_de_ebro najera sto_domingo_silos villadiego villarcayo
+			burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
 			palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
 			segovia cuellar fuentiduena pedraza sepulveda
-			soria agreda almazan berlanga burgo_de_osma calahorra calatanazor medinaceli arnedo
 			santander laredo potes san_vicente_barquera
 			valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
 			coruna betanzos ferrol mondonedo vivero
@@ -13611,7 +13610,7 @@ countries = {
 			outward_vs_inward = -30
 		}
 
-		country_rank = rank_empire #BR EDIT
+		country_rank = rank_kingdom
 		capital = valladolid
 
 		ai_advance_preference_tags = {
@@ -14105,7 +14104,7 @@ countries = {
 		}
 
 		own_control_conquered = {
-			lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
+			#lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
 		}
 
 		our_cores_conquered_by_others = {
@@ -17892,7 +17891,6 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			greek_culture
 		}
 
 		court_language = french_language
