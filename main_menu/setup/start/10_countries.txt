@@ -17984,7 +17984,6 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			greek_culture
 		}
 
 		country_rank = rank_duchy
@@ -18044,7 +18043,6 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			greek_culture
 		}
 
 		court_language = venetian_dialect
@@ -18219,7 +18217,6 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			greek_culture maltese
 		}
 
 		court_language = catalan_dialect
