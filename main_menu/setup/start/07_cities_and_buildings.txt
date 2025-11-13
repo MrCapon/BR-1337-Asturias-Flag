@@ -3457,7 +3457,7 @@ building_manager = {
 	#temple = { tag = KAR level = 1 location = ermenek }
 	#madrasa = { tag = TUR level = 1 location = iznik }
 	#madrasa = { tag = KAR level = 1 location = konya } #https://en.wikipedia.org/wiki/Sahib_Ata_Complex
-	madrasa = { tag = ERE level = 1 location = sivas } #https://en.wikipedia.org/wiki/G%C3%B6k_Medrese,_Sivas
+	#madrasa = { tag = ERE level = 1 location = sivas } #https://en.wikipedia.org/wiki/G%C3%B6k_Medrese,_Sivas
 	#seljuk_mint = { tag = KAR level = 1 location = konya }
 	#seljuk_mint = { tag = ERE level = 1 location = sivas }
 	stockade = { tag = BYZ level = 1 location = karahisar_i_sahib }
@@ -3725,7 +3725,7 @@ building_manager = {
 	stockade = { tag = PRM level = 1 location = kilmez }
 	stockade = { tag = PRM level = 1 location = saygatsky }
 	stockade = { tag = FEO level = 1 location = theodoro }
-	stockade = { tag = GAZ level = 1 location = kaffa }
+	stockade = { tag = TRE level = 1 location = kaffa }
 	stockade = { tag = CLA level = 1 location = belfast }
 	stockade = { tag = CLA level = 1 location = newtownards }
 	stockade = { tag = MCM level = 1 location = killarney }
@@ -3915,8 +3915,8 @@ building_manager = {
 	stockade = { tag = LLS level = 1 location = jianchang_sichuan }
 	stockade = { tag = DIL level = 1 location = kozluk }
 	stockade = { tag = DUL level = 1 location = gerger }
-	stockade = { tag = ERE level = 1 location = arapgir }
-	stockade = { tag = ERE level = 1 location = sebinkarahisar }
+	stockade = { tag = MES level = 1 location = arapgir }
+	stockade = { tag = KOG level = 1 location = sebinkarahisar }
 	stockade = { tag = HSN level = 1 location = savur }
 	stockade = { tag = HSN level = 1 location = hasankeyf }
 	stockade = { tag = SUT level = 1 location = palu }
@@ -3924,10 +3924,10 @@ building_manager = {
 	stockade = { tag = SUT level = 1 location = diyarbekir }
 	stockade = { tag = SUT level = 1 location = mosul }
 	stockade = { tag = BHT level = 1 location = cizre }
-	stockade = { tag = BIN level = 1 location = bingol }
+	stockade = { tag = DER level = 1 location = bingol }
 	stockade = { tag = BIT level = 1 location = bitlis }
 	stockade = { tag = BIT level = 1 location = tatvan }
-	stockade = { tag = CEM level = 1 location = cemisgezek }
+	stockade = { tag = DER level = 1 location = cemisgezek }
 	stockade = { tag = DMB level = 1 location = akre }
 	stockade = { tag = DSN level = 1 location = duhok }
 	stockade = { tag = EGL level = 1 location = sivrice }
