@@ -94,7 +94,7 @@ diplomacy_manager = {
     dependency = { first = NOV second = LYA subject_type = tributary }
     dependency = { first = NOV second = TBY subject_type = tributary }
 
-    dependency = { first = GEN second = GAZ subject_type = vassal }
+    #dependency = { first = GEN second = GAZ subject_type = vassal }
 
     # Golden Horde
         #Moldova
@@ -357,9 +357,7 @@ diplomacy_manager = {
     dependency = { first = BIT second = HZN subject_type = vassal }
     dependency = { first = BIT second = MUS subject_type = vassal }
     dependency = { first = JAL second = ARD subject_type = vassal }
-    dependency = { first = JAL second = ATZ subject_type = vassal }
     dependency = { first = JAL second = DML subject_type = vassal }
-    dependency = { first = JAL second = ERE subject_type = vassal }
     dependency = { first = JAL second = HBN subject_type = vassal }
     dependency = { first = JAL second = HDR subject_type = vassal }
     dependency = { first = JAL second = HNY subject_type = vassal }

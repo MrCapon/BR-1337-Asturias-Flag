@@ -31286,18 +31286,12 @@ countries = {
 
 	PAF = {
 		own_control_core = {
-			#TRE
-			safranbolu ulus yenicepazari bartin
-			arac devrekani kure_i_mamure kastamonu taskopru inebolu
-			boyabat sinop
-			cankiri bayat cerkes kursunlu tosya sabanozu
-			iskilip gumus
 
 			#CND
 			bartin
 			kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
 			cankiri bayat cerkes kursunlu tosya
-			iskilip sabanozu ulus yenicepazari
+			safranbolu iskilip sabanozu ulus yenicepazari
 			gumus
 		}
 
@@ -56591,11 +56585,9 @@ countries = {
 			ruler_term = { character = arm_zakare_iii start_date = 1250.1.1 end_date = 1261.1.1 regnal_number = 3 }
 			ruler_term = { character = arm_ivane_ii start_date = 1261.1.1 end_date = 1270.1.1 regnal_number = 2 }
 			ruler_term = { character = arm_shahnshah_ii start_date = 1270.1.1 end_date = 1320.1.1 regnal_number = 2 }
-			#ruler_term = { character = arm_zakare_iv start_date = 1320.1.1 regnal_number = 4 }
+			ruler_term = { character = arm_zakare_iv start_date = 1320.1.1 regnal_number = 4 }
 
-			ruler_term = { character = geo_george_v start_date = 1313.1.1 regnal_number = 5	} #BR EDIT Wanted a Bagratid on the Armenian throne so put them in a PU under Georgia
-
-			ruler = geo_george_v
+			ruler = arm_zakare_iv
 
 		}
 		liturgical_language = armenian_language
