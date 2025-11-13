@@ -1,5 +1,5 @@
 ﻿NOR_VIN = { # Vinland
-	color = rgb{ 43 60 117 }
+	color = rgb { 71 116 138 }
 	color2 = rgb{ 16 41 202 }
 	
 	culture_definition = vinlander
@@ -7,7 +7,7 @@
 }
 
 NOR_MAR = { # Markland
-	color = rgb{ 43 60 117 }
+	color = rgb { 24 66 87 }
 	color2 = rgb{ 16 41 202 }
 	
 	culture_definition = vinlander
@@ -15,7 +15,7 @@ NOR_MAR = { # Markland
 }
 
 NOR_HEL = { # Helluland
-	color = rgb{ 43 60 117 }
+	color = rgb { 76 93 101 }
 	color2 = rgb{ 16 41 202 }
 	
 	culture_definition = vinlander

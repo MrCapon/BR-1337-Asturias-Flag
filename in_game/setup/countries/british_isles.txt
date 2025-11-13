@@ -2,9 +2,9 @@
 	color = map_ENG
 	color2 = rgb { 16 41 202 }
 	
-	unit_color0 = hsv360 {	0 76 53 }
-	unit_color1 = hsv360 {	230 64 36 }
-	unit_color2 = hsv360 {	37 84 89 }
+	unit_color0 = hsv360 { 0 76 53 }
+	unit_color1 = hsv360 { 230 64 36 }
+	unit_color2 = hsv360 { 37 84 89 }
 	
 	culture_definition = english
 	religion_definition = catholic
@@ -233,7 +233,6 @@ WLS = {
 	
 }
 
-
 TYR = {
 	color = hsv360 { 33 52 84 }
 	color2 = rgb { 16 41 202 }
@@ -241,7 +240,6 @@ TYR = {
 	culture_definition = irish
 	religion_definition = catholic
 }
-
 
 AMH = {
 	color = hsv360 { 95 95 60 }
@@ -389,7 +387,6 @@ MYO = {
 	religion_definition = catholic
 }
 
-
 THO = {
 	color = hsv360 { 270 37 81 }
 	color2 = rgb { 16 41 202 }
@@ -413,6 +410,7 @@ FLY = {
 	culture_definition = irish
 	religion_definition = catholic
 }
+
 CRN = {
 	color = map_cornish
 	color2 = hsv { 0 0 0.38 }
@@ -432,6 +430,7 @@ GWR = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 GMG = {
 	color = hsv360 { 125 80 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -439,6 +438,7 @@ GMG = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 MAC = {
 	color =hsv360 { 200 85 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -446,6 +446,7 @@ MAC = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 AUD = {
 	color = hsv360 { 355 85 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -453,6 +454,7 @@ AUD = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 BRO = {
 	color = hsv360 { 215 75 90 }
 	color2 = hsv { 0 0 0.38 }
@@ -460,6 +462,7 @@ BRO = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 POS = {
 	color = hsv360 { 150 80 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -467,6 +470,7 @@ POS = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 EWY = {
 	color = hsv360 { 30 85 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -474,6 +478,7 @@ EWY = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 CMS = {
 	color = hsv360 { 95 75 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -481,6 +486,7 @@ CMS = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 PMB = {
 	color = hsv360 { 165 80 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -488,6 +494,7 @@ PMB = {
 	culture_definition = english
 	religion_definition = catholic
 }
+
 DEN = {
 	color = hsv360 { 240 75 95 }
 	color2 = hsv { 0 0 0.38 }
@@ -503,6 +510,7 @@ GDD = {
 	culture_definition = welsh
 	religion_definition = catholic
 }
+
 PWS = {
 	color = map_PWS
 	color2 = hsv { 0 0 0.38 }
@@ -510,6 +518,7 @@ PWS = {
 	culture_definition = welsh
 	religion_definition = catholic
 }
+
 DHB = {
 	color = map_DHB
 	color2 = hsv { 0 0 0.38 }
@@ -517,6 +526,7 @@ DHB = {
 	culture_definition = welsh
 	religion_definition = catholic
 }
+
 MWG = {
 	color = map_MWG
 	color2 = hsv { 0 0 0.38 }
@@ -524,6 +534,7 @@ MWG = {
 	culture_definition = welsh
 	religion_definition = catholic
 }
+
 BCN = {
 	color = map_BCN
 	color2 = hsv { 0 0 0.38 }
@@ -531,6 +542,7 @@ BCN = {
 	culture_definition = welsh
 	religion_definition = catholic
 }
+
 GWT = {
 	color = map_GWT
 	color2 = hsv { 0 0 0.38 }
@@ -546,6 +558,7 @@ MNN = {
 	culture_definition = norse_gael
 	religion_definition = catholic
 }
+
 ORK = {
 	color = map_norn
 	color2 = rgb { 16 41 202 }
@@ -553,6 +566,7 @@ ORK = {
 	culture_definition = norn_culture
 	religion_definition = catholic
 }
+
 MOY = {
 	color = map_highland
 	color2 = rgb { 16 41 202 }
@@ -560,6 +574,7 @@ MOY = {
 	culture_definition = scottish
 	religion_definition = catholic
 }
+
 ROS = {
 	color = rgb { 117  127  174 }
 	color2 = rgb { 16 41 202 }
@@ -567,6 +582,7 @@ ROS = {
 	culture_definition = highland
 	religion_definition = catholic
 }
+
 NOL = {
 	color = map_NOL
 	color2 = rgb { 16 41 202 }
@@ -588,3 +604,70 @@ GLY = {
 }
 
 ## BR Additions ##
+AEG = { # Anglia
+	color = rgb { 242 55 48 }
+	color2 = rgb { 16 41 202 }
+	
+	unit_color0 = hsv360 {	0 76 53 }
+	unit_color1 = hsv360 {	230 64 36 }
+	unit_color2 = hsv360 {	37 84 89 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_DOR = { # Dorset
+	color = rgb { 69 177 223 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_EST = { # East Anglia
+	color = rgb { 143 21 17 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_KEN = { # Kent
+	color = rgb { 96 48 242 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_LIN = { # Lindsey/Lindon
+	color = rgb { 242 106 48 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_MER = { # Mercia
+	color = rgb { 239 36 28 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_SOM = { # Somerset
+	color = rgb { 97 76 232 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
+
+AEG_WES = {
+	color = rgb { 77 131 213 }
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = english
+	religion_definition = catholic
+}
