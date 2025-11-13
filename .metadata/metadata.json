@@ -11,7 +11,8 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
-      "main_menu/localization/english/replace"
+      "main_menu/localization/english/replace",
+      "main_menu/setup/start"
     ]
   }
 }

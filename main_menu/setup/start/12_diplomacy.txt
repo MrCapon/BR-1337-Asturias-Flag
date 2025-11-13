@@ -371,7 +371,6 @@ diplomacy_manager = {
     dependency = { first = MAM second = DUL subject_type = vassal }
     dependency = { first = MAM second = KIL subject_type = vassal }
     dependency = { first = JAL second = BHT subject_type = vassal }
-    dependency = { first = JAL second = BIN subject_type = vassal }
     dependency = { first = JAL second = BIT subject_type = vassal }
     dependency = { first = JAL second = CEM subject_type = vassal }
     dependency = { first = JAL second = DIL subject_type = vassal }

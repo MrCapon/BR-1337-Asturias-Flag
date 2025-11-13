@@ -69,8 +69,8 @@ diplomacy_manager = {
 	rival = { first = HAB second = UBV }
 
 	#The Two Sicilies
-	rival = { first = NAP second = SIC }
-	rival = { first = SIC second = NAP }
+	#rival = { first = NAP second = SIC }
+	#rival = { first = SIC second = NAP }
 
 	#Maghreb
 	rival = { first = MOR second = TLE }
