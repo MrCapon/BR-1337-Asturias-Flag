@@ -1,4 +1,4 @@
-﻿NOR_VIN = { # Vinland
+﻿NRV = { # Vinland
 	color = rgb { 71 116 138 }
 	color2 = rgb{ 16 41 202 }
 	
@@ -6,7 +6,7 @@
 	religion_definition = norse
 }
 
-NOR_MAR = { # Markland
+NRR = { # Markland
 	color = rgb { 24 66 87 }
 	color2 = rgb{ 16 41 202 }
 	
@@ -14,7 +14,7 @@ NOR_MAR = { # Markland
 	religion_definition = norse
 }
 
-NOR_HEL = { # Helluland
+NRH = { # Helluland
 	color = rgb { 76 93 101 }
 	color2 = rgb{ 16 41 202 }
 	

@@ -38,12 +38,12 @@
  WSX_ADJ: "West Saxon"
  
  # Norse America
- NOR_VIN: "Vinland"
- NOR_VIN_ADJ: "Vinlander"
- NOR_MAR: "Markland"
- NOR_MAR_ADJ: "Marklander"
- NOR_HEL: "Helluland"
- NOR_HEL_ADJ: "Hellulander"
+ NRV: "Vinland"
+ NRV_ADJ: "Vinlander"
+ NRR: "Markland"
+ NRR_ADJ: "Marklander"
+ NRH: "Helluland"
+ NRH_ADJ: "Hellulander"
  BEO: "Beothuk"
  BEO_ADJ: "Beothuk"
  INN: "Innu"
