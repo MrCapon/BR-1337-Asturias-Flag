@@ -361,12 +361,17 @@ religion_definition = catholic
 
 }
 
+BR2 = { #Sikelanoi
+        color = rgb { 240 103 103 }
+        culture_definition = griko_culture
+		religion_definition = orthodox
+	}	
 
-NAP	= { #naples/Sikelanoi
+NAP	= { #naples
 	color = map_naples
 
-	culture_definition = griko_culture
-	religion_definition = orthodox
+	culture_definition = neapolitan
+	religion_definition = catholic
 
 	description_category = diplomatic
 	difficulty = 2

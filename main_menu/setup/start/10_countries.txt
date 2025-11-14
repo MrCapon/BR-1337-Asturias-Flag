@@ -10726,18 +10726,42 @@ countries = {
 		capital = macerata
 	}
 
-	#Naples/Sikelanoi
+    #Sikelanoi
+    BR2 = {
+	own_control_core = {
+	catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
+			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
+			
+			cotrone gerace monteleone nicastro palmi reggiocal catanzaro
+			
+			paola cosenza castrovillari cassano scalea rossano 
+			
+			lagonegro
+			
+			lecce francavilla brindisi gallipoliita taranto martinafr brindisi
+			
+			santarcangelo matera
+			
+			monopoli altamura bari
+			}
+	    starting_technology_level = 3
+		include = "expl_mediterranean"
+		include = "expl_silk_road_west"
+		include = "expl_silk_road_center"
+		include = "expl_silk_road_east"
+		include = "expl_indian_trade_route"
+		include = "catholic_monarchy"
+		}
+
+
+	#Naples
 	NAP = {
 		own_control_core = {
 			aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
-			isernia larino trivento altamura andria bari barletta monopoli bovino foggia lucera
-			manfredonia rotondo sansevero brindisi francavilla gallipoliita lecce martinafr taranto
-			acerenza lagonegro matera melfi montepeloso potenza santarcangelo benevento catanzaro cotrone gerace
-			monteleone nicastro palmi reggiocal cassano castrovillari cosenza scalea paola rossano caserta
+			isernia larino trivento andria barletta  bovino foggia lucera
+			manfredonia rotondo sansevero  
+			acerenza  melfi montepeloso potenza benevento caserta
 			gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
-			
-			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
-			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
 		}
 
 		starting_technology_level = 3
