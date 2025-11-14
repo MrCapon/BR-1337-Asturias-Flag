@@ -3472,6 +3472,17 @@ building_manager = {
 	stockade = { tag = BYZ level = 1 location = lazkiye }
 	stockade = { tag = BYZ level = 1 location = alasehir }
 	stockade = { tag = BYZ level = 1 location = manisa }
+	stockade = { tag = CYP level = 1 location = nicosia_cyp }
+	stockade = { tag = CRT level = 1 location = cania }
+	stockade = { tag = MOE level = 1 location = tripolitsa }
+	stockade = { tag = MOE level = 1 location = mystras }
+	stockade = { tag = THS level = 1 location = larissa }
+	stockade = { tag = EPI level = 1 location = ioannina }
+	stockade = { tag = EPI level = 1 location = durres }
+	stockade = { tag = ATH level = 1 location = athens }
+	stockade = { tag = ATH level = 1 location = corinth }
+	stockade = { tag = FEO level = 1 location = theodoro }
+	stockade = { tag = PAF level = 1 location = sinop }
 
 	stockade = { tag = CIL level = 1 location = alaiye }
 	stockade = { tag = CIL level = 1 location = kars_armenia }
@@ -3700,6 +3711,7 @@ building_manager = {
 	cathedral = { tag = NAP level = 1 location = salerno }
 	cathedral = { tag = NAP level = 1 location = reggiocal }
 	cathedral = { tag = SIC level = 1 location = palermo }
+	cathedral = { tag = ARM level = 1	location = ani }
 
 	#Stockades on Tribal and bordering Tribal/Hordes
 	stockade = { tag = GLM level = 1 location = kologriv }
@@ -3915,8 +3927,8 @@ building_manager = {
 	stockade = { tag = LLS level = 1 location = jianchang_sichuan }
 	stockade = { tag = DIL level = 1 location = kozluk }
 	stockade = { tag = DUL level = 1 location = gerger }
-	stockade = { tag = ERE level = 1 location = arapgir }
-	stockade = { tag = ERE level = 1 location = sebinkarahisar }
+	stockade = { tag = MES level = 1 location = arapgir }
+	stockade = { tag = KOG level = 1 location = sebinkarahisar }
 	stockade = { tag = HSN level = 1 location = savur }
 	stockade = { tag = HSN level = 1 location = hasankeyf }
 	stockade = { tag = TUR level = 1 location = palu }
@@ -3924,10 +3936,10 @@ building_manager = {
 	stockade = { tag = TUR level = 1 location = diyarbekir }
 	stockade = { tag = TUR level = 1 location = mosul }
 	stockade = { tag = BHT level = 1 location = cizre }
-	stockade = { tag = BIN level = 1 location = bingol }
+	stockade = { tag = DER level = 1 location = bingol }
+	stockade = { tag = DER level = 1 location = cemisgezek }
 	stockade = { tag = BIT level = 1 location = bitlis }
 	stockade = { tag = BIT level = 1 location = tatvan }
-	stockade = { tag = CEM level = 1 location = cemisgezek }
 	stockade = { tag = DMB level = 1 location = akre }
 	stockade = { tag = DSN level = 1 location = duhok }
 	stockade = { tag = EGL level = 1 location = sivrice }
