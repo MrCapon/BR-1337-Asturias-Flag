@@ -32127,20 +32127,73 @@ countries = {
 		include = "expl_middle_east"
 		include = "expl_mongols"
 		include = "eurasian_horde"
+		include = "turkish_beylik"
 		government = {
 			type = steppe_horde
 			heir_selection = tribal_oldest_male
-			ruler_term = {	 character = jal_hasan_buzurg start_date = 1332.1.1	}
-			ruler = jal_hasan_buzurg
+			ruler_term = {	 character = tur_osman start_date = 1299.1.1 end_date = 1324.1.1 regnal_number = 1	}
+			ruler_term = {	 character = tur_orhan start_date = 1324.1.1 regnal_number = 1	}
 
-			reforms = {
-				legacy_of_genghis
+			ruler = tur_orhan
+
+			centralization_vs_decentralization = 10
+			aristocracy_vs_plutocracy = -30
+			serfdom_vs_free_subjects = 0
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 10
+			mercantilism_vs_free_trade = -25
+			offensive_vs_defensive = 0
+			land_vs_naval = -20
+			quality_vs_quantity = -30
+			belligerent_vs_conciliatory = -40
+			capital_economy_vs_traditional_economy = 80
+			individualism_vs_communalism = -20
+			outward_vs_inward = -60
+
+			privilege = {
+				#Nobles
+				elaborate_court_ceremonies
+				noble_sponsored_navy
+				ghazi_privilege
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_enforced_unity
+				embellish_great_works_of_faith
+				clergy_literacy_rights
+				clergy_land_rights
+
+				#Burghers
+				formal_guilds
+				building_rights
+				market_fairs
+				shipwright_contracts
+				sponsor_maritime_contracts
+
+				#Peasants
+				partial_yield
+				peasants_free_peasantry
+
+				#Dhimmi
+				dhimmi_land_rights
+				dhimmi_administrative_posts
+				dhimmi_abrahamic_communities
+				dhimmi_pact_of_umar
+
+				#Tribes
+				tribes_land_rights
+				tribes_pasture_access
+			}
+
+			laws = {
+				royal_court_customs_law = harem_policy
 			}
 		}
 
 		country_rank = rank_kingdom
 		capital = baghdad
 		court_language = persian_language
+		accepted_cultures = { turkoman_culture }
 		tolerated_cultures = {
 			iraqi_culture
 			adhari_culture
@@ -55043,23 +55096,25 @@ countries = {
 		include = "expl_middle_east"
 		include = "expl_mongols"
 		include = "eurasian_horde"
+		include = "turkish_beylik_no_coast_no_greek"
 		starting_technology_level = 3
 		government = {
 			type = steppe_horde
 			heir_selection = tribal_oldest_male
+			ruler_term = {	 character = ere_eretna start_date = 1335.1.1 }
+			ruler = ere_eretna
+			privilege = {
+				dhimmi_abrahamic_communities
 
-			ruler_term = { character = grg_togha_temur start_date = 1335.12.1 }
-
-			ruler = grg_togha_temur
-
-			reforms = {
-				legacy_of_genghis
+				#trunk_road_to_erzurum_privilege
 			}
+
 		}
 
 		religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
 		court_language = turkmen_dialect
 		tolerated_cultures = {
+			turkoman_culture
 			turkmen_culture
 			khorasani_culture
 			farsi_culture
@@ -56034,11 +56089,24 @@ countries = {
 		include = "expl_middle_east"
 		include = "expl_mongols"
 		include = "eurasian_horde"
+		include = "turkish_beylik"
 		starting_technology_level = 3
 		government = {
 			type = steppe_horde
 			heir_selection = tribal_oldest_male
-			ruler = hlg_musa_khan
+			ruler_term = {	 character = kar_mahmut start_date = 1300.1.1 end_date = 1312.1.1	}
+			ruler_term = {	 character = kar_musa start_date = 1312.1.1 end_date = 1318.1.1	}
+			ruler_term = {	 character = kar_ibrahim start_date = 1318.1.1 end_date = 1332.1.1	}
+			ruler_term = {	 character = kar_alaeddin_halil_mirza start_date = 1332.1.1	}
+			ruler = kar_alaeddin_halil_mirza
+
+			privilege = {
+				sponsor_maritime_contracts
+				dhimmi_abrahamic_communities
+
+				#trunk_road_to_erzurum_privilege
+			}
+		}
 
 			laws = {
 				sharia_law = shafii_policy
@@ -56051,11 +56119,12 @@ countries = {
 
 		court_language = persian_language
 		tolerated_cultures = {
+			turkoman_culture
 			iraqi_culture
 			lur_culture
 		}
 
-		religious_school = shafii_school
+		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 		government = { mysticism_vs_jurisprudence = 20 }
 		
 		country_rank = rank_kingdom
