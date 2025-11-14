@@ -436,7 +436,7 @@ international_organization_manager = {
 			#Jalayirid Faction
 
 			TUR ARD ATZ DML ERE HBN HDR HLL HNY IHB KEL KKL KLR KRI KTW MKW RKL SLI SRV SYY ZBR
-			SUT BHT BIT DIL DMB DSN EGL HKK HZN HZR JLM MUS MZJ SOH ZRQ ZZR #Sutayids
+			BHT BIT DIL DMB DSN EGL HKK HZN HZR JLM MUS MZJ SOH ZRQ ZZR #Sutayids
 
 			#Unaligned
 

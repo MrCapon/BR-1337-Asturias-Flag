@@ -31595,36 +31595,7 @@ countries = {
 	#BR REMOVED
 
 	#Sutayids - SUT https://en.wikipedia.org/wiki/Sutayids
-	SUT = {
-		own_control_core = {
-			diyarbekir ergani
-			cermik
-			mosul qayyarah tal_afar
-		}
-		own_control_integrated = {
-
-		}
-
-		include = "expl_middle_east"
-		include = "expl_mongols"
-		include = "muslim_monarchy_no_coast"
-
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler_term = {	 character = sut_sutay start_date = 1312.1.1 end_date = 1332.1.1}
-			ruler_term = {	 character = sut_hajji_taghay start_date = 1332.1.1	}
-			ruler = sut_hajji_taghay
-		}
-
-		tolerated_cultures = {
-			kurdish_culture
-		}
-
-		capital = diyarbekir
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Bohtan - BHT
 	BHT = {
@@ -32107,6 +32078,9 @@ countries = {
 			bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
 			goroz shusha
 			julfa nakhchivan
+			diyarbekir ergani
+			cermik
+			mosul qayyarah tal_afar
 		}
 
 		our_cores_conquered_by_others = {
