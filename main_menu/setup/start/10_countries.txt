@@ -14179,6 +14179,10 @@ countries = {
 
 		country_rank = rank_empire  #BR edit
 
+		ai_advance_preference_tags = {
+			exploration = 5
+		}
+		
 		tolerated_cultures = {
 			sephardi
 		}
