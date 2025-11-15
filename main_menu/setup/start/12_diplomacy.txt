@@ -31,16 +31,12 @@ diplomacy_manager = {
     dependency = { first = WLS second = DEN subject_type = vassal }
 
     # Ireland
-    #dependency = { first = PLE second = CLR subject_type = vassal }
-    dependency = { first = PLE second = CWM subject_type = vassal }
-    #dependency = { first = PLE second = MYO subject_type = vassal }
-    dependency = { first = PLE second = KID subject_type = vassal }
-    dependency = { first = PLE second = ORD subject_type = vassal }
-    dependency = { first = PLE second = DMS subject_type = vassal }
-    #dependency = { first = PLE second = ULS subject_type = vassal }
-    dependency = { first = PLE second = AMA subject_type = vassal }
-    dependency = { first = PLE second = DCI subject_type = vassal }
-    #dependency = { first = PLE second = GLE subject_type = vassal }
+    dependency = { first = HBA second = CWM subject_type = vassal }
+    dependency = { first = HBA second = KID subject_type = vassal }
+    dependency = { first = HBA second = ORD subject_type = vassal }
+    dependency = { first = HBA second = DMS subject_type = vassal }
+    dependency = { first = HBA second = AMA subject_type = vassal }
+    dependency = { first = HBA second = DCI subject_type = vassal }
     
     dependency = { first = TRY second = AMH subject_type = vassal }
     dependency = { first = TYR second = INI subject_type = vassal }
