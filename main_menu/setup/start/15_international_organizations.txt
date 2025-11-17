@@ -2,6 +2,18 @@ international_organization_manager = {
 	#################################################################
 	# 				Unique International Organizations				#
 	#################################################################
+    add_international_organization = {
+        type = defensive_league
+        creation_date = 1211.2.3
+
+        map_color = rgb { 140 36 36 }
+
+        members = {
+            POS GDD MWG BCN PMB
+        }
+        leader = POS
+    }
+
 
 	#################################################################
 	# 				Holy Roman Empire								#
