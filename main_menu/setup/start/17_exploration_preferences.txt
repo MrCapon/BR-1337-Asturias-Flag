@@ -1,7 +1,7 @@
 exploration_manager = {
 	#ENG USA/CANADA Preference
 	add_exploration_preference = {
-		country = ENG
+		country = ANG
 		modifier = 2
 
 		area = atlantic_north_atlantic_current_area
@@ -16,7 +16,7 @@ exploration_manager = {
 
 	#ENG Africa/India preference
 	add_exploration_preference = {
-		country = ENG
+		country = ANG
 		modifier = 2
 
 		area = nw_africa_coast_area
