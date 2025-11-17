@@ -4258,18 +4258,16 @@ countries = {
 
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
-
-			starting_technology_level = 3
+			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
-
+			
 			accepted_cultures = {
 				norwegian
 			}
-
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
 			capital = london
@@ -4285,8 +4283,7 @@ countries = {
 
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
-
-			starting_technology_level = 3
+			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4296,7 +4293,6 @@ countries = {
 			accepted_cultures = {
 				norwegian
 			}
-
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
 			capital = tamworth
@@ -4309,7 +4305,6 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4319,7 +4314,6 @@ countries = {
 			accepted_cultures = {
 				norwegian
 			}
-
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
 			capital = tamworth
@@ -4335,17 +4329,15 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
-
+			
 			accepted_cultures = {
 				norwegian
 			}
-
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
 			capital = tamworth
@@ -4361,17 +4353,15 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
-
+			
 			accepted_cultures = {
 				norwegian
 			}
-
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
 			capital = newcastle
@@ -4384,7 +4374,6 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4394,7 +4383,6 @@ countries = {
 			accepted_cultures = {
 				norman
 			}
-
 			court_language = norman_dialect
 			country_rank = rank_duchy
 			capital = dover
@@ -4407,7 +4395,6 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4417,7 +4404,6 @@ countries = {
 			accepted_cultures = {
 				norman
 			}
-
 			court_language = norman_dialect
 			country_rank = rank_duchy
 			capital = newcastle
@@ -4430,13 +4416,11 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
-
 			accepted_cultures = {
 				norman
 			}
@@ -4453,17 +4437,15 @@ countries = {
 			include = "expl_western_europe"
 			include = "catholic_monarchy"
 
-			starting_technology_level = 3
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
 			}
-
+			
 			accepted_cultures = {
 				norman
 			}
-
 			court_language = norman_dialect
 			country_rank = rank_duchy
 			capital = newcastle
@@ -4508,8 +4490,8 @@ countries = {
 			}
 			
 			include = "expl_northern_europe"
-			starting_technology_level = 3
 			include = "catholic_monarchy"
+			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -4794,329 +4776,170 @@ countries = {
 		}
 		
 		#### WALES
-		WLS = {
-			# Wales
+		POS = {
 			own_control_core = {
-				# Principality of Wales
-				aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
-			}
-			our_cores_conquered_by_others = {
-				# Earldom of Chester
-				
-				# Marcher Lordships
-				brecknock cardiff caerphilly swansea monmouth montgomery builth denbigh llangollen ewyas kidwelly machynlleth radnor
+				aberystwyth harlech longtown ludlow machynlleth penllyn montgomery wigmore
 			}
 			
-			include = "catholic_monarchy_english_lordship"
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
 			
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				
-				aristocracy_vs_plutocracy = -60
-				quality_vs_quantity = 25
-				offensive_vs_defensive = 75
-				
-				laws = {
-					distribution_of_power_law = dop_law_english_parliament
-					language_of_pleading = language_of_pleading_court
-					feudal_de_jure_law = by_tradition
-					medieval_levy_law = longbow_competitions
-				}
-				reforms = {
-					magna_carta_reform
-					iron_ring_reform
-				}
-				privilege = {
-					noble_fortification_licenses
-					peasants_yeomanry
-				}
-				ruler = eng_edward_iii
+				ruler = random
 			}
-			country_rank = rank_duchy
-			capital = carnarvon
-			accepted_cultures = { welsh }
+			
+			tolerated_cultures = {
+				english
+			}
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = aberystwyth
 		}
-		GWR = {
-			# Gower Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
+		
+		GDD = {
 			own_control_core = {
-				swansea
-			}
-			capital = swansea
-
-			government = {
-				ruler_term = { character = eng_john_mowbray start_date = 1331.1.1 regnal_number = 1 }
-				ruler = eng_john_mowbray
-			}
-			tolerated_cultures = { welsh }
-		}
-		GMG = {
-			# Glamorgan Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-			own_control_core = {
-				cardiff caerphilly neath
-			}
-			capital = cardiff
-
-			government = {
-				ruler_term = { character = eng_hugh_le_despenser start_date = 1337.1.1 regnal_number = 1 }
-
-				ruler = eng_hugh_le_despenser
-			}
-			tolerated_cultures = { welsh }
-		}
-		MAC = {
-			# March Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-			own_control_core = {
-				radnor builth newport wigmore ludlow
+				anglesey caranarvon conway denbigh
 			}
 			our_cores_conquered_by_others = {
-				denbigh montgomery
+				flint harlech
 			}
-			capital = wigmore
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
 			government = {
-				ruler_term = { character = eng_roger_mortimer_1st_earl_of_march start_date = 1330.11.29 end_date = 1330.11.29 regnal_number = 1 }
-
-				regency = overlord_regency
-				active_regent = eng_edward_iii
-				start_regency_date = 1330.11.29
-				end_regency_date = 1350.3.5
-				heir = eng_roger_mortimer_2nd_earl_of_march
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			tolerated_cultures = { welsh }
+			
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = caranarvon
 		}
+		
 		AUD = {
-			# Arundel Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
 			own_control_core = {
-				llangollen oswestry
+				flint oswestry wrexham
 			}
-			capital = oswestry
-
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
 			government = {
-				ruler_term = { character = eng_richard_fitzalan_ii start_date = 1331.1.1 regnal_number = 1 }
-
-				ruler = eng_richard_fitzalan_ii
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			tolerated_cultures = { welsh }
+			
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = wrexham
 		}
-		BRO = {
-			# Brecknock Brecon Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
+		
+		GWT = {
 			own_control_core = {
-				brecknock
+				monmouth newport
 			}
-			capital = brecknock
-
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
 			government = {
-				ruler_term = { character = eng_humphrey_de_bohun_6th_earl_of_hereford start_date = 1336.1.20 regnal_number = 1 }
-
-				ruler = eng_humphrey_de_bohun_6th_earl_of_hereford
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			tolerated_cultures = { welsh }
+			
+			accepted_cultures = {
+				english
+			}
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = newport
 		}
-		POS = {
-			# Powis Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
+		
+		MWG = {
 			own_control_core = {
-				machynlleth montgomery
+				caerphilly cardiff neath swansea
 			}
-			capital = machynlleth
-
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
 			government = {
-				ruler_term = { character = eng_john_de_charlton_1st_baron_charlton start_date = 1309.1.1 regnal_number = 1 }
-				ruler = eng_john_de_charlton_1st_baron_charlton
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			tolerated_cultures = { welsh }
+			
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = cardiff
 		}
-		EWY = {
-			# Ewyas Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord_no_coast"
+		
+		BCN = {
 			own_control_core = {
-				ewyas
+				brenock builth radnor
 			}
-			capital = ewyas
-
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
 			government = {
-				ruler_term = { character = eng_bartholomew_burghersh_the_elder start_date = 1316.1.1 regnal_number = 1 }
-				ruler = eng_bartholomew_burghersh_the_elder
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			tolerated_cultures = { welsh }
+			
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = brenock
 		}
-		CMS = {
-			# Cemais Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-			own_control_core = {
-				fishguard
-			}
-			capital = fishguard
-
-			government = {
-				ruler_term = { character = eng_james_audley_2nd_baron_audley start_date = 1331.1.1 regnal_number = 1 }
-				ruler = eng_james_audley_2nd_baron_audley
-			}
-			tolerated_cultures = { welsh }
-		}
+		
 		PMB = {
-			# Pembroke Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
 			own_control_core = {
 				pembroke
 			}
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				english irish
+			}
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
 			capital = pembroke
-
-			government = {
-
-				regency = overlord_regency
-				active_regent = eng_edward_iii
-				start_regency_date = 1327.1.25
-				end_regency_date = 1339.3.20
-				heir = eng_laurence_hastings_1st_earl_of_pembroke
-			}
-			tolerated_cultures = { welsh }
 		}
-		DEN = {
-			# Denbigh Marcher Lordship
-			include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-			own_control_core = {
-				denbigh
-			}
-			capital = denbigh
-
-			government = {
-				ruler_term = { character = eng_william_montague start_date = 1331.1.1 regnal_number = 1 }
-				ruler = eng_william_montague
-			}
-			tolerated_cultures = { welsh }
-		}
-		DHM = {
-			#Palatinate of Durham
-			own_control_core = {
-
-			}
-
-			include = "catholic_bishopric"
-			include = "expl_western_europe"
-
-			government = {
-				ruler_term = { character = dhm_richard_de_bury start_date = 1333.2.1 }
-
-				ruler = dhm_richard_de_bury
-			}
-
-			accepted_cultures = {
-				english
-			}
-
-			capital = durham
-		}
-		LAN = {
-			#Palatinate of Lancaster
-			own_control_core = {
-
-			}
-
-			own_control_conquered = {
-				monmouth
-				kidwelly
-			}
-
-			include = "catholic_monarchy_english_lordship"
-			include = "expl_western_europe"
-
-			government = {
-				ruler_term = { character = eng_henry_lancaster start_date = 1322.3.22 }
-
-				ruler = eng_henry_lancaster
-			}
-
-			accepted_cultures = {
-				english
-			}
-
-			tolerated_cultures = {
-				welsh
-			}
-
-			capital = lancaster
-		}
-		CET = {
-			#Palatinate of Chester
-			own_control_core = {
-
-			}
-
-			own_control_conquered = {
-				flint
-			}
-
-			include = "catholic_monarchy_english_lordship"
-			include = "expl_western_europe"
-
-			government = {
-				regency = overlord_regency
-				active_regent = eng_edward_iii
-				start_regency_date = 1333.3.18
-				end_regency_date = 1340.3.5
-				heir = eng_edward_the_black_prince
-			}
-
-			tolerated_cultures = {
-				welsh
-			}
-
-			capital = chester
-		}
-		GDD = {
-			# Gwynedd
-			our_cores_conquered_by_others = {
-				carnarvon anglesey conwy harlech flint denbigh
-			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = anglesey
-		}
-		PWS = {
-			# Powys
-			our_cores_conquered_by_others = {
-				montgomery machynlleth llangollen penllyn
-			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = llangollen
-		}
+		
 		DHB = {
-			# Deheubarth
-			our_cores_conquered_by_others = {
-				carmarthen pembroke fishguard kidwelly cardigan aberystwyth
+			own_control_core = {
+				cardigan carmarthen fishguard kidwelly
 			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = pembroke
-		}
-		MWG = {
-			# Morgannwg
-			our_cores_conquered_by_others = {
-				cardiff neath caerphilly swansea
+			
+			include = "expl_western_europe"
+			include = "catholic_monarchy"
+			
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
 			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = cardiff
+			
+			court_language = welsh_dialect
+			country_rank = rank_kingdom
+			capital = cardigan
 		}
-		GWT = {
-			# Gwent
-			our_cores_conquered_by_others = {
-				monmouth newport
-			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = monmouth
-		}
-		BCN = {
-			# Brycheiniog
-			our_cores_conquered_by_others = {
-				brecknock builth radnor
-			}
-			include = "catholic_monarchy_welsh_releasable"
-			capital = brecknock
-		}
+		
 		MNN = {
 			# Isle of Man
 			own_control_core = {
