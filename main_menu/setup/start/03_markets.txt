@@ -59,6 +59,7 @@ market_manager = {
 
 	
 	# Middle East
+	add_market = antioch
 	add_market = baghdad
 	add_market = damascus
 	add_market = trebizond
