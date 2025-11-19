@@ -11,6 +11,7 @@
 		algerian = positive
 		tunisian = positive
 		sephardi = positive
+		mozarabic = positive
 	}
 	
 	culture_groups = {
