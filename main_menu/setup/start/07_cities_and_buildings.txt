@@ -2317,6 +2317,7 @@ building_manager = {
 	dock = { tag = BYZ level = 1 location = constantinople }
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
 	coastal_fort = { tag = BYZ level = 1 location =  constantinople }
+	construction_center = { tag = BYZ level = 1 location =  constantinople }
 
 	
 	castle = { tag = KNI level = 1 location =  malta } #br edit
@@ -3516,13 +3517,17 @@ building_manager = {
 	#Constantinople quarters
 	venetian_quarter = { tag = VEN level = 1 location = constantinople }
 	galata = { tag = GEN level = 1 location = constantinople }
+	noble_villa = { tag = BYZ level = 1 location = constantinople }	
+	burgher_mansion = { tag = BYZ level = 1 location = constantinople }	
 	
 	
-	dock = { tag = BYZ level = 1 location = thessaloniki }
-	wharf = { tag = BYZ level = 1 location = thessaloniki }
+	dock = { tag = THE level = 1 location = thessaloniki }
+	wharf = { tag = THE level = 1 location = thessaloniki }
+	cathedral = { tag = THE level = 1 location = thessaloniki }
 	#anatolia
 	dock = { tag = BYZ level = 1 location = smyrna }
 	wharf = { tag = BYZ level = 1 location = smyrna }
+	cathedral = { tag = BYZ level = 1 location = smyrna }
 	
 	tar_kiln = { tag = BYZ level = 1 location = tavas } 
 	tar_kiln = { tag = BYZ level = 1 location = gediz } 
@@ -3553,6 +3558,102 @@ building_manager = {
 	stockade = { tag = ATH level = 1 location = corinth }
 	stockade = { tag = FEO level = 1 location = theodoro }
 	stockade = { tag = PAF level = 1 location = sinop }
+	nobility_fortifications = { tag = BYZ level = 1 location = manavgat }
+	market_village = { tag = BYZ level = 1 location = manavgat }
+	nobility_fortifications = { tag = BYZ level = 1 location = ustra }
+	market_village = { tag = BYZ level = 1 location = ustra }
+	nobility_fortifications = { tag = THE level = 1 location = edessa }
+	market_village = { tag = THE level = 1 location = edessa }
+	nobility_fortifications = { tag = THE level = 1 location = kastoria }
+	market_village = { tag = THE level = 1 location = kastoria }
+	nobility_fortifications = { tag = THS level = 1 location = gravia }
+	market_village = { tag = THS level = 1 location = gravia }
+	nobility_fortifications = { tag = EPI level = 1 location = arta }
+	market_village = { tag = EPI level = 1 location = arta }
+	nobility_fortifications = { tag = EPI level = 1 location = angelokastron }
+	market_village = { tag = EPI level = 1 location = angelokastron }
+	nobility_fortifications = { tag = EPI level = 1 location = argyrokastro }
+	market_village = { tag = EPI level = 1 location = argyrokastro }
+	nobility_fortifications = { tag = NEG level = 1 location = negroponte }
+	market_village = { tag = NEG level = 1 location = negroponte }
+	nobility_fortifications = { tag = NAX level = 1 location = naxos }
+	market_village = { tag = NAX level = 1 location = naxos }
+	nobility_fortifications = { tag = CIL level = 1 location = sis }
+	market_village = { tag = CIL level = 1 location = sis }
+	nobility_fortifications = { tag = CIL level = 1 location = adana }
+	market_village = { tag = CIL level = 1 location = adana }
+	nobility_fortifications = { tag = CIL level = 1 location = silifke }
+	market_village = { tag = CIL level = 1 location = silifke }
+	nobility_fortifications = { tag = ANA level = 1 location = eregli_kar }
+	market_village = { tag = ANA level = 1 location = eregli_kar }
+	nobility_fortifications = { tag = ANA level = 1 location = aksaray }
+	market_village = { tag = ANA level = 1 location = aksaray }
+	nobility_fortifications = { tag = ANA level = 1 location = kirsehir }
+	market_village = { tag = ANA level = 1 location = kirsehir }
+	nobility_fortifications = { tag = ANA level = 1 location = sungurlu }
+	market_village = { tag = ANA level = 1 location = sungurlu }
+	nobility_fortifications = { tag = ANA level = 1 location = zile }
+	market_village = { tag = ANA level = 1 location = zile }
+	market_village = { tag = ATH level = 1 location = thebes }
+	market_village = { tag = ATH level = 1 location = megara }
+	nobility_fortifications = { tag = MOE level = 1 location = tripolitsa }
+	market_village = { tag = MOE level = 1 location = tripolitsa }
+	nobility_fortifications = { tag = MOE level = 1 location = mystras }
+	market_village = { tag = MOE level = 1 location = mystras }
+	market_village = { tag = MOE level = 1 location = nafplio }
+	nobility_fortifications = { tag = ACH level = 1 location = andravida }
+	market_village = { tag = ACH level = 1 location = andravida }
+	market_village = { tag = VEN level = 1 location = corfu }
+	market_village = { tag = CEP level = 1 location = cephalonia }
+	market_village = { tag = VEN level = 1 location = modon }
+	market_village = { tag = VEN level = 1 location = kythira }
+	market_village = { tag = VEN level = 1 location = andros }
+	market_village = { tag = VEN level = 1 location = karpathos }
+	market_village = { tag = GEN level = 1 location = samos }
+	market_village = { tag = GEN level = 1 location = foca }
+	market_village = { tag = GEN level = 1 location = amasra }
+	market_village = { tag = CRT level = 1 location = chania }
+	market_village = { tag = BYZ level = 1 location = yuksekkum }
+	market_village = { tag = TRE level = 1 location = taman }
+	market_village = { tag = TRE level = 1 location = lusta }
+	market_village = { tag = BYZ level = 1 location = bukelon }
+	market_village = { tag = BYZ level = 1 location = demotica }
+	market_village = { tag = BYZ level = 1 location = akcasehir }
+	market_village = { tag = BYZ level = 1 location = mengen }
+
+	nobility_fortifications = { tag = MES level = 1 location = arguvan }
+	market_village = { tag = MES level = 1 location = arguvan }
+	nobility_fortifications = { tag = DER level = 1 location = palu }
+	market_village = { tag = DER level = 1 location = palu }
+	nobility_fortifications = { tag = ARM level = 1 location = ercis }
+	market_village = { tag = ARM level = 1 location = ercis }
+	nobility_fortifications = { tag = ARM level = 1 location = karakilise }
+	market_village = { tag = ARM level = 1 location = karakilise }
+	nobility_fortifications = { tag = ARM level = 1 location = tercan }
+	market_village = { tag = ARM level = 1 location = tercan }
+	nobility_fortifications = { tag = ARM level = 1 location = surmali }
+	market_village = { tag = ARM level = 1 location = surmali }
+	nobility_fortifications = { tag = ARM level = 1 location = yerevan }
+	market_village = { tag = ARM level = 1 location = yerevan }
+	nobility_fortifications = { tag = KCN level = 1 location = gandzasar }
+	market_village = { tag = KCN level = 1 location = gandzasar }
+	nobility_fortifications = { tag = SYU level = 1 location = kapan_armenia }
+	market_village = { tag = SYU level = 1 location = kapan_armenia }
+	nobility_fortifications = { tag = ATZ level = 1 location = maku }
+	market_village = { tag = ATZ level = 1 location = maku }
+	nobility_fortifications = { tag = AAI level = 1 location = akhalkalaki }
+	market_village = { tag = AAI level = 1 location = akhalkalaki }
+	nobility_fortifications = { tag = SME level = 1 location = akhaltsikhe }
+	market_village = { tag = SME level = 1 location = akhaltsikhe }
+	nobility_fortifications = { tag = GEO level = 1 location = bodbe }
+	market_village = { tag = GEO level = 1 location = bodbe }
+	nobility_fortifications = { tag = GEO level = 1 location = surmali }
+	market_village = { tag = GEO level = 1 location = surmali }
+	nobility_fortifications = { tag = GEO level = 1 location = kutaisi }
+	market_village = { tag = GEO level = 1 location = kutaisi }
+	nobility_fortifications = { tag = GEO level = 1 location = anaklia }
+	market_village = { tag = GEO level = 1 location = anaklia }
+
 
 	stockade = { tag = CIL level = 1 location = alaiye }
 	stockade = { tag = CIL level = 1 location = kars_armenia }
