@@ -32,18 +32,18 @@ exploration_manager = {
 
 	#PORTUGAL
 	add_exploration_preference = {
-		country = POR
+		country = ADU
 		modifier = 0.75
 		continent = africa
 		sub_continent = south_asia
 	}
 	add_exploration_preference = {
-		country = POR
+		country = ADU
 		modifier = 0.95
 		sub_continent = middle_east
 	}
 	add_exploration_preference = {
-		country = POR
+		country = ADU
 		modifier = 3
 		region = brazil_region
 
