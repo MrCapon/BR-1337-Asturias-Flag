@@ -14101,11 +14101,11 @@ countries = {
 			clermont montargis sens saint_florentin senlis nemours melun
 			beauvais saint_quentin noyon la_rochelle
 			ribemont laon
-			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-			bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
+			cahors mirepoix limoux carcassonne lavaur castelnaudary
+			bergerac montauban albi millau saint_pons beziers agde
 			figeac villefranche chaumont_vexin
 			bar_sur_seine
-			limeuil sarlat marmande montflanquin
+			limeuil sarlat
 			braine loudun
 			mauriac riom tour_auvergne brioude saint_flour vodable
 			montaigut herment
@@ -16045,7 +16045,9 @@ countries = {
 	AQN = {
 		own_control_core = {
 			bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
-			dax belin la_teste_de_buch mimizan tartas tosse
+			dax la_teste_de_buch mimizan tartas tosse
+            belin condom nerac bazas sauveterre_de_guyenne #Bazadais
+            marmande montflanquin agen #
 			labrit
 			saintes jonzac montendre oleron royan rochefort
 			bayonne mauleon
@@ -16593,13 +16595,16 @@ countries = {
 
 	#Gascony (Revolter)
 	GUY = {
+        own_control_core = {
+            saint_gaudens #Vic. des Quatre Valles
+            tarbes #C. Bigorre
+        }
+
 		our_cores_conquered_by_others = {
 			#1150 borders
 			bayonne tosse tartas labrit dax libourne mimizan mauleon
 			mont_de_marsan aire #Vic. Marsan
 			auch #Armagnac
-			tarbes #C. Bigorre
-			saint_gaudens #Vic. des Quatre Valles
 			mirande #C. Astarac
 			muret saint_lizier #C. Comminges
 			lectoure #Vic. de Lomagne
