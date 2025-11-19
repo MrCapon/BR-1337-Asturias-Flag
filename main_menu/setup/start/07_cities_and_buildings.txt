@@ -71,7 +71,7 @@ locations={
 	rodos = { rank = town 			town_setup = greek_town_port }
 	
 	# albania
-	durres = { rank = town 			town_setup = balkan_town }
+	durres = { rank = town 			town_setup = greek_town_port }
 	
 	# turkey (modern day)
 	constantinople = { rank = city 	town_setup = greek_city_port }
@@ -918,42 +918,43 @@ locations={
 	# Anatolia city
 	amasya = { rank = city		town_setup = anatolian_city }
 	ankara = { rank = city 		town_setup = anatolian_city }
-	antioch = { rank = city	 	town_setup = anatolian_city }
-	bursa = { rank = city 		town_setup = anatolian_city}
+	antioch = { rank = city	 	town_setup = greek_city_port }
+	bursa = { rank = city 		town_setup = greek_city_port}
 	diyarbekir = { rank = city 	town_setup = anatolian_city }
-	izmit = { rank = city 		town_setup = anatolian_city }
+	izmit = { rank = city 		town_setup = greek_city_port }
 	kayseri = { rank = city 	town_setup = anatolian_city }
 	konya = { rank = city 		town_setup = anatolian_city }
-	larnaca = { rank = town 	town_setup = anatolian_town }
+	larnaca = { rank = town 	town_setup = greek_town }
 	malatya = { rank = city 	town_setup = anatolian_city }
-	nicosia_cyp = { rank = town town_setup = anatolian_town }
+	nicosia_cyp = { rank = town town_setup = greek_town }
 	urfa = { rank = city 	town_setup = anatolian_city }
 	sivas = { rank = city 		town_setup = anatolian_city }
-	smyrna = { rank = city 		town_setup = anatolian_city }
-	tarsus = { rank = town 		town_setup = anatolian_town}
-	trebizond = { rank = city 	town_setup = anatolian_city }
+	smyrna = { rank = city 		town_setup = greek_city_port }
+	tarsus = { rank = town 		town_setup = greek_town_port}
+	trebizond = { rank = city 	town_setup = greek_city_port }
 	van = { rank = city 		town_setup = anatolian_city }
 	
-	bergama = { rank = town		town_setup = anatolian_town }
-	birgi = { rank = town		town_setup = anatolian_town }
-	iznik = { rank = town		town_setup = anatolian_town }
-	alaiye = { rank = town		town_setup = anatolian_town }
-	mardin = { rank = town		town_setup = anatolian_town }
-	bafra = { rank = town		town_setup = anatolian_town }
-	kastamonu = { rank = town		town_setup = anatolian_town }
-	kozluk = { rank = town		town_setup = anatolian_town }
-	elbistan = { rank = town		town_setup = anatolian_town }
-	kutahya = { rank = town		town_setup = anatolian_town }
-	uluborlu = { rank = town		town_setup = anatolian_town }
-	bayramlu = { rank = town		town_setup = anatolian_town }
-	lazkiye = { rank = town		town_setup = anatolian_town }
-	ladik_pontus = { rank = town		town_setup = anatolian_town }
-	balikesir = { rank = town		town_setup = anatolian_town }
-	milas = { rank = town		town_setup = anatolian_town }
-	karahisar_i_sahib = { rank = town		town_setup = anatolian_town }
-	manisa = { rank = town		town_setup = anatolian_town }
-	niksar = { rank = town		town_setup = anatolian_town }
-	antalya = { rank = town		town_setup = anatolian_town }
+	bergama = { rank = town		town_setup = greek_town_port }
+	birgi = { rank = town		town_setup = greek_town }
+	iznik = { rank = town		town_setup = greek_town_port }
+	alaiye = { rank = town		town_setup = greek_town }
+	mardin = { rank = town		town_setup = greek_town }
+	bafra = { rank = town		town_setup = greek_town }
+	kastamonu = { rank = town		town_setup = greek_town }
+	sinop = { rank = town		town_setup = greek_town_port } #BR EDIT
+	kozluk = { rank = town		town_setup = greek_town }
+	elbistan = { rank = town		town_setup = greek_town }
+	kutahya = { rank = town		town_setup = greek_town }
+	uluborlu = { rank = town		town_setup = greek_town }
+	bayramlu = { rank = town		town_setup = greek_town }
+	lazkiye = { rank = town		town_setup = greek_town }
+	ladik_pontus = { rank = town		town_setup = greek_town }
+	balikesir = { rank = town		town_setup = greek_town }
+	milas = { rank = town		town_setup = greek_town }
+	karahisar_i_sahib = { rank = town		town_setup = greek_town }
+	manisa = { rank = town		town_setup = greek_town }
+	niksar = { rank = town		town_setup = greek_town }
+	antalya = { rank = town		town_setup = greek_town }
 	alasehir = { rank = town		town_setup = greek_town }
 
 	#Central Asia
@@ -1064,11 +1065,11 @@ locations={
 	pismachi = { rank = city town_setup = yucatan_town }
 
 	# Crimea
-	kaffa = { rank = city town_setup = italian_city }
-	soldaia = { rank = town town_setup = italian_town }
-	tana = { rank = town town_setup = italian_town }
+	kaffa = { rank = city town_setup = greek_city_port }
+	soldaia = { rank = town town_setup = greek_town }
+	tana = { rank = town town_setup = greek_town }
 	theodoro = { rank = city town_setup = greek_city_port }
-	vosporo = { rank = town town_setup = italian_town }
+	vosporo = { rank = town town_setup = greek_town }
 
 
 	#India
