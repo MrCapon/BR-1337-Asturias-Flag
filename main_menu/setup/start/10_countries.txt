@@ -14099,14 +14099,11 @@ countries = {
 			paris brie_comte_robert corbeil montmorency
 			amiens breteuil corbie nesle peronne
 			clermont montargis sens saint_florentin senlis nemours melun
-			beauvais saint_quentin noyon la_rochelle
+			beauvais saint_quentin noyon
 			ribemont laon
-			cahors mirepoix limoux carcassonne lavaur castelnaudary
-			bergerac montauban albi millau saint_pons beziers agde
-			figeac villefranche chaumont_vexin
+			chaumont_vexin
 			bar_sur_seine
-			limeuil sarlat
-			braine loudun
+			braine
 			mauriac riom tour_auvergne brioude saint_flour vodable
 			montaigut herment
 
@@ -14115,18 +14112,12 @@ countries = {
 			soissons crepy #Valois (Own by the ruler)
 
 			chartres auneau #C. Chartres
-			tulle #Limousin
-			limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
-			turenne gourdon #Vic.Turenne
-			mende #C. de Gevaudan
 			langres grancey #D. de Langres
 			macon #C. de Macon
 			beaujeu perreux trevoux #S.de Beaujeu
 			lyon riverie #C. de Lyon
 			le_puy #C. du Velay
 			viviers # C. de Viviers
-			nimes uzes melgueil
-			french_ales #S. Ales
 			chambon #B. de Combraille
 			chalons_champagne #C. de Chalon
 			reims #D. Reims
@@ -14139,22 +14130,15 @@ countries = {
 
 			chateauroux boussac #S. de Chateauroux
 
-			tarbes #C. Bigorre
-			lodeve #C. Lodeve
-
-			fenouillet toulouse verdun_sur_garonne villemur
 			meaux
 			provins
-			peyrusse entraigues st_affrique
-			allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+			allegre chalancon
 		}
 		own_control_integrated = {
 			#Appanages
 
 			#Poitou (Own by the ruler)
-			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
-			talmont beauvoir mauleon_poitou
+			brosse lusignan aulnay
 
 			#C. de Champagne
 			chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
@@ -14166,7 +14150,6 @@ countries = {
 
 			#Too small/unimportant vassals (fiefs movants)
 			coucy marle #S. Coucy
-			saint_gaudens #Vic. des Quatre Valles
 			brienne #C. Brienne
 			joinville #S. Joinville
 			grandpre #C. Grandpre
@@ -16047,22 +16030,30 @@ countries = {
 			bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
 			dax la_teste_de_buch mimizan tartas tosse
             belin condom nerac bazas sauveterre_de_guyenne #Bazadais
-            marmande montflanquin agen #
+            marmande montflanquin agen #Agenais
+            bergerac limeuil sarlat #Périgord
+            cahors montauban figeac gourdon #Quercy
+            turenne tulle #French Turrenne
+            limoges nontron segur st_leonard aixe thiviers #Limousin
 			labrit
 			saintes jonzac montendre oleron royan rochefort
 			bayonne mauleon
+            bourganeuf #French La Marche
 		}
 
 		our_cores_conquered_by_others = {
 			#Poitou
-			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort rochechouart bourganeuf chatellerault
+            poitiers fontenay montmorillon lusignan aulnay niort chatellerault #Upper-Poitou
+            talmont beauvoir la_roche_sur_yon montaigu thouars mauleon_poitou parthenay
+            st_jean_dangely la_rochelle
 
-			bellac gueret aubusson #La Marche
-			angouleme #Angouleme
-			perigueux #Perigord
+			bellac gueret aubusson charroux brosse rochechouart #La Marche
+			angouleme chabanais cognac #Angouleme
+			riberac perigueux #Périgueux
 			mauriac riom tour_auvergne brioude saint_flour vodable #Auvergne
-			limoges tulle #Limousin
+            ussel ventadour
+            loudun #Anjou
+            lectoure #Armagnac
 		}
 
 		include = "catholic_monarchy_english_lordship"
@@ -16480,9 +16471,11 @@ countries = {
 
 	#Poitou (Revolter)
 	POI = {
-		our_cores_conquered_by_others = {
-			poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-			niort rochechouart bourganeuf chatellerault
+        own_control_core = {
+			poitiers fontenay montmorillon lusignan aulnay niort chatellerault #Upper-Poitou
+            talmont beauvoir la_roche_sur_yon montaigu thouars mauleon_poitou parthenay #Lower-Poitou
+            st_jean_dangely la_rochelle #La Rochelle
+            loudun #Anjou
 		}
 
 		starting_technology_level = 3
@@ -16947,12 +16940,23 @@ countries = {
 
 	#Toulouse (Revolter)
 	TOU = {
+        own_control_core = {
+            toulouse lavaur castelnaudary saint_pons beziers agde lodeve melgueil
+            nimes uzes french_ales villefranche peyrusse entraigues peyre mende
+            albi villemur verdun_sur_garonne
+            mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau
+            florac st_ambroix
+        }
+
 		our_cores_conquered_by_others = {
-			toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde lodeve melgueil
-			nimes uzes ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
-			lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
-			mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau
-			florac ales st_ambroix
+            cahors montauban figeac gourdon #Quercy
+            narbonne #Narbonnais
+            montpellier #Nimois
+            castres lautrec #Castres
+            rodez #Rouergue
+            pamiers foix #Foix
+            lisle_jourdain lectoure #Armagnac
+            montflanquin agen #Agenais
 		}
 
 		starting_technology_level = 3
