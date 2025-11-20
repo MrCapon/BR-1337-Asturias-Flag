@@ -42,11 +42,6 @@ diplomacy_manager = {
 	opinion = { first = BYZ second = ANA type = opinion_angry }
 	opinion = { first = BYZ second = CIL type = opinion_angry }
 	opinion = { first = BYZ second = PAF type = opinion_angry }
-	opinion = { first = ANA second = BYZ type = opinion_angry }
-	opinion = { first = CIL second = BYZ type = opinion_angry }
-	opinion = { first = PAF second = BYZ type = opinion_angry }
-	opinion = { first = BYZ second = BUL type = opinion_angry }
-	opinion = { first = BUL second = BYZ type = opinion_angry }
 
 	#Venice
 	opinion = { first = VEN second = BYZ type = opinion_irritated }
