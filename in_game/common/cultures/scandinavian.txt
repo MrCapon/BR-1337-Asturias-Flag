@@ -125,19 +125,61 @@ norn_culture = {
 }
 
 vinlander = {
-	language = norwegian_dialect
+	language = vinland_dialect
 	
-	color = rgb { 71 116 138 }
+	color = rgb { 71 98 138 }
 	
 	tags = { norwegian_gfx western_european_gfx european_gfx }
 	
 	opinions = {
-		norn_culture = kindred
-		swedish = negative
-		icelandic = kindred
-		norse_gael = positive
-		norwegian = kindred
-		danish = negative
+		norwegian = positive
+		icelandic = positive
+		marklander = kindred
+		hellulander = kindred
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+	
+	use_patronym = yes
+	
+}
+
+marklander = {
+	language = markland_dialect
+	
+	color = rgb { 138 98 71 }
+	
+	tags = { norwegian_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		norwegian = positive
+		icelandic = positive
+		marklander = kindred
+		hellulander = kindred
+	}
+	
+	culture_groups = {
+		scandinavian_group
+	}
+	
+	use_patronym = yes
+	
+}
+
+hellulander = {
+	language = markland_dialect
+	
+	color = rgb { 71 138 98 }
+	
+	tags = { norwegian_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		norwegian = positive
+		icelandic = positive
+		marklander = kindred
+		hellulander = kindred
 	}
 	
 	culture_groups = {
