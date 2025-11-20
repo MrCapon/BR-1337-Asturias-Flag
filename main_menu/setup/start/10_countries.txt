@@ -14105,223 +14105,206 @@ countries = {
 		
 		
 		#France
-		
-		FRA = {
-			own_control_core = {
-				paris brie_comte_robert corbeil montmorency
-				amiens breteuil corbie nesle peronne
-				clermont montargis sens saint_florentin senlis nemours melun
-				beauvais saint_quentin noyon la_rochelle
-				ribemont laon
-				cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-				bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
-				figeac villefranche chaumont_vexin
-				bar_sur_seine
-				limeuil sarlat marmande montflanquin
-				braine loudun
-				mauriac riom tour_auvergne brioude saint_flour vodable
-				montaigut herment
-				
-				tours chinon loches chatillon_sur_indre #D. de Touraine
-				
-				soissons crepy #Valois (Own by the ruler)
-				
-				chartres auneau #C. Chartres
-				tulle #Limousin
-				limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
-				turenne gourdon #Vic.Turenne
-				mende #C. de Gevaudan
-				langres grancey #D. de Langres
-				macon #C. de Macon
-				beaujeu perreux trevoux #S.de Beaujeu
-				lyon riverie #C. de Lyon
-				le_puy #C. du Velay
-				viviers # C. de Viviers
-				nimes uzes melgueil
-				french_ales #S. Ales
-				chambon #B. de Combraille
-				chalons_champagne #C. de Chalon
-				reims #D. Reims
-				
-				amboise #S.
-				
-				orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
-				
-				issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
-				
-				chateauroux boussac #S. de Chateauroux
-				
-				tarbes #C. Bigorre
-				lodeve #C. Lodeve
-				
-				fenouillet toulouse verdun_sur_garonne villemur
-				meaux
-				provins
-				peyrusse entraigues st_affrique
-				allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
-			}
-			own_control_integrated = {
-				#Appanages
-				
-				#Poitou (Own by the ruler)
-				poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-				niort bourganeuf chatellerault brosse lusignan aulnay st_jean_dangely
-				talmont beauvoir mauleon_poitou
-				
-				#C. de Champagne
-				chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
-				chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
-				rosnay villemaur choiseul
-				
-				#Too small/unimportant appanages
-				guise hirson
-				
-				#Too small/unimportant vassals (fiefs movants)
-				coucy marle #S. Coucy
-				saint_gaudens #Vic. des Quatre Valles
-				brienne #C. Brienne
-				joinville #S. Joinville
-				grandpre #C. Grandpre
-			}
-			
-			own_control_conquered = {
-				#lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
-			}
-			
-			our_cores_conquered_by_others = {
-			}
-			
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy"
-			
-			government = {
-				heir_selection = salic_law
-				
-				ruler = fra_philip_vi_valois
-				
-				ruler_term = { character = fra_pepin_the_short start_date = 751.10.9 end_date = 768.9.24 regnal_number = 1 }
-				ruler_term = { character = fra_charlemagne start_date = 768.9.24 end_date = 814.1.28 regnal_number = 1 }
-				ruler_term = { character = fra_louis_i start_date = 814.1.28 end_date = 840.6.20 regnal_number = 1 }
-				ruler_term = { character = fra_charles_ii start_date = 840.6.20 end_date = 877.10.6 regnal_number = 2 }
-				ruler_term = { character = fra_louis_ii start_date = 877.10.6 end_date = 879.4.10 regnal_number = 2 }
-				ruler_term = { character = fra_louis_iii start_date = 879.4.11 end_date = 882.8.5 regnal_number = 3 }
-				ruler_term = { character = fra_carloman_ii start_date = 882.8.5 end_date = 884.12.12 regnal_number = 1 }
-				ruler_term = { character = fra_charles_iii start_date = 884.12.12 end_date = 888.1.13 regnal_number = 3 }
-				
-				ruler_term = { character = fra_odo start_date = 888.2.29 end_date = 898.1.3 regnal_number = 1 }
-				
-				ruler_term = { character = fra_charles_iii start_date = 898.1.3 end_date = 922.6.29 regnal_number = 3 } # Second reign
-				
-				ruler_term = { character = fra_robert start_date = 922.6.29 end_date = 923.6.15 regnal_number = 1 }
-				
-				ruler_term = { character = fra_rudolph start_date = 923.7.1 end_date = 936.1.15 regnal_number = 1 }
-				
-				ruler_term = { character = fra_louis_iv start_date = 936.6.19 end_date = 954.9.10 regnal_number = 4 }
-				ruler_term = { character = fra_lothair start_date = 954.10.12 end_date = 986.3.2 regnal_number = 2 }
-				ruler_term = { character = fra_louis_v start_date = 986.3.8 end_date = 987.5.22 regnal_number = 5 }
-				
-				ruler_term = { character = fra_hugues_capet start_date = 987.7.3 end_date = 996.10.24 regnal_number = 1 }
-				ruler_term = { character = fra_robert_ii_capet start_date = 996.10.24 end_date = 1031.7.20 regnal_number = 2 }
-				ruler_term = { character = fra_henri_i_capet start_date = 1031.7.20 end_date = 1060.8.4 regnal_number = 1 }
-				ruler_term = { character = fra_philippe_i_capet start_date = 1060.8.4 end_date = 1108.7.29 regnal_number = 1 }
-				ruler_term = { character = fra_louis_vi_capet start_date = 1108.9.18 end_date = 1137.8.1 regnal_number = 6 }
-				ruler_term = { character = fra_louis_vii_capet start_date = 1137.8.1 end_date = 1180.9.18 regnal_number = 7 }
-				ruler_term = { character = fra_philippe_ii_auguste_capet start_date = 1180.9.18 end_date = 1223.7.14 regnal_number = 2 }
-				ruler_term = { character = fra_louis_viii_capet start_date = 1223.7.14 end_date = 1226.11.8 regnal_number = 8 }
-				ruler_term = { character = fra_louis_ix_capet start_date = 1226.11.8 end_date = 1270.8.25 regnal_number = 9 }
-				ruler_term = { character = fra_philippe_iii_capet start_date = 1270.8.25 end_date = 1285.10.5 regnal_number = 3 }
-				ruler_term = { character = fra_philippe_iv_capet start_date = 1285.10.5 end_date = 1314.11.29 regnal_number = 4 }
-				ruler_term = { character = fra_louis_x_capet start_date = 1314.11.29 end_date = 1316.6.5 regnal_number = 10 }
-				ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
-				ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 5 }
-				ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.3.21 regnal_number = 4 }
-				
-				ruler_term = { character = fra_philip_vi_valois start_date = 1328.4.1 regnal_number = 6 }
-				
-				regnal_numbers = {
-					#Clovis = 4
-					#Clodomir = 1
-					name_theodoric = 4
-					#Thibert = 2
-					name_thobald = 1
-					#Childebert = 4
-					#Clotaire = 5
-					#Caribert = 1
-					#Sigebert = 1
-					#Childéric = 3
-					#Gontran = 1
-					#Dagobert = 3
-					name_pepin = 1
-					name_carloman = 2
-					name_otto = 1
-					name_charles = 4
-					name_henry = 1
-					name_hugh = 1
-					name_john = 1
-					name_louis = 10
-					name_philip = 6
-					name_robert = 2
-					name_lothar = 2
-				}
-				
-				centralization_vs_decentralization = 85
-				aristocracy_vs_plutocracy = -75
-				serfdom_vs_free_subjects = -80
-				traditionalist_vs_innovative = -30
-				spiritualist_vs_humanist = -50
-				mercantilism_vs_free_trade = -25
-				offensive_vs_defensive = -20
-				land_vs_naval = -30
-				quality_vs_quantity = -30
-				belligerent_vs_conciliatory = -20
-				capital_economy_vs_traditional_economy = 70
-				individualism_vs_communalism = -30
-				outward_vs_inward = -50
-				
-				reforms = {
-					french_feudal_nobility
-					ancient_french_taxation
-				}
-				
-				laws = {
-					medieval_levy_law = noble_levies	#Dependence on nobles
-					cultural_traditions_law = civil_society	#Taxing the peasants
-					mining_law = nobles_mining_law	#Noble Controlled
-					precious_metal_distribution_law = unlimited_gold_export
-				}
-				
-				privilege = {
-					formal_guilds
-					clergy_literacy_rights
-					auxilium_et_consilium
-					nobles_land_rights
-					noble_leaders_only
-					primacy_of_nobility
-					noble_armies
-					chancellor_nobles
-					villes_franches
-					great_offices_of_the_crown_of_france
-				}
-			}
-			
-			tolerated_cultures = {
-				arpitan
-				languedocien
-				picard
-				gascon
-				burgundian
-				auvergnat
-				champenais
-				limousin
-				poitevin
-				saintongeais
-				berrichon
-			}
-			
-			country_rank = rank_kingdom
-			capital = paris
-		}
+
+        FRA = {
+            own_control_core = {
+                paris brie_comte_robert corbeil montmorency
+                amiens breteuil corbie nesle peronne
+                clermont montargis sens saint_florentin senlis nemours melun
+                beauvais saint_quentin noyon
+                ribemont laon
+                chaumont_vexin
+                bar_sur_seine
+                braine
+                mauriac riom tour_auvergne brioude saint_flour vodable
+                montaigut herment
+
+                tours chinon loches chatillon_sur_indre #D. de Touraine
+
+                soissons crepy #Valois (Own by the ruler)
+
+                chartres auneau #C. Chartres
+                langres grancey #D. de Langres
+                macon #C. de Macon
+                beaujeu perreux trevoux #S.de Beaujeu
+                lyon riverie #C. de Lyon
+                le_puy #C. du Velay
+                viviers # C. de Viviers
+                chambon #B. de Combraille
+                chalons_champagne #C. de Chalon
+                reims #D. Reims
+
+                amboise #S.
+
+                orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
+
+                issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
+
+                chateauroux boussac #S. de Chateauroux
+
+                meaux
+                provins
+                allegre chalancon
+            }
+            own_control_integrated = {
+                #Appanages
+
+                #Poitou (Own by the ruler)
+                brosse lusignan aulnay
+
+                #C. de Champagne
+                chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
+                chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+                rosnay villemaur choiseul
+
+                #Too small/unimportant appanages
+                guise hirson
+
+                #Too small/unimportant vassals (fiefs movants)
+                coucy marle #S. Coucy
+                brienne #C. Brienne
+                joinville #S. Joinville
+                grandpre #C. Grandpre
+            }
+
+            own_control_conquered = {
+                #lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
+            }
+
+            our_cores_conquered_by_others = {
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            government = {
+                heir_selection = salic_law
+
+                ruler = fra_philip_vi_valois
+
+                ruler_term = { character = fra_pepin_the_short start_date = 751.10.9 end_date = 768.9.24 regnal_number = 1 }
+                ruler_term = { character = fra_charlemagne start_date = 768.9.24 end_date = 814.1.28 regnal_number = 1 }
+                ruler_term = { character = fra_louis_i start_date = 814.1.28 end_date = 840.6.20 regnal_number = 1 }
+                ruler_term = { character = fra_charles_ii start_date = 840.6.20 end_date = 877.10.6 regnal_number = 2 }
+                ruler_term = { character = fra_louis_ii start_date = 877.10.6 end_date = 879.4.10 regnal_number = 2 }
+                ruler_term = { character = fra_louis_iii start_date = 879.4.11 end_date = 882.8.5 regnal_number = 3 }
+                ruler_term = { character = fra_carloman_ii start_date = 882.8.5 end_date = 884.12.12 regnal_number = 1 }
+                ruler_term = { character = fra_charles_iii start_date = 884.12.12 end_date = 888.1.13 regnal_number = 3 }
+
+                ruler_term = { character = fra_odo start_date = 888.2.29 end_date = 898.1.3 regnal_number = 1 }
+
+                ruler_term = { character = fra_charles_iii start_date = 898.1.3 end_date = 922.6.29 regnal_number = 3 } # Second reign
+
+                ruler_term = { character = fra_robert start_date = 922.6.29 end_date = 923.6.15 regnal_number = 1 }
+
+                ruler_term = { character = fra_rudolph start_date = 923.7.1 end_date = 936.1.15 regnal_number = 1 }
+
+                ruler_term = { character = fra_louis_iv start_date = 936.6.19 end_date = 954.9.10 regnal_number = 4 }
+                ruler_term = { character = fra_lothair start_date = 954.10.12 end_date = 986.3.2 regnal_number = 2 }
+                ruler_term = { character = fra_louis_v start_date = 986.3.8 end_date = 987.5.22 regnal_number = 5 }
+
+                ruler_term = { character = fra_hugues_capet start_date = 987.7.3 end_date = 996.10.24 regnal_number = 1 }
+                ruler_term = { character = fra_robert_ii_capet start_date = 996.10.24 end_date = 1031.7.20 regnal_number = 2 }
+                ruler_term = { character = fra_henri_i_capet start_date = 1031.7.20 end_date = 1060.8.4 regnal_number = 1 }
+                ruler_term = { character = fra_philippe_i_capet start_date = 1060.8.4 end_date = 1108.7.29 regnal_number = 1 }
+                ruler_term = { character = fra_louis_vi_capet start_date = 1108.9.18 end_date = 1137.8.1 regnal_number = 6 }
+                ruler_term = { character = fra_louis_vii_capet start_date = 1137.8.1 end_date = 1180.9.18 regnal_number = 7 }
+                ruler_term = { character = fra_philippe_ii_auguste_capet start_date = 1180.9.18 end_date = 1223.7.14 regnal_number = 2 }
+                ruler_term = { character = fra_louis_viii_capet start_date = 1223.7.14 end_date = 1226.11.8 regnal_number = 8 }
+                ruler_term = { character = fra_louis_ix_capet start_date = 1226.11.8 end_date = 1270.8.25 regnal_number = 9 }
+                ruler_term = { character = fra_philippe_iii_capet start_date = 1270.8.25 end_date = 1285.10.5 regnal_number = 3 }
+                ruler_term = { character = fra_philippe_iv_capet start_date = 1285.10.5 end_date = 1314.11.29 regnal_number = 4 }
+                ruler_term = { character = fra_louis_x_capet start_date = 1314.11.29 end_date = 1316.6.5 regnal_number = 10 }
+                ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
+                ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 5 }
+                ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.3.21 regnal_number = 4 }
+
+                ruler_term = { character = fra_philip_vi_valois start_date = 1328.4.1 regnal_number = 6 }
+
+                regnal_numbers = {
+                    #Clovis = 4
+                    #Clodomir = 1
+                    name_theodoric = 4
+                    #Thibert = 2
+                    name_thobald = 1
+                    #Childebert = 4
+                    #Clotaire = 5
+                    #Caribert = 1
+                    #Sigebert = 1
+                    #Childéric = 3
+                    #Gontran = 1
+                    #Dagobert = 3
+                    name_pepin = 1
+                    name_carloman = 2
+                    name_otto = 1
+                    name_charles = 4
+                    name_henry = 1
+                    name_hugh = 1
+                    name_john = 1
+                    name_louis = 10
+                    name_philip = 6
+                    name_robert = 2
+                    name_lothar = 2
+                }
+
+                centralization_vs_decentralization = 85
+                aristocracy_vs_plutocracy = -75
+                serfdom_vs_free_subjects = -80
+                traditionalist_vs_innovative = -30
+                spiritualist_vs_humanist = -50
+                mercantilism_vs_free_trade = -25
+                offensive_vs_defensive = -20
+                land_vs_naval = -30
+                quality_vs_quantity = -30
+                belligerent_vs_conciliatory = -20
+                capital_economy_vs_traditional_economy = 70
+                individualism_vs_communalism = -30
+                outward_vs_inward = -50
+
+                reforms = {
+                    french_feudal_nobility
+                    ancient_french_taxation
+                }
+
+                laws = {
+                    medieval_levy_law = noble_levies	#Dependence on nobles
+                    cultural_traditions_law = civil_society	#Taxing the peasants
+                    mining_law = nobles_mining_law	#Noble Controlled
+                    precious_metal_distribution_law = unlimited_gold_export
+                }
+
+                privilege = {
+                    formal_guilds
+                    clergy_literacy_rights
+                    auxilium_et_consilium
+                    nobles_land_rights
+                    noble_leaders_only
+                    primacy_of_nobility
+                    noble_armies
+                    chancellor_nobles
+                    villes_franches
+                    great_offices_of_the_crown_of_france
+                }
+            }
+
+            tolerated_cultures = {
+                arpitan
+                languedocien
+                picard
+                gascon
+                burgundian
+                auvergnat
+                champenais
+                limousin
+                poitevin
+                saintongeais
+                berrichon
+            }
+
+            country_rank = rank_kingdom
+            capital = paris
+        }
 		
 		#Britanny
 		BRI = {
@@ -16052,78 +16035,88 @@ countries = {
 			
 			capital = roucy
 		}
-		
-		#Aquitaine
-		AQN = {
-			own_control_core = {
-				bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
-				dax belin la_teste_de_buch mimizan tartas tosse
-				labrit
-				saintes jonzac montendre oleron royan rochefort
-				bayonne mauleon
-			}
-			
-			our_cores_conquered_by_others = {
-				#Poitou
-				poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-				niort rochechouart bourganeuf chatellerault
-				
-				bellac gueret aubusson #La Marche
-				angouleme #Angouleme
-				perigueux #Perigord
-				mauriac riom tour_auvergne brioude saint_flour vodable #Auvergne
-				limoges tulle #Limousin
-			}
-			
-			include = "catholic_monarchy_english_lordship"
-			government = {
-				type = monarchy
-				laws = {
-					feudal_de_jure_law = by_tradition
-					legal_code_law = civil_law_policy
-				}
-				# ruler = eng_edward_iii    #BR edit
-				
-				ruler_term = { character = fra_louis_vii_capet start_date = 1137.7.25 end_date = 1152.3.21 regnal_number = 1 } # As Marital Co-Ruler
-				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1152.3.21 end_date = 1189.7.6 regnal_number = 1 } # As Marital Co-Ruler
-				
-				ruler_term = { character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1196.1.1 regnal_number = 1 }
-				
-				ruler_term = { character = ogk_otto_iv_welf start_date = 1196.1.1 end_date = 1198.6.9 regnal_number = 2 }
-				
-				ruler_term = { character = eng_richard_i_lionheart start_date = 1198.6.9 end_date = 1199.4.6 regnal_number = 1 } # Restored
-				ruler_term = { character = eng_john_lackland start_date = 1199.5.27 end_date = 1216.10.19 regnal_number = 1 }
-				ruler_term = { character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 2 }
-				ruler_term = { character = eng_edward_i start_date = 1272.11.20 end_date = 1306.4.7 regnal_number = 1 }
-				ruler_term = { character = eng_edward_ii start_date = 1306.4.7 end_date = 1325.9.10 regnal_number = 2 }
-				ruler_term = { character = eng_edward_iii start_date = 1325.9.10 regnal_number = 3 }
-				
-				regnal_numbers = {
-					#Corson = 1
-					name_william = 10
-					#Guérin = 1
-					#Begon = 1
-					#Ramnulf = 2
-					#Acfred = 1
-					name_ebles = 1
-					name_raymond = 2
-					name_otto = 2
-					name_eleanor = 1
-					name_louis = 1
-					name_henry = 2
-					name_richard = 1
-					name_john = 1
-					name_edward = 3
-				}
-			}
-			capital = bordeaux
-			tolerated_cultures = {
-				# english   #BR edit
-				saintongeais
-				basque
-			}
-			country_rank = rank_duchy
-		}
+
+        #Aquitaine
+        AQN = {
+            own_control_core = {
+                bordeaux castelnau_de_medoc benauges lesparre_medoc libourne
+                dax la_teste_de_buch mimizan tartas tosse
+                belin condom nerac bazas sauveterre_de_guyenne #Bazadais
+                marmande montflanquin agen #Agenais
+                bergerac limeuil sarlat #Périgord
+                cahors montauban figeac gourdon #Quercy
+                turenne tulle #French Turrenne
+                limoges nontron segur st_leonard aixe thiviers #Limousin
+                labrit
+                saintes jonzac montendre oleron royan rochefort
+                bayonne mauleon
+                bourganeuf #French La Marche
+            }
+
+            our_cores_conquered_by_others = {
+                #Poitou
+                poitiers fontenay montmorillon lusignan aulnay niort chatellerault #Upper-Poitou
+                talmont beauvoir la_roche_sur_yon montaigu thouars mauleon_poitou parthenay
+                st_jean_dangely la_rochelle
+
+                bellac gueret aubusson charroux brosse rochechouart #La Marche
+                angouleme chabanais cognac #Angouleme
+                riberac perigueux #Périgueux
+                mauriac riom tour_auvergne brioude saint_flour vodable #Auvergne
+                ussel ventadour
+                loudun #Anjou
+                lectoure #Armagnac
+            }
+
+            include = "catholic_monarchy_english_lordship"
+            government = {
+                type = monarchy
+                laws = {
+                    feudal_de_jure_law = by_tradition
+                    legal_code_law = civil_law_policy
+                }
+                # ruler = eng_edward_iii    #BR edit
+
+                ruler_term = { character = fra_louis_vii_capet start_date = 1137.7.25 end_date = 1152.3.21 regnal_number = 1 } # As Marital Co-Ruler
+                ruler_term = { character = eng_henry_ii_curtmantle start_date = 1152.3.21 end_date = 1189.7.6 regnal_number = 1 } # As Marital Co-Ruler
+
+                ruler_term = { character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1196.1.1 regnal_number = 1 }
+
+                ruler_term = { character = ogk_otto_iv_welf start_date = 1196.1.1 end_date = 1198.6.9 regnal_number = 2 }
+
+                ruler_term = { character = eng_richard_i_lionheart start_date = 1198.6.9 end_date = 1199.4.6 regnal_number = 1 } # Restored
+                ruler_term = { character = eng_john_lackland start_date = 1199.5.27 end_date = 1216.10.19 regnal_number = 1 }
+                ruler_term = { character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 2 }
+                ruler_term = { character = eng_edward_i start_date = 1272.11.20 end_date = 1306.4.7 regnal_number = 1 }
+                ruler_term = { character = eng_edward_ii start_date = 1306.4.7 end_date = 1325.9.10 regnal_number = 2 }
+                ruler_term = { character = eng_edward_iii start_date = 1325.9.10 regnal_number = 3 }
+
+                regnal_numbers = {
+                    #Corson = 1
+                    name_william = 10
+                    #Guérin = 1
+                    #Begon = 1
+                    #Ramnulf = 2
+                    #Acfred = 1
+                    name_ebles = 1
+                    name_raymond = 2
+                    name_otto = 2
+                    name_eleanor = 1
+                    name_louis = 1
+                    name_henry = 2
+                    name_richard = 1
+                    name_john = 1
+                    name_edward = 3
+                }
+            }
+            capital = bordeaux
+            tolerated_cultures = {
+                # english   #BR edit
+                saintongeais
+                basque
+            }
+            country_rank = rank_duchy
+        }
 		
 		#Berry (Revolter)
 		BER = {
@@ -16490,10 +16483,12 @@ countries = {
 		
 		#Poitou (Revolter)
 		POI = {
-			our_cores_conquered_by_others = {
-				poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
-				niort rochechouart bourganeuf chatellerault
-			}
+            own_control_core = {
+                poitiers fontenay montmorillon lusignan aulnay niort chatellerault #Upper-Poitou
+                talmont beauvoir la_roche_sur_yon montaigu thouars mauleon_poitou parthenay #Lower-Poitou
+                st_jean_dangely la_rochelle #La Rochelle
+                loudun #Anjou
+            }
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -16605,17 +16600,20 @@ countries = {
 		
 		#Gascony (Revolter)
 		GUY = {
-			our_cores_conquered_by_others = {
-				#1150 borders
-				bayonne tosse tartas labrit dax libourne mimizan mauleon
-				mont_de_marsan aire #Vic. Marsan
-				auch #Armagnac
-				tarbes #C. Bigorre
-				saint_gaudens #Vic. des Quatre Valles
-				mirande #C. Astarac
-				muret saint_lizier #C. Comminges
-				lectoure #Vic. de Lomagne
-			}
+            own_control_core = {
+                saint_gaudens #Vic. des Quatre Valles
+                tarbes #C. Bigorre
+            }
+
+            our_cores_conquered_by_others = {
+                #1150 borders
+                bayonne tosse tartas labrit dax libourne mimizan mauleon
+                mont_de_marsan aire #Vic. Marsan
+                auch #Armagnac
+                mirande #C. Astarac
+                muret saint_lizier #C. Comminges
+                lectoure #Vic. de Lomagne
+            }
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -16953,44 +16951,55 @@ countries = {
 		}
 		
 		#Toulouse (Revolter)
-		TOU = {
-			our_cores_conquered_by_others = {
-				toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde lodeve melgueil
-				nimes uzes ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
-				lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
-				mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau
-				florac ales st_ambroix
-			}
-			
-			starting_technology_level = 3
-			include = "expl_western_europe"
-			include = "catholic_monarchy_not_present"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-				regnal_numbers = {
-					#Corson = 1
-					name_william = 4
-					#Bégon = 1
-					name_berengar = 1
-					name_bernard = 3
-					#Acfred = 1
-					#Frédolon = 1
-					name_raymond = 7
-					name_otto = 1
-					name_hugh = 1
-					name_pontius = 1
-					name_bertrand = 1
-					name_philippa = 1
-					name_alphonse.name_jordan = 1
-					name_simeon = 1
-					name_joanna = 1
-				}
-			}
-			capital = toulouse
-		}
+        TOU = {
+            own_control_core = {
+                toulouse lavaur castelnaudary saint_pons beziers agde lodeve melgueil
+                nimes uzes french_ales villefranche peyrusse entraigues peyre mende
+                albi villemur verdun_sur_garonne
+                mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau
+                florac st_ambroix
+            }
+
+            our_cores_conquered_by_others = {
+                cahors montauban figeac gourdon #Quercy
+                narbonne #Narbonnais
+                montpellier #Nimois
+                castres lautrec #Castres
+                rodez #Rouergue
+                pamiers foix #Foix
+                lisle_jourdain lectoure #Armagnac
+                montflanquin agen #Agenais
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+
+                regnal_numbers = {
+                    #Corson = 1
+                    name_william = 4
+                    #Bégon = 1
+                    name_berengar = 1
+                    name_bernard = 3
+                    #Acfred = 1
+                    #Frédolon = 1
+                    name_raymond = 7
+                    name_otto = 1
+                    name_hugh = 1
+                    name_pontius = 1
+                    name_bertrand = 1
+                    name_philippa = 1
+                    name_alphonse.name_jordan = 1
+                    name_simeon = 1
+                    name_joanna = 1
+                }
+            }
+            capital = toulouse
+        }
 		
 		#Champagne (Revolter)
 		CHP = {
