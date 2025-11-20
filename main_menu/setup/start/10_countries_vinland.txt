@@ -5,6 +5,7 @@ countries = {
 				belle_isle
 				naskwotchu
 				wipetikil
+				mekapisk
 				red_bay
 			}
 			
@@ -18,6 +19,9 @@ countries = {
 				ruler = random
 			}
 			
+			accepted_cultures = {
+				marklander
+			}
 			tolerated_cultures = {
 				beothuk_culture
 			}
@@ -41,6 +45,9 @@ countries = {
 				ruler = random
 			}
 			
+			accepted_cultures = {
+				vinlander
+			}
 			tolerated_cultures = {
 				dorset_culture
 				innu_culture
@@ -57,7 +64,30 @@ countries = {
 			
 			capital = navchak
 			include = "vinlandic_foothold"
-			court_language = markland_dialect
+			court_language = helluland_dialect
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				dorset_culture
+			}
+			include = "expl_vinland"
+		}
+		
+		NRC = {
+			own_control_core = {
+				ingonish
+				cheticamp
+				kluskapewiktuk
+			}
+			
+			capital = ingonish
+			include = "vinlandic_foothold"
+			court_language = vinland_dialect
 			country_rank = rank_county
 			government = {
 				type = monarchy
