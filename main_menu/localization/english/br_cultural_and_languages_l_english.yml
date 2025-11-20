@@ -4,6 +4,7 @@
 
  # Vinland
  vinlander: "Vinlander"
+<<<<<<< Updated upstream
  marklander: "Marklander"
  hellulander: "Hellulander"
  kathurlander: "Kaðurlander"
@@ -12,3 +13,8 @@
  markland_dialect: "Markland Dialect"
  helluland_dialect: "Helluland Dialect"
  kathurland_dialect: "Kaðurland Dialect"
+=======
+ mozarabic: "Mozárabe"
+ varangian: "Varangioi"
+ latinoi: "Latínoi"
+>>>>>>> Stashed changes
