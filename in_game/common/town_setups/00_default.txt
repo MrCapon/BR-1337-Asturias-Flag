@@ -85,6 +85,7 @@ polish_town = {
 	granary = 2
 	tannery = 1
 	marketplace = 1
+	stockade = 1 #BR Added
 }
 
 ruthenian_town = {
@@ -130,6 +131,7 @@ british_town_port = {
 	naval_supplies_guild = 1
 	wharf = 1
 	marketplace = 1
+	stockade = 1 #BR Added
 }
 
 
@@ -236,6 +238,8 @@ lowlands_costal_town = {
 	granary = 3
 	wharf = 1
 	castle = 1
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 lowlands_city = {
@@ -257,7 +261,8 @@ lowlands_city = {
 	dyes_guild = 1
 	castle = 1
 	tannery = 1
-	
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 lowlands_coastal_city = {
@@ -279,7 +284,8 @@ lowlands_coastal_city = {
 	castle = 1
 	tannery = 1
 	wharf = 1
-	
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -295,6 +301,8 @@ french_town = {
 	tannery = 1
 	castle = 1
 	marketplace = 1
+	nobility_fortifications = 1 #BR added estate building
+	nobles_recruitment_center = 1 #BR added estate building
 }
 
 french_city = {
@@ -314,7 +322,9 @@ french_city = {
 	fine_cloth_guild = 1
 	granary = 2
 	castle = 1
-	
+	nobility_fortifications = 1 #BR added estate building
+	noble_villa = 1 #BR added estate building
+	nobles_recruitment_center = 1 #BR added estate building
 }
 
 jurchen_town = {
@@ -518,6 +528,7 @@ german_coastal_town = {
 	castle = 1
 	mason = 1
 	pottery_guild = 1
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -539,6 +550,7 @@ german_city = {
 	granary = 2
 	marketplace = 2
 	castle = 1
+	artisan_guilds = 1 #BR added estate building
 }
 
 german_coastal_city = {
@@ -561,6 +573,8 @@ german_coastal_city = {
 	mason = 2
 	pottery_guild = 2
 	furniture_guild = 1
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -597,6 +611,8 @@ greek_city_port = {
 	naval_supplies_guild = 1
 	dyes_guild = 1
 	wharf = 1
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 greek_town_port = {
@@ -614,6 +630,8 @@ greek_town_port = {
 	wharf = 1
 	marketplace = 1
 	stockade = 1
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 balkan_town = {
@@ -631,6 +649,7 @@ balkan_town = {
 	tannery = 1
 	castle = 1
 	marketplace = 1
+	nobility_fortifications = 1 #BR added estate building
 }
 
 carpathian_town = {
@@ -683,6 +702,7 @@ maghreb_city = {
 	slave_market = 2
 	funduq = 1
 	marketplace = 2
+	artisan_guilds = 1 #BR added estate building
 }
 
 egyptian_city = {
@@ -700,7 +720,7 @@ egyptian_city = {
 	furniture_guild = 1
 	castle = 1
 	slave_market = 2
-
+	artisan_guilds = 1 #BR added estate building
 }
 
 anatolian_city = {
@@ -719,19 +739,26 @@ anatolian_city = {
 	marketplace = 2
 	castle = 1
 	tannery = 1
+	noble_villa = 1 #BR added estate building
+	nobility_fortifications = 1 #BR added estate building
 	#slave_market = 2 #BR REMOVED
 
 }
 
 anatolian_town = {
+	brewery = 1
 	temple = 1
 	tools_guild = 1
-	tannery = 2
 	weapon_guild = 1
+	cloth_guild = 1
 	mason = 1
 	pottery_guild = 1
-	#slave_market = 1 #BR REMOVED
+	granary = 1
+	paper_guild = 1
+	tannery = 2
 	marketplace = 1
+	noble_villa = 1 #BR added estate building
+	nobility_fortifications = 1 #BR added estate building
 	stockade = 1 # BR ADDED
 }
 
@@ -817,6 +844,7 @@ indian_sultanate_city = {
 	mamluk_barracks = 2
 	castle = 1
 	temple = 1
+	artisan_guilds = 1 #BR added estate building
 }
 
 indian_town = {
@@ -867,6 +895,8 @@ levant_city = {
 	castle = 1
 	tannery = 1
 	slave_market = 1
+	local_markets = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -887,6 +917,7 @@ central_asian_city = {
 	castle = 1
 	tannery = 1
 	slave_market = 1
+	merchants_guild = 1 #BR added estate building
 }
 
 central_asian_town = {
@@ -942,6 +973,8 @@ italian_town = {
 	pottery_guild = 1
 	marketplace = 1
 	stockade = 1 #BR Added
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -954,9 +987,11 @@ italian_coastal_town = {
 	granary = 1
 	mason = 1
 	pottery_guild = 1
-	marketplace = 1
+	marketplace = 2
 	wharf = 1
 	stockade = 1 #BR Added
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 italian_city = {
@@ -975,7 +1010,9 @@ italian_city = {
 	pottery_guild = 2
 	furniture_guild = 1
 	dyes_guild = 1
-	marketplace = 2
+	marketplace = 4
+	artisan_guilds = 1 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 
@@ -995,10 +1032,12 @@ italian_trading_capital = {
 	mason = 2
 	pottery_guild = 2
 	dyes_guild = 1
-	marketplace = 5
+	marketplace = 10 #BR increased from 5
 	jewelry_guild = 1
 	wharf = 1
 	naval_supplies_guild = 1
+	artisan_guilds = 2 #BR added estate building
+	merchants_guild = 2 #BR added estate building
 }
 
 
@@ -1018,9 +1057,11 @@ italian_coastal_city = {
 	pottery_guild = 2
 	furniture_guild = 1
 	dyes_guild = 1
-	marketplace = 2
+	marketplace = 4
 	wharf = 1
 	naval_supplies_guild = 1
+	artisan_guilds = 2 #BR added estate building
+	merchants_guild = 2 #BR added estate building
 }
 
 japan_town = {
