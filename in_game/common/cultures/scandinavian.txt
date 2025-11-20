@@ -189,7 +189,7 @@ hellulander = {
 kathurlander = {
 	language = kathurland_dialect
 	
-	color = rgb { 71 138 98 }
+	color = rgb { 22 54 101 }
 	
 	tags = { norwegian_gfx western_european_gfx european_gfx }
 	
