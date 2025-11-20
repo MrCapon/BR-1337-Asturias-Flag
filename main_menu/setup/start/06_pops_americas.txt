@@ -816,8 +816,14 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = naskapi_culture	religion = midewiwin_religion }
 	}
 	tupirvialuit = {
+		define_pop = {	type = tribesmen	size = 0.206	culture = dorset_culture	religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.112	culture = hellulander		religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.244	culture = hellulander		religion = norse }
 	}
 	koroc = {
+		define_pop = {	type = tribesmen	size = 0.154	culture = dorset_culture	religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.111	culture = dorset_culture	religion = norse }
+		define_pop = {	type = tribesmen	size = 0.244	culture = hellulander		religion = norse }
 	}
 	quebec_torngats = {
 	}
@@ -827,7 +833,10 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = dorset_culture	religion = totemism }
 	}
 	navchak = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = dorset_culture	religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.088	culture = dorset_culture	religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.211	culture = dorset_culture	religion = norse }
+		define_pop = {	type = tribesmen	size = 0.196	culture = hellulander		religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.408	culture = hellulander		religion = norse }
 	}
 	kingmirtok = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = dorset_culture	religion = totemism }
@@ -856,8 +865,8 @@ locations = {
 	tessuialluk = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = dorset_culture	religion = totemism }
 		define_pop = {	type = tribesmen	size = 0.444	culture = dorset_culture	religion = norse }
-		define_pop = {	type = tribesmen	size = 0.906	culture = vinlander			religion = totemism }
-		define_pop = {	type = tribesmen	size = 0.106	culture = vinlander			religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.906	culture = marklander			religion = totemism }
+		define_pop = {	type = tribesmen	size = 0.106	culture = marklander			religion = totemism }
 		define_pop = {	type = tribesmen	size = 0.204	culture = innu_culture		religion = midewiwin_religion }
 	}
 	torngat_mountains = {
@@ -868,14 +877,14 @@ locations = {
 	tikigaksuagusik = {
 		define_pop = {	type = tribesmen	size = 0.406	culture = innu_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 0.912	culture = innu_culture	religion = norse }
-		define_pop = {	type = tribesmen	size = 2.106	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.104	culture = vinlander		religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 2.106	culture = marklander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.104	culture = marklander		religion = midewiwin_religion }
 	}
 	aivitok = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = innu_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 0.214	culture = innu_culture	religion = norse }
-		define_pop = {	type = tribesmen	size = 0.454	culture = vinalnder		religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 1.243	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.454	culture = marklander		religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 1.243	culture = marklander		religion = norse }
 	}
 	kenamu = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = innu_culture	religion = midewiwin_religion }
