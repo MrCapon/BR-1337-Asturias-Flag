@@ -998,7 +998,7 @@ locations = {
 		define_pop = {	type = peasants		size = 4.106	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 2.117	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.449	culture = vinlander		religion = midewiwin_religion }
-		define_pop = {	type = pesants		size = 0.508	culture = beothuk_culture	religion = norse }
+		define_pop = {	type = peasants		size = 0.508	culture = beothuk_culture	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	wipetikil = {
