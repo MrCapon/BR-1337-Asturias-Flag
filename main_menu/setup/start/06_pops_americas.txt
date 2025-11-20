@@ -976,13 +976,28 @@ locations = {
 	mealy_mountains = {
 	}
 	belle_isle = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.056	culture = vinlander		religion = norse }
+		define_pop = {	type = clergy		size = 0.304	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 4.106	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 2.117	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 1.449	culture = vinlander		religion = midewiwin_religion }
+		define_pop = {	type = pesants		size = 0.508	culture = beothuk_culture	religion = norse }
+		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	wipetikil = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.032	culture = vinlander		religion = norse }
+		define_pop = {	type = clergy		size = 0.108	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 3.401	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.917	culture = vinlander		religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.406	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	naskwotchu = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.024	culture = vinlander			religion = norse }
+		define_pop = {	type = clergy		size = 0.098	culture = vinlander			religion = norse }
+		define_pop = {	type = peasants		size = 1.158	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 3.708	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 2.276	culture = vinlander			religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 1.208	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	mekapisk = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
