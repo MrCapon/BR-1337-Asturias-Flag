@@ -58,7 +58,7 @@ diplomacy_manager = {
 
 	#Castile-Morocco
 	rival = { first = CAS second = ADU }   #BR edit
-	rival = { first = ADU second = C }   #BR edit
+	rival = { first = ADU second = CAS }   #BR edit
 
 	#The Rival Families of the HRE
 	#Upper Bavaria and Bohemia
