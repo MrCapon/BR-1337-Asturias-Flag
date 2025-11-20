@@ -1,4 +1,9 @@
 ﻿l_english:
  anatolian_greek_culture: "Anatolikós"
- vinlander: "Vinlander"
  mozarabic: "Mozárabe"
+
+ # Vinland
+ vinlander: "Vinlander"
+ vinlander_language: "Vinlandic"
+ vinland_dialect: "Vinland Dialect"
+ markland_dialect: "Markland Dialect"
