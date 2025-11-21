@@ -182,7 +182,7 @@ countries = {
 			
 			capital = viborg
 			dynasty = estrid_dynasty
-			court_language = low_german_dialect
+			court_language = norwegian_dialect
 			
 			country_rank = rank_kingdom
 			
@@ -5060,6 +5060,7 @@ countries = {
 				}
 			}
 			include = "catholic_monarchy"
+			include = "expl_western_europe"
 			capital = dublin
 			accepted_cultures = { anglo_irish }
 			tolerated_cultures = { irish }
