@@ -12366,7 +12366,7 @@ countries = {
 				aromanian
 			}
 			
-			country_rank = rank_kingdom
+			country_rank = rank_duchy
 			liturgical_language = greek_language
 			
 			capital = thessaloniki
