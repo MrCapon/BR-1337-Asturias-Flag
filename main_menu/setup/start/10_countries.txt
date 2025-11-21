@@ -4125,7 +4125,10 @@ countries = {
 			
 			court_language = kipchak_language
 			
-			
+			currency_data = {
+				gold = 3500
+			}
+
 			accepted_cultures = {
 				crimean
 				
@@ -9720,7 +9723,7 @@ countries = {
 				size = 1
 			}
 			currency_data = {
-				gold = 500
+				gold = 1500
 			}
 		}
 		
@@ -9992,7 +9995,7 @@ countries = {
 			
 			capital = genoa
 			currency_data = {
-				gold = 1500
+				gold = 2250
 			}
 		}
 		
@@ -10366,7 +10369,7 @@ countries = {
 			capital = milano
 			dynasty = visconti_dynasty
 			currency_data = {
-				gold = 500
+				gold = 1500
 			}
 		}
 		
@@ -11151,6 +11154,10 @@ countries = {
 				ruler_term = { character = luc_castruccio_castracani start_date = 1328.4.1 end_date = 1328.9.3 regnal_number = 0 }
 				# Occupied by the Holy Roman Empire 1328-1329
 				ruler_term = { character = pis_fazio_novello_gherardesca start_date = 1329.1.1 regnal_number = 0 }
+			}
+
+			currency_data = {
+				gold = 1000
 			}
 			
 			tolerated_cultures = {
@@ -11989,7 +11996,7 @@ countries = {
 			#https://www.researchgate.net/publication/269643384_The_Venetian_Money_Market_Banks_Panics_and_the_Public_Debt_1200-1500
 			#https://www.jstor.org/stable/1882461
 			currency_data = {
-				gold = 2000
+				gold = 2500
 			}
 		}
 		
@@ -13571,7 +13578,6 @@ countries = {
 				palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
 				puigcerda prades #County of Cerdanya
 				perpignan #County of Roselló
-				montpellier #Lordship of Montpellier
 			}
 			
 			starting_technology_level = 3
@@ -14046,7 +14052,10 @@ countries = {
 			ai_advance_preference_tags = {
 				exploration = 5
 			}
-			
+
+			currency_data = {
+				gold = 1000
+			}
 			tolerated_cultures = {
 				sephardi
 			}
@@ -17025,12 +17034,12 @@ countries = {
                 albi villemur verdun_sur_garonne
                 mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau
                 florac st_ambroix
+				montpellier #Lordship of Montpellier
             }
 
             our_cores_conquered_by_others = {
                 cahors montauban figeac gourdon #Quercy
                 narbonne #Narbonnais
-                montpellier #Nimois
                 castres lautrec #Castres
                 rodez #Rouergue
                 pamiers foix #Foix
@@ -32140,6 +32149,9 @@ countries = {
 			country_rank = rank_kingdom
 			capital = tabriz #baghdad
 			court_language = persian_language
+			currency_data = {
+				gold = 1000
+			}
 			accepted_cultures = { turkoman_culture azeri_culture }
 			tolerated_cultures = {
 				iraqi_culture
