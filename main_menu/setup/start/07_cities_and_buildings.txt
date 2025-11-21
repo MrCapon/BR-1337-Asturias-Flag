@@ -4832,8 +4832,31 @@ building_manager = {
 	cloth_guild = { tag = NEM level = 1 location =  patapsco }
 	furniture_guild = { tag = NEM level = 1 location =  patapsco }
 	tools_guild = { tag = NEM level = 1 location =  patapsco }
-	weapon_guild = { tag = NEM level = 1 location =  patapsco }
+	#weapon_guild = { tag = NEM level = 1 location =  patapsco }
 	wharf = { tag = NEM level = 1 location = patapsco }
+	#brewery = { tag = NEM level = 1 location =  patapsco }
+	glass_guild = { tag = NEM level = 1 location =  patapsco }
+	paper_guild = { tag = NEM level = 1 location =  patapsco }
+	naval_supplies_guild = { tag = NEM level = 1 location =  patapsco }
+	mason = { tag = NEM level = 1 location =  patapsco }
+	slave_market  = { tag = NEM level = 1 location =  patapsco }
+	lumber_mill = { tag = NEM level = 1 location =  patapsco }
+
+	forest_village = { tag = NEM level = 1 location =  nentego }
+	forest_village = { tag = NEM level = 1 location =  wicontiss }
+	fishing_village = { tag = NEM level = 1 location =  patuxent }
+	fishing_village = { tag = NEM level = 1 location =  chicamacomico }
+
+	market_village = { tag = NEM level = 1 location =  matapeake }
+	rural_clothmaker = { tag = NEM level = 1 location =  matapeake }
+	tar_kiln = { tag = NEM level = 1 location =  matapeake }
+	clay_pit = { tag = NEM level = 1 location =  matapeake }
+
+	settlement_building = { tag = NEM level = 1 location =  matapeake }
+	settlement_building = { tag = NEM level = 1 location =  nentego }
+	settlement_building = { tag = NEM level = 1 location =  wicontiss }
+	settlement_building = { tag = NEM level = 1 location =  patuxent }
+	settlement_building = { tag = NEM level = 1 location =  chicamacomico }
 
 	
 }
