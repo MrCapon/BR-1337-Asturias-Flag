@@ -50628,6 +50628,34 @@ countries = {
 			
 			capital = arguvan
 		}
-		
+	
+		NEM = {
+			own_control_core = {
+				patapsco
+
+			}
+
+			discovered_regions = {
+				east_coast_region
+			}
+			
+			capital = patapsco
+			#court_language = 
+			country_rank = rank_duchy
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				piscataway_culture
+				nanticoke_culture
+			}
+			#include = "expl_amerindian_east_coast"
+		}
+
 	}
+
 }

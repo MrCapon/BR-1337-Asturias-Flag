@@ -1172,6 +1172,7 @@ locations={
 	# tongatapu
 	# o_ahu
 	# gardr
+	patapsco = { rank = town 		town_setup = italian_coastal_town }
 }
 
 # for the unique and special buildings

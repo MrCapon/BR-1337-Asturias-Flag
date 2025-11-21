@@ -176,6 +176,7 @@ market_manager = {
 	#add_market = etiwan
 	#add_market = waawiiyaataanong
 	add_market = canajoharie
+	add_market = patapsco
 	
 	#Important Markets not owned by Standard Tags
 	#Carib

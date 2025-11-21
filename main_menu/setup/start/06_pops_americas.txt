@@ -3884,15 +3884,21 @@ locations = {
 		define_pop = {	type = tribesmen	size = 3.395	culture = nanticoke_culture	religion = midewiwin_religion }
 	}
 	matapeake = {
+		define_pop = {	type = peasants		size = 2.106	culture = elysian_culture religion = hellenism_religion }
 		define_pop = {	type = tribesmen	size = 4.517	culture = nanticoke_culture	religion = midewiwin_religion }
 	}
 	patapsco = {
+		define_pop = {	type = nobles		size = 0.056	culture = elysian_culture religion = hellenism_religion }
+		define_pop = {	type = clergy		size = 0.304	culture = elysian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 10.106	culture = elysian_culture religion = hellenism_religion }
 		define_pop = {	type = tribesmen	size = 3.395	culture = nanticoke_culture	religion = midewiwin_religion }
 	}
 	wicontiss = {
+		define_pop = {	type = peasants		size = 2.106	culture = elysian_culture religion = hellenism_religion }
 		define_pop = {	type = tribesmen	size = 4.377	culture = nanticoke_culture	religion = midewiwin_religion }
 	}
 	nentego = {
+		define_pop = {	type = peasants		size = 2.106	culture = elysian_culture religion = hellenism_religion }
 		define_pop = {	type = tribesmen	size = 3.395	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	patuxent = {
