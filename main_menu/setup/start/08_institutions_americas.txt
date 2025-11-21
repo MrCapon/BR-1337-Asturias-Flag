@@ -2078,4 +2078,31 @@ locations = {
 	chepoussa = {
 		feudalism = yes
 	}
+
+	#Elysium
+	patapsco = {
+		feudalism = yes
+		legalism = yes
+	}
+	nentego = {
+		feudalism = yes
+		legalism = yes
+	}
+	wicontiss = {
+		feudalism = yes
+		legalism = yes
+	}
+	matapeake = {
+		feudalism = yes
+		legalism = yes
+	}
+	patuxent = {
+		feudalism = yes
+		legalism = yes
+	}
+	chicamacomico = {
+		feudalism = yes
+		legalism = yes
+	}
+
 }
