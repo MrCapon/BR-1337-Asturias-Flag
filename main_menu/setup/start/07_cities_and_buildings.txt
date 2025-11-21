@@ -1985,7 +1985,7 @@ building_manager = {
 	trade_office = { tag = PIS level = 1 location = palermo } #1286
 	trade_office = { tag = PIS level = 1 location = montpellier } #1301
 	trade_office = { tag = PIS level = 1 location = trapani } #1301
-	trade_office = { tag = PIS level = 1 location = malta } #1305
+	#trade_office = { tag = PIS level = 1 location = malta } #1305
 	trade_office = { tag = PIS level = 1 location = oristano } #1325
 
 
@@ -2039,7 +2039,7 @@ building_manager = {
 	trade_office = { tag = VEN level = 1 location = athens }
 	trade_office = { tag = VEN level = 1 location = durres }
 	trade_office = { tag = VEN level = 1 location = kalamata }
-	trade_office = { tag = VEN level = 1 location = mystras }
+	#trade_office = { tag = VEN level = 1 location = mystras }
 	trade_office = { tag = VEN level = 1 location = thessaloniki }
 	trade_office = { tag = VEN level = 1 location = gallipoli }
 	trade_office = { tag = VEN level = 1 location = izmit }
@@ -2083,7 +2083,7 @@ building_manager = {
 	trade_office = { tag = GEN level = 1 location = sinop }
 	trade_office = { tag = GEN level = 1 location = bafra }
 	trade_office = { tag = GEN level = 1 location = bayramlu }
-	trade_office = { tag = GEN level = 1 location = anaklia }
+	#trade_office = { tag = GEN level = 1 location = anaklia }
 	trade_office = { tag = GEN level = 1 location = theodoro }
 	trade_office = { tag = GEN level = 1 location = kaffa }
 	trade_office = { tag = GEN level = 1 location = palma }
@@ -4264,7 +4264,6 @@ building_manager = {
 	thema_headquarters = { tag = BYZ level = 1 location = antalya }
 	thema_headquarters = { tag = BYZ level = 1 location = milas }
 	thema_headquarters = { tag = BYZ level = 1 location = bergama }
-	thema_headquarters = { tag = BYZ level = 1 location = biga }
 	thema_headquarters = { tag = BYZ level = 1 location = uluborlu }
 
 	sergeantry = { tag = TUR level = 1 location =  tabriz }
@@ -4307,35 +4306,31 @@ building_manager = {
 
 
 	#BR added estate buildings
-	#Balkans
-	noble_villa = { tag = BYZ level = 5 location = constantinople }	
+	#Balkans	
 	burgher_mansion = { tag = BYZ level = 5 location = constantinople }	
 	guild_hall = { tag = BYZ level = 2 location = constantinople }
 	merchants_guild = { tag = BYZ level = 2 location = constantinople }
 	artisan_guilds = { tag = BYZ level = 2 location = constantinople }
 
-	noble_villa = { tag = BYZ level = 1 location = edirne }
+	noble_villa = { tag = BYZ level = 1 location = silivri }
 	merchants_guild = { tag = BYZ level = 1 location = edirne }
 	artisan_guilds = { tag = BYZ level = 1 location = edirne }
-	nobility_fortifications = { tag = BYZ level = 1 location = edirne }
 
-	noble_villa = { tag = ATH level = 1 location = athens }
+	noble_villa = { tag = ATH level = 1 location = gravia }
 	clerical_archives = { tag = ATH level = 1 location = athens }
-	noble_villa = { tag = THE level = 1 location = thessaloniki }
+	noble_villa = { tag = THE level = 1 location = edessa }
 	clerical_archives = { tag = THE level = 1 location = thessaloniki }
 	merchants_guild = { tag = THE level = 1 location = thessaloniki }
 	artisan_guilds = { tag = THE level = 1 location = thessaloniki }
 	nobles_recruitment_center = { tag = THE level = 1 location = thessaloniki }
-	nobility_fortifications = { tag = THE level = 1 location = thessaloniki }
 	apothecary = { tag = THE level = 1 location = thessaloniki }
-	noble_villa = { tag = CIL level = 1 location = antioch }
 	clerical_archives = { tag = CIL level = 1 location = antioch }
 	guild_hall = { tag = ATH level = 1 location = athens }
 	guild_hall = { tag = ATH level = 1 location = corinth }
 	guild_hall = { tag = THS level = 1 location = larissa }
 	apothecary = { tag = THS level = 1 location = larissa }
 	guild_hall = { tag = CRT level = 1 location = candia }
-	guild_hall = { tag = CEP level = 1 location = cephalonia }
+	noble_villa = { tag = CEP level = 1 location = cephalonia }
 	guild_hall = { tag = EPI level = 1 location = durres }
 	guild_hall = { tag = CYP level = 1 location = larnaca }
 	merchants_guild = { tag = ATH level = 1 location = athens }
@@ -4344,13 +4339,10 @@ building_manager = {
 	apothecary = { tag = ATH level = 1 location = corinth }
 	merchants_guild = { tag = THS level = 1 location = larissa }
 	merchants_guild = { tag = CRT level = 1 location = candia }
-	merchants_guild = { tag = CEP level = 1 location = cephalonia }
 	merchants_guild = { tag = EPI level = 1 location = durres }
 	merchants_guild = { tag = CYP level = 1 location = larnaca }
 	nobles_recruitment_center = { tag = EPI level = 1 location = ioannina }
-	noble_villa = { tag = EPI level = 1 location = ioannina }
-	nobility_fortifications = { tag = EPI level = 1 location = ioannina }
-	nobility_fortifications = { tag = EPI level = 1 location = durres }
+	noble_villa = { tag = EPI level = 1 location = arta }
 
 	peasants_training_grounds = { tag = MOE level = 1 location = tripolitsa }
 	peasants_training_grounds = { tag = MOE level = 1 location = mystras }
@@ -4404,6 +4396,28 @@ building_manager = {
 	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
 
 	#Anatolia
+	noble_villa = { tag = BYZ level = 1 location = uskudar }
+	noble_villa = { tag = BYZ level = 1 location = bilecik }
+	noble_villa = { tag = BYZ level = 1 location = akcasehir }
+	noble_villa = { tag = BYZ level = 1 location = bozan }
+	noble_villa = { tag = BYZ level = 1 location = bandirma }
+	noble_villa = { tag = BYZ level = 1 location = yuksekkum }
+	noble_villa = { tag = BYZ level = 1 location = mengen }
+	noble_villa = { tag = PAF level = 1 location = bayat }
+	noble_villa = { tag = PAF level = 1 location = gumus }
+	noble_villa = { tag = TRE level = 1 location = gorele }
+	noble_villa = { tag = ANA level = 1 location = eregli_kar }
+	noble_villa = { tag = ANA level = 1 location = yalvac }
+	noble_villa = { tag = ANA level = 1 location = nigde }
+	noble_villa = { tag = ANA level = 1 location = kirsehir }
+	noble_villa = { tag = ANA level = 1 location = bozok }
+	noble_villa = { tag = ANA level = 1 location = sungurlu }
+	noble_villa = { tag = ANA level = 1 location = zile }
+	noble_villa = { tag = CIL level = 1 location = silifke }
+	noble_villa = { tag = CIL level = 1 location = adana }
+	noble_villa = { tag = CIL level = 1 location = sis }
+	noble_villa = { tag = CYP level = 1 location = limassol }
+	noble_villa = { tag = NAX level = 1 location = naxos }
 	guild_hall = { tag = BYZ level = 1 location = smyrna }
 	merchants_guild = { tag = BYZ level = 1 location = smyrna }
 	guild_hall = { tag = BYZ level = 1 location = bursa }
@@ -4567,7 +4581,6 @@ building_manager = {
 	market_village = { tag = BR2 level = 1 location = cosenza }
 	market_village = { tag = BR2 level = 1 location = gallipoliita }
 	market_village = { tag = NAP level = 1 location = campagna }
-	market_village = { tag = NAP level = 1 location = potenza }
 	market_village = { tag = CEP level = 1 location = leukas }
 	market_village = { tag = GEN level = 1 location = alghero }
 	market_village = { tag = GEN level = 1 location = bastia }
