@@ -157,8 +157,8 @@ development = {
 
 	#iberia
 	valencia_area = 3
-	andalusia_area = 3
-	granada_area = 3
+	andalusia_area = 5
+	granada_area = 5
 	#italy
 	sardinia_area = -10
 	sicily_area = -5
@@ -255,9 +255,6 @@ development = {
 	#Hindustan
 	upper_indus_area = -7
 	#Anatolia
-	west_anatolia_area = -3
-	cilicia_area = -3
-	marmara_area = -3
 	armenian_highlands_area = -3
 	#Cresent
 	levant_area = 2
@@ -386,7 +383,7 @@ development = {
 	skaniatares = 1
 	tsikahiotsisto = 1
 	canajoharie = 1
-	constantinople = 30
+	constantinople = 35
 	thessaloniki = 15
 	smyrna = 10
 }
