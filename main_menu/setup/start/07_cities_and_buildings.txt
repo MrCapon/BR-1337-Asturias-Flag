@@ -4226,6 +4226,7 @@ building_manager = {
 	sergeantry = { tag = BYZ level = 1 location =  constantinople }
 	sergeantry = { tag = ATH level = 1 location =  athens }
 	sergeantry = { tag = THE level = 1 location =  thessaloniki }
+	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
 
 	#Anatolia
 	dock = { tag = BYZ level = 1 location = smyrna }
@@ -4345,6 +4346,17 @@ building_manager = {
 	slave_market = { tag = ADU level = 1 location = orihuela }
 	slave_market = { tag = ADU level = 1 location = jativa }
 	slave_market = { tag = ADU level = 1 location = santarem }
+
+	#Prominant Jewish districts
+
+	jewish_district = { tag = BYZ level = 1 location =  constantinople }
+	jewish_district = { tag = GEN level = 1 location = genoa }
+	jewish_district = { tag = VEN level = 1 location =  venice }
+	jewish_district = { tag = FLO level = 1 location = florence }
+	jewish_district = { tag = MLO level = 1 location =  milano }
+	jewish_district = { tag = TUR level = 1 location = baghdad }
+	jewish_district = { tag = MAM level = 1 location = cairo }
+	jewish_district = { tag = ADU level = 1 location = cordoba }
 
 
 	# steppes 
