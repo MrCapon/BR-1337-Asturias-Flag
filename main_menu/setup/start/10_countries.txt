@@ -50448,6 +50448,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
+				#Should be at least all of Iraq
 				rahba anah abu_kemal haditha
 				al_anbar hit ayn_tamr karbala
 				kufa al_udayb qadisiyyah
@@ -50528,7 +50529,7 @@ countries = {
 			}
 			
 			capital = baghdad
-			country_rank = rank_empire #Caliphate 
+			country_rank = rank_kingdom	#Caliphate 
 			tolerated_cultures = {
 				levantine_culture
 			}
