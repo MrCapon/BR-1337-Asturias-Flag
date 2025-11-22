@@ -4113,6 +4113,12 @@ countries = {
 					dhimmi_military_service
 					dhimmi_traditions
 					dhimmi_administrative_posts
+
+					tribes_land_rights
+					tribes_pasture_access
+					tribes_tribal_registry
+					tribes_protected_faith
+					tribes_in_administration
 				}
 				
 				laws = {
@@ -4126,7 +4132,7 @@ countries = {
 			court_language = kipchak_language
 			
 			currency_data = {
-				gold = 3500
+				gold = 500
 			}
 
 			accepted_cultures = {
