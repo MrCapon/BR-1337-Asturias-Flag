@@ -4222,6 +4222,7 @@ building_manager = {
 	dock = { tag = THE level = 1 location = thessaloniki }
 	wharf = { tag = THE level = 1 location = thessaloniki }
 	cathedral = { tag = THE level = 1 location = thessaloniki }
+	marketplace	= { tag = THE level = 5 location = thessaloniki }
 	apothecary = { tag = ATH level = 1 location = athens }
 	sergeantry = { tag = BYZ level = 1 location =  constantinople }
 	sergeantry = { tag = ATH level = 1 location =  athens }
@@ -4232,6 +4233,7 @@ building_manager = {
 	dock = { tag = BYZ level = 1 location = smyrna }
 	wharf = { tag = BYZ level = 1 location = smyrna }
 	cathedral = { tag = BYZ level = 1 location = smyrna }
+	marketplace	= { tag = BYZ level = 5 location = smyrna }
 	thema_headquarters = { tag = BYZ level = 1 location = iznik }
 	thema_headquarters = { tag = BYZ level = 1 location = smyrna }
 	thema_headquarters = { tag = BYZ level = 1 location = bursa }
@@ -4266,7 +4268,7 @@ building_manager = {
 	seljuk_mint = { tag = TUR level = 1 location = tabriz }
 	seljuk_mint = { tag = AIA level = 1 location = baghdad }
 	seljuk_mint = { tag = TUR level = 1 location = tabriz }
-	marketplace	= { tag = AIA level = 10 location = baghdad }
+	marketplace	= { tag = AIA level = 15 location = baghdad }
 	trading_hub = { tag = AIA level = 1 location = baghdad }
 	entrepot = { tag = AIA level = 1 location = baghdad }
 	market_warehouse = { tag = AIA level = 1 location = baghdad }
@@ -4287,13 +4289,32 @@ building_manager = {
 	library = { tag = AIA level = 1 location = baghdad }
 	medical_school = { tag = AIA level = 1 location = baghdad }
 
+	#Major and Important Trade locations
+	marketplace	= { tag = MAM level = 8 location = cairo }
+	marketplace	= { tag = MAM level = 6 location = alexandria }
+	marketplace	= { tag = MAM level = 6 location = damascus }
+	marketplace	= { tag = TUN level = 6 location = tunis }
+	marketplace	= { tag = TUN level = 4 location = palermo }
+	marketplace	= { tag = TRE level = 5 location = kaffa }
+	marketplace	= { tag = FEO level = 4 location = theodoro }
+	marketplace	= { tag = TRE level = 4 location = tana }
+	marketplace	= { tag = TRE level = 4 location = trebizond }
+	marketplace	= { tag = PAF level = 2 location = sinope }
+	marketplace	= { tag = CRT level = 3 location = candia }
+	marketplace	= { tag = EPI level = 3 location = durres }
+	marketplace	= { tag = RAG level = 4 location = dubrovnik }
+	marketplace	= { tag = EPI level = 3 location = durres }
+	marketplace	= { tag = VEN level = 15 location = venice }
+	marketplace	= { tag = TUR level = 6 location = tabriz }
+
+
 	#IBERIA
 	royal_court = { tag = ADU level = 1 location = cordoba }
 	royal_garden = { tag = ADU level = 1 location =  cordoba } #Gardens of the Great Palace
 	fortress_granary = { tag = ADU level = 1 location = cordoba }
 	slave_market = { tag = ADU level = 2 location = cordoba }
 	funduq = { tag = ADU level = 1 location = cordoba }
-	marketplace	= { tag = ADU level = 10 location =  cordoba }
+	marketplace	= { tag = ADU level = 15 location =  cordoba }
 	trading_hub = { tag = ADU level = 1 location =  cordoba }
 	entrepot = { tag = ADU level = 1 location =  cordoba }
 	market_warehouse = { tag = ADU level = 1 location =  cordoba }
