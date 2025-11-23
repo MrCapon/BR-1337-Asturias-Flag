@@ -14224,9 +14224,6 @@ countries = {
                 soissons  #Valois (Own by the ruler)
 
                 langres grancey #D. de Langres
-                macon #C. de Macon
-                beaujeu perreux trevoux #S.de Beaujeu
-                lyon riverie #C. de Lyon
                 le_puy #C. du Velay
                 viviers # C. de Viviers
                 chambon #B. de Combraille
@@ -17161,6 +17158,20 @@ countries = {
             include = "catholic_monarchy"
 
             capital = paris
+        }
+
+        LYN = {
+            own_control_core = {
+                Lyon riverie #Lyon
+                perreux beaujeu trevoux #Beaujolais
+                macon #Autunnais
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = Lyon
         }
 		
 		#-------------------- HRE -------------------

@@ -569,8 +569,17 @@ NTR = {
     religion_definition = catholic
 }
 
-#Neustria
+#Austrasia
 AUS = {
+    color = map_NRM
+    color2 = rgb { 131 138 116 }
+
+    culture_definition = norman
+    religion_definition = catholic
+}
+
+#Lyon
+LYN = {
     color = map_NRM
     color2 = rgb { 131 138 116 }
 
