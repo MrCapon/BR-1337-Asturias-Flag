@@ -14217,15 +14217,11 @@ countries = {
                 bar_sur_seine
                 braine
 
-                tours chinon loches chatillon_sur_indre #D. de Touraine
-
                 soissons  #Valois (Own by the ruler)
 
                 langres grancey #D. de Langres
                 chalons_champagne #C. de Chalon
                 reims #D. Reims
-
-                amboise #S.
             }
             own_control_integrated = {
                 #C. de Champagne
@@ -17210,7 +17206,20 @@ countries = {
             include = "expl_western_europe"
             include = "catholic_monarchy"
 
-            capital = herment
+            capital = chateauroux
+        }
+
+        #Touraine
+        TNE = {
+            own_control_core = {
+                tours amboise loches chinon chatillon_sur_indre #Touraine
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = tours
         }
 		
 		#-------------------- HRE -------------------
