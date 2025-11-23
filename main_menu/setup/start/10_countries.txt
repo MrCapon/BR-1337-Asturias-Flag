@@ -14235,7 +14235,7 @@ countries = {
 
                 amboise #S.
 
-                issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
+                lignieres sancoins #Berry(On October 1360, King John II created the title)
 
                 chateauroux boussac #S. de Chateauroux
 
@@ -16215,8 +16215,9 @@ countries = {
 		
 		#Berry (Revolter)
 		BER = {
-			our_cores_conquered_by_others = {
-				issoudun bourges
+            own_control_core = {
+				issoudun #Lower-Berry
+                bourges vierzon #Upper-Berry
 			}
 			
 			starting_technology_level = 3
