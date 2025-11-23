@@ -14216,7 +14216,7 @@ countries = {
                 ribemont laon
                 bar_sur_seine
                 braine
-                mauriac tour_auvergne saint_flour
+                tour_auvergne
                 montaigut herment
 
                 tours chinon loches chatillon_sur_indre #D. de Touraine
@@ -14801,7 +14801,7 @@ countries = {
 		#Carlat
 		CLT = {
 			own_control_core = {
-				aurillac
+				aurillac mauriac saint_flour #Upper-Auvergne
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
