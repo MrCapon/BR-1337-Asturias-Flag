@@ -14379,7 +14379,7 @@ countries = {
             }
 
             country_rank = rank_kingdom
-            capital = paris
+            capital = troyes
         }
 		
 		#Britanny
