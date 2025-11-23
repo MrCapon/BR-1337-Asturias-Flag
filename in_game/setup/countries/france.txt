@@ -613,3 +613,12 @@ CMB = {
     culture_definition = auvergnat
     religion_definition = catholic
 }
+
+#Châteauroux
+CEX = {
+    color = map_NRM
+    color2 = rgb { 131 138 116 }
+
+    culture_definition = berrichon
+    religion_definition = catholic
+}

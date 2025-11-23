@@ -14226,17 +14226,8 @@ countries = {
                 reims #D. Reims
 
                 amboise #S.
-
-                lignieres #Berry(On October 1360, King John II created the title)
-
-                chateauroux boussac #S. de Chateauroux
             }
             own_control_integrated = {
-                #Appanages
-
-                #Poitou (Own by the ruler)
-                brosse
-
                 #C. de Champagne
                 chateau_thierry broyes vertus bar_sur_aube
                 chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
@@ -17199,6 +17190,20 @@ countries = {
         CMT = {
             own_control_core = {
                 tour_auvergne herment chambon montaigut #Combraille
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = herment
+        }
+
+        #Châteauroux
+        CEX = {
+            own_control_core = {
+                chateauroux lignieres boussac #Lower-Berry
+                brosse #La Marche
             }
 
             starting_technology_level = 3
