@@ -14222,6 +14222,21 @@ countries = {
                 langres grancey #D. de Langres
                 chalons_champagne #C. de Chalon
                 reims #D. Reims
+
+
+                #New location from BR
+                metz wallerfangen saint_avold morhange vic_sur_seille #Pay Messin
+                merzig saarbrucken lichtenberg_veldenz meisenheim kreuznach birkenfeld trier #Trier
+                sarreguemines bitche saarwerden sarrebourg #Sarregueminois
+                zweibrucken kaiserslautern pirmasens germersheim landau_rhineland neustadt_an_der_haardt leiningen speyer heidelberg #Palatinate
+                lichtenberg haguenau strasbourg zabern benfeld #Lower Alsace
+                salm luneville nancy toul #Pays de Nancy
+                saint_die epinal arches darney mirecourt neufchateau_des_vosges #Vosges
+                la_mothe_en_bassigny #Bassigny
+                saint_mihiel ligny bar_le_duc clermont_en_argonne #Barrois
+                fresnes verdun etain longwy #Verdunois
+
+
             }
             own_control_integrated = {
                 #C. de Champagne
@@ -14375,7 +14390,7 @@ countries = {
             }
 
             country_rank = rank_kingdom
-            capital = troyes
+            capital = metz
         }
 		
 		#Britanny
