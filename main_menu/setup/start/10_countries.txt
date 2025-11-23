@@ -14235,7 +14235,7 @@ countries = {
 
                 amboise #S.
 
-                lignieres sancoins #Berry(On October 1360, King John II created the title)
+                lignieres #Berry(On October 1360, King John II created the title)
 
                 chateauroux boussac #S. de Chateauroux
 
@@ -15077,7 +15077,7 @@ countries = {
 		#Sancerre (Appanage)
 		SAN = {
 			own_control_core = {
-				sancerre
+				sancerre sancoins #Upper-Berry
 			}
 			
 			starting_technology_level = 3
