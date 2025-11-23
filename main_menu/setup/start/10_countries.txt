@@ -14210,8 +14210,6 @@ countries = {
 
         FRA = {
             own_control_core = {
-                sens saint_florentin
-                bar_sur_seine
 
                 langres grancey #D. de Langres
                 chalons_champagne #C. de Chalon
@@ -14642,7 +14640,7 @@ countries = {
 			own_control_core = {
 				alencon #Alencon
 				# own_control_integrated, but culture accepted
-				joigny #C. de Joigny
+				joigny sens #C. de Joigny
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -15900,7 +15898,7 @@ countries = {
 		#Tonnerre (Vassal, Fief Mouvant)
 		TON = {
 			own_control_core = {
-				tonnerre
+				tonnerre saint_florentin bar_sur_seine #Sénonais
 			}
 			
 			starting_technology_level = 3
