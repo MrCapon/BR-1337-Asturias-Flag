@@ -14233,7 +14233,7 @@ countries = {
             own_control_integrated = {
                 #C. de Champagne
                 vertus bar_sur_aube
-                chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
+                chaumont vaucouleurs vitry_en_pertois troyes epernay menehould brienne
                 rosnay villemaur choiseul
 
                 #Too small/unimportant vassals (fiefs movants)
