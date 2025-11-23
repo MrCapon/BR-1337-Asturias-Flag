@@ -14210,9 +14210,8 @@ countries = {
 
         FRA = {
             own_control_core = {
-                nesle peronne
                 sens saint_florentin
-                saint_quentin noyon
+                noyon
                 ribemont laon
                 bar_sur_seine
                 braine
@@ -17240,7 +17239,7 @@ countries = {
         #Amiens
         AMI = {
             own_control_core = {
-                amiens breteuil corbie
+                amiens breteuil corbie #Amienois
             }
 
             starting_technology_level = 3
@@ -17248,6 +17247,19 @@ countries = {
             include = "catholic_monarchy"
 
             capital = amiens
+        }
+
+        #Vermandois
+        VRM = {
+            own_control_core = {
+                saint_quentin peronne nesle #Vermandois
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = saint_quentin
         }
 		
 		#-------------------- HRE -------------------

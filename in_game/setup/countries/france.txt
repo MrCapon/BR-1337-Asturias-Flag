@@ -640,3 +640,12 @@ AMI = {
     culture_definition = picard
     religion_definition = catholic
 }
+
+#Vermandois
+VRM = {
+    color = map_NRM
+    color2 = rgb { 131 138 116 }
+
+    culture_definition = picard
+    religion_definition = catholic
+}
