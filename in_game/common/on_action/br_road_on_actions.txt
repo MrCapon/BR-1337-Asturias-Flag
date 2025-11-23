@@ -1,0 +1,135 @@
+﻿on_game_start = {
+	effect = {
+		#Thrace
+		location:constantinople = {
+			add_road_to = {
+				target = location:silivri
+				type = paved_road
+			}
+		}
+		location:silivri = {
+			add_road_to = {
+				target = location:corlu
+				type = paved_road
+			}
+		}
+		location:corlu = {
+			add_road_to = {
+				target = location:rodoscuk
+				type = paved_road
+			}
+		}
+		location:rodoscuk = {
+			add_road_to = {
+				target = location:kesan
+				type = paved_road
+			}
+		}
+		location:rodoscuk = {
+			add_road_to = {
+				target = location:kesan
+				type = paved_road
+			}
+		}
+		location:kesan = {
+			add_road_to = {
+				target = location:traianopolis
+				type = paved_road
+			}
+		}
+		location:traianopolis = {
+			add_road_to = {
+				target = location:komotini
+				type = paved_road
+			}
+		}
+		location:komotini = {
+			add_road_to = {
+				target = location:xanthia
+				type = paved_road
+			}
+		}
+		location:xanthia = {
+			add_road_to = {
+				target = location:kavala
+				type = paved_road
+			}
+		}
+		location:kavala = {
+			add_road_to = {
+				target = location:rentina
+				type = paved_road
+			}
+		}
+		location:rentina = {
+			add_road_to = {
+				target = location:gynaikokastro
+				type = paved_road
+			}
+		}
+		location:gynaikokastro = {
+			add_road_to = {
+				target = location:thessaloniki
+				type = paved_road
+			}
+		}
+
+		location:edirne = {
+			add_road_to = {
+				target = location:kirklareli
+				type = paved_road
+			}
+		}
+		location:kirklareli = {
+			add_road_to = {
+				target = location:luleburgaz
+				type = paved_road
+			}
+		}
+		location:luleburgaz = {
+			add_road_to = {
+				target = location:vize
+				type = paved_road
+			}
+		}
+		location:vize = {
+			add_road_to = {
+				target = location:corlu
+				type = paved_road
+			}
+		}
+		location:edirne = {
+			add_road_to = {
+				target = location:bukelon
+				type = paved_road
+			}
+		}
+		location:bukelon = {
+			add_road_to = {
+				target = location:constantia_bul
+				type = paved_road
+			}
+		}
+		location:constantia_bul = {
+			add_road_to = {
+				target = location:plovdiv
+				type = paved_road
+			}
+		}
+		
+		#Anatolia
+		location:uskudar = {
+			add_road_to = {
+				target = location:izmit
+				type = paved_road
+			}
+		}
+		location:uskudar = {
+			add_road_to = {
+				target = location:izmit
+				type = paved_road
+			}
+		}
+
+	}
+}
