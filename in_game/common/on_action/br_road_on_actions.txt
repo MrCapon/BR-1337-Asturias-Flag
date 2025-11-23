@@ -116,6 +116,24 @@
 				type = paved_road
 			}
 		}
+		location:plovdiv = {
+			add_road_to = {
+				target = location:strelcha
+				type = paved_road
+			}
+		}
+		location:strelcha = {
+			add_road_to = {
+				target = location:stipon
+				type = paved_road
+			}
+		}
+		location:stipon = {
+			add_road_to = {
+				target = location:sredets
+				type = paved_road
+			}
+		}
 		
 		#Anatolia
 		location:uskudar = {
@@ -124,9 +142,45 @@
 				type = paved_road
 			}
 		}
-		location:uskudar = {
+		location:izmit = {
 			add_road_to = {
-				target = location:izmit
+				target = location:atpazari
+				type = paved_road
+			}
+		}
+		location:atpazari = {
+			add_road_to = {
+				target = location:goynuk
+				type = paved_road
+			}
+		}
+		location:goynuk = {
+			add_road_to = {
+				target = location:sogut
+				type = paved_road
+			}
+		}
+		location:sogut = {
+			add_road_to = {
+				target = location:bozan
+				type = paved_road
+			}
+		}
+		location:bozan = {
+			add_road_to = {
+				target = location:mihaliccik
+				type = paved_road
+			}
+		}
+		location:mihaliccik = {
+			add_road_to = {
+				target = location:beypazari
+				type = paved_road
+			}
+		}
+		location:beypazari = {
+			add_road_to = {
+				target = location:ankara
 				type = paved_road
 			}
 		}
