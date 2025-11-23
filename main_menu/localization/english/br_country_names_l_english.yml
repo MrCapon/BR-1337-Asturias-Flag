@@ -61,3 +61,11 @@
  INN_ADJ: "Innu"
  DOR: "Tuniit" # Technically an Inuit name for them, but their language does not survive
  DOR_ADJ: "Tuniit"
+
+ # France
+ NTR: "Neustria"
+ NTR_ADJ: "Neustrian"
+ AUS: "Austrasia"
+ AUS_ADJ: "Austrasian"
+ LYN: "Lyonnais"
+ LYN_ADJ: "Lyonnais"
