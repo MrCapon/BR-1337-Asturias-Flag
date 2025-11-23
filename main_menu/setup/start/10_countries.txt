@@ -14210,12 +14210,10 @@ countries = {
 
         FRA = {
             own_control_core = {
-                paris brie_comte_robert corbeil montmorency
                 amiens breteuil corbie nesle peronne
-                clermont montargis sens saint_florentin senlis nemours melun
-                beauvais saint_quentin noyon
+                clermont sens saint_florentin
+                 saint_quentin noyon
                 ribemont laon
-                chaumont_vexin
                 bar_sur_seine
                 braine
                 mauriac riom tour_auvergne brioude saint_flour vodable
@@ -14223,9 +14221,8 @@ countries = {
 
                 tours chinon loches chatillon_sur_indre #D. de Touraine
 
-                soissons crepy #Valois (Own by the ruler)
+                soissons  #Valois (Own by the ruler)
 
-                chartres auneau #C. Chartres
                 langres grancey #D. de Langres
                 macon #C. de Macon
                 beaujeu perreux trevoux #S.de Beaujeu
@@ -14238,14 +14235,10 @@ countries = {
 
                 amboise #S.
 
-                orleans sully vitry_aux_loges #D. de Orleans, Appanage in 1344
-
                 issoudun bourges lignieres sancoins vierzon #Berry(On October 1360, King John II created the title)
 
                 chateauroux boussac #S. de Chateauroux
 
-                meaux
-                provins
                 allegre chalancon
             }
             own_control_integrated = {
@@ -14255,7 +14248,7 @@ countries = {
                 brosse
 
                 #C. de Champagne
-                chateau_thierry broyes vertus nogent_sur_seine bar_sur_aube
+                chateau_thierry broyes vertus bar_sur_aube
                 chaumont vaucouleurs vitry_en_pertois troyes epernay menehould
                 rosnay villemaur choiseul
 
@@ -16863,7 +16856,6 @@ countries = {
 		EVR = {
 			own_control_core = {
 				evreux harcourt #Normandy
-				mantes #Ile de France
 				longueville #Longueville
 			}
 			
@@ -17019,8 +17011,12 @@ countries = {
 		
 		#Orleans (Revolter) Becomes an appanage in 1344
 		ORL = {
+            own_control_core = {
+                orleans sully vitry_aux_loges montargis #Orléanais
+            }
+
 			our_cores_conquered_by_others = {
-				orleans beaugency
+                beaugency #Orléanais
 			}
 			
 			starting_technology_level = 3
@@ -17149,6 +17145,22 @@ countries = {
 			}
 			capital = troyes
 		}
+
+        NTR = {
+            own_control_core = {
+                paris montmorency corbeil mantes #Pays de France
+                chaumont_vexin beauvais senlis crepy #Beauvaisis
+                chartres auneau #Chartres
+                brie_comte_robert melun nemours #Gatinais
+                meaux provins nogent_sur_seine #Brie Champenoise
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = paris
+        }
 		
 		#-------------------- HRE -------------------
 		
