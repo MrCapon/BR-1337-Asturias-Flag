@@ -14216,15 +14216,12 @@ countries = {
                 ribemont laon
                 bar_sur_seine
                 braine
-                tour_auvergne
-                montaigut herment
 
                 tours chinon loches chatillon_sur_indre #D. de Touraine
 
                 soissons  #Valois (Own by the ruler)
 
                 langres grancey #D. de Langres
-                chambon #B. de Combraille
                 chalons_champagne #C. de Chalon
                 reims #D. Reims
 
@@ -17196,6 +17193,19 @@ countries = {
             include = "catholic_monarchy"
 
             capital = clermont
+        }
+
+        #Combraille
+        CMT = {
+            own_control_core = {
+                tour_auvergne herment chambon montaigut #Combraille
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = herment
         }
 		
 		#-------------------- HRE -------------------
