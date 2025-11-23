@@ -17173,6 +17173,18 @@ countries = {
 
             capital = Lyon
         }
+
+        VIV = {
+            own_control_core = {
+                viviers le_puy chalancon #Vivarais
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = viviers
+        }
 		
 		#-------------------- HRE -------------------
 		
