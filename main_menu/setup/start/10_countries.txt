@@ -1579,7 +1579,7 @@ countries = {
 		
 		SAA = {
 			#Saarbrücken
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				saarbrucken
 			}
 			
@@ -14226,7 +14226,7 @@ countries = {
 
                 #New location from BR
                 metz wallerfangen saint_avold morhange vic_sur_seille #Pay Messin
-                merzig saarbrucken lichtenberg_veldenz meisenheim kreuznach birkenfeld trier #Trier
+                merzig saarbrucken saarburg lichtenberg_veldenz meisenheim kreuznach birkenfeld trier #Trier
                 sarreguemines bitche saarwerden sarrebourg #Sarregueminois
                 zweibrucken kaiserslautern pirmasens germersheim landau_rhineland neustadt_an_der_haardt leiningen speyer heidelberg #Palatinate
                 lichtenberg haguenau strasbourg zabern benfeld #Lower Alsace
@@ -15471,7 +15471,7 @@ countries = {
 		
 		#Lorraine (Vassal, Fief Mouvant)
 		LOR = {
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				neufchateau_des_vosges #France
 				#HRE
 				mirecourt nancy saint_die
@@ -15529,7 +15529,7 @@ countries = {
 		
 		#Bar (Vassal, Fief Mouvant)
 		BAR = {
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				la_mothe_en_bassigny bar_le_duc clermont_en_argonne
 				saint_mihiel longwy #HRE
 				# own_control_integrated, but culture accepted
@@ -16326,7 +16326,7 @@ countries = {
 		#Perche (In PU with Alençon)
 		PRC = {
 			own_control_core = {
-				belleme mortagne senonches
+				belleme mortagne senonches alluyes #Perche
 			}
 			
 			starting_technology_level = 3
@@ -33987,9 +33987,13 @@ countries = {
 		
 		PAL = {	#The Palatinate
 			own_control_core = {
-				heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+				sinsheim oppenheim
 				amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 			}
+
+            our_cores_conquered_by_others = {
+                kaiserslautern neustadt_an_der_haardtgermersheim heidelberg #Heidelberg
+            }
 			
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -34616,7 +34620,7 @@ countries = {
 		}
 		
 		LDA = {  # Landau (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				landau_rhineland
 			}
 			starting_technology_level = 3
@@ -34633,7 +34637,7 @@ countries = {
 		}
 		
 		VEL = {  # Veldenz (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				lichtenberg_veldenz
 				meisenheim
 			}
@@ -34753,7 +34757,7 @@ countries = {
 		}
 		
 		SFC = {  # Strasbourg Free City (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				strasbourg
 			}
 			starting_technology_level = 3
@@ -34766,7 +34770,7 @@ countries = {
 		}
 		
 		LIC = {  # Lichtenberg (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				lichtenberg
 			}
 			starting_technology_level = 3
@@ -34820,7 +34824,7 @@ countries = {
 		}
 		
 		HAG = {  # Haguenau (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				haguenau
 			}
 			starting_technology_level = 3
@@ -34965,7 +34969,7 @@ countries = {
 		}
 		
 		SAW = {  # Saarwerden (South Germany)
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				saarwerden
 			}
 			starting_technology_level = 3
@@ -35704,7 +35708,7 @@ countries = {
 		}
 		
 		ALS = { #Strasbourg
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				zabern oberkirch benfeld
 			}
 			
@@ -35835,7 +35839,7 @@ countries = {
 		}
 		
 		TUL = { #Toul
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				toul
 			}
 			
@@ -35860,7 +35864,7 @@ countries = {
 		}
 		
 		VDU = { #Verdun
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				verdun fresnes
 			}
 			
@@ -35922,7 +35926,7 @@ countries = {
 		}
 		
 		MTZ = { #Metz
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				metz epinal sarrebourg vic_sur_seille
 				saint_avold
 			}
@@ -35992,7 +35996,7 @@ countries = {
 		}
 		
 		SLM = { #Salm
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				salm
 			}
 			
@@ -37179,7 +37183,7 @@ countries = {
 		}
 		
 		TRI = {	#Trier
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				trier wittlich
 				mayen coblenz saarburg
 			}
@@ -37288,7 +37292,7 @@ countries = {
 		}
 		
 		SYE = {	#Speyer
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				speyer
 			}
 			
@@ -37309,7 +37313,7 @@ countries = {
 		}
 		
 		ZWE = {	#Zweibrucken
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				zweibrucken bitche pirmasens
 			}
 			
@@ -37335,7 +37339,7 @@ countries = {
 		}
 		
 		LNN = {	#Leiningen
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				leiningen
 			}
 			
@@ -37362,7 +37366,7 @@ countries = {
 		}
 		
 		SPO = {	#Sponheim
-			own_control_core = {
+            our_cores_conquered_by_others = {
 				kreuznach birkenfeld castellaun
 			}
 			
@@ -37448,7 +37452,8 @@ countries = {
 		
 		DUN = {	#Daun
 			own_control_core = {
-				daun cochem
+				daun cochem wittlich castellaun mayen #Eifel
+                coblenz #Westerwald
 			}
 			
 			starting_technology_level = 3
