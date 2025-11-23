@@ -1258,7 +1258,7 @@ building_manager = {
 	kurultai = { tag = CHG level = 1 location = balasagun }
 	
 	kurultai = { tag = ERE level = 1 location = gorgan }
-	kurultai = { tag = JKR level = 1 location = nishapur }
+	kurultai = { tag = ERE level = 1 location = nishapur }
 	kurultai = { tag = KAR level = 1 location = basra }
 
 	kurultai = { tag = JUR level = 1 location = darab }
@@ -4306,6 +4306,7 @@ building_manager = {
 	marketplace	= { tag = EPI level = 3 location = durres }
 	marketplace	= { tag = VEN level = 15 location = venice }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
+	marketplace	= { tag = MZF level = 6 location = isfahan }
 
 
 	#IBERIA

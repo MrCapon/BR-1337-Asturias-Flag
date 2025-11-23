@@ -403,11 +403,10 @@ diplomacy_manager = {
 
     #-------------Persia------------
     dependency = { first = KAR second = HLL subject_type = vassal }
-    dependency = { first = ERE second = HDN subject_type = vassal }
-    dependency = { first = ERE second = QOM subject_type = vassal }
-    dependency = { first = ERE second = KSA subject_type = vassal }
+    dependency = { first = TUR second = HDN subject_type = vassal }
+    dependency = { first = TUR second = QOM subject_type = vassal }
+    dependency = { first = MZF second = KSA subject_type = vassal }
     dependency = { first = ERE second = ASR subject_type = vassal }
-    dependency = { first = ERE second = JKR subject_type = vassal }
     dependency = { first = ERE second = SFR subject_type = vassal }
     dependency = { first = ERE second = SBZ subject_type = vassal }
     dependency = { first = ERE second = KHT subject_type = vassal }

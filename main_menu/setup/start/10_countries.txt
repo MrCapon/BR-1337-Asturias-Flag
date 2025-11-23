@@ -31278,6 +31278,9 @@ countries = {
 				ruler = atq_mahmud
 				
 				privilege = {
+					#Nobles
+					ghazi_privilege
+
 					#Dhimmi #BR ADDED
 					dhimmi_land_rights
 					dhimmi_administrative_posts
@@ -31285,6 +31288,12 @@ countries = {
 					dhimmi_pact_of_umar
 					dhimmi_military_service
 					dhimmi_traditions
+
+					#Peasants
+					peasants_allowed_weapons_privilege
+
+					#Tribes
+					tribes_tribal_levies
 				}
 				
 				laws = {
@@ -31298,7 +31307,7 @@ countries = {
 			}
 			
 			country_rank = rank_kingdom
-			capital = mardin
+			capital = aleppo
 			religious_school = shafii_school
 			government = { mysticism_vs_jurisprudence = 20 }
 			
@@ -32097,20 +32106,15 @@ countries = {
 				goroz shusha
 				julfa nakhchivan
 				mosul qayyarah tal_afar
+
+				#ERE
+				damavand eyvanekey khwar rahimabad razeqan varamin
+				abhar avaj qeydar sagzabad takestan
+				soltaniyeh
+				rudbar shahrestan_sofla shamiram sirdan
 			}
 			
 			our_cores_conquered_by_others = {
-				rahba anah abu_kemal haditha
-				al_anbar hit ayn_tamr karbala
-				kufa al_udayb qadisiyyah
-				dayr_aqul badra ilam
-				wasit abdanan al_tib arkvaz bakusaya dehloran meymeh
-				basra abadan abdas al_madar al_qatr zuwayr
-				an_nil nasiriyah numaniyyah rusafa
-				khalafabad machul quban
-				ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
-				kazimah
-				hillah samawa suq_al_shuyukh
 			}
 			
 			starting_technology_level = 3
@@ -32171,6 +32175,7 @@ countries = {
 					dharmic_dhimmi_communities
 					
 					#Tribes
+					tribes_tribal_levies
 					tribes_land_rights
 					tribes_pasture_access
 					tribes_tribal_registry
@@ -46558,14 +46563,10 @@ countries = {
 
 				#INJ
 				shiraz abadeh_tashk kherameh sarvestan zarqan
-				firuzabad bandar_deyr dehram kalameh khormoj riz
-				kazerun borazjan reyshahr farashband sar_mashhad
-				qala_safid bandar_deylam bandar_rig basht jannaba nurabad
 				deh_kord borujen samiram sisakht vanak yasuj
 				istakhr aspas beyza qaryat_al_bidh saadatshahr shahr_meyan
 				qumisha karkevand ramsheh sohrfiruzan yangabad yazdikhwast
 				isfahan dehagh dowlatabad komshecheh murcheh_khvort tudeshk
-				kavar
 				ardestan natanz
 				abadeh eqlid
 			}
@@ -46616,7 +46617,7 @@ countries = {
 			
 			country_rank = rank_kingdom
 			religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-			capital = shiraz
+			capital = isfahan
 		}
 		
 		KRM = { #Kerman https://en.wikipedia.org/wiki/Kerman
@@ -46745,6 +46746,12 @@ countries = {
 		KHU = { #Khunj https://en.wikipedia.org/wiki/Khonj
 			own_control_core = {
 				khunj jahreh karzin alamarvdasht bagh_iran ahel
+
+				#INJ
+				firuzabad bandar_deyr dehram kalameh khormoj riz
+				kavar
+				kazerun borazjan reyshahr farashband sar_mashhad
+				qala_safid bandar_deylam bandar_rig basht jannaba nurabad
 			}
 			
 			include = "expl_middle_east"
@@ -46843,10 +46850,13 @@ countries = {
 				orta_kuyu talaikhan_ata uzboy
 				bojnord samalqan khabushan shirvan_iran
 				firuzkuh
-				damavand eyvanekey khwar rahimabad razeqan varamin
-				abhar avaj qeydar sagzabad takestan
-				soltaniyeh
-				rudbar shahrestan_sofla shamiram sirdan
+
+				#JKR
+				nishapur fadisheh kadkan pivehzhan
+				meshkan_khorasan
+				quchan
+				tejend abiward kalat_nader sarakhs
+				mashhad farhadgerd mazdaran radkan tus
 			}
 			
 			include = "expl_middle_east"
@@ -47641,6 +47651,9 @@ countries = {
 		JKR = { #Jauni Kurban
 			type = army
 			own_control_core = {
+				
+			}
+			our_cores_conquered_by_others = {
 				nishapur fadisheh kadkan pivehzhan
 				meshkan_khorasan
 				quchan

@@ -442,7 +442,7 @@ international_organization_manager = {
 		members = { 
 			#Borjigid Faction
 
-			ERE MZN HDN QOM KSA ASR JKR SFR SBZ KHT
+			ERE MZN HDN QOM KSA ASR SFR SBZ KHT
 			BDS #Baduspanids
 			KRT MRV KHF #Kartids
 			KAR #Huleguids
