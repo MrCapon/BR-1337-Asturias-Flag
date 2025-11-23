@@ -595,3 +595,12 @@ VIV = {
     culture_definition = auvergnat
     religion_definition = catholic
 }
+
+#Clermont
+CMT = {
+    color = map_NRM
+    color2 = rgb { 131 138 116 }
+
+    culture_definition = auvergnat
+    religion_definition = catholic
+}

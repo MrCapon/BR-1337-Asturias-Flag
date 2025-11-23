@@ -14211,12 +14211,12 @@ countries = {
         FRA = {
             own_control_core = {
                 amiens breteuil corbie nesle peronne
-                clermont sens saint_florentin
-                 saint_quentin noyon
+                sens saint_florentin
+                saint_quentin noyon
                 ribemont laon
                 bar_sur_seine
                 braine
-                mauriac riom tour_auvergne brioude saint_flour vodable
+                mauriac tour_auvergne saint_flour
                 montaigut herment
 
                 tours chinon loches chatillon_sur_indre #D. de Touraine
@@ -14236,7 +14236,7 @@ countries = {
 
                 chateauroux boussac #S. de Chateauroux
 
-                allegre chalancon
+                chalancon
             }
             own_control_integrated = {
                 #Appanages
@@ -17144,6 +17144,7 @@ countries = {
 			capital = troyes
 		}
 
+        #Neustria
         NTR = {
             own_control_core = {
                 paris montmorency corbeil mantes #Pays de France
@@ -17160,9 +17161,10 @@ countries = {
             capital = paris
         }
 
+        #Lyon
         LYN = {
             own_control_core = {
-                Lyon riverie #Lyon
+                lyon riverie #Lyon
                 perreux beaujeu trevoux #Beaujolais
                 macon #Autunnais
             }
@@ -17171,9 +17173,10 @@ countries = {
             include = "expl_western_europe"
             include = "catholic_monarchy"
 
-            capital = Lyon
+            capital = lyon
         }
 
+        #Viviers
         VIV = {
             own_control_core = {
                 viviers le_puy chalancon #Vivarais
@@ -17184,6 +17187,19 @@ countries = {
             include = "catholic_monarchy"
 
             capital = viviers
+        }
+
+        #Clermont
+        CMT = {
+            own_control_core = {
+                riom clermont allegre brioude vodable #Lower-Auvergne
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+
+            capital = clermont
         }
 		
 		#-------------------- HRE -------------------
