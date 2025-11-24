@@ -285,11 +285,14 @@ diplomacy_manager = {
     dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
     #dependency = { first = BUL second = SER subject_type = tributary } #BR ADDED
     #scripted_mutual = { first = SER second = BYZ type = alliance }
+    #dependency = { first = BYZ second = EPI subject_type = secessionists } #BR ADDED
+    #dependency = { first = BYZ second = TRE subject_type = secessionists } #BR ADDED
+    #dependency = { first = BYZ second = ANA subject_type = secessionists } #BR ADDED
 
     #Anatolia
     dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED
-    dependency = { first = ANA second = KAP subject_type = vassal } #BR ADDED
-    dependency = { first = ANA second = CIL subject_type = vassal } #BR ADDED
+    dependency = { first = ANA second = KAP subject_type = march } #BR ADDED
+    dependency = { first = ANA second = CIL subject_type = march } #BR ADDED
     dependency = { first = ARM second = KOG subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = DER subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = MES subject_type = vassal } #BR ADDED
