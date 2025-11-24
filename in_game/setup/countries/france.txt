@@ -562,8 +562,7 @@ ANG = {
 #Br edit new countries
 #Neustria
 NTR = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 36 41 175 }
 
     culture_definition = french
     religion_definition = catholic
@@ -571,8 +570,7 @@ NTR = {
 
 #Austrasia
 AUS = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 36 71 150 }
 
     culture_definition = walloon
     religion_definition = catholic
@@ -580,8 +578,7 @@ AUS = {
 
 #Lyon
 LYN = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 16 66 145 }
 
     culture_definition = arpitan
     religion_definition = catholic
@@ -589,8 +586,7 @@ LYN = {
 
 #Viviers
 VIV = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 56 41 202 }
 
     culture_definition = auvergnat
     religion_definition = catholic
@@ -598,8 +594,7 @@ VIV = {
 
 #Clermont
 CMT = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 46 41 140 }
 
     culture_definition = auvergnat
     religion_definition = catholic
@@ -607,8 +602,7 @@ CMT = {
 
 #Combraille
 CMB = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 33 81 166 }
 
     culture_definition = auvergnat
     religion_definition = catholic
@@ -616,8 +610,7 @@ CMB = {
 
 #Châteauroux
 CEX = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 44 44 144 }
 
     culture_definition = berrichon
     religion_definition = catholic
@@ -625,8 +618,7 @@ CEX = {
 
 #Touraine
 TNE = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 22 44 133 }
 
     culture_definition = french
     religion_definition = catholic
@@ -634,8 +626,7 @@ TNE = {
 
 #Amiens
 AMI = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 75 41 202 }
 
     culture_definition = picard
     religion_definition = catholic
@@ -643,8 +634,7 @@ AMI = {
 
 #Vermandois
 VRM = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 25 25 95 }
 
     culture_definition = picard
     religion_definition = catholic
@@ -652,8 +642,7 @@ VRM = {
 
 #Soissons
 SSN = {
-    color = map_NRM
-    color2 = rgb { 131 138 116 }
+    color = rgb { 55 75 202 }
 
     culture_definition = picard
     religion_definition = catholic
