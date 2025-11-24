@@ -236,8 +236,7 @@ TEK = {
 }
 
 TRE = {
-	color = map_trebizond
-	color2 = rgb { 40 164 157 } #same as in EU4
+	color = rgb { 90 64 157 } #BR edited
 
 	culture_definition = pontic_greek_culture
 	religion_definition = orthodox
