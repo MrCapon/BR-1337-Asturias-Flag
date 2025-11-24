@@ -1,4 +1,4 @@
-﻿on_game_start = {
+on_game_start = {
 	effect = {
 		#Thrace
 		location:constantinople = {
@@ -134,6 +134,19 @@
 				type = paved_road
 			}
 		}
+		location:durres = {
+			add_road_to = {
+				target = location:thessaloniki
+				type = paved_road
+			}
+		}
+		location:sredets = {
+			add_road_to = {
+				target = location:nis
+				type = paved_road
+			}
+		}
+
 		
 		#Anatolia
 		location:uskudar = {
@@ -143,12 +156,6 @@
 			}
 		}
 		location:izmit = {
-			add_road_to = {
-				target = location:atpazari
-				type = paved_road
-			}
-		}
-		location:atpazari = {
 			add_road_to = {
 				target = location:goynuk
 				type = paved_road
@@ -268,6 +275,31 @@
 				type = paved_road
 			}
 		}
+		location:izmit = {
+			add_road_to = {
+				target = location:bandirma
+				type = paved_road
+			}
+		}
+		location:bandirma = {
+			add_road_to = {
+				target = location:gonen
+				type = paved_road
+			}
+		}
+		location:gonen = {
+			add_road_to = {
+				target = location:bergama
+				type = paved_road
+			}
+		}
+		location:bergama = {
+			add_road_to = {
+				target = location:smyrna
+				type = paved_road
+			}
+		}
+
 
 		#Italy
 		location:rome = {
@@ -417,6 +449,18 @@
 		location:toulon = {
 			add_road_to = {
 				target = location:toulon
+				type = paved_road
+			}
+		}
+		location:naples = {
+			add_road_to = {
+				target = location:potenza
+				type = paved_road
+			}
+		}
+		location:potenza = {
+			add_road_to = {
+				target = location:brindisi
 				type = paved_road
 			}
 		}
