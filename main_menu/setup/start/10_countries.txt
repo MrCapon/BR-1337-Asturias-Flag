@@ -14885,7 +14885,6 @@ countries = {
 				bourbon molins huriel montlucon vichy
 				jaligny st_gerand
 				# own_control_integrated, but culture accepted
-				clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -17240,6 +17239,7 @@ countries = {
         VRM = {
             own_control_core = {
                 saint_quentin peronne nesle #Vermandois
+				clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
             }
 
             starting_technology_level = 3
