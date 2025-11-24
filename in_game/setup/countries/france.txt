@@ -562,7 +562,7 @@ ANG = {
 #Br edit new countries
 #Neustria
 NTR = {
-    color = rgb { 36 41 175 }
+    color = rgb { 66 66 175 }
 
     culture_definition = french
     religion_definition = catholic
@@ -618,7 +618,7 @@ CEX = {
 
 #Touraine
 TNE = {
-    color = rgb { 22 44 133 }
+    color = rgb { 55 44 133 }
 
     culture_definition = french
     religion_definition = catholic
