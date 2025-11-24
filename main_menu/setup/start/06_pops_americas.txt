@@ -3907,12 +3907,15 @@ locations = {
 		define_pop = {	type = tribesmen	size = 3.254	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	anacostia = {
+		define_pop = {	type = peasants		size = 4.106	culture = elysian_culture religion = orthodox }
 		define_pop = {	type = tribesmen	size = 3.815	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	monocacy = {
+		define_pop = {	type = peasants		size = 2.106	culture = elysian_culture religion = orthodox }
 		define_pop = {	type = tribesmen	size = 1.992	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	potapoco = {
+		define_pop = {	type = peasants		size = 5.106	culture = elysian_culture religion = orthodox }
 		define_pop = {	type = tribesmen	size = 3.815	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	catoctin = {
@@ -3934,6 +3937,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 2.491	culture = rappahannock_culture	religion = midewiwin_religion }
 	}
 	patawomeck = {
+		define_pop = {	type = peasants		size = 6.106	culture = elysian_culture religion = orthodox }
 		define_pop = {	type = tribesmen	size = 3.675	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	wicocomico = {
@@ -3981,6 +3985,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 4.946	culture = powhatan_culture	religion = midewiwin_religion }
 	}
 	doeg = {
+		define_pop = {	type = peasants		size = 8.106	culture = elysian_culture religion = orthodox }
 		define_pop = {	type = tribesmen	size = 4.798	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	manassas = {

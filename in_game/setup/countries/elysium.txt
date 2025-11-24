@@ -1,0 +1,14 @@
+﻿
+E1Y = { #BR addition
+	color = rgb { 170 68 65 }
+
+	culture_definition = elysian_culture
+	religion_definition = hellenism_religion
+}
+
+E2Y = { #BR addition
+	color = rgb { 140 68 85 }
+
+	culture_definition = elysian_culture #Placeholder
+	religion_definition = orthodox #Placeholder
+}

@@ -50929,7 +50929,7 @@ countries = {
 		}
 	
 		#Change tag after ELY refactor
-		NEM = {
+		E1Y = {
 			own_control_core = {
 				patapsco
 				nentego
@@ -50971,6 +50971,50 @@ countries = {
 			tolerated_cultures = {
 				piscataway_culture
 				nanticoke_culture
+			}
+			#include = "expl_amerindian_east_coast"
+		}
+		E2Y = {
+			own_control_core = {
+				doeg
+				patawomeck
+				potapoco
+				anacostia
+				monocacy
+			}
+
+			discovered_regions = {
+				east_coast_region
+			}
+			
+			capital = doeg
+			#court_language = 
+			country_rank = rank_county
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = 50
+				serfdom_vs_free_subjects = 50
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 25
+				mercantilism_vs_free_trade = 25
+				offensive_vs_defensive = 50
+				land_vs_naval = -25
+				quality_vs_quantity = -25
+				belligerent_vs_conciliatory = 50
+				capital_economy_vs_traditional_economy = -50
+				individualism_vs_communalism = 25
+				outward_vs_inward = -25
+
+			}
+			
+			tolerated_cultures = {
+				piscataway_culture
+				doeg_culture
 			}
 			#include = "expl_amerindian_east_coast"
 		}

@@ -1,6 +1,6 @@
 colony_manager={
 	nanticoke_province = {
-		tag = NEM
+		tag = E1Y
 		category = exclusive
 		#reason = treaty_of_noteborg
 	}

@@ -19,8 +19,6 @@
  KOG_ADJ: "Koghoni"
  MES: "Mijagetk"
  MES_ADJ: "Mijagetk"
- NEM: "Elysium"
- NEM_ADJ: "Elysium"
  
  # British Isles
  AGL: "Anglia"
@@ -84,3 +82,9 @@
  VRM_ADJ: "Vermandois"
  SSN: "Soissons"
  SSN_ADJ: "Soissons"
+
+#Elysium
+ E1Y: "Elysium"
+ E1Y_ADJ: "Elysium"
+ E2Y: "Elysia"
+ E2Y_ADJ: "Elysia"
