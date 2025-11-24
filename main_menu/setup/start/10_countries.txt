@@ -15229,9 +15229,8 @@ countries = {
 		#Armagnac (Vassal, Fief Mouvant)
 		AMG = {
 			own_control_core = {
-				auch nogaro rodez
+				auch nogaro
 				lectoure #Vic. de Lomagne
-				lautrec #Vic. de Lautrec
 			}
 			
 			starting_technology_level = 3
@@ -15335,7 +15334,6 @@ countries = {
 		VDM = {
 			own_control_core = {
 				vendome
-				castres #S. de Castres
 			}
 			
 			starting_technology_level = 3
@@ -17037,13 +17035,14 @@ countries = {
                 mirepoix limoux carcassonne fenouillet chateauneuf_de_randon st_affrique millau
                 florac st_ambroix
 				montpellier #Lordship of Montpellier
+				castres #S. de Castres
+				rodez #Rouergue
+				lautrec #Vic. de Lautrec
             }
 
             our_cores_conquered_by_others = {
                 cahors montauban figeac gourdon #Quercy
                 narbonne #Narbonnais
-                castres lautrec #Castres
-                rodez #Rouergue
                 pamiers foix #Foix
                 lisle_jourdain lectoure #Armagnac
                 montflanquin agen #Agenais
