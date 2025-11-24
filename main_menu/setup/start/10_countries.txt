@@ -13492,20 +13492,19 @@ countries = {
 			own_control_core = {
 				barcelona berga besalu ripoll castellon_ampurias girona manresa sant_feliu sitges terrassa vic
 				cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
-				seu_durgell agramunt cardona talarn vielha
+				seu_durgell agramunt cardona talarn
 				huesca ainsa almudevar anso barbastro benabarre ejea_de_los_caballeros fraga jaca monzon sarinena sos
 				teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
 				zaragoza ariza belchite carinena caspe calatayud daroca pina_de_ebro tarazona zuera
 				castellon_de_la_plana ares_del_maestre llucena morella peniscola
 			}
-			
 			own_control_conquered = {
-			
 			}
 			
 			our_cores_conquered_by_others = {
 				puigcerda prades montpellier perpignan
 				palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
+				vielha
 			}
 			
 			starting_technology_level = 3
@@ -13603,8 +13602,6 @@ countries = {
 		MLL = {
 			own_control_core = {
 				palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
-				puigcerda prades #County of Cerdanya
-				perpignan #County of Roselló
 			}
 			
 			starting_technology_level = 3
@@ -14096,6 +14093,8 @@ countries = {
 				coimbra besteiros castelo_branco covilha esgueira guarda idanha proenca_nova sabugal seia
 				alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas
 				lisbon torres_vedras
+				#Africa
+				tangier ceuta
 			}
 			
 			starting_technology_level = 3
@@ -14190,7 +14189,7 @@ countries = {
 			court_language = maghrebi_dialect
 			religious_school = maliki_school
 			
-			country_rank = rank_empire  #BR edit
+			country_rank = rank_kingdom
 			
 			ai_advance_preference_tags = {
 				exploration = 5
@@ -14325,13 +14324,11 @@ countries = {
 		
 		#France
 
-        FRA = {
+        LOT = {
             own_control_core = {
-
                 langres grancey #D. de Langres
                 chalons_champagne #C. de Chalon
                 reims #D. Reims
-
 
                 #New location from BR
                 metz wallerfangen saint_avold morhange vic_sur_seille #Pay Messin
@@ -14345,17 +14342,18 @@ countries = {
                 saint_mihiel ligny bar_le_duc clermont_en_argonne #Barrois
                 fresnes verdun etain longwy #Verdunois
 
-
-            }
-            own_control_integrated = {
-                #C. de Champagne
+				#C. de Champagne
                 vertus bar_sur_aube
                 chaumont vaucouleurs vitry_en_pertois troyes epernay menehould brienne
                 rosnay villemaur choiseul
-
+            }
+            own_control_integrated = {
                 #Too small/unimportant vassals (fiefs movants)
                 joinville #S. Joinville
                 grandpre #C. Grandpre
+
+				#HAB
+				ensisheim #Lordship of Upper Alsace
             }
 
             own_control_conquered = {
@@ -14363,6 +14361,11 @@ countries = {
             }
 
             our_cores_conquered_by_others = {
+				paris montmorency corbeil mantes #Pays de France
+                chaumont_vexin beauvais senlis crepy #Beauvaisis
+                chartres auneau #Chartres
+                brie_comte_robert melun nemours #Gatinais
+                meaux provins nogent_sur_seine #Brie Champenoise
             }
 
             starting_technology_level = 3
@@ -14478,6 +14481,7 @@ countries = {
                     great_offices_of_the_crown_of_france
                 }
             }
+
 
             tolerated_cultures = {
                 arpitan
@@ -15794,6 +15798,7 @@ countries = {
 		COM = {
 			own_control_core = {
 				muret aspet saint_lizier
+				vielha
 			}
 			
 			starting_technology_level = 3
@@ -17154,6 +17159,8 @@ countries = {
 				castres #S. de Castres
 				rodez #Rouergue
 				lautrec #Vic. de Lautrec
+				perpignan #County of Roselló
+				puigcerda prades #County of Cerdanya
             }
 
             our_cores_conquered_by_others = {
@@ -17162,6 +17169,7 @@ countries = {
                 pamiers foix #Foix
                 lisle_jourdain lectoure #Armagnac
                 montflanquin agen #Agenais
+				puigcerda prades #County of Cerdanya
             }
 
             starting_technology_level = 3
@@ -17699,10 +17707,7 @@ countries = {
 			
 			own_control_integrated = {
 				kyburg #County of Kyburg
-				bonndorf villingen waldshut #Landgraviate of Breisgau
 				krumbach gunzburg wertingen #Margraviate of Burgau
-				ensisheim #Lordship of Upper Alsace
-				waldsee saulgau #Lordship of Waldsee
 			}
 			
 			own_control_conquered = {
@@ -18442,7 +18447,7 @@ countries = {
 		
 		MOR = { #Morocco
 			own_control_core = { #BR edit
-				tangier ceuta tetouan asilah basra_al_hamra larache taunat
+				tetouan asilah basra_al_hamra larache taunat
 				badis tizgane amergo al_mazamma
 				melilla ras_kebdana ghassasa temsamane tabarida
 				ksar_el_kebir tazroute ouezzane
@@ -18459,6 +18464,9 @@ countries = {
 				jerada taourirt debdou echemmaia sidi_bennour
 				nedroma tegeget kalaat_sraghna midelt
 				aouint_yghomane afso ifrane
+			}
+			our_cores_conquered_by_others = {
+				tangier ceuta
 			}
 			
 			control = {
@@ -35542,6 +35550,9 @@ countries = {
 		WDB = { #Waldburg
 			own_control_core = {
 				waldburg
+
+				#HAB
+				waldsee saulgau #Lordship of Waldsee
 			}
 			
 			starting_technology_level = 3
@@ -35655,6 +35666,8 @@ countries = {
 		FBG = {	#Freiburg
 			own_control_core = {
 				freiburg
+				#HAB
+				bonndorf villingen waldshut #Landgraviate of Breisgau
 			}
 			
 			starting_technology_level = 3
@@ -50966,7 +50979,7 @@ countries = {
 		#West HRE
 
 		#Neustria
-        NTR = {
+        FRA = {
             own_control_core = {
                 paris montmorency corbeil mantes #Pays de France
                 chaumont_vexin beauvais senlis crepy #Beauvaisis
@@ -50980,11 +50993,50 @@ countries = {
             include = "catholic_monarchy"
 			government = {
 				type = monarchy
-				heir_selection = cognatic_primogeniture
+                heir_selection = salic_law
 				ruler = random
-				
-			}
 
+                centralization_vs_decentralization = 85
+                aristocracy_vs_plutocracy = -75
+                serfdom_vs_free_subjects = -80
+                traditionalist_vs_innovative = -30
+                spiritualist_vs_humanist = -50
+                mercantilism_vs_free_trade = -25
+                offensive_vs_defensive = -20
+                land_vs_naval = -30
+                quality_vs_quantity = -30
+                belligerent_vs_conciliatory = -20
+                capital_economy_vs_traditional_economy = 70
+                individualism_vs_communalism = -30
+                outward_vs_inward = -50
+
+                reforms = {
+                    french_feudal_nobility
+                    ancient_french_taxation
+                }
+
+                laws = {
+                    medieval_levy_law = noble_levies	#Dependence on nobles
+                    cultural_traditions_law = civil_society	#Taxing the peasants
+                    mining_law = nobles_mining_law	#Noble Controlled
+                    precious_metal_distribution_law = unlimited_gold_export
+                }
+
+                privilege = {
+                    formal_guilds
+                    clergy_literacy_rights
+                    auxilium_et_consilium
+                    nobles_land_rights
+                    noble_leaders_only
+                    primacy_of_nobility
+                    noble_armies
+                    chancellor_nobles
+                    villes_franches
+                    great_offices_of_the_crown_of_france
+                }
+            }
+
+			country_rank = rank_duchy
             capital = paris
         }
 
@@ -51005,7 +51057,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = lyon
         }
 
@@ -51024,7 +51076,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = viviers
         }
 
@@ -51043,7 +51095,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_duchy
             capital = clermont
         }
 
@@ -51062,7 +51114,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = herment
         }
 
@@ -51082,7 +51134,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = chateauroux
         }
 
@@ -51101,7 +51153,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = tours
         }
 
@@ -51120,7 +51172,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = amiens
         }
 
@@ -51140,7 +51192,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = saint_quentin
         }
 
@@ -51161,7 +51213,7 @@ countries = {
 				ruler = random
 				
 			}
-
+			country_rank = rank_county
             capital = soissons
         }
 		

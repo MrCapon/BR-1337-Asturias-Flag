@@ -22,6 +22,20 @@ FRA = {
 	difficulty = 3
 }
 
+LOT = {
+	color = rgb { 66 66 175 }
+	
+	unit_color0 = rgb { 0 38 94 }
+	unit_color1 = rgb { 171 19 19 }
+	unit_color2 = rgb { 200 200 210 }
+
+	culture_definition = french
+	religion_definition = catholic
+
+	description_category = military
+	difficulty = 3
+}
+
 BUR = {
 	color = map_BUR
 	color2 = rgb { 16 41 202 }
@@ -561,13 +575,6 @@ ANG = {
 
 #Br edit new countries
 #Neustria
-NTR = {
-    color = rgb { 66 66 175 }
-
-    culture_definition = french
-    religion_definition = catholic
-}
-
 #Austrasia
 AUS = {
     color = rgb { 36 71 150 }

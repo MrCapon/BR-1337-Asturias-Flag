@@ -146,20 +146,20 @@ diplomacy_manager = {
 	
 	#-------France/West HRE-------
 	#Auld Alliance
-	#scripted_oneway = { first = FRA second = SCO type = guarantee }
+	#scripted_oneway = { first = LOT second = SCO type = guarantee }
 	
 	#Appanages
-    dependency = { first = FRA second = ROU subject_type = vassal }
-    dependency = { first = FRA second = SSN subject_type = vassal }
-    dependency = { first = FRA second = RET subject_type = vassal }
-    dependency = { first = FRA second = MOU subject_type = vassal }
-    dependency = { first = FRA second = CHN subject_type = vassal }
-    dependency = { first = FRA second = BLL subject_type = vassal }
-    dependency = { first = FRA second = ROU subject_type = vassal }
-    dependency = { first = FRA second = LUX subject_type = vassal }
-    dependency = { first = FRA second = FCB subject_type = vassal }
-    dependency = { first = FRA second = DUN subject_type = vassal }
-    dependency = { first = FRA second = FCB subject_type = vassal }
+    dependency = { first = LOT second = ROU subject_type = vassal }
+    dependency = { first = LOT second = SSN subject_type = vassal }
+    dependency = { first = LOT second = RET subject_type = vassal }
+    dependency = { first = LOT second = MOU subject_type = vassal }
+    dependency = { first = LOT second = CHN subject_type = vassal }
+    dependency = { first = LOT second = BLL subject_type = vassal }
+    dependency = { first = LOT second = ROU subject_type = vassal }
+    dependency = { first = LOT second = LUX subject_type = vassal }
+    dependency = { first = LOT second = FCB subject_type = vassal }
+    dependency = { first = LOT second = DUN subject_type = vassal }
+    dependency = { first = LOT second = FCB subject_type = vassal }
 	
 	#Aquitine
 	dependency = { first = AQN second = MDM subject_type = vassal }
@@ -180,15 +180,15 @@ diplomacy_manager = {
     dependency = { first = TOU second = CLT subject_type = vassal }
 
     #Neustria
-	dependency = { first = NTR second = ETA subject_type = vassal }
-	dependency = { first = NTR second = MON subject_type = vassal }
-    dependency = { first = NTR second = ORL subject_type = vassal }
-    dependency = { first = NTR second = DRE subject_type = vassal }
-	dependency = { first = NTR second = PRC subject_type = vassal }
-    dependency = { first = NTR second = VRM subject_type = vassal }
-    dependency = { first = NTR second = ALE subject_type = vassal }
-    dependency = { first = NTR second = VDM subject_type = vassal }
-    dependency = { first = NTR second = BLS subject_type = vassal }
+	dependency = { first = FRA second = ETA subject_type = vassal }
+	dependency = { first = FRA second = MON subject_type = vassal }
+    dependency = { first = FRA second = ORL subject_type = vassal }
+    dependency = { first = FRA second = DRE subject_type = vassal }
+	dependency = { first = FRA second = PRC subject_type = vassal }
+    dependency = { first = FRA second = VRM subject_type = vassal }
+    dependency = { first = FRA second = ALE subject_type = vassal }
+    dependency = { first = FRA second = VDM subject_type = vassal }
+    dependency = { first = FRA second = BLS subject_type = vassal }
 
     #Burgundey
 	dependency = { first = BUR second = TON subject_type = vassal }
