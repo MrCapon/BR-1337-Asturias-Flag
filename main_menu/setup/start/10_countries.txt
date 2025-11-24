@@ -17137,6 +17137,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = paris
         }
@@ -17152,6 +17158,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = lyon
         }
@@ -17165,6 +17177,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = viviers
         }
@@ -17178,6 +17196,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = clermont
         }
@@ -17191,6 +17215,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = herment
         }
@@ -17205,6 +17235,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = chateauroux
         }
@@ -17218,6 +17254,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = tours
         }
@@ -17231,6 +17273,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = amiens
         }
@@ -17245,6 +17293,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = saint_quentin
         }
@@ -17260,6 +17314,12 @@ countries = {
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
 
             capital = soissons
         }
