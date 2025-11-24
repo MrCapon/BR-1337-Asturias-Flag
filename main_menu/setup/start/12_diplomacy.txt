@@ -156,6 +156,8 @@ diplomacy_manager = {
     dependency = { first = FRA second = ROU subject_type = vassal }
     dependency = { first = FRA second = LUX subject_type = vassal }
     dependency = { first = FRA second = FCB subject_type = vassal }
+    dependency = { first = FRA second = DUN subject_type = vassal }
+    dependency = { first = FRA second = FCB subject_type = vassal }
 	
 	#Aquitine
 	dependency = { first = AQN second = MDM subject_type = vassal }
@@ -199,24 +201,30 @@ diplomacy_manager = {
 	dependency = { first = NRM second = MRT subject_type = vassal }
     dependency = { first = NRM second = AUM subject_type = vassal }
 
-
-	
 	#Vassals of vassals
 	#dependency = { first = ANJ second = MIE subject_type = fiefdom }
 	dependency = { first = FLA second = NAM subject_type = vassal }
 	dependency = { first = ARS second = STP subject_type = vassal }
 	#dependency = { first = ALE second = PRC subject_type = fiefdom }
 	#dependency = { first = BOU second = MRC subject_type = fiefdom }
+    dependency = { first = FCB second = FRT subject_type = vassal }
+    dependency = { first = FCB second = MTB subject_type = vassal }
 	
 	#-------Italy-------
 	dependency = { first = VEN second = NAX subject_type = vassal } #BR EDIT
 	dependency = { first = VEN second = CYP subject_type = vassal } #BR ADDED
 	dependency = { first = VEN second = NEG subject_type = vassal } #BR ADDED
 	dependency = { first = VEN second = CEP subject_type = vassal }
-	
 	dependency = { first = VEN second = TTE subject_type = vassal start_date = 1202.10.9 } #Trieste and Muggia swear loyalty to Dux Enrico Dandolo
 	dependency = { first = VEN second = CRT subject_type = vassal }
 	dependency = { first = VEN second = RAG subject_type = vassal }
+    scripted_oneway = { first = VEN second = NAX type = divert_trade }
+    scripted_oneway = { first = VEN second = CYP type = divert_trade }
+    scripted_oneway = { first = VEN second = NEG type = divert_trade }
+    scripted_oneway = { first = VEN second = CEP type = divert_trade }
+    scripted_oneway = { first = VEN second = TTE type = divert_trade }
+    scripted_oneway = { first = VEN second = CRT type = divert_trade }
+    scripted_oneway = { first = VEN second = RAG type = divert_trade }
 	
 	scripted_mutual = { first = RAV second = CES type = alliance }
 	scripted_mutual = { first = RIM second = CES type = alliance }
@@ -243,10 +251,10 @@ diplomacy_manager = {
 	
 	
 	scripted_oneway = { first = ARA second = ANR type = guarantee }
-	scripted_oneway = { first = FRA second = ANR type = guarantee }
-	scripted_oneway = { first = FOI second = ANR type = guarantee }
+	scripted_oneway = { first = AQN second = ANR type = guarantee }
+	scripted_oneway = { first = TOU second = ANR type = guarantee }
 	
-	dependency = { first = ADU second = MOR subject_type = vassal }
+	dependency = { first = ADU second = MOR subject_type = dominion }
 	
 	#scripted_oneway = { first = CAS second = CTV type = military_sponsorship }   #BR edit
 	#scripted_oneway = { first = CAS second = STO type = military_sponsorship }   #BR edit
@@ -299,6 +307,9 @@ diplomacy_manager = {
     #dependency = { first = BYZ second = EPI subject_type = secessionists } #BR ADDED
     #dependency = { first = BYZ second = TRE subject_type = secessionists } #BR ADDED
     #dependency = { first = BYZ second = ANA subject_type = secessionists } #BR ADDED
+    scripted_oneway = { first = BYZ second = FEO type = divert_trade }
+    scripted_oneway = { first = BYZ second = THE type = divert_trade }
+    scripted_oneway = { first = BYZ second = ATH type = divert_trade }
 
     #Anatolia
     dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED

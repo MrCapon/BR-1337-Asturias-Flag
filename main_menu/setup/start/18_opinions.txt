@@ -5,15 +5,15 @@ diplomacy_manager = {
 	# trust = { first = DAN second = SWE type = border_aggression }		#can set trust as well..
 
 	#Naples first = country that has the modifier, second = country that is loved/hated by first, type = modifier name
-	opinion = { first = NAP second = SIC type = recent_conflict_lost }
-	opinion = { first = NAP second = ARA type = recent_conflict_lost }
+	#opinion = { first = NAP second = SIC type = recent_conflict_lost }
+	#opinion = { first = NAP second = ARA type = recent_conflict_lost }
 
 	opinion = { first = NAP second = PAP type = opinion_good_relations }
 	opinion = { first = PAP second = NAP type = opinion_good_relations }
-	opinion = { first = PAP second = VEN type = opinion_angry }
-	opinion = { first = VEN second = PAP type = opinion_angry }
-	opinion = { first = PAP second = FRA type = opinion_mildly_displeased }
-	opinion = { first = FRA second = PAP type = opinion_mildly_displeased }
+	#opinion = { first = PAP second = VEN type = opinion_angry }
+	#opinion = { first = VEN second = PAP type = opinion_angry }
+	#opinion = { first = PAP second = FRA type = opinion_mildly_displeased }
+	#opinion = { first = FRA second = PAP type = opinion_mildly_displeased }
 
 	opinion = { first = BOH second = NAP type = opinion_bad_monarch }
 
@@ -49,8 +49,8 @@ diplomacy_manager = {
 	opinion = { first = BUL second = BYZ type = opinion_angry }
 
 	#Venice
-	opinion = { first = VEN second = BYZ type = opinion_irritated }
-	opinion = { first = BYZ second = VEN type = opinion_raid_capital }
+	#opinion = { first = VEN second = BYZ type = opinion_irritated }
+	#opinion = { first = BYZ second = VEN type = opinion_raid_capital }
 	opinion = { first = VEN second = PAD type = opinion_declared_war }
 	opinion = { first = PAD second = VEN type = opinion_declared_war }
 	opinion = { first = VEN second = GEN type = opinion_declared_war }
@@ -59,6 +59,23 @@ diplomacy_manager = {
 	opinion = { first = VER second = VEN type = opinion_declared_war }
 	opinion = { first = VEN second = HUN type = border_aggression }
 	opinion = { first = HUN second = VEN type = border_aggression }
+
+	opinion = { first = VEN second = NAX type = opinion_good_relations }
+	opinion = { first = NAX second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = CYP type = opinion_good_relations }
+	opinion = { first = CYP second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = NEG type = opinion_good_relations }
+	opinion = { first = NEG second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = NEG type = opinion_good_relations }
+	opinion = { first = NEG second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = CEP type = opinion_good_relations }
+	opinion = { first = CEP second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = TTE type = opinion_good_relations }
+	opinion = { first = TTE second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = CRT type = opinion_good_relations }
+	opinion = { first = CRT second = VEN type = opinion_good_relations }
+	opinion = { first = VEN second = RAG type = opinion_good_relations }
+	opinion = { first = RAG second = VEN type = opinion_good_relations }
 
 	#Historical Friends
 	opinion = { first = POL second = LIT type = opinion_historical_friend_POL_LIT }

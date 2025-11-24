@@ -12,13 +12,14 @@ market_manager = {
 	add_market = dubrovnik
 	add_market = constantinople
 	add_market = paris
+	add_market = metz #Br added
 	add_market = barcelona
-	add_market = sevilla
+	add_market = cordoba #Moved from sevilla
 	add_market = cologne
 	add_market = kyiv
 	add_market = krakow
 	add_market = moscow
-	add_market = kaffa
+	add_market = theodoro #moved from kaffa
 	add_market = astrakhan
 	add_market = pest
 	add_market = prague
@@ -29,10 +30,10 @@ market_manager = {
 
 	add_market = oslo #should be Bergen but too low access
 	add_market = stockholm
-	add_market = burgos
+	add_market = leon #moved from burgos
 	add_market = tbilisi
 	add_market = nuremberg
-	add_market = lisbon 
+	#add_market = lisbon 
 
 	
 	#Africa

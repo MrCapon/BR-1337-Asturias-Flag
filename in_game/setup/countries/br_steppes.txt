@@ -1,0 +1,8 @@
+﻿
+FEO = {
+	color = map_FEO
+	color2 = rgb { 61 8 81 }
+
+	culture_definition = pontic_greek_culture
+	religion_definition = orthodox
+}

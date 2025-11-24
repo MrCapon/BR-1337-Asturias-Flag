@@ -4182,6 +4182,10 @@ building_manager = {
 
 ###BR### ADDED Buildings ###BR###
 
+	#HRE
+	royal_court = { tag = FRA level = 1 location = metz }
+	sergeantry	= { tag = FRA level = 1 location = metz } #Sergeants at arms
+
 	#Greece and Balkans #BR edited
 	grand_palace = { tag = BYZ level = 1 location =  constantinople } #Great Palace(s) of Constantinople
 	royal_court = { tag = BYZ level = 1 location =  constantinople }
@@ -4294,9 +4298,9 @@ building_manager = {
 	marketplace	= { tag = MAM level = 6 location = alexandria }
 	marketplace	= { tag = MAM level = 6 location = damascus }
 	marketplace	= { tag = TUN level = 6 location = tunis }
-	marketplace	= { tag = TUN level = 4 location = palermo }
-	marketplace	= { tag = TRE level = 5 location = kaffa }
-	marketplace	= { tag = FEO level = 4 location = theodoro }
+	marketplace	= { tag = TUN level = 5 location = palermo }
+	marketplace	= { tag = TRE level = 3 location = kaffa }
+	marketplace	= { tag = FEO level = 6 location = theodoro }
 	marketplace	= { tag = TRE level = 4 location = tana }
 	marketplace	= { tag = TRE level = 4 location = trebizond }
 	marketplace	= { tag = PAF level = 2 location = sinop }
@@ -4307,6 +4311,12 @@ building_manager = {
 	marketplace	= { tag = VEN level = 15 location = venice }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
 	marketplace	= { tag = MZF level = 6 location = isfahan }
+	marketplace	= { tag = FRA level = 5 location =  metz }
+	marketplace	= { tag = ADU level = 6 location =  sevilla }
+	marketplace	= { tag = ADU level = 5 location =  malaga }
+	marketplace	= { tag = ADU level = 5 location =  murcia }
+	marketplace	= { tag = ADU level = 5 location =  valencia }
+	marketplace	= { tag = ADU level = 5 location =  toledo }
 
 
 	#IBERIA

@@ -4266,6 +4266,8 @@ countries = {
 			# Theodoro
 			own_control_core = {
 				theodoro
+				#GLH
+				lusta soldaia
 			}
 			
 			starting_technology_level = 3
@@ -4279,7 +4281,7 @@ countries = {
 			capital = theodoro
 			
 			accepted_cultures = {
-				pontic_greek_culture
+				gothic_culture
 			}
 			
 			include = "expl_western_europe"
@@ -11409,6 +11411,7 @@ countries = {
 				moutiers evian
 				bage thoire
 				vienne
+				faucigny sallanches #Barony of 	Faucigny
 			}
 			
 			starting_technology_level = 3
@@ -17333,7 +17336,6 @@ countries = {
 				romans la_mure saint_marceilin
 				mevouillon villars
 				la_tour_du_pin
-				faucigny sallanches #Barony of 	Faucigny
 			}
 			
 			starting_technology_level = 3
@@ -32195,12 +32197,12 @@ countries = {
 				#GAZ
 				tana kaffa vosporo
 				
-				#GLH
-				lusta soldaia
 			}
 			
 			our_cores_conquered_by_others = {
 				khupati
+				#GLH
+				lusta soldaia
 			}
 			
 			starting_technology_level = 3
