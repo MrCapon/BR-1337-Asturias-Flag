@@ -17241,206 +17241,6 @@ countries = {
 			capital = troyes
 		}
 
-        #Neustria
-        NTR = {
-            own_control_core = {
-                paris montmorency corbeil mantes #Pays de France
-                chaumont_vexin beauvais senlis crepy #Beauvaisis
-                chartres auneau #Chartres
-                brie_comte_robert melun nemours #Gatinais
-                meaux provins nogent_sur_seine #Brie Champenoise
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = paris
-        }
-
-        #Lyon
-        LYN = {
-            own_control_core = {
-                lyon riverie #Lyon
-                perreux beaujeu trevoux #Beaujolais
-                macon #Autunnais
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = lyon
-        }
-
-        #Viviers
-        VIV = {
-            own_control_core = {
-                viviers le_puy chalancon #Vivarais
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = viviers
-        }
-
-        #Clermont
-        CMT = {
-            own_control_core = {
-                riom clermont allegre brioude vodable #Lower-Auvergne
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = clermont
-        }
-
-        #Combraille
-        CMT = {
-            own_control_core = {
-                tour_auvergne herment chambon montaigut #Combraille
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = herment
-        }
-
-        #Châteauroux
-        CEX = {
-            own_control_core = {
-                chateauroux lignieres boussac #Lower-Berry
-                brosse #La Marche
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = chateauroux
-        }
-
-        #Touraine
-        TNE = {
-            own_control_core = {
-                tours amboise loches chinon chatillon_sur_indre #Touraine
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = tours
-        }
-
-        #Amiens
-        AMI = {
-            own_control_core = {
-                amiens breteuil corbie #Amienois
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = amiens
-        }
-
-        #Vermandois
-        VRM = {
-            own_control_core = {
-                saint_quentin peronne nesle #Vermandois
-				clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = saint_quentin
-        }
-
-        #Soissons
-        SSN = {
-            own_control_core = {
-                soissons braine noyon coucy laon #Soissonnais
-                chateau_thierry broyes #Brie Champenoise
-                guise hirson marle ribemont #Thiérache
-            }
-
-            starting_technology_level = 3
-            include = "expl_western_europe"
-            include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-				
-			}
-
-            capital = soissons
-        }
-		
 		#-------------------- HRE -------------------
 		
 		#Dauphine
@@ -51162,6 +50962,221 @@ countries = {
 			#include = "expl_amerindian_east_coast"
 		}
 
-	}
 
+		#West HRE
+
+		#Neustria
+        NTR = {
+            own_control_core = {
+                paris montmorency corbeil mantes #Pays de France
+                chaumont_vexin beauvais senlis crepy #Beauvaisis
+                chartres auneau #Chartres
+                brie_comte_robert melun nemours #Gatinais
+                meaux provins nogent_sur_seine #Brie Champenoise
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = paris
+        }
+
+        #Lyon
+        LYN = {
+            own_control_core = {
+                lyon riverie #Lyon
+                perreux beaujeu trevoux #Beaujolais
+                macon #Autunnais
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = lyon
+        }
+
+        #Viviers
+        VIV = {
+            own_control_core = {
+                viviers le_puy chalancon #Vivarais
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = viviers
+        }
+
+        #Clermont
+        CMT = {
+            own_control_core = {
+                riom clermont allegre brioude vodable #Lower-Auvergne
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = clermont
+        }
+
+        #Combraille
+        CMT = {
+            own_control_core = {
+                tour_auvergne herment chambon montaigut #Combraille
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = herment
+        }
+
+        #Châteauroux
+        CEX = {
+            own_control_core = {
+                chateauroux lignieres boussac #Lower-Berry
+                brosse #La Marche
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = chateauroux
+        }
+
+        #Touraine
+        TNE = {
+            own_control_core = {
+                tours amboise loches chinon chatillon_sur_indre #Touraine
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = tours
+        }
+
+        #Amiens
+        AMI = {
+            own_control_core = {
+                amiens breteuil corbie #Amienois
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = amiens
+        }
+
+        #Vermandois
+        VRM = {
+            own_control_core = {
+                saint_quentin peronne nesle #Vermandois
+				clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = saint_quentin
+        }
+
+        #Soissons
+        SSN = {
+            own_control_core = {
+                soissons braine noyon coucy laon #Soissonnais
+                chateau_thierry broyes #Brie Champenoise
+                guise hirson marle ribemont #Thiérache
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+			}
+
+            capital = soissons
+        }
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
 }
