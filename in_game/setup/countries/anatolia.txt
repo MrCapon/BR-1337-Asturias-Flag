@@ -243,8 +243,7 @@ TRE = {
 }
 
 TUR = {
-	color = map_ottomans
-	color2 = rgb { 126 203 120 } #same as in EU4
+	color = rgb { 95 125 180 }
 
 	unit_color0 = rgb {	175 40 40 }
 	unit_color1 = rgb {	76 78 114 }
