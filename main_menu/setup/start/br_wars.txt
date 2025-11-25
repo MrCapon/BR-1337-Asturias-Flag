@@ -1,0 +1,97 @@
+war_manager = {
+	civil_war = {
+		war_name = {
+			name = "CIVIL_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "BYZ"
+			}
+			SECOND = {
+				name="ANA"
+			}
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = ANA
+			request = {
+				reason = Instigator
+			}
+		}
+		attacker = {
+			country = CIL
+			request = {
+				caller = ANA
+				reason = Subject
+			}
+		}
+		attacker = {
+			country = KAP
+			request = {
+				caller = ANA
+				reason = Subject
+			}
+		}
+		attacker = {
+			country = BUL
+			request = {
+				caller = ANA
+				reason = Scripted
+				which = alliance
+			}
+		}
+	#	attacker = {
+	#		country = TRE
+	#		request = {
+	#			caller = ANA
+	#			reason = Scripted
+	#			which = alliance
+	#		}
+	#	}
+		#Team 2
+		defender = {
+			country = BYZ
+			request = {
+				reason = Target
+			}
+		}
+		defender = {
+			country = THE
+			request = {
+				caller = BYZ
+				reason = Subject
+			}
+		}
+		defender = {
+			country = THS
+			request = {
+				caller = THE
+				reason = Subject
+			}
+		}
+		defender = {
+			country = ATH
+			request = {
+				caller = BYZ
+				reason = Subject
+			}
+		}
+		defender = {
+			country = MOE
+			request = {
+				caller = ATH
+				reason = Subject
+			}
+		}
+		defender = {
+			country = ACH
+			request = {
+				caller = ATH
+				reason = Subject
+			}
+		}
+	}
+
+}
