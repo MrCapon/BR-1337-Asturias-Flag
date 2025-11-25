@@ -383,6 +383,7 @@ diplomacy_manager = {
     dependency = { first = EPI second = THP subject_type = vassal } #BR EDIT
     dependency = { first = EPI second = BR2 subject_type = dominion } #BR EDIT
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
+    dependency = { first = HUN second = CRO subject_type = dominion }
 
     #Persia/Mesopotamia
     dependency = { first = BIT second = HZN subject_type = vassal }
