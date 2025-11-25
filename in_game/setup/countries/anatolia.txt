@@ -243,7 +243,7 @@ TRE = {
 }
 
 TUR = {
-	color = rgb { 95 125 180 }
+	color = { 222  150  75 }
 
 	unit_color0 = rgb {	175 40 40 }
 	unit_color1 = rgb {	76 78 114 }
