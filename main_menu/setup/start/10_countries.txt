@@ -34667,6 +34667,7 @@ countries = {
 			own_control_core = {
 				saanen
 				gruyere
+				fribourg
 			}
 			starting_technology_level = 3
 			include = "expl_western_europe"
@@ -35396,6 +35397,7 @@ countries = {
 
 				#HAB
 				krumbach gunzburg wertingen #Margraviate of Burgau
+				oberkirch
 			}
 			
 			starting_technology_level = 3

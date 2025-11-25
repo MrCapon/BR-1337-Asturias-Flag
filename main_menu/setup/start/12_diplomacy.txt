@@ -379,14 +379,12 @@ diplomacy_manager = {
 
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }
-    scripted_oneway = { first = HUN second = HAB type = embargo_nation }
-    scripted_oneway = { first = POL second = HAB type = embargo_nation }
-    scripted_oneway = { first = BOH second = HAB type = embargo_nation }
     dependency = { first = EPI second = ANT subject_type = vassal } #BR EDIT
     dependency = { first = EPI second = THP subject_type = vassal } #BR EDIT
-    dependency = { first = HUN second = BOS subject_type = vassal }
+    dependency = { first = EPI second = BR2 subject_type = dominion } #BR EDIT
+    dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
 
-    #Anatolia
+    #Persia/Mesopotamia
     dependency = { first = BIT second = HZN subject_type = vassal }
     dependency = { first = BIT second = MUS subject_type = vassal }
     dependency = { first = TUR second = ARD subject_type = vassal }
