@@ -4855,6 +4855,13 @@ building_manager = {
 	stockade = { tag = BYZ level = 1 location = bursa }
 	stockade = { tag = BYZ level = 1 location = izmit }
 	stockade = { tag = BYZ level = 1 location = rodos }
+	stockade = { tag = BYZ level = 1 location = bozan }
+	stockade = { tag = BYZ level = 1 location = akcasehir }
+	stockade = { tag = BYZ level = 1 location = demotica }
+	stockade = { tag = BYZ level = 1 location = edessa }
+	stockade = { tag = BYZ level = 1 location = rentina }
+	stockade = { tag = BYZ level = 1 location = manavgat }
+	stockade = { tag = BYZ level = 1 location = mengen }
 	stockade = { tag = BYZ level = 1 location = gallipoli }
 	stockade = { tag = BYZ level = 1 location = karahisar_i_sahib }
 	stockade = { tag = BYZ level = 1 location = lazkiye }
