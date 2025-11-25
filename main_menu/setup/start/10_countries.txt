@@ -4104,10 +4104,10 @@ countries = {
 				
 				ruler = glh_giyas_al_din_mohammed_oz_beg_borjigin
 
-				centralization_vs_decentralization = 50
-				aristocracy_vs_plutocracy = -50
-				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -50
+				centralization_vs_decentralization = 75
+				aristocracy_vs_plutocracy = -75
+				serfdom_vs_free_subjects = -75
+				traditionalist_vs_innovative = -75
 				spiritualist_vs_humanist = 25
 				mercantilism_vs_free_trade = 25
 				offensive_vs_defensive = -75
@@ -4116,7 +4116,7 @@ countries = {
 				belligerent_vs_conciliatory = -75
 				capital_economy_vs_traditional_economy = 80
 				individualism_vs_communalism = 25
-				outward_vs_inward = 25
+				outward_vs_inward = -25
 				
 				reforms = {
 					legacy_of_genghis
@@ -4151,6 +4151,9 @@ countries = {
 			
 			currency_data = {
 				gold = 500
+				stability = 75
+				prestige = 50
+				army_tradition = 100
 			}
 
 			accepted_cultures = {
@@ -12006,7 +12009,10 @@ countries = {
 			dynasty = venier_dynasty
 			dynasty = celsi_dynasty
 			
-			tolerated_cultures = { dalmatian }
+			accepted_cultures = {
+				latinoi dalmatian
+			}
+			#tolerated_cultures = { dalmatian }
 			
 			
 			variables = {
@@ -12429,9 +12435,11 @@ countries = {
 				}
 			}
 			
+			accepted_cultures = {
+				aromanian 
+			}
 			tolerated_cultures = {
-				albanian
-				aromanian
+				albanian latinoi
 			}
 			
 			country_rank = rank_duchy
@@ -12528,7 +12536,7 @@ countries = {
 				ruler_term = { character = ths_stefanos_gabrielopoulos start_date = 1318.1.1 end_date = 1332.1.1 regnal_number = 1 }
 				
 				ruler_term = { character = cep_john_orsini start_date = 1332.1.1 end_date = 1335.1.1 regnal_number = 3 }
-				ruler_term = { character = epi_nikephoros_ii_orsini start_date = 1335.1.1 end_date = 1336.1.1 regnal_number = 1 }
+				ruler_term = { character = epi_nikephoros_ii_orsini start_date = 1335.1.1 regnal_number = 1 }
 				
 				regnal_numbers = {
 					name_emmanuel = 1
@@ -12657,54 +12665,59 @@ countries = {
 			
 			}
 			our_cores_conquered_by_others = {
-				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
-				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-				
-				#Vardar Province - lost in 1285
-				kocani strumica
-				
-				#Prilep Province
-				kicevo prilep bitola ohrid florina tetovo
-				
-				#Albania Province - lost in late 1272
-				elbasan tirana kruje debar durres
-				
-				#Bolu Province - partially lost in 1304
-				akcasehir konrapa akyazi
-				
-				#BR ADDED
-				#Thessaly
-				demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos karditsa grevena
-				
-				#NEO
-				neopatras zetounion
-				
-				#BOD
-				bodonitsa
-				
-				#ATH
-				gravia athens megara thebes atalanti livadeia
-				
-				#NEG
-				negroponte kleisoura karystos kymi oreos eretreia
-				
-				#AHI
-				ankara cubuk haymana kalecik polatli karakecili
-				
-				#KAR
+				#ANA
 				aksaray kochisar insuyu
 				kirsehir nevsehir sariyahsi
 				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
 				bekarlar bor_tur nigde
 				beysehir aksehir bolvadin sarkikaraagac seydisehir
 				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-				
+				ankara cubuk haymana kalecik polatli karakecili
+				bozok baliseyh candir dinek_keskin sorgun
+				hacibektas
+				corum huseyinabad sungurlu
+				akdagmadeni aydincik koyulhisar sulusaray tokat zile
+				yalvac
+				#THE
+				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
+				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama
+				ostrovo
+				grevena siatista
+				#THS
+				demetrias farsala elassona larissa stomio trikala tyrnavos karditsa
+				neopatras zetounion
+				#ATH
+				athens megara thebes atalanti livadeia
+				corinth damala ermioni xylokastro
+				gravia
+				bodonitsa
+				salona
 				#MOE
 				tripolitsa veligosti karytaina
 				monemvasia mystras oitylo leuktron astros
-				
-				#ARG
 				argos nafplio
+				#ACH
+				damala ermioni kalamata kyparissia
+				andritsaina pontikokastro andravida corinth
+				chalandritsa patras vostitsa kalavryta xylokastro
+				#NEG
+				negroponte kleisoura karystos kymi oreos eretreia
+				#TRE
+				trebizond giresun gorele gumushane surmene
+				bayramlu unye
+				mesudiye
+				amasya niksar sonisa
+				akkus terme
+				gadegara ladik_pontus merzifon
+				samsun
+				bafra gerze
+				rize khupati
+				#PAF
+				bartin
+				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
+				cankiri bayat cerkes kursunlu tosya
+				safranbolu iskilip sabanozu ulus yenicepazari
+				gumus
 			}
 			
 			starting_technology_level = 3
@@ -12858,7 +12871,7 @@ countries = {
 				inflation = 0.1
 				war_exhaustion = 5
 			}
-			
+
 			tolerated_cultures = {
 				aromanian
 				anatolian_greek_culture
@@ -32207,6 +32220,11 @@ countries = {
 				outward_vs_inward = -60
 				mysticism_vs_jurisprudence = -25
 				
+				#reforms = {
+				#	legacy_of_osman
+				#	basic_timariot_system
+				#}
+
 				privilege = {
 					#Nobles
 					elaborate_court_ceremonies
@@ -32251,16 +32269,18 @@ countries = {
 			}
 			
 			country_rank = rank_kingdom
-			capital = tabriz #baghdad
+			capital = tabriz
 			court_language = persian_language
 			currency_data = {
 				gold = 1000
+				stability = 75
+				prestige = 50
+				army_tradition = 75
 			}
 			accepted_cultures = { turkoman_culture azeri_culture }
 			tolerated_cultures = {
 				iraqi_culture
 				adhari_culture
-				azeri_culture
 				kurdish_culture
 				armenian_culture
 				syriac_culture
@@ -50754,7 +50774,6 @@ countries = {
 		
 		PAF = {
 			own_control_core = {
-				
 				#CND
 				bartin
 				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
@@ -50930,6 +50949,9 @@ countries = {
 				matapeake
 				patuxent
 				chicamacomico
+			}
+			own_control_colony = {
+				
 			}
 
 			discovered_regions = {
