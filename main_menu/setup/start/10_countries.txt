@@ -11922,6 +11922,9 @@ countries = {
 			
 			own_control_integrated = {
 				corfu modon kythira andros mykonos amorgos karpathos
+				#CRO
+				sibenik kaseg knin novigrad crikvenica senj
+				krk makarska sinj
 			}
 			
 			include = "expl_mediterranean"
@@ -11977,18 +11980,17 @@ countries = {
 				}
 				
 				centralization_vs_decentralization = 25
-				aristocracy_vs_plutocracy = 40
-				serfdom_vs_free_subjects = 10
-				traditionalist_vs_innovative = 30
+				aristocracy_vs_plutocracy = 50
+				serfdom_vs_free_subjects = 15
+				traditionalist_vs_innovative = 35
 				spiritualist_vs_humanist = 80
 				mercantilism_vs_free_trade = -40
 				offensive_vs_defensive = 40
 				land_vs_naval = 60
-				quality_vs_quantity = -20
+				quality_vs_quantity = -40
 				belligerent_vs_conciliatory = -20
-				
-				capital_economy_vs_traditional_economy = -80
-				individualism_vs_communalism = -40
+				capital_economy_vs_traditional_economy = -85
+				individualism_vs_communalism = -50
 				outward_vs_inward = -60
 			}
 			
@@ -12029,7 +12031,7 @@ countries = {
 			#https://www.researchgate.net/publication/269643384_The_Venetian_Money_Market_Banks_Panics_and_the_Public_Debt_1200-1500
 			#https://www.jstor.org/stable/1882461
 			currency_data = {
-				gold = 2500
+				gold = 3000
 			}
 		}
 		
@@ -13062,12 +13064,13 @@ countries = {
 				krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
 				gradac zica trgoviste_SER sjenica velbuzd
 				arilje brvenik medveda
+				belgrad debrc sabac
 			}
 			own_control_integrated = {
 				koman has dukagjini lezha florina
 			}
 			our_cores_conquered_by_others = {
-				slano mostar konjic belgrad debrc sabac
+				slano mostar konjic
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -13284,11 +13287,18 @@ countries = {
 		
 		CRO = {
 			own_control_core = {
-				sibenik kaseg knin novigrad crikvenica senj
-				bihac krk makarska srb sinj otocac
+				#Banate of Croatia
+				bjelovar koprivnica kutina pakrac vaska virovitica
+				vukovar ilok pozega sremska_mitrovica petrovaradin
+				zagreb cakovec karlovac petrinja sisak slunj varazdin
+				gradiski_brod dubica
+				osijek
+				otocac srb bihac
 			}
 			our_cores_conquered_by_others = {
 				zadar split
+				sibenik kaseg knin novigrad crikvenica senj
+				krk makarska sinj
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -17753,7 +17763,6 @@ countries = {
 		
 		HUN = {	#Hungary
 			own_control_core = {
-				osijek
 				aiud hunedoara cincu
 				cristuru_secuiesc reghin
 				mezhorje sighet
@@ -17772,8 +17781,6 @@ countries = {
 				povazska_bystrica zilina
 				pancevo
 				kikinda titel modos
-				belgrad debrc sabac
-				gradiski_brod dubica
 				buda pest kalocsa felegyhaza
 				sopron vasvar magyarovar zalavar
 				veszprem gyor komarom fehervar esztergom
@@ -17796,10 +17803,6 @@ countries = {
 				kovin veliky_beckerek carasova mihalt
 				timisoara arad zarand
 				dabaca baia_crisului gurghiu
-				#Banate of Croatia
-				bjelovar koprivnica kutina pakrac vaska virovitica
-				vukovar ilok pozega sremska_mitrovica petrovaradin
-				zagreb cakovec karlovac petrinja sisak slunj varazdin
 			}
 			
 			own_control_integrated = {
@@ -50708,7 +50711,10 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
-				
+
+				reforms = {
+					autocracy
+				}
 				privilege = {
 					#nobles
 					noble_armies
