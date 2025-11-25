@@ -11,7 +11,7 @@
 	flag = ELY
 	adjective = ELY_ADJ
 	tag = ELY
-	color = color = rgb { 99 15 13 }
+	color = rgb { 99 15 13 }
 	
 	areas = {
 		massachusetts_area
