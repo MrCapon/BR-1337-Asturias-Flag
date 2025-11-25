@@ -35,7 +35,7 @@ international_organization_manager = {
 		# From France
 		PRC MIE AQN MDM MRC BRR TOU POI
 		BUR ALE AUV BGN BOU AUX SAN DRE VDM EVR ETA NRM ANJ ARS ANG BRI FOI AMG FRZ BAR BLS AST COM IJO MRT VLN PER TON MON AUM ROU FLA NEV RET NRB VNT RCC CLT
-		SSN VRM AMI STP ORL BER CEX TNE CMT LYN VIV GUY PAP
+		SSN VRM AMI STP ORL BER CEX TNE CMT LYN VIV GUY
 	}
 		leader = LOT
 		regions = { france_region }
@@ -90,7 +90,6 @@ international_organization_manager = {
 				TRI	# Trier
 				KOL # Cologne
 				MAI # Mainz
-				PAP
 		}
 		free_city = {
 			AAC BRM FRN GOS HAM KNZ MEM NUR REG ROT RVA ULM SYE LUB DTM AGC KMP WTZ WRM BRN BSC ZUR LDA SFC CFC MUL
@@ -118,19 +117,22 @@ international_organization_manager = {
 			BUR ALE AUV BGN BOU AUX SAN DRE VDM EVR ETA NRM ANJ ARS ANG BRI
 			FOI AMG FRZ BAR BLS AST AST COM IJO MRT VLN PER TON MON AUM ROU 
 			FLA NEV RET NRB VNT RCC CLT TOU POI
-			SSN VRM AMI STP ORL BER CEX TNE CMT LYN VIV GUY PAP
+			SSN VRM AMI STP ORL BER CEX TNE CMT LYN VIV GUY
 		}
 		
 		laws = {
 			hre_religion_catholic
 			only_imperial_religion_policy
-			no_golden_bull_policy
-			emperor_successor_preference_policy #BR Test lvl 4/5
-			manpower_from_cities #BR Test lvl 2/5
-			only_treasury_payment # BR Test no_monetary_contribution lvl 2/5
-			kaisertum_policy #BR Test lvl 2/5
-			cities_of_the_emperor_policy #BR Test lvl 4/5
-			empire_wide_free_cities_policy #BR Test lvl 3/3
+			golden_bull_policy #no_golden_bull_policy #BR required for the other laws.
+
+			#Set by effect at game start
+			#emperor_successor_preference_policy #BR Test lvl 4/5
+			#manpower_from_cities #BR Test lvl 2/5
+			#only_treasury_payment # BR Test no_monetary_contribution lvl 2/5
+			#kaisertum_policy #BR Test lvl 2/5
+			#cities_of_the_emperor_policy #BR Test lvl 4/5
+			#empire_wide_free_cities_policy #BR Test lvl 3/3
+			#landfriede_rank_4_policy #BR Test lvl 4/5
 		}
 
 		ruler_term = { character = ogk_otto_liudolfinger start_date = 962.2.2 end_date = 967.12.25 regnal_number = 1 }
@@ -172,11 +174,12 @@ international_organization_manager = {
 			character = ubv_ludwig_iv_wittelsbach start_date = 1314.10.20 end_date = 1322.9.28 regnal_number = 4
 			character = hab_friedrich_i_habsburg start_date = 1314.10.20 end_date = 1322.9.28 regnal_number = 1 # As Antiking
 		}
-		ruler_term = { character = ubv_ludwig_iv_wittelsbach start_date = 1322.9.28 regnal_number = 4 }
+		ruler_term = { character = ubv_ludwig_iv_wittelsbach start_date = 1322.9.28 end_date = 1324.9.28 regnal_number = 4 }
+		ruler_term = { character = fra_philip_vi_valois start_date = 1328.4.1 regnal_number = 6 }
 		#Great Interregnum will continue until Charles IV secures Succession for his son
 
 		variables = { 
-			imperial_authority = 5
+			imperial_authority = 100
 		}
 	}
 	

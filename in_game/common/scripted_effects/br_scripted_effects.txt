@@ -1,0 +1,22 @@
+﻿
+
+hre_setup_hre_variables = {
+	hidden_effect = {
+		international_organization:hre = {
+			set_variable = { name = hre_imperial_religion value = religion:catholic }
+			set_variable = { name = hre_imperial_religion_group value = religion_group:christian }
+			add_policy_to_international_organization = policy:electorate_policy
+			add_policy_to_international_organization = policy:only_imperial_religion_policy
+			add_policy_to_international_organization = policy:hre_agnatic_succession_policy
+			add_policy_to_international_organization = policy:no_perpetual_diet_policy
+			add_policy_to_international_organization = policy:kaisertum_policy
+			add_policy_to_international_organization = policy:hre_early_imperial_diet_policy #BR Test lvl 2/5
+			add_policy_to_international_organization = policy:emperor_successor_preference_policy #BR Test lvl 4/5
+			add_policy_to_international_organization = policy:manpower_from_cities #BR Test lvl 2/5
+			add_policy_to_international_organization = policy:only_treasury_payment # BR Test no_monetary_contribution lvl 2/5
+			add_policy_to_international_organization = policy:cities_of_the_emperor_policy #BR Test lvl 4/5
+			add_policy_to_international_organization = policy:empire_wide_free_cities_policy #BR Test lvl 3/3
+			add_policy_to_international_organization = policy:landfriede_rank_4_policy #BR Test lvl 4/5
+		}
+	}
+}
