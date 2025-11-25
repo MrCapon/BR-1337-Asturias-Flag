@@ -3699,7 +3699,7 @@ building_manager = {
 	stockade = { tag = BFN level = 1 location = dromahair }
 	stockade = { tag = CVN level = 1 location = cavan }
 	stockade = { tag = HYM level = 1 location = kilconnell }
-	stockade = { tag = ELY level = 1 location = moycarn }
+	stockade = { tag = EIL level = 1 location = moycarn }
 	stockade = { tag = CLR level = 1 location = galway }
 	stockade = { tag = CWM level = 1 location = castleconnell }
 	stockade = { tag = ULS level = 1 location = carrickfergus }

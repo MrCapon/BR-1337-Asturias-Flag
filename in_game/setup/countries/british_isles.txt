@@ -333,7 +333,7 @@ TGH = { # Tireragh
 	religion_definition = catholic
 }
 
-ELY = { # Ely
+EIL = { # Ely
 	color = hsv360 { 105 43 51 }
 	color2 = rgb { 16 41 202 }
 	

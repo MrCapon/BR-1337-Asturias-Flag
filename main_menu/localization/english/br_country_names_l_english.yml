@@ -40,6 +40,8 @@
  
  HBA: "Hiberna"
  HBA_ADJ: "Irish"
+ EIL: "Ely"
+ EIL_ADJ: "Ely"
 
  # Scandinavia
  ZEA: "Zealand"
@@ -84,6 +86,7 @@
  SSN_ADJ: "Soissons"
 
 #Elysium
+ ELY_f: "$ELY$"
  E1Y: "Elysium"
  E1Y_ADJ: "Elysium"
  E2Y: "Elysia"

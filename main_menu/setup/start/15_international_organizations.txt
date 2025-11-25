@@ -287,7 +287,7 @@ international_organization_manager = {
 		members = { 
 			#PLE
 			#
-		 	CLA MCM BEA TYR LEI TRY OIL CMA OSS FMA BFN UMH THO SLN FLY CNN HYM ANN KEE IVG IMA TGH FCL ELY CVN AMH
+		 	CLA MCM BEA TYR LEI TRY OIL CMA OSS FMA BFN UMH THO SLN FLY CNN HYM ANN KEE IVG IMA TGH FCL EIL CVN AMH
 		}
 		regions = { ireland_region }
 		areas = { }
@@ -339,7 +339,7 @@ international_organization_manager = {
 			# bishop
 			AMA
 			# gaelic			
-		 	#CLA MCM BEA TYR LEI TRY OIL CMA OSS FMA BFN UMH THO SLN FLY ARD CNN HYM ANN KEE IVG IMA TGH FCL ELY	CVN AMH
+		 	#CLA MCM BEA TYR LEI TRY OIL CMA OSS FMA BFN UMH THO SLN FLY ARD CNN HYM ANN KEE IVG IMA TGH FCL EIL CVN AMH
 		}
 		lord_of_ireland = { HBA }
 		lieutenant = {  } # was not one of the Earls in 1337

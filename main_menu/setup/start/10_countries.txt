@@ -5498,7 +5498,7 @@ countries = {
 			}
 			capital = athlone
 		}
-		ELY = {
+		EIL = {
 			# Ely
 			own_control_core = {
 				moycarn # Birr
