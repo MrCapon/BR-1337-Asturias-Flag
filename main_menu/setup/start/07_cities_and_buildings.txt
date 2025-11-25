@@ -4652,8 +4652,11 @@ building_manager = {
 	nobles_recruitment_center = { tag = EPI level = 1 location = ioannina }
 	noble_villa = { tag = EPI level = 1 location = arta }
 	peasants_training_grounds = { tag = MOE level = 1 location = tripolitsa }
+	parish_church = { tag = MOE level = 1 location = tripolitsa }
 	peasants_training_grounds = { tag = MOE level = 1 location = mystras }
+	parish_church = { tag = MOE level = 1 location = mystras }
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
+	parish_church = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 	peasants_hunting_grounds  = { tag = MOE level = 1 location = karytaina }
 	peasants_hunting_grounds  = { tag = EPI level = 1 location = pyli }
@@ -4905,6 +4908,8 @@ building_manager = {
 	settlement_building = { tag = E1Y level = 1 location =  wicontiss }
 	settlement_building = { tag = E1Y level = 1 location =  patuxent }
 	settlement_building = { tag = E1Y level = 1 location =  chicamacomico }
+	parish_church = { tag = E1Y level = 1 location = matapeake }
+	parish_church = { tag = E1Y level = 1 location = patapsco }
 
 	forest_village = { tag = E2Y level = 1 location =  anacostia }
 	forest_village = { tag = E2Y level = 1 location =  monocacy }
@@ -4917,6 +4922,8 @@ building_manager = {
 	settlement_building = { tag = E2Y level = 1 location =  wicontiss }
 	settlement_building = { tag = E2Y level = 1 location =  potapoco }
 	settlement_building = { tag = E2Y level = 1 location =  chicamacomico }
+	parish_church = { tag = E2Y level = 1 location = doeg }
+	parish_church = { tag = E2Y level = 1 location = tripolitsa }
 
 	
 }
