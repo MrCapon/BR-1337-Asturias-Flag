@@ -1,0 +1,273 @@
+locations = {
+	####---------- Vinland ----------####
+	#--
+	
+	
+	####---------- Haudenosauneega ----------####
+	canajoharie = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
+	
+	
+	####---------- Tsenacommacah ----------####
+	patapsco = {
+		rank = town
+		town_setup = greek_town_port
+	}
+	
+	
+	####---------- Cahokia ----------####
+	cahokia = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
+	
+	
+	####---------- Aridoamerica ----------####
+	ialophaybo = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
+	
+	
+	####---------- Mesoamerica ----------####
+	azcapotzalco = {
+		rank = city
+		town_setup = mexican_city
+	}
+	tenochtitlan = {
+		rank = city
+		town_setup = mexican_city
+	}
+	tlacopan = {
+		rank = city
+		town_setup = mexican_city
+	}
+	tetzcoco = {
+		rank = city
+		town_setup = mexican_city
+	}
+	patzcuaro = {
+		rank = town
+		town_setup = mexican_town
+	}
+	tzintzuntzan = {
+		rank = town
+		town_setup = mexican_town
+	}
+	yucucui = {
+		rank = town
+		town_setup = mexican_town
+	}
+	mictlan = {
+		rank = town
+		town_setup = mexican_town
+	}
+	
+	zaachila = {
+		rank = town
+		town_setup = mexican_town
+	}
+	kuskatan = {
+		rank = town
+		town_setup = mexican_town
+	}
+	
+	
+	####---------- Yucatan ----------####
+	mayapan = {
+		rank = city
+		town_setup = yucatan_town
+	}
+	mani = {
+		rank = city
+		town_setup = yucatan_town
+	}
+	chakan_putum = {
+		rank = city
+		town_setup = yucatan_town
+	}
+	noh_peten = {
+		rank = city
+		town_setup = yucatan_town
+	}
+	pismachi = {
+		rank = city
+		town_setup = yucatan_town
+	}
+	
+	
+	####---------- Colombia ----------####
+	teyuna = {
+		rank = town
+		town_setup = andes_town
+	}
+	chunsua = {
+		rank = town
+		town_setup = andes_town
+	}
+	
+	####---------- Andes ----------####
+	tantaricuy = {
+		rank = town
+		town_setup = andes_town
+	}
+	xllang = {
+		rank = town
+		town_setup = andes_town
+	}
+	ishma = {
+		rank = town
+		town_setup = andes_town
+	}
+	allpas = {
+		rank = town
+		town_setup = andes_town
+	}
+	huaman_karpa = {
+		rank = town
+		town_setup = andes_town
+	}
+	chinchay = {
+		rank = town
+		town_setup = andes_town
+	}
+	qusqu = {
+		rank = town
+		town_setup = andes_town
+	}
+	charka = {
+		rank = town
+		town_setup = andes_town
+	}
+	malacatos = {
+		rank = town
+		town_setup = andes_town
+	}
+	markahuamachuco = {
+		rank = town
+		town_setup = andes_town
+	}
+	cantamarca = {
+		rank = town
+		town_setup = andes_town
+	}
+	ayaviri = {
+		rank = town
+		town_setup = andes_town
+	}
+	cangochamba = {
+		rank = town
+		town_setup = andes_town
+	}
+	huarco = {
+		rank = town
+		town_setup = andes_town
+	}
+	calvas = {
+		rank = town
+		town_setup = andes_town
+	}
+	hatunqulla = {
+		rank = city
+		town_setup = andes_city
+	}
+	chucuito = {
+		rank = city
+		town_setup = andes_city
+	}
+	sana = {
+		rank = city
+		town_setup = andes_city
+	}
+	chan_chan = {
+		rank = city
+		town_setup = andes_city
+	}
+}
+
+building_manager = {
+	####---------- Vinland ----------####
+	#--
+	
+	
+	####---------- Haudenosauneega ----------####
+	#--
+	
+	
+	####---------- Tsenacommacah ----------####
+	# E1Y - Elysium North
+	tannery = { tag = E1Y level = 1 location = patapsco }
+	cloth_guild = { tag = E1Y level = 1 location = patapsco }
+	furniture_guild = { tag = E1Y level = 1 location = patapsco }
+	tools_guild = { tag = E1Y level = 1 location = patapsco }
+	#weapon_guild = { tag = E1Y level = 1 location =  patapsco }
+	wharf = { tag = E1Y level = 1 location = patapsco }
+	#brewery = { tag = E1Y level = 1 location =  patapsco }
+	glass_guild = { tag = E1Y level = 1 location = patapsco }
+	paper_guild = { tag = E1Y level = 1 location = patapsco }
+	naval_supplies_guild = { tag = E1Y level = 1 location = patapsco }
+	mason = { tag = E1Y level = 1 location = patapsco }
+	slave_market = { tag = E1Y level = 1 location = patapsco }
+	lumber_mill = { tag = E1Y level = 1 location = patapsco }
+	forest_village = { tag = E1Y level = 1 location = nentego }
+	forest_village = { tag = E1Y level = 1 location = wicontiss }
+	fishing_village = { tag = E1Y level = 1 location = patuxent }
+	fishing_village = { tag = E1Y level = 1 location = chicamacomico }
+	market_village = { tag = E1Y level = 1 location = matapeake }
+	rural_clothmaker = { tag = E1Y level = 1 location = matapeake }
+	tar_kiln = { tag = E1Y level = 1 location = matapeake }
+	clay_pit = { tag = E1Y level = 1 location = matapeake }
+	settlement_building = { tag = E1Y level = 1 location = matapeake }
+	settlement_building = { tag = E1Y level = 1 location = nentego }
+	settlement_building = { tag = E1Y level = 1 location = wicontiss }
+	settlement_building = { tag = E1Y level = 1 location = patuxent }
+	settlement_building = { tag = E1Y level = 1 location = chicamacomico }
+	parish_church = { tag = E1Y level = 1 location = matapeake }
+	parish_church = { tag = E1Y level = 1 location = patapsco }
+	
+	# E2Y - Elysium South
+	forest_village = { tag = E2Y level = 1 location = anacostia }
+	forest_village = { tag = E2Y level = 1 location = monocacy }
+	fishing_village = { tag = E2Y level = 1 location = potapoco }
+	fishing_village = { tag = E2Y level = 1 location = patawomeck }
+	market_village = { tag = E2Y level = 1 location = doeg }
+	rural_clothmaker = { tag = E2Y level = 1 location = doeg }
+	settlement_building = { tag = E2Y level = 1 location = doeg }
+	settlement_building = { tag = E2Y level = 1 location = patawomeck }
+	settlement_building = { tag = E2Y level = 1 location = wicontiss }
+	settlement_building = { tag = E2Y level = 1 location = potapoco }
+	settlement_building = { tag = E2Y level = 1 location = chicamacomico }
+	parish_church = { tag = E2Y level = 1 location = doeg }
+	parish_church = { tag = E2Y level = 1 location = tripolitsa }
+	
+	
+	####---------- Cahokia ----------####
+	#--
+	
+	
+	####---------- Aridoamerica ----------####
+	#--
+	
+	
+	####---------- Mesoamerica ----------####
+	# TNC
+	calmecac = { tag = TNC level = 1 location = tenochtitlan }
+	telpochcalli = { tag = TNC level = 1 location = tenochtitlan }
+	warrior_temple = { tag = TNC level = 1 location = tenochtitlan }
+	
+	
+	####---------- Yucatan ----------####
+	#--
+	
+	
+	####---------- Colombia ----------####
+	#--
+	
+	
+	####---------- Andes ----------####
+	#--
+	
+	
+}
