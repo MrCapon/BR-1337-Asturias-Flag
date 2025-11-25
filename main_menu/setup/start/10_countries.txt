@@ -51080,7 +51080,7 @@ countries = {
                 }
             }
 
-			country_rank = rank_duchy
+			country_rank = rank_kingdom
             capital = paris
         }
 
