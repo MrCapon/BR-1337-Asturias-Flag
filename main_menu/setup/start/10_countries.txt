@@ -14482,19 +14482,11 @@ countries = {
                 }
             }
 
-
-            tolerated_cultures = {
-                arpitan
-                languedocien
-                picard
-                gascon
-                burgundian
-                auvergnat
+			accepted_cultures = {
+				lorrain
                 champenais
-                limousin
-                poitevin
-                saintongeais
-                berrichon
+			}
+            tolerated_cultures = {
             }
 
             country_rank = rank_kingdom
