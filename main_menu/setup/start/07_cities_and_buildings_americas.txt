@@ -270,18 +270,18 @@ building_manager = {
 	
 	# E2Y - Elysium South
 	forest_village = { tag = E2Y level = 1 location = anacostia }
-	forest_village = { tag = E2Y level = 1 location = monocacy }
-	fishing_village = { tag = E2Y level = 1 location = potapoco }
-	fishing_village = { tag = E2Y level = 1 location = patawomeck }
-	market_village = { tag = E2Y level = 1 location = doeg }
-	rural_clothmaker = { tag = E2Y level = 1 location = doeg }
-	settlement_building = { tag = E2Y level = 1 location = doeg }
-	settlement_building = { tag = E2Y level = 1 location = patawomeck }
-	settlement_building = { tag = E2Y level = 1 location = wicontiss }
-	settlement_building = { tag = E2Y level = 1 location = potapoco }
-	settlement_building = { tag = E2Y level = 1 location = chicamacomico }
-	parish_church = { tag = E2Y level = 1 location = doeg }
-	parish_church = { tag = E2Y level = 1 location = tripolitsa }
+	forest_village = { tag = E2Y level = 1 location = pamunkey }
+	fishing_village = { tag = E2Y level = 1 location = chesapeake }
+	fishing_village = { tag = E2Y level = 1 location = weyanock }
+	market_village = { tag = E2Y level = 1 location = nansemond }
+	rural_clothmaker = { tag = E2Y level = 1 location = nansemond }
+	settlement_building = { tag = E2Y level = 1 location = nansemond }
+	settlement_building = { tag = E2Y level = 1 location = weyanock }
+	settlement_building = { tag = E2Y level = 1 location = pamunkey }
+	settlement_building = { tag = E2Y level = 1 location = chesapeake }
+	settlement_building = { tag = E2Y level = 1 location = kiskiack }
+	parish_church = { tag = E2Y level = 1 location = nansemond }
+	parish_church = { tag = E2Y level = 1 location = kiskiack }
 	
 	####---------- Cahokia ----------####
 	#--
