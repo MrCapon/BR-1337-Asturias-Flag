@@ -97,8 +97,8 @@ locations={
 	ohrid = { rank = town 			town_setup = balkan_town }	
 	prizren = { rank = town 		town_setup = balkan_town }	
 	skopje = { rank = town 			town_setup = balkan_town }	
-	dubrovnik = { rank = town 		town_setup = balkan_town }	
-	knin = { rank = town 			town_setup = balkan_town }	
+	dubrovnik = { rank = town 		town_setup = italian_coastal_town }	
+	split = { rank = town 			town_setup = italian_coastal_town }	
 	rijeka = { rank = town 			town_setup = balkan_town }	
 	zagreb = { rank = town 			town_setup = balkan_town }	
 	
@@ -1961,7 +1961,7 @@ building_manager = {
 	
 	trade_office = { tag = VEN level = 1 location = rome }
 	trade_office = { tag = VEN level = 1 location = naples }
-	trade_office = { tag = VEN level = 1 location = dubrovnik }
+	trade_office = { tag = VEN level = 2 location = dubrovnik }
 	trade_office = { tag = VEN level = 1 location = smyrna }
 	trade_office = { tag = VEN level = 1 location = constantinople }
 	trade_office = { tag = VEN level = 1 location = ismail }
@@ -1978,15 +1978,15 @@ building_manager = {
 	trade_office = { tag = VEN level = 1 location = thessaloniki }
 	trade_office = { tag = VEN level = 1 location = gallipoli }
 	trade_office = { tag = VEN level = 1 location = izmit }
-	trade_office = { tag = VEN level = 1 location = larnaca }
-	trade_office = { tag = VEN level = 1 location = candia }
+	trade_office = { tag = VEN level = 2 location = larnaca }
+	trade_office = { tag = VEN level = 2 location = candia }
 	trade_office = { tag = VEN level = 1 location = tarsus }
 
-	fondaco = { tag = VEN level = 1 location = dubrovnik }
-	fondaco = { tag = VEN level = 1 location = candia }
-	fondaco = { tag = VEN level = 1 location = larnaca }
-	fondaco = { tag = VEN level = 1 location = antioch }
-	fondaco = { tag = VEN level = 1 location = alexandria }
+	fondaco = { tag = VEN level = 2 location = dubrovnik }
+	fondaco = { tag = VEN level = 2 location = candia }
+	fondaco = { tag = VEN level = 2 location = larnaca }
+	fondaco = { tag = VEN level = 2 location = antioch }
+	fondaco = { tag = VEN level = 2 location = alexandria }
 
 
 
@@ -4477,6 +4477,12 @@ building_manager = {
 	market_village = { tag = GEO level = 1 location = anaklia }
 
 	#Italy
+	tar_kiln = { tag = VEN level = 1 location = pola }
+	tar_kiln = { tag = VEN level = 1 location = rovinj }
+	rural_clothmaker = { tag = VEN level = 1 location =  mestre }
+	rural_clothmaker = { tag = VEN level = 1 location =  zadar }
+	forest_village = { tag = VEN level = 1 location = novigrad }
+
 	market_village = { tag = VEN level = 1 location = corfu }
 	fishing_village = { tag = VEN level = 1 location = corfu }
 	market_village = { tag = CEP level = 1 location = cephalonia }
@@ -4503,8 +4509,8 @@ building_manager = {
 	market_village = { tag = CDC level = 1 location = cittacastello }
 	market_village = { tag = VEN level = 1 location = slano }
 	fishing_village = { tag = VEN level = 1 location = slano }
-	market_village = { tag = VEN level = 2 location = split }
-	fishing_village = { tag = VEN level = 1 location = split }
+	#market_village = { tag = VEN level = 1 location = split }
+	#fishing_village = { tag = VEN level = 1 location = split }
 	market_village = { tag = VEN level = 1 location = brac }
 	fishing_village = { tag = VEN level = 1 location = brac }
 	market_village = { tag = VEN level = 2 location = zadar }
