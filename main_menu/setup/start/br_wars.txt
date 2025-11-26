@@ -34,22 +34,6 @@ war_manager = {
 				reason = Subject
 			}
 		}
-		attacker = {
-			country = BUL
-			request = {
-				caller = ANA
-				reason = Scripted
-				which = alliance
-			}
-		}
-	#	attacker = {
-	#		country = TRE
-	#		request = {
-	#			caller = ANA
-	#			reason = Scripted
-	#			which = alliance
-	#		}
-	#	}
 		#Team 2
 		defender = {
 			country = BYZ
