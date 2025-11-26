@@ -470,116 +470,147 @@ countries = {
 		####---------- Haudenosauneega ----------####
 		#Mohawk/Kanien'kehaka
 		KKA = {
-			
 			own_control_core = {
 				canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
 			}
 			
-			starting_technology_level = 0
+			capital = canajoharie
 			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
+			court_language = haudenosaunee_language
 			government = {
 				ruler = random
 			}
-			capital = canajoharie
-			
 			currency_data = {
 				gold = 100
 				stability = 33
 				tribal_cohesion = 90
 			}
+			
+			include = "expl_new_england"
+			include = "expl_american_great_lakes"
 		}
 		
 		#Oneida/Onyotaaka
 		ONY = {
-			
 			own_control_core = {
 				onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
 			}
 			
-			starting_technology_level = 0
+			capital = onenioteke
 			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
+			court_language = haudenosaunee_language
 			government = {
 				ruler = random
 			}
-			capital = onenioteke
-			
 			currency_data = {
 				gold = 100
 				stability = 33
 				tribal_cohesion = 90
 			}
+			
+			include = "expl_new_england"
+			include = "expl_american_great_lakes"
 		}
 		
 		#Onondaga/Onondagega
 		ONO = {
-			
 			own_control_core = {
 				tsikahiotsisto otsiningo oswego
 			}
 			
-			starting_technology_level = 0
-			include = "expl_amerindian_east_coast"
+			capital = tsikahiotsisto
 			include = "haudenosaunee_tribe"
+			court_language = haudenosaunee_language
 			government = {
 				ruler = random
 			}
-			capital = tsikahiotsisto
-			
 			currency_data = {
 				gold = 100
 				stability = 33
 				tribal_cohesion = 90
 			}
+			
+			include = "expl_new_england"
+			include = "expl_american_great_lakes"
 		}
 		
 		#Cayuga/Gayogohono
 		GYO = {
-			
 			own_control_core = {
 				skaniatares assorodus gahato
 			}
 			
-			starting_technology_level = 0
-			include = "expl_amerindian_east_coast"
+			capital = skaniatares
 			include = "haudenosaunee_tribe"
+			court_language = haudenosaunee_language
 			government = {
 				ruler = random
 			}
-			capital = skaniatares
-			
 			currency_data = {
 				gold = 100
 				stability = 33
 				tribal_cohesion = 90
 			}
+			
+			include = "expl_new_england"
+			include = "expl_american_great_lakes"
 		}
 		
 		#Seneca/Onondowaga
 		ONN = {
-			
 			own_control_core = {
 				canadaigua geneseo tsonentsiio irondequoit
 			}
 			
-			starting_technology_level = 0
+			capital = canadaigua
 			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
+			court_language = haudenosaunee_language
 			government = {
 				ruler = random
 			}
-			capital = canadaigua
-			
 			currency_data = {
 				gold = 100
 				stability = 33
 				tribal_cohesion = 90
 			}
+			
+			include = "expl_new_england"
+			include = "expl_american_great_lakes"
+		}
+		
+		#Wampanoag
+		WMG = {
+			own_control_core = {
+				assonet patuxet nauset nantucket
+			}
+			
+			capital = assonet
+			include = "woodlands_centralized_natives"
+			court_language = massachusett_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Ojibwe
+		OJI = {
+			own_control_core = {
+				pogamasing eskimanetigon mississagi baawitigong batchawana agawa_superior mackinac tahquamenon manistique ishpeming keweenaw ontonagon gaamiskwaabikaang chequamegon
+			}
+			
+			capital = keweenaw
+			include = "woodlands_centralized_natives"
+			court_language = anishinabe_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_american_great_lakes"
 		}
 		
 		#Cahokia Mississippian Site
-		#https://en.wikipedia.org/wiki/Cahokia
 		CHK = {
 			own_control_core = {
 				cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
@@ -2380,29 +2411,7 @@ countries = {
 			}
 		}
 		
-		#Wampanoag
-		#https://en.wikipedia.org/wiki/Wampanoag
-		WMG = {
-			type = pop
-			
-			add_pops_from_locations = {
-				assonet patuxet nauset nantucket
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
+		
 		
 		#Massachusett
 		#https://en.wikipedia.org/wiki/Massachusett
@@ -2532,54 +2541,6 @@ countries = {
 			
 			add_pops_from_locations = {
 				toniato gananoque cataraqui opinicon napanee kaniatarahontsi ahkwesasne_ny
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
-		
-		#Odawa
-		#https://en.wikipedia.org/wiki/Odawa
-		ODW = {
-			type = pop
-			
-			add_pops_from_locations = {
-				dehskan_ziibi menesetung saugeen nochemoweniing manitoulin cheboygan asiniike saganing
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
-		
-		#Ojibwe
-		#https://en.wikipedia.org/wiki/Ojibwe
-		OJI = {
-			type = pop
-			
-			add_pops_from_locations = {
-				pogamasing eskimanetigon mississagi baawitigong batchawana agawa_superior mackinac tahquamenon manistique ishpeming keweenaw ontonagon gaamiskwaabikaang chequamegon
 			}
 			
 			discovered_regions = {

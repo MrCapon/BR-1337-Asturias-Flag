@@ -3680,8 +3680,10 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.196	culture = onondowaga_culture	religion = iroquoian_totemism }
 	}
 	irondequoit = {
-		define_pop = {	type = peasants	size = 0.621	culture = onondowaga_culture	religion = iroquoian_totemism }
-		define_pop = {	type = tribesmen	size = 0.949	culture = onondowaga_culture	religion = iroquoian_totemism }
+		define_pop = {	type = nobles		size = 0.221	culture = onondowaga_culture	religion = iroquoian_totemism }
+		define_pop = {	type = clergy		size = 0.321	culture = onondowaga_culture	religion = iroquoian_totemism }
+		define_pop = {	type = peasants		size = 7.621	culture = onondowaga_culture	religion = iroquoian_totemism }
+		define_pop = {	type = tribesmen	size = 3.949	culture = onondowaga_culture	religion = iroquoian_totemism }
 	}
 	geneseo = {
 		define_pop = {	type = peasants	size = 1.467	culture = onondowaga_culture	religion = iroquoian_totemism }
@@ -5139,7 +5141,10 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.851	culture = mamaceqtaw_culture	religion = midewiwin_religion }
 	}
 	keweenaw = {
-		define_pop = {	type = tribesmen	size = 0.420	culture = ojibwe_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.327.	culture = ojibwe_culture	religion = midewiwin_religion }
+		define_pop = {	type = clergy		size = 0.559	culture = ojibwe_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.250	culture = ojibwe_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 13.261	culture = ojibwe_culture	religion = midewiwin_religion }
 	}
 	chicagon = {
 		define_pop = {	type = tribesmen	size = 0.841	culture = mamaceqtaw_culture	religion = midewiwin_religion }

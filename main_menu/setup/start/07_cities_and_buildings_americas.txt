@@ -4,6 +4,10 @@ locations = {
 		rank = town
 		town_setup = scandinavian_town
 	}
+	ingonish = {
+		rank = town
+		town_setup = scandinavian_town
+	}
 	
 	####---------- Canada ----------####
 	#--
@@ -12,7 +16,19 @@ locations = {
 	#--
 	
 	####---------- Haudenosauneega ----------####
+	irondequoit = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
 	canajoharie = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
+	keweenaw = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
+	assonet = {
 		rank = town
 		town_setup = south_east_woodlands_town
 	}
