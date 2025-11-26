@@ -1,7 +1,7 @@
 ﻿ELY = {
 	color = rgb { 99 15 13 }
 	
-	culture_definition = elysian_culture #Placeholder
+	culture_definition = photianoi #Placeholder
 	religion_definition = orthodox
 }
 
@@ -9,13 +9,13 @@
 E1Y = { #BR addition
 	color = rgb { 170 68 65 }
 
-	culture_definition = elysian_culture
+	culture_definition = aureliani
 	religion_definition = hellenism_religion
 }
 
 E2Y = { #BR addition
 	color = rgb { 140 68 85 }
 
-	culture_definition = elysian_culture #Placeholder
+	culture_definition = photianoi #Placeholder
 	religion_definition = orthodox #Placeholder
 }

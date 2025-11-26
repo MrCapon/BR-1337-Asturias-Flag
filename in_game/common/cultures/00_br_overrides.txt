@@ -1,0 +1,28 @@
+﻿REPLACE_OR_CREATE:romanyoti = {
+	language = romanyoti_dialect
+	
+	color = map_romanyoti
+	
+	tags = { jewish_gfx greek_gfx east_mediterranean_gfx mediterranean_gfx european_gfx }
+	
+	opinions = {
+		ashkenazi = kindred
+		beyte_yisrael = kindred
+		gurji = kindred
+		italki = kindred
+		kalimi = kindred
+		kochini = kindred
+		mizrahi = kindred
+		mustaarabi = kindred
+		qayfengi = kindred
+		sephardi = kindred
+		teimani = kindred
+	}
+	
+	culture_groups = {
+		jewish_group
+		greek_group
+	}
+	
+	use_patronym = yes
+}
