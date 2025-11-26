@@ -13814,7 +13814,6 @@ countries = {
 					feudal_nobility
 				}
 				privilege = {
-					
 					#burghers
 					land_of_commerce
 				}
@@ -14015,7 +14014,12 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
+			include = "expl_west_africa_muslim"
 			include = "muslim_monarchy"
+			discovered_areas = {
+				canary_islands_area
+				madeira_sea_area
+			}
 			
 			government = {
 				ruler = gra_yusuf_i_nasrid
@@ -48152,7 +48156,7 @@ countries = {
 				bedia anaklia batumi ozurgeti poti_caucasus tsalenjikha
 				kutaisi lentekhi skande shorapani tsageri tsesi ushguli vartsikhe
 				telavi alaverdi dusheti gremi omalo rustavi shatili
-				gagi kayen khunani jariekhi
+				gagi khunani jariekhi
 				hereti balakan bodbe khornabuji qakh
 			}
 			
@@ -48161,7 +48165,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
-				gardman shamkir
+				gardman shamkir spitak kayen
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48243,7 +48247,7 @@ countries = {
 		
 		AAI = { #Alastani #BR EDIT
 			own_control_core = {
-				akhalkalaki dmanisi kldekari lori spitak
+				akhalkalaki dmanisi kldekari lori
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48421,14 +48425,12 @@ countries = {
 		
 		ARM = { #Armenia #BR EDIT
 			own_control_core = {
-				yerevan bjni
-				ani kars kagizman
-				amberd artashavan igdir khor_virap kumayri surmali
-				hasankale
-				malazgirt hinis karakilise tekman tutak varto
-				erzurum tercan
+				yerevan igdir khor_virap
+				ani amberd artashavan kumayri
+				kars kagizman surmali
+				hasankale tekman
+				karakilise
 				bayazit
-				mus
 			}
 			
 			our_cores_conquered_by_others = {
@@ -48442,12 +48444,14 @@ countries = {
 				bahcesaray
 				maku nazok_olya qarahziaoddin siah_cheshmeh
 				gladzor
-				sotk
+				sotk bjni
 				julfa nakhchivan kapan_armenia goris tatev
 				goroz kashatagh shusha gandzasar haterk
 				van catak hosap tatvan
 				ahlat bargiri ercis
 				hizan bahcesaray bitlis
+				mus varto malazgirt hinis tutak
+				erzurum tercan
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48509,7 +48513,8 @@ countries = {
 		VDZ = { #Vayots Dzor
 			own_control_core = {
 				gladzor
-				sotk
+				sotk bjni
+				spitak kayen
 			}
 			
 			include = "expl_christian_caucasus"
@@ -50533,7 +50538,7 @@ countries = {
 				#ERE
 				kayseri develi tomarza yahyali bogazliyan
 				urgup
-				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
+				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara divrigi
 			}
 			
 			own_control_integrated = {
@@ -50616,20 +50621,13 @@ countries = {
 		
 		DER = {
 			own_control_core = {
-				#SUT
-				harput adakli keban palu
-				
-				#BIN
-				bingol genc
-				
-				#CEM
-				cemisgezek kuzucan pertek
-			}
-			
-			own_control_integrated = {
+				bingol 
+				mus 
+				varto malazgirt hinis tutak
 			}
 			
 			our_cores_conquered_by_others = {
+				hizan bahcesaray bitlis kulp sason genc
 			}
 			
 			starting_technology_level = 3
@@ -50656,13 +50654,13 @@ countries = {
 			tolerated_cultures = {
 			}
 			
-			capital = palu
+			capital = mus
 		}
 		
 		KOG = {
 			own_control_core = {
-				#ERE
 				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+				erzurum tercan
 			}
 			
 			own_control_integrated = {
@@ -50700,15 +50698,18 @@ countries = {
 		
 		MES = {
 			own_control_core = {
-				#ERE
-				divrigi arapgir egin arguvan
+				arapgir egin arguvan
 				malatya
+				genc
+				harput adakli keban palu
+				cemisgezek kuzucan pertek
 			}
 			
 			own_control_integrated = {
 			}
 			
 			our_cores_conquered_by_others = {
+				divrigi
 			}
 			
 			starting_technology_level = 3
@@ -50735,7 +50736,7 @@ countries = {
 			tolerated_cultures = {
 			}
 			
-			capital = arguvan
+			capital = malatya
 		}
 		
 		VAN = {

@@ -3808,14 +3808,11 @@ building_manager = {
 	stockade = { tag = HSN level = 1 location = savur }
 	stockade = { tag = HSN level = 1 location = hasankeyf }
 	stockade = { tag = TUR level = 1 location = palu }
-	stockade = { tag = TUR level = 1 location = bargiri }
 	stockade = { tag = TUR level = 1 location = diyarbekir }
 	stockade = { tag = TUR level = 1 location = mosul }
 	stockade = { tag = BHT level = 1 location = cizre }
-	stockade = { tag = DER level = 1 location = bingol }
 	stockade = { tag = DER level = 1 location = cemisgezek }
-	stockade = { tag = BIT level = 1 location = bitlis }
-	stockade = { tag = BIT level = 1 location = tatvan }
+	stockade = { tag = ARM level = 1 location = mus }
 	stockade = { tag = DMB level = 1 location = akre }
 	stockade = { tag = DSN level = 1 location = duhok }
 	stockade = { tag = EGL level = 1 location = sivrice }
@@ -3824,9 +3821,7 @@ building_manager = {
 	stockade = { tag = HZN level = 1 location = hizan }
 	stockade = { tag = HZR level = 1 location = hazro }
 	stockade = { tag = HZR level = 1 location = kulp }
-	stockade = { tag = JLM level = 1 location = van }
-	stockade = { tag = JLM level = 1 location = bahcesaray }
-	stockade = { tag = JLM level = 1 location = baskale }
+	stockade = { tag = VAN level = 1 location = van }
 	stockade = { tag = MZJ level = 1 location = erbil }
 	stockade = { tag = MUS level = 1 location = mus }
 	stockade = { tag = SOH level = 1 location = rawanduz }
@@ -4465,7 +4460,10 @@ building_manager = {
 	market_village = { tag = ARM level = 1 location = karakilise }
 	market_village = { tag = ARM level = 1 location = tercan }
 	market_village = { tag = ARM level = 1 location = surmali }
-	market_village = { tag = ARM level = 1 location = yerevan }
+	market_village = { tag = ARM level = 2 location = yerevan }
+	market_village = { tag = ARM level = 1 location = hasankale }
+	forest_village = { tag = ARM level = 1 location = bayazit }
+	market_village = { tag = DER level = 2 location = mus }
 	market_village = { tag = KCN level = 1 location = gandzasar }
 	market_village = { tag = SYU level = 1 location = kapan_armenia }
 	market_village = { tag = ATZ level = 1 location = maku }
@@ -4475,6 +4473,22 @@ building_manager = {
 	market_village = { tag = GEO level = 1 location = surmali }
 	market_village = { tag = GEO level = 1 location = kutaisi }
 	market_village = { tag = GEO level = 1 location = anaklia }
+	market_village = { tag = GEO level = 1 location = rustavi }
+	market_village = { tag = GEO level = 1 location = khunani }
+	fishing_village = { tag = GEO level = 1 location = poti_caucasus }
+	fishing_village = { tag = GEO level = 1 location = batumi }
+	forest_village = { tag = GEO level = 1 location = sukhumi }
+	forest_village = { tag = GEO level = 1 location = omalo }
+	forest_village = { tag = GEO level = 1 location = qakh }
+	fishing_village = { tag = TRE level = 1 location = gerze }
+	fishing_village = { tag = TRE level = 1 location = samsun }
+	fishing_village = { tag = TRE level = 1 location = unye }
+	fishing_village = { tag = TRE level = 1 location = giresun }
+	fishing_village = { tag = TRE level = 1 location = rize }
+	forest_village = { tag = PAF level = 1 location = ulus }
+	forest_village = { tag = PAF level = 1 location = gumus }
+	forest_village = { tag = KAP level = 1 location = divrigi }
+	market_village = { tag = KAP level = 1 location = urgup }
 
 	#Italy
 	tar_kiln = { tag = VEN level = 1 location = pola }
