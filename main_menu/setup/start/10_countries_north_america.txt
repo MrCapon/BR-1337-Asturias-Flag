@@ -1,7 +1,7 @@
 countries = {
 	countries = {
 		
-		#------------------- Vinland -------------
+		####---------- Vinland ----------####
 		NRV = {
 			own_control_core = {
 				belle_isle
@@ -122,7 +122,7 @@ countries = {
 		}
 		
 		
-		#------------------- Canada -------------
+		####---------- Canada ----------####
 		#Taontaenrat - TRT
 		TRT = { #??
 			type = pop
@@ -463,11 +463,178 @@ countries = {
 		}
 		
 		
-		#------------------- Alaska -------------
+		####---------- Alaska ----------####
+		#--
 		
 		
+		####---------- Haudenosauneega ----------####
+		#Mohawk/Kanien'kehaka
+		KKA = {
+			
+			own_control_core = {
+				canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
+			}
+			
+			starting_technology_level = 0
+			include = "haudenosaunee_tribe"
+			include = "expl_amerindian_east_coast"
+			government = {
+				ruler = random
+			}
+			capital = canajoharie
+			
+			currency_data = {
+				gold = 100
+				stability = 33
+				tribal_cohesion = 90
+			}
+		}
 		
-		#------------------- Eastern Woodlands -------------
+		#Oneida/Onyotaaka
+		ONY = {
+			
+			own_control_core = {
+				onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
+			}
+			
+			starting_technology_level = 0
+			include = "haudenosaunee_tribe"
+			include = "expl_amerindian_east_coast"
+			government = {
+				ruler = random
+			}
+			capital = onenioteke
+			
+			currency_data = {
+				gold = 100
+				stability = 33
+				tribal_cohesion = 90
+			}
+		}
+		
+		#Onondaga/Onondagega
+		ONO = {
+			
+			own_control_core = {
+				tsikahiotsisto otsiningo oswego
+			}
+			
+			starting_technology_level = 0
+			include = "expl_amerindian_east_coast"
+			include = "haudenosaunee_tribe"
+			government = {
+				ruler = random
+			}
+			capital = tsikahiotsisto
+			
+			currency_data = {
+				gold = 100
+				stability = 33
+				tribal_cohesion = 90
+			}
+		}
+		
+		#Cayuga/Gayogohono
+		GYO = {
+			
+			own_control_core = {
+				skaniatares assorodus gahato
+			}
+			
+			starting_technology_level = 0
+			include = "expl_amerindian_east_coast"
+			include = "haudenosaunee_tribe"
+			government = {
+				ruler = random
+			}
+			capital = skaniatares
+			
+			currency_data = {
+				gold = 100
+				stability = 33
+				tribal_cohesion = 90
+			}
+		}
+		
+		#Seneca/Onondowaga
+		ONN = {
+			
+			own_control_core = {
+				canadaigua geneseo tsonentsiio irondequoit
+			}
+			
+			starting_technology_level = 0
+			include = "haudenosaunee_tribe"
+			include = "expl_amerindian_east_coast"
+			government = {
+				ruler = random
+			}
+			capital = canadaigua
+			
+			currency_data = {
+				gold = 100
+				stability = 33
+				tribal_cohesion = 90
+			}
+		}
+		
+		
+		####---------- Tsenacommacah ----------####
+		E1Y = {
+			own_control_core = {
+				patapsco
+				nentego
+				wicontiss
+				matapeake
+				patuxent
+				chicamacomico
+			}
+			
+			capital = patapsco
+			include = "elysian_foothold"
+			court_language = elysian_latin_dialect
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				piscataway_culture
+				nanticoke_culture
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		E2Y = {
+			own_control_core = {
+				nansemond
+				chesapeake
+				weyanock
+				kiskiack
+				pamunkey
+			}
+			
+			capital = nansemond
+			include = "elysian_foothold"
+			court_language = elysian_greek_dialect
+			country_rank = rank_duchy
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				nansemond_culture
+				powhatan_culture
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		
+		####---------- Eastern Woodlands Decentralized ----------####
 		#Coosa Paramount Chiefdom (De Soto)
 		COO = { #https://en.wikipedia.org/wiki/Coosa_chiefdom
 			type = pop
@@ -1311,116 +1478,6 @@ countries = {
 			include = "american_east_coast_tribe"
 			government = {
 				ruler = random
-			}
-		}
-		
-		#Mohawk/Kanien'kehaka
-		KKA = {
-			
-			own_control_core = {
-				canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
-			}
-			
-			starting_technology_level = 0
-			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
-			government = {
-				ruler = random
-			}
-			capital = canajoharie
-			
-			currency_data = {
-				gold = 100
-				stability = 33
-				tribal_cohesion = 90
-			}
-		}
-		
-		#Oneida/Onyotaaka
-		ONY = {
-			
-			own_control_core = {
-				onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
-			}
-			
-			starting_technology_level = 0
-			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
-			government = {
-				ruler = random
-			}
-			capital = onenioteke
-			
-			currency_data = {
-				gold = 100
-				stability = 33
-				tribal_cohesion = 90
-			}
-		}
-		
-		#Onondaga/Onondagega
-		ONO = {
-			
-			own_control_core = {
-				tsikahiotsisto otsiningo oswego
-			}
-			
-			starting_technology_level = 0
-			include = "expl_amerindian_east_coast"
-			include = "haudenosaunee_tribe"
-			government = {
-				ruler = random
-			}
-			capital = tsikahiotsisto
-			
-			currency_data = {
-				gold = 100
-				stability = 33
-				tribal_cohesion = 90
-			}
-		}
-		
-		#Cayuga/Gayogohono
-		GYO = {
-			
-			own_control_core = {
-				skaniatares assorodus gahato
-			}
-			
-			starting_technology_level = 0
-			include = "expl_amerindian_east_coast"
-			include = "haudenosaunee_tribe"
-			government = {
-				ruler = random
-			}
-			capital = skaniatares
-			
-			currency_data = {
-				gold = 100
-				stability = 33
-				tribal_cohesion = 90
-			}
-		}
-		
-		#Seneca/Onondowaga
-		ONN = {
-			
-			own_control_core = {
-				canadaigua geneseo tsonentsiio irondequoit
-			}
-			
-			starting_technology_level = 0
-			include = "haudenosaunee_tribe"
-			include = "expl_amerindian_east_coast"
-			government = {
-				ruler = random
-			}
-			capital = canadaigua
-			
-			currency_data = {
-				gold = 100
-				stability = 33
-				tribal_cohesion = 90
 			}
 		}
 		
