@@ -2221,6 +2221,7 @@ building_manager = {
 	#https://en.wikipedia.org/wiki/List_of_Serbian_Orthodox_monasteries
 	orthodox_monastery = { tag = HUN level = 1 location =  belgrad }
 	orthodox_monastery = { tag = SER level = 1 location =  gjakova }
+	orthodox_monastery = { tag = SER level = 1 location =  trgoviste_SER }
 	orthodox_monastery = { tag = HUN level = 1 location =  debrc }
 	orthodox_monastery = { tag = SER level = 1 location =  gradac }
 	orthodox_monastery = { tag = SER level = 1 location =  kucevo }
@@ -2233,6 +2234,26 @@ building_manager = {
 	orthodox_monastery = { tag = SER level = 1 location =  zica }
 	orthodox_monastery = { tag = ATH level = 1 location =  livadeia } #https://en.wikipedia.org/wiki/Hosios_Loukas
 	orthodox_monastery = { tag = BYZ level = 1 location =  mount_athos }
+
+	#Anatolia added https://en.wikipedia.org/wiki/Category:Byzantine_sites_in_Anatolia
+	orthodox_monastery = { tag = ANA level = 1 location =  nigde }
+	orthodox_monastery = { tag = ANA level = 1 location =  nevsehir }
+	orthodox_monastery = { tag = ANA level = 1 location =  beysehir }
+	orthodox_monastery = { tag = ANA level = 1 location =  bekarlar }
+	orthodox_monastery = { tag = ANA level = 1 location =  aksaray }
+	orthodox_monastery = { tag = PAF level = 1 location =  sinop }
+	orthodox_monastery = { tag = TRE level = 1 location =  surmene }
+	orthodox_monastery = { tag = TRE level = 1 location =  gumushane }
+	orthodox_monastery = { tag = KAP level = 1 location =  kayseri }
+	orthodox_monastery = { tag = CYP level = 1 location =  morphou }
+	orthodox_monastery = { tag = BYZ level = 1 location =  akcasehir }
+	orthodox_monastery = { tag = BYZ level = 1 location =  mengen }
+	orthodox_monastery = { tag = BYZ level = 1 location =  cesme }
+	orthodox_monastery = { tag = BYZ level = 1 location =  bursa }
+	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar }
+	orthodox_monastery = { tag = CIL level = 1 location =  mut }
+	
+
 
 	### Abbeys	
 	monastery	= { tag = WLD level = 1	location = tirschenreuth }
@@ -4396,6 +4417,10 @@ building_manager = {
 	market_village = { tag = ACH level = 1 location = chalandritsa }
 	forest_village = { tag = SER level = 1 location = velbuzd }
 	market_village = { tag = SER level = 1 location = shkoder }
+	market_village = { tag = SER level = 1 location = trgoviste_SER }
+	lumber_mill = { tag = SER level = 1 location = trgoviste_SER }
+	tar_kiln = { tag = SER level = 1 location = trgoviste_SER }
+	rural_clothmaker = { tag = SER level = 1 location = trgoviste_SER }
 	market_village = { tag = SER level = 1 location = smederevo }
 	forest_village = { tag = SER level = 1 location = podgorica }
 	market_village = { tag = SER level = 1 location = trebinje }
