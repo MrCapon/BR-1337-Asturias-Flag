@@ -544,7 +544,7 @@ international_organization_manager = {
 		type = autocephalous_patriarchate
 		creation_date = 330.1.1
 		members = { 
-			BYZ EPI TRE VBK NOV SER WAL 
+			BYZ EPI TRE VBK NOV SER WAL
 			PSK ORE SMO FMB MOS VLR UGL YRV TPS BLO YAR RSO 
 			TVE KAS KLN ZUB DMI GLM RZH VYA TRB BRY CHR STS NVS 
 			RYL NSL KCH KZK TRS RYA PRK SKY NZH GRS SZL MRM KOS MOG
@@ -553,7 +553,7 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ANA MOE THS	KAP PAF CIL	
+			ANA MOE THS	KAP PAF CIL	THE ATH ACH BR2 CYP CRT NEG CEP NAX
 		}
 		variables = { 
 			religion = religion:orthodox
@@ -630,7 +630,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 301.1.1
-		members = { ARM ATZ KCN SYU VDZ MES KOG DER }
+		members = { ARM ATZ KCN SYU VDZ MES KOG DER VAN GAN }
 		variables = { 
 			religion = religion:miaphysite
 			seat = location:ani #BR EDIT
