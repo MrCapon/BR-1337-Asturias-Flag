@@ -243,8 +243,6 @@ diplomacy_manager = {
 	dependency = { first = VER second = PAR subject_type = vassal }
 	dependency = { first = VER second = LUC subject_type = vassal }
 	
-	dependency = { first = SIC second = ATH subject_type = vassal }
-	
 	scripted_oneway = { first = PAP second = SIC type = guarantee }
 	scripted_oneway = { first = ARA second = SIC type = guarantee }
 	
