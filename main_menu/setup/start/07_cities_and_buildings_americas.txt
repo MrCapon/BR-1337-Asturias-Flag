@@ -8,9 +8,16 @@ locations = {
 		rank = town
 		town_setup = scandinavian_town
 	}
+	notiskuan = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
 	
 	####---------- Canada ----------####
-	#--
+	stadacona = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
 	
 	####---------- Alaska ----------####
 	#--
