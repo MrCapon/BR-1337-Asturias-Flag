@@ -16,7 +16,4 @@ diplomacy_manager = {
 	#Represents the League of Mayapan for the time being
 	dependency = { first = COC second = XIU subject_type = vassal }
 	dependency = { first = COC second = HEL subject_type = vassal }
-	
-
-	
 }
