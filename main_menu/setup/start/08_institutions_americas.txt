@@ -1740,18 +1740,43 @@ locations = {
 		feudalism = yes
 	}
 	
-	# new_jersey_area; Only Raritan province = {
+	# new_jersey_area; Raritan province has exposure to both institutions
 	raritan = {
 		feudalism = yes
+		legalism = yes
 	}
 	hackensack = {
 		feudalism = yes
+		legalism = yes
 	}
 	navisink = {
 		feudalism = yes
+		legalism = yes
 	}
 	piscopeek = {
 		feudalism = yes
+		legalism = yes
+	}
+	tetamekanch = {
+		legalism = yes
+	}
+	kechemeche = {
+		legalism = yes
+	}
+	cohansey = {
+		legalism = yes
+	}
+	amintonck = {
+		legalism = yes
+	}
+	assunpink = {
+		legalism = yes
+	}
+	muscotnetcong = {
+		legalism = yes
+	}
+	hopatcong = {
+		legalism = yes
 	}
 	
 	# westsylvania_area
@@ -1804,7 +1829,9 @@ locations = {
 		feudalism = yes
 	}
 	
-	# pennsylvania_area; only wyoming province included
+	# pennsylvania_area
+	## only wyoming province included for Feudalism
+	
 	scahentowanen = {
 		feudalism = yes
 	}
@@ -1818,6 +1845,83 @@ locations = {
 		feudalism = yes
 	}
 	lackawaxen = {
+		feudalism = yes
+	}
+	## remainder included for Legalism
+	shackamaxon = {
+		legalism = yes
+	}
+	wawassan = {
+		legalism = yes
+	}
+	wyomissing = {
+		legalism = yes
+	}
+	paxtang = {
+		legalism = yes
+	}
+	connatachequa = {
+		legalism = yes
+	}
+	conewago = {
+		legalism = yes
+	}
+	lehigh = {
+		legalism = yes
+	}
+	paunacussing = {
+		legalism = yes
+	}
+	tohickon = {
+		legalism = yes
+	}
+	schuylkill = {
+		legalism = yes
+	}
+	tesinigh = {
+		legalism = yes
+	}
+	attaock = {
+		legalism = yes
+	}
+	cocalico = {
+		legalism = yes
+	}
+	shamokin = {
+		legalism = yes
+	}
+	mahoning = {
+		legalism = yes
+	}
+	mattawana = {
+		legalism = yes
+	}
+	juniata = {
+		legalism = yes
+	}
+	onojutta = {
+		legalism = yes
+	}
+	tuckahoe = {
+		legalism = yes
+	}
+	wallenpaupack = {
+		legalism = yes
+	}
+	massawomeck = {
+		legalism = yes
+	}
+	## delaware exposed to both
+	minguannan = {
+		legalism = yes
+		feudalism = yes
+	}
+	tappahanna = {
+		legalism = yes
+		feudalism = yes
+	}
+	assawoman = {
+		legalism = yes
 		feudalism = yes
 	}
 	
@@ -2078,25 +2182,9 @@ locations = {
 	chepoussa = {
 		feudalism = yes
 	}
-
-	#Elysium
-	patapsco = {
-		feudalism = yes
-		legalism = yes
-	}
-	nentego = {
-		feudalism = yes
-		legalism = yes
-	}
-	wicontiss = {
-		feudalism = yes
-		legalism = yes
-	}
-	matapeake = {
-		feudalism = yes
-		legalism = yes
-	}
-	patuxent = {
+	
+	# maryland_area; wapocomo_province excluded due to mountains
+	wicomico = {
 		feudalism = yes
 		legalism = yes
 	}
@@ -2104,5 +2192,329 @@ locations = {
 		feudalism = yes
 		legalism = yes
 	}
-
+	matapeake = {
+		feudalism = yes
+		legalism = yes
+	}
+	patapsco = {
+		feudalism = yes
+		legalism = yes
+	}
+	wicontiss = {
+		feudalism = yes
+		legalism = yes
+	}
+	nentego = {
+		feudalism = yes
+		legalism = yes
+	}
+	patuxent = {
+		feudalism = yes
+		legalism = yes
+	}
+	anacostia = {
+		feudalism = yes
+		legalism = yes
+	}
+	monocacy = {
+		feudalism = yes
+		legalism = yes
+	}
+	potapoco = {
+		feudalism = yes
+		legalism = yes
+	}
+	catoctin = {
+		feudalism = yes
+		legalism = yes
+	}
+	
+	# virginia_area; shenandoah_province, tutelo_province, and mosopeleacipi_province excluded due to mountains
+	werowocomoco = {
+		feudalism = yes
+		legalism = yes
+	}
+	patawomeck = {
+		feudalism = yes
+		legalism = yes
+	}
+	wicocomico = {
+		feudalism = yes
+		legalism = yes
+	}
+	nanzatico = {
+		feudalism = yes
+		legalism = yes
+	}
+	rappahannock = {
+		feudalism = yes
+		legalism = yes
+	}
+	kiskiack = {
+		feudalism = yes
+		legalism = yes
+	}
+	accomac = {
+		feudalism = yes
+		legalism = yes
+	}
+	nansemond = {
+		feudalism = yes
+		legalism = yes
+	}
+	chesapeake = {
+		feudalism = yes
+		legalism = yes
+	}
+	weyanock = {
+		feudalism = yes
+		legalism = yes
+	}
+	powhatan = {
+		legalism = yes
+	}
+	appamatuck = {
+		legalism = yes
+	}
+	cheroenhaka = {
+		legalism = yes
+	}
+	waqua = {
+		legalism = yes
+	}
+	pamunkey = {
+		feudalism = yes
+		legalism = yes
+	}
+	doeg = {
+		legalism = yes
+	}
+	manassas = {
+		legalism = yes
+	}
+	tegninateo = {
+		legalism = yes
+	}
+	rassawek = {
+		legalism = yes
+	}
+	mowhemencho = {
+		legalism = yes
+	}
+	appomattox = {
+		legalism = yes
+	}
+	monahassanugh = {
+		legalism = yes
+	}
+	massinacak = {
+		legalism = yes
+	}
+	monasukapanough = {
+		legalism = yes
+	}
+	saponi = {
+		legalism = yes
+	}
+	nessoneick = {
+		legalism = yes
+	}
+	occaneechi = {
+		legalism = yes
+	}
+	pintahae = {
+		legalism = yes
+	}
+	meherrin = {
+		legalism = yes
+	}
+	
+	# north_carolina_area
+	
+	roanoke = {
+		legalism = yes
+		feudalism = yes
+	}
+	croatan = {
+		legalism = yes
+	}
+	hatteras = {
+		legalism = yes
+	}
+	chowanoke = {
+		legalism = yes
+	}
+	pocosin = {
+		legalism = yes
+	}
+	wiccacon = {
+		legalism = yes
+	}
+	pamlico = {
+		legalism = yes
+	}
+	coree = {
+		legalism = yes
+	}
+	corani = {
+		legalism = yes
+	}
+	neuse = {
+		legalism = yes
+	}
+	chicora = {
+		legalism = yes
+	}
+	dawhee = {
+		legalism = yes
+	}
+	woccon = {
+		legalism = yes
+	}
+	cohari = {
+		legalism = yes
+	}
+	sapponah = {
+		legalism = yes
+	}
+	necoes = {
+		legalism = yes
+	}
+	gowtano = {
+		legalism = yes
+	}
+	nooherooka = {
+		legalism = yes
+	}
+	kehaukee = {
+		legalism = yes
+	}
+	cherohenaka_nc = {
+		legalism = yes
+	}
+	pamticough = {
+		legalism = yes
+	}
+	adshusheer = {
+		legalism = yes
+	}
+	eno = {
+		legalism = yes
+	}
+	sissipahaw = {
+		legalism = yes
+	}
+	uwharrie = {
+		legalism = yes
+	}
+	waxhaw = {
+		legalism = yes
+	}
+	saura = {
+		legalism = yes
+	}
+	alamance = {
+		legalism = yes
+	}
+	yadkin = {
+		legalism = yes
+	}
+	keyauwee = {
+		legalism = yes
+	}
+	joara = {
+		legalism = yes
+	}
+	iswa = {
+		legalism = yes
+	}
+	guaquili = {
+		legalism = yes
+	}
+	eswawpuddenah = {
+		legalism = yes
+	}
+	
+	# south_carolina_area
+	waccamaw = {
+		legalism = yes
+	}
+	winyah = {
+		legalism = yes
+	}
+	winnee = {
+		legalism = yes
+	}
+	peedee = {
+		legalism = yes
+	}
+	pocotaligo = {
+		legalism = yes
+	}
+	etiwan = {
+		legalism = yes
+	}
+	wando = {
+		legalism = yes
+	}
+	kiawah = {
+		legalism = yes
+	}
+	coosaw = {
+		legalism = yes
+	}
+	combahee = {
+		legalism = yes
+	}
+	wimbee = {
+		legalism = yes
+	}
+	santee = {
+		legalism = yes
+	}
+	cofitachequi = {
+		legalism = yes
+	}
+	hymahi = {
+		legalism = yes
+	}
+	talimeco = {
+		legalism = yes
+	}
+	ilasi = {
+		legalism = yes
+	}
+	catawba = {
+		legalism = yes
+	}
+	enoree = {
+		legalism = yes
+	}
+	pacolate = {
+		legalism = yes
+	}
+	amoyescheck = {
+		legalism = yes
+	}
+	keowee = {
+		legalism = yes
+	}
+	oolenoy = {
+		legalism = yes
+	}
+	generostee = {
+		legalism = yes
+	}
+	selkehatchie = {
+		legalism = yes
+	}
+	saluda = {
+		legalism = yes
+	}
+	congaree = {
+		legalism = yes
+	}
+	kosalu = {
+		legalism = yes
+	}
 }
