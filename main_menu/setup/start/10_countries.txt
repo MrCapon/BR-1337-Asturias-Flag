@@ -5095,7 +5095,6 @@ countries = {
 			include = "expl_western_europe"
 			capital = dublin
 			accepted_cultures = { anglo_irish }
-			tolerated_cultures = { irish }
 		}
 		CLA = {
 			own_control_core = {
@@ -11516,7 +11515,7 @@ countries = {
 			include = "catholic_abbey"
 			include = "expl_mediterranean"
 			
-			court_language = latin_language
+			court_language = classical_latin_dialect
 			country_rank = rank_county
 			capital = saint_claude
 		}
@@ -12445,7 +12444,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			liturgical_language = greek_language
+			liturgical_language = khoine_dialect
 			
 			capital = ioannina
 		}
@@ -12494,7 +12493,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			liturgical_language = greek_language
+			liturgical_language = khoine_dialect
 			
 			capital = thessaloniki
 		}
@@ -12557,7 +12556,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			liturgical_language = greek_language
+			liturgical_language = khoine_dialect
 			
 			capital = larissa
 		}
@@ -12593,7 +12592,7 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
-			liturgical_language = greek_language
+			liturgical_language = khoine_dialect
 			
 			capital = larissa
 		}
@@ -12882,7 +12881,7 @@ countries = {
 				pontic_greek_culture
 			}
 			
-			liturgical_language = greek_language
+			liturgical_language = khoine_dialect
 			
 			capital = constantinople
 			dynasty = palaiologos_dynasty
@@ -17880,7 +17879,7 @@ countries = {
 			dynasty = anjou_dynasty
 			#dynasty = anjou_hungary_dynasty
 			country_rank = rank_kingdom
-			court_language = latin_language
+			court_language = classical_latin_dialect
 			
 			tolerated_cultures = {
 				croatian
@@ -39683,7 +39682,7 @@ countries = {
 			capital = krakow
 			dynasty = piast_dynasty
 			country_rank = rank_kingdom
-			court_language = latin_language
+			court_language = classical_latin_dialect
 			
 			timed_modifier = {
 				modifier = "interdict"

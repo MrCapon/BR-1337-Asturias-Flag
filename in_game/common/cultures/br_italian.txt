@@ -17,7 +17,7 @@
 
 REPLACE_OR_CREATE:median = {
 
-	language = latin_language
+	language = classical_latin_dialect
 	
 	color = map_umbrian
 	

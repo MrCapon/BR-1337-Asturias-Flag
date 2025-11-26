@@ -132,7 +132,7 @@ varangian = {
 }
 
 aureliani = {
-	language = elysian_latin_dialect #greek_language
+	language = elysian_latin_dialect
 	color = hsv360 { 104 270 214 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -150,7 +150,7 @@ aureliani = {
 }
 
 photianoi = {
-	language = elysian_greek_dialect #greek_language
+	language = elysian_greek_dialect
 	color = hsv360 { 262 360 230 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }

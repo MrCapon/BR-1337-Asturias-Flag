@@ -123,6 +123,7 @@
 		Economou Papageorgiou Makris Konstantinidis Dimopoulos Georgiadis Vasiliou Kameniatis
 	}
 	dialects = {
+		khoine_dialect = {}
 		achaean_dialect = {}
 		constantinopolitan_dialect = {}
 		cappadocian_dialect = {}
