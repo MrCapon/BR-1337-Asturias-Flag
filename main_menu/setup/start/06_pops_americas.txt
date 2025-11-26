@@ -3999,7 +3999,10 @@ locations = {
 		define_pop = {	type = tribesmen	size = 3.395	culture = nottoway_culture	religion = iroquoian_totemism }
 	}
 	pamunkey = {
-		define_pop = {	type = clergy	size = 0.016	culture = powhatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles	size = 0.016	culture = photianoi	religion = orthodox }
+		define_pop = {	type = clergy	size = 0.076	culture = photianoi	religion = orthodox }
+		define_pop = {	type = peasants	size = 2.346	culture = photianoi	religion = orthodox }
+		define_pop = {	type = peasants	size = 1.346	culture = powhatan_culture	religion = orthodox }
 		define_pop = {	type = tribesmen	size = 4.946	culture = powhatan_culture	religion = midewiwin_religion }
 	}
 	doeg = {
@@ -4153,7 +4156,13 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.851	culture = mekoche_culture	religion = mississippian_ceremonial }
 	}
 	roanoke = {
-		define_pop = {	type = tribesmen	size = 0.841	culture = croatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.010	culture = photianoi			religion = orthodox }
+		define_pop = {	type = nobles		size = 0.009	culture = croatan_culture	religion = orthodox }
+		define_pop = {	type = clergy		size = 0.087	culture = photianoi			religion = orthodox }
+		define_pop = {	type = clergy		size = 0.021	culture = croatan_culture	religion = orthodox }
+		define_pop = {	type = peasants		size = 0.841	culture = photianoi			religion = orthodox }
+		define_pop = {	type = peasants		size = 1.841	culture = croatan_culture	religion = orthodox }
+		define_pop = {	type = tribesmen	size = 3.841	culture = croatan_culture	religion = midewiwin_religion }
 	}
 	croatan = {
 		define_pop = {	type = tribesmen	size = 0.701	culture = croatan_culture	religion = midewiwin_religion }

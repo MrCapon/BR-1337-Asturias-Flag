@@ -634,6 +634,27 @@ countries = {
 		}
 		
 		
+		E4Y = {
+			own_control_core = {
+				roanoke
+			}
+			
+			capital = roanoke
+			court_language = elysian_greek_dialect
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				croatan_culture
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		
 		####---------- Eastern Woodlands Decentralized ----------####
 		#Coosa Paramount Chiefdom (De Soto)
 		COO = { #https://en.wikipedia.org/wiki/Coosa_chiefdom

@@ -26,6 +26,10 @@ locations = {
 		rank = town
 		town_setup = greek_town_port
 	}
+	roanoke = {
+		rank = town
+		town_setup = greek_town_port
+	}
 	
 	####---------- Cahokia ----------####
 	cahokia = {
