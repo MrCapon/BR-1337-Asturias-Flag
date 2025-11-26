@@ -1,5 +1,5 @@
 war_manager = {
-	civil_war = {
+	war = {
 		war_name = {
 			name = "CIVIL_WAR_NAME"
 			ordinal = 1
@@ -9,6 +9,12 @@ war_manager = {
 			SECOND = {
 				name="ANA"
 			}
+		}
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = antalya
 		}
 		
 		start_date = 1332.7.6
