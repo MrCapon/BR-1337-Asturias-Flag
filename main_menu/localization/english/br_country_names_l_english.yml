@@ -47,21 +47,7 @@
  ZEA: "Zealand"
  ZEA_ADJ: "Zealander"
 
- # Norse America
- NRV: "Vinland"
- NRV_ADJ: "Vinlandic"
- NRR: "Markland"
- NRR_ADJ: "Marklandic"
- NRH: "Helluland"
- NRH_ADJ: "Hellulandic"
- NRC: "Kaðurland"
- NRC_ADJ: "Kaðurlandic"
- BEO: "Beothuk"
- BEO_ADJ: "Beothuk"
- INN: "Innu"
- INN_ADJ: "Innu"
- DOR: "Tuniit" # Technically an Inuit name for them, but their language does not survive
- DOR_ADJ: "Tuniit"
+ 
 
  # France
  AUS: "Austrasia"
@@ -84,10 +70,30 @@
  VRM_ADJ: "Vermandois"
  SSN: "Soissons"
  SSN_ADJ: "Soissons"
-
-#Elysium
+ 
+ ####---------- Vinland ----------####
+ NRV: "Vinland"
+ NRV_ADJ: "Vinlandic"
+ NRR: "Markland"
+ NRR_ADJ: "Marklandic"
+ NRH: "Helluland"
+ NRH_ADJ: "Hellulandic"
+ NRC: "Kaðurland"
+ NRC_ADJ: "Kaðurlandic"
+ BEO: "Beothuk"
+ BEO_ADJ: "Beothuk"
+ INN: "Innu"
+ INN_ADJ: "Innu"
+ DOR: "Tuniit" # Technically an Inuit name for them, but their language does not survive
+ DOR_ADJ: "Tuniit"
+ 
+ ####---------- Tsenacommacah ----------####
  ELY_f: "$ELY$"
- E1Y: "Elysium"
- E1Y_ADJ: "Elysium"
- E2Y: "Elysia"
- E2Y_ADJ: "Elysia"
+ E1Y: "Chesapeia" # AI generated, Hellenized version of Chesapeake—a hybrid identity tribe
+ E1Y_ADJ: "Chesapeian"
+ E2Y: "Wampanokhorion" # AI generated, syncretic fusion of “Wampanoag-ish” + Greek settlement suffix
+ E2Y_ADJ: "Wampanokhorine"
+ E3Y: "Patamokron"
+ E3Y_ADJ: "Patamokronean" # AI generated, blends Patuxent/Patomak roots with Greek ending
+ E4Y: "Tawaquessa Polis"
+ E4Y_ADJ: "Tawaquessean" # AI generated, based loosely on Powhatan-area phonology + Greek polis

@@ -3,7 +3,20 @@
  mozarabic: "Mozárabe"
  varangian: "Varangioi"
  latinoi: "Latínoi"
- elysian_culture: "Elysian"
+ aureliani: "Aureliani"
+ photianoi: "Photianoi"
+ 
+ achaean_dialect: "Achean Dialect"
+ constantinopolitan_dialect: "Constantinopolitan Dialect"
+ trapezuntine_dialect: "Trapezuntine Dialect"
+ cappadocian_dialect: "Cappadocian Dialect"
+ griko_dialect: "Griko Dialect"
+ romanyoti_dialect: "Romanyoti Dialect"
+ elysian_greek_dialect: "Elysian Dialect"
+ 
+ classical_latin_dialect: "Classical Latin"
+ eccelsiastic_latin_dialect: "Ecclesiastic Latin"
+ elysian_latin_dialect: "Elysian Latin"
 
  # Vinland
  vinlander: "Vinlander"
