@@ -147,8 +147,10 @@ market_manager = {
 	add_market = ingonish
 	
 	# Haudenosauneega
-	add_market = canajoharie
+	add_market = irondequoit
 	add_market = cahokia
+	add_market = keweenaw
+	add_market = assonet
 	
 	# Tsenacommacah
 	add_market = patapsco
