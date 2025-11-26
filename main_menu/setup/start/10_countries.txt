@@ -9917,12 +9917,12 @@ countries = {
 			}
 			own_control_integrated = {
 				alghero thiesi #Sardinia
-				samos ikaria foca #Aegean Sea
 				castelsardo #Sardinia
 				ozieri
 				tortoli
 				orosei terranova_pausania posada tempiopausania
 				sassari
+				samos ikaria foca #Aegean Sea
 				amasra #Black Sea
 			}
 			
@@ -12719,6 +12719,27 @@ countries = {
 				cankiri bayat cerkes kursunlu tosya
 				safranbolu iskilip sabanozu ulus yenicepazari
 				gumus
+				#CRT
+				chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
+				#CYP
+				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
+				#GEN
+				samos ikaria foca #Aegean Sea
+				amasra #Black Sea
+				#VEN
+				corfu modon kythira andros mykonos amorgos karpathos
+				#NAX
+				naxos kythnos milos
+				#CEP
+				zakynthos leukas cephalonia
+				#CIL
+				adana ayas kars_armenia iskenderun
+				anavarza sis caxud hargan comana_cil
+				tarsus corycus candir_cil molevon
+				kapan
+				silifke anamur mut ermenek
+				alaiye selinti
+				antioch arsuz
 			}
 			
 			starting_technology_level = 3
@@ -13058,20 +13079,27 @@ countries = {
 		
 		SER = {
 			own_control_core = {
-				peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
-				budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
-				kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
-				glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
-				krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
-				gradac zica trgoviste_SER sjenica velbuzd
+				peja prizren kotor shkoder onogost gradina
+				budimlja brskovo gjakova mitrovica pristina novo_brdo
+				podgorica bar_cg prijepolje visegrad ustikolina soko_grad
+				prokuplje jagodina gacko trebinje
+				krusevac rudnik smederevo krupanj valjevo uzice pljevlja
+				gradac zica trgoviste_SER sjenica 
 				arilje brvenik medveda
 				belgrad debrc sabac
+				koman has dukagjini lezha
 			}
 			own_control_integrated = {
-				koman has dukagjini lezha florina
+				
 			}
 			our_cores_conquered_by_others = {
 				slano mostar konjic
+				stalac
+				velbuzd
+				ravno kucevo branicevo
+				nis glubocica vranje
+				ohrid bitola prilep florina kicevo tetovo debar
+				prosek shtip kocani strumica skopje kumanovo veles kratovo
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -13340,18 +13368,24 @@ countries = {
 				babadag cernavoda constanta enisala isaccea
 				visesav kozelj svrljig pirot tsaribrod
 				zemlungrad dupnitsa
-			}
-			own_control_conquered = {
 				dospat bansko krupnik melnik nevrokop
 				tsepina
 				beden haskovo perperek smolyan stanimaka
+				burgas sozopol
+				#SER
+				stalac
+				velbuzd
+				ravno kucevo branicevo
+				nis glubocica vranje
+				ohrid bitola prilep florina kicevo tetovo debar
+				prosek shtip kocani strumica skopje kumanovo veles kratovo
+			}
+			own_control_conquered = {
 			}
 			own_control_integrated = {
-				burgas sozopol
 			}
-			
 			our_cores_conquered_by_others = {
-				nis glubocica velbuzd
+				bukelon ustra
 			}
 			
 			starting_technology_level = 3
@@ -31186,24 +31220,13 @@ countries = {
 		#Cilicia - CIL https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia
 		CIL = {
 			own_control_core = {
-				adana
-				anavarza kars_armenia
-				sis caxud hargan molevon
-				tarsus candir_cil corycus
-				ayas kapan
-				
-				#KAR now ANA
+				adana ayas kars_armenia iskenderun
+				anavarza sis caxud
+				tarsus corycus candir_cil molevon
+				kapan
 				silifke anamur mut ermenek
-				
-				#ALY
 				alaiye selinti
-				
-				#MAM
-				iskenderun
 				antioch arsuz
-				
-				#ERE
-				comana_cil
 			}
 			
 			our_cores_conquered_by_others = {
@@ -31211,6 +31234,7 @@ countries = {
 				develi
 				ayntab
 				kilis trapessac
+				hargan comana_cil
 				
 				#CYP
 				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
@@ -50539,12 +50563,18 @@ countries = {
 				kayseri develi tomarza yahyali bogazliyan
 				urgup
 				sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara divrigi
+				hargan comana_cil
 			}
 			
 			own_control_integrated = {
 			}
 			
 			our_cores_conquered_by_others = {
+				nigde bor_tur bekarlar
+				eregli_kar
+				hacibektas
+				nevsehir
+				aksaray
 			}
 			
 			starting_technology_level = 3
