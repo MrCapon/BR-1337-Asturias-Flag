@@ -5141,7 +5141,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.851	culture = mamaceqtaw_culture	religion = midewiwin_religion }
 	}
 	keweenaw = {
-		define_pop = {	type = nobles		size = 0.327.	culture = ojibwe_culture	religion = midewiwin_religion }
+		define_pop = {	type = nobles		size = 0.327	culture = ojibwe_culture	religion = midewiwin_religion }
 		define_pop = {	type = clergy		size = 0.559	culture = ojibwe_culture	religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 2.250	culture = ojibwe_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 13.261	culture = ojibwe_culture	religion = midewiwin_religion }
