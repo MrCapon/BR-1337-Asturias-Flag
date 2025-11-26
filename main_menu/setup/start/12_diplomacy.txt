@@ -384,8 +384,7 @@ diplomacy_manager = {
     dependency = { first = HUN second = CRO subject_type = dominion }
 
     #Persia/Mesopotamia
-    dependency = { first = BIT second = HZN subject_type = vassal }
-    dependency = { first = BIT second = MUS subject_type = vassal }
+    dependency = { first = TUR second = HZN subject_type = vassal }
     dependency = { first = TUR second = ARD subject_type = vassal }
     dependency = { first = TUR second = DML subject_type = vassal }
     dependency = { first = TUR second = HBN subject_type = vassal }
@@ -412,7 +411,6 @@ diplomacy_manager = {
     dependency = { first = TUR second = EGL subject_type = vassal }
     dependency = { first = TUR second = HKK subject_type = vassal }
     dependency = { first = TUR second = HZR subject_type = vassal }
-    dependency = { first = TUR second = JLM subject_type = vassal }
     dependency = { first = TUR second = MZJ subject_type = vassal }
     dependency = { first = TUR second = SOH subject_type = vassal }
     dependency = { first = TUR second = ZRQ subject_type = vassal }
