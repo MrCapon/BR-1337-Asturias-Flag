@@ -13093,7 +13093,9 @@ countries = {
 					name_stephen = 1
 					name_stephen.name_uros = 4
 				}
-				
+				reforms = {
+					autocracy
+				}
 				privilege = {
 					#Nobles
 					bashtinas_and_pronijas_grants
@@ -13375,6 +13377,9 @@ countries = {
 					name_theodore = 1
 					name_john.name_stephen = 1
 					name_john.name_alexander = 1
+				}
+				reforms = {
+					autocracy
 				}
 				privilege = {
 					#nobles
@@ -14480,8 +14485,9 @@ countries = {
                 outward_vs_inward = -50
 
                 reforms = {
-                    french_feudal_nobility
-                    ancient_french_taxation
+					autocracy
+                    #french_feudal_nobility
+                    #ancient_french_taxation
                 }
 
                 laws = {
@@ -31694,7 +31700,7 @@ countries = {
 		#Bohtan - BHT
 		BHT = {
 			own_control_core = {
-				cizre eruh sirnak
+				cizre eruh sirnak zakho
 			}
 			
 			include = "expl_middle_east"
@@ -31721,7 +31727,7 @@ countries = {
 		#Bitlis - BIT
 		BIT = {
 			own_control_core = {
-				bitlis tatvan
+				bitlis
 			}
 			
 			include = "expl_middle_east"
@@ -31821,7 +31827,7 @@ countries = {
 		#Hakkari - HKK
 		HKK = {
 			own_control_core = {
-				hakkari amadiya
+				hakkari amadiya baskale
 			}
 			
 			include = "expl_middle_east"
@@ -31894,8 +31900,8 @@ countries = {
 		
 		#Jolemark - JLM
 		JLM = {
-			own_control_core = {
-				van bahcesaray baskale catak hosap zakho
+			our_cores_conquered_by_others = {
+				baskale
 			}
 			
 			include = "expl_middle_east"
@@ -31944,7 +31950,7 @@ countries = {
 		
 		#Mus - MUS
 		MUS = {
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				mus
 			}
 			
@@ -48643,17 +48649,21 @@ countries = {
 				ani kars kagizman
 				amberd artashavan igdir khor_virap kumayri surmali
 				hasankale
-				
 				malazgirt hinis karakilise tekman tutak varto
 				ahlat bargiri ercis
 				erzurum tercan
+				van bahcesaray catak hosap tatvan
+				mus
 			}
 			
 			our_cores_conquered_by_others = {
-				#SUT
 				harput adakli keban palu
-				#CEM
 				cemisgezek kuzucan pertek
+				bingol genc
+				divrigi arapgir egin arguvan
+				malatya
+				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+				spitak kayen
 			}
 			
 			include = "expl_christian_caucasus"
