@@ -73,6 +73,7 @@ cree_language = {
 	dialects = {
 		ililimowin_dialect = {}
 		beothuk_dialect = {}
+		innuland_dialect = {}
 	}
 }
 

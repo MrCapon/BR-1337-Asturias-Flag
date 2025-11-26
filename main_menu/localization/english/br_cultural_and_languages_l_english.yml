@@ -24,6 +24,8 @@
  marklander: "Marklander"
  hellulander: "Hellulander"
  kathurlander: "Kaðurlander"
+ innulander: "Innulåndic"
+ 
  vinlander_language: "Vinlandic"
  vinland_dialect: "Vinland Dialect"
  markland_dialect: "Markland Dialect"
@@ -32,3 +34,4 @@
  
  ililimowin_dialect: "Cree Dialect"
  beothuk_dialect: "Beothuk Dialect"
+ innuland_dialect: "Innulånd Dialect"

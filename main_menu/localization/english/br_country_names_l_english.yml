@@ -90,6 +90,8 @@
  INN_ADJ: "Innu"
  DOR: "Tuniit" # Technically an Inuit name for them, but their language does not survive
  DOR_ADJ: "Tuniit"
+ INV: "Innulånd"
+ INV_ADJ: "Innulåndic"
  
  ####---------- Tsenacommacah ----------####
  ELY_f: "$ELY$"

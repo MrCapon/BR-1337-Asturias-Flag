@@ -30,6 +30,14 @@ NRC = { # Kathurland
 	religion_definition = norse
 }
 
+INV = { # Innulånd
+	color = rgb { 77 61 80 }
+	color2 = rgb{ 16 41 202 }
+	
+	culture_definition = innulander
+	religion_definition = norse
+}
+
 BEO = { # Beothuk People
 	color = map_beothuk
 	
