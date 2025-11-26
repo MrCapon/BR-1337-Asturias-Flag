@@ -578,6 +578,51 @@ countries = {
 			}
 		}
 		
+		#Cahokia Mississippian Site
+		#https://en.wikipedia.org/wiki/Cahokia
+		CHK = {
+			own_control_core = {
+				cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
+				chariton meramec pahatsi tanwakanwakaghe moingwena
+				kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
+				nudarcha wimihsoorita nodaway
+				peoria
+			}
+			
+			capital = cahokia
+			include = "woodlands_centralized_natives"
+			court_language = dhegiha_language
+			government = {
+				ruler = random
+			}
+			
+			currency_data = {
+				gold = 180
+				stability = 20
+				prestige = 5
+				tribal_cohesion = 80
+			}
+			
+			tolerated_cultures = {
+				tsawi_culture
+				ponca_culture
+				kaskankaham_culture
+				kahokiaki_culture
+			}
+			discovered_areas = {
+				#east_coast_region
+				illinois_area
+				wisconsin_area
+				indiana_area
+				kentucky_area
+				tennessee_area
+				#louisiana_region
+				missouri_area
+				iowa_area
+				arkansas_area
+				central_plains_area
+			}
+		}
 		
 		####---------- Tsenacommacah ----------####
 		E1Y = {
@@ -633,13 +678,13 @@ countries = {
 			include = "expl_eastern_seaboard"
 		}
 		
-		
 		E4Y = {
 			own_control_core = {
 				roanoke
 			}
 			
 			capital = roanoke
+			include = "elysian_foothold"
 			court_language = elysian_greek_dialect
 			country_rank = rank_county
 			government = {
@@ -650,6 +695,88 @@ countries = {
 			
 			accepted_cultures = {
 				croatan_culture
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Rappahannock
+		RPP = {
+			own_control_core = {
+				rappahannock werowocomoco nanzatico wicocomico
+			}
+			
+			capital = rappahannock
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				photianoi
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Powhatan Paramount Chiefdom/Tsenacommacah
+		TSN = {
+			own_control_core = {
+				powhatan
+				appamatuck
+			}
+			our_cores_conquered_by_others = {
+				pamunkey
+				weyanock
+			}
+			
+			capital = powhatan
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				photianoi
+			}
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Accomac-Accawmacke
+		ACW = {
+			own_control_core = {
+				accomac wicomico
+			}
+			
+			capital = wicomico
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Piscataway
+		PSC = {
+			own_control_core = {
+				  anacostia potapoco
+			}
+			our_cores_conquered_by_others = {
+				nentego
+				patuxent
+			}
+			
+			capital = potapoco
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				photianoi
 			}
 			include = "expl_eastern_seaboard"
 		}
@@ -1109,21 +1236,6 @@ countries = {
 			capital = joara
 		}
 		
-		#Powhatan Paramount Chiefdom/Tsenacommacah
-		TSN = {
-			type = pop
-			
-			add_pops_from_locations = {
-				powhatan pamunkey weyanock appamatuck
-			}
-			include = "american_east_coast_tribe"
-			government = {
-				ruler = random
-			}
-			court_language = powhatan_language
-			capital = powhatan
-		}
-		
 		#Acolapissa
 		ACL = {
 			type = pop
@@ -1572,54 +1684,6 @@ countries = {
 			}
 		}
 		
-		#Piscataway
-		#https://en.wikipedia.org/wiki/Piscataway_people
-		PSC = {
-			type = pop
-			
-			add_pops_from_locations = {
-				nentego patuxent anacostia potapoco
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
-		
-		#Rappahannock
-		#https://en.wikipedia.org/wiki/Rappahannock_people
-		RPP = {
-			type = pop
-			
-			add_pops_from_locations = {
-				rappahannock werowocomoco nanzatico wicocomico
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
-		
 		#Croatan
 		#https://en.wikipedia.org/wiki/Croatan
 		CAA = {
@@ -1651,30 +1715,6 @@ countries = {
 			
 			add_pops_from_locations = {
 				kiskiack nansemond chesapeake
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
-		
-		#Accomac-Accawmacke
-		#https://en.wikipedia.org/wiki/Accomac_people
-		ACW = {
-			type = pop
-			
-			add_pops_from_locations = {
-				accomac wicomico
 			}
 			
 			discovered_regions = {
@@ -2600,106 +2640,7 @@ countries = {
 			capital = naconiche
 		}
 		
-		#Cahokia Mississippian Site
-		#https://en.wikipedia.org/wiki/Cahokia
-		CHK = {
-			own_control_core = {
-				cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
-				chariton meramec pahatsi tanwakanwakaghe moingwena
-				kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
-				nudarcha wimihsoorita nodaway
-				peoria
-			}
-			starting_technology_level = 1
-			
-			government = {
-				ruler = random
-				
-				type = tribe
-				heir_selection = tribal_oldest_male
-				
-				centralization_vs_decentralization = 80
-				traditionalist_vs_innovative = -70
-				spiritualist_vs_humanist = -60
-				aristocracy_vs_plutocracy = -80
-				serfdom_vs_free_subjects = 50
-				mercantilism_vs_free_trade = 50
-				belligerent_vs_conciliatory = 100
-				quality_vs_quantity = -75
-				offensive_vs_defensive = 50
-				land_vs_naval = -90
-				capital_economy_vs_traditional_economy = 100
-				individualism_vs_communalism = 60
-				outward_vs_inward = 50
-				
-				parliament = {
-					parliament_type = assembly
-				}
-				
-				laws = {
-					marriage_law = polygyny
-					heir_religion_law = heir_same_religion
-				}
-				
-				reforms = {
-					agricultural_cultivation
-				}
-				privilege = {
-					#nobles
-					nobility_council
-					nobles_land_rights
-					tribal_autonomy
-					
-					#clergy
-					embellish_great_works_of_faith
-					
-					#burghers
-					urban_development_grants
-					market_fairs
-					
-					#Commoners
-					peasants_autonomous_villages
-					communal_lands
-					allow_hunting
-					partial_yield
-					peasants_free_peasantry
-					
-					tribes_tribal_levies
-					tribes_allow_gatherings
-				}
-			}
-			
-			discovered_areas = {
-				#east_coast_region
-				illinois_area
-				wisconsin_area
-				indiana_area
-				kentucky_area
-				tennessee_area
-				#louisiana_region
-				missouri_area
-				iowa_area
-				arkansas_area
-				central_plains_area
-			}
-			
-			tolerated_cultures = {
-				tsawi_culture
-				ponca_culture
-				kaskankaham_culture
-				kahokiaki_culture
-			}
-			
-			currency_data = {
-				gold = 180
-				stability = 20
-				prestige = 5
-				tribal_cohesion = 80
-			}
-			
-			court_language = dhegiha_language
-			capital = cahokia
-		}
+		
 		
 		
 		#------------------- Great Plains -------------
