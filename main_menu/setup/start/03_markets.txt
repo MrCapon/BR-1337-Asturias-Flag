@@ -142,9 +142,12 @@ market_manager = {
 	
 	
 	####---------- North America ----------####
+	# Canada
+	add_market = stadacona
+	
 	# Vinlandic North America
 	add_market = belle_isle
-	add_market = ingonish
+	add_market = kjipuktuk
 	
 	# Haudenosauneega
 	add_market = irondequoit
