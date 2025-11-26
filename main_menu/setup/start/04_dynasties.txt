@@ -7355,11 +7355,6 @@ dynasty_manager = {
 		home = zaranj
 	}
 
-	bagrationi_dynasty = {
-		name = { name = bagrationi_dynasty }
-		home = tbilisi
-	}
-
 	fadlawayhid_dynasty = {
 		name = { name = fadlawayhid_dynasty }
 		home = ij_iran
