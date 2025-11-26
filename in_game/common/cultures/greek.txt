@@ -1,7 +1,5 @@
 ﻿cappadocian_greek_culture = {
-	
-	language = greek_language
-	
+	language = cappadocian_dialect
 	color = rgb { 140 45 65 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -20,8 +18,7 @@
 }
 
 greek_culture = {
-	language = greek_language
-	
+	language = constantinopolitan_dialect
 	color = map_BYZ
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -40,8 +37,7 @@ greek_culture = {
 }
 
 griko_culture = {
-	language = greek_language
-	
+	language = griko_dialect
 	color = color_culture_griko
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -61,9 +57,7 @@ griko_culture = {
 }
 
 pontic_greek_culture = {
-	
-	language = greek_language
-	
+	language = trapezuntine_dialect
 	color = rgb { 175 55 158 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -81,9 +75,7 @@ pontic_greek_culture = {
 }
 
 anatolian_greek_culture = { #BR addition
-	
-	language = greek_language
-	
+	language = cappadocian_dialect
 	color = rgb { 205 38 50 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -103,9 +95,7 @@ anatolian_greek_culture = { #BR addition
 
 
 gothic_culture = {
-	
-	language = greek_language
-	
+	language = trapezuntine_dialect
 	color = map_FEO
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -124,8 +114,7 @@ gothic_culture = {
 }
 
 varangian = {
-	language = greek_language
-	
+	language = constantinopolitan_dialect
 	color = rgb { 121 86 138 }
 	
 	tags = { norwegian_gfx western_european_gfx european_gfx }
@@ -142,17 +131,35 @@ varangian = {
 	
 }
 
-elysian_culture = {
-	language = latin_language #greek_language
-	
-	color = map_BYZ
+aureliani = {
+	language = elysian_latin_dialect #greek_language
+	color = hsv360 { 104 270 214 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
 		greek_culture = positive
-		median = positive
+		median = kindred
+		photianoi = kindred
 	}	
+	
+	culture_groups = {
+		greek_group
+		italian_group
+	}
+}
+
+photianoi = {
+	language = elysian_greek_dialect #greek_language
+	color = hsv360 { 262 360 230 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+		greek_culture = positive
+		median = positive
+		aureliani = kindred
+	}
 	
 	culture_groups = {
 		greek_group
