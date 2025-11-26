@@ -461,7 +461,7 @@ AUD = {
 	color = hsv360 { 355 85 95 }
 	color2 = hsv { 0 0 0.38 }
 	
-	culture_definition = english
+	culture_definition = welsh
 	religion_definition = catholic
 }
 
@@ -469,7 +469,7 @@ BRO = {
 	color = hsv360 { 215 75 90 }
 	color2 = hsv { 0 0 0.38 }
 	
-	culture_definition = english
+	culture_definition = welsh
 	religion_definition = catholic
 	
 	is_historic = yes
@@ -479,7 +479,7 @@ POS = {
 	color = hsv360 { 150 80 95 }
 	color2 = hsv { 0 0 0.38 }
 	
-	culture_definition = english
+	culture_definition = welsh
 	religion_definition = catholic
 }
 
@@ -507,7 +507,7 @@ PMB = {
 	color = hsv360 { 165 80 95 }
 	color2 = hsv { 0 0 0.38 }
 	
-	culture_definition = english
+	culture_definition = welsh
 	religion_definition = catholic
 }
 
