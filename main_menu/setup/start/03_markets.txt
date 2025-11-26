@@ -144,6 +144,7 @@ market_manager = {
 	####---------- North America ----------####
 	# Vinlandic North America
 	add_market = belle_isle
+	add_market = ingonish
 	
 	# Haudenosauneega
 	add_market = canajoharie
