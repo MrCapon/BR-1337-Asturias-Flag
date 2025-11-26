@@ -156,7 +156,7 @@ catharism = {
 	color = color_catharism
 	group = christian
 	
-	language = latin_language
+	language = eccelsiastic_latin_dialect
 	
 	enable = 1100.1.1 #it is technically unknown, but happened around the XIIth Century
 	

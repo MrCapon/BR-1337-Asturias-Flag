@@ -15,7 +15,7 @@
 	}
 }
 
-median = { 
+REPLACE_OR_CREATE:median = {
 
 	language = latin_language
 	

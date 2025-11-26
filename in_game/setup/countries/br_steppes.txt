@@ -1,5 +1,4 @@
-﻿
-FEO = {
+﻿REPLACE_OR_CREATE:FEO = {
 	color = map_FEO
 	color2 = rgb { 61 8 81 }
 

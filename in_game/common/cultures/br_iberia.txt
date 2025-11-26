@@ -1,4 +1,4 @@
-﻿andalusi = { 
+﻿REPLACE_OR_CREATE:andalusi = {
 	language = maghrebi_dialect
 	
 	color = map_ADU
