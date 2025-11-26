@@ -1,125 +1,7 @@
 countries = {
 	countries = {
-		
-		####---------- Vinland ----------####
-		NRV = {
-			own_control_core = {
-				belle_isle
-				naskwotchu
-				wipetikil
-				mekapisk
-				red_bay
-			}
-			
-			capital = belle_isle
-			include = "vinlandic_foothold"
-			court_language = vinland_dialect
-			country_rank = rank_duchy
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-			}
-			
-			accepted_cultures = {
-				marklander
-			}
-			tolerated_cultures = {
-				beothuk_culture
-			}
-			include = "expl_vinland"
-		}
-		
-		NRR = {
-			own_control_core = {
-				tessuialluk
-				tikigaksuagusik
-				aivitok
-			}
-			
-			capital = tikigaksuagusik
-			include = "vinlandic_foothold"
-			court_language = markland_dialect
-			country_rank = rank_county
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-			}
-			
-			accepted_cultures = {
-				vinlander
-			}
-			tolerated_cultures = {
-				dorset_culture
-				innu_culture
-			}
-			include = "expl_vinland"
-		}
-		
-		NRH = {
-			own_control_core = {
-				navchak
-				koroc
-				tupirvialuit
-			}
-			
-			capital = navchak
-			include = "vinlandic_foothold"
-			court_language = helluland_dialect
-			country_rank = rank_county
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-			}
-			
-			tolerated_cultures = {
-				dorset_culture
-			}
-			include = "expl_vinland"
-		}
-		
-		NRC = {
-			own_control_core = {
-				ingonish
-				cheticamp
-				kluskapewiktuk
-			}
-			
-			capital = ingonish
-			include = "vinlandic_foothold"
-			court_language = vinland_dialect
-			country_rank = rank_county
-			
-			tolerated_cultures = {
-				dorset_culture
-			}
-			include = "expl_vinland"
-		}
-		
-		BEO = {
-			own_control_core = {
-				eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem
-				gosaoie nogamsig meelpaeg amasipukwek sibook
-				baie_verte walnaypek akilasiewakik
-				cape_spear bacalhieu mekwiskajk mollyhuajeck
-				placentia cape_race maqtewey nukamkiajijk miquelon
-			}
-			our_cores_conquered_by_others = {
-				belle_isle
-				naskwotchu
-				wipetikil
-				mekapisk
-				red_bay
-			}
-			
-			capital = maqtewey
-			include = "vinland_exposed_natives"
-			court_language = beothuk_dialect
-			
-			include = "expl_vinland"
-		}
+		####---------- Alaska ----------####
+		#--
 		
 		
 		####---------- Canada ----------####
@@ -325,26 +207,20 @@ countries = {
 		}
 		
 		#Stadacona
-		STD = {#https://en.wikipedia.org/wiki/Stadacona https://en.wikipedia.org/wiki/St._Lawrence_Iroquoians
-			type = pop
-			
-			add_pops_from_locations = {
+		STD = {
+			own_control_core = {
 				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate
 			}
 			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
+			capital = stadacona
+			include = "woodlands_centralized_natives"
+			court_language = iroquoian_language
 			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
 				ruler = random
 			}
+			
+			include = "expl_vinland"
+			include = "expl_eastern_seaboard"
 		}
 		
 		#Atikamekw
@@ -463,11 +339,175 @@ countries = {
 		}
 		
 		
-		####---------- Alaska ----------####
-		#--
+		####---------- Vinland ----------####
+		NRV = {
+			own_control_core = {
+				belle_isle
+				naskwotchu
+				wipetikil
+				mekapisk
+				red_bay
+			}
+			
+			capital = belle_isle
+			include = "vinlandic_foothold"
+			court_language = vinland_dialect
+			country_rank = rank_duchy
+			government = {
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				marklander
+			}
+			tolerated_cultures = {
+				beothuk_culture
+			}
+			
+			include = "expl_vinland"
+		}
+		
+		NRR = {
+			own_control_core = {
+				tessuialluk
+				tikigaksuagusik
+				aivitok
+			}
+			
+			capital = tikigaksuagusik
+			include = "vinlandic_foothold"
+			court_language = markland_dialect
+			country_rank = rank_county
+			government = {
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				vinlander
+			}
+			tolerated_cultures = {
+				dorset_culture
+				innu_culture
+			}
+			
+			include = "expl_vinland"
+		}
+		
+		NRH = {
+			own_control_core = {
+				navchak
+				koroc
+				tupirvialuit
+			}
+			
+			capital = navchak
+			include = "vinlandic_foothold"
+			court_language = helluland_dialect
+			country_rank = rank_county
+			government = {
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				dorset_culture
+			}
+			
+			include = "expl_vinland"
+		}
+		
+		BEO = {
+			own_control_core = {
+				eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem
+				gosaoie nogamsig meelpaeg amasipukwek sibook
+				baie_verte walnaypek akilasiewakik
+				cape_spear bacalhieu mekwiskajk mollyhuajeck
+				placentia cape_race maqtewey nukamkiajijk miquelon
+			}
+			our_cores_conquered_by_others = {
+				belle_isle
+				naskwotchu
+				wipetikil
+				mekapisk
+				red_bay
+			}
+			
+			capital = maqtewey
+			include = "vinland_exposed_natives"
+			court_language = beothuk_dialect
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_vinland"
+		}
+		
+		INV = {
+			own_control_core = {
+				notiskuan
+				anticosti
+				natigostec
+			}
+			
+			capital = notiskuan
+			include = "vinland_exposed_natives"
+			court_language = innuland_dialect
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_vinland"
+		}
 		
 		
 		####---------- Haudenosauneega ----------####
+		NRC = {
+			own_control_core = {
+				ingonish
+				cheticamp
+				kluskapewiktuk
+			}
+			
+			capital = ingonish
+			include = "vinlandic_foothold"
+			court_language = vinland_dialect
+			country_rank = rank_county
+			government = {
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				dorset_culture
+			}
+			
+			include = "expl_vinland"
+		}
+		
+		#Mi'kmaq
+		MIK = {
+			own_control_core = {
+				amqui anagance antigonish apaqtukowatek askataliank aspotogan canso caraquet cascapedia
+				causapscal chebogue chicchoc chignecto chipoudy cobequid elsiktuk esekatik
+				gaspe  jijkwtuk kekwapskuk kennetook kjipuktuk kouchibouguac
+				maccan maleagit malpeque marsoui matane matapedia memramcook menageesenog miramichi mitis
+				muinawamek musquedoboit neguac nepisiguit nictaux nisiamk nmejuaqnek oqumkikiak paspebiac
+				petitcodiac pewjeg pictou pogomeg pukusamkek qospemk restigouche richibucto seeboosis shubenacadie sipuk
+				tapu_tuitn tatamagouche tignish tracadie wekwayik weljuik wetewatoqsik wikipoq
+			}
+			our_cores_conquered_by_others = {
+				ingonish cheticamp kluskapewiktuk
+			}
+			
+			capital = kjipuktuk
+			include = "vinland_exposed_natives"
+			court_language = abenakian_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_new_england"
+			include = "expl_vinland"
+		}
+		
 		#Mohawk/Kanien'kehaka
 		KKA = {
 			own_control_core = {
@@ -626,7 +666,6 @@ countries = {
 			government = {
 				ruler = random
 			}
-			
 			currency_data = {
 				gold = 180
 				stability = 20
@@ -640,6 +679,7 @@ countries = {
 				kaskankaham_culture
 				kahokiaki_culture
 			}
+			
 			discovered_areas = {
 				#east_coast_region
 				illinois_area
@@ -664,6 +704,7 @@ countries = {
 				matapeake
 				patuxent
 				chicamacomico
+				attaock
 			}
 			
 			capital = patapsco
@@ -680,6 +721,7 @@ countries = {
 				piscataway_culture
 				nanticoke_culture
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
@@ -706,6 +748,7 @@ countries = {
 				nansemond_culture
 				powhatan_culture
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
@@ -727,6 +770,7 @@ countries = {
 			accepted_cultures = {
 				croatan_culture
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
@@ -746,6 +790,7 @@ countries = {
 			tolerated_cultures = {
 				photianoi
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
@@ -770,6 +815,7 @@ countries = {
 			tolerated_cultures = {
 				photianoi
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
@@ -809,9 +855,113 @@ countries = {
 			tolerated_cultures = {
 				photianoi
 			}
+			
 			include = "expl_eastern_seaboard"
 		}
 		
+		#Nansemond
+		NSM = {
+			our_cores_conquered_by_others = {
+				kiskiack nansemond chesapeake
+			}
+			
+			capital = nansemond
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Doeg
+		DOE = {
+			own_control_core = {
+				doeg manassas monocacy
+			}
+			
+			capital = doeg
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Nanticoke
+		NTK = {
+			own_control_core = {
+				assawoman
+				tappahanna
+				minguannan
+			}
+			our_cores_conquered_by_others = {
+				matapeake chicamacomico wicontiss attaock
+			}
+			
+			capital = minguannan
+			include = "woodlands_centralized_natives"
+			court_language = powhatan_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Unalachtigo
+		UNL = {
+			own_control_core = {
+				tetamekanch cohansey kechemeche amintonck
+			}
+			our_cores_conquered_by_others = {
+				minguannan tappahanna assawoman
+			}
+			
+			capital = cohansey
+			include = "woodlands_centralized_natives"
+			court_language = lenape_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Unami
+		UNA = {
+			own_control_core = {
+				shackamaxon wawassan assunpink wyomissing tohickon paunacussing lehigh cocalico tesinigh muscotnetcong
+			}
+			
+			capital = powhatan
+			include = "woodlands_centralized_natives"
+			court_language = lenape_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		#Munsee
+		MNS = {
+			own_control_core = {
+				raritan hackensack hopatcong piscopeek manhattan massapequa navisink tappan kitchawanc minisink
+			}
+			
+			capital = powhatan
+			include = "woodlands_centralized_natives"
+			court_language = lenape_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
 		
 		####---------- Eastern Woodlands Decentralized ----------####
 		#Coosa Paramount Chiefdom (De Soto)
@@ -1668,52 +1818,9 @@ countries = {
 			}
 		}
 		
-		#Doeg
-		DOE = {
-			type = pop
-			
-			add_pops_from_locations = {
-				doeg manassas patawomeck monocacy
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
 		
-		#Nanticoke
-		#https://en.wikipedia.org/wiki/Nanticoke_people
-		NTK = {
-			type = pop
-			
-			add_pops_from_locations = {
-				matapeake chicamacomico wicontiss attaock
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
+		
+		
 		
 		#Croatan
 		#https://en.wikipedia.org/wiki/Croatan
@@ -1739,29 +1846,7 @@ countries = {
 			}
 		}
 		
-		#Nansemond
-		#https://en.wikipedia.org/wiki/Nansemond
-		NSM = {
-			type = pop
-			
-			add_pops_from_locations = {
-				kiskiack nansemond chesapeake
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
+		
 		
 		#Mamaceqtaw-Menominee
 		#https://en.wikipedia.org/wiki/Menominee
@@ -2219,77 +2304,11 @@ countries = {
 			}
 		}
 		
-		#Unami
-		#https://en.wikipedia.org/wiki/Unami_language
-		UNA = {
-			type = pop
-			
-			add_pops_from_locations = {
-				shackamaxon wawassan assunpink wyomissing tohickon paunacussing lehigh cocalico tesinigh muscotnetcong
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
 		
-		#Munsee
-		#https://en.wikipedia.org/wiki/Munsee
-		MNS = {
-			type = pop
-			
-			add_pops_from_locations = {
-				raritan hackensack hopatcong piscopeek manhattan massapequa navisink tappan kitchawanc minisink
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
 		
-		#Unalachtigo
-		#https://en.wikipedia.org/wiki/Unalachtigo_Lenape
-		UNL = {
-			type = pop
-			
-			add_pops_from_locations = {
-				tetamekanch cohansey kechemeche amintonck minguannan tappahanna assawoman
-			}
-			
-			discovered_regions = {
-				canada_region
-				east_coast_region
-				great_plains_region
-			}
-			
-			include = "amerindian_tribe"
-			include = "expl_mesoamerica"
-			government = {
-				type = tribe
-				heir_selection = tribal_oldest_male
-				ruler = random
-			}
-		}
+		
+		
+		
 		
 		#Mahican
 		#https://en.wikipedia.org/wiki/Mohicans
@@ -7597,25 +7616,7 @@ countries = {
 			}
 		}
 		
-		#Mi'kmaq
-		MIK = {
-			type = pop
-			
-			add_pops_from_locations = {
-				amqui anagance antigonish apaqtukowatek askataliank aspotogan canso caraquet cascapedia
-				causapscal chebogue cheticamp chicchoc chignecto chipoudy cobequid elsiktuk esekatik
-				gaspe ingonish jijkwtuk kekwapskuk kennetook kjipuktuk kluskapewiktuk kouchibouguac
-				maccan maleagit malpeque marsoui matane matapedia memramcook menageesenog miramichi mitis
-				muinawamek musquedoboit neguac nepisiguit nictaux nisiamk nmejuaqnek oqumkikiak paspebiac
-				petitcodiac pewjeg pictou pogomeg pukusamkek qospemk restigouche richibucto seeboosis shubenacadie sipuk
-				tapu_tuitn tatamagouche tignish tracadie wekwayik weljuik wetewatoqsik wikipoq
-			}
-			
-			include = "american_east_coast_tribe"
-			government = {
-				ruler = random
-			}
-		}
+		
 		
 		#Penobscot
 		PEN = {
