@@ -1,7 +1,15 @@
 locations = {
 	####---------- Vinland ----------####
+	belle_isle = {
+		rank = town
+		town_setup = scandinavian_town
+	}
+	
+	####---------- Canada ----------####
 	#--
 	
+	####---------- Alaska ----------####
+	#--
 	
 	####---------- Haudenosauneega ----------####
 	canajoharie = {
@@ -9,13 +17,15 @@ locations = {
 		town_setup = south_east_woodlands_town
 	}
 	
-	
 	####---------- Tsenacommacah ----------####
 	patapsco = {
 		rank = town
 		town_setup = greek_town_port
 	}
-	
+	nansemond = {
+		rank = town
+		town_setup = greek_town_port
+	}
 	
 	####---------- Cahokia ----------####
 	cahokia = {
@@ -23,13 +33,14 @@ locations = {
 		town_setup = south_east_woodlands_town
 	}
 	
+	####---------- Great Plains ----------####
+	#--
 	
 	####---------- Aridoamerica ----------####
 	ialophaybo = {
 		rank = town
 		town_setup = south_east_woodlands_town
 	}
-	
 	
 	####---------- Mesoamerica ----------####
 	azcapotzalco = {
@@ -74,7 +85,6 @@ locations = {
 		town_setup = mexican_town
 	}
 	
-	
 	####---------- Yucatan ----------####
 	mayapan = {
 		rank = city
@@ -96,7 +106,6 @@ locations = {
 		rank = city
 		town_setup = yucatan_town
 	}
-	
 	
 	####---------- Colombia ----------####
 	teyuna = {
@@ -191,10 +200,15 @@ building_manager = {
 	####---------- Vinland ----------####
 	#--
 	
+	####---------- Canada ----------####
+	#--
+	
+	####---------- Alaska ----------####
+	#--
+	
 	
 	####---------- Haudenosauneega ----------####
 	#--
-	
 	
 	####---------- Tsenacommacah ----------####
 	# E1Y - Elysium North
@@ -242,14 +256,14 @@ building_manager = {
 	parish_church = { tag = E2Y level = 1 location = doeg }
 	parish_church = { tag = E2Y level = 1 location = tripolitsa }
 	
-	
 	####---------- Cahokia ----------####
 	#--
 	
+	####---------- Great Plains ----------####
+	#--
 	
 	####---------- Aridoamerica ----------####
 	#--
-	
 	
 	####---------- Mesoamerica ----------####
 	# TNC
@@ -261,13 +275,9 @@ building_manager = {
 	####---------- Yucatan ----------####
 	#--
 	
-	
 	####---------- Colombia ----------####
 	#--
 	
-	
 	####---------- Andes ----------####
 	#--
-	
-	
 }
