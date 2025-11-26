@@ -10954,7 +10954,7 @@ countries = {
 				neapolitan
 			}
 			
-			court_language = latin_language
+			court_language = eccelsiastic_latin_dialect
 			capital = avignon
 			
 			is_valid_for_release = no
@@ -12746,6 +12746,8 @@ countries = {
 				persian_gulf_sea_zones_area
 				upper_egypt_area
 				nubia_proper_area
+			}
+			discovered_provinces = {
 				amhara_province
 				argobba_province
 				begemder_province
