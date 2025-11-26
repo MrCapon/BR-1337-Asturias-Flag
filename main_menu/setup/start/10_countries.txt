@@ -31626,7 +31626,7 @@ countries = {
 		#Hizan - HZN
 		HZN = {
 			own_control_core = {
-				hizan
+				hizan bahcesaray
 			}
 			
 			include = "expl_middle_east"
@@ -31953,7 +31953,7 @@ countries = {
 				al_sinn
 				eyvan
 				tabriz heris maragheh sarab tufarqan
-				ganja barda beylagan lemberan gardman shamkir
+				beylagan lemberan 
 				mughan baciravan bilasuvar germi salyan varsan
 				ahar aslanduz kaleybar khiyav mardanaqom qahqaheh
 				hadishahr marand
@@ -31962,8 +31962,6 @@ countries = {
 				miyaneh aghkand
 				zanjan mahneshan sarcham sojas
 				bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
-				goroz shusha
-				julfa nakhchivan
 				mosul qayyarah tal_afar
 
 				#ERE
@@ -32075,7 +32073,10 @@ countries = {
 		#Artaz - ATZ #BR EDIT
 		ATZ = {
 			own_control_core = {
-				maku bayazit nazok_olya qarahziaoddin siah_cheshmeh
+				maku nazok_olya qarahziaoddin siah_cheshmeh
+			}
+			our_cores_conquered_by_others = {
+				bayazit
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48425,9 +48426,8 @@ countries = {
 				amberd artashavan igdir khor_virap kumayri surmali
 				hasankale
 				malazgirt hinis karakilise tekman tutak varto
-				ahlat bargiri ercis
 				erzurum tercan
-				van bahcesaray catak hosap tatvan
+				bayazit
 				mus
 			}
 			
@@ -48439,6 +48439,15 @@ countries = {
 				malatya
 				bayburt erzincan ilic kelkit kemah sebinkarahisar siran
 				spitak kayen
+				bahcesaray
+				maku nazok_olya qarahziaoddin siah_cheshmeh
+				gladzor
+				sotk
+				julfa nakhchivan kapan_armenia goris tatev
+				goroz kashatagh shusha gandzasar haterk
+				van catak hosap tatvan
+				ahlat bargiri ercis
+				hizan bahcesaray bitlis
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48651,11 +48660,10 @@ countries = {
 		
 		SKI = { #Shaki
 			own_control_core = {
-				shaki aresh vartashen
 			}
 			
 			our_cores_conquered_by_others = {
-				agsu goychay javad qabala zardab
+				agsu goychay javad qabala zardab shaki aresh vartashen
 			}
 			
 			include = "expl_middle_east"
@@ -48683,11 +48691,10 @@ countries = {
 		
 		KCN = { #Khachen
 			own_control_core = {
-				gandzasar haterk
+				gandzasar haterk goroz shusha kashatagh
 			}
 			
 			our_cores_conquered_by_others = {
-				goroz kashatagh shusha
 			}
 			
 			include = "expl_christian_caucasus"
@@ -48713,11 +48720,11 @@ countries = {
 		
 		SYU = { #Syunik
 			own_control_core = {
-				kapan_armenia goris kashatagh tatev
+				kapan_armenia goris tatev julfa nakhchivan
 			}
 			
 			our_cores_conquered_by_others = {
-				julfa nakhchivan
+				kashatagh
 			}
 			
 			include = "expl_christian_caucasus"
@@ -50729,6 +50736,86 @@ countries = {
 			}
 			
 			capital = arguvan
+		}
+		
+		VAN = {
+			own_control_core = {
+				van catak hosap tatvan ahlat bargiri ercis
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				mus hizan bahcesaray bitlis
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					noble_armies
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_duchy
+			tolerated_cultures = {
+			}
+			
+			capital = van
+		}
+		
+		GAN = {
+			own_control_core = {
+				ganja gardman shamkir barda shaki aresh vartashen
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					noble_armies
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				georgian_culture
+			}
+			tolerated_cultures = {
+			}
+			
+			capital = ganja
 		}
 		
 		#West HRE

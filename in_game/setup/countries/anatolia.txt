@@ -449,3 +449,17 @@ MES = { #BR addition
 	culture_definition = armenian_culture
 	religion_definition = miaphysite
 }
+
+VAN = { #BR addition
+	color = rgb { 137 128 68 }
+
+	culture_definition = armenian_culture
+	religion_definition = miaphysite
+}
+
+GAN = { #BR addition
+	color = rgb { 157 98 48 }
+
+	culture_definition = armenian_culture
+	religion_definition = miaphysite
+}

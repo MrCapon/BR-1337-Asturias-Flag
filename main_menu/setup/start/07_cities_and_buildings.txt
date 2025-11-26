@@ -4054,7 +4054,7 @@ building_manager = {
 	stockade = { tag = KIP level = 1 location = susaco }
 	stockade = { tag = TEM level = 1 location = maykop }
 	stockade = { tag = TEM level = 1 location = belorechensk }
-	stockade = { tag = SKI level = 1 location = shaki }
+	stockade = { tag = GAN level = 1 location = shaki }
 	stockade = { tag = KCN level = 1 location = gandzasar }
 	stockade = { tag = SYU level = 1 location = kapan_armenia }
 	stockade = { tag = SYU level = 1 location = kashatagh }
