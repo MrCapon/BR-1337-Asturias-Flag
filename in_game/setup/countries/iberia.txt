@@ -4,8 +4,6 @@
 
 	culture_definition = catalan
 	religion_definition = catholic
-
-	
 }
 
 ANR = {
@@ -29,8 +27,6 @@ ARA = {
 
 	description_category = administrative
 	difficulty = 1
-
-	
 }
 
 VAL = {
@@ -39,8 +35,6 @@ VAL = {
 
 	culture_definition = catalan
 	religion_definition = catholic
-
-	
 }
 
 MLL = {
@@ -49,8 +43,6 @@ MLL = {
 
 	culture_definition = catalan
 	religion_definition = catholic
-
-	
 }
 
 CAS = { #Keep it existing to avoid errors
@@ -66,8 +58,6 @@ CAS = { #Keep it existing to avoid errors
 
 	description_category = military
 	difficulty = 2
-
-	
 }
 
 
@@ -101,8 +91,6 @@ POR = {
 
 	description_category = administrative
 	difficulty = 2
-
-	
 }
 
 LON = {
@@ -116,8 +104,6 @@ LON = {
 	unit_color0 = purple
 	unit_color1 = white
 	unit_color2 = red
-
-	
 }
 
 GLC = {
@@ -126,8 +112,6 @@ GLC = {
 
 	culture_definition = galician
 	religion_definition = catholic
-
-	
 }
 
 GRA = {
@@ -136,8 +120,6 @@ GRA = {
 
 	culture_definition = andalusi
 	religion_definition = sunni
-	
-	ruler = random
 }
 
 NAV = {
@@ -146,8 +128,6 @@ NAV = {
 
 	culture_definition = basque
 	religion_definition = catholic
-
-	
 }
 
 ADU = { #BR Addition
