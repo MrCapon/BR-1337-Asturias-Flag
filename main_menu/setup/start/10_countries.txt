@@ -13153,12 +13153,13 @@ countries = {
 				
 			}
 			tolerated_cultures = {
-				bulgarian bosnian wallachian
+				bosnian
+				greek_culture
 			}
 			
 			liturgical_language = church_slavonic_language
 			
-			capital = prizren
+			capital = trgoviste_SER
 			dynasty = nemanjic_dynasty
 		}
 		
@@ -13431,6 +13432,7 @@ countries = {
 			tolerated_cultures = {
 				serbian
 				wallachian
+				greek_culture
 			}
 			
 			liturgical_language = church_slavonic_language
