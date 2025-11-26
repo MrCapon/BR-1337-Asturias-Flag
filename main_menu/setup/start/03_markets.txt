@@ -1,5 +1,6 @@
 market_manager = {
-	#europe
+	
+	####---------- Europe ----------####
 	add_market = lubeck
 	add_market = riga
 	add_market = venice
@@ -27,16 +28,16 @@ market_manager = {
 	add_market = skalholt	
 	add_market = gardr
 	add_market = naples
-
 	add_market = oslo #should be Bergen but too low access
 	add_market = stockholm
 	add_market = leon #moved from burgos
 	add_market = tbilisi
 	add_market = nuremberg
 	#add_market = lisbon 
-
 	
-	#Africa
+	
+	####---------- Africa ----------####
+	# North Africa
 	add_market = fez
 	add_market = alexandria
 	add_market = begho
@@ -46,19 +47,17 @@ market_manager = {
 	add_market = njimi
 	add_market = algiers
 	add_market = bungu_kongo
-
 	add_market = tunis
 	
-	#East Africa
+	# East Africa
 	add_market = mogadishu
 	add_market = kilwa_kisiwani
 	add_market = sofala
 	add_market = axum
 	add_market = dongola
 	
-	#Central Africa
-
 	
+	####---------- Asia ----------####
 	# Middle East
 	add_market = antioch
 	add_market = baghdad
@@ -78,6 +77,12 @@ market_manager = {
 	add_market = almaty
 	add_market = sarayjuk
 	add_market = urgench
+	
+	# India
+	add_market = delhi
+	add_market = chittagong
+	add_market = varanasi
+	add_market = kataka
 	
 	# East Asia
 	add_market = dadu
@@ -112,42 +117,11 @@ market_manager = {
 
 	add_market = akita
 
-	#South Asia 
+	# South Asia
 	add_market = khambat
 	add_market = pazhaverkadu
 	add_market = kozhikode
 	
-	#India
-	add_market = delhi
-	add_market = chittagong
-	add_market = varanasi
-	add_market = kataka
-	
-	# Mesoamerica
-	add_market = zaachila
-	add_market = azcapotzalco
-	add_market = mayapan
-	add_market = noh_peten
-
-	# Aridoamerica
-	#add_market = batuco
-	#add_market = halona_idiwana
-	add_market = ialophaybo
-	
-	# Central america
-	add_market = kuskatan
-
-	#Colombia
-	add_market = teyuna
-	add_market = chunsua
-
-	#Andes
-	add_market = chinchay
-		
-	#Oceania
-	add_market = o_ahu
-	add_market = tongatapu
-
 	# Indochina
 	add_market = berune
 	add_market = martaban
@@ -158,40 +132,49 @@ market_manager = {
 	add_market = thang_long
 	add_market = vijaya
 	add_market = gowa
-
+	
 	add_market = pinya
 	add_market = angkor
 	
-	# Vinlandic North America
-	add_market = belle_isle
-
-	#Missisippian North america
-	add_market = cahokia
-	#add_market = natchez
-	#add_market = coosa
-
-	#Tribal North america
-	#add_market = manhattan
-	#add_market = powhatan
-	#add_market = shawmut
-	#add_market = etiwan
-	#add_market = waawiiyaataanong
-	add_market = canajoharie
-	add_market = patapsco
-	
-	#Important Markets not owned by Standard Tags
-	#Carib
-	#add_market = carucairi
-	#Canada
-	#add_market = hochelaga
-	#add_market = stadacona
-	#add_market = chignecto
-	#add_market = cape_spear
-	#add_market = baawitigong
-	#add_market = niagara
-	#add_market = waskaganish
-	
-	#Siberia
+	# Siberia
 	add_market = kazan
 	add_market = chimgi_tura
+	
+	
+	####---------- North America ----------####
+	# Vinlandic North America
+	add_market = belle_isle
+	
+	# Haudenosauneega
+	add_market = canajoharie
+	add_market = cahokia
+	
+	# Tsenacommacah
+	add_market = patapsco
+	
+	# Aridoamerica
+	add_market = ialophaybo
+	
+	# Mesoamerica
+	add_market = zaachila
+	add_market = azcapotzalco
+	add_market = mayapan
+	add_market = noh_peten
+	
+	# Central america
+	add_market = kuskatan
+	
+	
+	####---------- South America ----------####
+	# Colombia
+	add_market = teyuna
+	add_market = chunsua
+
+	# Andes
+	add_market = chinchay
+	
+	
+	####---------- Oceania ----------####
+	add_market = o_ahu
+	add_market = tongatapu
 }
