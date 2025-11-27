@@ -2235,23 +2235,40 @@ building_manager = {
 	orthodox_monastery = { tag = ATH level = 1 location =  livadeia } #https://en.wikipedia.org/wiki/Hosios_Loukas
 	orthodox_monastery = { tag = BYZ level = 1 location =  mount_athos }
 
+	#BR added Monesteries and Cathedrals
+
+	#Balkans
+	orthodox_monastery = { tag = BUL level = 1 location =  krupnik } #Rila Monastery
+	orthodox_monastery = { tag = BUL level = 1 location =  stanimaka } #Bachkovo Monastery
+	orthodox_monastery = { tag = BUL level = 1 location =  lovech } #Troyan Monastery
+	orthodox_monastery = { tag = BUL level = 1 location =  melnik } #Rozhen Monastery
+	orthodox_monastery = { tag = BUL level = 1 location =  tarnovo } #Monastery of the Transfiguration
+	orthodox_monastery = { tag = BUL level = 1 location =  ohrid } #Saint Naum Monastery
+	orthodox_monastery = { tag = BUL level = 1 location =  skopje } #Monastery of Saint Panteleimon
+	orthodox_monastery = { tag = THS level = 1 location =  trikala } #Meteora Monasteries
+	orthodox_monastery = { tag = ATH level = 1 location =  athens } #Daphni Monastery
+	orthodox_monastery = { tag = THS level = 1 location =  larissa } #Great Lavra of Olympus
+	orthodox_monastery = { tag = SER level = 1 location =  brskovo } #Ostrog Monastery
+	orthodox_monastery = { tag = EPI level = 1 location =  avlonya } # Apollonia Monastery & Ardenica Monastery
+	
+
 	#Anatolia added https://en.wikipedia.org/wiki/Category:Byzantine_sites_in_Anatolia
-	orthodox_monastery = { tag = ANA level = 1 location =  nigde }
-	orthodox_monastery = { tag = ANA level = 1 location =  nevsehir }
-	orthodox_monastery = { tag = ANA level = 1 location =  beysehir }
-	orthodox_monastery = { tag = ANA level = 1 location =  bekarlar }
-	orthodox_monastery = { tag = ANA level = 1 location =  aksaray }
-	orthodox_monastery = { tag = PAF level = 1 location =  sinop }
-	orthodox_monastery = { tag = TRE level = 1 location =  surmene }
-	orthodox_monastery = { tag = TRE level = 1 location =  gumushane }
-	orthodox_monastery = { tag = KAP level = 1 location =  kayseri }
-	orthodox_monastery = { tag = CYP level = 1 location =  morphou }
-	orthodox_monastery = { tag = BYZ level = 1 location =  akcasehir }
-	orthodox_monastery = { tag = BYZ level = 1 location =  mengen }
-	orthodox_monastery = { tag = BYZ level = 1 location =  cesme }
-	orthodox_monastery = { tag = BYZ level = 1 location =  bursa }
-	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar }
-	orthodox_monastery = { tag = CIL level = 1 location =  mut }
+	orthodox_monastery = { tag = ANA level = 1 location =  nigde } #Monē Chrysogeímōn
+	orthodox_monastery = { tag = ANA level = 1 location =  nevsehir } #Monē Gorēmā
+	orthodox_monastery = { tag = ANA level = 1 location =  beysehir } #Hagía Thékla
+	orthodox_monastery = { tag = ANA level = 1 location =  bekarlar } #Monē Selimēs
+	orthodox_monastery = { tag = ANA level = 1 location =  aksaray } #Monē tou Ichlára
+	orthodox_monastery = { tag = PAF level = 1 location =  sinop } #Monē Sinṓpēs
+	orthodox_monastery = { tag = TRE level = 1 location =  surmene } #Panagía Soumelá
+	orthodox_monastery = { tag = TRE level = 1 location =  gumushane } #Monē Vazelōnos
+	orthodox_monastery = { tag = KAP level = 1 location =  kayseri } #Archeos Monastērion
+	orthodox_monastery = { tag = CYP level = 1 location =  morphou } #Monē Hagíou Mámā
+	orthodox_monastery = { tag = BYZ level = 1 location =  akcasehir } #Monē Angelokástrou
+	orthodox_monastery = { tag = BYZ level = 1 location =  mengen } #Monē Maggainēs
+	orthodox_monastery = { tag = BYZ level = 1 location =  cesme } #Monē Lémbou
+	orthodox_monastery = { tag = BYZ level = 1 location =  bursa } #Monē tou Olýmpou Bythynías
+	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar } #Monē Pelekḗtēs
+	orthodox_monastery = { tag = CIL level = 1 location =  mut } #Monē Alachān
 
 	cathedral	= { tag = BYZ level = 1	location = iznik }
 	cathedral	= { tag = BYZ level = 1	location = izmit }
