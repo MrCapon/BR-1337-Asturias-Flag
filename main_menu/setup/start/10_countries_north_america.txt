@@ -963,6 +963,23 @@ countries = {
 			include = "expl_eastern_seaboard"
 		}
 		
+		#Cusabo
+		CSB = {
+			own_control_core = {
+				combahee kiawah coosaw wimbee
+			}
+			
+			capital = coosaw
+			include = "woodlands_centralized_natives"
+			court_language = muskogee_language
+			government = {
+				ruler = random
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
+		
+		
 		####---------- Eastern Woodlands Decentralized ----------####
 		#Coosa Paramount Chiefdom (De Soto)
 		COO = { #https://en.wikipedia.org/wiki/Coosa_chiefdom
@@ -1477,20 +1494,7 @@ countries = {
 			capital = saluda
 		}
 		
-		#Cusabo
-		CSB = {
-			type = pop
-			
-			add_pops_from_locations = {
-				combahee kiawah coosaw wimbee
-			}
-			include = "american_east_coast_tribe"
-			government = {
-				ruler = random
-			}
-			court_language = muskogee_language
-			capital = coosaw
-		}
+		
 		
 		#Hoocak/Ho-Chunk/Winnebago
 		HCK = {

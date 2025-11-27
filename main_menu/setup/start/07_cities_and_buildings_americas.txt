@@ -53,15 +53,16 @@ locations = {
 		rank = town
 		town_setup = greek_town_port
 	}
-	
-	####---------- Cahokia ----------####
-	cahokia = {
+	kiawah = {
 		rank = town
 		town_setup = south_east_woodlands_town
 	}
 	
 	####---------- Great Plains ----------####
-	#--
+	cahokia = {
+		rank = town
+		town_setup = south_east_woodlands_town
+	}
 	
 	####---------- Aridoamerica ----------####
 	ialophaybo = {

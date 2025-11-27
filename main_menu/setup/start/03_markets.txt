@@ -151,12 +151,15 @@ market_manager = {
 	
 	# Haudenosauneega
 	add_market = irondequoit
-	add_market = cahokia
 	add_market = keweenaw
 	add_market = assonet
 	
 	# Tsenacommacah
 	add_market = patapsco
+	add_market = kiawah
+	
+	# Great Plains
+	add_market = cahokia
 	
 	# Aridoamerica
 	add_market = ialophaybo
