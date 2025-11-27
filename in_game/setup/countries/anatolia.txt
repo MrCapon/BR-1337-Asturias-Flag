@@ -415,6 +415,13 @@ ANA = { #BR addition
 	religion_definition = orthodox
 }
 
+DYR = { #BR addition
+	color = rgb { 185 125 150 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
 KAP = { #BR addition
 	color = rgb { 150 38 75 }
 

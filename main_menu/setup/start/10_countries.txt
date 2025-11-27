@@ -10631,19 +10631,12 @@ countries = {
 		BR2 = {
 			own_control_core = {
 				catania messina mistretta nicosiasic patti piazza
-
 				caltagirone modica noto syracuse terranovasic
-				
 				cotrone gerace monteleone nicastro palmi reggiocal catanzaro
-				
 				paola cosenza castrovillari cassano scalea rossano
-				
 				lagonegro
-				
 				lecce francavilla brindisi gallipoliita taranto martinafr
-				
 				santarcangelo matera
-				
 				monopoli altamura bari
 			}
 			starting_technology_level = 3
@@ -10653,6 +10646,22 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				sicilian
+			}
+			
+			country_rank = rank_duchy
+			
+			capital = leece
 		}
 		
 		
@@ -12382,14 +12391,8 @@ countries = {
 			own_control_core = {
 				nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
 				argyrokastro avlonya karpenisi konitsa
-				#MZK
-				berat ballsh
-				#MTR
-				kavaje
-				#ALB
-				durres
 				#BYZ
-				devol pyli
+				pyli
 				#SAO
 				loidoriki
 			}
@@ -12985,10 +12988,10 @@ countries = {
 		
 		MZK = {
 			own_control_core = {
+				debar
 			}
 			
 			our_cores_conquered_by_others = {
-				berat ballsh
 			}
 			
 			starting_technology_level = 3
@@ -13051,9 +13054,9 @@ countries = {
 		
 		MTR = {
 			own_control_core = {
+				devol
 			}
 			our_cores_conquered_by_others = {
-				kavaje
 			}
 			
 			starting_technology_level = 3
@@ -13098,7 +13101,7 @@ countries = {
 				velbuzd
 				ravno kucevo branicevo
 				nis glubocica vranje
-				ohrid bitola prilep florina kicevo tetovo debar
+				ohrid bitola prilep florina kicevo tetovo
 				prosek shtip kocani strumica skopje kumanovo veles kratovo
 			}
 			starting_technology_level = 3
@@ -13378,7 +13381,7 @@ countries = {
 				velbuzd
 				ravno kucevo branicevo
 				nis glubocica vranje
-				ohrid bitola prilep florina kicevo tetovo debar
+				ohrid bitola prilep florina kicevo tetovo
 				prosek shtip kocani strumica skopje kumanovo veles kratovo
 			}
 			own_control_conquered = {
@@ -13428,11 +13431,12 @@ countries = {
 					peasants_allowed_weapons_privilege
 				}
 			}
-			
+			accepted_cultures = {
+				greek_culture
+			}
 			tolerated_cultures = {
 				serbian
 				wallachian
-				greek_culture
 			}
 			
 			liturgical_language = church_slavonic_language
@@ -31966,6 +31970,9 @@ countries = {
 			country_rank = rank_kingdom #BR EDIT
 			capital = trebizond
 			
+			accepted_cultures = {
+				greek_culture
+			}
 			tolerated_cultures = {
 				laz_culture
 			}
@@ -50498,6 +50505,42 @@ countries = {
 		}
 
 		#New BR Tags
+		#Balkan Tags
+		DYR = { #BR EDITED
+			own_control_core = {
+				berat ballsh kavaje durres
+			}
+			our_cores_conquered_by_others = {
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				albanian 
+			}
+			tolerated_cultures = {
+				latinoi
+			}
+			
+			country_rank = rank_duchy
+			liturgical_language = khoine_dialect
+			
+			capital = durres
+		}
+		
+
+		#Anatolian Tags
 		ANA = {
 			own_control_core = {
 				#KAR
@@ -50551,6 +50594,9 @@ countries = {
 			}
 			
 			country_rank = rank_kingdom
+			accepted_cultures = {
+				greek_culture
+			}
 			tolerated_cultures = {
 				cappadocian_greek_culture
 				armenian_culture
@@ -50600,6 +50646,9 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+			}
 			tolerated_cultures = {
 				armenian_culture
 			}
@@ -50644,6 +50693,9 @@ countries = {
 			}
 			
 			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+			}
 			tolerated_cultures = {
 				armenian_culture
 			}

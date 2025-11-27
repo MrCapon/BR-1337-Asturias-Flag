@@ -278,7 +278,7 @@ diplomacy_manager = {
     dependency = { first = TUN second = MZB subject_type = tributary }
     dependency = { first = TUN second = ZAB subject_type = tributary }
     dependency = { first = ZAB second = OGL subject_type = tributary }
-    scripted_mutual = { first = MOR second = TUN type = alliance }
+    scripted_mutual = { first = ADU second = TUN type = alliance }
 
     #-------Germany-------
     dependency = { first = PAL second = MSB subject_type = vassal }
@@ -380,11 +380,15 @@ diplomacy_manager = {
 
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }
-    dependency = { first = EPI second = ANT subject_type = vassal } #BR EDIT
-    dependency = { first = EPI second = THP subject_type = vassal } #BR EDIT
-    dependency = { first = EPI second = BR2 subject_type = dominion } #BR EDIT
-    dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
     dependency = { first = HUN second = CRO subject_type = dominion }
+    dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
+    scripted_mutual = { first = EPI second = DYR type = alliance }
+    scripted_mutual = { first = EPI second = BR2 type = alliance }
+    dependency = { first = DYR second = ANT subject_type = vassal } #BR EDIT
+    dependency = { first = DYR second = THP subject_type = vassal } #BR EDIT
+    dependency = { first = DYR second = MTR subject_type = vassal } #BR EDIT
+    dependency = { first = DYR second = MZK subject_type = vassal } #BR EDIT
+    
 
     #Persia/Mesopotamia
     dependency = { first = TUR second = HZN subject_type = vassal }
