@@ -2252,6 +2252,20 @@ building_manager = {
 	orthodox_monastery = { tag = BYZ level = 1 location =  bursa }
 	orthodox_monastery = { tag = BYZ level = 1 location =  uskudar }
 	orthodox_monastery = { tag = CIL level = 1 location =  mut }
+
+	cathedral	= { tag = BYZ level = 1	location = iznik }
+	cathedral	= { tag = BYZ level = 1	location = izmit }
+	cathedral	= { tag = BYZ level = 1	location = bursa }
+	cathedral	= { tag = BYZ level = 1	location = bergama }
+	cathedral	= { tag = TRE level = 1	location = trebizond }
+	cathedral	= { tag = ANA level = 1	location = ankara }
+	cathedral	= { tag = KAP level = 1	location = kayseri }
+	cathedral	= { tag = ANA level = 1	location = konya }
+	cathedral	= { tag = BYZ level = 1	location = antalya }
+	cathedral	= { tag = KAP level = 1	location = sivas }
+	cathedral	= { tag = BYZ level = 1	location = lazkiye }
+	cathedral	= { tag = TRE level = 1	location = amasra }
+
 	
 
 
@@ -4518,9 +4532,24 @@ building_manager = {
 	#Italy
 	tar_kiln = { tag = VEN level = 1 location = pola }
 	tar_kiln = { tag = VEN level = 1 location = rovinj }
+	tar_kiln = { tag = VEN level = 1 location = slano }
+	lumber_mill = { tag = VEN level = 1 location = rovinj }
+	lumber_mill = { tag = VEN level = 1 location = chioggia }
+	sand_pit = { tag = VEN level = 1 location = chioggia }
+	sand_pit = { tag = VEN level = 1 location = mestre }
+	charcoal_maker = { tag = VEN level = 1 location = mestre }
+	charcoal_maker = { tag = VEN level = 1 location = senj }
+	stone_quarry = { tag = VEN level = 1 location = split }
 	rural_clothmaker = { tag = VEN level = 1 location =  mestre }
 	rural_clothmaker = { tag = VEN level = 1 location =  zadar }
 	forest_village = { tag = VEN level = 1 location = novigrad }
+	tar_kiln = { tag = GEN level = 1 location = albenga }
+	tar_kiln = { tag = GEN level = 1 location = sarzana }
+	tar_kiln = { tag = GEN level = 1 location = bastia }
+	stone_quarry = { tag = GEN level = 1 location = savona }
+	stone_quarry = { tag = GEN level = 1 location = sartene }
+	lumber_mill = { tag = GEN level = 1 location = savona }
+	sand_pit = { tag = GEN level = 1 location = savona }
 
 	market_village = { tag = VEN level = 1 location = corfu }
 	fishing_village = { tag = VEN level = 1 location = corfu }
