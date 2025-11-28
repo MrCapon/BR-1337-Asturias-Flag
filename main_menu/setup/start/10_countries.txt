@@ -50765,12 +50765,6 @@ countries = {
 				cappadocian_greek_culture
 				armenian_culture
 			}
-			timed_modifier = {
-				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
-				start_date = 1333.1.1
-				date = 1341.1.1
-				size = 0.75
-			}
 			capital = konya
 		}
 		
@@ -50829,6 +50823,12 @@ countries = {
 			tolerated_cultures = {
 				cappadocian_greek_culture
 				armenian_culture
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1341.1.1
+				size = 1.0
 			}
 
 			capital = konya
@@ -50893,6 +50893,12 @@ countries = {
 				armenian_culture
 			}
 
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1341.1.1
+				size = 1.0
+			}
 			capital = ankara
 		}
 		
