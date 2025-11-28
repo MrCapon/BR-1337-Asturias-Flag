@@ -7,8 +7,8 @@
   #ERE tags
  ANA: "Anatolia"
  ANA_ADJ: "Anatolian"
- KAP: "Kappadocia"
- KAP_ADJ: "Kappadocian"
+ KAP: "Kappadokía"
+ KAP_ADJ: "Kappadokían"
  MOE: "Morea"
  MOE_ADJ: "Morean"
  PAF: "Paphlagonia"
@@ -29,6 +29,10 @@
  AOI_ADJ: "Antiócheian"
  OHS: "Holy Sepulchre"
  OHS_ADJ: "Holy Sepulchre"
+ AON: "Anatolikōn"
+ AON_ADJ: "Anatolikōn"
+ ICO: "Iconion"
+ ICO_ADJ: "Iconion"
  
  # British Isles
  AGL: "Anglia"

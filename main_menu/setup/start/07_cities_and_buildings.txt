@@ -943,7 +943,7 @@ locations={
 	kastamonu = { rank = town		town_setup = anatolian_town }
 	sinop = { rank = town		town_setup = greek_town_port } #BR EDIT
 	kozluk = { rank = town		town_setup = anatolian_town }
-	elbistan = { rank = town		town_setup = anatolian_town }
+	#elbistan = { rank = town		town_setup = anatolian_town }
 	kutahya = { rank = town		town_setup = anatolian_town }
 	uluborlu = { rank = town		town_setup = anatolian_town }
 	bayramlu = { rank = town		town_setup = anatolian_town }
@@ -3859,7 +3859,6 @@ building_manager = {
 	stockade = { tag = LLS level = 1 location = suzhou }
 	stockade = { tag = LLS level = 1 location = jianchang_sichuan }
 	stockade = { tag = DIL level = 1 location = kozluk }
-	stockade = { tag = DUL level = 1 location = gerger }
 	stockade = { tag = MES level = 1 location = arapgir }
 	stockade = { tag = KOG level = 1 location = sebinkarahisar }
 	stockade = { tag = HSN level = 1 location = savur }
@@ -4609,7 +4608,13 @@ building_manager = {
 	market_village = { tag = CYP level = 1 location = famagusta }
 	market_village = { tag = ANA level = 1 location = zile }
 	market_village = { tag = CIL level = 2 location = sis }
+	market_village = { tag = OHS level = 2 location = kapan }
+	tar_kiln = { tag = CIL level = 2 location = sis }
+	charcoal_maker = { tag = CIL level = 2 location = sis }
+	rural_clothmaker = { tag = CIL level = 1 location = sis }
 	market_village = { tag = CIL level = 2 location = adana }
+	tar_kiln = { tag = CIL level = 1 location = adana }
+	rural_clothmaker = { tag = CIL level = 1 location = sis }
 	market_village = { tag = CIL level = 1 location = silifke }
 	market_village = { tag = ANA level = 1 location = eregli_kar }
 	market_village = { tag = ANA level = 1 location = aksaray }
@@ -4624,6 +4629,8 @@ building_manager = {
 	market_village = { tag = BYZ level = 1 location = mengen }
 	forest_village = { tag = PAF level = 1 location = bayat }
 	market_village = { tag = CIL level = 1 location = iskenderun }
+	rural_clothmaker = { tag = CIL level = 1 location = iskenderun }
+	rural_clothmaker = { tag = CIL level = 1 location = adana }
 	market_village = { tag = ANA level = 1 location = yalvac }
 	forest_village = { tag = ANA level = 1 location = beysehir }
 	market_village = { tag = MES level = 1 location = arguvan }
@@ -5065,8 +5072,12 @@ building_manager = {
 
 	#Holy Sepulchre
 	order_headquarters = { tag = OHS level = 1 location =  kapan } 
-	order_stronghold	= { tag = OHS level = 1	location = ulnia }
+	order_stronghold = { tag = OHS level = 1	location = ulnia }
+	sergeantry = { tag = OHS level = 1 location = kapan }
+	nobility_fortifications = { tag = OHS level = 1 location = ulnia }
+	nobles_recruitment_center = { tag = OHS level = 1 location = kapan }
 	castle = { tag = OHS level = 1 location = ulnia }
+	stockade = { tag = OHS level = 1 location = kapan }
 
 	order_commandery = { tag = OHS level = 1 location = ankara }
 	order_commandery = { tag = OHS level = 1 location = sivas }

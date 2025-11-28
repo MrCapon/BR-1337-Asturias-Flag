@@ -553,7 +553,8 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ANA MOE THS	KAP PAF CIL	THE ATH ACH BR2 CYP CRT NEG CEP NAX
+			ICO AON OHS AOI
+			MOE THS	KAP PAF CIL	THE ATH ACH BR2 CYP CRT NEG CEP NAX
 		}
 		variables = { 
 			religion = religion:orthodox

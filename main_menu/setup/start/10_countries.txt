@@ -12614,7 +12614,7 @@ countries = {
 				traianopolis demotica xanthia komotini
 				
 				#TUR
-				beypazari kibrus kizilca
+				kibrus
 				bolu akcasehir akyazi konrapa gerede mengen mudurnu
 				bursa adranos iznik
 				izmit atpazari
@@ -12684,6 +12684,7 @@ countries = {
 				corum huseyinabad sungurlu
 				akdagmadeni aydincik koyulhisar sulusaray tokat zile
 				yalvac
+				beypazari kizilca
 				#THE
 				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
 				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama
@@ -13711,16 +13712,17 @@ countries = {
 			own_control_core = { #BR edit
 				#Castilla
 				avila arevalo villatoro #Avila
-				burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
-				palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
 				segovia cuellar fuentiduena pedraza sepulveda
-				santander laredo potes san_vicente_barquera
 				valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
+				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
+				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
+				palencia palenzuela aranda_de_duero
 			}
 			
 			our_cores_conquered_by_others = {
-				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
-				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
+				burgos briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
+				santander laredo potes san_vicente_barquera
+				aguilar_de_campoo carrion_de_los_condes monzon_campos saldana reinosa
 			}
 			
 			starting_technology_level = 3
@@ -13897,28 +13899,29 @@ countries = {
 			own_control_core = { #BR edit
 				#Leon
 				leon astorga castrocalbon mansilla ponferrada riano sahagun villablino villafranca_bierzo
-				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
-				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 				coruna betanzos ferrol mondonedo vivero
 				lugo monforte_de_lemos navia_de_suarna sarria villalba
 				ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
 				santiago_compostela finisterre lalin mellid noya pontevedra tuy
 				oviedo aviles cangas castropol llanes mieres tineo villaviciosa
+				burgos briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
+				santander laredo potes san_vicente_barquera
+				aguilar_de_campoo carrion_de_los_condes monzon_campos saldana reinosa
 			}
 			
 			our_cores_conquered_by_others = {
 				#Castilla
 				avila arevalo villatoro #Avila
-				burgos aranda_de_duero briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
-				palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
 				segovia cuellar fuentiduena pedraza sepulveda
-				santander laredo potes san_vicente_barquera
 				valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
+				palencia palenzuela aranda_de_duero
 				#Portugual
 				feira #Beira Litoral
 				lamego meda pinhel trancoso viseu #Beira Alta
 				porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo #Minho
 				braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real #Tras-os-Montes
+				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
+				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 			}
 			
 			starting_technology_level = 3
@@ -29274,18 +29277,18 @@ countries = {
 			flag = "YUA"
 			country_name = "YUA"
 			
-			timed_modifier = {
-				modifier = "chi_factional_strife"
-				start_date = 1328.1.1
-				date = 1368.1.1
-				size = 1
-			}
-			timed_modifier = {
-				modifier = "chi_administration_in_disarray"
-				start_date = 1328.1.1
-				date = 1368.1.1
-				size = 1
-			}
+		#	timed_modifier = {
+		#		modifier = "chi_factional_strife"
+		#		start_date = 1328.1.1
+		#		date = 1368.1.1
+		#		size = 1
+		#	}
+		#	timed_modifier = {
+		#		modifier = "chi_administration_in_disarray"
+		#		start_date = 1328.1.1
+		#		date = 1368.1.1
+		#		size = 1
+		#	}
 		}
 		
 		YUA = {	#The Yuán fallback tag
@@ -31167,10 +31170,10 @@ countries = {
 				araban hasakah makisin mardin tunanir
 				raqqa  busayrah jabar madinat_far
 				urfa birecik harran suruc viransehir siverek
-				jabbul al_bab manbij maskanah dabiq aleppo zardana marrat
 				barqaid sinjar bara_iraq nusaybin ras_ayn
 				diyarbekir ergani
 				cermik
+				kahta samsat
 			}
 			own_control_integrated = {
 			
@@ -31216,7 +31219,7 @@ countries = {
 			}
 			
 			country_rank = rank_kingdom
-			capital = aleppo
+			capital = urfa
 			religious_school = shafii_school
 			government = { mysticism_vs_jurisprudence = 20 }
 			
@@ -31399,13 +31402,10 @@ countries = {
 		#Dulkadirids - DUL https://en.wikipedia.org/wiki/Dulkadirids
 		DUL = {
 			own_control_core = {
-				gerger kahta samsat
-				besni enguzud marash elbistan goksun afsin
-				kaysun
+				jabbul al_bab manbij maskanah dabiq aleppo zardana marrat
+				kilis afrin 
 				ayntab dluk
-			}
-			our_cores_conquered_by_others = {
-				ulnia
+				khanaser qastal salamiyya
 			}
 			
 			include = "expl_eastern_europe"
@@ -31430,7 +31430,7 @@ countries = {
 				}
 			}
 			
-			capital = elbistan
+			capital = aleppo
 			religious_school = ismaili_school
 			tolerated_cultures = {
 				armenian_culture
@@ -31611,6 +31611,7 @@ countries = {
 		EGL = {
 			own_control_core = {
 				sivrice egil
+				gerger
 			}
 			
 			include = "expl_middle_east"
@@ -31854,7 +31855,13 @@ countries = {
 		#Kilis - KIL
 		KIL = {
 			own_control_core = {
-				kilis afrin trapessac
+				trapessac
+				besni enguzud marash elbistan goksun afsin
+				kaysun
+
+			}
+			our_cores_conquered_by_others = {
+				ulnia
 			}
 			
 			include = "expl_middle_east"
@@ -31872,7 +31879,7 @@ countries = {
 				levantine_culture
 			}
 			
-			capital = kilis
+			capital = kaysun
 			dynasty = canbolad_dynasty
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 		}
@@ -31888,21 +31895,14 @@ countries = {
 			own_control_core = {
 				trebizond giresun gorele gumushane surmene
 				bayramlu unye
-				
 				#HCI
 				mesudiye
-				
 				#TDJ
-				amasya niksar sonisa
 				akkus terme
-				
 				#KBD
-				gadegara ladik_pontus merzifon
 				samsun
-				
 				#BFR
 				bafra gerze
-				
 				rize khupati
 			}
 			
@@ -31918,6 +31918,9 @@ countries = {
 				khupati
 				#GLH
 				lusta soldaia
+				amasya merzifon
+				niksar sonisa
+				gadegara ladik_pontus
 			}
 			
 			starting_technology_level = 3
@@ -32652,7 +32655,6 @@ countries = {
 		FDL = {
 			own_control_core = {
 				ithriya sukhnah taybah
-				khanaser qastal salamiyya
 				arak huwwarin qaryatayn tadmur
 			}
 			
@@ -50580,6 +50582,12 @@ countries = {
 				syriac_culture
 			}
 			
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence"
+				start_date = 1333.1.1
+				date = 1340.1.1
+				size = 1
+			}
 			country_rank = rank_duchy
 			capital = antioch
 		}
@@ -50589,7 +50597,8 @@ countries = {
 				kapan ulnia
 			}
 			our_cores_conquered_by_others = {
-				elbistan goksun afsin enguzud marash
+				#Holy Land cores
+				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
 			}
 			
 			include = "catholic_military_order"
@@ -50607,27 +50616,64 @@ countries = {
 				
 				reforms = {
 					military_order_reform
-					#crusade_sea_reform
 				}
 				laws = {
-					administrative_system = tongues_policy
+					legal_code_law = byzantine_law
+					distribution_of_power_law = dop_favor_the_ruler
+					feudal_de_jure_law = by_blood
+					#administrative_system = pronoia_system
+					patriarchate_law = state_patriarchate_policy
 					divine_cause_law = safeguard_holy_sites_policy
-					holy_mission_law = mission_on_the_high_seas_policy
-					piracy_law = state_piracy_policy
+					holy_mission_law = external_mission_policy
 				}
+
+                privilege = {
+                    clergy_literacy_rights
+                    auxilium_et_consilium
+                    primacy_of_nobility
+                    noble_armies
+                }
 				
-				land_vs_naval = -30
+				centralization_vs_decentralization = -75
+				aristocracy_vs_plutocracy = -25
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -75
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				quality_vs_quantity = -50
+				individualism_vs_communalism = 60
 				
 			}
 			
+			currency_data = {
+				gold = 500
+				stability = 75
+				army_tradition = 100
+			}
 			accepted_cultures = { armenian }
 			
+			country_rank = rank_duchy
 			capital = kapan
+
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1340.1.1
+				size = 5
+			}
+
 		}
 		
 
 		ANA = {
 			own_control_core = {
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
 				#KAR
 				aksaray kochisar insuyu
 				kirsehir nevsehir sariyahsi
@@ -50635,24 +50681,52 @@ countries = {
 				bekarlar bor_tur nigde
 				beysehir aksehir bolvadin sarkikaraagac seydisehir
 				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-				
 				#AHI
 				ankara cubuk haymana kalecik polatli karakecili
-				
 				#ERE
 				bozok baliseyh candir dinek_keskin sorgun
 				hacibektas
 				corum huseyinabad sungurlu
 				akdagmadeni aydincik koyulhisar sulusaray tokat zile
-				
 				#HMD
 				yalvac
-			}
-			
-			own_control_integrated = {
-			}
-			
-			our_cores_conquered_by_others = {
+				#TUR
+				beypazari kibrus kizilca
+				bolu akcasehir akyazi konrapa gerede mengen mudurnu
+				bursa adranos iznik
+				izmit atpazari
+				domanic
+				sultanonu bilecik goynuk eynegol inonu nalli sogut
+				#KRD
+				balikesir balya edremit manyas mihalic susurluk
+				ayvacik bandirma bayramic can canakkale gonen lapseki
+				dursunbey harmancik
+				#GRM
+				mihaliccik sivrihisar bozan kaymaz
+				altintas emirdag seyitgazi
+				kutahya aslanapa emet simav tavsanli
+				usak banaz gediz seyhli
+				#SRU
+				manisa akhisar demirci gordes kula
+				bergama bigadic soma
+				#AYD
+				smyrna ayasuluk cesme menemen urla
+				tire balat birgi guzelhisar nazilli
+				#MEN
+				milas
+				mugla bodrum cine gokabat marmaris megri yuksekkum
+				#TVS
+				tavas
+				#INA
+				honaz lazkiye
+				#SHP
+				karahisar_i_sahib sandikli suhut
+				#HMD
+				isparta burdur dinar egirdir uluborlu
+				golhisar stefani
+				#TEK
+				antalya elmali karahisar_i_teke kas istanoz
+				manavgat finike
 			}
 			
 			starting_technology_level = 3
@@ -50691,10 +50765,138 @@ countries = {
 				cappadocian_greek_culture
 				armenian_culture
 			}
-			
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1341.1.1
+				size = 0.75
+			}
 			capital = konya
 		}
 		
+		ICO = {
+			own_control_core = {
+				#KAR
+				aksaray kochisar insuyu
+				nevsehir sariyahsi
+				konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
+				bekarlar bor_tur nigde
+				beysehir aksehir bolvadin sarkikaraagac seydisehir
+				ilgin turgut suluklu kulu_turkey obruk altinekin cumra
+				#HMD
+				yalvac
+			}
+			
+			own_control_integrated = {
+			}
+			
+			our_cores_conquered_by_others = {
+				kirsehir
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					#nobles
+					noble_armies
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				cappadocian_greek_culture
+				armenian_culture
+			}
+
+			capital = konya
+		}
+		
+		AON = {
+			own_control_core = {
+				beypazari kizilca
+				ankara cubuk haymana kalecik polatli karakecili
+				bozok baliseyh candir dinek_keskin sorgun
+				hacibektas
+				corum huseyinabad sungurlu
+				akdagmadeni aydincik koyulhisar sulusaray tokat zile
+				kirsehir
+			}
+			
+			own_control_integrated = {
+				cankiri bayat cerkes kursunlu tosya sabanozu
+				iskilip gumus
+				amasya merzifon
+				niksar sonisa
+				gadegara ladik_pontus
+			}
+			
+			our_cores_conquered_by_others = {
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				reforms = {
+					autocracy
+				}
+				privilege = {
+					#nobles
+					noble_armies
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				cappadocian_greek_culture
+				armenian_culture
+			}
+
+			capital = ankara
+		}
+		
+
 		KAP = {
 			own_control_core = {
 				#ERE
@@ -50757,15 +50959,12 @@ countries = {
 				#CND
 				bartin
 				kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-				cankiri bayat cerkes kursunlu tosya
-				safranbolu iskilip sabanozu ulus yenicepazari
-				gumus
+				safranbolu ulus yenicepazari
 			}
-			
-			own_control_integrated = {
-			}
-			
+
 			our_cores_conquered_by_others = {
+				cankiri bayat cerkes kursunlu tosya sabanozu
+				iskilip gumus
 			}
 			
 			starting_technology_level = 3

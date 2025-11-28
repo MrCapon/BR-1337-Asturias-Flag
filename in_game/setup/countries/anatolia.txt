@@ -49,7 +49,7 @@ BFR = {
 }
 
 CIL = {
-	color = rgb { 148 175 129 } 
+	color = rgb { 148 135 129 } 
 
 	#BR EDIT
 	culture_definition = greek_culture
@@ -410,6 +410,20 @@ TVS = {
 
 ANA = { #BR addition
 	color = rgb { 205 38 50 }
+
+	culture_definition = anatolian_greek_culture
+	religion_definition = orthodox
+}
+
+ICO = { #BR addition
+	color = rgb { 155 58 50 }
+
+	culture_definition = anatolian_greek_culture
+	religion_definition = orthodox
+}
+
+AON = { #BR addition
+	color = rgb { 175 38 60 }
 
 	culture_definition = anatolian_greek_culture
 	religion_definition = orthodox

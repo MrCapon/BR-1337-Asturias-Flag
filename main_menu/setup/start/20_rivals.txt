@@ -77,4 +77,21 @@ diplomacy_manager = {
 	rival = { first = TLE second = MOR }
 	rival = { first = TLE second = TUN }
 	rival = { first = TUN second = TLE }
+
+	#ERE
+	rival = { first = BYZ second = BUL }
+	rival = { first = BUL second = BYZ }
+
+	rival = { first = SER second = BUL }
+	rival = { first = BUL second = SER }
+
+	rival = { first = BYZ second = AON }
+	rival = { first = AON second = BYZ }
+	rival = { first = BYZ second = ICO }
+	rival = { first = ICO second = BYZ }
+	rival = { first = BYZ second = TRE }
+	rival = { first = TRE second = BYZ }
+
+	rival = { first = OHS second = DUL }
+	rival = { first = DUL second = OHS }
 }

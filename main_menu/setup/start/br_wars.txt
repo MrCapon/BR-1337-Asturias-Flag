@@ -1,4 +1,5 @@
 war_manager = {
+	
 	war = {
 		war_name = {
 			name = "CIVIL_WAR_NAME"
@@ -7,7 +8,7 @@ war_manager = {
 				name = "BYZ"
 			}
 			SECOND = {
-				name="ANA"
+				name="AON"
 			}
 		}
 
@@ -21,23 +22,17 @@ war_manager = {
 		action = 1337.3.15
 		#Team 1
 		attacker = {
-			country = ANA
+			country = AON
 			request = {
 				reason = Instigator
 			}
 		}
 		attacker = {
-			country = CIL
+			country = ICO
 			request = {
-				caller = ANA
-				reason = Subject
-			}
-		}
-		attacker = {
-			country = KAP
-			request = {
-				caller = ANA
-				reason = Subject
+				caller = AON
+				reason = Scripted
+				which = alliance
 			}
 		}
 		#Team 2
@@ -47,41 +42,51 @@ war_manager = {
 				reason = Target
 			}
 		}
-		defender = {
-			country = THE
-			request = {
-				caller = BYZ
-				reason = Subject
+	}
+	
+	war = {
+		war_name = {
+			name = "CRUSADE_WAR_NAME"
+			ordinal = 1
+			first = {
+				name = "OHS"
+			}
+			SECOND = {
+				name="KIL"
 			}
 		}
-		defender = {
-			country = THS
+
+		take_province = {
+			type = conquer_province
+			casus_belli = cb_conquer_province
+			location = elbistan
+		}
+		
+		start_date = 1332.7.6
+		action = 1337.3.15
+		#Team 1
+		attacker = {
+			country = OHS
 			request = {
-				caller = THE
-				reason = Subject
+				reason = Instigator
 			}
 		}
-		defender = {
-			country = ATH
+		attacker = {
+			country = OHS
 			request = {
-				caller = BYZ
-				reason = Subject
+				caller = KAP
+				reason = Scripted
+				which = alliance
 			}
 		}
+		#Team 2
 		defender = {
-			country = MOE
+			country = KIL
 			request = {
-				caller = ATH
-				reason = Subject
-			}
-		}
-		defender = {
-			country = ACH
-			request = {
-				caller = ATH
-				reason = Subject
+				reason = Target
 			}
 		}
 	}
+
 
 }
