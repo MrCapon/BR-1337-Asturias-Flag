@@ -4542,10 +4542,10 @@ building_manager = {
 	tannery = { tag = GLH level = 2 location =  sarai_al_jadid }
 	tannery = { tag = GLH level = 1 location =  astrakhan }
 	fine_cloth_guild = { tag = GLH level = 1 location =  astrakhan }
-	rural_clothmaker = { tag = GLH level = 1 location =  yenotayevka }
-	market_village = { tag = GLH level = 1 location =  yenotayevka }
-	rural_clothmaker = { tag = GLH level = 1 location =  zamyany }
-	market_village = { tag = GLH level = 1 location =  zamyany }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_market_villages = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  zamyany }
+	tribal_market_villages = { tag = GLH level = 1 location =  zamyany }
 	tar_kiln = { tag = GLH level = 1 location =  chimgi_tura }
 	jewelry_guild = { tag = GLH level = 1 location =  chimgi_tura }
 	tar_kiln = { tag = GLH level = 1 location =  umanske }
