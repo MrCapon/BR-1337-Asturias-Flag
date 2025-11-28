@@ -236,7 +236,7 @@ TEK = {
 }
 
 TRE = {
-	color = rgb { 90 64 157 } #BR edited
+	color = rgb { 65 84 167 } #BR edited
 
 	culture_definition = pontic_greek_culture
 	religion_definition = orthodox
@@ -412,6 +412,13 @@ ANA = { #BR addition
 	color = rgb { 205 38 50 }
 
 	culture_definition = anatolian_greek_culture
+	religion_definition = orthodox
+}
+
+AOI = { #BR addition
+	color = rgb { 205 38 50 }
+
+	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 

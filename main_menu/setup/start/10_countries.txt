@@ -3950,7 +3950,6 @@ countries = {
 		GLH = {
 			type = army
 			own_control_core = {
-				
 				qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
@@ -3972,8 +3971,7 @@ countries = {
 				aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
 				zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
 				sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
-			}
-			own_control_integrated = {
+
 				usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn
 				karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka
 				bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk
@@ -3997,7 +3995,7 @@ countries = {
 				naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek
 				kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda
 				kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
-				
+
 				chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
 				zainsk syun verkhneyarkeyevo
 				menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
@@ -4044,7 +4042,7 @@ countries = {
 				koshki kamyshla bolshoy_cheremshan staryi_amanak
 				samara shigony morkvash chebarkul miass
 				krasnaya_gorka belekes
-				
+
 				ismail
 				tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
 				lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
@@ -4077,11 +4075,12 @@ countries = {
 				torhovytsia teplyk tsybuliv uman zavallia
 				vinnytsia buzhskyi pohrebyshche sokilets
 				armavir
-				
+
 				#Principality of Kursk
 				kursk fatezh kosozhichi olgov
 				manturovo_kursk oskol troitskoye_na_shchigrakh
 			}
+
 			starting_technology_level = 3
 			include = "expl_mongols"
 			include = "eurasian_horde"
@@ -4158,7 +4157,9 @@ countries = {
 
 			accepted_cultures = {
 				crimean
-				
+				astrakhani
+				nogai
+				kazani
 			}
 			
 			
@@ -4167,15 +4168,7 @@ countries = {
 				bashkir
 				uzbek_culture
 				yerle_qaliq_culture
-				smolenskian_culture
 				kyrgyz_culture
-				#ruthenian
-				#ryazanian
-				#severian
-				#nogai
-				#astrakhani
-				#kazani
-				
 			}
 			
 		}
@@ -9750,8 +9743,11 @@ countries = {
 				date = 1345.1.1
 				size = 1
 			}
+			country_rank = rank_duchy
 			currency_data = {
 				gold = 1500
+				prestige = 50
+				stability = 50
 			}
 		}
 		
@@ -10024,6 +10020,8 @@ countries = {
 			capital = genoa
 			currency_data = {
 				gold = 2250
+				prestige = 50
+				stability = 50
 			}
 		}
 		
@@ -10393,11 +10391,13 @@ countries = {
 				emilian
 			}
 			
-			country_rank = rank_county
 			capital = milano
 			dynasty = visconti_dynasty
+			country_rank = rank_duchy
 			currency_data = {
 				gold = 1500
+				prestige = 50
+				stability = 50
 			}
 		}
 		
@@ -12040,6 +12040,8 @@ countries = {
 			#https://www.jstor.org/stable/1882461
 			currency_data = {
 				gold = 3000
+				prestige = 50
+				stability = 50
 			}
 		}
 		
@@ -14153,6 +14155,8 @@ countries = {
 
 			currency_data = {
 				gold = 1000
+				prestige = 50
+				stability = 50
 			}
 			tolerated_cultures = {
 				sephardi
@@ -17040,6 +17044,7 @@ countries = {
                 }
             }
             capital = toulouse
+			country_rank = rank_duchy
         }
 		
 		#Champagne (Revolter)
@@ -17323,13 +17328,14 @@ countries = {
 				}
 				
 				aristocracy_vs_plutocracy = 20
-				serfdom_vs_free_subjects = 10
-				mercantilism_vs_free_trade = 20
-				capital_economy_vs_traditional_economy = 0
-				individualism_vs_communalism = -20
+				serfdom_vs_free_subjects = 20
+				mercantilism_vs_free_trade = 25
+				capital_economy_vs_traditional_economy = -15
+				individualism_vs_communalism = -30
 				
 			}
 			capital = bruges
+			country_rank = rank_duchy
 		}
 		
 		#Holland - Union under Hainaut
@@ -31232,18 +31238,10 @@ countries = {
 				kapan
 				silifke anamur mut ermenek
 				alaiye selinti
-				antioch arsuz
 			}
 			
 			our_cores_conquered_by_others = {
-				bor_tur
-				develi
-				ayntab
-				kilis trapessac
 				hargan comana_cil
-				
-				#CYP
-				nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
 			}
 			
 			starting_technology_level = 3
@@ -31274,7 +31272,7 @@ countries = {
 				syriac_culture
 			}
 			
-			country_rank = rank_kingdom
+			country_rank = rank_duchy
 			capital = tarsus
 		}
 		
@@ -31402,7 +31400,7 @@ countries = {
 		DUL = {
 			own_control_core = {
 				gerger kahta samsat
-				besni elbistan enguzud goksun afsin marash
+				besni enguzud marash elbistan goksun afsin
 				kaysun
 				ulnia
 				ayntab dluk
@@ -35259,7 +35257,7 @@ countries = {
 				rhine_franconian
 			}
 			
-			country_rank = rank_county
+			country_rank = rank_duchy
 			capital = stuttgart
 			dynasty = wurttemberg_dynasty
 		}
@@ -50541,6 +50539,48 @@ countries = {
 		
 
 		#Anatolian Tags
+		AOI = {
+			own_control_core = {
+				antioch arsuz
+			}
+			
+			our_cores_conquered_by_others = {
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					noble_armies
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			accepted_cultures = {
+				syriac_culture
+			}
+			
+			tolerated_cultures = {
+				syriac_culture
+			}
+			
+			country_rank = rank_duchy
+			capital = antioch
+		}
+		
+
+
 		ANA = {
 			own_control_core = {
 				#KAR
@@ -50623,6 +50663,7 @@ countries = {
 				hacibektas
 				nevsehir
 				aksaray
+				elbistan goksun afsin
 			}
 			
 			starting_technology_level = 3
@@ -50942,11 +50983,6 @@ countries = {
             }
 
             our_cores_conquered_by_others = {
-				paris montmorency corbeil mantes #Pays de France
-                chaumont_vexin beauvais senlis crepy #Beauvaisis
-                chartres auneau #Chartres
-                brie_comte_robert melun nemours #Gatinais
-                meaux provins nogent_sur_seine #Brie Champenoise
             }
 
             starting_technology_level = 3
@@ -51073,6 +51109,10 @@ countries = {
 
             country_rank = rank_kingdom
             capital = metz
+			currency_data = {
+				prestige = 75
+				stability = 50
+			}
         }
 
         #Lyon

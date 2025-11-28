@@ -1995,6 +1995,7 @@ building_manager = {
 	pirate_haven = { tag = BYZ level = 1 location = sporades }
 	pirate_haven = { tag = NAX level = 1 location = kythnos }
 	pirate_haven = { tag = NAX level = 1 location = milos }
+	pirate_haven = { tag = BOS level = 1 location = metkovic }
 
 	#Genoese Trade Offices
 	trade_office = { tag = GEN level = 1 location = rome }
@@ -2283,7 +2284,11 @@ building_manager = {
 	cathedral	= { tag = BYZ level = 1	location = lazkiye }
 	cathedral	= { tag = TRE level = 1	location = amasya }
 
-	
+	#Levant
+	cathedral	= { tag = AOI level = 1	location = antioch }
+	cathedral	= { tag = MAM level = 1	location = jerusalem }
+	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
+	orthodox_monastery	= { tag = TRE level = 1	location = jerusalem }
 
 
 	### Abbeys	
@@ -4349,7 +4354,7 @@ building_manager = {
 	lazaretto = { tag = PAF level = 1 location = sinop }
 	lazaretto = { tag = FEO level = 1 location = theodoro }
 	coastal_fort = { tag = FEO level = 1 location = theodoro }
-	lazaretto = { tag = CIL level = 1 location = antioch }
+	lazaretto = { tag = AOI level = 1 location = antioch }
 	lazaretto = { tag = TRP level = 1 location = tripoli }
 	coastal_fort = { tag = VEN level = 1 location = split }
 	lazaretto = { tag = RAG level = 1 location = dubrovnik }
@@ -4794,7 +4799,7 @@ building_manager = {
 	local_markets = { tag = NEG level = 1 location = negroponte }
 	nobility_fortifications = { tag = NAX level = 1 location = naxos }
 	local_markets = { tag = NAX level = 1 location = naxos }
-	clerical_archives = { tag = CIL level = 1 location = antioch }
+	clerical_archives = { tag = AOI level = 1 location = antioch }
 	guild_hall = { tag = ATH level = 1 location = athens }
 	guild_hall = { tag = ATH level = 1 location = corinth }
 	guild_hall = { tag = THS level = 1 location = larissa }
@@ -4935,7 +4940,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = MES level = 1 location = malatya }
 	nobles_recruitment_center = { tag = DER level = 1 location = palu }
 	nobles_recruitment_center = { tag = CIL level = 1 location = alaiye }
-	nobles_recruitment_center = { tag = CIL level = 1 location = antioch }
+	nobles_recruitment_center = { tag = AOI level = 1 location = antioch }
 	nobles_recruitment_center = { tag = PAF level = 1 location = sinop }
 	nobles_recruitment_center = { tag = PAF level = 1 location = bayat }
 	nobles_recruitment_center = { tag = PAF level = 1 location = gumus }
@@ -4953,10 +4958,10 @@ building_manager = {
 	peasants_training_grounds = { tag = ARM level = 1 location = tercan }
 	peasants_training_grounds = { tag = DER level = 1 location = harput }
 	peasants_training_grounds = { tag = MES level = 1 location = arapgir }
-	guild_hall = { tag = CIL level = 1 location = antioch }
-	merchants_guild = { tag = CIL level = 1 location = antioch }
-	burgher_mansion = { tag = CIL level = 1 location = antioch }	
-	artisan_guilds = { tag = CIL level = 1 location = antioch }
+	guild_hall = { tag = AOI level = 1 location = antioch }
+	merchants_guild = { tag = AOI level = 1 location = antioch }
+	burgher_mansion = { tag = AOI level = 1 location = antioch }	
+	artisan_guilds = { tag = AOI level = 1 location = antioch }
 	guild_hall = { tag = TRE level = 1 location = kaffa }
 	merchants_guild = { tag = TRE level = 1 location = kaffa }
 	burgher_mansion = { tag = TRE level = 1 location = kaffa }	
@@ -5012,6 +5017,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = ACH level = 1 location = andravida }
 	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
 	nobles_recruitment_center = { tag = CRO level = 1 location = zagreb }
+	sergeantry = { tag = AOI level = 1 location = antioch }
 	
 #BR added fortifications
 	castle = { tag = KNI level = 1 location =  malta } #br edit
