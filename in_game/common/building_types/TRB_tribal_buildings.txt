@@ -24,7 +24,7 @@
 		}
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
@@ -73,7 +73,7 @@ tribal_market_villages = {
 		is_overseas_for_owner = no
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
@@ -168,7 +168,7 @@ tribal_war_camp = {
 		is_overseas_for_owner = no
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
@@ -209,7 +209,7 @@ tribal_hunting_lodge = {
 		}
 		any_pop = { 
 			pop_type = pop_type:tribesmen 
-			pop_size > 1000
+			pop_size > 1
 		}
 	}
 	
