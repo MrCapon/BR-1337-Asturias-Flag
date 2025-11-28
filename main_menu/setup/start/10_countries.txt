@@ -18124,7 +18124,7 @@ countries = {
 			
 			accepted_cultures = { maltese }
 			
-			capital = rodos
+			capital = malta
 			dynasty = villeneuve_dynasty
 		}
 		
@@ -31402,10 +31402,10 @@ countries = {
 				gerger kahta samsat
 				besni enguzud marash elbistan goksun afsin
 				kaysun
-				ulnia
 				ayntab dluk
 			}
-			own_control_integrated = {
+			our_cores_conquered_by_others = {
+				ulnia
 			}
 			
 			include = "expl_eastern_europe"
@@ -50549,6 +50549,11 @@ countries = {
 			
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 			include = "eastern_european_monarchy"
 			government = {
 				type = monarchy
@@ -50579,7 +50584,47 @@ countries = {
 			capital = antioch
 		}
 		
-
+		OHS = { #Brotherhood of the Holy Sepulchre
+			own_control_core = {
+				kapan ulnia
+			}
+			our_cores_conquered_by_others = {
+				elbistan goksun afsin enguzud marash
+			}
+			
+			include = "catholic_military_order"
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			
+			government = {
+				type = theocracy
+				ruler = random
+				
+				reforms = {
+					military_order_reform
+					#crusade_sea_reform
+				}
+				laws = {
+					administrative_system = tongues_policy
+					divine_cause_law = safeguard_holy_sites_policy
+					holy_mission_law = mission_on_the_high_seas_policy
+					piracy_law = state_piracy_policy
+				}
+				
+				land_vs_naval = -30
+				
+			}
+			
+			accepted_cultures = { armenian }
+			
+			capital = kapan
+		}
+		
 
 		ANA = {
 			own_control_core = {
@@ -50613,6 +50658,11 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -50669,6 +50719,11 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -50716,6 +50771,11 @@ countries = {
 			starting_technology_level = 3
 			include = "expl_eastern_europe"
 			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture

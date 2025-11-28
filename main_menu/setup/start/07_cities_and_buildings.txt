@@ -5063,8 +5063,36 @@ building_manager = {
 	stockade = { tag = TRE level = 1 location = amasya }
 	stockade = { tag = TRE level = 1 location = niksar }
 
+	#Holy Sepulchre
+	order_headquarters = { tag = OHS level = 1 location =  kapan } 
+	order_stronghold	= { tag = OHS level = 1	location = ulnia }
+	castle = { tag = OHS level = 1 location = ulnia }
 
-
-
-	
+	order_commandery = { tag = OHS level = 1 location = ankara }
+	order_commandery = { tag = OHS level = 1 location = sivas }
+	order_commandery = { tag = OHS level = 1 location = konya }
+	order_commandery = { tag = OHS level = 1 location = smyrna }
+	order_commandery = { tag = OHS level = 1 location = kayseri }
+	order_commandery = { tag = OHS level = 1 location = antioch }
+	order_commandery = { tag = OHS level = 1 location = tarsus }
+	order_commandery = { tag = OHS level = 1 location = antalya }
+	order_commandery = { tag = OHS level = 1 location = izmit }
+	order_commandery = { tag = OHS level = 1 location = trebizond }
+	order_commandery = { tag = OHS level = 1 location = constantinople }
+	order_commandery = { tag = OHS level = 1 location = edirne }
+	order_commandery = { tag = OHS level = 1 location = thessaloniki }
+	order_commandery = { tag = OHS level = 1 location = athens }
+	order_commandery = { tag = OHS level = 1 location = nicosia_cyp }
+	order_commandery = { tag = OHS level = 1 location = lazkiye }
+	order_commandery = { tag = OHS level = 1 location = kutahya }
+	order_commandery = { tag = OHS level = 1 location = plovdiv }
+	order_commandery = { tag = OHS level = 1 location = tarnovo }
+	order_commandery = { tag = OHS level = 1 location = sredets }
+	order_commandery = { tag = OHS level = 1 location = skopje }
+	order_commandery = { tag = OHS level = 1 location = durres }
+	order_commandery = { tag = OHS level = 1 location = prizren }
+	order_commandery = { tag = OHS level = 1 location = belgrad }
+	order_commandery = { tag = OHS level = 1 location = syracuse }
+	order_commandery = { tag = OHS level = 1 location = tbilisi }
+	order_commandery = { tag = OHS level = 1 location = kastamonu }
 }

@@ -415,6 +415,16 @@ ANA = { #BR addition
 	religion_definition = orthodox
 }
 
+OHS = {
+	color = rgb { 152 125 104 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+
+	description_category = military
+	difficulty = 3
+}
+
 AOI = { #BR addition
 	color = rgb { 205 38 50 }
 

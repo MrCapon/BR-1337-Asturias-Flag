@@ -325,6 +325,22 @@ diplomacy_manager = {
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
 
+    scripted_oneway = { first = AIO second = OHS type = military_sponsorship }
+	scripted_oneway = { first = ANA second = OHS type = military_sponsorship }
+	scripted_oneway = { first = KAP second = OHS type = military_sponsorship }
+	scripted_oneway = { first = CIL second = OHS type = military_sponsorship }
+	scripted_oneway = { first = CYP second = OHS type = military_sponsorship }
+    scripted_oneway = { first = OHS second = TRE type = military_sponsorship }
+	scripted_oneway = { first = GEO second = OHS type = military_sponsorship }
+	scripted_oneway = { first = PAF second = OHS type = military_sponsorship }
+	scripted_oneway = { first = BYZ second = OHS type = military_sponsorship }
+	scripted_oneway = { first = THE second = OHS type = military_sponsorship }
+    scripted_oneway = { first = ATH second = OHS type = military_sponsorship }
+	scripted_oneway = { first = BUL second = OHS type = military_sponsorship }
+	scripted_oneway = { first = SER second = OHS type = military_sponsorship }
+	scripted_oneway = { first = BR2 second = OHS type = military_sponsorship }
+	scripted_oneway = { first = DYR second = OHS type = military_sponsorship }
+
     #-------Low Lands-------
     dependency = { first = HOL second = ZEE subject_type = fiefdom }
 
