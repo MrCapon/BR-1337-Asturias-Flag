@@ -29,8 +29,8 @@ CEP = {
 	color2 = rgb { 41 188 84 } #new color
 
 	#BR EDIT
-	culture_definition = greek_culture
-	religion_definition = orthodox
+	culture_definition = latinoi
+	religion_definition = catholic
 }
 
 LAT = {
@@ -48,8 +48,8 @@ NAX = {
 	color2 = rgb { 42 55 197 } 
 
 	#BR EDIT
-	culture_definition = greek_culture
-	religion_definition = orthodox
+	culture_definition = latinoi
+	religion_definition = catholic
 }
 
 EPI = {
@@ -234,8 +234,8 @@ NEG = {
 	color = rgb { 95 105 100 }
 	
 	#BR EDIT
-	culture_definition = greek_culture
-	religion_definition = orthodox
+	culture_definition = latinoi
+	religion_definition = catholic
 }
 
 SAO = {
