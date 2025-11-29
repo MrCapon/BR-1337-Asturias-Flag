@@ -1,0 +1,4 @@
+﻿l_english:
+ orthodox_order_commandery: "Order Commandery"
+ orthodox_order_commandery_desc: "An $orthodox_order_commandery$ is a building owned by the military orders outside their own territory that serves two purposes: getting revenues from the exploitation of the surrounding lands and drafting new members for the order."
+ orthodox_order_commandery_tt: "Owner gives [ShowRelationTypeName('military_sponsorship')] to us"
