@@ -472,6 +472,7 @@
 			}
 		}
 
+
 		#catholics
 		every_country = {
 			limit = {
