@@ -554,7 +554,7 @@ international_organization_manager = {
 			FEO	
 			#BR ADDED
 			ICO AON OHS AOI RIC DYR
-			MOE THS	KAP PAF CIL	THE ATH ACH BR2 CYP CRT NEG CEP NAX
+			MOE THS	KAP PAF CIL	THE ATH ACH S1C CYP CRT NEG CEP NAX
 		}
 		variables = { 
 			religion = religion:orthodox

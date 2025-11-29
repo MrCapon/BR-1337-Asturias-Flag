@@ -10628,7 +10628,7 @@ countries = {
 	}
 		
 		#Sikelanoi
-		BR2 = {
+		S1C = {
 			own_control_core = {
 				catania messina mistretta nicosiasic patti piazza
 				caltagirone modica noto syracuse terranovasic
@@ -10661,7 +10661,7 @@ countries = {
 			
 			country_rank = rank_duchy
 			
-			capital = leece
+			capital = syracuse # lecce
 		}
 		
 		

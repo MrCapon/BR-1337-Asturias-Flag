@@ -114,7 +114,7 @@ locations={
 	genoa = { rank = city 			town_setup = italian_trading_capital }
 	lucca = { rank = city 			town_setup = italian_coastal_city }
 	mantova = { rank = city 		town_setup = italian_city }
-	messina = { rank = city 		town_setup = italian_coastal_city }
+	syracuse = { rank = city 		town_setup = italian_coastal_city }
 	milano = { rank = city 			town_setup = italian_city }
 	naples = { rank = city 			town_setup = italian_trading_capital }
 	padova = { rank = city 			town_setup = italian_city }
@@ -173,7 +173,7 @@ locations={
 	salerno = { rank = town 		town_setup = italian_coastal_town }
 	sassari = { rank = town 		town_setup = italian_town }
 	savona = { rank = town 			town_setup = italian_coastal_town }
-	syracuse = { rank = town 		town_setup = italian_coastal_town }
+	messina = { rank = town 		town_setup = italian_coastal_town }
 	spoleto = { rank = town 		town_setup = italian_town }
 	taranto = { rank = town 		town_setup = italian_town }
 	tivoli = { rank = town 			town_setup = italian_town }
@@ -4646,8 +4646,8 @@ building_manager = {
 	market_village = { tag = URB level = 1 location = fabriano }
 	market_village = { tag = CMR level = 1 location = camerino }
 	market_village = { tag = FRM level = 1 location = fermo }
-	market_village = { tag = BR2 level = 1 location = cosenza }
-	market_village = { tag = BR2 level = 1 location = gallipoliita }
+	market_village = { tag = S1C level = 1 location = cosenza }
+	market_village = { tag = S1C level = 1 location = gallipoliita }
 	market_village = { tag = NAP level = 1 location = campagna }
 	market_village = { tag = CEP level = 1 location = leukas }
 	market_village = { tag = GEN level = 1 location = alghero }

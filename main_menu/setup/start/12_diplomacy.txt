@@ -339,7 +339,7 @@ diplomacy_manager = {
     scripted_oneway = { first = ATH second = OHS type = military_sponsorship }
 	scripted_oneway = { first = BUL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = SER second = OHS type = military_sponsorship }
-	scripted_oneway = { first = BR2 second = OHS type = military_sponsorship }
+	scripted_oneway = { first = S1C second = OHS type = military_sponsorship }
 	scripted_oneway = { first = DYR second = OHS type = military_sponsorship }
 
     #-------Low Lands-------
@@ -402,7 +402,7 @@ diplomacy_manager = {
     dependency = { first = HUN second = CRO subject_type = dominion }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
     scripted_mutual = { first = EPI second = DYR type = alliance }
-    scripted_mutual = { first = EPI second = BR2 type = alliance }
+    scripted_mutual = { first = EPI second = S1C type = alliance }
     dependency = { first = DYR second = ANT subject_type = vassal } #BR EDIT
     dependency = { first = DYR second = THP subject_type = vassal } #BR EDIT
     dependency = { first = DYR second = MTR subject_type = vassal } #BR EDIT

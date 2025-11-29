@@ -275,7 +275,7 @@ MOE = {
 	religion_definition = orthodox
 }
 
-BR2 = { #Sikelanoi
+S1C = { #Sikelanoi
     color = rgb { 175 75 103 }
     culture_definition = griko_culture
 	religion_definition = orthodox
