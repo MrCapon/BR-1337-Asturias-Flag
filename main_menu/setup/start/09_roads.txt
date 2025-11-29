@@ -2030,6 +2030,7 @@ road_network = {
 	algeciras = marbella
 	marbella = malaga
 	loja = illora
+	jaen = baeza
 	granada = almunecar
 	almunecar = adra
 	adra = almeria
