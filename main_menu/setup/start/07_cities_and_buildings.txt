@@ -5014,7 +5014,7 @@ building_manager = {
 	marketplace	= { tag = PAF level = 2 location = sinop }
 	marketplace	= { tag = CRT level = 3 location = candia }
 	marketplace	= { tag = DYR level = 3 location = durres }
-	marketplace	= { tag = RAG level = 4 location = dubrovnik }
+	marketplace	= { tag = RAG level = 6 location = dubrovnik }
 	marketplace	= { tag = EPI level = 2 location = ioannina }
 	marketplace	= { tag = VEN level = 15 location = venice }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
@@ -5173,17 +5173,27 @@ building_manager = {
 	fondaco = { tag = ADU level = 1 location = rabat }
 	fondaco = { tag = ADU level = 1 location = oran }
 
-	#BYZ #RUSKI company
-	trade_office = { tag = BYZ level = 2 location = theodoro }
+	#BYZ & Subjects
+	trade_office = { tag = BYZ level = 4 location = theodoro }
 	trade_office = { tag = FEO level = 1 location = kyiv }
 	trade_office = { tag = FEO level = 1 location = moscow }
+	trade_office = { tag = FEO level = 1 location = iasi }
+	trade_office = { tag = FEO level = 1 location = iasi }
+	trade_office = { tag = FEO level = 1 location = sarai_al_jadid }
+	trade_office = { tag = FEO level = 1 location = astrakhan }
 	trade_office = { tag = TRE level = 2 location = tbilisi }
 	trade_office = { tag = TRE level = 2 location = ani }
 	trade_office = { tag = TRE level = 1 location = van }
 	trade_office = { tag = BYZ level = 1 location = bucharest }
-	trade_office = { tag = BYZ level = 1 location = iasi }
 	trade_office = { tag = DYR level = 1 location = prizren }
 	trade_office = { tag = DYR level = 1 location = dubrovnik }
+	trade_office = { tag = BYZ level = 4 location = antioch }
+	trade_office = { tag = AOI level = 2 location = aleppo }
+	trade_office = { tag = AOI level = 2 location = urfa }
+	trade_office = { tag = AOI level = 1 location = acre }
+	trade_office = { tag = AOI level = 1 location = jerusalem }
+	trade_office = { tag = AOI level = 1 location = damascus }
+	trade_office = { tag = AOI level = 1 location = baghdad }
 
 	#Trade Company RIC
 	trade_company_headquarters = { tag = RIC level = 1 location = gallipoli }
