@@ -408,6 +408,16 @@ TVS = {
 
 #BR ADDITIONS
 
+RIC = { #BR addition
+	color = rgb { 175 38 65 }
+
+	culture_definition = indikes_greek_culture
+	religion_definition = orthodox
+
+	description_category = administrative
+	difficulty = 3
+}
+
 ANA = { #BR addition
 	color = rgb { 205 38 50 }
 

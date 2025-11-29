@@ -33,6 +33,8 @@
  AON_ADJ: "Anatolikōn"
  ICO: "Iconion"
  ICO_ADJ: "Iconion"
+ RIC: "Hetaireia Indikēs" #Emporikē Hetaireia tēs Indikēs
+ RIC_ADJ: "Hetaireia Indikēs"
  
  # British Isles
  AGL: "Anglia"

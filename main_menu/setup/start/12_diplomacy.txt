@@ -242,9 +242,7 @@ diplomacy_manager = {
 	dependency = { first = VER second = PAD subject_type = vassal }
 	dependency = { first = VER second = PAR subject_type = vassal }
 	dependency = { first = VER second = LUC subject_type = vassal }
-	
-	scripted_oneway = { first = PAP second = SIC type = guarantee }
-	scripted_oneway = { first = ARA second = SIC type = guarantee }
+
 	
 	#-------Iberia-------
 	dependency = { first = ARA second = MLL subject_type = vassal start_date = 1279.1.20 } #Treaty of Perpignan, where James II of Mallorca acknowledged the overlordship of his elder brother, Peter IV of Aragon
@@ -253,6 +251,8 @@ diplomacy_manager = {
 	scripted_oneway = { first = ARA second = ANR type = guarantee }
 	scripted_oneway = { first = AQN second = ANR type = guarantee }
 	scripted_oneway = { first = TOU second = ANR type = guarantee }
+    dependency = { first = LON second = CAS subject_type = vassal }
+    dependency = { first = LON second = POR subject_type = vassal }
 	
 	#dependency = { first = ADU second = MOR subject_type = dominion }
 	
@@ -272,7 +272,6 @@ diplomacy_manager = {
 	dependency = { first = TUN second = GFS subject_type = vassal }
 	dependency = { first = TUN second = TGT subject_type = vassal }
 	dependency = { first = TUN second = TRP subject_type = vassal }
-	dependency = { first = TUN second = SIC subject_type = vassal }
     dependency = { first = TUN second = BTL subject_type = tributary }
     dependency = { first = TUN second = DJE subject_type = tributary }
     dependency = { first = TUN second = MZB subject_type = tributary }
@@ -296,9 +295,9 @@ diplomacy_manager = {
     #------Byzantium--------
     #dependency = { first = BYZ second = EPI subject_type = vassal } #BR EDIT
     dependency = { first = BYZ second = FEO subject_type = vassal } #BR ADDED
-    dependency = { first = BYZ second = THE subject_type = fiefdom } #BR ADDED
+    dependency = { first = BYZ second = THE subject_type = vassal } #BR ADDED
     dependency = { first = THE second = THS subject_type = vassal } #BR ADDED
-    dependency = { first = BYZ second = ATH subject_type = fiefdom } #BR ADDED
+    dependency = { first = BYZ second = ATH subject_type = vassal } #BR ADDED
     dependency = { first = ATH second = MOE subject_type = vassal } #BR ADDED
     dependency = { first = ATH second = ACH subject_type = vassal } #BR ADDED
     dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
@@ -312,6 +311,7 @@ diplomacy_manager = {
     scripted_oneway = { first = BYZ second = ATH type = divert_trade }
     dependency = { first = BYZ second = AOI subject_type = march } #BR ADDED
     scripted_oneway = { first = BYZ second = AOI type = divert_trade }
+    dependency = { first = BYZ second = RIC subject_type = trade_company } #BR ADDED
 
     #Anatolia
     #dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED

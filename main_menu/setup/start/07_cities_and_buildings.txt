@@ -1313,7 +1313,7 @@ building_manager = {
 	banking_office = { tag = PRZ level = 1 location = bruges }
 	banking_office = { tag = PRZ level = 1 location = paris }
 	banking_office = { tag = PRZ level = 1 location = avignon }
-	banking_office = { tag = PRZ level = 1 location = rodos }
+	banking_office = { tag = PRZ level = 1 location = thessaloniki }
 	
 	banking_office = { tag = BRD level = 1 location = florence }
 	banking_office = { tag = BRD level = 1 location = barcelona }
@@ -1325,8 +1325,8 @@ building_manager = {
 	banking_office = { tag = BRD level = 1 location = marseille }
 	banking_office = { tag = BRD level = 1 location = london }
 	banking_office = { tag = BRD level = 1 location = bruges }
-	banking_office = { tag = BRD level = 1 location = constantinople }
-	banking_office = { tag = BRD level = 1 location = rodos }
+	banking_office = { tag = BRD level = 1 location = athens }
+	banking_office = { tag = BRD level = 1 location = smyrna }
 	banking_office = { tag = BRD level = 1 location = nicosia_cyp }
 	banking_office = { tag = BRD level = 1 location = jerusalem }
 
@@ -1908,21 +1908,6 @@ building_manager = {
 	brethren_marsh = { tag = CAS level = 1 location = san_sebastian }   #BR edit
 	brethren_marsh = { tag = CAS level = 1 location = tolosa }   #BR edit
 
-		#Pisan Trade Offices #br edit
-	trade_office = { tag = PIS level = 1 location = genoa } #1233
-	trade_office = { tag = PIS level = 1 location = tunis } #1253
-	trade_office = { tag = PIS level = 1 location = alexandria } #1264
-	trade_office = { tag = PIS level = 1 location = pisa } #1279
-	trade_office = { tag = PIS level = 1 location = bejaia } #1281
-	trade_office = { tag = PIS level = 1 location = constantinople } #1281
-	trade_office = { tag = PIS level = 1 location = sevilla } #1282
-	trade_office = { tag = PIS level = 1 location = messina } #1286
-	trade_office = { tag = PIS level = 1 location = palermo } #1286
-	trade_office = { tag = PIS level = 1 location = montpellier } #1301
-	trade_office = { tag = PIS level = 1 location = trapani } #1301
-	#trade_office = { tag = PIS level = 1 location = malta } #1305
-	trade_office = { tag = PIS level = 1 location = oristano } #1325
-
 
 
 	tar_kiln = { tag = HUN level = 1 location = cuhea } 
@@ -1958,37 +1943,6 @@ building_manager = {
 	dock	= { tag = VEN level = 1	location = venice }
 	market_warehouse = { tag = VEN level = 2 location =  venice }
 	city_guard = { tag = VEN level = 1	location = venice }
-	
-	trade_office = { tag = VEN level = 1 location = rome }
-	trade_office = { tag = VEN level = 1 location = naples }
-	trade_office = { tag = VEN level = 2 location = dubrovnik }
-	trade_office = { tag = VEN level = 1 location = smyrna }
-	trade_office = { tag = VEN level = 1 location = constantinople }
-	trade_office = { tag = VEN level = 1 location = ismail }
-	trade_office = { tag = VEN level = 1 location = tana }	
-	trade_office = { tag = VEN level = 1 location = antioch }
-	trade_office = { tag = VEN level = 1 location = acre }
-	trade_office = { tag = VEN level = 1 location = alexandria }
-	trade_office = { tag = VEN level = 1 location = mahdia }
-	trade_office = { tag = VEN level = 1 location = tunis }
-	trade_office = { tag = VEN level = 1 location = athens }
-	trade_office = { tag = VEN level = 1 location = durres }
-	trade_office = { tag = VEN level = 1 location = kalamata }
-	#trade_office = { tag = VEN level = 1 location = mystras }
-	trade_office = { tag = VEN level = 1 location = thessaloniki }
-	trade_office = { tag = VEN level = 1 location = gallipoli }
-	trade_office = { tag = VEN level = 1 location = izmit }
-	trade_office = { tag = VEN level = 2 location = larnaca }
-	trade_office = { tag = VEN level = 2 location = candia }
-	trade_office = { tag = VEN level = 1 location = tarsus }
-
-	fondaco = { tag = VEN level = 2 location = dubrovnik }
-	fondaco = { tag = VEN level = 2 location = candia }
-	fondaco = { tag = VEN level = 2 location = larnaca }
-	fondaco = { tag = VEN level = 2 location = antioch }
-	fondaco = { tag = VEN level = 2 location = alexandria }
-
-
 
 	#Aegean Pirates
 	pirate_haven = { tag = VEN level = 1 location = amorgos }
@@ -1996,42 +1950,6 @@ building_manager = {
 	pirate_haven = { tag = NAX level = 1 location = kythnos }
 	pirate_haven = { tag = NAX level = 1 location = milos }
 	pirate_haven = { tag = BOS level = 1 location = metkovic }
-
-	#Genoese Trade Offices
-	trade_office = { tag = GEN level = 1 location = rome }
-	trade_office = { tag = GEN level = 1 location = naples }
-	trade_office = { tag = GEN level = 1 location = smyrna }
-	trade_office = { tag = GEN level = 1 location = constantinople }
-	trade_office = { tag = GEN level = 1 location = ismail }
-	trade_office = { tag = GEN level = 1 location = tana }	
-	trade_office = { tag = GEN level = 1 location = trebizond }
-	trade_office = { tag = GEN level = 1 location = antioch }
-	trade_office = { tag = GEN level = 1 location = acre }
-	trade_office = { tag = GEN level = 1 location = alexandria }
-	trade_office = { tag = GEN level = 1 location = mahdia }
-	trade_office = { tag = GEN level = 1 location = tunis }
-	trade_office = { tag = GEN level = 1 location = marseille }
-	trade_office = { tag = GEN level = 1 location = barcelona }
-	trade_office = { tag = GEN level = 1 location = sevilla }
-	trade_office = { tag = GEN level = 1 location = bruges }
-	trade_office = { tag = GEN level = 1 location = thessaloniki }
-	trade_office = { tag = GEN level = 1 location = gallipoli }
-	trade_office = { tag = GEN level = 1 location = sinop }
-	trade_office = { tag = GEN level = 1 location = bafra }
-	trade_office = { tag = GEN level = 1 location = bayramlu }
-	#trade_office = { tag = GEN level = 1 location = anaklia }
-	trade_office = { tag = GEN level = 1 location = theodoro }
-	trade_office = { tag = GEN level = 1 location = kaffa }
-	trade_office = { tag = GEN level = 1 location = palma }
-	trade_office = { tag = GEN level = 1 location = valencia }
-	trade_office = { tag = GEN level = 1 location = murcia }
-	trade_office = { tag = GEN level = 1 location = malaga }
-	trade_office = { tag = GEN level = 1 location = tripoli }
-    
-	fondaco = { tag = GEN level = 1 location = kaffa }
-	fondaco = { tag = GEN level = 1 location = soldaia }
-	fondaco = { tag = GEN level = 1 location = tana }
-	fondaco = { tag = GEN level = 1 location = vosporo }
 
 	#Genoese Galley Barracks #Unique
 	galley_barracks = { tag = GEN level = 1 location = genoa }
@@ -4400,32 +4318,6 @@ building_manager = {
 	library = { tag = AIA level = 1 location = baghdad }
 	medical_school = { tag = AIA level = 1 location = baghdad }
 
-	#Major and Important Trade locations
-	marketplace	= { tag = MAM level = 8 location = cairo }
-	marketplace	= { tag = MAM level = 6 location = alexandria }
-	marketplace	= { tag = MAM level = 6 location = damascus }
-	marketplace	= { tag = TUN level = 6 location = tunis }
-	marketplace	= { tag = TUN level = 5 location = palermo }
-	marketplace	= { tag = TRE level = 3 location = kaffa }
-	marketplace	= { tag = FEO level = 6 location = theodoro }
-	marketplace	= { tag = TRE level = 4 location = tana }
-	marketplace	= { tag = TRE level = 4 location = trebizond }
-	marketplace	= { tag = PAF level = 2 location = sinop }
-	marketplace	= { tag = CRT level = 3 location = candia }
-	marketplace	= { tag = DYR level = 3 location = durres }
-	marketplace	= { tag = RAG level = 4 location = dubrovnik }
-	marketplace	= { tag = EPI level = 2 location = ioannina }
-	marketplace	= { tag = VEN level = 15 location = venice }
-	marketplace	= { tag = TUR level = 6 location = tabriz }
-	marketplace	= { tag = MZF level = 6 location = isfahan }
-	marketplace	= { tag = FRA level = 5 location =  metz }
-	marketplace	= { tag = ADU level = 6 location =  sevilla }
-	marketplace	= { tag = ADU level = 5 location =  malaga }
-	marketplace	= { tag = ADU level = 5 location =  murcia }
-	marketplace	= { tag = ADU level = 5 location =  valencia }
-	marketplace	= { tag = ADU level = 5 location =  toledo }
-
-
 	#IBERIA
 	royal_court = { tag = ADU level = 1 location = cordoba }
 	royal_garden = { tag = ADU level = 1 location =  cordoba } #Gardens of the Great Palace
@@ -5106,4 +4998,241 @@ building_manager = {
 	orthodox_order_commandery = { tag = OHS level = 1 location = syracuse }
 	orthodox_order_commandery = { tag = OHS level = 1 location = tbilisi }
 	orthodox_order_commandery = { tag = OHS level = 1 location = kastamonu }
+
+	######Trade Buildings######
+
+	#Major and Important Trade locations
+	marketplace	= { tag = MAM level = 8 location = cairo }
+	marketplace	= { tag = MAM level = 6 location = alexandria }
+	marketplace	= { tag = MAM level = 6 location = damascus }
+	marketplace	= { tag = TUN level = 6 location = tunis }
+	marketplace	= { tag = TUN level = 5 location = palermo }
+	marketplace	= { tag = TRE level = 3 location = kaffa }
+	marketplace	= { tag = FEO level = 6 location = theodoro }
+	marketplace	= { tag = TRE level = 4 location = tana }
+	marketplace	= { tag = TRE level = 4 location = trebizond }
+	marketplace	= { tag = PAF level = 2 location = sinop }
+	marketplace	= { tag = CRT level = 3 location = candia }
+	marketplace	= { tag = DYR level = 3 location = durres }
+	marketplace	= { tag = RAG level = 4 location = dubrovnik }
+	marketplace	= { tag = EPI level = 2 location = ioannina }
+	marketplace	= { tag = VEN level = 15 location = venice }
+	marketplace	= { tag = TUR level = 6 location = tabriz }
+	marketplace	= { tag = MZF level = 6 location = isfahan }
+	marketplace	= { tag = FRA level = 5 location =  metz }
+	marketplace	= { tag = ADU level = 6 location =  sevilla }
+	marketplace	= { tag = ADU level = 5 location =  malaga }
+	marketplace	= { tag = ADU level = 5 location =  murcia }
+	marketplace	= { tag = ADU level = 5 location =  valencia }
+	marketplace	= { tag = ADU level = 5 location =  toledo }
+
+	#Italian Republics
+	
+	#Pisan Trade Offices
+	trade_office = { tag = PIS level = 1 location = genoa } #1233
+	trade_office = { tag = PIS level = 2 location = tunis } #1253
+	trade_office = { tag = PIS level = 1 location = alexandria } #1264
+	trade_office = { tag = PIS level = 1 location = rome } #1279
+	trade_office = { tag = PIS level = 1 location = bejaia } #1281
+	trade_office = { tag = PIS level = 2 location = constantinople } #1281
+	trade_office = { tag = PIS level = 2 location = sevilla } #1282
+	trade_office = { tag = PIS level = 1 location = messina } #1286
+	trade_office = { tag = PIS level = 2 location = palermo } #1286
+	trade_office = { tag = PIS level = 1 location = montpellier } #1301
+	trade_office = { tag = PIS level = 1 location = trapani } #1301
+	overseas_trading_post = { tag = PIS level = 2 location = malta } #1305
+	trade_office = { tag = PIS level = 1 location = oristano } #1325
+	trade_office = { tag = PIS level = 1 location = cagliari }
+	trade_office = { tag = PIS level = 1 location = tripoli }
+
+	#Genoese Trade Offices
+	trade_office = { tag = GEN level = 3 location = rome }
+	trade_office = { tag = GEN level = 3 location = naples }
+	trade_office = { tag = GEN level = 2 location = smyrna }
+	trade_office = { tag = GEN level = 6 location = constantinople }
+	trade_office = { tag = GEN level = 1 location = ismail }
+	trade_office = { tag = GEN level = 2 location = tana }	
+	trade_office = { tag = GEN level = 2 location = trebizond }
+	trade_office = { tag = GEN level = 1 location = antioch }
+	trade_office = { tag = GEN level = 2 location = acre }
+	trade_office = { tag = GEN level = 2 location = alexandria }
+	trade_office = { tag = GEN level = 1 location = mahdia }
+	trade_office = { tag = GEN level = 2 location = tunis }
+	trade_office = { tag = GEN level = 2 location = marseille }
+	trade_office = { tag = GEN level = 2 location = barcelona }
+	trade_office = { tag = GEN level = 3 location = sevilla }
+	trade_office = { tag = GEN level = 1 location = bruges }
+	trade_office = { tag = GEN level = 1 location = thessaloniki }
+	trade_office = { tag = GEN level = 1 location = gallipoli }
+	trade_office = { tag = GEN level = 2 location = sinop }
+	trade_office = { tag = GEN level = 1 location = bafra }
+	trade_office = { tag = GEN level = 1 location = bayramlu }
+	trade_office = { tag = GEN level = 2 location = theodoro }
+	trade_office = { tag = GEN level = 3 location = kaffa }
+	trade_office = { tag = GEN level = 1 location = palma }
+	trade_office = { tag = GEN level = 2 location = valencia }
+	trade_office = { tag = GEN level = 1 location = murcia }
+	trade_office = { tag = GEN level = 2 location = malaga }
+	trade_office = { tag = GEN level = 2 location = tripoli }
+	trade_office = { tag = GEN level = 1 location = bergama }
+	trade_office = { tag = GEN level = 1 location = bursa }
+	trade_office = { tag = GEN level = 1 location = tbilisi }
+	trade_office = { tag = GEN level = 1 location = astrakhan }
+	trade_office = { tag = GEN level = 1 location = sarai_al_jadid }
+	trade_office = { tag = GEN level = 1 location = palermo }
+	overseas_trading_post = { tag = GEN level = 1 location = anaklia }
+	overseas_trading_post = { tag = GEN level = 1 location = ciudadela_de_menorca }
+	overseas_trading_post = { tag = GEN level = 1 location = cartagena }
+	overseas_trading_post = { tag = GEN level = 1 location = gibraltar }
+	overseas_trading_post = { tag = GEN level = 1 location = cadiz }
+	overseas_trading_post = { tag = GEN level = 1 location = ceuta }
+	overseas_trading_post = { tag = GEN level = 1 location = susaco }
+	overseas_trading_post = { tag = GEN level = 1 location = batumi }
+	overseas_trading_post = { tag = GEN level = 1 location = samsun }
+	overseas_trading_post = { tag = GEN level = 1 location = eregli }
+	overseas_trading_post = { tag = GEN level = 1 location = burgas }
+	overseas_trading_post = { tag = GEN level = 1 location = lemnos }
+	overseas_trading_post = { tag = GEN level = 1 location = chios }
+	overseas_trading_post = { tag = GEN level = 1 location = molyvos }
+	overseas_trading_post = { tag = GEN level = 1 location = tripoli_syria }
+	overseas_trading_post = { tag = GEN level = 1 location = marmaris }
+	overseas_trading_post = { tag = GEN level = 2 location = uskudar }
+	overseas_trading_post = { tag = GEN level = 1 location = tripoli_syria }
+	fondaco = { tag = GEN level = 1 location = kaffa }
+	fondaco = { tag = GEN level = 1 location = soldaia }
+	fondaco = { tag = GEN level = 1 location = tana }
+	fondaco = { tag = GEN level = 1 location = vosporo }
+	fondaco = { tag = GEN level = 1 location = theodoro }
+
+	#Venice Trade offices
+	trade_office = { tag = VEN level = 1 location = rome }
+	trade_office = { tag = VEN level = 1 location = naples }
+	trade_office = { tag = VEN level = 3 location = dubrovnik }
+	trade_office = { tag = VEN level = 2 location = smyrna }
+	trade_office = { tag = VEN level = 6 location = constantinople }
+	trade_office = { tag = VEN level = 1 location = ismail }
+	trade_office = { tag = VEN level = 1 location = tana }	
+	trade_office = { tag = VEN level = 2 location = antioch }
+	trade_office = { tag = VEN level = 2 location = acre }
+	trade_office = { tag = VEN level = 4 location = alexandria }
+	trade_office = { tag = VEN level = 1 location = mahdia }
+	trade_office = { tag = VEN level = 1 location = tunis }
+	trade_office = { tag = VEN level = 2 location = athens }
+	trade_office = { tag = VEN level = 2 location = durres }
+	trade_office = { tag = VEN level = 1 location = kalamata }
+	trade_office = { tag = VEN level = 2 location = thessaloniki }
+	trade_office = { tag = VEN level = 2 location = gallipoli }
+	trade_office = { tag = VEN level = 1 location = izmit }
+	trade_office = { tag = VEN level = 2 location = larnaca }
+	trade_office = { tag = VEN level = 2 location = candia }
+	trade_office = { tag = VEN level = 1 location = tarsus }
+	trade_office = { tag = VEN level = 1 location = ancona }
+	trade_office = { tag = VEN level = 1 location = trieste }
+	trade_office = { tag = VEN level = 1 location = manfredonia }
+	trade_office = { tag = VEN level = 1 location = bari }
+	trade_office = { tag = VEN level = 1 location = rodos }
+	overseas_trading_post = { tag = VEN level = 1 location = andravida }
+	overseas_trading_post = { tag = VEN level = 2 location = cephalonia }
+	overseas_trading_post = { tag = VEN level = 1 location = mystras }
+	overseas_trading_post = { tag = VEN level = 2 location = naxos }
+	overseas_trading_post = { tag = VEN level = 1 location = kotor }
+	overseas_trading_post = { tag = VEN level = 1 location = tobruk }
+	overseas_trading_post = { tag = VEN level = 1 location = beirut }
+	overseas_trading_post = { tag = VEN level = 1 location = iskenderun }
+	overseas_trading_post = { tag = VEN level = 1 location = limassol }
+	overseas_trading_post = { tag = VEN level = 1 location = milos }
+	overseas_trading_post = { tag = VEN level = 1 location = negroponte }
+	overseas_trading_post = { tag = VEN level = 1 location = nafplio }
+	overseas_trading_post = { tag = VEN level = 1 location = nafpaktos }
+	overseas_trading_post = { tag = VEN level = 1 location = avlonya }
+	overseas_trading_post = { tag = VEN level = 1 location = bandirma }
+	fondaco = { tag = VEN level = 2 location = dubrovnik }
+	fondaco = { tag = VEN level = 2 location = candia }
+	fondaco = { tag = VEN level = 2 location = larnaca }
+	fondaco = { tag = VEN level = 2 location = antioch }
+	fondaco = { tag = VEN level = 2 location = alexandria }
+
+	#ADU Trade
+	trade_office = { tag = ADU level = 1 location = tunis }
+	trade_office = { tag = ADU level = 1 location = fez }
+	trade_office = { tag = ADU level = 1 location = rabat }
+	trade_office = { tag = ADU level = 1 location = azemmour }
+	trade_office = { tag = ADU level = 1 location = marrakesh }
+	trade_office = { tag = ADU level = 1 location = sijilmasa }
+	trade_office = { tag = ADU level = 1 location = valladolid }
+	trade_office = { tag = ADU level = 1 location = barcelona }
+	trade_office = { tag = ADU level = 1 location = tunis }
+	trade_office = { tag = ADU level = 1 location = oran }
+	trade_office = { tag = ADU level = 1 location = algiers }
+	trade_office = { tag = ADU level = 1 location = bejaia }
+	trade_office = { tag = ADU level = 1 location = annaba }
+	trade_office = { tag = ADU level = 1 location = palermo }
+	trade_office = { tag = ADU level = 1 location = cagliari }
+	overseas_trading_post = { tag = ADU level = 1 location = melilla }
+	overseas_trading_post = { tag = ADU level = 1 location = tetouan }
+	fondaco = { tag = ADU level = 1 location = rabat }
+	fondaco = { tag = ADU level = 1 location = oran }
+
+	#BYZ #RUSKI company
+	trade_office = { tag = BYZ level = 2 location = theodoro }
+	trade_office = { tag = FEO level = 1 location = kyiv }
+	trade_office = { tag = FEO level = 1 location = moscow }
+	trade_office = { tag = TRE level = 2 location = tbilisi }
+	trade_office = { tag = TRE level = 2 location = ani }
+	trade_office = { tag = TRE level = 1 location = van }
+	trade_office = { tag = BYZ level = 1 location = bucharest }
+	trade_office = { tag = BYZ level = 1 location = iasi }
+	trade_office = { tag = DYR level = 1 location = prizren }
+	trade_office = { tag = DYR level = 1 location = dubrovnik }
+
+	#Trade Company RIC
+	trade_company_headquarters = { tag = RIC level = 1 location = gallipoli }
+	trade_company_harbor = { tag = RIC level = 2 location = gallipoli }
+	trade_company_governance = { tag = RIC level = 1 location = gallipoli }
+	trade_company_garrison = { tag = RIC level = 1 location = gallipoli }
+	trade_company_garrison = { tag = RIC level = 1 location = alexandria }
+	trade_company_harbor = { tag = RIC level = 2 location = alexandria }
+
+	fondaco = { tag = RIC level = 1 location = alexandria }
+	trade_office = { tag = RIC level = 4 location = alexandria }
+	fondaco = { tag = RIC level = 1 location = antioch }
+	trade_office = { tag = RIC level = 2 location = antioch }
+	trade_company_governance = { tag = RIC level = 1 location = antioch }
+	trade_office = { tag = RIC level = 2 location = acre }
+	trade_office = { tag = RIC level = 2 location = cairo }
+	trade_office = { tag = RIC level = 1 location = jerusalem }
+	trade_office = { tag = RIC level = 2 location = damascus }
+	trade_office = { tag = RIC level = 2 location = baghdad }
+
+	#Red Sea
+	trade_company_governance = { tag = RIC level = 1 location = axum }
+	trade_company_harbor = { tag = RIC level = 1 location = tinnis }
+	trade_company_harbor = { tag = RIC level = 1 location = suez }
+	trade_company_harbor = { tag = RIC level = 1 location = zula }
+	overseas_trading_post = { tag = RIC level = 1 location = suez }
+	overseas_trading_post = { tag = RIC level = 1 location = zula }
+	overseas_trading_post = { tag = RIC level = 1 location = aydhab }
+	overseas_trading_post = { tag = RIC level = 1 location = tadjoura }
+	overseas_trading_post = { tag = RIC level = 1 location = ankober }
+	trade_office = { tag = RIC level = 1 location = axum }
+	trade_office = { tag = RIC level = 1 location = adan }
+	trade_office = { tag = RIC level = 1 location = lalibela }
+	trade_office = { tag = RIC level = 1 location = dongola }
+	trade_office = { tag = RIC level = 1 location = jeddah }
+
+	#India
+	trade_company_harbor = { tag = RIC level = 2 location = bombay }
+	trade_office = { tag = RIC level = 4 location = bombay }
+	trade_office = { tag = RIC level = 4 location = goa }
+	trade_company_governance = { tag = RIC level = 1 location = bombay }
+	trade_company_garrison = { tag = RIC level = 1 location = bombay }
+	overseas_trading_post = { tag = RIC level = 1 location = kochi }
+	overseas_trading_post = { tag = RIC level = 1 location = manora }
+
+	#Resources
+	trade_company_local_venture = { tag = RIC level = 1 location = bayramic }
+	trade_company_local_venture = { tag = RIC level = 1 location = marmaris }
+	trade_company_local_venture = { tag = RIC level = 1 location = iskenderun }
+	trade_company_local_venture = { tag = RIC level = 1 location = sporades }
+
 }
