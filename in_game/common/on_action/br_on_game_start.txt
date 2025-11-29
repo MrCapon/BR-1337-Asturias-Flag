@@ -472,6 +472,15 @@
 			}
 		}
 
+		#BR added Trade Company
+		every_country = {
+            limit = { is_subject_type = trade_company }
+
+            if = {
+                limit = { NOT = { has_advance = trade_companies_advance } }
+                research_advance = advance_type:trade_companies_advance
+            }
+        }
 
 		#catholics
 		every_country = {
