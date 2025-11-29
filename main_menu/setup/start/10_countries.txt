@@ -32097,13 +32097,10 @@ countries = {
 				prestige = 50
 				army_tradition = 75
 			}
-			accepted_cultures = { turkoman_culture azeri_culture }
+			accepted_cultures = { turkoman_culture }
 			tolerated_cultures = {
-				iraqi_culture
 				adhari_culture
-				kurdish_culture
-				armenian_culture
-				syriac_culture
+				azeri_culture
 			}
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 		}
@@ -46822,12 +46819,9 @@ countries = {
 			
 			religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
 			court_language = turkmen_dialect
-			accepted_cultures = { turkmen_culture turkoman_culture }
+			accepted_cultures = { turkmen_culture }
 			tolerated_cultures = {
 				khorasani_culture
-				farsi_culture
-				adhari_culture
-				semnani_culture
 			}
 			
 			country_rank = rank_kingdom
@@ -50526,9 +50520,6 @@ countries = {
 				ruler = random
 			}
 			
-			accepted_cultures = {
-				albanian 
-			}
 			tolerated_cultures = {
 				latinoi
 			}
@@ -50609,6 +50600,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
+				iskenderun trapessac artah idlib latakia
 			}
 			
 			starting_technology_level = 3
@@ -50727,7 +50719,6 @@ countries = {
 
 		}
 		
-
 		ANA = {
 			own_control_core = {
 			}
