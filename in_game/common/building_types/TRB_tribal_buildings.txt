@@ -88,40 +88,41 @@ tribal_market_villages = {
 			output = 0.52
 		
 			iron = 0.2
+			debug_max_profit = 0.3
 			category = guild_input
 		}
 		tribal_coppersmith = {
 			produced = tools
 			output = 0.52
 		
-			copper = 0.6
+			copper = 0.2
 			category = guild_input
 		}
 		
 		tribal_glassmaker = {
 			produced = glass
-			output = 0.1
-			sand = 0.5
+			output = 0.2
+			sand = 0.2
 
 			category = guild_input
 		}
 
 		tribal_millet_brewery = {
 			millet = 0.2
-			lumber = 0.05
-			tools = 0.03
+			lumber = 0.03
+			tools = 0.02
 			
 			produced = beer
-			output = 0.2
+			output = 0.25
 
 			
 			category = guild_input
 		}
 		tribal_weaponmaker = {
 			produced = weaponry
-			output = 0.1
+			output = 0.25
 		
-			lumber = 0.2
+			lumber = 0.15
 			category = guild_input
 		}
 		tribal_jewelry_carver = {
@@ -137,6 +138,7 @@ tribal_market_villages = {
 			output = 0.1
 		
 			clay = 0.15
+			debug_max_profit = 0.3
 			category = guild_input
 		}
 	}
