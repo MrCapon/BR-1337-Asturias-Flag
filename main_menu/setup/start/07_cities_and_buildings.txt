@@ -4096,6 +4096,17 @@ building_manager = {
 
 ###BR### ADDED Buildings ###BR###
 
+	#Italy
+	sergeantry	= { tag = N1P level = 1 location = salerno } #Sergeants at arms
+	sergeantry	= { tag = BNV level = 1 location = lucera } #Sergeants at arms
+	nobles_recruitment_center = { tag = BNV level = 1 location = benevento }
+	nobles_recruitment_center = { tag = BNV level = 1 location = potenza }
+
+	sergeantry	= { tag = S2C level = 1 location = lecce } #Sergeants at arms
+	nobles_recruitment_center = { tag = S2C level = 1 location = bari }
+	nobles_recruitment_center = { tag = S3C level = 1 location = cosenza }
+	nobles_recruitment_center = { tag = S1C level = 1 location = messina }
+
 	#HRE
 	royal_court = { tag = FRA level = 1 location = metz }
 	sergeantry	= { tag = FRA level = 1 location = metz } #Sergeants at arms
