@@ -13,7 +13,7 @@ international_organization_manager = {
         }
         leader = POS
     }
-
+	#Southern Italy/ Ionian Sea 
 	add_international_organization = {
         type = defensive_league
         creation_date = 1311.2.3
@@ -442,14 +442,18 @@ international_organization_manager = {
 		creation_date = 1125.5.23
 		members = {
 			NAP PAP BLG PEA FLO ASD FER CNV CHX MND TTN IMO RAV FAE RIM ANC CMR PRA COT PTG SIE GUB MTA PES PAD ATI
+			#BR ADDED
+			BNV SPL N1P
+			#Othodox side with Pope until we add a third option.
+			S1C S2C S3C
 		}
-		leader = NAP
+		leader = BNV
 	}
 	add_international_organization = {
 		type = ghibellines_io
 		creation_date = 1125.5.23
 		members = {
-			MLO PIS PAV VER URB GEN ATI SAL PAR LUC CES UBV MAN MFA VLT FRM LCA CRR
+			MLO PIS PAV VER URB GEN ATI SAL PAR LUC CES MAN MFA VLT FRM LCA CRR
 		}
 		leader = MLO
 	}
@@ -566,8 +570,8 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ICO AON OHS AOI RIC DYR S2C S3C
-			MOE THS	KAP PAF CIL	THE ATH ACH S1C CYP CRT NEG CEP NAX
+			ICO AON RIC
+			MOE THS	KAP PAF	THE ATH ACH
 		}
 		variables = { 
 			religion = religion:orthodox
@@ -625,7 +629,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 431.1.1
-		members = { }
+		members = { CYP } #BR EDT
 		variables = { 
 			religion = religion:orthodox
 			seat = location:nicosia_cyp
@@ -640,7 +644,25 @@ international_organization_manager = {
 			allow_christological_debates_tenet
 		}
 	}
-
+	#BR Added
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 431.1.1
+		members = { S1C S2C S3C DYR CRT }
+		variables = { 
+			religion = religion:orthodox
+			seat = location:rome
+		}
+		laws = {
+			dual_nature
+			high_christology
+			catholic_influenced_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+		}
+	}
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 301.1.1
@@ -667,6 +689,26 @@ international_organization_manager = {
 		members = { }
 		variables = { 
 			religion = religion:miaphysite
+			seat = location:antioch
+		}
+		laws = {
+			composite_nature
+			high_christology
+			local_traditions_and_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+			allow_double_sabbath_tenet
+		}
+	}
+	#BR ADDED
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 519.1.1
+		members = { OHS AOI CIL }
+		variables = { 
+			religion = religion:orthodox
 			seat = location:antioch
 		}
 		laws = {

@@ -275,6 +275,19 @@ MOE = {
 	religion_definition = orthodox
 }
 
+#Italia
+BNV = { #Beneveto
+    color = rgb { 125 160 95 }
+    culture_definition = neapolitan
+	religion_definition = catholic
+}
+
+N1P = { #Salerno
+    color = rgb { 95 95 165 }
+    culture_definition = neapolitan
+	religion_definition = catholic
+}
+
 S1C = { #Sikelanoi
     color = rgb { 145 60 125 }
     culture_definition = griko_culture
@@ -282,13 +295,13 @@ S1C = { #Sikelanoi
 }
 
 S2C = { #Langobardia
-    color = rgb { 115 125 35 }
+    color = rgb { 115 115 45 }
     culture_definition = griko_culture
 	religion_definition = orthodox
 }
 
 S3C = { #Kalavrías
-    color = rgb { 105 35 155 }
+    color = rgb { 105 35 135 }
     culture_definition = griko_culture
 	religion_definition = orthodox
 }

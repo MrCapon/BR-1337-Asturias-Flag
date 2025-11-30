@@ -25,9 +25,19 @@
  LOT: "Austrasia" 
  FRA: "Neustria"
  FRA_ADJ: "Neustrian"
- 
  ELY: "Elysium"
  ELY_ADJ: "Elysian"
+ S1C: "Sikelia"
+ S1C_ADJ: "Sikelanoi"
+ S1C_LONG: "Despotaton tōn Sikelēnōn"
+ S2C: "Longobardías"
+ S2C_ADJ: "Longobardías"
+ S3C: "Kalavrías"
+ S3C_ADJ: "Kalavrías"
+ BNV: "Benevento"
+ BNV_ADJ: "Benevento"
+ N1P: "Salerno"
+ N1P_ADJ: "Salerno"
 
 #Other
 
@@ -39,10 +49,3 @@
  setting_byz_name_ere: "$BYZ_eastern_rome_ADJ$ Empire"
  setting_byz_name_ere_desc: "The [ShowCultureName('greek_culture')] [country|e] centered around [ShowProvinceDefinitionName('constantinople_province')] will be known as the $BYZ_eastern_rome_ADJ$."
  
- S1C: "Sikelia"
- S1C_ADJ: "Sikelanoi"
- S1C_LONG: "Despotaton tōn Sikelēnōn"
- S2C: "Longobardías"
- S2C_ADJ: "Longobardías"
- S3C: "Kalavrías"
- S3C_ADJ: "Kalavrías"

@@ -10630,11 +10630,7 @@ countries = {
 		#Naples
 		NAP = {
 			own_control_core = {
-				aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
-				isernia larino trivento andria barletta  bovino foggia lucera
-				manfredonia rotondo sansevero
-				acerenza  melfi montepeloso potenza benevento caserta
-				gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
+				caserta gaeta naples nola
 			}
 			
 			starting_technology_level = 3
@@ -10647,19 +10643,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = salic_law
-				
-				ruler = nap_robert_i_anjou
-				consort = nap_sancha_aragon
-				
-				ruler_term = { character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1285.1.7 regnal_number = 1 }
-				ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1309.5.5 regnal_number = 2 }
-				ruler_term = { character = nap_robert_i_anjou start_date = 1309.5.5 regnal_number = 1 }
-				
-				regnal_numbers = {
-					name_charles = 2
-					name_robert = 1
-				}
-				
+				ruler = random
 				
 				centralization_vs_decentralization = 30
 				traditionalist_vs_innovative = -30
@@ -10675,13 +10659,10 @@ countries = {
 					formal_guilds
 				}
 			}
-			accepted_cultures = { sicilian }
-			tolerated_cultures = { median }
 			capital = naples
-			country_rank = rank_kingdom
-			dynasty = anjou_dynasty
+			country_rank = rank_duchy
 		}
-		
+
 		#Provence (Union with Naples)
 		PRO = {
 			own_control_core = {
@@ -10802,8 +10783,13 @@ countries = {
 		PAP = {
 			own_control_core = {
 				anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
-				corneto orte orvietano viterbo assisi narni rieti spoleto todi
+				corneto orte orvietano viterbo
 				avignon #France
+			}
+			our_cores_conquered_by_others = {
+				assisi narni rieti spoleto todi
+				aquila atri celano cittaducale csantangelo sulmona teramo chieti #NAP
+				sora
 			}
 			
 			include = "catholic_bishopric"
@@ -11587,10 +11573,12 @@ countries = {
 		}
 		
 		SPL = {
-			our_cores_conquered_by_others = {
+			own_control_core = {
 				assisi narni rieti spoleto todi
+				aquila atri celano cittaducale csantangelo sulmona teramo chieti #NAP
+				sora
 			}
-			
+
 			starting_technology_level = 3
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
@@ -11617,6 +11605,7 @@ countries = {
 				ruler = random
 			}
 			capital = spoleto
+			country_rank = rank_duchy
 		}
 		
 		PTG = {
@@ -50462,6 +50451,82 @@ countries = {
 
 		#New BR Tags
 		#Italian
+		BNV = {
+			own_control_core = {
+				lanciano vasto bojano
+				acerenza melfi montepeloso potenza benevento
+				avellino santangelo
+				isernia larino trivento andria barletta bovino foggia lucera
+				manfredonia rotondo sansevero
+				ariano venafro piedimonte
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = salic_law
+				ruler = random
+
+				centralization_vs_decentralization = 30
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -60
+				mercantilism_vs_free_trade = 0
+				
+				reforms = {
+					feudal_nobility
+				}
+				
+				privilege = {
+					formal_guilds
+				}
+			}
+
+			capital = lucera #benevento
+			country_rank = rank_duchy
+		}
+		
+		N1P = {
+			own_control_core = {
+				salerno vallo campagna salacon 
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = salic_law
+				ruler = random
+				
+				centralization_vs_decentralization = 30
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -60
+				mercantilism_vs_free_trade = 0
+				
+				reforms = {
+					feudal_nobility
+				}
+				
+				privilege = {
+					formal_guilds
+				}
+			}
+			capital = salerno
+			country_rank = rank_duchy
+		}
+
 		#Sikelanoi
 		S1C = {
 			own_control_core = {

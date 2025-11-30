@@ -232,6 +232,7 @@ diplomacy_manager = {
 	scripted_mutual = { first = RIM second = CES type = alliance }
 	
 	dependency = { first = PAP second = FAE subject_type = vassal }
+    dependency = { first = PAP second = SPL subject_type = vassal }
 	
 	dependency = { first = SAV second = CEV subject_type = vassal }
 	dependency = { first = SAV second = AOS subject_type = fiefdom }
