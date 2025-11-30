@@ -1593,6 +1593,12 @@ character_db={
 		mother = sco_isabella_warenne
 		dynasty = balliol_dynasty
 		tag = SBL
+		timed_modifier = { # Heir of Empty Coat
+			modifier = "sbl_heir_of_empty_coat"
+			start_date = 1337.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	
 	eng_maud_balliol = {
@@ -6998,6 +7004,15 @@ character_db={
 		tag = BYZ
 	}
 	
+	cnd_gulcicek = {
+		first_name = { name = Gulcicek }
+		culture = greek_culture
+		religion = orthodox
+		female = yes
+		birth_date = 1335.1.1 # Unknown
+		birth = sinop
+		tag = CND
+	}
 
 	#Other
 
@@ -9285,7 +9300,7 @@ character_db={
 		#mother = Marguerite de Provence
 		spouse = cas_fernando_lacerda
 		dynasty = capet_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# Line of the Dukes of Bourbon (HOUSE OF BOURBON)
@@ -11912,7 +11927,7 @@ character_db={
 		mother = por_isabel_arago
 		spouse = cas_fernando_iv_burgundy
 		dynasty = burgundy_portuguese_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# King of Portugal
@@ -11975,7 +11990,7 @@ character_db={
 		mother = por_beatriz_portugal
 		spouse = cas_alfonso_xi_burgundy
 		dynasty = burgundy_portuguese_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	fla_fernando_portugal = {	
@@ -12641,7 +12656,7 @@ character_db={
 		mother = lon_urraca_i_jimena
 		#spouse = Berenguela of Barcelona
 		dynasty = burgundy_castile_dynasty # Founder of the Castillan line of the House of Ivrea
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = greedy
 		ruler_trait = conqueror
 		ruler_trait = intricate_web_weaver
@@ -12660,7 +12675,7 @@ character_db={
 		#mother = Berenguera de Barcelona
 		#spouse = Blanche of Navarre
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = zealot
 	}
 	
@@ -12678,7 +12693,7 @@ character_db={
 		#mother = Blanca Garcés
 		#spouse = Eleanor of England
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = zealot
 		ruler_trait = conqueror
 		ruler_trait = bold_fighter
@@ -12698,7 +12713,7 @@ character_db={
 		#mother = Eleanor of England
 		spouse = lon_alfonso_ix_burgundy
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = intricate_web_weaver
 	}
 
@@ -12732,7 +12747,7 @@ character_db={
 		father = cas_alfonso_viii_burgundy
 		#mother = Eleanor of England
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 	
 	# Line of the Kings of León & Castile-León
@@ -12786,7 +12801,7 @@ character_db={
 		father = lon_alfonso_ix_burgundy
 		mother = cas_berenguela_i_burgundy
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = righteous
 		ruler_trait = conqueror
 		ruler_trait = charismatic_negotiator
@@ -12805,7 +12820,7 @@ character_db={
 		father = cas_fernando_iii_burgundy
 		mother = cas_beatrix_hohenstaufen
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = lawgiver
 		ruler_trait = just
 		ruler_trait = greedy
@@ -12860,7 +12875,7 @@ character_db={
 		father = cas_alfonso_x_burgundy
 		mother = cas_violant_arago
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	cas_alfonso_lacerda = {	
@@ -12876,7 +12891,7 @@ character_db={
 		father = cas_fernando_lacerda
 		mother = cas_blanche_capet
 		dynasty = cerda_dynasty # Founder of the House of La Cerda
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = craven
 	}
 
@@ -12935,7 +12950,7 @@ character_db={
 		mother = cas_mathilde_brienne
 		spouse = sto_alonso_melendez_guzman
 		dynasty = cerda_dynasty
-		tag = CAS #STO   #BR edit
+		tag = CAS #STO
 	}
 
 	cas_fernando_lacerda_jr = {	
@@ -12950,7 +12965,7 @@ character_db={
 		father = cas_fernando_lacerda
 		mother = cas_blanche_capet
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	cas_juana_nunez_lara = {
@@ -12968,7 +12983,7 @@ character_db={
 		#mother = cas_teresa_haro
 		spouse = cas_fernando_lacerda_jr 
 		#dynasty = lara_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# Countess Consort of Aumale
@@ -13001,9 +13016,29 @@ character_db={
 		father = cas_alfonso_x_burgundy
 		mother = cas_violant_arago
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = bold_fighter
 		ruler_trait = greedy
+	}
+
+	cas_maria_molina = {	
+		first_name = { name = name_mary }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		adm = 67 dip = 86 mil = 43
+		female = yes
+		birth_date = 1264.1.1
+		death_date = 1321.7.1
+		birth = molina_de_aragon
+		#father = cas_alfonso_molina
+		#mother = cas_mayor_alfonso_meneses
+		spouse = cas_sancho_iv_burgundy
+		dynasty = burgundy_castile_dynasty # Should be dynasty = molina_dynasty
+		tag = CAS
+		ruler_trait = intricate_web_weaver
+		ruler_trait = charismatic_negotiator
+		ruler_trait = righteous
 	}
 
 	# Father of the King of Castile & Previous King
@@ -13020,7 +13055,7 @@ character_db={
 		#mother = cas_maria_molina
 		birth = sevilla
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = naive
 	}
 
@@ -13053,7 +13088,7 @@ character_db={
 		father = cas_fernando_iv_burgundy
 		mother = cas_constance_portugal
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = charismatic_negotiator
 	}
 
@@ -13068,7 +13103,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1331.12.1
@@ -13089,7 +13124,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		child_trait = child_slow
 		timed_modifier = {
 			modifier = "bastard"
@@ -13111,7 +13146,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = trastamara_dynasty # Founder of the House of Trastamara
-		tag = CAS   #BR edit
+		tag = CAS
 		child_trait = child_ambitious
 		timed_modifier = {
 			modifier = "bastard"
@@ -13132,7 +13167,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = enriquez_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		child_trait = child_rowdy
 		timed_modifier = {
 			modifier = "bastard"
@@ -13153,7 +13188,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_maria_portugal
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		child_trait = child_rowdy
 	}
 
@@ -13168,7 +13203,7 @@ character_db={
 		father = cas_alfonso_xi_burgundy
 		mother = cas_leonor_guzman # Mistress
 		dynasty = burgundy_castile_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1334.11.1
@@ -13193,6 +13228,23 @@ character_db={
 		dynasty = burgundy_castile_dynasty
 		tag = POR
 		ruler_trait = silver_tongue
+	}
+
+	cas_juan_manuel = {	
+		first_name = { name = name_john }
+		culture = castilian
+		religion = catholic
+		estate = nobles_estate
+		adm = 72 dip = 44 mil = 38
+		birth_date = 1282.5.5
+		birth = puebla_de_montalban # Escalona
+		#father = sto_manuel_burgundy
+		#mother = cas_beatrice_savoie
+		dynasty = manuel_dynasty
+		tag = CAS
+		artist = writer
+		artist_trait = prominent
+		artist_skill = 0.8
 	}
 
 	# Line of the Counts of Aumale
@@ -16818,7 +16870,7 @@ character_db={
 		mother = aum_beatrix_chatillon
 		spouse = cas_alfonso_lacerda
 		dynasty = de_brienne_dynasty # Should be dynasty = de_brienne_acre_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	aum_jean_iii_brienne = {	
@@ -17454,7 +17506,7 @@ character_db={
 	stp_marie_chatillon = {
 		first_name = { name = name_mary }
 		culture = picard
-		religion = sunni
+		religion = catholic
 		estate = nobles_estate
 		female = yes
 		birth_date = 1303.1.1
@@ -44481,7 +44533,7 @@ adm = 31 dip = 34 mil = 24
 		birth = cuenca
 		#father = Garci Álvarez de Albornoz
 		#mother = Teresa de Luna
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# HOUSE OF ASTURIAS & LEON (Former Kings of León)
@@ -45146,7 +45198,7 @@ adm = 31 dip = 34 mil = 24
 		mother = ara_jolan_arpad
 		spouse = cas_alfonso_x_burgundy
 		dynasty = barcelona_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# Father of the King of Sicily & Former King of Aragon & King iure uxoris of Sicily
@@ -46154,7 +46206,7 @@ adm = 31 dip = 34 mil = 24
 		#father = cas_pedro_fernandez_castro
 		#mother = por_aldonca_lourenco_valadares # Mistress
 		#dynasty = castro_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		timed_modifier = {
 			modifier = "bastard"
 			start_date = 1320.1.1
@@ -46177,7 +46229,7 @@ adm = 31 dip = 34 mil = 24
 		#father = cas_pedro_fernandez_castro
 		#mother = cas_isabel_ponce_leon
 		#dynasty = castro_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		child_trait = child_gregarious
 	}
 
@@ -46195,7 +46247,7 @@ adm = 31 dip = 34 mil = 24
 		#father = cas_alvar_perez_guzman
 		#mother = María González Girón
 		dynasty = guzman_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# Succeded Vasco Rodríguez Cornado as Grandmaster of the Order of Santiago after Royal petition	
@@ -46210,7 +46262,7 @@ adm = 31 dip = 34 mil = 24
 		father = cas_pedro_nunez_guzman_ii
 		#mother = cas_juana_ponce_leon
 		dynasty = guzman_dynasty
-		tag = CAS #STO   #BR edit
+		tag = CAS #STO
 		ruler_trait = bold_fighter
 	}
 	
@@ -46228,7 +46280,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = cas_juana_ponce_leon
 		#spouse = cas_alfonso_xi_burgundy #Mistress
 		dynasty = guzman_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# HOUSE ÍÑIGA OR ARISTA (Former Kings of Navarra)
@@ -46741,7 +46793,7 @@ adm = 31 dip = 34 mil = 24
 		father = lon_fernando_i_jimena
 		mother = lon_sancha_leon
 		dynasty = jimena_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 		ruler_trait = greedy
 	}
 	
@@ -46864,7 +46916,7 @@ adm = 31 dip = 34 mil = 24
 		#father = cas_manrique_perez_lara
 		#mother = Ermessende de Narbonne
 		dynasty = lara_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	# Line of the Viscounts of Narbonne
@@ -48709,7 +48761,7 @@ adm = 31 dip = 34 mil = 24
 		birth = mubemde
 		birth_date = 1302.1.1
 		female = yes
-		father = bug_katu_kintu
+		father = kit_bukuku_bachwezi
 		culture = rutara_culture
 		religion = bantu_religion
 		tag = KIT
@@ -70830,6 +70882,29 @@ adm = 31 dip = 34 mil = 24
 	
 	#Kubadids - KBD
 	
+	#Ruler
+	kbd_taceddin_altunbas = {
+		first_name = { name = Taceddin }
+		nickname = { name = nick_altunbas }
+		dynasty = seljukids_dynasty
+		birth = tabriz
+		birth_date = 1282.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = TUR
+	}
+	
+	kbd_keykubad = {
+		first_name = { name = name_keyqobad }
+		father = kbd_taceddin_altunbas
+		dynasty = kubadids_dynasty
+		birth = tabriz
+		birth_date = 1315.1.1
+		culture = turkish_culture
+		religion = sunni
+		tag = TUR
+	}
+	
 	#Karasids - KRD
 		
 	#Tavas - TVS
@@ -71443,7 +71518,7 @@ adm = 31 dip = 34 mil = 24
 			modifier = "healthy_character"
 			start_date = 1330.1.1
 			date = 9999.1.1
-			size = 1
+			size = 2
 		}
 	}
 
@@ -72448,7 +72523,7 @@ adm = 31 dip = 34 mil = 24
 	skn_zayd_ibn_abi_numayy_ibn_ajlan = {	
 		first_name = { name = name_zayd }
 		culture = hijazi_culture
-		religion = sunni
+		religion = shia
 		adm = 30 dip = 29 mil = 41
 		birth_date = 1280.1.1 #Unknown
 		birth = mecca
@@ -72581,6 +72656,15 @@ adm = 31 dip = 34 mil = 24
 		tag = BHT
 	}
 
+	bin_shap = {
+		first_name = { name = Shap }
+		culture = kurdish_culture
+		religion = sunni
+		birth_date = 1300.1.1 #Unknown
+		birth = bingol
+		dynasty = suwaydids_dynasty
+		tag = BIN
+	}
 
 	bit_dia_al_din = {
 		first_name = { name = Dia_al_Din }
@@ -77010,7 +77094,7 @@ adm = 31 dip = 34 mil = 24
 	}
 	
 	rvb_bernhard_ravensberg = { #Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = westphalian
 		religion = catholic
 		birth_date = 1290.1.1
@@ -79073,7 +79157,7 @@ adm = 31 dip = 34 mil = 24
 		#mother = Eirene Angelos
 		spouse = cas_alfonso_x_burgundy
 		dynasty = hohenstaufen_dynasty
-		tag = CAS   #BR edit
+		tag = CAS
 	}
 
 	pal_konrad_hohenstaufen = {
@@ -79521,6 +79605,19 @@ adm = 31 dip = 34 mil = 24
 		dynasty = hohenzollern_nurnberg_dynasty
 		tag = ANS
 		child_trait = child_gregarious
+	}
+
+	#City of Nürnberg
+	nur_rappold_von_kulsheim = { #Reichsschultheiß (Imperial Advocate) of Nürnberg
+		first_name = { name = name_rappold }
+		last_name = { name = von_kulsheim }
+		culture = east_franconian
+		religion = catholic
+		estate = burghers_estate
+		adm = 68 dip = 66 mil = 62
+		birth_date = 1280.1.1 #unknown
+		birth = nuremberg
+		tag = NUR
 	}
 
 	# Mother of the Count of Leuchtenberg & Sister of the Burgrave of Nürnberg
@@ -82911,7 +83008,7 @@ adm = 31 dip = 34 mil = 24
 
 	#Bernburg
 	bnb_bernhard_i_bernburg = { #Grandfather of Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = saxon
 		religion = catholic
 		birth_date = 1218.1.1
@@ -82923,7 +83020,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	bnb_bernhard_ii_bernburg = { #Father of Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = saxon
 		religion = catholic
 		birth_date = 1260.1.1
@@ -82935,7 +83032,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	bnb_bernhard_iii_bernburg = { #Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = saxon
 		religion = catholic
 		birth_date = 1290.1.1
@@ -82961,7 +83058,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	bnb_bernhard_iv_bernburg = { #Son of Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = saxon
 		religion = catholic
 		birth_date = 1328.1.1
@@ -82986,7 +83083,7 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	bnb_heinrich_iv_bernburg = { #Son of Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = saxon
 		religion = catholic
 		birth_date = 1333.1.1
@@ -83368,7 +83465,7 @@ adm = 31 dip = 34 mil = 24
 		culture = saxon
 		religion = catholic
 		birth_date = 1304.1.1
-		birth = arnstadt
+		birth = blankenburg
 		dynasty = schwarzburg_dynasty
 		father = swz_heinrich_vi_schwarzburg
 		tag = SWZ
@@ -83593,7 +83690,7 @@ adm = 31 dip = 34 mil = 24
 	#Hesse
 	hun_saint_elisabeth_of_hungary = { #Grandgrand-grandmother of Ruler and Saint
 	#https://en.wikipedia.org/wiki/Elizabeth_of_Hungary
-		first_name = { name = name_sophia }
+		first_name = { name = name_elizabeth }
 		nickname = { name = "the_saint" }
 		culture = hungarian
 		religion = catholic
@@ -84878,7 +84975,7 @@ adm = 31 dip = 34 mil = 24
 		tag = WTG
 	}
 
-	#Mörs
+	#Moers
 	mrs_dietrich_iii_moers = { #Father of Ruler
 		first_name = { name = name_theodoric }
 		culture = westphalian
@@ -84956,7 +85053,7 @@ adm = 31 dip = 34 mil = 24
 
 	#Lippe
 	lpp_bernhard_iv_lippe = { #Father of Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = lower_saxon
 		religion = catholic
 		birth_date = 1230.1.1
@@ -84987,17 +85084,6 @@ adm = 31 dip = 34 mil = 24
 		father = wde_henry_iii_von_waldeck
 		tag = LPP
 	}
-	lpp_berhard_v_lippe = { #Son of Ruler
-		first_name = { name = Bernhard }
-		culture = lower_saxon
-		religion = catholic
-		birth_date = 1277.1.1
-		birth = lippstadt
-		dynasty = lippe_dynasty
-		father = lpp_simon_i_lippe
-		mother = lpp_adelheid_von_waldeck
-		tag = LPP
-	}
 	lpp_otto_i_lippe = { #Son of Ruler
 		first_name = { name = name_otto }
 		culture = lower_saxon
@@ -85012,9 +85098,10 @@ adm = 31 dip = 34 mil = 24
 
 	#Paderborn
 	pdb_bernhard_v = { #Ruler
-		first_name = { name = Bernhard }
+		first_name = { name = name_bernard }
 		culture = lower_saxon
 		religion = catholic
+		estate = clergy_estate
 		birth_date = 1277.1.1
 		birth = lippstadt
 		dynasty = lippe_dynasty
@@ -85771,7 +85858,7 @@ adm = 31 dip = 34 mil = 24
 		culture = westphalian
 		religion = catholic
 		birth_date = 1280.1.1
-		death_date = 1320.11.18
+		death_date = 1331.2.17
 		birth = frankfurt
 		tag = TEU
 	}
@@ -87731,33 +87818,6 @@ adm = 31 dip = 34 mil = 24
 		dynasty = gediminid_dynasty
 		father = lit_gediminas_gediminids
 		mother = lit_vida #Unknown
-		tag = LIT
-	}
-
-	#Son of Ruler
-	lit_karijotas_gediminds = { #https://en.wikipedia.org/wiki/Karijotas
-		first_name = { name = name_karijotas }
-		last_name = { name = name_michael }
-		culture = aukstaitian
-		religion = romuva
-		birth_date = 1305.1.1 #Unknown
-		birth = vilnius #Unknown
-		dynasty = gediminid_dynasty
-		father = lit_gediminas_gediminids
-		mother = lit_jaune_polotsk #Unknown
-		tag = LIT
-	}
-
-	#Grandson of Ruler
-	lit_koriatovich_gediminds = { #https://en.wikipedia.org/wiki/George_Koriatovich
-		first_name = { name = name_george }
-		last_name = { name = karijotaitis }
-		culture = aukstaitian
-		religion = romuva
-		birth_date = 1330.1.1
-		birth = vilnius #Unknown
-		dynasty = gediminid_dynasty
-		father = lit_karijotas_gediminds
 		tag = LIT
 	}
 
@@ -93354,6 +93414,12 @@ adm = 31 dip = 34 mil = 24
 		birth_date = 1290.1.1
 		birth = trowulan
 		tag = MAJ
+		timed_modifier = {
+			modifier = "healthy_character"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 2
+		}
 	}
 
 	maj_dara_petak = {
@@ -96155,7 +96221,66 @@ adm = 31 dip = 34 mil = 24
 		tag = MGE
 	}
 
-		#-------------------------- Bengal ----------------------------
+	hugeci_borjigin = { #https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%B2%E3%83%81
+		first_name = { name = name_hugeci }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tibetan_buddhism
+		birth_date = 1245.1.1 #Unknown but already adult in 1267 but younger than Zhenjin
+		birth = dadu
+		death_date = 1271.2.11
+		father = kublai_khan
+		tag = LNG
+	}
+
+	esen_temur_borjigin = { #https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%BB%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A0%E3%83%AB
+		first_name = { name = name_esen.name_temur }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tibetan_buddhism
+		birth_date = 1265.1.1 #Unknown
+		birth = kunming
+		death_date = 1332.2.29
+		father = hugeci_borjigin
+		tag = LNG
+	}
+
+	tughluq_borjigin = { #https://zh.wikipedia.org/wiki/%E9%98%BF%E9%B2%81_(%E4%BA%91%E5%8D%97%E7%8E%8B)
+		first_name = { name = name_tughluq }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tibetan_buddhism
+		birth_date = 1300.1.1 #Unknown
+		birth = kunming
+		father = esen_temur_borjigin
+		spouse = "random"
+		tag = LNG
+	}
+
+	bolot_borjigin = { #https://zh.wikipedia.org/wiki/%E5%AD%9B%E7%BD%97_(%E4%BA%91%E5%8D%97%E7%8E%8B)
+		first_name = { name = name_bolot }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tibetan_buddhism
+		birth_date = 1310.1.1 #Unknown
+		birth = kunming
+		father = esen_temur_borjigin
+		spouse = "random"
+		tag = LNG
+	}
+
+	vajravarmi_borjigin = { #Basalawarmi https://en.wikipedia.org/wiki/Basalawarmi
+		first_name = { name = name_vajravarmi }
+		dynasty = borjigin_dynasty
+		culture = mongolian_culture
+		religion = tibetan_buddhism
+		birth_date = 1335.1.1 #Unknown
+		birth = kunming
+		father = bolot_borjigin
+		tag = LNG
+	}
+
+	#-------------------------- Bengal ----------------------------
 	
 	#Sonargaon
 	sgn_bahram_khan = { #Governor
