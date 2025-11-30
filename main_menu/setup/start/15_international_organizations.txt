@@ -553,7 +553,7 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ICO AON OHS AOI RIC DYR
+			ICO AON OHS AOI RIC DYR S2C S3C
 			MOE THS	KAP PAF CIL	THE ATH ACH S1C CYP CRT NEG CEP NAX
 		}
 		variables = { 

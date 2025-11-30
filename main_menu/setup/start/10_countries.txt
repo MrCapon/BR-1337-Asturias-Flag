@@ -10627,44 +10627,6 @@ countries = {
 		capital = palermo
 	}
 		
-		#Sikelanoi
-		S1C = {
-			own_control_core = {
-				catania messina mistretta nicosiasic patti piazza
-				caltagirone modica noto syracuse terranovasic
-				cotrone gerace monteleone nicastro palmi reggiocal catanzaro
-				paola cosenza castrovillari cassano scalea rossano
-				lagonegro
-				lecce francavilla brindisi gallipoliita taranto martinafr
-				santarcangelo matera
-				monopoli altamura bari
-			}
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = random
-			}
-			
-			accepted_cultures = {
-				greek_culture
-			}
-			tolerated_cultures = {
-				sicilian
-			}
-			
-			country_rank = rank_duchy
-			
-			capital = syracuse # lecce
-		}
-		
-		
 		#Naples
 		NAP = {
 			own_control_core = {
@@ -50499,6 +50461,103 @@ countries = {
 		}
 
 		#New BR Tags
+		#Italian
+		#Sikelanoi
+		S1C = {
+			own_control_core = {
+				catania messina mistretta nicosiasic patti piazza
+				caltagirone modica noto syracuse terranovasic
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				sicilian
+			}
+			
+			country_rank = rank_duchy
+			
+			capital = syracuse # lecce
+		}
+		#Longobardías
+		S2C = {
+			own_control_core = {
+				lecce francavilla brindisi gallipoliita taranto martinafr
+				matera
+				monopoli altamura bari
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				sicilian
+			}
+			
+			country_rank = rank_duchy
+			
+			capital = lecce
+		}
+
+		#Kalavrías
+		S3C = {
+			own_control_core = {
+				cotrone gerace monteleone nicastro palmi reggiocal catanzaro
+				paola cosenza castrovillari cassano scalea rossano
+				lagonegro
+				santarcangelo
+			}
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			accepted_cultures = {
+				greek_culture
+			}
+			tolerated_cultures = {
+				sicilian
+			}
+			
+			country_rank = rank_duchy
+			
+			capital = syracuse # lecce
+		}
+		
+		
 		#Balkan Tags
 		DYR = { #BR EDITED
 			own_control_core = {

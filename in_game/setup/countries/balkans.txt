@@ -276,7 +276,19 @@ MOE = {
 }
 
 S1C = { #Sikelanoi
-    color = rgb { 175 75 103 }
+    color = rgb { 145 60 125 }
+    culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
+S2C = { #Langobardia
+    color = rgb { 115 125 35 }
+    culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
+S3C = { #Kalavrías
+    color = rgb { 105 35 155 }
     culture_definition = griko_culture
 	religion_definition = orthodox
 }

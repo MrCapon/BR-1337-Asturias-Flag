@@ -1,6 +1,7 @@
 ﻿l_english:
  BYZ: "Basileía Romaíon"
  BYZ_ADJ: "Basileía Romaíon"
+ BYZ_LONG: "Basileía tōn Romaíon"
  BYZ_eastern_rome: "Eastern Rome"
  BYZ_eastern_rome_ADJ: "Roman Empire"
  BYZ_eastern_rome_abbreviation: "E.R.E."
@@ -41,3 +42,7 @@
  S1C: "Sikelia"
  S1C_ADJ: "Sikelanoi"
  S1C_LONG: "Despotaton tōn Sikelēnōn"
+ S2C: "Longobardías"
+ S2C_ADJ: "Longobardías"
+ S3C: "Kalavrías"
+ S3C_ADJ: "Kalavrías"
