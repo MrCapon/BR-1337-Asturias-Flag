@@ -8873,7 +8873,7 @@ countries = {
 		
 		ARB = {
 			own_control_core = {
-				ales oristano sorgono terralba bosa macomer bitti isili seddori thiesi
+				ales oristano sorgono terralba bosa macomer bitti isili seddori
 			}
 			
 			starting_technology_level = 3
@@ -12258,7 +12258,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				latinoi
+				greek_culture
 			}
 			capital = cephalonia
 			court_language = venetian_dialect
@@ -12332,7 +12332,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				latinoi
+				greek_culture
 			}
 			court_language = venetian_dialect
 			country_rank = rank_duchy
@@ -13927,7 +13927,6 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				leonese
 				galician
 			}
 			tolerated_cultures = {
@@ -18127,7 +18126,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				latinoi
+				greek_culture
 			}
 			
 			court_language = venetian_dialect
@@ -31210,7 +31209,6 @@ countries = {
 				adana ayas kars_armenia iskenderun
 				anavarza sis caxud
 				tarsus corycus candir_cil molevon
-				kapan
 				silifke anamur mut ermenek
 				alaiye selinti
 			}
