@@ -14101,7 +14101,7 @@ countries = {
 			court_language = maghrebi_dialect
 			religious_school = maliki_school
 			
-			country_rank = rank_kingdom
+			country_rank = rank_kingdom #Should be an Empire Caliphate but Empire Tier Titles need to be fixed.
 			
 			ai_advance_preference_tags = {
 				exploration = 5
@@ -21686,7 +21686,7 @@ countries = {
 		
 		#-------------------------- Egypt ----------------------------
 		
-		#Mamluk Sultanate - MAM
+		#Mamluk Sultanate - MAM #Now Fatamids, using MAM over EGY because it has unique techs. 
 		MAM = {
 			own_control_core = {
 				alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
@@ -21723,32 +21723,25 @@ countries = {
 			include = "expl_muslim_mediterranean"
 			include = "expl_horn_of_africa"
 			include = "muslim_monarchy"
-			country_rank = rank_kingdom
+			country_rank = rank_kingdom #Should be an Empire Caliphate but Empire Tier Titles need to be fixed.
 			government = {
 				type = monarchy
-				heir_selection = mamluk_succesion
-				ruler_term = { character = mam_an_nasir_bahri start_date = 1293.1.1 end_date = 1294.1.1 regnal_number = 1 }
-				ruler_term = { character = mam_al_adil_kitbugha start_date = 1294.1.1 end_date = 1296.12.7 regnal_number = 1 }
-				ruler_term = { character = mam_lajin_al_mansuri start_date = 1296.12.7 end_date = 1299.1.16 regnal_number = 1 }
-				ruler_term = { character = mam_an_nasir_bahri start_date = 1299.1.16 end_date = 1309.4.1 regnal_number = 1 }
-				ruler_term = { character = mam_baybars_ii start_date = 1309.4.1 end_date = 1310.3.5 regnal_number = 2 }
-				ruler_term = { character = mam_an_nasir_bahri start_date = 1310.3.5 regnal_number = 1 }
-				ruler = mam_an_nasir_bahri
-				regnal_numbers = {
-					lajin = 1
-					name_baybars = 2
-				}
-				
+				heir_selection = cognatic_primogeniture #mamluk_succesion
+				ruler = random
+
 				reforms = {
-					mamluk_government
+					autocracy
+					mamluk_government #Reworked into Fatamid
 				}
-				
+
 				privilege = {
 					#Nobles
 					elaborate_court_ceremonies
 					banal_lordship
 					joint_assembly_decrees
 					ghazi_privilege
+					noble_sponsored_navy
+					auxilium_et_consilium
 
 					#Ulama
 					waqf_payments
@@ -21762,6 +21755,10 @@ countries = {
 					shipwright_contracts
 					sponsor_maritime_contracts
 					land_of_commerce
+					allow_trade_center_sponsorship
+
+					#peasants
+					peasants_allowed_weapons_privilege
 					
 					#Dhimmi #BR ADDED
 					dhimmi_land_rights
@@ -21772,6 +21769,10 @@ countries = {
 					dhimmi_traditions
 					urban_development_grants
 					dharmic_dhimmi_communities
+
+					#Tribes
+					tribes_tribal_levies
+					tribes_allow_gatherings
 				}
 				
 				spiritualist_vs_humanist = -10
@@ -21782,15 +21783,34 @@ countries = {
 					mamluk_rank_system_laws = mam_rigid_system
 					mamluk_army_law = al_mamalik_al_sultaniyya
 					mamluk_promotion_law = merit_basis
-					sharia_law = shafii_policy
+					sharia_law = shafii_policy #maliki_policy
 					administrative_system = local_courts_administration
-					iqta_law = lenient_taxation
+					iqta_law = efficient_tax_farming #lenient_taxation
+					medieval_levy_law = noble_levies
+					censorship = strict_censorship
+					marriage_law = muslim_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = sharia_law_policy
+					distribution_of_power_law = dop_favor_the_ruler
+					education_masses_law = basic_religious_education
+					feudal_de_jure_law = by_blood #by_tradition
+					cultural_traditions_law = martial_society
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					royal_court_customs_law = harem_policy
+					harem_law = public_harem_policy
 				}
+				
 			}
 			religious_school = shafii_school #While Egypt today is mostly Hanafi, the $mamluks$ favored Shaafi over the rest
 			government = { mysticism_vs_jurisprudence = 25 }
 			
-			
+			currency_data = { #To help stabilize them enough to not collapse 
+				gold = 1500
+				stability = 75
+				prestige = 75
+				army_tradition = 75
+			}
 			tolerated_cultures = {
 				upper_egyptian_culture
 				coptic_culture #else they be slaves
@@ -32057,8 +32077,8 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1365.1.1
-				size = 1.0
+				date = 1375.1.1
+				size = 1.5
 			}
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 		}

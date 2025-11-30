@@ -3457,11 +3457,19 @@ building_manager = {
 	mamluk_barracks = { tag = MAM level = 2 location = acre }
 	mamluk_barracks = { tag = MAM level = 2 location = damascus }
 	royal_court = { tag = MAM level = 1 location = cairo }
+	sergeantry = { tag = MAM level = 1 location = cairo } #Sergeants at arms
 	castle = { tag = MAM level = 1 location = baniyas } #https://en.wikipedia.org/wiki/Margat
 	#temple = { tag = MAM level = 1 location = hebron } #https://en.wikipedia.org/wiki/Cave_of_the_Patriarchs
 	irrigation_systems = { tag = MAM level = 1 location = cairo } #https://en.wikipedia.org/wiki/Cairo_Citadel_Aqueduct
 	madrasa = { tag = MAM level = 1 location = cairo } #https://en.wikipedia.org/wiki/Salihiyya_Madrasa
-	
+	nobles_recruitment_center = { tag = MAM level = 1 location = asyut }
+	nobles_recruitment_center = { tag = MAM level = 1 location = qus }
+	nobles_recruitment_center = { tag = MAM level = 1 location = minya }
+	nobles_recruitment_center = { tag = MAM level = 1 location = el_bahnasa }
+	nobles_recruitment_center = { tag = MAM level = 1 location = samanoud }
+	nobles_recruitment_center = { tag = MAM level = 1 location = kafr_saqr }
+	weapon_guild = { tag = MAM level = 6 location = cairo }
+	weapon_guild = { tag = MAM level = 4 location = damascus }
 	
 	#Maghreb
 	sergeantry = { tag = MOR level = 1 location = fez } #Sergeants at arms
