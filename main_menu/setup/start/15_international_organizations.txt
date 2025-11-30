@@ -14,6 +14,19 @@ international_organization_manager = {
         leader = POS
     }
 
+	add_international_organization = {
+        type = defensive_league
+        creation_date = 1311.2.3
+
+        map_color = rgb { 140 36 36 }
+
+        members = {
+            S1C S2C S3C EPI DYR
+        }
+        leader = EPI
+    }
+
+
 
 	#################################################################
 	# 				Holy Roman Empire								#
