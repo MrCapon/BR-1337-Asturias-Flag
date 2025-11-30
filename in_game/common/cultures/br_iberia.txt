@@ -22,7 +22,7 @@
 }
 
 mozarabic = { 
-	language = maghrebi_dialect
+	language = maghrebi_dialect #Latin written in Arabic
 	
 	color = rgb { 175 190 210 }
 	
@@ -37,3 +37,23 @@ mozarabic = {
 		iberian_group
 	}
 }
+
+arab_sicilian = { 
+	language = maghrebi_dialect
+	
+	color = rgb { 75 190 110 }
+	
+	tags = { maghrebi_gfx middle_east_gfx west_mediterranean_gfx mediterranean_gfx }
+
+	opinions = {
+		andalusi = positive
+		maghrebi = kindred
+		sicilian = positive
+	}
+	
+	culture_groups = {
+		maghrebi_group
+		italian_group
+	}
+}
+

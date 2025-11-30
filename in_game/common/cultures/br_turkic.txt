@@ -1,7 +1,7 @@
 ﻿#Turkic ethnic group https://en.wikipedia.org/wiki/Turkic_peoples
 
 REPLACE_OR_CREATE:turkish_culture = { #https://en.wikipedia.org/wiki/Turkish_people
-	language = persian_language	# turkish_dialect #https://en.wikipedia.org/wiki/turkish_language
+	language = persian_language	# Make new unque turkish_dialect #https://en.wikipedia.org/wiki/turkish_language
 	
 	color = color_culture_turkish
 	
