@@ -746,7 +746,7 @@ dynasty_manager = {
 	angelos_dynasty = { # Extinct
 		name = { name = angelos_dynasty }
 		#CoA: http://wappenwiki.org/index.php/File:Angelos.svg
-		home = smyrna #BR EDIT
+		home = athens #BR EDIT
 	}
 
 	apokaukos_dynasty = {
@@ -6806,10 +6806,68 @@ dynasty_manager = {
 	}
 
 	#Anatolia
-	#REmoved Turkic Dynasties from Anatolia.
 	artuqids_dynasty = {
 		name = { name = name_artuk }
-		home = mardin
+		home = tabriz
+		dynasty_name_type = patronym
+	}
+
+	aydinids_dynasty = {
+		name = { name = name_aydin }
+		home = tabriz
+		dynasty_name_type = patronym
+	}
+
+	ayyubids_dynasty = {
+		name = { name = ayyubid_dynasty }
+		home = tabriz
+	}
+
+	bafra_dynasty = {
+		name = { name = bafra }
+		home = mosul
+		dynasty_name_type = location
+	}
+
+	candarids_dynasty = {
+		name = { name = name_candar }
+		home = urfa
+		dynasty_name_type = patronym
+	}
+
+	dilmacids_dynasty = {
+		name = { name = name_dilmac }
+		home = bitlis
+		dynasty_name_type = patronym
+	}
+
+	dulkadirids_dynasty = {
+		name = { name = name_dulkadir }
+		home = nishapur
+		dynasty_name_type = patronym
+	}
+
+	eretnids_dynasty = {
+		name = { name = name_eretna }
+		home = nishapur
+		dynasty_name_type = patronym
+	}
+
+	germiyanids_dynasty = {
+		name = { name = name_germiyan }
+		home = diyarbekir
+		dynasty_name_type = patronym
+	}
+
+	haciemirids_dynasty = {
+		name = { name = hacimierid_dynasty }
+		home = diyarbekir
+		dynasty_name_type = patronym
+	}
+
+	hamidids_dynasty = {
+		name = { name = name_hamid }
+		home = aleppo
 		dynasty_name_type = patronym
 	}
 
@@ -6830,9 +6888,37 @@ dynasty_manager = {
 		home = sis
 	}
 
+	inanjids_dynasty = {
+		name = { name = name_inanc }
+		home = mosul
+		dynasty_name_type = patronym
+	}
+
 	jalayirids_dynasty = {
 		name = { name = jalayirid_dynasty }
 		home = baghdad
+	}
+
+	karamanids_dynasty = {
+		name = { name = name_karaman }
+		home = basra
+		dynasty_name_type = patronym
+	}
+
+	karasids_dynasty = {
+		name = { name = karasid_dynasty }
+		home = basra
+	}
+
+	kubadids_dynasty = {
+		name = { name = name_kubad }
+		home = mosul
+		dynasty_name_type = patronym
+	}
+
+	mentese_dynasty = {
+		name = { name = mentese_dynasty }
+		home = basra
 	}
 
 	ottomans_dynasty = {
@@ -6841,9 +6927,36 @@ dynasty_manager = {
 		dynasty_name_type = patronym
 	}
 
+	ramazanids_dynasty = {
+		name = { name = name_ramazan }
+		home = tabriz
+		dynasty_name_type = patronym
+	}
+
+	sahipataids_dynasty = {
+		name = { name = sahipataid_dynasty }
+		home = tabriz
+		dynasty_name_type = patronym
+	}
+
+	saruhanids_dynasty = {
+		name = { name = saruhanids_dynasty }
+		home = tabriz
+	}
+
 	seljukids_dynasty = {
 		name = { name = seljukid_dynasty }
-		home = mosul #BR EDIT
+		home = tabriz
+	}
+
+	sutayids_dynasty = {
+		name = { name = sutayid_dynasty }
+		home = aleppo
+	}
+
+	tadjeddinids_dynasty = {
+		name = { name = tacettinid_dynasty }
+		home = urfa
 	}
 
 	#Kurdish Dynastyes
@@ -7355,6 +7468,11 @@ dynasty_manager = {
 		home = zaranj
 	}
 
+	bagrationi_dynasty = {
+		name = { name = bagrationi_dynasty }
+		home = ani
+	}
+
 	fadlawayhid_dynasty = {
 		name = { name = fadlawayhid_dynasty }
 		home = ij_iran
@@ -7370,9 +7488,8 @@ dynasty_manager = {
 		home = baku
 	}
 
-	#BR Edit
-	bagrationi_dynasty = {
-		name = { name = bagrationi_dynasty }
+	zakarid_dynasty = {
+		name = { name = zakarid_dynasty }
 		home = ani
 	}
 
@@ -8321,5 +8438,70 @@ dynasty_manager = {
 	von_Geroldseck_dynasty = {
 		name = { name = von_Geroldseck_dynasty }
 		home = offenburg
+	}
+
+	rtr_tianwan_xu_dynasty = { #CTW
+		name = { name = name_xu }
+		home = hanchuan
+	}
+	
+	rtr_chen_dynasty = { #CHE
+		name = { name = name_chen }
+		home = dehua_jiujiang
+	}
+
+	rtr_wu_zhang_dynasty = { #WUU
+		name = { name = name_zhang1 }
+		home = gaoyou
+	}
+
+	rtr_fang_dynasty = { #CFN
+		name = { name = name_fang1 }
+		home = yongjia
+	}
+
+	rtr_mao_dynasty = { #CMO
+		name = { name = name_mao }
+		home = zichuan
+	}
+
+	rtr_xia_ming_dynasty = { #CXI
+		name = { name = name_ming }
+		home = baxian
+	}
+
+	rtr_guo_dynasty = { #CGU
+		name = { name = name_guo }
+		home = zhongli
+	}
+
+	rtr_ming_zhu_dynasty = { #MNG
+		name = { name = name_zhu }
+		home = shangyuan
+	}
+
+	rtr_nanping_chen_dynasty = { #CNP
+		name = { name = name_chen }
+		home = nanping
+	}
+
+	rtr_dongguan_he_dynasty = { #CDN
+		name = { name = name_he22 }
+		home = dongguan
+	}
+
+	rtr_li_dynasty = { #CSI
+		name = { name = name_li31 }
+		home = jingzhao
+	}
+
+	rtr_bayad_dynasty = { #CKO
+		name = { name = bayad_dynasty }
+		home = kaifeng
+	}
+
+	rtr_han_dynasty = { #Han Shantong
+		name = { name = name_han2 }
+		home = qiaoxian
 	}
 }
