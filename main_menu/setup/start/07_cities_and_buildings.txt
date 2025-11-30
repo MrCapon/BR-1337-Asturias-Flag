@@ -2208,7 +2208,7 @@ building_manager = {
 	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
 	orthodox_monastery	= { tag = MAM level = 1	location = jerusalem }
 
-	missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
+	#missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
 
 
 	### Abbeys	
