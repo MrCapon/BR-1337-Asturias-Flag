@@ -2206,7 +2206,9 @@ building_manager = {
 	cathedral	= { tag = AOI level = 1	location = antioch }
 	cathedral	= { tag = MAM level = 1	location = jerusalem }
 	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
-	orthodox_monastery	= { tag = TRE level = 1	location = jerusalem }
+	orthodox_monastery	= { tag = MAM level = 1	location = jerusalem }
+
+	missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
 
 
 	### Abbeys	
@@ -3470,6 +3472,9 @@ building_manager = {
 	nobles_recruitment_center = { tag = MAM level = 1 location = kafr_saqr }
 	weapon_guild = { tag = MAM level = 6 location = cairo }
 	weapon_guild = { tag = MAM level = 4 location = damascus }
+	jewelry_guild = { tag = MAM level = 2 location = cairo }
+	jewelry_guild = { tag = MAM level = 1 location = damascus }
+	jewelry_guild = { tag = DUL level = 1 location = aleppo }
 	
 	#Maghreb
 	sergeantry = { tag = MOR level = 1 location = fez } #Sergeants at arms
@@ -4971,7 +4976,6 @@ building_manager = {
 	stockade = { tag = DYR level = 1 location = durres }
 	stockade = { tag = ATH level = 1 location = athens }
 	stockade = { tag = ATH level = 1 location = corinth }
-	stockade = { tag = FEO level = 1 location = theodoro }
 	stockade = { tag = PAF level = 1 location = sinop }
 	stockade = { tag = CIL level = 1 location = alaiye }
 	stockade = { tag = CIL level = 1 location = kars_armenia }
@@ -5095,10 +5099,10 @@ building_manager = {
 	trade_office = { tag = GEN level = 2 location = tripoli }
 	trade_office = { tag = GEN level = 1 location = bergama }
 	trade_office = { tag = GEN level = 1 location = bursa }
-	trade_office = { tag = GEN level = 1 location = tbilisi }
-	trade_office = { tag = GEN level = 1 location = astrakhan }
-	trade_office = { tag = GEN level = 1 location = sarai_al_jadid }
-	trade_office = { tag = GEN level = 1 location = palermo }
+	trade_office = { tag = GEN level = 2 location = tbilisi }
+	trade_office = { tag = GEN level = 2 location = astrakhan }
+	trade_office = { tag = GEN level = 2 location = sarai_al_jadid }
+	trade_office = { tag = GEN level = 2 location = palermo }
 	overseas_trading_post = { tag = GEN level = 1 location = anaklia }
 	overseas_trading_post = { tag = GEN level = 1 location = ciudadela_de_menorca }
 	overseas_trading_post = { tag = GEN level = 1 location = cartagena }
@@ -5194,15 +5198,16 @@ building_manager = {
 
 	#BYZ & Subjects
 	trade_office = { tag = BYZ level = 4 location = theodoro }
-	trade_office = { tag = FEO level = 1 location = kyiv }
-	trade_office = { tag = FEO level = 1 location = moscow }
+	trade_office = { tag = FEO level = 4 location = kyiv }
+	trade_office = { tag = FEO level = 2 location = moscow }
 	trade_office = { tag = FEO level = 1 location = iasi }
-	trade_office = { tag = FEO level = 1 location = iasi }
-	trade_office = { tag = FEO level = 1 location = sarai_al_jadid }
-	trade_office = { tag = FEO level = 1 location = astrakhan }
+	trade_office = { tag = FEO level = 2 location = lviv }
+	trade_office = { tag = FEO level = 2 location = sarai_al_jadid }
+	trade_office = { tag = FEO level = 2 location = astrakhan }
 	trade_office = { tag = TRE level = 2 location = tbilisi }
 	trade_office = { tag = TRE level = 2 location = ani }
 	trade_office = { tag = TRE level = 1 location = van }
+	trade_office = { tag = TRE level = 1 location = astrakhan }
 	trade_office = { tag = BYZ level = 1 location = bucharest }
 	trade_office = { tag = DYR level = 1 location = prizren }
 	trade_office = { tag = DYR level = 1 location = dubrovnik }
@@ -5212,7 +5217,11 @@ building_manager = {
 	trade_office = { tag = AOI level = 1 location = acre }
 	trade_office = { tag = AOI level = 1 location = jerusalem }
 	trade_office = { tag = AOI level = 1 location = damascus }
-	trade_office = { tag = AOI level = 1 location = baghdad }
+	trade_office = { tag = AOI level = 2 location = baghdad }
+	trade_office = { tag = GEO level = 3 location = astrakhan }
+	trade_office = { tag = GEO level = 2 location = tabriz }
+	trade_office = { tag = ARM level = 1 location = astrakhan }
+	trade_office = { tag = ARM level = 3 location = tabriz }
 
 	#Trade Company RIC
 	trade_company_headquarters = { tag = RIC level = 1 location = gallipoli }
