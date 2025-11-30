@@ -1010,6 +1010,7 @@ locations={
 	medina = { rank = town 	town_setup = levant_city }
 	al_hajr = { rank = town 	town_setup = levant_town }
 	al_ahsa = { rank = city 	town_setup = levant_city }
+	marash = { rank = town 	town_setup = levant_town }
 
 	wasit = { rank = town 	town_setup = levant_city }
 	adan = { rank = town 	town_setup = levant_city }
@@ -4988,7 +4989,7 @@ building_manager = {
 	#Holy Sepulchre
 	order_headquarters = { tag = OHS level = 1 location =  kapan } 
 	order_stronghold = { tag = OHS level = 1	location = ulnia }
-	#sergeantry = { tag = DUL level = 1 location = kapan }
+	sergeantry = { tag = DUL level = 1 location = marash }
 	nobility_fortifications = { tag = OHS level = 1 location = ulnia }
 	nobles_recruitment_center = { tag = OHS level = 1 location = kapan }
 	castle = { tag = OHS level = 1 location = ulnia }

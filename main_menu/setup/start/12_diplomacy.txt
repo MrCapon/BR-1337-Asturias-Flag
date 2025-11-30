@@ -293,26 +293,35 @@ diplomacy_manager = {
     scripted_mutual = { first = MEI second = HES type = alliance }
     scripted_oneway = { first = FLA second = HOL type = trade_access }
 
-    #------Byzantium--------
-    #dependency = { first = BYZ second = EPI subject_type = vassal } #BR EDIT
-    dependency = { first = BYZ second = FEO subject_type = vassal } #BR ADDED
-    dependency = { first = BYZ second = THE subject_type = vassal } #BR ADDED
-    dependency = { first = THE second = THS subject_type = vassal } #BR ADDED
-    dependency = { first = BYZ second = ATH subject_type = vassal } #BR ADDED
-    dependency = { first = ATH second = MOE subject_type = vassal } #BR ADDED
-    dependency = { first = ATH second = ACH subject_type = vassal } #BR ADDED
-    dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
-    #dependency = { first = BUL second = SER subject_type = tributary } #BR ADDED
+    #------ERE/"Byzantium"-------- ###
+    dependency = { first = BYZ second = FEO subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = THE subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = THS subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = ATH subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = MOE subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = BYZ second = ACH subject_type = vassal } # Pronoïakon Ktéma
+
+    dependency = { first = BYZ second = AON subject_type = march } # Thema
+    dependency = { first = BYZ second = ICO subject_type = march } # Thema
+    dependency = { first = BYZ second = PAF subject_type = march } # Thema
+    dependency = { first = BYZ second = KAP subject_type = march } # Thema
+    dependency = { first = BYZ second = AOI subject_type = march } # Thema
+    dependency = { first = BYZ second = CIL subject_type = march } # Kleisoura
+    dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
+    dependency = { first = BYZ second = TRE subject_type = march } # Thema
+
+    dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
+    dependency = { first = BYZ second = DYR subject_type = tributary } # Autonomia
+
+    dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia
+
+
+
     scripted_mutual = { first = SER second = BYZ type = alliance }
-    #dependency = { first = BYZ second = EPI subject_type = secessionists } #BR ADDED
-    #dependency = { first = BYZ second = TRE subject_type = secessionists } #BR ADDED
-    #dependency = { first = BYZ second = ANA subject_type = secessionists } #BR ADDED
-    scripted_oneway = { first = BYZ second = FEO type = divert_trade }
-    scripted_oneway = { first = BYZ second = THE type = divert_trade }
-    scripted_oneway = { first = BYZ second = ATH type = divert_trade }
-    dependency = { first = BYZ second = AOI subject_type = march } #BR ADDED
-    scripted_oneway = { first = BYZ second = AOI type = divert_trade }
-    dependency = { first = BYZ second = RIC subject_type = trade_company } #BR ADDED
+    #scripted_oneway = { first = BYZ second = FEO type = divert_trade }
+    #scripted_oneway = { first = BYZ second = THE type = divert_trade }
+    #scripted_oneway = { first = BYZ second = ATH type = divert_trade }
+    #scripted_oneway = { first = BYZ second = AOI type = divert_trade }
 
     #Anatolia
     #dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED
@@ -402,6 +411,7 @@ diplomacy_manager = {
     scripted_mutual = { first = HUN second = POL type = alliance }
     dependency = { first = HUN second = CRO subject_type = dominion }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
+    dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
     scripted_mutual = { first = EPI second = DYR type = alliance }
     scripted_mutual = { first = EPI second = S2C type = alliance }
     dependency = { first = DYR second = ANT subject_type = vassal } #BR EDIT

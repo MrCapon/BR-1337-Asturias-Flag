@@ -2,50 +2,6 @@ war_manager = {
 	
 	war = {
 		war_name = {
-			name = "CIVIL_WAR_NAME"
-			ordinal = 1
-			first = {
-				name = "BYZ"
-			}
-			SECOND = {
-				name="AON"
-			}
-		}
-
-		take_province = {
-			type = conquer_province
-			casus_belli = cb_conquer_province
-			location = antalya
-		}
-		
-		start_date = 1332.7.6
-		action = 1337.3.15
-		#Team 1
-		attacker = {
-			country = AON
-			request = {
-				reason = Instigator
-			}
-		}
-		attacker = {
-			country = ICO
-			request = {
-				caller = AON
-				reason = Scripted
-				which = alliance
-			}
-		}
-		#Team 2
-		defender = {
-			country = BYZ
-			request = {
-				reason = Target
-			}
-		}
-	}
-	
-	war = {
-		war_name = {
 			name = "CRUSADE_WAR_NAME"
 			ordinal = 1
 			first = {
