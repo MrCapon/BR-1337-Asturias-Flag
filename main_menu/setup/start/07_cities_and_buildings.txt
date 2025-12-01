@@ -5029,8 +5029,10 @@ building_manager = {
 	banking_office = { tag = BNK level = 1 location = thessaloniki }
 	banking_office = { tag = BNK level = 1 location = plovdiv }
 	banking_office = { tag = BNK level = 1 location = belgrad }
+	banking_office = { tag = BNK level = 1 location = buda }
 	trade_office = { tag = BNK level = 2 location = plovdiv }
 	trade_office = { tag = BNK level = 2 location = belgrad }
+	trade_office = { tag = BNK level = 2 location = buda }
 
 	banking_office = { tag = MKB level = 1 location = trebizond }
 	banking_office = { tag = MKB level = 1 location = theodoro }
@@ -5048,6 +5050,9 @@ building_manager = {
 	banking_office = { tag = CHY level = 1 location = antioch }
 	trade_office = { tag = CHY level = 2 location = ani }
 	trade_office = { tag = CHY level = 2 location = urfa }
+	trade_office = { tag = CHY level = 1 location = aleppo }
+	trade_office = { tag = CHY level = 1 location = tabriz }
+	trade_office = { tag = CHY level = 1 location = van }
 
 	######Trade Buildings######
 
@@ -5279,6 +5284,7 @@ building_manager = {
 	overseas_trading_post = { tag = RIC level = 1 location = aydhab }
 	overseas_trading_post = { tag = RIC level = 1 location = tadjoura }
 	overseas_trading_post = { tag = RIC level = 1 location = ankober }
+	overseas_trading_post = { tag = RIC level = 1 location = zanzibar }
 	trade_office = { tag = RIC level = 1 location = axum }
 	trade_office = { tag = RIC level = 1 location = adan }
 	trade_office = { tag = RIC level = 1 location = lalibela }

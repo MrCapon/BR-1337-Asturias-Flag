@@ -323,6 +323,10 @@ diplomacy_manager = {
     scripted_mutual = { first = RIC second = BYZ type = sound_toll_exemption }
     scripted_mutual = { first = RIC second = BYZ type = fleet_basing_rights }
     scripted_mutual = { first = BYZ second = RIC type = military_sponsorship }
+    scripted_mutual = { first = DLH second = RIC type = trade_access }
+    scripted_mutual = { first = GOA second = RIC type = trade_access }
+    scripted_mutual = { first = ETH second = RIC type = trade_access }
+    scripted_mutual = { first = MAM second = RIC type = trade_access }
     #scripted_oneway = { first = BYZ second = FEO type = divert_trade }
     #scripted_oneway = { first = BYZ second = THE type = divert_trade }
     #scripted_oneway = { first = BYZ second = ATH type = divert_trade }

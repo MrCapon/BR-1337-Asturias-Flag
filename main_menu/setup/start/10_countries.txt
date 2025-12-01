@@ -50683,6 +50683,11 @@ countries = {
 			}
 			
 			country_rank = rank_county
+			currency_data = {
+				gold = 1000
+				stability = 100
+				government_power = 100
+			}
 			
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
@@ -50724,6 +50729,11 @@ countries = {
 			}
 			
 			country_rank = rank_county
+			currency_data = {
+				gold = 1000
+				stability = 100
+				government_power = 100
+			}
 			
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
@@ -50765,6 +50775,11 @@ countries = {
 			}
 			
 			country_rank = rank_county
+			currency_data = {
+				gold = 1000
+				stability = 100
+				government_power = 100
+			}
 			
 			include = "expl_mediterranean"
 			include = "expl_silk_road_west"
@@ -50865,6 +50880,11 @@ countries = {
 				outward_vs_inward = -75
 			}
 			country_rank = rank_duchy
+			currency_data = {
+				gold = 1000
+				stability = 100
+				government_power = 100
+			}
 		}
 
 		AOI = {
