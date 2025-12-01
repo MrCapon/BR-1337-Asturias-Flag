@@ -192,7 +192,7 @@ international_organization_manager = {
 		#Great Interregnum will continue until Charles IV secures Succession for his son
 
 		variables = { 
-			imperial_authority = 100
+			imperial_authority = 0 #Set by effect at game start
 		}
 	}
 	
@@ -648,7 +648,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 431.1.1
-		members = { S1C S2C S3C DYR CRT }
+		members = { S1C S2C S3C DYR CRT MTR ANT THP MZK }
 		variables = { 
 			religion = religion:orthodox
 			seat = location:rome

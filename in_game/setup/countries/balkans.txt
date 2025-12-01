@@ -108,7 +108,7 @@ ALB = {
 	color2 = rgb { 60 60 60 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = orthodox 
 
 }
 
@@ -117,7 +117,7 @@ THP = {
 	color2 = rgb { 83 184 221 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = orthodox 
 
 }
 
@@ -126,7 +126,7 @@ MZK = {
 	color2 = rgb { 250 1 1 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = orthodox 
 
 }
 
@@ -135,7 +135,7 @@ ANT = {
 	color2 = rgb { 8 86 149 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = orthodox 
 
 }
 
@@ -144,7 +144,7 @@ MTR = {
 	color2 = rgb { 75 110 50 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = orthodox 
 
 }
 
