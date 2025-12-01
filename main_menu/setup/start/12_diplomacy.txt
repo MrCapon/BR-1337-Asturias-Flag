@@ -313,11 +313,16 @@ diplomacy_manager = {
     dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
     dependency = { first = BYZ second = DYR subject_type = tributary } # Autonomia
 
-    dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia
+    #dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia
+    dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia tax rights sold off to Venice
 
 
 
     scripted_mutual = { first = SER second = BYZ type = alliance }
+    scripted_mutual = { first = RIC second = BYZ type = food_access }
+    scripted_mutual = { first = RIC second = BYZ type = sound_toll_exemption }
+    scripted_mutual = { first = RIC second = BYZ type = fleet_basing_rights }
+    scripted_mutual = { first = BYZ second = RIC type = military_sponsorship }
     #scripted_oneway = { first = BYZ second = FEO type = divert_trade }
     #scripted_oneway = { first = BYZ second = THE type = divert_trade }
     #scripted_oneway = { first = BYZ second = ATH type = divert_trade }
@@ -335,13 +340,12 @@ diplomacy_manager = {
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
 
-    scripted_oneway = { first = AOI second = OHS type = military_sponsorship }
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
 	scripted_oneway = { first = KAP second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CIL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CYP second = OHS type = military_sponsorship }
-    scripted_oneway = { first = OHS second = TRE type = military_sponsorship }
+    scripted_oneway = { first = TRE second = OHS type = military_sponsorship }
 	scripted_oneway = { first = GEO second = OHS type = military_sponsorship }
 	scripted_oneway = { first = PAF second = OHS type = military_sponsorship }
 	scripted_oneway = { first = BYZ second = OHS type = military_sponsorship }
@@ -349,8 +353,6 @@ diplomacy_manager = {
     scripted_oneway = { first = ATH second = OHS type = military_sponsorship }
 	scripted_oneway = { first = BUL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = SER second = OHS type = military_sponsorship }
-	scripted_oneway = { first = S1C second = OHS type = military_sponsorship }
-	scripted_oneway = { first = DYR second = OHS type = military_sponsorship }
 
     #-------Low Lands-------
     dependency = { first = HOL second = ZEE subject_type = fiefdom }

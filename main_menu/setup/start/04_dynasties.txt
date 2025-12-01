@@ -767,7 +767,7 @@ dynasty_manager = {
 
 	doukas_dynasty = { # Extinct
 		name = { name = doukas_dynasty }
-		home = plovdiv #BR EDIT
+		home = thessaloniki #BR EDIT
 	}
 
 	glabas_dynasty = { # Extinct
@@ -788,13 +788,13 @@ dynasty_manager = {
 
 	komnenos_dynasty = { # Extinct
 		name = { name = komnenos_dynasty }
-		home = kastamonu #BR EDIT
+		home = constantinople #BR EDIT
 	}
 
 	komnenos_doukas_dynasty = { # Extinct
 		name = { name = komnenos_doukas_dynasty }
 		#CoA: https://wappenwiki.org/index.php?title=File:Doukas.svg (Adopted from Doukas)
-		home = tarnovo #BR EDIT
+		home = kastamonu #BR EDIT
 	}
 
 	laskaris_dynasty = { # Extinct
@@ -1363,7 +1363,7 @@ dynasty_manager = {
 
 	fadrique_dynasty = {
 		name = { name = name_frederick }
-		home = salona
+		home = lucera #br edit
 		male_names = {
 			name_alphonse name_boniface name_james name_john name_louis name_peter name_william
 		}

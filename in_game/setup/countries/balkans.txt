@@ -275,6 +275,27 @@ MOE = {
 	religion_definition = orthodox
 }
 
+BNK = { #Bankaropoulos #funny but surprisingly plausible
+	color = rgb { 75 175 125 }
+
+	culture_definition = romanyoti
+	religion_definition = orthodox #judaism 
+}
+
+MKB = { #Makrembolitēs
+	color = rgb { 175 125 95 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+CHY = { #Chrysotrapeziōtai
+	color = rgb { 75 125 175 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
 #Italia
 BNV = { #Beneveto
     color = rgb { 125 160 95 }

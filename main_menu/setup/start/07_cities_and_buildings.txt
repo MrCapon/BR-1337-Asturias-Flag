@@ -5023,6 +5023,32 @@ building_manager = {
 	orthodox_order_commandery = { tag = OHS level = 1 location = tbilisi }
 	orthodox_order_commandery = { tag = OHS level = 1 location = kastamonu }
 
+	#Banking families
+	banking_office = { tag = BNK level = 1 location = constantinople }
+	banking_office = { tag = BNK level = 1 location = smyrna }
+	banking_office = { tag = BNK level = 1 location = thessaloniki }
+	banking_office = { tag = BNK level = 1 location = plovdiv }
+	banking_office = { tag = BNK level = 1 location = belgrad }
+	trade_office = { tag = BNK level = 2 location = plovdiv }
+	trade_office = { tag = BNK level = 2 location = belgrad }
+
+	banking_office = { tag = MKB level = 1 location = trebizond }
+	banking_office = { tag = MKB level = 1 location = theodoro }
+	banking_office = { tag = MKB level = 1 location = kyiv } #Kiova
+	banking_office = { tag = MKB level = 1 location = tbilisi }
+	banking_office = { tag = MKB level = 1 location = moscow }
+	trade_office = { tag = MKB level = 2 location = kyiv }
+	trade_office = { tag = MKB level = 1 location = moscow }
+	trade_office = { tag = MKB level = 1 location = tbilisi }
+
+	banking_office = { tag = CHY level = 1 location = kayseri }
+	banking_office = { tag = CHY level = 1 location = ankara }
+	banking_office = { tag = CHY level = 1 location = konya }
+	banking_office = { tag = CHY level = 1 location = ani }
+	banking_office = { tag = CHY level = 1 location = antioch }
+	trade_office = { tag = CHY level = 2 location = ani }
+	trade_office = { tag = CHY level = 2 location = urfa }
+
 	######Trade Buildings######
 
 	#Major and Important Trade locations

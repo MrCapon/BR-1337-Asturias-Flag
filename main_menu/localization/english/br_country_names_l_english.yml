@@ -35,6 +35,12 @@
  ICO_ADJ: "Iconion"
  RIC: "Hetaireia Indikēs" #Emporikē Hetaireia tēs Indikēs
  RIC_ADJ: "Hetaireia Indikēs"
+ BNK: "Bankaropoulos" #funny but surprisingly plausible
+ BNK_ADJ: "Bankaropoulos"
+ MKB: "Makrembolitēs"
+ MKB_ADJ: "Makrembolitēs"
+ CHY: "Chrysotrapeziōtai"
+ CHY_ADJ: "Chrysotrapeziōtai"
  
  # British Isles
  AGL: "Anglia"
