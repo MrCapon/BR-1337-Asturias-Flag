@@ -434,6 +434,13 @@ RIC = { #BR addition
 	difficulty = 3
 }
 
+INK = { #BR addition
+	color = rgb { 175 75 95 }
+
+	culture_definition = indikes_greek_culture
+	religion_definition = orthodox
+}
+
 ANA = { #BR addition
 	color = rgb { 205 38 50 }
 
