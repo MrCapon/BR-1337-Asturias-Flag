@@ -41,6 +41,10 @@
  MKB_ADJ: "Makrembolitēs"
  CHY: "Chrysotrapeziōtai"
  CHY_ADJ: "Chrysotrapeziōtai"
+ AGY: "Aigyptios"
+ AGY_ADJ: "Aegyptian"
+ AFK: "Afrika"
+ AFK_ADJ: "Afrikan"
  
  # British Isles
  AGL: "Anglia"

@@ -408,6 +408,22 @@ TVS = {
 
 #BR ADDITIONS
 
+AGY = { #BR addition
+	color = rgb { 185 58 75 }
+
+	culture_definition = aegyptian_greek_culture
+	religion_definition = orthodox
+
+}
+
+AFK = { #BR addition
+	color = rgb { 115 88 125 }
+
+	culture_definition = african_greek_culture
+	religion_definition = orthodox
+
+}
+
 RIC = { #BR addition
 	color = rgb { 175 38 65 }
 

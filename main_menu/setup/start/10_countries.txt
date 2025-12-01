@@ -51236,7 +51236,6 @@ countries = {
 			capital = ankara
 		}
 		
-
 		KAP = {
 			own_control_core = {
 				#ERE
@@ -51543,6 +51542,90 @@ countries = {
 			capital = ganja
 		}
 		
+		#African
+		AGY = { #releasable
+			our_cores_conquered_by_others = {
+				alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
+				cairo atfih beni_suef faiyum giza dakahla
+				damietta al_mima el_burullus el_mahalla fuwa menouf samanoud tidah
+				mansoura bilbeis faqus ushmum_tannah qalyub tarrana tinnis
+				suez saint_anthony saint_paul_anchorite
+				el_tor
+				edfu esna qena hiw qus
+				asyut el_balyana el_buwit akhmim manfalut
+				minya ashmunayn el_bahnasa sharuna tahna
+				kharga bahariyya baris el_qasr qasr_farafra siwa
+			}
+
+			include = "expl_eastern_europe"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "eastern_european_monarchy"
+
+			country_rank = rank_kingdom
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				reforms = {
+					autocracy
+				}
+
+			}
+			accepted_cultures = {
+				coptic_culture
+			}
+			tolerated_cultures = {
+				upper_egyptian_culture
+			}
+			
+			capital = alexandria
+		}
+		
+		AFK = { #releasable
+			our_cores_conquered_by_others = {
+				bir_el_alter
+				madjul mahres sidi_fredj bou_hajla sfaqes chebba
+				kairouan sbiba kasserine subaytila thala
+				mahdia sousse el_jem monastir
+				bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
+				annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
+				bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef thagaste
+				tunis tebourba el_fahs zaghouan nabeul kelibia hammamet kesra
+				constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
+				feriana
+				bordj_bou_arreridj jama_TUN
+				el_ksour medjez_el_bab sbikha
+			}
+
+			include = "expl_eastern_europe"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "eastern_european_monarchy"
+
+			country_rank = rank_kingdom
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				reforms = {
+					autocracy
+				}
+
+			}
+			
+			capital = tunis
+		}
+		
+
 		#West HRE
 
 		LOT = {
