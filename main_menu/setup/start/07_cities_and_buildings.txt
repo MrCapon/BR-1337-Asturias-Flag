@@ -5293,11 +5293,14 @@ building_manager = {
 
 	#India
 	trade_company_harbor = { tag = RIC level = 2 location = bombay }
-	trade_office = { tag = RIC level = 4 location = bombay }
-	trade_office = { tag = RIC level = 4 location = goa }
+	trade_office = { tag = RIC level = 8 location = bombay }
+	trade_office = { tag = RIC level = 8 location = goa }
+	trade_company_harbor = { tag = RIC level = 2 location = goa }
 	trade_company_governance = { tag = RIC level = 1 location = bombay }
 	trade_company_garrison = { tag = RIC level = 1 location = bombay }
-	overseas_trading_post = { tag = RIC level = 1 location = kochi }
+	trade_company_governance = { tag = RIC level = 1 location = goa }
+	trade_company_garrison = { tag = RIC level = 1 location = goa }
+	overseas_trading_post = { tag = RIC level = 2 location = kochi }
 	overseas_trading_post = { tag = RIC level = 1 location = manora }
 
 	#Resources

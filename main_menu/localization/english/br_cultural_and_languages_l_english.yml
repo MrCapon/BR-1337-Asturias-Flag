@@ -1,5 +1,7 @@
 ﻿l_english:
  anatolian_greek_culture: "Anatolikós"
+ african_greek_culture: "Afrikanós"
+ aegyptian_greek_culture: "Aegýptian"
  mozarabic: "Mozárabe"
  varangian: "Varangioi"
  latinoi: "Latínoi"
@@ -16,6 +18,8 @@
  griko_dialect: "Griko Dialect"
  romanyoti_dialect: "Romanyoti Dialect"
  elysian_greek_dialect: "Elysian Dialect"
+ aegyptian_dialect: "Aegýptian Dialect"
+ african_dialect: "Afrikanós Dialect"
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"

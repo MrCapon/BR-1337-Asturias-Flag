@@ -1,6 +1,6 @@
 ﻿cappadocian_greek_culture = {
 	language = cappadocian_dialect
-	color = rgb { 140 65 65 }
+	color = rgb { 125 65 75 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
@@ -168,15 +168,53 @@ photianoi = {
 }
 
 indikes_greek_culture = {
-	language = constantinopolitan_dialect #Maybe something more eastern
-	color = rgb { 150 55 80 }
+	language = aegyptian_dialect
+	color = rgb { 150 55 105 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-		greek_culture = positive
+		greek_culture = kindred
 		ligurian = positive
 		venetian = positive
+		aegyptian_greek_culture = kindred
+	}	
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+aegyptian_greek_culture = {
+	language = aegyptian_dialect
+	color = rgb { 155 75 105 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = kindred
+		ligurian = positive
+		venetian = positive
+		african_greek_culture = kindred
+		indikes_greek_culture = kindred
+	}	
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+african_greek_culture = {
+	language = african_dialect
+	color = rgb { 135 55 145 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = kindred
+		ligurian = positive
+		venetian = positive
+		aegyptian_greek_culture = kindred
 	}	
 	
 	culture_groups = {
