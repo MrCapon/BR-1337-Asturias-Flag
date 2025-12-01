@@ -133,6 +133,7 @@
 		elysian_greek_dialect = {}
 		aegyptian_dialect = {}
 		african_dialect = {}
+		syrenikoi_dialect = {}
 	}
 }
 
