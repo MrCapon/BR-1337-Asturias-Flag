@@ -56,7 +56,7 @@ CLR = {
 	color = hsv360 { 200 85 62 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -64,7 +64,7 @@ CWM = {
 	color = hsv { 0.58 0.71 0.38 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -73,7 +73,7 @@ ULS = {
 	color = hsv360 { 25 84 90 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -81,7 +81,7 @@ ORD = { # Ormond
 	color = map_ORD
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -89,7 +89,7 @@ DMS = { # Desmond
 	color = map_DMS
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -97,7 +97,7 @@ KID = { # Kildare
 	color = map_KID
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -219,7 +219,7 @@ PLE = {
 	unit_color1 = hsv360{ 172 60 50 }
 	unit_color2 = blue
 	
-	culture_definition = english # Anglo-Irish were not given government jobs until a bit later
+	culture_definition = norse_gael # Anglo-Irish were not given government jobs until a bit later
 	religion_definition = catholic
 	
 	is_historic = yes
@@ -229,7 +229,7 @@ WLS = {
 	color = map_WLS
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = english # totally controlled by Anglo-Normans
+	culture_definition = norse_gael # totally controlled by Anglo-Normans
 	religion_definition = catholic
 	
 	unit_color0 = hsv360{ 358 70 45 }
@@ -321,7 +321,7 @@ DCI = {
 	color = hsv360 { 15 42 52 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -387,7 +387,7 @@ MYO = {
 	color = hsv360 { 181 76 62 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = anglo_irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }
 
@@ -628,7 +628,7 @@ AGL = { # Anglia
 	color = rgb { 242 55 48 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = english
+	culture_definition = anglo_norse_culture
 	religion_definition = catholic
 }
 
@@ -644,7 +644,7 @@ EAG = { # East Anglia
 	color = rgb { 143 21 17 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = english
+	culture_definition = anglo_norse_culture
 	religion_definition = catholic
 }
 
@@ -660,7 +660,7 @@ LSY = { # Lindsey/Lindon
 	color = rgb { 242 106 48 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = english
+	culture_definition = anglo_norse_culture
 	religion_definition = catholic
 }
 
@@ -692,6 +692,6 @@ HBA = { # Hiberna
 	color = rgb { 117 230 144 }
 	color2 = rgb { 16 41 202 }
 	
-	culture_definition = irish
+	culture_definition = norse_gael
 	religion_definition = catholic
 }

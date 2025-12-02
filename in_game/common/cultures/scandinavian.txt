@@ -207,3 +207,26 @@ kathurlander = {
 	
 	use_patronym = yes
 }
+
+anglo_norse_culture = {
+	language = norwegian_dialect #New Dialect 
+	
+	color = rgb { 62 54 101 }
+	
+	tags = { norwegian_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		norn_culture = kindred
+		swedish = kindred
+		icelandic = kindred
+		norse_gael = positive
+		vinlander = positive
+	}
+
+	culture_groups = {
+		scandinavian_group
+		british_group
+	}
+	
+	use_patronym = yes
+}
