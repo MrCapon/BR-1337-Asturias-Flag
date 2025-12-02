@@ -1,0 +1,10 @@
+dynasty_manager = {
+	default_dynasty = { name = { name = default_dynasty } home = vattnajokull }				#just for default coat of arms
+
+	siggurson_dynasty = {
+		name = { name = siggurson_dynasty }
+		dynasty_name_type = location
+		home = oslo
+	}
+
+}

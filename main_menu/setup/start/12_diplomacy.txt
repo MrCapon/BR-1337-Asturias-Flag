@@ -39,7 +39,7 @@ diplomacy_manager = {
 	scripted_mutual = { first = MYO second = UMH type = alliance }
 	
 	# Scandinavia
-	dependency = { first = SWE second = SKE subject_type = fiefdom }
+	dependency = { first = NOR second = SKE subject_type = fiefdom }
 	dependency = { first = NOR second = ICE subject_type = dominion }
 	dependency = { first = NOR second = GRL subject_type = dominion }
 	dependency = { first = NOR second = ORK subject_type = vassal }

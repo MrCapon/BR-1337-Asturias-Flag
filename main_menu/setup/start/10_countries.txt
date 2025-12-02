@@ -181,7 +181,7 @@ countries = {
 			}
 			
 			capital = viborg
-			dynasty = estrid_dynasty
+			dynasty = siggurson_dynasty
 			court_language = norwegian_dialect
 			
 			country_rank = rank_kingdom
@@ -397,15 +397,12 @@ countries = {
 			capital = oslo
 			
 			country_rank = rank_kingdom
+			dynasty = siggurson_dynasty
 			
 			include = "catholic_monarchy"
 			include = "expl_scandinavia"
 			government = {
-				ruler = swe_magnus_eriksson
-				
-				ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5 }
-				ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7 }
-				
+				ruler = random
 				
 				centralization_vs_decentralization = 40
 				aristocracy_vs_plutocracy = -25
