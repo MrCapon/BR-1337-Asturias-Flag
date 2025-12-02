@@ -346,14 +346,15 @@ diplomacy_manager = {
     dependency = { first = ARM second = VAN subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
+    scripted_mutual = { first = GSO second = GEO type = alliance }
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
 	scripted_oneway = { first = KAP second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CIL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = CYP second = OHS type = military_sponsorship }
-    scripted_oneway = { first = TRE second = OHS type = military_sponsorship }
-	scripted_oneway = { first = GEO second = OHS type = military_sponsorship }
+    scripted_oneway = { first = TRE second = SGO type = military_sponsorship }
+	scripted_oneway = { first = GEO second = SGO type = military_sponsorship }
 	scripted_oneway = { first = PAF second = OHS type = military_sponsorship }
 	scripted_oneway = { first = BYZ second = OHS type = military_sponsorship }
 	scripted_oneway = { first = THE second = OHS type = military_sponsorship }

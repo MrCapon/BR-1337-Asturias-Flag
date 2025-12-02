@@ -4585,6 +4585,8 @@ building_manager = {
 	forest_village = { tag = PAF level = 1 location = gumus }
 	forest_village = { tag = KAP level = 1 location = divrigi }
 	market_village = { tag = KAP level = 1 location = urgup }
+	market_village = { tag = SGO level = 2 location = costa }
+	fishing_village = { tag = SGO level = 1 location = tuapse }
 
 	#Italy
 	tar_kiln = { tag = VEN level = 1 location = pola }
@@ -5004,7 +5006,6 @@ building_manager = {
 	orthodox_order_commandery = { tag = OHS level = 1 location = tarsus }
 	orthodox_order_commandery = { tag = OHS level = 1 location = antalya }
 	orthodox_order_commandery = { tag = OHS level = 1 location = izmit }
-	orthodox_order_commandery = { tag = OHS level = 1 location = trebizond }
 	orthodox_order_commandery = { tag = OHS level = 1 location = constantinople }
 	orthodox_order_commandery = { tag = OHS level = 1 location = edirne }
 	orthodox_order_commandery = { tag = OHS level = 1 location = thessaloniki }
@@ -5020,8 +5021,24 @@ building_manager = {
 	orthodox_order_commandery = { tag = OHS level = 1 location = prizren }
 	orthodox_order_commandery = { tag = OHS level = 1 location = belgrad }
 	orthodox_order_commandery = { tag = OHS level = 1 location = syracuse }
-	orthodox_order_commandery = { tag = OHS level = 1 location = tbilisi }
 	orthodox_order_commandery = { tag = OHS level = 1 location = kastamonu }
+	orthodox_order_commandery = { tag = OHS level = 1 location = targoviste }
+	orthodox_order_commandery = { tag = OHS level = 1 location = iasi }
+
+	#Order of Saint George 
+	order_headquarters = { tag = SGO level = 1 location =  costa } 
+	order_stronghold = { tag = SGO level = 1	location = tuapse }
+	castle = { tag = SGO level = 1 location = tuapse }
+	nobility_fortifications = { tag = SGO level = 1 location = tuapse }
+	orthodox_order_commandery = { tag = SGO level = 1 location = tbilisi }
+	orthodox_order_commandery = { tag = SGO level = 1 location = trebizond }
+	orthodox_order_commandery = { tag = SGO level = 1 location = tana }
+	orthodox_order_commandery = { tag = SGO level = 1 location = kyiv }
+	orthodox_order_commandery = { tag = SGO level = 1 location = smolensk }
+	orthodox_order_commandery = { tag = SGO level = 1 location = moscow }
+	orthodox_order_commandery = { tag = SGO level = 1 location = tver }
+	orthodox_order_commandery = { tag = SGO level = 1 location = lviv }
+	orthodox_order_commandery = { tag = SGO level = 1 location = theodoro }
 
 	#Banking families
 	banking_office = { tag = BNK level = 1 location = constantinople }

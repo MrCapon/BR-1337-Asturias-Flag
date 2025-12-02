@@ -408,6 +408,7 @@ TVS = {
 
 #BR ADDITIONS
 
+#Africa
 AGY = { #BR addition
 	color = rgb { 185 58 75 }
 
@@ -441,6 +442,7 @@ INK = { #BR addition
 	religion_definition = orthodox
 }
 
+#Anatolia
 ANA = { #BR addition
 	color = rgb { 205 38 50 }
 
@@ -459,30 +461,6 @@ AON = { #BR addition
 	color = rgb { 175 38 60 }
 
 	culture_definition = anatolian_greek_culture
-	religion_definition = orthodox
-}
-
-OHS = {
-	color = rgb { 152 125 104 }
-
-	culture_definition = syrenikoi_greek_culture
-	religion_definition = orthodox
-
-	description_category = military
-	difficulty = 3
-}
-
-AOI = { #BR addition
-	color = rgb { 205 38 50 }
-
-	culture_definition = syrenikoi_greek_culture
-	religion_definition = orthodox
-}
-
-DYR = { #BR addition
-	color = rgb { 185 125 150 }
-
-	culture_definition = greek_culture
 	religion_definition = orthodox
 }
 
@@ -533,4 +511,33 @@ GAN = { #BR addition
 
 	culture_definition = armenian_culture
 	religion_definition = miaphysite
+}
+
+#Levant
+AOI = { #BR addition
+	color = rgb { 205 38 50 }
+
+	culture_definition = syrenikoi_greek_culture
+	religion_definition = orthodox
+}
+
+#Holy Orders
+OHS = {
+	color = rgb { 152 125 104 }
+
+	culture_definition = syrenikoi_greek_culture
+	religion_definition = orthodox
+
+	description_category = military
+	difficulty = 3
+}
+
+SGO = {
+	color = rgb { 162 105 134 }
+
+	culture_definition = georgian_culture
+	religion_definition = orthodox
+
+	description_category = military
+	difficulty = 3
 }

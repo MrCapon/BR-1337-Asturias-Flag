@@ -267,7 +267,7 @@ GOR = {
 	religion_definition = catholic
 }
 
-#BR ADDED
+###-BR ADDED-###
 MOE = {
 	color = rgb { 95 75 125 }
 
@@ -275,6 +275,14 @@ MOE = {
 	religion_definition = orthodox
 }
 
+DYR = { #BR addition
+	color = rgb { 185 125 150 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+#Banks
 BNK = { #Bankaropoulos #funny but surprisingly plausible
 	color = rgb { 75 175 125 }
 
