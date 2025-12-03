@@ -10892,19 +10892,24 @@ countries = {
 				aristocracy_vs_plutocracy = -50
 				serfdom_vs_free_subjects = -60
 				mercantilism_vs_free_trade = -60
-				belligerent_vs_conciliatory = 20
-				quality_vs_quantity = -20
-				offensive_vs_defensive = 20
-				land_vs_naval = 33
-				capital_economy_vs_traditional_economy = 60
-				individualism_vs_communalism = 40
-				outward_vs_inward = -60
+				belligerent_vs_conciliatory = 75
+				quality_vs_quantity = 20
+				offensive_vs_defensive = 40
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 65
+				individualism_vs_communalism = 65
+				outward_vs_inward = -75
 				
 			}
 			
 			tolerated_cultures = {
 				provencal
 				neapolitan
+			}
+			currency_data = {
+				gold = 4000
+				prestige = 90
+				stability = 75
 			}
 			
 			court_language = eccelsiastic_latin_dialect
@@ -13389,6 +13394,7 @@ countries = {
 				serbian
 				wallachian
 			}
+
 			
 			liturgical_language = church_slavonic_language
 			
@@ -14243,13 +14249,17 @@ countries = {
                 meaux provins nogent_sur_seine #Brie Champenoise
             }
 
+			dynasty = valois_dynasty
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy"
 			government = {
 				type = monarchy
                 heir_selection = salic_law
-				ruler = random
+				ruler = fra_jean_ii_valois
+				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
+				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
+				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
 
                 centralization_vs_decentralization = 85
                 aristocracy_vs_plutocracy = -75
@@ -14290,7 +14300,6 @@ countries = {
                     great_offices_of_the_crown_of_france
                 }
             }
-
 			country_rank = rank_kingdom
             capital = paris
         }
@@ -16137,7 +16146,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = fra_jean_ii_valois
+				ruler = random
 				
 				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1129.1.1 end_date = 1151.9.7 regnal_number = 2 }
 				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 1 }
@@ -16157,9 +16166,7 @@ countries = {
 					character = fra_margaret_anjou start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 1
 					character = fra_charles_valois start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 3 # Until 1299 as Marital Co-Ruler
 				}
-				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
-				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
-				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
+				
 				
 				regnal_numbers = {
 					#Rorgon = 1
@@ -20759,6 +20766,11 @@ countries = {
 				agaw_culture gurage
 				afar_culture
 				tigrinya
+			}
+			currency_data = {
+				gold = 1500
+				prestige = 75
+				stability = 75
 			}
 		}
 		
@@ -50869,11 +50881,11 @@ countries = {
 				serfdom_vs_free_subjects = 45
 				traditionalist_vs_innovative = 50
 				spiritualist_vs_humanist = 80
-				mercantilism_vs_free_trade = -10
+				mercantilism_vs_free_trade = 75
 				offensive_vs_defensive = 40
 				land_vs_naval = 100
 				quality_vs_quantity = -50
-				belligerent_vs_conciliatory = 50
+				belligerent_vs_conciliatory = 75
 				capital_economy_vs_traditional_economy = -85
 				individualism_vs_communalism = -75
 				outward_vs_inward = -75
