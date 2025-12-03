@@ -20,19 +20,20 @@
 	color = rgb { 99 15 13 }
 	
 	areas = {
-		massachusetts_area
-		southern_new_england_area
-		vermont_area
-		new_hampshire_area
-		maine_area
-		hudson_area
-		haudenosaunee_area
-		new_jersey_area
-		pennsylvania_area
-		westsylvania_area
+		maryland_area
 		virginia_area
-		north_carolina_area
-		south_carolina_area
+		#north_carolina_area
+		#south_carolina_area
+		#massachusetts_area
+		#southern_new_england_area
+		#vermont_area
+		#new_hampshire_area
+		#maine_area
+		#hudson_area
+		#haudenosaunee_area
+		#new_jersey_area
+		#pennsylvania_area
+		#westsylvania_area
 	}
 	
 	form_effect = {}
