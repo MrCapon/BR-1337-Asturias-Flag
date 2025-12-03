@@ -7735,7 +7735,7 @@ countries = {
 		#GOA - Goa
 		GOA = {
 			#https://en.wikipedia.org/wiki/History_of_Goa
-			own_control_core = {
+			our_cores_conquered_by_others = {
 				goa madgaon
 			}
 			
@@ -48957,7 +48957,7 @@ countries = {
 		
 		DHF = { #Dhofar
 			own_control_core = {
-				dhufar khalfut mirbat qishn raysut hadibu qulensya
+				dhufar khalfut mirbat qishn raysut
 			}
 			
 			include = "expl_middle_east"
@@ -50818,10 +50818,13 @@ countries = {
 		#Anatolian Tags
 		RIC = {
 			#research_advance = advance_type:trade_companies_advance
+			own_control_core = {
+				hadibu qulensya goa madgaon
+			}
 			type = building
 			starting_technology_level = 3
 			
-			capital = gallipoli
+			capital = goa
 
 			include = "expl_eastern_europe"
 			include = "expl_mediterranean"

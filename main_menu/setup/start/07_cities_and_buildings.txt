@@ -4352,7 +4352,7 @@ building_manager = {
 	marketplace	= { tag = ADU level = 15 location =  cordoba }
 	trading_hub = { tag = ADU level = 1 location =  cordoba }
 	entrepot = { tag = ADU level = 1 location =  cordoba }
-	market_warehouse = { tag = ADU level = 1 location =  cordoba }
+	market_warehouse = { tag = ADU level = 3 location =  cordoba }
 	fine_cloth_guild = { tag = ADU level = 5 location =  cordoba }
 	saltpeter_guild = { tag = ADU level = 1 location =  cordoba }
 	tannery = { tag = ADU level = 4 location =  cordoba }
@@ -5050,6 +5050,8 @@ building_manager = {
 	trade_office = { tag = BNK level = 2 location = plovdiv }
 	trade_office = { tag = BNK level = 2 location = belgrad }
 	trade_office = { tag = BNK level = 2 location = buda }
+	trade_office = { tag = BNK level = 4 location = alexandria }
+	trade_office = { tag = BNK level = 2 location = cairo }
 
 	banking_office = { tag = MKB level = 1 location = trebizond }
 	banking_office = { tag = MKB level = 1 location = theodoro }
@@ -5057,8 +5059,8 @@ building_manager = {
 	banking_office = { tag = MKB level = 1 location = tbilisi }
 	banking_office = { tag = MKB level = 1 location = moscow }
 	trade_office = { tag = MKB level = 2 location = kyiv }
-	trade_office = { tag = MKB level = 1 location = moscow }
-	trade_office = { tag = MKB level = 1 location = tbilisi }
+	trade_office = { tag = MKB level = 2 location = moscow }
+	trade_office = { tag = MKB level = 2 location = tbilisi }
 
 	banking_office = { tag = CHY level = 1 location = kayseri }
 	banking_office = { tag = CHY level = 1 location = ankara }
@@ -5070,6 +5072,11 @@ building_manager = {
 	trade_office = { tag = CHY level = 1 location = aleppo }
 	trade_office = { tag = CHY level = 1 location = tabriz }
 	trade_office = { tag = CHY level = 1 location = van }
+	trade_office = { tag = CHY level = 2 location = antioch }
+	trade_office = { tag = CHY level = 2 location = acre }
+	trade_office = { tag = CHY level = 2 location = jerusalem }
+	trade_office = { tag = CHY level = 3 location = damascus }
+	trade_office = { tag = CHY level = 4 location = baghdad }
 
 	######Trade Buildings######
 
@@ -5273,23 +5280,22 @@ building_manager = {
 	trade_office = { tag = ARM level = 3 location = tabriz }
 
 	#Trade Company RIC
-	trade_company_headquarters = { tag = RIC level = 1 location = gallipoli }
-	trade_company_harbor = { tag = RIC level = 2 location = gallipoli }
-	trade_company_governance = { tag = RIC level = 1 location = gallipoli }
-	trade_company_garrison = { tag = RIC level = 1 location = gallipoli }
-	trade_company_garrison = { tag = RIC level = 1 location = alexandria }
-	trade_company_harbor = { tag = RIC level = 2 location = alexandria }
+	#trade_company_headquarters = { tag = RIC level = 1 location = goa }
+	#trade_company_harbor = { tag = RIC level = 1 location = gallipoli }
+	#trade_company_governance = { tag = RIC level = 1 location = gallipoli }
+	#trade_company_garrison = { tag = RIC level = 1 location = alexandria }
+	#trade_company_harbor = { tag = RIC level = 1 location = alexandria }
 
-	fondaco = { tag = RIC level = 1 location = alexandria }
-	trade_office = { tag = RIC level = 4 location = alexandria }
-	fondaco = { tag = RIC level = 1 location = antioch }
-	trade_office = { tag = RIC level = 2 location = antioch }
-	trade_company_governance = { tag = RIC level = 1 location = antioch }
-	trade_office = { tag = RIC level = 2 location = acre }
-	trade_office = { tag = RIC level = 2 location = cairo }
-	trade_office = { tag = RIC level = 1 location = jerusalem }
-	trade_office = { tag = RIC level = 2 location = damascus }
-	trade_office = { tag = RIC level = 2 location = baghdad }
+	#fondaco = { tag = RIC level = 1 location = alexandria }
+	#trade_office = { tag = RIC level = 4 location = alexandria }
+	#fondaco = { tag = RIC level = 1 location = antioch }
+	#trade_office = { tag = RIC level = 2 location = antioch }
+	#trade_company_governance = { tag = RIC level = 1 location = antioch }
+	#trade_office = { tag = RIC level = 2 location = acre }
+	#trade_office = { tag = RIC level = 2 location = cairo }
+	#trade_office = { tag = RIC level = 1 location = jerusalem }
+	#trade_office = { tag = RIC level = 2 location = damascus }
+	#trade_office = { tag = RIC level = 2 location = baghdad }
 
 	#Red Sea
 	trade_company_governance = { tag = RIC level = 1 location = axum }
@@ -5309,21 +5315,40 @@ building_manager = {
 	trade_office = { tag = RIC level = 1 location = jeddah }
 
 	#India
+	marketplace	= { tag = RIC level = 15 location =  goa }
+	protected_harbor = { tag = RIC level = 1 location = goa }
+	wharf = { tag = RIC level = 1 location = goa }
+	dock = { tag = RIC level = 1 location = goa }
+	lazaretto = { tag = RIC level = 1 location = goa }
+	coastal_fort = { tag = RIC level = 1 location = goa }
+	trading_hub = { tag = RIC level = 1 location =  goa }
+	entrepot = { tag = RIC level = 1 location =  goa }
+	market_warehouse = { tag = RIC level = 1 location =  goa }
 	trade_company_harbor = { tag = RIC level = 2 location = bombay }
 	trade_office = { tag = RIC level = 8 location = bombay }
-	trade_office = { tag = RIC level = 8 location = goa }
-	trade_company_harbor = { tag = RIC level = 2 location = goa }
 	trade_company_governance = { tag = RIC level = 1 location = bombay }
 	trade_company_garrison = { tag = RIC level = 1 location = bombay }
-	trade_company_governance = { tag = RIC level = 1 location = goa }
-	trade_company_garrison = { tag = RIC level = 1 location = goa }
-	overseas_trading_post = { tag = RIC level = 2 location = kochi }
-	overseas_trading_post = { tag = RIC level = 1 location = manora }
+	trade_company_harbor = { tag = RIC level = 1 location = kozhikode }
+	trade_office = { tag = RIC level = 4 location = kozhikode }
+	trade_company_governance = { tag = RIC level = 1 location = kozhikode }
+	trade_company_garrison = { tag = RIC level = 1 location = kozhikode }
+	trade_company_harbor = { tag = RIC level = 1 location = kayal }
+	trade_office = { tag = RIC level = 4 location = kayal }
+	trade_company_governance = { tag = RIC level = 1 location = kayal }
+	trade_company_garrison = { tag = RIC level = 1 location = kayal }
+	overseas_trading_post = { tag = RIC level = 4 location = kochi }
+	overseas_trading_post = { tag = RIC level = 2 location = manora }
+	overseas_trading_post = { tag = RIC level = 2 location = thiruvananthapuram }
+	overseas_trading_post = { tag = RIC level = 2 location = sur }
 
+
+	fishing_village = { tag = RIC level = 2 location = hadibu }
+	fishing_village = { tag = RIC level = 2 location = qulensya }
+	fishing_village = { tag = RIC level = 4 location = madgaon }
 	#Resources
-	trade_company_local_venture = { tag = RIC level = 1 location = bayramic }
-	trade_company_local_venture = { tag = RIC level = 1 location = marmaris }
-	trade_company_local_venture = { tag = RIC level = 1 location = iskenderun }
-	trade_company_local_venture = { tag = RIC level = 1 location = sporades }
+	#trade_company_local_venture = { tag = RIC level = 1 location = bayramic }
+	#trade_company_local_venture = { tag = RIC level = 1 location = marmaris }
+	#trade_company_local_venture = { tag = RIC level = 1 location = iskenderun }
+	#trade_company_local_venture = { tag = RIC level = 1 location = sporades }
 
 }

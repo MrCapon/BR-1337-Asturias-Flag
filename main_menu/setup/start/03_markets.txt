@@ -83,6 +83,7 @@ market_manager = {
 	add_market = chittagong
 	add_market = varanasi
 	add_market = kataka
+	add_market = goa
 	
 	# East Asia
 	add_market = dadu

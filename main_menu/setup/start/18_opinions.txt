@@ -135,4 +135,9 @@ diplomacy_manager = {
 	opinion = { first = DUL second = OHS type = border_aggression }
 	opinion = { first = OHS second = DUL type = opinion_threatens_conquest }
 	opinion = { first = DUL second = OHS type = opinion_threatens_conquest }
+
+	opinion = { first = RIC second = VIJ type = opinion_good_relations }
+	opinion = { first = VIJ second = RIC type = opinion_good_relations }
+	opinion = { first = RIC second = DLH type = opinion_good_relations }
+	opinion = { first = DLH second = RIC type = opinion_good_relations }
 }

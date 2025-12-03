@@ -317,23 +317,27 @@ diplomacy_manager = {
     dependency = { first = BYZ second = DYR subject_type = tributary } # Autonomia
 
     #dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia
-    dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia tax rights sold off to Venice
+    #dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia tax rights sold off to Venice
 
 
 
     scripted_mutual = { first = SER second = BYZ type = alliance }
-    scripted_mutual = { first = RIC second = BYZ type = food_access }
-    scripted_mutual = { first = RIC second = BYZ type = sound_toll_exemption }
-    scripted_mutual = { first = RIC second = BYZ type = fleet_basing_rights }
-    scripted_mutual = { first = BYZ second = RIC type = military_sponsorship }
+    #scripted_mutual = { first = RIC second = BYZ type = food_access }
+    #scripted_mutual = { first = RIC second = BYZ type = sound_toll_exemption }
+    #scripted_mutual = { first = RIC second = BYZ type = fleet_basing_rights }
+    #scripted_mutual = { first = BYZ second = RIC type = military_sponsorship }
     scripted_mutual = { first = DLH second = RIC type = trade_access }
-    scripted_mutual = { first = GOA second = RIC type = trade_access }
+    scripted_mutual = { first = VIJ second = RIC type = trade_access }
     scripted_mutual = { first = ETH second = RIC type = trade_access }
     scripted_mutual = { first = MAM second = RIC type = trade_access }
     #scripted_oneway = { first = BYZ second = FEO type = divert_trade }
     #scripted_oneway = { first = BYZ second = THE type = divert_trade }
     #scripted_oneway = { first = BYZ second = ATH type = divert_trade }
     #scripted_oneway = { first = BYZ second = AOI type = divert_trade }
+
+    scripted_mutual = { first = VIJ second = RIC type = alliance } #DON'T KILL ME PLZ
+    scripted_oneway = { first = VIJ second = RIC type = guarantee }
+    scripted_oneway = { first = DLH second = RIC type = guarantee }
 
     #Anatolia
     #dependency = { first = TRE second = PAF subject_type = vassal } #BR ADDED
@@ -347,6 +351,7 @@ diplomacy_manager = {
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
     scripted_mutual = { first = GSO second = GEO type = alliance }
+    scripted_oneway = { first = GEO second = GSO type = guarantee }
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
