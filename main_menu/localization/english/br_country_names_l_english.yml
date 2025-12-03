@@ -122,10 +122,10 @@
  
  ####---------- Tsenacommacah ----------####
  ELY_f: "$ELY$"
- E1Y: "Chesapeia" # AI generated, Hellenized version of Chesapeake—a hybrid identity tribe
- E1Y_ADJ: "Chesapeian"
- E2Y: "Wampanokhorion" # AI generated, syncretic fusion of “Wampanoag-ish” + Greek settlement suffix
- E2Y_ADJ: "Wampanokhorine"
+ E1Y: "Elysiara"
+ E1Y_ADJ: "Elysiara"
+ E2Y: "Elystria"
+ E2Y_ADJ: "Elystria"
  E3Y: "Patamokron"
  E3Y_ADJ: "Patamokronean" # AI generated, blends Patuxent/Patomak roots with Greek ending
  E4Y: "Tawaquessa Polis"
