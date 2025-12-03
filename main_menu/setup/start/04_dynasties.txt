@@ -895,7 +895,7 @@ dynasty_manager = {
 
 	lambron_dynasty = {
 		name = { name = lambron_dynasty }
-		home = sis
+		home = ani
 	}
 
 	terter_dynasty = {
@@ -5311,7 +5311,7 @@ dynasty_manager = {
 
 	ibelin_armenia_dynasty = {
 		name = { name = ibelin_dynasty }
-		home = sis
+		home = van
 		male_names = {
 			name_leon name_oshin name_theodore
 		}
@@ -6873,7 +6873,7 @@ dynasty_manager = {
 
 	hetumids_dynasty = { #https://en.wikipedia.org/wiki/Hethumids
 		name = { name = hetumid_dynasty }
-		home = molevon
+		home = ani
 
 		male_names = {
 			name_constantine name_godfrey name_hethum name_leon name_oshin
@@ -6885,7 +6885,7 @@ dynasty_manager = {
 
 	roupenid_dynasty = { #Extinct. https://en.wikipedia.org/wiki/Rubenids
 		name = { name = roupenid_dynasty }
-		home = sis
+		home = malatya
 	}
 
 	inanjids_dynasty = {
