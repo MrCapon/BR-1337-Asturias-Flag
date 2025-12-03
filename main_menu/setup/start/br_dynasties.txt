@@ -5,8 +5,13 @@ dynasty_manager = {
 	#NSE
 	siggurson_dynasty = {
 		name = { name = siggurson_dynasty }
-		dynasty_name_type = location
 		home = oslo
+	}
+
+	#NSE
+	abbasid_dynasty = {
+		name = { name = abbasid_dynasty }
+		home = baghdad
 	}
 
 	#ERE
