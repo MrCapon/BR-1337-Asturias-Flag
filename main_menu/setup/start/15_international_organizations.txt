@@ -570,7 +570,7 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ICO AON RIC
+			ICO AON
 			MOE THS	KAP PAF	THE ATH ACH
 		}
 		variables = { 
@@ -766,10 +766,10 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 1122.1.1
-		members = { }
+		members = { RIC }
 		variables = { 
 			religion = religion:nestorianism
-			seat = location:kollam
+			seat = location:goa #kollam
 		}
 		laws = {
 			composite_nature

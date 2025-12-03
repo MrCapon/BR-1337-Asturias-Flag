@@ -429,7 +429,7 @@ RIC = { #BR addition
 	color = rgb { 175 38 65 }
 
 	culture_definition = indikes_greek_culture
-	religion_definition = orthodox
+	religion_definition = nestorianism
 
 	description_category = administrative
 	difficulty = 3
@@ -439,7 +439,7 @@ INK = { #BR addition
 	color = rgb { 175 75 95 }
 
 	culture_definition = indikes_greek_culture
-	religion_definition = orthodox
+	religion_definition = nestorianism
 }
 
 #Anatolia

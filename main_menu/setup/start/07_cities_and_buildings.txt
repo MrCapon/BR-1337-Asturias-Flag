@@ -4622,46 +4622,46 @@ building_manager = {
 	sand_pit = { tag = FLO level = 1 location = florence }
 	clay_pit = { tag = MLO level = 1 location = florence }
 
-	market_village = { tag = VEN level = 1 location = corfu }
-	fishing_village = { tag = VEN level = 1 location = corfu }
-	market_village = { tag = CEP level = 1 location = cephalonia }
-	fishing_village = { tag = CEP level = 1 location = cephalonia }
+	market_village = { tag = VEN level = 2 location = corfu }
+	fishing_village = { tag = VEN level = 2 location = corfu }
+	market_village = { tag = CEP level = 2 location = cephalonia }
+	fishing_village = { tag = CEP level = 2 location = cephalonia }
 	market_village = { tag = VEN level = 1 location = modon }
-	fishing_village = { tag = VEN level = 1 location = modon }
+	fishing_village = { tag = VEN level = 2 location = modon }
 	market_village = { tag = VEN level = 1 location = kythira }
-	fishing_village = { tag = VEN level = 1 location = kythira }
+	fishing_village = { tag = VEN level = 2 location = kythira }
 	market_village = { tag = VEN level = 1 location = andros }
-	fishing_village = { tag = VEN level = 1 location = andros }
+	fishing_village = { tag = VEN level = 2 location = andros }
 	market_village = { tag = VEN level = 1 location = karpathos }
-	fishing_village = { tag = VEN level = 1 location = karpathos }
+	fishing_village = { tag = VEN level = 2 location = karpathos }
 	market_village = { tag = GEN level = 1 location = samos }
-	fishing_village = { tag = GEN level = 1 location = samos }
+	fishing_village = { tag = GEN level = 2 location = samos }
 	market_village = { tag = GEN level = 1 location = chios }
-	fishing_village = { tag = GEN level = 1 location = chios }
+	fishing_village = { tag = GEN level = 2 location = chios }
 	market_village = { tag = GEN level = 1 location = foca }
-	fishing_village = { tag = GEN level = 1 location = foca }
+	fishing_village = { tag = GEN level = 2 location = foca }
 	market_village = { tag = GEN level = 1 location = amasra }
-	fishing_village = { tag = GEN level = 1 location = amasra }
+	fishing_village = { tag = GEN level = 2 location = amasra }
 	market_village = { tag = CRT level = 1 location = chania }
 	market_village = { tag = FAE level = 1 location = faenza }
 	market_village = { tag = GUB level = 1 location = gubbio }
 	market_village = { tag = CDC level = 1 location = cittacastello }
-	market_village = { tag = VEN level = 1 location = slano }
-	fishing_village = { tag = VEN level = 1 location = slano }
+	market_village = { tag = VEN level = 2 location = slano }
+	fishing_village = { tag = VEN level = 2 location = slano }
 	#market_village = { tag = VEN level = 1 location = split }
 	#fishing_village = { tag = VEN level = 1 location = split }
 	market_village = { tag = VEN level = 1 location = brac }
-	fishing_village = { tag = VEN level = 1 location = brac }
+	fishing_village = { tag = VEN level = 2 location = brac }
 	market_village = { tag = VEN level = 2 location = zadar }
-	fishing_village = { tag = VEN level = 1 location = zadar }
+	fishing_village = { tag = VEN level = 2 location = zadar }
 	market_village = { tag = VEN level = 2 location = pag }
-	fishing_village = { tag = VEN level = 1 location = pag }
+	fishing_village = { tag = VEN level = 2 location = pag }
 	market_village = { tag = VEN level = 3 location = pola }
-	fishing_village = { tag = VEN level = 1 location = pola }
+	fishing_village = { tag = VEN level = 2 location = pola }
 	market_village = { tag = VEN level = 2 location = rovinj }
-	fishing_village = { tag = VEN level = 1 location = rovinj }
+	fishing_village = { tag = VEN level = 2 location = rovinj }
 	market_village = { tag = VEN level = 4 location = mestre }
-	fishing_village = { tag = VEN level = 1 location = mestre }
+	fishing_village = { tag = VEN level = 2 location = mestre }
 	market_village = { tag = CHX level = 1 location = chieri }
 	market_village = { tag = SAL level = 1 location = saluzzo }
 	market_village = { tag = CNV level = 2 location = ivrea }
@@ -4678,24 +4678,24 @@ building_manager = {
 	market_village = { tag = NAP level = 1 location = campagna }
 	market_village = { tag = CEP level = 1 location = leukas }
 	market_village = { tag = GEN level = 1 location = alghero }
-	fishing_village = { tag = GEN level = 1 location = alghero }
+	fishing_village = { tag = GEN level = 2 location = alghero }
 	market_village = { tag = GEN level = 1 location = bastia }
-	fishing_village = { tag = GEN level = 1 location = bastia }
+	fishing_village = { tag = GEN level = 2 location = bastia }
 	market_village = { tag = GEN level = 1 location = sartene }
-	fishing_village = { tag = GEN level = 1 location = sartene }
+	fishing_village = { tag = GEN level = 2 location = sartene }
 	market_village = { tag = GEN level = 1 location = lavagna }
-	fishing_village = { tag = GEN level = 1 location = lavagna }
+	fishing_village = { tag = GEN level = 2 location = lavagna }
 	market_village = { tag = GEN level = 1 location = sarzana }
-	fishing_village = { tag = GEN level = 1 location = sarzana }
+	fishing_village = { tag = GEN level = 2 location = sarzana }
 	market_village = { tag = MSP level = 1 location = fosdinovo }
 	market_village = { tag = GEN level = 1 location = albenga }
-	fishing_village = { tag = GEN level = 1 location = albenga }
+	fishing_village = { tag = GEN level = 2 location = albenga }
 	market_village = { tag = GEN level = 1 location = ventimiglia }
-	fishing_village = { tag = GEN level = 1 location = ventimiglia }
+	fishing_village = { tag = GEN level = 2 location = ventimiglia }
 	market_village = { tag = GEN level = 1 location = cairo_montenotte }
-	fishing_village = { tag = GEN level = 1 location = cairo_montenotte }
+	fishing_village = { tag = GEN level = 2 location = cairo_montenotte }
 	market_village = { tag = GEN level = 1 location = terranova_pausania }
-	fishing_village = { tag = GEN level = 1 location = terranova_pausania }
+	fishing_village = { tag = GEN level = 2 location = terranova_pausania }
 
 
 #BR added estate buildings

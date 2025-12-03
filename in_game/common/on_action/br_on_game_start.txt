@@ -474,13 +474,69 @@
 
 		#BR added Trade Company
 		every_country = {
-            limit = { is_subject_type = trade_company }
+			limit = { has_reform = government_reform:merchant_republic }
 
             if = {
                 limit = { NOT = { has_advance = trade_companies_advance } }
                 research_advance = advance_type:trade_companies_advance
             }
         }
+		every_country = {
+			limit = { has_reform = government_reform:banking_country }
+
+            if = {
+                limit = { NOT = { has_advance = banking_advance } }
+                research_advance = advance_type:banking_advance
+            }
+        }
+		c:RIC = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_early_carrack_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:unlock_men_at_arms_advance
+			research_advance = advance_type:unlock_crossbowmen_advance
+		}
+		c:VEN = {
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+		c:GEN = {
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+		c:PIS = {
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+
+	#	c:E1Y = {
+	#		research_advance = advance_type:colonial_tradition
+	#		research_advance = advance_type:colonial_heritage
+	#		research_advance = advance_type:founding_fathers
+	#		research_advance = advance_type:colonial_militia
+	#		research_advance = advance_type:new_frontiers
+	#	}
+	#	c:E2Y = {
+	#		research_advance = advance_type:colonial_tradition
+	#		research_advance = advance_type:colonial_heritage
+	#		research_advance = advance_type:founding_fathers
+	#		research_advance = advance_type:colonial_militia
+	#		research_advance = advance_type:new_frontiers
+	#	}
+
+
 
 		#catholics
 		every_country = {
