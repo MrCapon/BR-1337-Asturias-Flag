@@ -1,6 +1,6 @@
 diplomacy_manager = {
 	# Anglia
-	dependency = { first = NOR second = AGL subject_type = dominion }
+	dependency = { first = NOR second = AGL subject_type = fiefdom } #Domionions replace the primary culture fiefdom is kinda close but doesn't change culture
 	dependency = { first = AGL second = EAG subject_type = vassal }
 	dependency = { first = AGL second = LSY subject_type = vassal }
 	dependency = { first = AGL second = NOL subject_type = vassal }
@@ -40,10 +40,10 @@ diplomacy_manager = {
 	
 	# Scandinavia
 	dependency = { first = NOR second = SKE subject_type = fiefdom }
-	dependency = { first = NOR second = ICE subject_type = dominion }
-	dependency = { first = NOR second = GRL subject_type = dominion }
+	dependency = { first = NOR second = ICE subject_type = fiefdom }
+	dependency = { first = NOR second = GRL subject_type = fiefdom }
 	dependency = { first = NOR second = ORK subject_type = vassal }
-	dependency = { first = NOR second = DAN subject_type = dominion }
+	dependency = { first = NOR second = DAN subject_type = fiefdom }
 	dependency = { first = DAN second = ZEA subject_type = vassal }
     dependency = { first = NOR second = LOI subject_type = vassal }
 	dependency = { first = NOR second = MNN subject_type = vassal }
@@ -424,7 +424,7 @@ diplomacy_manager = {
 
     #Balkans:
     scripted_mutual = { first = HUN second = POL type = alliance }
-    dependency = { first = HUN second = CRO subject_type = dominion }
+    dependency = { first = HUN second = CRO subject_type = fiefdom }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
     dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
     scripted_mutual = { first = EPI second = DYR type = alliance }
