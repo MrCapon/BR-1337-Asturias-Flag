@@ -50475,6 +50475,7 @@ countries = {
 			
 			capital = baghdad
 			country_rank = rank_kingdom	#Caliphate 
+			dynasty = abbasid_dynasty
 			tolerated_cultures = {
 				levantine_culture
 			}
