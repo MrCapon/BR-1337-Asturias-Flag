@@ -5196,12 +5196,12 @@ building_manager = {
 	trade_office = { tag = VEN level = 1 location = ismail }
 	trade_office = { tag = VEN level = 1 location = tana }	
 	trade_office = { tag = VEN level = 2 location = antioch }
-	trade_office = { tag = VEN level = 2 location = acre }
-	trade_office = { tag = VEN level = 4 location = alexandria }
+	trade_office = { tag = VEN level = 3 location = acre }
+	trade_office = { tag = VEN level = 5 location = alexandria }
 	trade_office = { tag = VEN level = 1 location = mahdia }
 	trade_office = { tag = VEN level = 1 location = tunis }
 	trade_office = { tag = VEN level = 2 location = athens }
-	trade_office = { tag = VEN level = 2 location = durres }
+	trade_office = { tag = VEN level = 3 location = durres }
 	trade_office = { tag = VEN level = 1 location = kalamata }
 	trade_office = { tag = VEN level = 2 location = thessaloniki }
 	trade_office = { tag = VEN level = 2 location = gallipoli }
@@ -5210,7 +5210,6 @@ building_manager = {
 	trade_office = { tag = VEN level = 2 location = candia }
 	trade_office = { tag = VEN level = 1 location = tarsus }
 	trade_office = { tag = VEN level = 1 location = ancona }
-	trade_office = { tag = VEN level = 1 location = trieste }
 	trade_office = { tag = VEN level = 1 location = manfredonia }
 	trade_office = { tag = VEN level = 1 location = bari }
 	trade_office = { tag = VEN level = 1 location = rodos }
@@ -5234,6 +5233,14 @@ building_manager = {
 	fondaco = { tag = VEN level = 2 location = larnaca }
 	fondaco = { tag = VEN level = 2 location = antioch }
 	fondaco = { tag = VEN level = 2 location = alexandria }
+	trade_office = { tag = VEN level = 2 location = vienna }
+	trade_office = { tag = VEN level = 2 location = munich }
+	trade_office = { tag = VEN level = 2 location = prague }
+	trade_office = { tag = VEN level = 2 location = pest }
+	trade_office = { tag = VEN level = 2 location = zagreb }
+	trade_office = { tag = VEN level = 2 location = belgrad }
+	trade_office = { tag = VEN level = 2 location = ravenna }
+	overseas_trading_post = { tag = VEN level = 1 location = zenica }
 
 	#ADU Trade
 	trade_office = { tag = ADU level = 1 location = tunis }
