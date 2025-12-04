@@ -350,7 +350,7 @@ diplomacy_manager = {
     dependency = { first = ARM second = VAN subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
-    dependency = { first = BYZ second = SGO subject_type = march }
+    dependency = { first = GEO second = SGO subject_type = march }
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
@@ -825,4 +825,7 @@ diplomacy_manager = {
     dependency = { first = SHN second = SOU subject_type = vassal }
     scripted_mutual = { first = JAP second = NTC type = alliance }
     scripted_oneway = { first = JAP second = NTC type = guarantee }
+
+    #India
+    dependency = { first = VIJ second = RIC subject_type = tributary }
 }
