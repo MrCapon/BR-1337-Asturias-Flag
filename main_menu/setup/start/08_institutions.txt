@@ -10341,6 +10341,7 @@ locations = {
 	venice = {
 		feudalism = yes
 		legalism = yes
+		meritocracy = yes #BR EDIT
 	}
 	mestre = {
 		feudalism = yes
@@ -23242,6 +23243,7 @@ locations = {
 	baghdad = {
 		feudalism = yes
 		legalism = yes
+		meritocracy = yes #BR EDIT
 	}
 	badra = {
 		feudalism = yes
@@ -46521,6 +46523,7 @@ locations = {
 	goa = {
 		feudalism = yes
 		legalism = yes
+		meritocracy = yes #BR EDIT
 	}
 	madgaon = {
 		feudalism = yes
