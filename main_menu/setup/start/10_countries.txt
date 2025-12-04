@@ -18105,6 +18105,7 @@ countries = {
 			
 			capital = malta
 			dynasty = villeneuve_dynasty
+			country_rank = rank_duchy
 		}
 		
 		NEG = { #Negroponte https://en.wikipedia.org/wiki/Triarchy_of_Negroponte
