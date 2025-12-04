@@ -184,6 +184,7 @@ tribal_war_camp = {
 
 	modifier = {
 		local_levy_size_modifier = 0.1
+		manpower_to_building_owner = 0.005 #br added
 	}
 	
 	
@@ -218,6 +219,9 @@ tribal_hunting_lodge = {
 	
 	unique_production_methods = {
 		tribal_hunting_lodge_input = {
+			produced = wild_game #br added
+			
+			output = 0.25 #br added
 			weaponry = 0.1
 			category = building_maintenance
 		}
@@ -225,7 +229,7 @@ tribal_hunting_lodge = {
 
 	modifier = {
 		local_tribesmen_food_consumption = -0.2
-		gold_to_building_owner = 0.1
+		#gold_to_building_owner = 0.1
 	}
 	
 	
