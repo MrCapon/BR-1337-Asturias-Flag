@@ -297,7 +297,6 @@ lowlands_city = {
 	castle = 1
 	tannery = 1
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
 	nobles_recruitment_center = 1 #BR added estate building
 }
 
@@ -758,7 +757,6 @@ maghreb_city = {
 	funduq = 1
 	marketplace = 3 #BR EDIT
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
 }
 
 egyptian_city = {
@@ -798,7 +796,7 @@ anatolian_city = {
 	tannery = 1
 	nobles_recruitment_center = 1 #BR added estate building
 	nobility_fortifications = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
+	artisan_guilds = 1 #BR added estate building
 
 }
 
@@ -934,7 +932,6 @@ levant_town = {
 	castle = 1
 	tannery = 1
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
 	parish_church = 1 #BR added estate building
 }
 
@@ -957,7 +954,6 @@ levant_city = {
 	tannery = 1
 	slave_market = 1
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
 	local_schools = 1 #BR added estate building
 }
 
@@ -979,7 +975,7 @@ central_asian_city = {
 	castle = 1
 	tannery = 1
 	slave_market = 1
-	merchants_guild = 1 #BR added estate building
+	artisan_guilds = 1 #BR added estate building
 }
 
 central_asian_town = {
@@ -1038,7 +1034,6 @@ italian_town = {
 	stockade = 1 #BR Added
 	tannery = 1 #BR added
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
 	parish_church = 1 #BR added estate building
 }
 
@@ -1080,8 +1075,7 @@ italian_city = {
 	furniture_guild = 2 #BR increased
 	dyes_guild = 1
 	marketplace = 6 #BR EDIT
-	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 1 #BR added estate building
+	artisan_guilds = 2 #BR added estate building
 	local_schools = 1 #BR added estate building
 }
 
