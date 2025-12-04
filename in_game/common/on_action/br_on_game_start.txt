@@ -489,33 +489,37 @@
                 research_advance = advance_type:banking_advance
             }
         }
+		every_country = {
+			limit = {
+				capital ?= {
+					region = region:italy_region
+				}
+			}
+			research_advance = advance_type:unlock_crossbowmen_advance
+			research_advance = advance_type:dock_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_hulk_advance
+        }
 		c:RIC = {
 			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_m_galley_advance
 			research_advance = advance_type:unlock_early_carrack_advance
 			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:unlock_men_at_arms_advance
 			research_advance = advance_type:unlock_crossbowmen_advance
 		}
 		c:VEN = {
-			research_advance = advance_type:unlock_m_galley_advance
-			research_advance = advance_type:unlock_barque_advance
-			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 		}
 		c:GEN = {
-			research_advance = advance_type:unlock_m_galley_advance
-			research_advance = advance_type:unlock_barque_advance
-			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 		}
 		c:PIS = {
-			research_advance = advance_type:unlock_m_galley_advance
-			research_advance = advance_type:unlock_barque_advance
-			research_advance = advance_type:unlock_hulk_advance
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair

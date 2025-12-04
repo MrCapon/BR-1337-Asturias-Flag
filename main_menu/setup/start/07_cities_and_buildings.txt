@@ -4723,6 +4723,66 @@ building_manager = {
 	fishing_village = { tag = SGO level = 1 location = tuapse }
 
 	#Italy
+	library = { tag = RAV level = 1 location = ravenna }
+	paper_guild = { tag = RAV level = 2 location = ravenna }
+	scriptorium = { tag = RAV level = 3 location = ravenna }
+	cloth_guild = { tag = RAV level = 1 location = ravenna }
+	scriptorium = { tag = RAV level = 2 location = ravenna }
+	library = { tag = PAP level = 1 location = rome }
+	scriptorium = { tag = PAP level = 4 location = rome }
+	paper_guild = { tag = PAP level = 3 location = rome }
+	fine_cloth_guild = { tag = PAP level = 2 location = rome }
+	tannery = { tag = PAP level = 1 location = rome }
+	cloth_guild = { tag = PAP level = 4 location = rome }
+	jewelry_guild = { tag = PAP level = 1 location = rome }
+	library = { tag = VEN level = 1 location = venice }
+	scriptorium = { tag = VEN level = 2 location = venice }
+	paper_guild = { tag = VEN level = 3 location = venice }
+	fine_cloth_guild = { tag = VEN level = 5 location = venice }
+	naval_supplies_guild = { tag = VEN level = 5 location = venice }
+	cloth_guild = { tag = VEN level = 5 location = venice }
+	saltpeter_guild = { tag = VEN level = 1 location = venice }
+	distillers_guild = { tag = VEN level = 4 location = venice }
+	tools_guild = { tag = VEN level = 4 location = venice }
+	jewelry_guild = { tag = VEN level = 4 location = venice }
+	library = { tag = MLO level = 1 location = milano }
+	scriptorium = { tag = MLO level = 2 location = milano }
+	paper_guild = { tag = MLO level = 3 location = milano }
+	fine_cloth_guild = { tag = MLO level = 5 location = milano }
+	cloth_guild = { tag = MLO level = 6 location = milano }
+	tannery = { tag = MLO level = 4 location = milano }
+	distillers_guild = { tag = MLO level = 5 location = milano }
+	tools_guild = { tag = MLO level = 5 location = milano }
+	jewelry_guild = { tag = MLO level = 1 location = milano }
+	library = { tag = GEN level = 1 location = genoa }
+	scriptorium = { tag = GEN level = 2 location = genoa }
+	paper_guild = { tag = GEN level = 4 location = genoa }
+	fine_cloth_guild = { tag = GEN level = 4 location = genoa }
+	naval_supplies_guild = { tag = GEN level = 3 location = genoa }
+	cloth_guild = { tag = GEN level = 5 location = genoa }
+	saltpeter_guild = { tag = GEN level = 1 location = genoa }
+	jewelry_guild = { tag = GEN level = 4 location = genoa }
+	library = { tag = FLO level = 1 location = florence }
+	scriptorium = { tag = FLO level = 2 location = florence }
+	paper_guild = { tag = FLO level = 3 location = florence }
+	fine_cloth_guild = { tag = FLO level = 3 location = florence }
+	cloth_guild = { tag = FLO level = 5 location = florence }
+	tannery = { tag = FLO level = 2 location = florence }
+	distillers_guild = { tag = FLO level = 2 location = florence }
+	jewelry_guild = { tag = FLO level = 1 location = florence }
+	library = { tag = SIE level = 1 location = siena }
+	library = { tag = PIS level = 1 location = pisa }
+	library = { tag = PAV level = 1 location = pavia }
+	library = { tag = MLO level = 1 location = cremona }
+	library = { tag = PAR level = 1 location = parma }
+	library = { tag = MAN level = 1 location = mantova }
+	library = { tag = BLG level = 1 location = bologna }
+	library = { tag = FER level = 1 location = ferrara }
+	library = { tag = VER level = 1 location = brescia }
+	library = { tag = VER level = 1 location = verona }
+	library = { tag = PAD level = 1 location = padova }
+	library = { tag = LUC level = 1 location = lucca }
+
 	tar_kiln = { tag = VEN level = 1 location = pola }
 	tar_kiln = { tag = VEN level = 1 location = rovinj }
 	tar_kiln = { tag = VEN level = 1 location = slano }

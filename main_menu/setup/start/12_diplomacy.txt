@@ -176,6 +176,8 @@ diplomacy_manager = {
     dependency = { first = AQN second = COM subject_type = vassal }
     dependency = { first = AQN second = VNT subject_type = vassal }
     dependency = { first = AQN second = RCC subject_type = vassal }
+    dependency = { first = AQN second = MRC subject_type = vassal }
+    dependency = { first = AQN second = ANG subject_type = vassal }
 
     #Toulose
 	dependency = { first = TOU second = NRB subject_type = vassal }
@@ -236,6 +238,14 @@ diplomacy_manager = {
 	
 	dependency = { first = PAP second = FAE subject_type = vassal }
     dependency = { first = PAP second = SPL subject_type = vassal }
+    dependency = { first = PAP second = ASC subject_type = vassal }
+    dependency = { first = PAP second = CMR subject_type = vassal }
+    dependency = { first = PAP second = FRM subject_type = vassal }
+    dependency = { first = PAP second = URB subject_type = vassal }
+    dependency = { first = PAP second = ANC subject_type = vassal }
+    dependency = { first = PAP second = MTA subject_type = vassal }
+    dependency = { first = PAP second = PES subject_type = vassal }
+    scripted_mutual = { first = PAP second = BNV type = alliance }
 	
 	dependency = { first = SAV second = CEV subject_type = vassal }
 	dependency = { first = SAV second = AOS subject_type = fiefdom }
