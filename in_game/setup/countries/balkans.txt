@@ -278,7 +278,7 @@ MOE = {
 DYR = { #BR addition
 	color = rgb { 185 125 150 }
 
-	culture_definition = greek_culture
+	culture_definition = illyrikoi_greek_culture
 	religion_definition = orthodox
 }
 

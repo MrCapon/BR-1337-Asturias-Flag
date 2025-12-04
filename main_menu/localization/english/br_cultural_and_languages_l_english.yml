@@ -9,6 +9,7 @@
  photianoi: "Elysinói"
  indikes_greek_culture: "Indikēs"
  syrenikoi_greek_culture: "Syrēnikoi"
+ illyrikoi_greek_culture: "Illyrikoi"
  arab_sicilian: "Sīqilliyyūn"
  anglo_norse_culture: "Anglo-Norse"
  
@@ -20,9 +21,12 @@
  griko_dialect: "Griko Dialect"
  romanyoti_dialect: "Romanyoti Dialect"
  elysian_greek_dialect: "Elysian Dialect"
- aegyptian_dialect: "Aegýptian Dialect"
+ aegyptian_dialect: "Aegýptian Dialect" #Maybe Alexandrian?
  african_dialect: "Afrikanós Dialect"
- syrenikoi_dialect: "Syrēnikoi Dialect"
+ syrenikoi_dialect: "Syrēnikoi Dialect" #Maybe Antiochian
+ indikes_dialect: "Indikes Dialect"
+ illyrikoi_dialect: "Dyrrachitinē Dialect"
+ 
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"

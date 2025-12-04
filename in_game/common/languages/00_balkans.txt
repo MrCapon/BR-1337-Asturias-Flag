@@ -134,6 +134,8 @@
 		aegyptian_dialect = {}
 		african_dialect = {}
 		syrenikoi_dialect = {}
+		indikes_dialect = {}
+		illyrikoi_dialect = {}
 	}
 }
 
