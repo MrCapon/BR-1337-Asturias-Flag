@@ -8758,7 +8758,7 @@ countries = {
 			}
 			
 			own_control_integrated = {
-				buzet rijeka
+				buzet
 			}
 			
 			our_cores_conquered_by_others = {
@@ -11879,6 +11879,7 @@ countries = {
 			own_control_core = {
 				chioggia venice mestre
 				pola rovinj pag zadar split brac slano
+				pazin rijeka
 			}
 			
 			own_control_integrated = {
@@ -11992,9 +11993,9 @@ countries = {
 			#https://www.researchgate.net/publication/269643384_The_Venetian_Money_Market_Banks_Panics_and_the_Public_Debt_1200-1500
 			#https://www.jstor.org/stable/1882461
 			currency_data = {
-				gold = 3000
-				prestige = 50
-				stability = 50
+				gold = 3500
+				prestige = 75
+				stability = 75
 			}
 		}
 		
@@ -13213,7 +13214,7 @@ countries = {
 		
 		GOR = {
 			own_control_core = {
-				gorizia pazin
+				gorizia
 				lienz bruneck hermagor winklern
 				metlika #County of Möttling
 			}
@@ -13395,7 +13396,12 @@ countries = {
 				wallachian
 			}
 
-			
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1375.1.1
+				size = 0.25
+			}
 			liturgical_language = church_slavonic_language
 			
 			capital = tarnovo
@@ -14256,11 +14262,13 @@ countries = {
 			government = {
 				type = monarchy
                 heir_selection = salic_law
-				ruler = fra_jean_ii_valois
-				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
-				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
-				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
-
+				ruler = ale_charles_ii_valois
+				
+				ruler_term = { character = ale_pierre_i_capet start_date = 1268.3.1 end_date = 1283.4.6 regnal_number = 1 }
+				
+				ruler_term = { character = fra_charles_valois start_date = 1291.1.1 end_date = 1325.12.16 regnal_number = 1 }
+				ruler_term = { character = ale_charles_ii_valois start_date = 1325.12.16 regnal_number = 2 }
+				
                 centralization_vs_decentralization = 85
                 aristocracy_vs_plutocracy = -75
                 serfdom_vs_free_subjects = -80
@@ -16146,7 +16154,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = random
+				ruler = fra_jean_ii_valois
 				
 				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1129.1.1 end_date = 1151.9.7 regnal_number = 2 }
 				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 1 }
@@ -16165,6 +16173,10 @@ countries = {
 				ruler_term = {
 					character = fra_margaret_anjou start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 1
 					character = fra_charles_valois start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 3 # Until 1299 as Marital Co-Ruler
+				
+				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
+				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
+				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
 				}
 				
 				
@@ -17650,7 +17662,7 @@ countries = {
 				individualism_vs_communalism = 30
 				aristocracy_vs_plutocracy = -70
 				serfdom_vs_free_subjects = -60
-				land_vs_naval = -70
+				land_vs_naval = -100
 				belligerent_vs_conciliatory = 20
 				outward_vs_inward = -20
 				mercantilism_vs_free_trade = -70
@@ -17661,6 +17673,16 @@ countries = {
 			#dynasty = anjou_hungary_dynasty
 			country_rank = rank_kingdom
 			court_language = classical_latin_dialect
+
+			currency_data = {
+				army_tradition = 50
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1375.1.1
+				size = 0.25
+			}
 			
 			tolerated_cultures = {
 				croatian
@@ -32072,9 +32094,9 @@ countries = {
 			court_language = persian_language
 			currency_data = {
 				gold = 1000
-				stability = 75
+				stability = 100
 				prestige = 50
-				army_tradition = 75
+				army_tradition = 100
 			}
 			accepted_cultures = { turkoman_culture }
 			tolerated_cultures = {
@@ -32084,7 +32106,7 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1375.1.1
+				date = 1395.1.1
 				size = 1.5
 			}
 			religious_school = maturidi_school #Widespread among the Turks together with Hanafi
