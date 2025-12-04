@@ -4539,14 +4539,68 @@ building_manager = {
 	tannery = { tag = GLH level = 2 location =  sarai_al_jadid }
 	tannery = { tag = GLH level = 1 location =  astrakhan }
 	fine_cloth_guild = { tag = GLH level = 1 location =  astrakhan }
-	tribal_hunting_lodge = { tag = GLH level = 1 location =  yenotayevka }
-	tribal_market_villages = { tag = GLH level = 1 location =  yenotayevka }
-	tribal_hunting_lodge = { tag = GLH level = 1 location =  zamyany }
-	tribal_market_villages = { tag = GLH level = 1 location =  zamyany }
 	tar_kiln = { tag = GLH level = 1 location =  chimgi_tura }
 	jewelry_guild = { tag = GLH level = 1 location =  chimgi_tura }
 	tar_kiln = { tag = GLH level = 1 location =  umanske }
 	charcoal_maker = { tag = GLH level = 1 location = bykovo }
+
+	#Tribal Buildings
+	tribal_war_camp = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_market_villages = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  zamyany }
+	tribal_war_camp = { tag = GLH level = 1 location =  zamyany }
+	tribal_market_villages = { tag = GLH level = 1 location =  zamyany }
+	tribal_war_camp = { tag = GLH level = 1 location =  malye_derbety }
+	tribal_market_villages = { tag = GLH level = 1 location =  malye_derbety }
+	tribal_war_camp = { tag = GLH level = 1 location =  tarki }
+	tribal_market_villages = { tag = GLH level = 1 location =  tarki }
+	tribal_war_camp = { tag = GLH level = 1 location =  terekli_mekteb }
+	tribal_market_villages = { tag = GLH level = 1 location =  terekli_mekteb }
+	tribal_war_camp = { tag = GLH level = 1 location =  nazran }
+	tribal_market_villages = { tag = GLH level = 1 location =  nazran }
+	tribal_war_camp = { tag = GLH level = 1 location =  majar }
+	tribal_market_villages = { tag = GLH level = 1 location =  majar }
+	tribal_war_camp = { tag = GLH level = 1 location =  cheplak }
+	tribal_market_villages = { tag = GLH level = 1 location =  cheplak }
+	tribal_war_camp = { tag = GLH level = 1 location =  bykovo }
+	tribal_market_villages = { tag = GLH level = 1 location =  bykovo }
+	tribal_war_camp = { tag = GLH level = 1 location =  zhanybek }
+	tribal_market_villages = { tag = GLH level = 1 location =  zhanybek }
+	tribal_war_camp = { tag = GLH level = 1 location =  ukek }
+	tribal_market_villages = { tag = GLH level = 1 location =  ukek }
+	tribal_war_camp = { tag = GLH level = 1 location =  chembar }
+	tribal_market_villages = { tag = GLH level = 1 location =  chembar }
+	tribal_war_camp = { tag = GLH level = 1 location =  insar }
+	tribal_market_villages = { tag = GLH level = 1 location =  insar }
+	tribal_war_camp = { tag = GLH level = 1 location =  karsun }
+	tribal_market_villages = { tag = GLH level = 1 location =  karsun }
+	tribal_war_camp = { tag = GLH level = 1 location =  simbirsk }
+	tribal_market_villages = { tag = GLH level = 1 location =  simbirsk }
+	tribal_war_camp = { tag = GLH level = 1 location =  koshki }
+	tribal_market_villages = { tag = GLH level = 1 location =  koshki }
+	tribal_war_camp = { tag = GLH level = 1 location =  bolghar }
+	tribal_market_villages = { tag = GLH level = 1 location =  bolghar }
+
+	tribal_war_camp = { tag = GLH level = 1 location =  iagorlic }
+	tribal_market_villages = { tag = GLH level = 1 location =  iagorlic }
+	tribal_war_camp = { tag = GLH level = 1 location =  drahushiv }
+	tribal_market_villages = { tag = GLH level = 1 location =  drahushiv }
+	tribal_war_camp = { tag = GLH level = 1 location =  solkhat }
+	tribal_market_villages = { tag = GLH level = 1 location =  solkhat }
+	tribal_war_camp = { tag = GLH level = 1 location =  or_qapi }
+	tribal_market_villages = { tag = GLH level = 1 location =  or_qapi }
+	tribal_war_camp = { tag = GLH level = 1 location =  tokmak }
+	tribal_market_villages = { tag = GLH level = 1 location =  tokmak }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  aqmecit_prybuzhzhya }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  yaransk }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  karsun }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  uyskoye }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  kapova_pesera }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  kurtamysh }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  zainsk }
+	tribal_hunting_lodge = { tag = GLH level = 1 location =  bogatye_saby }
+
 
 
 #Villages
