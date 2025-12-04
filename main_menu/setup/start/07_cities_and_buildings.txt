@@ -2208,6 +2208,10 @@ building_manager = {
 	cathedral	= { tag = MAM level = 1	location = jerusalem }
 	orthodox_monastery	= { tag = AOI level = 1	location = antioch }
 	orthodox_monastery	= { tag = MAM level = 1	location = jerusalem }
+	orthodox_monastery = { tag = MAM level = 1 location =  saint_katrine }
+	local_shrine = { tag = MAM level = 1 location =  saint_katrine }
+	parish_church = { tag = MAM level = 1 location =  saint_katrine }
+	local_shrine = { tag = MAM level = 1 location =  alexandria }
 
 	#missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
 
