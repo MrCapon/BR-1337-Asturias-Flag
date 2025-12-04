@@ -16079,21 +16079,20 @@ countries = {
                     feudal_de_jure_law = by_tradition
                     legal_code_law = civil_law_policy
                 }
-                # ruler = eng_edward_iii    #BR edit
-
-                ruler_term = { character = fra_louis_vii_capet start_date = 1137.7.25 end_date = 1152.3.21 regnal_number = 1 } # As Marital Co-Ruler
-                ruler_term = { character = eng_henry_ii_curtmantle start_date = 1152.3.21 end_date = 1189.7.6 regnal_number = 1 } # As Marital Co-Ruler
-
-                ruler_term = { character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1196.1.1 regnal_number = 1 }
-
-                ruler_term = { character = ogk_otto_iv_welf start_date = 1196.1.1 end_date = 1198.6.9 regnal_number = 2 }
-
-                ruler_term = { character = eng_richard_i_lionheart start_date = 1198.6.9 end_date = 1199.4.6 regnal_number = 1 } # Restored
-                ruler_term = { character = eng_john_lackland start_date = 1199.5.27 end_date = 1216.10.19 regnal_number = 1 }
-                ruler_term = { character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 2 }
-                ruler_term = { character = eng_edward_i start_date = 1272.11.20 end_date = 1306.4.7 regnal_number = 1 }
-                ruler_term = { character = eng_edward_ii start_date = 1306.4.7 end_date = 1325.9.10 regnal_number = 2 }
-                ruler_term = { character = eng_edward_iii start_date = 1325.9.10 regnal_number = 3 }
+                ruler = fra_jean_ii_valois
+				
+				ruler_term = { character = eng_william_the_conquerer start_date = 1035.7.2 end_date = 1087.9.9 regnal_number = 1 }
+				ruler_term = { character = eng_henry_i start_date = 1106.9.28 end_date = 1135.12.1 regnal_number = 1 }
+				
+				ruler_term = { character = eng_stephen_i start_date = 1135.12.22 end_date = 1144.1.19 regnal_number = 1 }
+				
+				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1144.1.19 end_date = 1151.9.7 regnal_number = 1 }
+				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 2 }
+				ruler_term = { character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1199.4.6 regnal_number = 1 }
+				ruler_term = { character = eng_john_lackland start_date = 1199.5.27 end_date = 1204.4.28 regnal_number = 1 }
+				# Annexed to France 1204-1332
+				
+				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 2 }
 
                 regnal_numbers = {
                     #Corson = 1
@@ -16115,7 +16114,6 @@ countries = {
             }
             capital = bordeaux
             tolerated_cultures = {
-                # english   #BR edit
                 saintongeais
                 basque
             }
@@ -16154,31 +16152,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = fra_jean_ii_valois
-				
-				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1129.1.1 end_date = 1151.9.7 regnal_number = 2 }
-				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 1 }
-				ruler_term = { character = eng_richard_i_lionheart start_date = 1189.7.6 end_date = 1199.4.6 regnal_number = 1 }
-				ruler_term = { character = eng_john_lackland start_date = 1199.4.6 end_date = 1204.4.24 regnal_number = 1 }
-				
-				ruler_term = { character = mie_berenguela_jimena start_date = 1204.4.24 end_date = 1219.7.21 regnal_number = 1 }
-				ruler_term = {
-					character = mie_berenguela_jimena start_date = 1219.7.21 end_date = 1230.12.23 regnal_number = 1
-					character = anj_jean_tristan_capet start_date = 1219.7.21 end_date = 1230.12.23 regnal_number = 2
-				}
-				ruler_term = { character = anj_jean_tristan_capet start_date = 1230.12.23 end_date = 1232.1.1 regnal_number = 2 }
-				
-				ruler_term = { character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1285.1.7 regnal_number = 1 }
-				ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1290.8.16 regnal_number = 2 }
-				ruler_term = {
-					character = fra_margaret_anjou start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 1
-					character = fra_charles_valois start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 3 # Until 1299 as Marital Co-Ruler
-				
-				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
-				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
-				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
-				}
-				
+				ruler = random
 				
 				regnal_numbers = {
 					#Rorgon = 1
@@ -16542,6 +16516,7 @@ countries = {
 				}
 			}
 			capital = poitiers
+			country_rank = rank_duchy
 		}
 		
 		#Anjou
@@ -16557,33 +16532,10 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = fra_jean_ii_valois
+				ruler = random
 				reforms = {
 					french_appanage_reform
 				}
-				
-				ruler_term = { character = anj_robert_le_fort start_date = 862.1.1 end_date = 866.9.15 regnal_number = 1 }
-				ruler_term = { character = fra_odo start_date = 886.5.12 end_date = 888.2.29 regnal_number = 1 }
-				ruler_term = { character = fra_robert start_date = 888.2.29 end_date = 923.6.15 regnal_number = 2 }
-				
-				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1129.1.1 end_date = 1151.9.7 regnal_number = 5 }
-				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 1 }
-				ruler_term = { character = eng_richard_i_lionheart start_date = 1189.7.6 end_date = 1199.4.6 regnal_number = 1 }
-				ruler_term = { character = eng_john_lackland start_date = 1199.4.6 end_date = 1204.4.24 regnal_number = 0 }
-				
-				ruler_term = { character = anj_jean_tristan_capet start_date = 1219.7.21 end_date = 1232.1.1 regnal_number = 1 }
-				
-				ruler_term = { character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1285.1.7 regnal_number = 1 }
-				ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1290.8.16 regnal_number = 2 }
-				ruler_term = {
-					character = fra_margaret_anjou start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 1
-					character = fra_charles_valois start_date = 1290.8.16 end_date = 1299.12.31 regnal_number = 3 # As Marital Co-Ruler
-				}
-				ruler_term = { character = fra_charles_valois start_date = 1299.12.31 end_date = 1314.5.20 regnal_number = 3 }
-				
-				ruler_term = { character = fra_philip_vi_valois start_date = 1314.5.20 end_date = 1328.4.1 regnal_number = 1 }
-				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 3 }
-				
 				regnal_numbers = {
 					name_robert = 2
 					name_otto = 1
@@ -16836,20 +16788,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = fra_jean_ii_valois
-				
-				ruler_term = { character = eng_william_the_conquerer start_date = 1035.7.2 end_date = 1087.9.9 regnal_number = 1 }
-				ruler_term = { character = eng_henry_i start_date = 1106.9.28 end_date = 1135.12.1 regnal_number = 1 }
-				
-				ruler_term = { character = eng_stephen_i start_date = 1135.12.22 end_date = 1144.1.19 regnal_number = 1 }
-				
-				ruler_term = { character = anj_geoffroy_v_anjou start_date = 1144.1.19 end_date = 1151.9.7 regnal_number = 1 }
-				ruler_term = { character = eng_henry_ii_curtmantle start_date = 1151.9.7 end_date = 1189.7.6 regnal_number = 2 }
-				ruler_term = { character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1199.4.6 regnal_number = 1 }
-				ruler_term = { character = eng_john_lackland start_date = 1199.5.27 end_date = 1204.4.28 regnal_number = 1 }
-				# Annexed to France 1204-1332
-				
-				ruler_term = { character = fra_jean_ii_valois start_date = 1332.2.17 regnal_number = 2 }
+				ruler = random
 				
 				regnal_numbers = {
 					#Rollo = 1
