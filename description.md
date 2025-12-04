@@ -22,20 +22,38 @@ The Old World stands on the edge of crisis and transformation. The New World hid
 
 
 
+[header]BR: 1337 – Feature List[/header]
 
-BR: 1337 – Feature List
-Grand Map Overhaul (1337 Start Date)
-Fully reworked political map for the year 1337.
+[h2]Grand Map Overhaul, Expanded Worldbuilding & Alternate History[/h2]
+A fully reworked political map set in the Basileía Romaíon 1736 universe, scaled backward to 1337.
 
-Expanded Worldbuilding & Alternate History
-Set in your Basileía Romaíon 1736 universe, scaled backward to 1337.
+[h2]New Buildings[/h2]
+• Orthodox Holy Order buildings and new tribal buildings integrated from (add link).
+• Rebalanced rural buildings: Bailiff Offices, Fishing Villages, Forest Villages, and Farming Villages now use improved production methods.
 
-Includes early forms of later-world regions:
-Uses your internal continuity with Norse colonies surviving in NA.
+[h2]Government & Reforms[/h2]
+• Improved Merchant Republic, Sea Crusaders, and Military Orders reforms.
+• New reform added to support Orthodox Holy Orders.
 
-Reflects Byzantium’s extended power in the Mediterranean and Levant.
-Cultures & Languages
-New & Reworked Nations
-Medieval proto-corporations (guilds, trade leagues).
+[h2]Cultures & Languages[/h2]
+• Many new cultures, languages, and regional dialects added.
 
-Various New and Reworked International Organizations.
+[h2]Countries & Playable Entities[/h2]
+• New and reworked countries, including new releasables, new formables, and landless building-based countries.
+• Three new banking countries and two Orthodox Holy Orders introduced.
+
+[h2]International Organizations[/h2]
+• Various new and reworked international organizations, including the Charoligion HRE, multiple Patriarchates, and Khagan-i Oghuzistan—a Seljuk-style entity functioning similarly to the Ilkhanate.
+
+[h2]Infrastructure & Roads[/h2]
+• Expanded road network at game start, based on surviving Roman routes still visible today and therefore almost certainly present in 1337.
+
+[h2]Historical & Flavor Buildings[/h2]
+• Added numerous significant historical and plausible structures, including Orthodox monasteries and cathedrals across Anatolia, the Balkans, and the Levant.
+
+[h2]Gameplay Adjustments[/h2]
+• Low-control provinces now allow limited pop promotion and levy contributions.
+
+[h2]Compatibility[/h2]
+Should work with any mod that does not edit setup files.
+Place this mod at the bottom (or near the bottom) of your load order.
