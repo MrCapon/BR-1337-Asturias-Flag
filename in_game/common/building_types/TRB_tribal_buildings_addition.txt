@@ -34,10 +34,10 @@
 	
 	unique_production_methods = {
 		tribal_agriculture_maintenance = {
-			tools = 0.015
-			clay = 0.25
+			tools = 0.01
+			clay = 0.15
 			
-			output = 0.5
+			output = 0.75
 			
 			produced = livestock
 			
@@ -176,15 +176,16 @@ tribal_war_camp = {
 	
 	
 	unique_production_methods = {
-		bailiff_input = {
-			weaponry = 0.2
+		tribal_war_camp_maintenance = { #br refactored
+			weaponry = 0.15
 			category = building_maintenance
 		}
 	}
 
 	modifier = {
-		local_levy_size_modifier = 0.1
+		local_levy_size_modifier = 0.15
 		manpower_to_building_owner = 0.005 #br added
+		local_proximity_source = 5 #br added
 	}
 	
 	
@@ -221,8 +222,8 @@ tribal_hunting_lodge = {
 		tribal_hunting_lodge_input = {
 			produced = wild_game #br added
 			
-			output = 0.25 #br added
-			weaponry = 0.1
+			output = 1.0 #br added
+			weaponry = 0.05
 			category = building_maintenance
 		}
 	}
