@@ -1,4 +1,14 @@
 ﻿l_english:
+
  orthodox_order_commandery: "Order Commandery"
  orthodox_order_commandery_desc: "An $orthodox_order_commandery$ is a building owned by the military orders outside their own territory that serves two purposes: getting revenues from the exploitation of the surrounding lands and drafting new members for the order."
  orthodox_order_commandery_tt: "Owner gives [ShowRelationTypeName('military_sponsorship')] to us"
+
+
+ #Rural 
+ fishing_village_pearl_maintenance: "Pearl Farming"
+ farming_village_wool_maintenance: "Wool Farming"
+ farming_village_sturdy_crops_maintenance: "Grain Farming"
+ farming_village_horses_maintenance: "Horse Ranch"
+ forest_village_wild_game_maintenance: "Wild Game Hunting"
+ forest_village_lumber_maintenance: "Lumber Farming"
