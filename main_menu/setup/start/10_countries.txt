@@ -9991,6 +9991,18 @@ countries = {
 					diarchy_republic
 					compagna_communis
 				}
+				privilege = {
+					#nobles
+
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
+				
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
 				
 				
 				centralization_vs_decentralization = 25
