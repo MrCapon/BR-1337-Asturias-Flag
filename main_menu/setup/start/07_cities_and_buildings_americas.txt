@@ -261,11 +261,6 @@ building_manager = {
 	rural_clothmaker = { tag = E1Y level = 1 location = matapeake }
 	tar_kiln = { tag = E1Y level = 1 location = matapeake }
 	clay_pit = { tag = E1Y level = 1 location = matapeake }
-	settlement_building = { tag = E1Y level = 1 location = matapeake }
-	settlement_building = { tag = E1Y level = 1 location = nentego }
-	settlement_building = { tag = E1Y level = 1 location = wicontiss }
-	settlement_building = { tag = E1Y level = 1 location = patuxent }
-	settlement_building = { tag = E1Y level = 1 location = chicamacomico }
 	parish_church = { tag = E1Y level = 1 location = matapeake }
 	parish_church = { tag = E1Y level = 1 location = patapsco }
 	
@@ -276,11 +271,6 @@ building_manager = {
 	fishing_village = { tag = E2Y level = 1 location = weyanock }
 	market_village = { tag = E2Y level = 1 location = nansemond }
 	rural_clothmaker = { tag = E2Y level = 1 location = nansemond }
-	settlement_building = { tag = E2Y level = 1 location = nansemond }
-	settlement_building = { tag = E2Y level = 1 location = weyanock }
-	settlement_building = { tag = E2Y level = 1 location = pamunkey }
-	settlement_building = { tag = E2Y level = 1 location = chesapeake }
-	settlement_building = { tag = E2Y level = 1 location = kiskiack }
 	parish_church = { tag = E2Y level = 1 location = nansemond }
 	parish_church = { tag = E2Y level = 1 location = kiskiack }
 	

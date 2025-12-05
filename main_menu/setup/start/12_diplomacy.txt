@@ -300,7 +300,6 @@ diplomacy_manager = {
     dependency = { first = BRE second = DIT subject_type = vassal }
     dependency = { first = LAU second = RTB subject_type = vassal }
     dependency = { first = WUR second = HBR subject_type = vassal }
-    dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
     dependency = { first = BRA second = SOR subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
@@ -463,7 +462,6 @@ diplomacy_manager = {
     dependency = { first = TUR second = SYY subject_type = vassal }
     dependency = { first = TUR second = ZBR subject_type = vassal }
     dependency = { first = TUR second = BHT subject_type = vassal }
-    dependency = { first = TUR second = CEM subject_type = vassal }
     dependency = { first = TUR second = DMB subject_type = vassal }
     dependency = { first = TUR second = DSN subject_type = vassal }
     dependency = { first = TUR second = HKK subject_type = vassal }
@@ -517,7 +515,6 @@ diplomacy_manager = {
 
     #------------- Persia ------------
     
-    dependency = { first = INJ second = KHU subject_type = vassal }
     dependency = { first = LHJ second = RNK subject_type = vassal }
     dependency = { first = MKR second = BLA subject_type = vassal }
     dependency = { first = MKR second = BMP subject_type = vassal }
