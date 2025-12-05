@@ -11939,20 +11939,23 @@ countries = {
 					sponsor_maritime_contracts
 					shipwright_contracts
 					market_fairs
+				
+					#peasants
+					peasants_allowed_weapons_privilege
 				}
 				
 				centralization_vs_decentralization = 25
 				aristocracy_vs_plutocracy = 50
-				serfdom_vs_free_subjects = 15
+				serfdom_vs_free_subjects = 25
 				traditionalist_vs_innovative = 35
 				spiritualist_vs_humanist = 80
 				mercantilism_vs_free_trade = -40
 				offensive_vs_defensive = 40
 				land_vs_naval = 60
 				quality_vs_quantity = -40
-				belligerent_vs_conciliatory = -20
+				belligerent_vs_conciliatory = 25
 				capital_economy_vs_traditional_economy = -85
-				individualism_vs_communalism = -50
+				individualism_vs_communalism = -60
 				outward_vs_inward = -60
 			}
 			
@@ -13397,10 +13400,10 @@ countries = {
 			}
 
 			timed_modifier = {
-				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				modifier = "br_levy_size_modifier"
 				start_date = 1333.1.1
 				date = 1375.1.1
-				size = 0.25
+				size = 0.35
 			}
 			liturgical_language = church_slavonic_language
 			
@@ -14380,7 +14383,7 @@ countries = {
 				individualism_vs_communalism = -50
 				outward_vs_inward = -10
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 			}
@@ -14455,7 +14458,7 @@ countries = {
 				outward_vs_inward = -20
 				
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 			}
 			
@@ -14581,7 +14584,7 @@ countries = {
 			government = {
 				ruler = ale_charles_ii_valois
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = ale_pierre_i_capet start_date = 1268.3.1 end_date = 1283.4.6 regnal_number = 1 }
@@ -14620,7 +14623,7 @@ countries = {
 				end_regency_date = 1344.5.8
 				heir = auv_jeanne_auvergne
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = auv_gui_i_auvergne start_date = 979.1.1 end_date = 989.1.1 regnal_number = 1 }
@@ -14826,7 +14829,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = bou_louis_i_bourbon
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = bou_archambaud_viii_bourbon start_date = 1228.7.18 end_date = 1242.7.23 regnal_number = 8 }
@@ -14927,7 +14930,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = aux_jean_ii_chalon
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -15023,7 +15026,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 			}
 			capital = sancerre
@@ -15063,7 +15066,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15103,7 +15106,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15151,7 +15154,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15208,7 +15211,7 @@ countries = {
 					name_john = 1
 				}
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15234,7 +15237,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = dre_pierre_i_dreux
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = bls_eudes_i_blois start_date = 991.1.1 end_date = 996.3.12 regnal_number = 1 }
@@ -15275,7 +15278,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = vdm_bouchard_vi_montoire
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = vdm_jean_iv_montoire start_date = 1217.1.1 end_date = 1240.1.1 regnal_number = 4 }
@@ -15321,7 +15324,7 @@ countries = {
 				end_regency_date = 1354.1.1
 				heir = eta_louis_evreux
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = eta_charles_evreux start_date = 1319.5.19 end_date = 1336.9.5 regnal_number = 1 }
@@ -15373,7 +15376,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15508,7 +15511,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = bls_guy_i_chatillon
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = bls_thibault_i_blois start_date = 940.1.1 end_date = 977.1.1 regnal_number = 1 }
@@ -15599,7 +15602,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			capital = mirande
@@ -15662,7 +15665,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			capital = muret
@@ -15702,7 +15705,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15725,7 +15728,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = vln_aymar_v_poitiers
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = vln_eustache_poitiers start_date = 1138.1.1 end_date = 1154.1.1 regnal_number = 1 }
@@ -15814,7 +15817,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			
@@ -15839,7 +15842,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = ton_jeanne_capet
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -15898,7 +15901,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = mon_jean_montfort
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = mon_amaury_i_montfort start_date = 1050.1.1 end_date = 1053.1.1 regnal_number = 1 }
@@ -15942,7 +15945,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = aum_jean_burgundy_castile
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = aum_etienne_i_blois start_date = 1090.1.1 end_date = 1127.1.1 regnal_number = 1 }
@@ -16007,7 +16010,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = rou_jean_v_pierrepont
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = rou_robert_i_pierrepont start_date = 1204.1.1 end_date = 1204.6.1 regnal_number = 1 } # Marital Co-Ruler
@@ -16534,7 +16537,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				regnal_numbers = {
 					name_robert = 2
@@ -16618,7 +16621,7 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = fla_louis_i_dampierre
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 				
 				ruler_term = { character = lat_pierre_ii_courtenay start_date = 1184.1.1 end_date = 1193.2.6 regnal_number = 1 }
@@ -16711,7 +16714,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			capital = rethel
@@ -16732,7 +16735,7 @@ countries = {
 				
 				ruler = nav_philip_iii_evreux
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 				
 				ruler_term = { character = mon_amaury_iii_montfort start_date = 1118.4.18 end_date = 1137.1.1 regnal_number = 1 }
@@ -16806,7 +16809,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_appanage_reform
+					#french_appanage_reform
 				}
 			}
 			country_rank = rank_duchy
@@ -16851,7 +16854,7 @@ countries = {
 				}
 				
 				reforms = {
-					french_ducal_vassal_reform
+					#french_ducal_vassal_reform
 				}
 			}
 			tolerated_cultures = {
@@ -50986,7 +50989,7 @@ countries = {
 
 		}
 
-		SGO = { #Brotherhood of the Holy Sepulchre
+		SGO = { #Brotherhood of Saint George
 			own_control_core = {
 				costa tuapse
 			}
