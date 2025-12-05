@@ -10799,6 +10799,8 @@ countries = {
 				assisi narni rieti spoleto todi
 				aquila atri celano cittaducale csantangelo sulmona teramo chieti #NAP
 				sora
+				benevento
+				gaeta caserta venafro
 			}
 			
 			include = "catholic_bishopric"
@@ -10925,7 +10927,7 @@ countries = {
 			}
 			
 			court_language = eccelsiastic_latin_dialect
-			capital = avignon
+			capital = rome
 			
 			is_valid_for_release = no
 		}
@@ -13410,12 +13412,11 @@ countries = {
 				serbian
 				wallachian
 			}
-
 			timed_modifier = {
-				modifier = "br_levy_size_modifier"
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
 				date = 1375.1.1
-				size = 0.35
+				size = 0.45
 			}
 			liturgical_language = church_slavonic_language
 			
@@ -16132,7 +16133,7 @@ countries = {
                 saintongeais
                 basque
             }
-            country_rank = rank_duchy
+            country_rank = rank_kingdom
         }
 		
 		#Berry (Revolter)
@@ -17629,13 +17630,7 @@ countries = {
 			court_language = classical_latin_dialect
 
 			currency_data = {
-				army_tradition = 50
-			}
-			timed_modifier = {
-				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
-				start_date = 1333.1.1
-				date = 1375.1.1
-				size = 0.25
+				army_tradition = 75
 			}
 			
 			tolerated_cultures = {
@@ -50470,6 +50465,10 @@ countries = {
 				isernia larino trivento andria barletta bovino foggia lucera
 				manfredonia rotondo sansevero
 				ariano venafro piedimonte
+			}
+			our_cores_conquered_by_others = {
+				sora
+				gaeta caserta
 			}
 			
 			starting_technology_level = 3

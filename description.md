@@ -25,7 +25,8 @@ The Old World stands on the edge of crisis and transformation. The New World hid
 [header]BR: 1337 – Feature List[/header]
 
 [h2]Grand Map Overhaul, Expanded Worldbuilding & Alternate History[/h2]
-A fully reworked political map set in the Basileía Romaíon 1736 universe, scaled backward to 1337.
+• A fully reworked political map set in the Basileía Romaíon 1736 universe, scaled backward to 1337.
+• Nearly all the base games dynamic content has been kept or reworked to our map.
 
 [h2]New Buildings[/h2]
 • Orthodox Holy Order buildings and new tribal buildings integrated from (add link).
@@ -55,5 +56,5 @@ A fully reworked political map set in the Basileía Romaíon 1736 universe, scal
 • Low-control provinces now allow limited pop promotion and levy contributions.
 
 [h2]Compatibility[/h2]
-Should work with any mod that does not edit setup files.
-Place this mod at the bottom (or near the bottom) of your load order.
+• Should work with any mod that does not edit setup files.
+• Place this mod at the bottom (or near the bottom) of your load order.

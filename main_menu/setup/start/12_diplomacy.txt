@@ -245,6 +245,7 @@ diplomacy_manager = {
     dependency = { first = PAP second = ANC subject_type = vassal }
     dependency = { first = PAP second = MTA subject_type = vassal }
     dependency = { first = PAP second = PES subject_type = vassal }
+    dependency = { first = PAP second = GUB subject_type = vassal }
     scripted_mutual = { first = PAP second = BNV type = alliance }
 	
 	dependency = { first = SAV second = CEV subject_type = vassal }
@@ -470,10 +471,10 @@ diplomacy_manager = {
     dependency = { first = TUR second = ZZR subject_type = vassal }
     dependency = { first = TUR second = AIA subject_type = vassal }
     dependency = { first = TUR second = SRV subject_type = vassal }
-    dependency = { first = TUR second = SYU subject_type = tributary }
-    dependency = { first = TUR second = KCN subject_type = tributary }
-    dependency = { first = TUR second = ATC subject_type = tributary }
-    dependency = { first = TUR second = GAN subject_type = tributary }
+    dependency = { first = TUR second = SYU subject_type = vassal }
+    dependency = { first = TUR second = KCN subject_type = vassal }
+    dependency = { first = TUR second = ATC subject_type = vassal }
+    dependency = { first = TUR second = GAN subject_type = vassal }
 
     dependency = { first = ATQ second = ZRQ subject_type = vassal }
     dependency = { first = ATQ second = HZR subject_type = vassal }

@@ -4160,7 +4160,7 @@ building_manager = {
 	hospital = { tag = BYZ level = 1 location =  constantinople }
 	library = { tag = BYZ level = 1 location =  constantinople }
 	medical_school = { tag = BYZ level = 1 location =  constantinople }
-	castle = { tag = BYZ level = 1 location =  gallipoli }
+	castle = { tag = BYZ level = 1 location =  constantinople }
 	theodosian_walls = { tag = BYZ level = 1 location = constantinople }
 	wharf = { tag = BYZ level = 1 location =  constantinople }
 	grand_shipyard = { tag = BYZ level = 1 location = constantinople }
@@ -4238,7 +4238,9 @@ building_manager = {
 
 	bailiff = { tag = BUL level = 1 location = sozopol }
 	bailiff = { tag = BUL level = 1 location = kucevo }
-	bailiff = { tag = BUL level = 1 location = sozopol }
+	tannery = { tag = BUL level = 2 location = tarnovo }
+	weapon_guild = { tag = BUL level = 4 location = tarnovo }
+	weapon_guild = { tag = HUN level = 4 location = buda }
 
 	bailiff = { tag = PAF level = 1 location = bayat }
 	bailiff = { tag = PAF level = 1 location = gumus }
@@ -4499,6 +4501,7 @@ building_manager = {
 
 	# steppes 
 	kurultai = { tag = GLH level = 1 location = sarai_al_jadid }
+	weapon_guild = { tag = GLH level = 2 location = sarai_al_jadid }
 	slave_market = { tag = GLH level = 3 location = sarai_al_jadid }
 	caravanserai = { tag = GLH level = 1 location = sarai_al_jadid }
 	kurultai = { tag = GLH level = 1 location = dubovskoye }
@@ -4508,6 +4511,7 @@ building_manager = {
 	kurultai = { tag = GLH level = 1 location = astrakhan }
 	slave_market = { tag = GLH level = 5 location = astrakhan }
 	caravanserai = { tag = GLH level = 1 location = astrakhan }
+	weapon_guild = { tag = GLH level = 2 location = astrakhan }
 	kurultai = { tag = GLH level = 1 location = khosheutovo }
 	caravanserai = { tag = GLH level = 1 location = khosheutovo }
 	kurultai = { tag = GLH level = 1 location = saryadyn }
@@ -4609,6 +4613,11 @@ building_manager = {
 	market_village = { tag = THE level = 1 location = rentina }
 	market_village = { tag = BUL level = 1 location = sozopol }
 	forest_village = { tag = BUL level = 1 location = stanimaka }
+	farming_village = { tag = BUL level = 1 location = tryavna }
+	farming_village = { tag = BUL level = 1 location = razgrad }
+	farming_village = { tag = BUL level = 1 location = kran }
+	charcoal_maker = { tag = BUL level = 2 location = lyaskovets }
+	charcoal_maker = { tag = BUL level = 2 location = tryavna }
 	market_village = { tag = SER level = 1 location = kotor }
 	market_village = { tag = SER level = 1 location = kucevo }
 	market_village = { tag = BOS level = 1 location = kozara }
@@ -4618,8 +4627,11 @@ building_manager = {
 	market_village = { tag = SER level = 1 location = shkoder }
 	market_village = { tag = SER level = 1 location = trgoviste_SER }
 	lumber_mill = { tag = SER level = 1 location = trgoviste_SER }
-	tar_kiln = { tag = SER level = 1 location = trgoviste_SER }
-	rural_clothmaker = { tag = SER level = 1 location = trgoviste_SER }
+	tar_kiln = { tag = SER level = 2 location = trgoviste_SER }
+	rural_clothmaker = { tag = SER level = 2 location = trgoviste_SER }
+	forest_village = { tag = SER level = 1 location = trgoviste_SER }
+	charcoal_maker = { tag = SER level = 1 location = trgoviste_SER }
+	charcoal_maker = { tag = SER level = 1 location = mitrovica }
 	market_village = { tag = SER level = 1 location = smederevo }
 	forest_village = { tag = SER level = 1 location = podgorica }
 	market_village = { tag = SER level = 1 location = trebinje }
@@ -4627,7 +4639,10 @@ building_manager = {
 	forest_village = { tag = SER level = 1 location = uzice }
 	forest_village = { tag = SER level = 1 location = krupanj }
 	forest_village = { tag = SER level = 1 location = stalac }
+	farming_village = { tag = SER level = 1 location = budimlja }
 	market_village = { tag = BOS level = 1 location = zenica }
+	rural_clothmaker = { tag = BOS level = 1 location = zenica }
+	rural_clothmaker = { tag = BOS level = 1 location = doboj }
 	market_village = { tag = BOS level = 1 location = mostar }
 	market_village = { tag = BUL level = 1 location = nikopol }
 	market_village = { tag = BUL level = 1 location = pleven }
@@ -4638,6 +4653,8 @@ building_manager = {
 	forest_village = { tag = BOS level = 1 location = kljuc }
 	forest_village = { tag = BOS level = 1 location = soli }
 	market_village = { tag = NAX level = 1 location = naxos }
+	rural_clothmaker = { tag = NAX level = 1 location = naxos }
+	sand_pit = { tag = NAX level = 1 location = naxos }
 	market_village = { tag = BYZ level = 1 location = manavgat }
 	market_village = { tag = BYZ level = 1 location = ustra }
 	market_village = { tag = THE level = 1 location = edessa }
@@ -4647,6 +4664,9 @@ building_manager = {
 	market_village = { tag = EPI level = 1 location = angelokastron }
 	market_village = { tag = EPI level = 1 location = argyrokastro }
 	market_village = { tag = NEG level = 1 location = negroponte }
+	tar_kiln = { tag = NEG level = 1 location = negroponte }
+	rural_clothmaker = { tag = NEG level = 1 location = negroponte }
+	sand_pit = { tag = NEG level = 1 location = negroponte }
 	market_village = { tag = ATH level = 1 location = thebes }
 	market_village = { tag = ATH level = 1 location = megara }
 	market_village = { tag = MOE level = 1 location = tripolitsa }
@@ -4822,6 +4842,7 @@ building_manager = {
 	fishing_village = { tag = VEN level = 2 location = corfu }
 	market_village = { tag = CEP level = 2 location = cephalonia }
 	fishing_village = { tag = CEP level = 2 location = cephalonia }
+	rural_clothmaker = { tag = CEP level = 1 location = cephalonia }
 	market_village = { tag = VEN level = 1 location = modon }
 	fishing_village = { tag = VEN level = 2 location = modon }
 	market_village = { tag = VEN level = 1 location = kythira }
