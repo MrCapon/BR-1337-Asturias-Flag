@@ -20,7 +20,7 @@
     areas = {
         maryland_area
         virginia_area
-        #north_carolina_area
+        north_carolina_area
         #south_carolina_area
         #massachusetts_area
         #southern_new_england_area
@@ -29,8 +29,8 @@
         #maine_area
         #hudson_area
         #haudenosaunee_area
-        #new_jersey_area
-        #pennsylvania_area
+        new_jersey_area
+        pennsylvania_area
         #westsylvania_area
     }
 }
