@@ -13416,7 +13416,7 @@ countries = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
 				date = 1375.1.1
-				size = 0.45
+				size = 0.15
 			}
 			liturgical_language = church_slavonic_language
 			

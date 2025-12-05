@@ -1,9 +1,17 @@
-BR: 1337 – World Lore Overview (Prequel to Basileía Romaíon 1736)
+[img]https://i.imgur.com/HFPnEgB.gif[/img]
 
-The year is 1337, and the world stands at a crossroads. This is the early foundation of the Basileía Romaíon 1736 universe—scaled backward into a medieval setting where familiar powers endure, fracture, or transform along alternate lines.
+[h1]Basileía Romaíon: 1337[/h1]
 
-The Medieval Roman Empire, though far from the thunderous heights reached under Basil II, has weathered the Seljuk storm. The Seljuks never entrenched themselves in Anatolia; instead, their descendants dominate Persia and Mesopotamia, where a patchwork of Turkic dynasties now struggle for the vaunted title of Khagan-i Oghuzistan.
-Meso-Persia remains a battlefield of tribes, emirs, and would-be conquerors, each claiming the legacy of the Great Seljuks. These lands were spared the devastation of the Great Mongol Hordes through a combination of keen diplomacy and timely submission—fortune China, Central Asia, and Eastern Europe did not share.
+[hr] [/hr]
+BR: 1337 – World Lore Overview (Prequel to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url])
+[code]
+The year is 1337, and the world stands at a crossroads. This is the early foundation of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url] universe—scaled backward into a medieval setting where familiar powers endure, fracture, or transform along alternate lines.
+
+The Medieval Roman Empire, though far from the thunderous heights of Basil II, has endured the Seljuk storm. Since the age of the Macedonians, relentless civil wars have torn at its foundations, causing the state to bend, fracture, and bleed. Many strategoi, douxes, and provincial dynatoi now offer only nominal loyalty to the Basileus in Konstantinoupolis.
+
+The Seljuks, however, never entrenched themselves in Anatolia. Their descendants instead dominate Persia and Mesopotamia, where a shifting mosaic of Turkic dynasties battles for the coveted title of Khagan-i Oghuzistan. Meso-Persia remains a battleground of tribes, emirs, and ambitious warlords—each claiming the mantle of the Great Seljuks.
+
+These lands escaped the worst of the Great Mongol Hordes through a mixture of shrewd diplomacy and timely submission, a fortune not shared by China, Central Asia, or Eastern Europe.
 
 To the south, the Fatimid Caliphate endures in Egypt and the Levant. Ruling as a perennial Shia minority over a diverse and often uneasy population, the dynasty has proven remarkably resilient, balancing power between Arab notables, Berber factions, and Christian communities tied to ancient Coptic traditions.
 
@@ -19,18 +27,18 @@ And further south still, rumors circulate among the Norse of a forgotten people:
 These Elysians are divided between Latin-speaking pantheonic worshipers in the north and Greek-speaking Christians in the south, each claiming to be the truest heirs of the Roman ideal.
 
 The Old World stands on the edge of crisis and transformation. The New World hides legacies long severed from Rome. And from these threads, the world of Basileía Romaíon 1736 will one day emerge.
+[/code]
 
-
-
+[hr] [/hr]
 [header]BR: 1337 – Feature List[/header]
 
 [h2]Grand Map Overhaul, Expanded Worldbuilding & Alternate History[/h2]
 • A fully reworked political map set in the Basileía Romaíon 1736 universe, scaled backward to 1337.
-• Nearly all the base games dynamic content has been kept or reworked to our map.
+• Nearly all the base game’s dynamic content has been kept or reworked to our map.
 
 [h2]New Buildings[/h2]
 • Orthodox Holy Order buildings and new tribal buildings integrated from (add link).
-• Rebalanced rural buildings: Bailiff Offices, Fishing Villages, Forest Villages, and Farming Villages now use improved production methods.
+• Rebalanced rural buildings: Bailiff, Fishing Villages, Forest Villages, and Farming Villages now have more production method options.
 
 [h2]Government & Reforms[/h2]
 • Improved Merchant Republic, Sea Crusaders, and Military Orders reforms.
@@ -43,6 +51,11 @@ The Old World stands on the edge of crisis and transformation. The New World hid
 • New and reworked countries, including new releasables, new formables, and landless building-based countries.
 • Three new banking countries and two Orthodox Holy Orders introduced.
 
+[h2]Characters & Dynasties[/h2]
+• Numerous new historical, semi-historical, and plausible characters added across the world.
+• Reworked and expanded dynasties, including restored medieval Roman families and region-appropriate noble houses.
+• Additional rulers and noble lines for newly added or reworked countries.
+
 [h2]International Organizations[/h2]
 • Various new and reworked international organizations, including the Charoligion HRE, multiple Patriarchates, and Khagan-i Oghuzistan—a Seljuk-style entity functioning similarly to the Ilkhanate.
 
@@ -50,11 +63,33 @@ The Old World stands on the edge of crisis and transformation. The New World hid
 • Expanded road network at game start, based on surviving Roman routes still visible today and therefore almost certainly present in 1337.
 
 [h2]Historical & Flavor Buildings[/h2]
-• Added numerous significant historical and plausible structures, including Orthodox monasteries and cathedrals across Anatolia, the Balkans, and the Levant.
+• Added numerous significant historical and plausible buildings, including Orthodox monasteries and cathedrals across Anatolia, the Balkans, and the Levant.
 
 [h2]Gameplay Adjustments[/h2]
 • Low-control provinces now allow limited pop promotion and levy contributions.
 
+[h2]Localization Changes[/h2]
+• Default name changed from Byzantine Empire to Basileía Romaíon.
+• Latinized “E.R.E” option simplified to Roman Empire.
+• Balkan and Anatolian provinces now use proper medieval Roman provincial names up to the borders of Basill II.
+
 [h2]Compatibility[/h2]
-• Should work with any mod that does not edit setup files.
+• Should work with any mod that does not edit the setup files (Map)
 • Place this mod at the bottom (or near the bottom) of your load order.
+
+[hr] [/hr]
+If you have a Translations or Sub-Mod message me and I'll add it here. 
+
+Any questions, suggestions, screenshots, playthrough AARs, or bug reports can be shared with our 2,000+ member community on [url=https://discord.gg/D4hpCn7DgP]Discord[/url]
+
+
+
+[code]The term "Basileia Romaion" (Βασιλεία τῶν Ῥωμαίων) is the Greek name for the Eastern Roman Empire or "Byzantine" Empire. It was the official name of the empire in Greek during its existence. "Basileia" means "Empire" or "Kingdom," and "Romaion" means "of the Romans" or "Roman." This name reflects the "Byzantines" identification as Romans and their continuity with the Roman Empire.[/code]
+[hr][/hr]
+
+
+Sub-Mods:
+[list]
+
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url]
+[/list]
