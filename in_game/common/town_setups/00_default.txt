@@ -1075,7 +1075,7 @@ italian_city = {
 	furniture_guild = 2 #BR increased
 	dyes_guild = 1
 	marketplace = 6 #BR EDIT
-	artisan_guilds = 2 #BR added estate building
+	artisan_guilds = 1 #BR added estate building
 	local_schools = 1 #BR added estate building
 }
 
@@ -1132,7 +1132,7 @@ italian_coastal_city = {
 	naval_supplies_guild = 1
 	guild_hall  = 1 #BR added estate building
 	artisan_guilds = 1 #BR added estate building
-	merchants_guild = 2 #BR added estate building
+	merchants_guild = 1 #BR added estate building
 }
 
 japan_town = {
