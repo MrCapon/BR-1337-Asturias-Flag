@@ -1942,7 +1942,7 @@ building_manager = {
 	
 	venetian_arsenal = { tag = VEN level = 1 location = venice }
 	grand_shipyard	= { tag = VEN level = 1	location = venice }
-	market_warehouse = { tag = VEN level = 2 location =  venice }
+	market_warehouse = { tag = VEN level = 4 location =  venice }
 	city_guard = { tag = VEN level = 1	location = venice }
 
 	#Aegean Pirates
@@ -4136,12 +4136,12 @@ building_manager = {
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
 	chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
 	#constantinople_observatory = { tag = BYZ level = 1 location =  constantinople 
-	marketplace	= { tag = BYZ level = 25 location =  constantinople }
+	marketplace	= { tag = BYZ level = 24 location =  constantinople }
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
 	#grand_marketplace = { tag = BYZ level = 1 location =  constantinople }
 	trading_hub = { tag = BYZ level = 1 location =  constantinople }
 	entrepot = { tag = BYZ level = 2 location =  constantinople }
-	market_warehouse = { tag = BYZ level = 2 location =  constantinople }
+	market_warehouse = { tag = BYZ level = 4 location =  constantinople }
 	fine_cloth_guild = { tag = BYZ level = 12 location =  constantinople }
 	brewery = { tag = BYZ level = 4 location =  constantinople }
 	saltpeter_guild = { tag = BYZ level = 1 location =  constantinople }
@@ -4179,7 +4179,7 @@ building_manager = {
 	sergeantry = { tag = THE level = 1 location =  thessaloniki }
 	sergeantry = { tag = DYR level = 1 location =  durres }
 	sergeantry = { tag = EPI level = 1 location =  ioannina }
-	hexamilion_wall = { tag = ATH level = 1 location =  corinth }
+	#hexamilion_wall = { tag = ATH level = 1 location =  corinth }
 
 	#Anatolia
 	dock = { tag = BYZ level = 1 location = smyrna }
@@ -4399,24 +4399,26 @@ building_manager = {
 	madrasa = { tag = TUR level = 1 location = mosul }
 	madrasa = { tag = TUR level = 1 location = tabriz }
 	seljuk_mint = { tag = TUR level = 1 location = mosul }
+	weapon_guild = { tag = TUR level = 2 location = mosul }
 	seljuk_mint = { tag = TUR level = 1 location = tabriz }
+	weapon_guild = { tag = TUR level = 4 location = tabriz }
 	seljuk_mint = { tag = AIA level = 1 location = baghdad }
 	seljuk_mint = { tag = TUR level = 1 location = tabriz }
 	marketplace	= { tag = AIA level = 15 location = baghdad }
 	trading_hub = { tag = AIA level = 1 location = baghdad }
 	entrepot = { tag = AIA level = 1 location = baghdad }
-	market_warehouse = { tag = AIA level = 1 location = baghdad }
-	fine_cloth_guild = { tag = AIA level = 5 location = baghdad }
+	market_warehouse = { tag = AIA level = 4 location = baghdad }
+	fine_cloth_guild = { tag = AIA level = 8 location = baghdad }
 	saltpeter_guild = { tag = AIA level = 1 location = baghdad }
 	tannery = { tag = AIA level = 4 location = baghdad }
-	cloth_guild = { tag = AIA level = 5 location = baghdad }
-	dyes_guild = { tag = AIA level = 5 location = baghdad }
+	cloth_guild = { tag = AIA level = 6 location = baghdad }
+	dyes_guild = { tag = AIA level = 10 location = baghdad }
 	furniture_guild = { tag = AIA level = 4 location = baghdad }
 	glass_guild = { tag = AIA level = 2 location = baghdad }
-	paper_guild = { tag = AIA level = 2 location = baghdad }
+	paper_guild = { tag = AIA level = 4 location = baghdad }
 	porcelain_guild = { tag = AIA level = 4 location = baghdad }
 	pottery_guild = { tag = AIA level = 2 location = baghdad }
-	tools_guild = { tag = AIA level = 2 location = baghdad }
+	tools_guild = { tag = AIA level = 4 location = baghdad }
 	weapon_guild = { tag = AIA level = 2 location = baghdad }
 	scriptorium = { tag = AIA level = 6 location = baghdad }
 	hospital = { tag = AIA level = 1 location = baghdad }
@@ -4915,10 +4917,10 @@ building_manager = {
 
 #BR added estate buildings
 	#Balkans and Anatolia
-	burgher_mansion = { tag = BYZ level = 5 location = constantinople }	
-	guild_hall = { tag = BYZ level = 2 location = constantinople }
-	merchants_guild = { tag = BYZ level = 2 location = constantinople }
-	artisan_guilds = { tag = BYZ level = 2 location = constantinople }
+	burgher_mansion = { tag = BYZ level = 1 location = constantinople }	
+	guild_hall = { tag = BYZ level = 1 location = constantinople }
+	merchants_guild = { tag = BYZ level = 1 location = constantinople }
+	artisan_guilds = { tag = BYZ level = 1 location = constantinople }
 	noble_villa = { tag = BYZ level = 1 location = silivri }
 	merchants_guild = { tag = BYZ level = 1 location = edirne }
 	noble_villa = { tag = ATH level = 1 location = gravia }
@@ -5202,9 +5204,19 @@ building_manager = {
 	stockade = { tag = TRE level = 1 location = bafra }
 	stockade = { tag = TRE level = 1 location = amasya }
 	stockade = { tag = TRE level = 1 location = niksar }
+	stockade = { tag = CEP level = 1 location = cephalonia }
+	stockade = { tag = NAX level = 1 location = naxos }
+	stockade = { tag = NEG level = 1 location = negroponte }
+	stockade = { tag = GEN level = 1 location = chios }
+	stockade = { tag = GEN level = 1 location = samos }
+	stockade = { tag = GEN level = 1 location = foca }
+	stockade = { tag = GEN level = 1 location = amasra }
+	castle = { tag = CRT level = 1 location =  candia }
+	castle = { tag = CYP level = 1 location =  nicosia_cyp }
 	castle = { tag = VEN level = 1 location =  novigrad }
 	castle = { tag = VEN level = 1 location = split }
 	castle = { tag = VEN level = 1 location = dubrovnik }
+	castle = { tag = AOI level = 1 location = antioch }
 
 	#Holy Sepulchre
 	order_headquarters = { tag = OHS level = 1 location =  kapan } 
@@ -5338,7 +5350,7 @@ building_manager = {
 	trade_office = { tag = PIS level = 2 location = palermo } #1286
 	trade_office = { tag = PIS level = 1 location = montpellier } #1301
 	trade_office = { tag = PIS level = 1 location = trapani } #1301
-	overseas_trading_post = { tag = PIS level = 2 location = malta } #1305
+	overseas_trading_post = { tag = PIS level = 1 location = malta } #1305
 	trade_office = { tag = PIS level = 1 location = oristano } #1325
 	trade_office = { tag = PIS level = 1 location = cagliari }
 	trade_office = { tag = PIS level = 1 location = tripoli }
@@ -5394,7 +5406,7 @@ building_manager = {
 	overseas_trading_post = { tag = GEN level = 1 location = molyvos }
 	overseas_trading_post = { tag = GEN level = 1 location = tripoli_syria }
 	overseas_trading_post = { tag = GEN level = 1 location = marmaris }
-	overseas_trading_post = { tag = GEN level = 2 location = uskudar }
+	overseas_trading_post = { tag = GEN level = 1 location = uskudar }
 	overseas_trading_post = { tag = GEN level = 1 location = tripoli_syria }
 	fondaco = { tag = GEN level = 1 location = kaffa }
 	fondaco = { tag = GEN level = 1 location = soldaia }
@@ -5429,9 +5441,9 @@ building_manager = {
 	trade_office = { tag = VEN level = 1 location = bari }
 	trade_office = { tag = VEN level = 1 location = rodos }
 	overseas_trading_post = { tag = VEN level = 1 location = andravida }
-	overseas_trading_post = { tag = VEN level = 2 location = cephalonia }
+	overseas_trading_post = { tag = VEN level = 1 location = cephalonia }
 	overseas_trading_post = { tag = VEN level = 1 location = mystras }
-	overseas_trading_post = { tag = VEN level = 2 location = naxos }
+	overseas_trading_post = { tag = VEN level = 1 location = naxos }
 	overseas_trading_post = { tag = VEN level = 1 location = kotor }
 	overseas_trading_post = { tag = VEN level = 1 location = tobruk }
 	overseas_trading_post = { tag = VEN level = 1 location = beirut }
@@ -5541,7 +5553,7 @@ building_manager = {
 	trade_office = { tag = RIC level = 1 location = jeddah }
 
 	#India
-	marketplace	= { tag = RIC level = 15 location =  goa }
+	marketplace	= { tag = RIC level = 12 location =  goa }
 	protected_harbor = { tag = RIC level = 1 location = goa }
 	wharf = { tag = RIC level = 1 location = goa }
 	dock = { tag = RIC level = 1 location = goa }
@@ -5549,7 +5561,7 @@ building_manager = {
 	coastal_fort = { tag = RIC level = 1 location = goa }
 	trading_hub = { tag = RIC level = 1 location =  goa }
 	entrepot = { tag = RIC level = 1 location =  goa }
-	market_warehouse = { tag = RIC level = 1 location =  goa }
+	market_warehouse = { tag = RIC level = 2 location =  goa }
 	trade_company_harbor = { tag = RIC level = 2 location = bombay }
 	trade_office = { tag = RIC level = 8 location = bombay }
 	trade_company_governance = { tag = RIC level = 1 location = bombay }
@@ -5562,10 +5574,10 @@ building_manager = {
 	trade_office = { tag = RIC level = 4 location = kayal }
 	trade_company_governance = { tag = RIC level = 1 location = kayal }
 	trade_company_garrison = { tag = RIC level = 1 location = kayal }
-	overseas_trading_post = { tag = RIC level = 4 location = kochi }
-	overseas_trading_post = { tag = RIC level = 2 location = manora }
-	overseas_trading_post = { tag = RIC level = 2 location = thiruvananthapuram }
-	overseas_trading_post = { tag = RIC level = 2 location = sur }
+	overseas_trading_post = { tag = RIC level = 1 location = kochi }
+	overseas_trading_post = { tag = RIC level = 1 location = manora }
+	overseas_trading_post = { tag = RIC level = 1 location = thiruvananthapuram }
+	overseas_trading_post = { tag = RIC level = 1 location = sur }
 
 
 	fishing_village = { tag = RIC level = 2 location = hadibu }
