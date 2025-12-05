@@ -2,5 +2,6 @@
 colors = {
 
 	map_asturias = hsv360 { 204 223 324 }
+    map_ELY = rgb { 99 15 13 }
 }
 

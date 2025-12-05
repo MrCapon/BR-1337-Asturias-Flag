@@ -1,42 +1,38 @@
-﻿ELY_f = {
-	level = 3
-	required_locations_fraction = 0.75
-	rule = historical
-	
-	potential = {
-		culture = {
-			OR = {
-				culture:aureliani
-				culture:photianoi
-			}
-		}
-	}
-	allow = {}
-	
-	name = ELY
-	flag = ELY
-	adjective = ELY_ADJ
-	tag = ELY
-	color = rgb { 99 15 13 }
-	
-	areas = {
-		maryland_area
-		virginia_area
-		#north_carolina_area
-		#south_carolina_area
-		#massachusetts_area
-		#southern_new_england_area
-		#vermont_area
-		#new_hampshire_area
-		#maine_area
-		#hudson_area
-		#haudenosaunee_area
-		#new_jersey_area
-		#pennsylvania_area
-		#westsylvania_area
-	}
-	
-	form_effect = {}
+﻿REPLACE_OR_CREATE:ELY_f = {
+    level = 3
+    required_locations_fraction = 0.75
+    rule = historical
+    potential = {
+        OR = {
+            has_primary_or_accepted_culture = culture:aureliani
+            has_primary_or_accepted_culture = culture:photianoi
+        }
+    }
+
+    allow = {}
+
+    name = ELY
+    flag = ELY
+    adjective = ELY_ADJ
+    tag = ELY
+    color = map_ELY
+
+    areas = {
+        maryland_area
+        virginia_area
+        #north_carolina_area
+        #south_carolina_area
+        #massachusetts_area
+        #southern_new_england_area
+        #vermont_area
+        #new_hampshire_area
+        #maine_area
+        #hudson_area
+        #haudenosaunee_area
+        #new_jersey_area
+        #pennsylvania_area
+        #westsylvania_area
+    }
 }
 
 REPLACE_OR_CREATE:ROM_f = {
