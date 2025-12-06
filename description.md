@@ -4,7 +4,7 @@
 
 [hr] [/hr]
 BR: 1337 – World Lore Overview (Prequel to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url])
-[code]
+[code][b]
 The year is 1337, and the world stands at a crossroads. This is the early foundation of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url] universe—scaled backward into a medieval setting where familiar powers endure, fracture, or transform along alternate lines.
 
 The Medieval Roman Empire, though far from the thunderous heights of Basil II, has endured the Seljuk storm. Since the age of the Macedonians, relentless civil wars have torn at its foundations, causing the state to bend, fracture, and bleed. Many strategoi, douxes, and provincial dynatoi now offer only nominal loyalty to the Basileus in Konstantinoupolis.
@@ -27,17 +27,17 @@ And further south still, rumors circulate among the Norse of a forgotten people:
 These Elysians are divided between Latin-speaking pantheonic worshipers in the north and Greek-speaking Christians in the south, each claiming to be the truest heirs of the Roman ideal.
 
 The Old World stands on the edge of crisis and transformation. The New World hides legacies long severed from Rome. And from these threads, the world of Basileía Romaíon 1736 will one day emerge.
-[/code]
+[/b][/code]
 
 [hr] [/hr]
-[header]BR: 1337 – Feature List[/header]
+[h1]BR: 1337 – Feature List[/h1]
 
 [h2]Grand Map Overhaul, Expanded Worldbuilding & Alternate History[/h2]
 • A fully reworked political map set in the Basileía Romaíon 1736 universe, scaled backward to 1337.
 • Nearly all the base game’s dynamic content has been kept or reworked to our map.
 
 [h2]New Buildings[/h2]
-• Orthodox Holy Order buildings and new tribal buildings integrated from (add link).
+• Orthodox Holy Order buildings and new tribal buildings integrated from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3605061066]Fishe's mods[/url].
 • Rebalanced rural buildings: Bailiff, Fishing Villages, Forest Villages, and Farming Villages now have more production method options.
 
 [h2]Government & Reforms[/h2]
@@ -78,18 +78,25 @@ The Old World stands on the edge of crisis and transformation. The New World hid
 • Place this mod at the bottom (or near the bottom) of your load order.
 
 [hr] [/hr]
-If you have a Translations or Sub-Mod message me and I'll add it here. 
-
-Any questions, suggestions, screenshots, playthrough AARs, or bug reports can be shared with our 2,000+ member community on [url=https://discord.gg/D4hpCn7DgP]Discord[/url]
-
-
-
 [code]The term "Basileia Romaion" (Βασιλεία τῶν Ῥωμαίων) is the Greek name for the Eastern Roman Empire or "Byzantine" Empire. It was the official name of the empire in Greek during its existence. "Basileia" means "Empire" or "Kingdom," and "Romaion" means "of the Romans" or "Roman." This name reflects the "Byzantines" identification as Romans and their continuity with the Roman Empire.[/code]
 [hr][/hr]
 
-
-Sub-Mods:
+Mod Developers
 [list]
-
-[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880120246]Basileía Romaíon 1736[/url]
+[*] Creator/Developer: Drogan
+[*] Developer: Smekens
+[*] Developer: Alexedishi
+[*] Special Thanks: Treneg, Nii
 [/list]
+Message me on Discord if your interested in joining our team.
+Project [url=https://github.com/Basileia-Romaion/BR-1337]Github[/url]
+
+[hr] [/hr]
+If you have a Translations or Sub-Mod message me and I'll add it here. 
+[h2]Sub-Mods:[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3618398963]Praecepta Militaria - Basileia Romaion Compatch[/url] 
+[/list]
+
+[url=https://discord.gg/D4hpCn7DgP][img]https://i.imgur.com/n5g35mo.png[/img][/url]
+Any questions, suggestions, screenshots, playthrough AARs, or bug reports can be shared with our 2,000+ member community on [url=https://discord.gg/D4hpCn7DgP]Discord[/url]
