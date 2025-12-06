@@ -10,6 +10,7 @@
 		pontic_greek_culture = positive
 		gothic_culture = positive
 		anatolian_greek_culture = positive #BR EDIT
+		kilikioi_greek_culture = positive
 	}
 	
 	culture_groups = {
@@ -86,6 +87,7 @@ anatolian_greek_culture = { #BR addition
 		cappadocian_greek_culture = positive
 		gothic_culture = positive
 		pontic_greek_culture = positive
+		kilikioi_greek_culture = positive
 	}
 	
 	culture_groups = {
@@ -170,7 +172,7 @@ indikes_greek_culture = {
 	language = indikes_dialect
 	color = rgb { 150 55 105 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx indian_gfx }
 
 	opinions = {
 		greek_culture = kindred
@@ -188,7 +190,7 @@ aegyptian_greek_culture = {
 	language = aegyptian_dialect
 	color = rgb { 155 75 105 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx middle_east_gfx }
 
 	opinions = {
 		greek_culture = kindred
@@ -207,12 +209,13 @@ syrenikoi_greek_culture = {
 	language = syrenikoi_dialect
 	color = rgb { 160 75 95 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx middle_east_gfx }
 
 	opinions = {
 		greek_culture = kindred
 		kilikioi_greek_culture = kindred
 		aegyptian_greek_culture = kindred
+		syriac_culture = positive
 	}	
 	
 	culture_groups = {
@@ -224,7 +227,7 @@ african_greek_culture = {
 	language = african_dialect
 	color = rgb { 135 55 145 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx middle_east_gfx }
 
 	opinions = {
 		greek_culture = kindred
@@ -254,8 +257,7 @@ illyrikoi_greek_culture = {
 }
 
 kilikioi_greek_culture = {
-	language = syrenikoi_dialect
-	#language = kilikioi_dialect #this dialect is broken for some reason
+	language = kilikioi_dialect
 	color = rgb { 135 85 105 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
@@ -263,6 +265,8 @@ kilikioi_greek_culture = {
 	opinions = {
 		greek_culture = kindred
 		syrenikoi_greek_culture = kindred
+		cappadocian_greek_culture = positive
+		anatolian_greek_culture = positive
 	}	
 	
 	culture_groups = {
