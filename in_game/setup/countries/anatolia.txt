@@ -52,7 +52,7 @@ CIL = {
 	color = rgb { 148 135 129 } 
 
 	#BR EDIT
-	culture_definition = greek_culture
+	culture_definition = kilikioi_greek_culture
 	religion_definition = orthodox
 }
 
