@@ -183,9 +183,9 @@ locations = {
 	
 	## Uashat Province
 	uashat = {
-		define_pop = {	type = peasants		size = 0.026	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.057	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.029	culture = vinlander		religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.056	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = vinlander		religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 0.058	culture = innu_culture	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.425	culture = innu_culture	religion = midewiwin_religion }
 	}
