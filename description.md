@@ -96,6 +96,13 @@ If you have a Translations or Sub-Mod message me and I'll add it here.
 [h2]Sub-Mods:[/h2]
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3618398963]Praecepta Militaria - Basileia Romaion Compatch[/url] 
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3619024711]Admin Government and BR1337 Compatch[/url] 
+[/list]
+
+[h2]Translation-Mods:[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3618566056]Korean[/url] 한국어
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3618838896]Chinese[/url] 中文
 [/list]
 
 [url=https://discord.gg/D4hpCn7DgP][img]https://i.imgur.com/n5g35mo.png[/img][/url]
