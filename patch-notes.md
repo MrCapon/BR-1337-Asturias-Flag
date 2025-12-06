@@ -6,6 +6,7 @@
 - Changes the Elysian cultures colors to roughly match the tone of their vicky 3 counterpart.
 - fixes the localization for all Roman cultures to use their Anglic-Greek transliteration names.
 - Adds in regional Kilikioi as another Romaioi sub culture and Dialect.
+- Added in Elyrics culture and dialect as an Elysian/Native Mixed culture.
 
 ## Added a few more provinces to Vinland
 - Added a few more provinces to Vinland
