@@ -23615,6 +23615,7 @@ minguannan: "Minguannan"
 tappahanna: "Tappahanna"
 assawoman: "Assawoman"
 wicomico: "Wicomico"
+
 chicamacomico: "Tempestia" #BR
 matapeake: "Auroralitus" #BR
 patapsco: "Portus Solis" #BR
@@ -23624,25 +23625,26 @@ patuxent: "Patrinium" #BR
 anacostia: "Anakora" #BR
 monocacy: "Monodemia" #BR
 potapoco: "Pothalassa" #BR
-conococheague: "Conococheague"
-catoctin: "Catoctin"
-antietam: "Antietam"
-werowocomoco: "Werowocomoco"
+conococheague: "Konokochegos" #BR
+catoctin: "Katoktinon" #BR
+antietam: "Antietamon" #BR
+werowocomoco: "Verokomokos" #BR
 patawomeck: "Potamosia" #BR
-wicocomico: "Wicocomico"
-nanzatico: "Nanzatico"
-rappahannock: "Rappahannock"
-kiskiack: "Kiskiack"
-accomac: "Accomac"
-nansemond: "Nansemond"
-chesapeake: "Chesapeake"
-weyanock: "Weyanock"
-powhatan: "Powahatan"
-appamatuck: "Appamatuck"
-cheroenhaka: "Cheroenhaka"
-waqua: "Waqua"
-pamunkey: "Pamunkey"
+wicocomico: "Oikokomicos" #BR
+nanzatico: "Nanzatikos" #BR
+rappahannock: "Rappanakos" #BR
+kiskiack: "Kiskiakon" #BR
+accomac: "Accomakos" #BR
+nansemond: "Nansemon" #BR
+chesapeake: "Kesapikos" #BR
+weyanock: "Ouanokos" #BR
+powhatan: "Poatanos" #BR
+appamatuck: "Appamatikos" #BR
+cheroenhaka: "Cheroenakos" #BR
+waqua: "Uakos" #BR
+pamunkey: "Pamungos" #BR
 doeg: "Dryopeia" #BR
+
 manassas: "Manassas"
 tegninateo: "Tenginateo"
 rassawek: "Rassawek"
