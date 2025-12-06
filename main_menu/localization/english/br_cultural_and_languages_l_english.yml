@@ -42,12 +42,14 @@
  hellulander: "Hellulander"
  kathurlander: "Kaðurlander"
  innulander: "Innulåndic"
+ skraeling: "Skraeling"
  
  vinlander_language: "Vinlandic"
  vinland_dialect: "Vinland Dialect"
  markland_dialect: "Markland Dialect"
  helluland_dialect: "Helluland Dialect"
  kathurland_dialect: "Kaðurland Dialect"
+ skraeling_dialect: "Skraeling Dialect"
  
  ililimowin_dialect: "Cree Dialect"
  beothuk_dialect: "Beothuk Dialect"

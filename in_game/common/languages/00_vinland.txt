@@ -70,5 +70,6 @@
 		markland_dialect = {}
 		helluland_dialect = {}
 		kathurland_dialect = {}
+		skraeling_dialect = {}
 	}
 }

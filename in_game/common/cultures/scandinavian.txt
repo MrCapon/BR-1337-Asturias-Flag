@@ -230,3 +230,27 @@ anglo_norse_culture = {
 	
 	use_patronym = yes
 }
+
+skraeling_culture = {
+	language = skraeling_dialect
+	
+	color = rgb { 71 98 138 }
+	
+	tags = { north_american_gfx american_gfx eastern_woodlands_coa_gfx european_gfx }
+	
+	opinions = {
+		norwegian = positive
+		icelandic = positive
+		marklander = kindred
+		hellulander = kindred
+		kathurlander = kindred
+		vinlander = kindred
+	}
+	
+	culture_groups = {
+		scandinavian_group
+		cree_group
+	}
+	
+	use_patronym = yes
+}
