@@ -137,6 +137,7 @@
 		indikes_dialect = {}
 		illyrikoi_dialect = {}
 		kilikioi_dialect = {}
+		elyrics_dialect = {}
 	}
 }
 

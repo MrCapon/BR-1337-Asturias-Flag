@@ -1,4 +1,5 @@
-﻿cappadocian_greek_culture = {
+﻿#BR edited Cultures
+cappadocian_greek_culture = {
 	language = cappadocian_dialect
 	color = rgb { 125 65 75 }
 	
@@ -75,6 +76,27 @@ pontic_greek_culture = {
 	}
 }
 
+gothic_culture = {
+	language = trapezuntine_dialect
+	color = map_FEO
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = kindred
+		griko_culture = positive
+		cappadocian_greek_culture = positive
+		pontic_greek_culture = positive
+		anatolian_greek_culture = positive #BR EDIT
+	}
+	
+	culture_groups = {
+		greek_group
+	}
+}
+
+#BR additional Regional Hellenic Cultures
+
 anatolian_greek_culture = { #BR addition
 	language = cappadocian_dialect
 	color = rgb { 205 38 50 }
@@ -88,25 +110,6 @@ anatolian_greek_culture = { #BR addition
 		gothic_culture = positive
 		pontic_greek_culture = positive
 		kilikioi_greek_culture = positive
-	}
-	
-	culture_groups = {
-		greek_group
-	}
-}
-
-gothic_culture = {
-	language = trapezuntine_dialect
-	color = map_FEO
-	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
-
-	opinions = {
-		greek_culture = kindred
-		griko_culture = positive
-		cappadocian_greek_culture = positive
-		pontic_greek_culture = positive
-		anatolian_greek_culture = positive #BR EDIT
 	}
 	
 	culture_groups = {
@@ -130,42 +133,6 @@ varangian = {
 	
 	use_patronym = yes
 	
-}
-
-aureliani = {
-	language = elysian_latin_dialect
-	color = rgb{ 168 35 108 }
-	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
-
-	opinions = {
-		greek_culture = positive
-		median = kindred
-		photianoi = kindred
-	}	
-	
-	culture_groups = {
-		greek_group
-		italian_group
-	}
-}
-
-photianoi = {
-	language = elysian_greek_dialect
-	color = rgb{ 128 35 118 }
-	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
-	
-	opinions = {
-		greek_culture = positive
-		median = positive
-		aureliani = kindred
-	}
-	
-	culture_groups = {
-		greek_group
-		italian_group
-	}
 }
 
 indikes_greek_culture = {
@@ -271,5 +238,61 @@ kilikioi_greek_culture = {
 	
 	culture_groups = {
 		greek_group
+	}
+}
+
+
+#Elysian
+
+aureliani = {
+	language = elysian_latin_dialect
+	color = rgb{ 168 35 108 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		greek_culture = positive
+		median = kindred
+		photianoi = kindred
+	}	
+	
+	culture_groups = {
+		greek_group
+		italian_group
+	}
+}
+
+photianoi = {
+	language = elysian_greek_dialect
+	color = rgb{ 128 35 118 }
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+		greek_culture = positive
+		median = positive
+		aureliani = kindred
+	}
+	
+	culture_groups = {
+		greek_group
+		italian_group
+	}
+}
+
+elyrics_culture = {
+	language = elyrics_dialect
+	color = rgb{ 128 65 118 }
+	
+	tags = { greek_gfx north_american_gfx eastern_woodlands_coa_gfx european_gfx }
+	
+	opinions = {
+		photianoi = kindred
+		aureliani = kindred
+	}
+	
+	culture_groups = {
+		greek_group #Need Elysian group
+		powhatan_group
 	}
 }

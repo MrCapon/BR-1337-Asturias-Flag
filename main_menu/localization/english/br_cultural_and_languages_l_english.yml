@@ -1,22 +1,31 @@
 ﻿l_english:
+
+ #Greco-Roman Cultures
  anatolian_greek_culture: "Anatolikoí"
  african_greek_culture: "Afrikanói"
  aegyptian_greek_culture: "Aigyptioi"
- mozarabic: "Mozárabe"
  varangian: "Varangioi"
  latinoi: "Latínoi"
- aureliani: "Elysilatinī"
- photianoi: "Elysinói"
  indikes_greek_culture: "Indikioi"
  syrenikoi_greek_culture: "Syrēnikoi"
  illyrikoi_greek_culture: "Illyrikoi"
- arab_sicilian: "Sīqilliyyūn"
- anglo_norse_culture: "Anglo-Norse"
  kilikioi_greek_culture: "Kilikioi"
  #Possible Eperiote
  #Possible Morean
+
+ #Anglo-Norse Cultures
+ anglo_norse_culture: "Anglo-Norse"
+
+ #Elysian Cultures
+ aureliani: "Elysilatinī"
+ photianoi: "Elysinói"
+ elyrics_culture: "Elyrics"
+
+ #Iberian/Arab
+ mozarabic: "Mozárabe"
+ arab_sicilian: "Sīqilliyyūn"
  
- #dialektos`
+ #dialektos
  khoine_dialect: "Koinē"
  achaean_dialect: "Achaïkē"
  constantinopolitan_dialect: "Kōnstantinopolitikē"
@@ -31,6 +40,7 @@
  indikes_dialect: "Indikē"
  illyrikoi_dialect: "Dyrrachitinē"
  kilikioi_dialect: "Kilikikē"
+ elyrics_dialect: "Elyrics Dialect"
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"
