@@ -347,6 +347,10 @@ countries = {
 				wipetikil
 				mekapisk
 				red_bay
+				baie_verte walnaypek akilasiewakik
+			}
+			own_control_integrated = {
+				upsukdaskooch
 			}
 			
 			capital = belle_isle
@@ -417,9 +421,8 @@ countries = {
 		
 		BEO = {
 			own_control_core = {
-				eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem
+				eimastukwek epwikek kutapuskuj pgotapesg wli_qospem
 				gosaoie nogamsig meelpaeg amasipukwek sibook
-				baie_verte walnaypek akilasiewakik
 				cape_spear bacalhieu mekwiskajk mollyhuajeck
 				placentia cape_race maqtewey nukamkiajijk miquelon
 			}
@@ -428,7 +431,8 @@ countries = {
 				naskwotchu
 				wipetikil
 				mekapisk
-				red_bay
+				upsukdaskooch
+				baie_verte walnaypek akilasiewakik
 			}
 			
 			capital = maqtewey
