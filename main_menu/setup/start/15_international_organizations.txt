@@ -33,9 +33,9 @@ international_organization_manager = {
 	#################################################################
 	add_international_organization = {
 		type = hre
-		creation_date = 962.2.2
+		creation_date = 800.2.2 #In 800 Charlemagne was crowned emperor in Rome by Pope Leo III.
 
-		map_color = hsv360 { 40 50 70 }
+		map_color = rgb { 20  50  190 }
 
 		members = { LOT FRA UBV CRH LBV SLZ TIR BRC BAM PSS GRF FRE TNT CLI ORT PAL REG BRA AUG WUR MEI MAG HES MAI HAI ABA ASD ATI CEV CHX CNV MTB BLL BNT HBG
 		COT CRR FLO GEN LUC MAN MFA MLO MND MSP PAR PAV PIE PIS PRA SAL SAV GNV SIE PTG TTN VLT HOL BRB LUX LIE CHN LIM NAM LOO VBG HRN CJK BSC VER MOU DAU ORA FRT BXN
@@ -459,11 +459,12 @@ international_organization_manager = {
 	}
 
 	#################################################################
-	# 				Ilkhanate										#
+	# 				Seljuks										#
 	#################################################################
 	add_international_organization = {
 		type = ilkhanate
-		creation_date = 1260.1.1
+		creation_date = 1066.1.1 #somewhere around there
+		map_color = rgb { 60 150 230 }
 		members = { 
 			#Borjigid Faction
 
