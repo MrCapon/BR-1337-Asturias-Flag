@@ -1,18 +1,40 @@
 ﻿l_english:
 
- LON: "Asturias"
- LON_ADJ: "Asturias"
- LON_LONG: "Crown of $LON$"
+ #ERE tags
+ ANA: "Anatolía" # Endonym: Greek name for Anatolia
+ ANA_ADJ: "Anatolikós" # Greek adjective meaning "of Anatolia"
+ KAP: "Kappadokía" # Endonym: Greek name for Cappadocia
+ KAP_ADJ: "Kappadokiakós"
+ MOE: "Mōrea" # Endonym: Greek name for the Peloponnese
+ MOE_ADJ: "Mōraïkós"
+ PAF: "Paphlagonía" # Endonym: Greek name for Paphlagonia
+ PAF_ADJ: "Paphlagoniakós"
+ DYR: "Dyrrachíon" # Endonym: Greek name for Dyrrachium
+ DYR_ADJ: "Dyrrachitós"
+ AOI: "Antiócheia" # Endonym: Greek name for Antioch
+ AOI_ADJ: "Antiochéios"
+ OHS: "Hagion Taphon" # Real Greek endonym for Holy Sepulchre
+ OHS_ADJ: "Hagiotaphitós" 
+ AON: "Anatolikōn" # Stylized endonym for general Anatolian region
+ AON_ADJ: "Anatolikós"
+ ICO: "Ikonión" # Endonym: Greek name for Iconium
+ ICO_ADJ: "Ikoniéus"
+ RIC: "Hetaireía Indikēs" # Stylized endonym for Emporikē Hetaireia tēs Indikēs
+ RIC_ADJ: "Indikēís"
+ BNK: "Bankaropoulos" # Fun stylized Greek-style endonym
+ BNK_ADJ: "Bankaropoulakós"
+ MKB: "Makrembolitēs" # Greek name for Makrembolites (historic/family-based state)
+ MKB_ADJ: "Makrembolitikós"
+ CHY: "Chrysotrapeziōtai" # Greek name for Chrysotrapeziōtai
+ CHY_ADJ: "Chrysotrapezitakós"
+ AGY: "Aigyptios" # Endonym: Greek name for Egypt
+ AGY_ADJ: "Aigyptiakós"
+ AFK: "Afrikí" # Greek-flavored endonym for Africa
+ AFK_ADJ: "Afrikiakós"
+ INK: "Indikē" # Greek-flavored endonym for India
+ INK_ADJ: "Indikós"
 
-  #ERE tags
- ANA: "Anatolia"
- ANA_ADJ: "Anatolian"
- KAP: "Kappadokía"
- KAP_ADJ: "Kappadokían"
- MOE: "Morea"
- MOE_ADJ: "Morean"
- PAF: "Paphlagonia"
- PAF_ADJ: "Paphlagonian"
+ #Armenia and Georgia
  DER: "Terzn"
  DER_ADJ: "Terzn"
  KOG: "Koghoni"
@@ -23,32 +45,10 @@
  VAN_ADJ: "Vaspurakan"
  GAN: "Gandzakakan"
  GAN_ADJ: "Gandzakakan"
- DYR: "Dyrrachíon"
- DYR_ADJ: "Dyrrachíon"
- AOI: "Antiócheia"
- AOI_ADJ: "Antiócheian"
- OHS: "Holy Sepulchre"
- OHS_ADJ: "Holy Sepulchre"
  SGO: "Order of Saint George"
  SGO_ADJ: "Saint George"
- AON: "Anatolikōn"
- AON_ADJ: "Anatolikōn"
- ICO: "Iconion"
- ICO_ADJ: "Iconion"
- RIC: "Hetaireia Indikēs" #Emporikē Hetaireia tēs Indikēs
- RIC_ADJ: "Hetaireia Indikēs"
- BNK: "Bankaropoulos" #funny but surprisingly plausible
- BNK_ADJ: "Bankaropoulos"
- MKB: "Makrembolitēs"
- MKB_ADJ: "Makrembolitēs"
- CHY: "Chrysotrapeziōtai"
- CHY_ADJ: "Chrysotrapeziōtai"
- AGY: "Aigyptios"
- AGY_ADJ: "Aegyptian"
- AFK: "Afrika"
- AFK_ADJ: "Afrikan"
- INK: "Indikēs"
- INK_ADJ: "Indikēs"
+
+ #Iberia
  
  # British Isles
  AGL: "Anglia"
