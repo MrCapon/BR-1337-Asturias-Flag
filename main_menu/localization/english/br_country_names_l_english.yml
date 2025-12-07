@@ -49,6 +49,9 @@
  SGO_ADJ: "Saint George"
 
  #Iberia
+ LON: "Asturias"
+ LON_ADJ: "Asturias"
+ LON_LONG: "Crown of $LON$"
  
  # British Isles
  AGL: "Anglia"
