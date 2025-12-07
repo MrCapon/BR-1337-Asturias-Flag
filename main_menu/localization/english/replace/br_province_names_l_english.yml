@@ -69,7 +69,11 @@
  lemnos_province: "Limnós"                 # Lemnos
  naxos_province: "Naxos"                   # Naxos
  rodos_province: "Ródos"                   # Rhodes
- cafa_province: "Khersonēsos"              # Caffa/Khersonesos (Black Sea colony)
+
+ #Taurcia
+ gothia_province: "Khersonēsos"       # Historic Greek name for Cherson/Gothia region
+ cafa_province: "Theodosía"           # Original Greek name of Caffa/Feodosia
+
 
  # Egypt & Cyrenaica
  al_jifar_province: "Rhinokóroura"         # Rhinocorura (ancient frontier town)
