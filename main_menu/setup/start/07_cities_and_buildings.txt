@@ -3476,7 +3476,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = MAM level = 1 location = el_bahnasa }
 	nobles_recruitment_center = { tag = MAM level = 1 location = samanoud }
 	nobles_recruitment_center = { tag = MAM level = 1 location = kafr_saqr }
-	weapon_guild = { tag = MAM level = 6 location = cairo }
+	weapon_guild = { tag = MAM level = 8 location = cairo }
 	weapon_guild = { tag = MAM level = 4 location = damascus }
 	jewelry_guild = { tag = MAM level = 2 location = cairo }
 	jewelry_guild = { tag = MAM level = 1 location = damascus }
@@ -4154,6 +4154,7 @@ building_manager = {
 	paper_guild = { tag = BYZ level = 5 location =  constantinople }
 	porcelain_guild = { tag = BYZ level = 6 location =  constantinople }
 	pottery_guild = { tag = BYZ level = 4 location =  constantinople }
+	jewelry_guild = { tag = BYZ level = 5 location =  constantinople }
 	tools_guild = { tag = BYZ level = 4 location =  constantinople }
 	weapon_guild = { tag = BYZ level = 4 location =  constantinople }
 	scriptorium = { tag = BYZ level = 8 location =  constantinople }
@@ -4221,6 +4222,16 @@ building_manager = {
 	sand_pit = { tag = BYZ level = 1 location = izmit }
 	sand_pit = { tag = BYZ level = 1 location = uskudar }
 	sand_pit = { tag = BYZ level = 2 location = constantinople }
+
+	farming_village = { tag = BYZ level = 1 location = silivri }
+	farming_village = { tag = CIL level = 1 location = iskenderun }
+	farming_village = { tag = CIL level = 1 location = sis }
+	farming_village = { tag = BYZ level = 1 location = gonen }
+	farming_village = { tag = ICO level = 1 location = turgut }
+	farming_village = { tag = PAF level = 1 location = devrekani }
+	farming_village = { tag = THS level = 1 location = tyrnavos }
+	farming_village = { tag = AON level = 1 location = cubuk }
+	farming_village = { tag = THE level = 1 location = giannitsa }
 
 
 	bailiff = { tag = BYZ level = 1 location = bozan }
@@ -4934,6 +4945,19 @@ building_manager = {
 	fishing_village = { tag = QTA level = 1 location = zula }
 	fishing_village = { tag = YEM level = 1 location = as_salif }
 	fishing_village = { tag = ORM level = 1 location = sur }
+
+	farming_village = { tag = MAM level = 1 location = menouf }
+	farming_village = { tag = MAM level = 1 location = beni_suef }
+	farming_village = { tag = MAM level = 1 location = samanoud }
+	farming_village = { tag = MAM level = 1 location = damanhur }
+	farming_village = { tag = MAM level = 1 location = kafr_saqr }
+	farming_village = { tag = MAM level = 1 location = al_mima }
+	farming_village = { tag = MAM level = 1 location = majdal }
+	farming_village = { tag = MAM level = 1 location = jaffa }
+
+	farming_village = { tag = TUN level = 1 location = el_fahs }
+	farming_village = { tag = TUN level = 1 location = zaghouan }
+	farming_village = { tag = TUN level = 1 location = kelibia }
 
 
 #BR added estate buildings
