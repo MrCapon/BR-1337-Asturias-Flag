@@ -778,6 +778,26 @@ countries = {
 			include = "expl_eastern_seaboard"
 		}
 		
+		E5Y = {
+			own_control_core = {
+				patawomeck
+			}
+			
+			capital = patawomeck
+			include = "elysian_foothold"
+			country_rank = rank_county
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+			}
+			
+			tolerated_cultures = {
+				doeg_culture
+			}
+			
+			include = "expl_eastern_seaboard"
+		}
 		#Rappahannock
 		RPP = {
 			own_control_core = {

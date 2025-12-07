@@ -26,3 +26,10 @@ E4Y = { #BR addition
 	culture_definition = photianoi #Placeholder
 	religion_definition = orthodox #Placeholder
 }
+
+E5Y = { #BR addition
+	color = rgb { 150 98 85 }
+
+	culture_definition = elyrics_culture
+	religion_definition = hellenism_religion
+}

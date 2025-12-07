@@ -274,6 +274,9 @@ building_manager = {
 	parish_church = { tag = E2Y level = 1 location = nansemond }
 	parish_church = { tag = E2Y level = 1 location = kiskiack }
 	
+	tribal_war_camp = { tag = E5Y level = 1 location =  patawomeck }
+	tribal_hunting_lodge = { tag = E5Y level = 1 location =  patawomeck }
+	tribal_market_villages = { tag = E5Y level = 1 location =  patawomeck }
 	####---------- Cahokia ----------####
 	#--
 	

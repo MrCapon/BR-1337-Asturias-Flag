@@ -3799,15 +3799,19 @@ locations = {
 		define_pop = {	type = tribesmen	size = 2.272	culture = munsee_culture	religion = midewiwin_religion }
 	}
 	tetamekanch = {
+		define_pop = {	type = tribesmen	size = 1.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.254	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	kechemeche = {
+		define_pop = {	type = tribesmen	size = 1.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.254	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	cohansey = {
+		define_pop = {	type = tribesmen	size = 1.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 4.517	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	amintonck = {
+		define_pop = {	type = tribesmen	size = 1.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.254	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	assunpink = {
@@ -3899,12 +3903,15 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.340	culture = carantouan_culture	religion = iroquoian_totemism }
 	}
 	minguannan = {
+		define_pop = {	type = tribesmen	size = 2.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 5.920	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	tappahanna = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 1.992	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	assawoman = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 1.851	culture = unalachtigo_culture	religion = midewiwin_religion }
 	}
 	loyalsock = {
@@ -3956,6 +3963,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.841	culture = honniasont_culture	religion = iroquoian_totemism }
 	}
 	wicomico = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 2.413	culture = accomac_culture	religion = midewiwin_religion }
 	}
 	chicamacomico = {
@@ -4003,12 +4011,15 @@ locations = {
 		define_pop = {	type = slaves	size = 1.000	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	anacostia = {
+		define_pop = {	type = tribesmen	size = 3.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.815	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	monocacy = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 1.992	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	potapoco = {
+		define_pop = {	type = tribesmen	size = 3.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.815	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	catoctin = {
@@ -4027,10 +4038,14 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.262	culture = hathawekela_culture	religion = mississippian_ceremonial }
 	}
 	werowocomoco = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 2.491	culture = rappahannock_culture	religion = midewiwin_religion }
 	}
 	patawomeck = {
-		define_pop = {	type = tribesmen	size = 3.675	culture = doeg_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 5.912	culture = elyrics_culture	religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 1.912	culture = elyrics_culture	religion = orthodox }
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 2.675	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	wicocomico = {
 		define_pop = {	type = peasants		size = 2.106	culture = photianoi religion = orthodox }
@@ -4039,9 +4054,11 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.912	culture = rappahannock_culture	religion = midewiwin_religion }
 	}
 	nanzatico = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 2.553	culture = rappahannock_culture	religion = midewiwin_religion }
 	}
 	rappahannock = {
+		define_pop = {	type = tribesmen	size = 1.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 5.499	culture = rappahannock_culture	religion = midewiwin_religion }
 	}
 	kiskiack = {
@@ -4053,6 +4070,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 2.815	culture = nansemond_culture	religion = midewiwin_religion }
 	}
 	accomac = {
+		define_pop = {	type = tribesmen	size = 0.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.815	culture = accomac_culture	religion = midewiwin_religion }
 	}
 	nansemond = {
@@ -4101,9 +4119,11 @@ locations = {
 		define_pop = {	type = tribesmen	size = 4.946	culture = powhatan_culture	religion = midewiwin_religion }
 	}
 	doeg = {
+		define_pop = {	type = tribesmen	size = 2.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 4.798	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	manassas = {
+		define_pop = {	type = tribesmen	size = 1.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 1.992	culture = doeg_culture	religion = midewiwin_religion }
 	}
 	tegninateo = {

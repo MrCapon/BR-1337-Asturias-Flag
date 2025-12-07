@@ -282,10 +282,10 @@ photianoi = {
 
 elyrics_culture = {
 	language = elyrics_dialect
-	color = rgb{ 128 65 118 }
+	color = rgb{ 128 90 118 }
 	
-	tags = { greek_gfx north_american_gfx eastern_woodlands_coa_gfx european_gfx }
-	
+	tags = { native_american_tag greek_gfx north_american_gfx american_gfx east_mediterranean_gfx mediterranean_gfx  }
+	#iroquois_gfx
 	opinions = {
 		photianoi = kindred
 		aureliani = kindred
