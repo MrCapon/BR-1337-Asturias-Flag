@@ -1,4 +1,18 @@
 
+# 0.2
+
+## HRE Organization.
+- organization creation date changed to 800 when Charlemagne was crowned emperor in Rome by Pope Leo III.
+- changed the HRE color
+
+## Localization
+- Updated all Roman province names (up to the borders of Basil II) to use consistent Greek endonyms.
+- Updated Theme and Pronoia subject names to follow the same naming conventions.
+
+## Buildings
+- added some more farming villages to Egypt, Tunis and Anatolia to help with the large grain shortage
+- Added few more weapon worshops to cairo.
+- More pottery to Egypt and Levant seemed like a weird place to have a shortage.
 
 # 0.1.2
 
