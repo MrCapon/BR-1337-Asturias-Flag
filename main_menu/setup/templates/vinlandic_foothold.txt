@@ -29,6 +29,7 @@ government = {
 		nobles_land_rights
 		noble_marriage_rights
 		noble_fortification_licenses
+		noble_sponsored_navy
 		
 		#clergy
 		clergy_literacy_rights
@@ -37,10 +38,15 @@ government = {
 		#burghers
 		market_fairs
 		formal_guilds
-		
+		sponsor_maritime_contracts
+
 		#Commoners
 		allow_hunting
 		communal_lands
+		peasants_allowed_weapons_privilege
+	}
+	reforms = {
+		br_new_world_colonial_reform
 	}
 	
 	laws = {
