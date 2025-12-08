@@ -1,18 +1,35 @@
 
+## Summary
+A broad update focused on unifying Elysian culture, expanding Vinlandic development, refining HRE setup, improving localization consistency, and addressing several economic balance issues across the Mediterranean.
+
 # 0.2
 
-## HRE Organization.
-- organization creation date changed to 800 when Charlemagne was crowned emperor in Rome by Pope Leo III.
-- changed the HRE color
+## Elysium changes
+- Created elysian_culture, elysian_language, and elysian_group.
+- Forming Elysium now switches to the unified Elysian culture. All Elysian cultures moved to the new Elysian group, and the Elysian language now merges Latin and Greek naming conventions.
+- Added a one-province Elyrics country: Elyriquassa.
+- Added more Elyric pops.
+
+## Vinland
+- Added additional pops, buildings, and states to Vinlandic countries.
+
+## HRE Organization
+- Organization creation date changed to 800 to reflect Charlemagne’s coronation by Pope Leo III.
+- Updated HRE color.
 
 ## Localization
 - Updated all Roman province names (up to the borders of Basil II) to use consistent Greek endonyms.
-- Updated Theme and Pronoia subject names to follow the same naming conventions.
+- Updated Theme and Pronoia subject names to follow the same conventions.
 
-## Buildings
-- added some more farming villages to Egypt, Tunis and Anatolia to help with the large grain shortage
-- Added few more weapon worshops to cairo.
-- More pottery to Egypt and Levant seemed like a weird place to have a shortage.
+## Balance changes
+- Added more farming villages to Egypt, Tunis, and Anatolia to help with grain shortages.
+- Added a few additional weapon workshops to Cairo.
+- Increased pottery production in Egypt and the Levant.
+- Minor population adjustments in South Italy.
+
+## Fixes
+- Added missing banks to the Patriarchate.
+
 
 # 0.1.2
 
