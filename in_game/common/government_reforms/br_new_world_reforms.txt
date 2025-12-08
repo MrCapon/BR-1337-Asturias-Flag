@@ -1,0 +1,34 @@
+﻿br_new_world_colonial_reform = {
+    age = age_1_traditions
+    potential = {
+        OR = {
+            #Elysians
+            culture = culture:aureliani
+            culture = culture:photianoi
+            culture = culture:elysian_culture
+            culture = culture:kykladian_culture
+
+            #Vinlanders
+            culture = culture:vinlander
+            culture = culture:marklander
+            culture = culture:hellulander
+            culture = culture:kathurlander
+
+            #Mixed Cultures
+            culture = culture:elyrics_culture
+            culture = culture:innulander
+            culture = culture:skraeling_culture
+        }
+    }
+    allow = {
+    }
+    country_modifier = {
+        can_recruit_explorer = yes
+        may_explore = yes
+        exploration_maintenance_cost = -0.50
+        government_reform_slots = 1
+        can_invite_settlers = yes
+        global_population_growth = 0.00025
+    }
+    years = 2
+}
