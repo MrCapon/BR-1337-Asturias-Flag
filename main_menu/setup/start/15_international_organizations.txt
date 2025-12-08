@@ -573,6 +573,7 @@ international_organization_manager = {
 			#BR ADDED
 			ICO AON
 			MOE THS	KAP PAF	THE ATH ACH
+			BNK MKB CHY
 		}
 		variables = { 
 			religion = religion:orthodox
