@@ -18,5 +18,35 @@ government = {
 	capital_economy_vs_traditional_economy = -50
 	individualism_vs_communalism = 25
 	outward_vs_inward = -25
+
+	privilege = {
+		#nobles
+		nobles_land_rights
+		noble_marriage_rights
+		noble_fortification_licenses
+		
+		#clergy
+		clergy_literacy_rights
+		clergy_enforced_unity
+		
+		#burghers
+		market_fairs
+		formal_guilds
+		
+		#Commoners
+		allow_hunting
+		communal_lands
+		peasants_allowed_weapons_privilege
+	}
+
+	reforms = {
+		br_new_world_colonial_reform
+	}
+				
+	laws = {
+		#legal_code_law = byzantine_law
+		distribution_of_power_law = dop_favor_the_ruler
+		feudal_de_jure_law = by_blood
+	}
 	
 }
