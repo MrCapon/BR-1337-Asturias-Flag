@@ -376,6 +376,9 @@ countries = {
 				tessuialluk
 				tikigaksuagusik
 				aivitok
+				sheshatshiu
+				misha_shipu
+				kenamu
 			}
 			
 			capital = tikigaksuagusik
@@ -402,6 +405,7 @@ countries = {
 				navchak
 				koroc
 				tupirvialuit
+				kingmirtok
 			}
 			
 			capital = navchak
