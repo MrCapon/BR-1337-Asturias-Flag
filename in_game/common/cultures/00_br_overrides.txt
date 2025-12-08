@@ -26,3 +26,18 @@
 	
 	use_patronym = yes
 }
+
+REPLACE_OR_CREATE:southern_gallo_italic = { 
+	language = lombard_dialect
+	
+	color = rgb { 65 165 125 }
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
