@@ -63,7 +63,7 @@ br_elysian_slaving = {
 		OR = {
 			culture = culture:aureliani
             culture = culture:elysian_culture
-            culture = culture:kykladian_culture
+            #culture = culture:kykladian_culture
 		}
 	}
 	global_levy_size_modifier = 0.1

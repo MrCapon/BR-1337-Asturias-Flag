@@ -33,3 +33,10 @@ E5Y = { #BR addition
 	culture_definition = elyrics_culture
 	religion_definition = hellenism_religion
 }
+
+K1K = { #BR addition
+	color = rgb { 120 58 155 }
+
+	culture_definition = kykladian_culture
+	religion_definition = hellenism_religion
+}
