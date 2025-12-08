@@ -1,0 +1,68 @@
+﻿elysian_language = {
+
+	color = map_BYZ
+	family = romance_language_family
+
+	male_names = {
+		Appius Agrippa Aulus Caelus Decimus Decius Drusus name_faustus Gaius Gnaeus name_lucius Mamercus Manius name_mark Mettius Opiter 
+		Publius Postumus Proculus Quintus Secundus Septimus Servius name_sextus Spurius Tertius name_titus Tiberius Volero Volumnius name_octavius
+		Statius Tullus Volesus Vopiscus Caeso Paullus Hostus Numerius Sertor Potitus Vibius Cossus Arruns Camillus name_august
+		#Greek
+		name_adrian Akakios name_alexander name_alexis name_anastasius Anatolios
+		name_andrew name_andronikos Anthemios Anthimos Antiochos name_anthony Apollonios Argyros
+		name_arsenios name_artemios name_athanasius Bardas
+		name_bartholomew name_basil Belisarios Boethios Bosporios
+		name_christopher Chrysogonos name_damian name_nicodemus
+		name_dorotheos Eirenaios Eudoxios Eustratios
+		Euphemios Eusebios name_eustathius Evangelos name_gabriel Gennadios
+		Gerasimos name_germanus name_gregory Hektorios name_elias
+		Herakleios Hierotheos Himerios Lykos
+		name_george name_constantine name_paul Aineias name_ambrose
+		Chrysanthos name_demetrius Diogenes name_dennis Elpidios Herakles
+		name_castor name_matthew name_nestor Nikomedes name_orestes Palaemon Pelagios name_peter Philemon name_philip
+		Skantarios name_stephen name_theodore name_thomas Prokopios name_john Iason
+	}
+	female_names = {
+		name_agrippina Appia Aula Caesula Decima name_fausta Gaia Gnaea Hosta name_lucia Maio Mamerca Mania Marcia Maxima Mettia Mino Nona Numeria
+		Octavia Paulla Postuma Prima Procula Publia Quarta Quinta Secunda Septima Servia Sexta Spuria Statia Tertia Titia
+		Tiberia Tulla Vibia Volusa Vopisca
+		# Greek
+		name_alexandra name_adriana name_agatha name_agnes name_anastasia
+		name_anna Anthe Anthousa Antipatra name_antonia name_apollonia Athanasia name_barbara Basillike
+		Chrysogone Damiane Demetra Dionysia name_dorothy Aigidia name_irene Elaiodora Epiphania
+		name_eudokia name_eudoxia name_eugenie Eulalia Eunike name_euphemia name_euphrasia name_euphrosyne
+		Eupraxia name_eustathia Evanthia Garyphallia Gregoria name_helen
+		name_joanna Kale Konstantia
+		name_constance Kyra Kyriake Hypatia name_zoe
+		name_paraskevi
+	}
+	dynasty_names = {
+		name_helios name_anthony name_cassius	name_claude name_cornelius Fabius Flavius name_julius name_livius	name_marius name_octavius	Pompeius Sempronius Valerius
+	}
+	lowborn = {
+		Vorenius Pullo
+		Aburius	Accius Acilius Acutius Aebutius Aemilius Alienus Anicius Annius
+		Antius Antistius Appuleius Apronius Aquillius name_attilio Atius	Aufidius Aulius
+		Blossius name_aurelius Caecinus Caecilius Calavius Calpurnius Cantius Carvilius Catius Centenius	Cilnius	Cispius	Cloelius Cominius
+		Coruncanius Curiatius Curtius Curius Decius Domitius name_fabrice Foslius Fulcinius Fulvius Furius	Funius
+		Gabinius Galerius Gracchus Geganius Gellius	Herminius Horatius Hortensius Hostilius
+		Junius Juventius Laetorius Lartius Licinius name_lucius Lucretius Maelius Maenius Mamilius Manlius Marcius
+		Memmius Messius Metilius Minucius Mummius Nigidius Ninnius Nonius Numicius Numisius
+		Ofilius	Ogulnius Opimius Oppius Octacilius Ovidius Papirius Pinarius Plautius Plinius Postumius Pompilius 	
+		Pomponius Popillius Porcius Publilius Pupius Quintilius Quinctius Rabirius Resius Romilius Salonius Salvius Scribonius
+		Sergius	Sertorius Servilius	Sestius Sextius Sextilius Sicinius Silius Sulpicius Titius Tremulus Tullius Ulpius
+		Verginius Veturius Vesuvius Villius Viridius Volumnius
+		# Greek
+		Nikolaos Adamos Chloros Galatas Halkias name_papadopoulos Mallas Samaras Karagiannis Vlahos Ioannidis
+		Economou Papageorgiou Makris Konstantinidis Dimopoulos Georgiadis Vasiliou Kameniatis
+	}
+
+	patronym_prefix_son = "patronym_prefix_latin_son"
+	patronym_prefix_daughter = "patronym_prefix_latin_daughter"
+
+	location_suffix = "ensis"
+	
+	dialects = {
+
+	}
+}

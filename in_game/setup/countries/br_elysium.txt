@@ -1,7 +1,7 @@
 ﻿ELY = {
 	color = rgb { 99 15 13 }
 	
-	culture_definition = photianoi #Placeholder
+	culture_definition = elysian_culture
 	religion_definition = orthodox
 }
 
