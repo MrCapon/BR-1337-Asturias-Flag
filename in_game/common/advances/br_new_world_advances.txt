@@ -1,0 +1,91 @@
+﻿#unlock_cabinet_action = settle_the_frontier
+#colonial_maintenance_cost = -0.2
+#colonial_migration_size_modifier = 0.5
+#create_colonial_charter_cost_modifier = -0.2
+#unlock_law = colonial_policy
+#global_monthly_food_modifier = 0.10
+#global_population_growth = 0.00025
+#can_invite_settlers = yes
+
+#Vinland
+br_vinland_naval_raiding = {
+	age = age_1_traditions
+	icon = slavery_before_death
+
+	potential = { 
+		OR = {
+			#Vinlanders
+            culture = culture:vinlander
+            culture = culture:marklander
+            culture = culture:hellulander
+            culture = culture:kathurlander
+		}
+	}
+	global_levy_size_modifier = 0.25
+	allow_privateers_slave_raid = yes
+	can_hire_privateers = yes
+    auto_slave_raid_different_religion = yes
+
+    requires = colonies
+}
+
+br_vinland_naval_tradition = {
+	age = age_1_traditions
+	icon = diplomatic_range_age_1
+
+	potential = { 
+		OR = {
+			#Vinlanders
+            culture = culture:vinlander
+            culture = culture:marklander
+            culture = culture:hellulander
+            culture = culture:kathurlander
+		}
+	}
+	trade_range_modifier = 0.25
+    global_sailors_modifier = 0.50
+    global_fish_output_modifier = 0.1
+    #can_recruit_explorer = yes
+    #may_explore = yes
+    exploration_maintenance_cost = -0.50
+    navy_maintenance_cost = -0.25
+    global_maritime_presence_modifier = 0.1
+
+    requires = ship_building_advance
+}
+
+#Elysium
+br_elysian_slaving = {
+	age = age_1_traditions
+	icon = slavery_before_death
+
+	potential = { 
+		OR = {
+			culture = culture:aureliani
+            culture = culture:elysian_culture
+            culture = culture:kykladian_culture
+		}
+	}
+	global_levy_size_modifier = 0.1
+    auto_slave_raid_different_religion = yes
+
+    requires = colonies
+}
+
+br_kykladian_naval_tradition = {
+	age = age_1_traditions
+	icon = diplomatic_range_age_1
+
+	potential = { 
+		culture = culture:kykladian_culture
+	}
+    allow_privateers_slave_raid = yes
+	can_hire_privateers = yes
+    auto_slave_raid_different_religion = yes
+	trade_range_modifier = 0.25
+    global_sailors_modifier = 0.5
+    navy_maintenance_cost = -0.25
+    global_maritime_presence_modifier = 0.25
+
+    requires = ship_building_advance
+}
