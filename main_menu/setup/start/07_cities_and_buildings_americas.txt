@@ -227,27 +227,29 @@ locations = {
 building_manager = {
 	####---------- Vinland ----------####
 	#--
-	tribal_hunting_lodge = { tag = NRH level = 1 location = koroc }
+	forest_village = { tag = NRH level = 1 location = koroc }
 
 	fishing_village = { tag = NRH level = 1 location = navchak }
 	market_village = { tag = NRH level = 1 location = navchak }
-	rural_clothmaker = { tag = NRH level = 1 location = navchak }
+	#rural_clothmaker = { tag = NRH level = 1 location = navchak }
 	wharf = { tag = NRH level = 1 location = navchak }
-	
-	#tribal_war_camp = { tag = E5Y level = 1 location =  patawomeck }
-	#tribal_hunting_lodge = { tag = E5Y level = 1 location =  patawomeck }
-	#tribal_market_villages = { tag = E5Y level = 1 location =  patawomeck }
+
 
 	fishing_village = { tag = NRR level = 1 location = tessuialluk }
-	market_village = { tag = NRR level = 1 location = tikigaksuagusik }
-	rural_clothmaker = { tag = NRR level = 1 location = tikigaksuagusik }
+	market_village = { tag = NRR level = 2 location = tikigaksuagusik }
+	forest_village = { tag = NRR level = 1 location = tikigaksuagusik }
+	fishing_village = { tag = NRR level = 1 location = aivitok }
+	#rural_clothmaker = { tag = NRR level = 1 location = tikigaksuagusik }
 	wharf = { tag = NRR level = 1 location = tikigaksuagusik }
+
 
 	#Vinland
 	wharf = { tag = NRV level = 1 location = belle_isle }
+	tar_kiln = { tag = NRV level = 1 location = belle_isle }
 	wharf = { tag = NRC level = 1 location = ingonish }
 	fishing_village = { tag = NRV level = 1 location = walnaypek }
 	fishing_village = { tag = NRV level = 1 location = akilasiewakik }
+	forest_village = { tag = NRV level = 1 location = wipetikil }
 	
 	####---------- Canada ----------####
 	#--
@@ -311,6 +313,7 @@ building_manager = {
 	fishing_village = { tag = K1K level = 2 location = bahama }
 	fishing_village = { tag = K1K level = 2 location = guanahani }
 	fishing_village = { tag = K1K level = 3 location = west_sabaneneque }
+	tar_kiln = { tag = K1K level = 1 location = west_sabaneneque }
 
 	
 
