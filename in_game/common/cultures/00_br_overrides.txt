@@ -17,6 +17,7 @@
 		qayfengi = kindred
 		sephardi = kindred
 		teimani = kindred
+		greek_culture = positive
 	}
 	
 	culture_groups = {
@@ -50,6 +51,8 @@ REPLACE_OR_CREATE:armenian_culture = { #https://en.wikipedia.org/wiki/Armenians
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
+		georgian_culture = positive
+		greek_culture = positive
 	}	
 
 	culture_groups = {
@@ -65,6 +68,8 @@ REPLACE_OR_CREATE:georgian_culture = { #https://en.wikipedia.org/wiki/Georgians
 	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
+		armenian_culture = kindred
+		greek_culture = positive
 	}
 
 	culture_groups = {
@@ -80,6 +85,7 @@ REPLACE_OR_CREATE:coptic_culture = {
 	tags = { egyptian_gfx middle_east_gfx}
 
 	opinions = {
+		aegyptian_greek_culture = kindred
 		lower_egyptian_culture = positive
 		upper_egyptian_culture = positive
 		libyan_arabic_culture = positive
@@ -97,6 +103,8 @@ REPLACE_OR_CREATE:syriac_culture = {
 	tags = { levantine_gfx middle_east_gfx }
 
 	opinions = {
+		greek_culture = positive
+		syriac_culture = positive
 	}
 	
 	culture_groups = {
@@ -111,12 +119,118 @@ REPLACE_OR_CREATE:aromanian = {
 	
 	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
-	opinions = { #ADD
-	}	
+	opinions = {
+		greek_culture = positive
+		illyrikoi_greek_culture = positive
+	}
 	culture_groups = {
 		romanian_group roman_group
 	}
 }
+
+REPLACE_OR_CREATE:median = { 
+	language = median_dialect
+	
+	color = map_umbrian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		italian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:venetian = { 
+	language = venetian_dialect
+	
+	color = map_venetian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		latinoi = kindred
+		greek_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:sardinian = { 
+	language = sardinian_dialect
+	
+	color = map_sardinian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		griko_culture = kindred
+		greek_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:sicilian = { 
+	language = sicilian_dialect
+	
+	color = map_sicilian
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		griko_culture = kindred
+		greek_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:neapolitan = { 
+	language = neapolitan_dialect
+	
+	color = map_naples
+	
+	tags = { south_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		griko_culture = kindred
+		greek_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:dalmatian = {
+	language = dalmatian_dialect
+	
+	color = map_dalmatian
+	
+	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		venetian = kindred
+		greek_culture = positive
+		bosnian = positive
+		illyrikoi_greek_culture = positive
+	}
+	
+	culture_groups = {
+		italian_group
+	}
+}
+
+
 
 
 
