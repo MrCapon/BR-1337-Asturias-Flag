@@ -53,9 +53,9 @@ locations = {
 		rank = town
 		town_setup = greek_town_port
 	}
-	kiawah = {
+	abacoa = {
 		rank = town
-		town_setup = south_east_woodlands_town
+		town_setup = greek_town_port
 	}
 	
 	####---------- Great Plains ----------####
@@ -298,6 +298,22 @@ building_manager = {
 	tribal_war_camp = { tag = E5Y level = 1 location =  patawomeck }
 	tribal_hunting_lodge = { tag = E5Y level = 1 location =  patawomeck }
 	tribal_market_villages = { tag = E5Y level = 1 location =  patawomeck }
+
+	#kykladia
+	pirate_tavern = { tag = K1K level = 1 location = abacoa }
+	brothel = { tag = K1K level = 1 location = abacoa }
+	smuggler_cove = { tag = K1K level = 1 location = abacoa }
+	black_market = { tag = K1K level = 1 location = abacoa }
+	wharf = { tag = K1K level = 1 location = abacoa }
+	market_village = { tag = K1K level = 1 location = abacoa }
+	fishing_village = { tag = K1K level = 1 location = abacoa }
+
+	fishing_village = { tag = K1K level = 2 location = bahama }
+	fishing_village = { tag = K1K level = 2 location = guanahani }
+	fishing_village = { tag = K1K level = 3 location = west_sabaneneque }
+
+	
+
 	####---------- Cahokia ----------####
 	#--
 	

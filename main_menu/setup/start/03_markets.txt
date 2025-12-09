@@ -157,7 +157,7 @@ market_manager = {
 	
 	# Tsenacommacah
 	add_market = patapsco
-	add_market = kiawah
+	add_market = abacoa
 	
 	# Great Plains
 	add_market = cahokia

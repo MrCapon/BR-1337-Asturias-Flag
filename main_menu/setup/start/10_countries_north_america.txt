@@ -802,6 +802,42 @@ countries = {
 			
 			include = "expl_eastern_seaboard"
 		}
+		
+		K1K = {
+			own_control_core = {
+				abacoa bahama guanahani
+				west_sabaneneque
+			}
+			
+			capital = abacoa
+			include = "elysian_foothold"
+			country_rank = rank_county
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				reforms = {
+					harbor_administration
+					pirate_brethren_reform
+				}
+				
+				privilege = {
+					sponsor_maritime_contracts
+					formal_guilds
+				}
+			}
+			
+			tolerated_cultures = {
+				
+			}
+			
+			include = "expl_eastern_seaboard"
+			discovered_regions = {
+				caribbean_region
+			}
+		}
+		
 		#Rappahannock
 		RPP = {
 			own_control_core = {

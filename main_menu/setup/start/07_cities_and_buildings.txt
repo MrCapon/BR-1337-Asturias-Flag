@@ -4398,6 +4398,15 @@ building_manager = {
 	lazaretto = { tag = DYR level = 1 location = durres }
 	coastal_fort = { tag = BYZ level = 1 location = rodos }
 
+	#Added Pirates
+	#Black Sea
+	pirate_haven = { tag = GLH level = 1 location = melitopol }
+	pirate_haven = { tag = GLH level = 1 location = khadjibey }
+
+	#Mediterranean
+	pirate_haven = { tag = MLL level = 1 location = ciudadela_de_menorca }
+	pirate_haven = { tag = TLE level = 1 location = algiers }
+	pirate_haven = { tag = TLE level = 1 location = bejaia }
 
 	#Mesopotamia
 

@@ -2517,4 +2517,9 @@ locations = {
 	kosalu = {
 		legalism = yes
 	}
+
+	abacoa = {
+		legalism = yes
+		feudalism = yes
+	}
 }
