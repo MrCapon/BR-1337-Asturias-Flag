@@ -21,7 +21,7 @@
 	
 	culture_groups = {
 		jewish_group
-		greek_group
+		roman_group
 	}
 	
 	use_patronym = yes
@@ -41,3 +41,84 @@ REPLACE_OR_CREATE:southern_gallo_italic = {
 		italian_group
 	}
 }
+
+REPLACE_OR_CREATE:armenian_culture = { #https://en.wikipedia.org/wiki/Armenians
+	language = armenian_language #https://en.wikipedia.org/wiki/Armenian_language
+	
+	color = map_ARM
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+	}	
+
+	culture_groups = {
+		caucasian_group roman_group
+	}	
+}
+
+REPLACE_OR_CREATE:georgian_culture = { #https://en.wikipedia.org/wiki/Georgians
+	language = georgian_language #https://en.wikipedia.org/wiki/georgian_languages
+	
+	color = map_GEO
+	
+	tags = { caucasian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+	}
+
+	culture_groups = {
+		caucasian_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:coptic_culture = {
+	language = coptic_language 
+	
+	color = color_language_coptic
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	opinions = {
+		lower_egyptian_culture = positive
+		upper_egyptian_culture = positive
+		libyan_arabic_culture = positive
+	}
+	culture_groups = {
+		roman_group
+	}
+}
+
+REPLACE_OR_CREATE:syriac_culture = {
+	language = aramaic_language
+	
+	color = color_culture_syriac
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	opinions = {
+	}
+	
+	culture_groups = {
+		arabic_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:aromanian = { 
+	language = romanian_language
+	
+	color = map_aromanian
+	
+	tags = { romanian_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = { #ADD
+	}	
+	culture_groups = {
+		romanian_group roman_group
+	}
+}
+
+
+
+
+

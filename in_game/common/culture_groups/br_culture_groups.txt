@@ -8,3 +8,13 @@ elysian_group = {
 	location_modifier = {
 	}
 }
+
+roman_group = {
+	country_modifier = {
+	}
+	character_modifier = {
+	}
+	location_modifier = {
+	}
+}
+

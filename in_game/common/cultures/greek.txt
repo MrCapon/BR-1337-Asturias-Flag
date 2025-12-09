@@ -15,7 +15,7 @@ cappadocian_greek_culture = {
 	}
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -34,7 +34,7 @@ greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -54,7 +54,7 @@ griko_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -72,7 +72,7 @@ pontic_greek_culture = {
 	}
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -91,7 +91,7 @@ gothic_culture = {
 	}
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -113,7 +113,7 @@ anatolian_greek_culture = { #BR addition
 	}
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -128,7 +128,7 @@ varangian = {
 	}
 	
 	culture_groups = {
-		scandinavian_group greek_group
+		scandinavian_group roman_group
 	}
 	
 	use_patronym = yes
@@ -149,7 +149,7 @@ indikes_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -168,7 +168,7 @@ aegyptian_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -186,7 +186,7 @@ syrenikoi_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -204,7 +204,7 @@ african_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -219,7 +219,7 @@ illyrikoi_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }
 
@@ -237,6 +237,6 @@ kilikioi_greek_culture = {
 	}	
 	
 	culture_groups = {
-		greek_group
+		greek_group roman_group
 	}
 }

@@ -11,6 +11,6 @@
 	
 	culture_groups = {
 		italian_group
-		greek_group
+		roman_group
 	}
 }
