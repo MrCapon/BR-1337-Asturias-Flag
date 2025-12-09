@@ -1175,7 +1175,8 @@ building_manager = {
 	tar_kiln = { tag = SWE level = 1 location = ekenas }
 	tar_kiln = { tag = SWE level = 1 location = poytis }
 	
-
+	weapon_guild = { tag = SWE level = 2 location = stockholm }
+	wharf = { tag = SWE level = 1 location = stockholm }
 	
 	# Baltics
 	castle 		= { tag = PSK level = 1 location = izborsk }

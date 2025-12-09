@@ -51,6 +51,10 @@ countries = {
 				
 				valkeasaari kyyrola
 			}
+
+			own_control_integrated = {
+				tallinn narva padise rakvere rapla toolse vasknarva
+			}
 			
 			
 			own_control_colony = {
@@ -123,12 +127,12 @@ countries = {
 				serfdom_vs_free_subjects = 50
 				mercantilism_vs_free_trade = -10
 				belligerent_vs_conciliatory = 10
-				quality_vs_quantity = -5
+				quality_vs_quantity = -25
 				offensive_vs_defensive = -20
 				land_vs_naval = -10
 				capital_economy_vs_traditional_economy = 90
 				individualism_vs_communalism = -20
-				outward_vs_inward = -30
+				outward_vs_inward = -50
 				
 				privilege = {
 					#nobles
@@ -148,6 +152,7 @@ countries = {
 					peasants_free_peasantry
 					peasants_represented_in_parliament
 					land_owning_farmers
+					peasants_allowed_weapons_privilege
 				}
 				
 			}
@@ -170,9 +175,7 @@ countries = {
 				odense navskov assens svendborg
 				hammershus
 			}
-			own_control_integrated = {
-				tallinn narva padise rakvere rapla toolse vasknarva
-			}
+			
 			our_cores_conquered_by_others = {
 				varberg halmstad kungsbacka
 				ronneby bregne solvesborg
