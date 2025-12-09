@@ -4123,6 +4123,8 @@ countries = {
 				privilege = {
 					joint_assembly_decrees
 					ghazi_privilege
+					tribal_host
+					tribal_autonomy
 
 					dhimmi_abrahamic_communities
 					urban_development_grants
@@ -13111,7 +13113,6 @@ countries = {
 					zupa_districts
 					vlastele_krayishnik
 					feudal_mercenary_contracts
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -13301,7 +13302,7 @@ countries = {
 			own_control_core = {
 				#Banate of Croatia
 				bjelovar koprivnica kutina pakrac vaska virovitica
-				vukovar ilok pozega sremska_mitrovica petrovaradin
+				vukovar pozega
 				zagreb cakovec karlovac petrinja sisak slunj varazdin
 				gradiski_brod dubica
 				osijek
@@ -13311,6 +13312,7 @@ countries = {
 				zadar split
 				sibenik kaseg knin novigrad crikvenica senj
 				krk makarska sinj
+				sremska_mitrovica petrovaradin
 			}
 			starting_technology_level = 3
 			include = "expl_mediterranean"
@@ -13399,7 +13401,6 @@ countries = {
 				}
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -17565,6 +17566,7 @@ countries = {
 			
 			own_control_integrated = {
 				olsnica jaszbereny
+				sremska_mitrovica petrovaradin ilok
 			}
 			
 			starting_technology_level = 3
@@ -31217,7 +31219,6 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -31380,6 +31381,7 @@ countries = {
 				ruler_term = {	 character = dul_karaca start_date = 1337.1.1 }
 				ruler = dul_karaca
 				privilege = {
+					ghazi_privilege
 					#Dhimmi #BR ADDED
 					dhimmi_land_rights
 					dhimmi_administrative_posts
@@ -31927,7 +31929,7 @@ countries = {
 				}
 				privilege = {
 					#nobles
-					noble_armies
+					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -46493,7 +46495,6 @@ countries = {
 
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -48471,7 +48472,6 @@ countries = {
 				ruler = arm_zakare_iv
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -50911,10 +50911,10 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
+					akritai_privilege
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -50981,7 +50981,8 @@ countries = {
                     clergy_literacy_rights
                     auxilium_et_consilium
                     primacy_of_nobility
-                    noble_armies
+					akritai_privilege
+					peasants_allowed_weapons_privilege
                 }
 				
 				centralization_vs_decentralization = -75
@@ -51050,7 +51051,7 @@ countries = {
                     clergy_literacy_rights
                     auxilium_et_consilium
                     primacy_of_nobility
-                    noble_armies
+					akritai_privilege
                 }
 				
 				centralization_vs_decentralization = -75
@@ -51165,10 +51166,10 @@ countries = {
 				}
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
+					akritai_privilege
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -51224,10 +51225,11 @@ countries = {
 				}
 				privilege = {
 					#nobles
-					noble_armies
+					
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
+					akritai_privilege
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -51286,7 +51288,7 @@ countries = {
 				}
 				privilege = {
 					#nobles
-					noble_armies
+					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51344,7 +51346,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51393,7 +51395,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51435,7 +51437,6 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51474,7 +51475,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51517,7 +51518,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51556,7 +51557,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51594,7 +51595,7 @@ countries = {
 				
 				privilege = {
 					#nobles
-					noble_armies
+					
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees

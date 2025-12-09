@@ -4765,6 +4765,14 @@ building_manager = {
 	market_village = { tag = KAP level = 1 location = urgup }
 	market_village = { tag = SGO level = 2 location = costa }
 	fishing_village = { tag = SGO level = 1 location = tuapse }
+	fruit_orchard = { tag = AOI level = 1 location = antioch }
+	fruit_orchard = { tag = BYZ level = 1 location = silivri }
+	fruit_orchard = { tag = AON level = 1 location = ankara }
+	fruit_orchard = { tag = CIL level = 1 location = adana }
+	fruit_orchard = { tag = THS level = 1 location = larissa }
+	fruit_orchard = { tag = ATH level = 1 location = thebes }
+	fruit_orchard = { tag = ATH level = 1 location = megara }
+	market_village = { tag = KAP level = 2 location = elbistan }
 
 	#Italy
 	library = { tag = RAV level = 1 location = ravenna }
@@ -5217,6 +5225,7 @@ building_manager = {
 	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
 	nobles_recruitment_center = { tag = CRO level = 1 location = zagreb }
 	sergeantry = { tag = AOI level = 1 location = antioch }
+
 	
 #BR added fortifications
 	castle = { tag = KNI level = 1 location =  malta } #br edit
@@ -5267,6 +5276,7 @@ building_manager = {
 	stockade = { tag = GEN level = 1 location = samos }
 	stockade = { tag = GEN level = 1 location = foca }
 	stockade = { tag = GEN level = 1 location = amasra }
+	castle = { tag = KAP level = 1 location = elbistan }
 	castle = { tag = CRT level = 1 location =  candia }
 	castle = { tag = CYP level = 1 location =  nicosia_cyp }
 	castle = { tag = VEN level = 1 location =  novigrad }
