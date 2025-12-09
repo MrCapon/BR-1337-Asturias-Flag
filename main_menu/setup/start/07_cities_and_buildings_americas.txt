@@ -292,8 +292,8 @@ building_manager = {
 	forest_village = { tag = E2Y level = 1 location = pamunkey }
 	fishing_village = { tag = E2Y level = 1 location = chesapeake }
 	fishing_village = { tag = E2Y level = 1 location = weyanock }
-	market_village = { tag = E2Y level = 1 location = nansemond }
-	rural_clothmaker = { tag = E2Y level = 1 location = nansemond }
+	#market_village = { tag = E2Y level = 1 location = nansemond }
+	#rural_clothmaker = { tag = E2Y level = 1 location = nansemond }
 	parish_church = { tag = E2Y level = 1 location = nansemond }
 	parish_church = { tag = E2Y level = 1 location = kiskiack }
 	
@@ -307,8 +307,8 @@ building_manager = {
 	smuggler_cove = { tag = K1K level = 1 location = abacoa }
 	black_market = { tag = K1K level = 1 location = abacoa }
 	wharf = { tag = K1K level = 1 location = abacoa }
-	market_village = { tag = K1K level = 1 location = abacoa }
-	fishing_village = { tag = K1K level = 1 location = abacoa }
+	#market_village = { tag = K1K level = 1 location = abacoa }
+	#fishing_village = { tag = K1K level = 1 location = abacoa }
 
 	fishing_village = { tag = K1K level = 2 location = bahama }
 	fishing_village = { tag = K1K level = 2 location = guanahani }

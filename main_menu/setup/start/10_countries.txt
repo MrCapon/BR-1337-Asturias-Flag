@@ -242,12 +242,8 @@ countries = {
 				ruler_term = { character = dan_chistopher_ii start_date = 1329.1.1 end_date = 1332.8.2 regnal_number = 2 }
 				
 				
-				regency = nobles_estate_regency
-				active_regent = shl_gerhard_iii_holstein_rendsburg
 				start_regency_date = 1332.8.2
 				end_regency_date = 1400.1.1
-				heir = dan_valdemar_atterdag
-				designated_heir_reason = prince_in_exile
 				
 				regnal_numbers = {
 					name_guthrum = 1
@@ -31219,6 +31215,7 @@ countries = {
 				
 				privilege = {
 					#nobles
+					akritai_privilege
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
@@ -51002,7 +50999,7 @@ countries = {
 				stability = 75
 				army_tradition = 100
 			}
-			accepted_cultures = { armenian }
+			accepted_cultures = { armenian_culture }
 			
 			country_rank = rank_duchy
 			capital = marash
@@ -51071,7 +51068,7 @@ countries = {
 				stability = 75
 				army_tradition = 100
 			}
-			accepted_cultures = { armenian }
+			accepted_cultures = { armenian_culture }
 			
 			country_rank = rank_duchy
 			capital = costa

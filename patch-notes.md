@@ -1,6 +1,31 @@
 
-## Summary
-A broad update focused on unifying Elysian culture, expanding Vinlandic development, refining HRE setup, improving localization consistency, and addressing several economic balance issues across the Mediterranean.
+# 0.3
+
+# Unique government added.
+- Thema, Prónoia, Autonomía and Exarchate added.
+- Katepaníkion (Kingdom Tier subject in Italy or the Adriatic) and Apoikía (Colonial Subjects) will be added in a future update.
+
+# New and Edited Estate Privileges
+- Edited the French noble estate privileges to be available to Austrasia.
+- Edited Ghazi to be open to any Muslim country and made it allow slave raiding.
+- Created Akritai privilege to function similar to Ghazi, allowing Orthodox countries to raid religious enemies.
+
+## Culture
+roman_group added
+- roman_group: "Romaiokratía"  #Roman Commonwealth
+- roman_group_desc: "Cultures linked through the evolving legacy of the Roman Commonwealth, shaped by centuries of shared institutions, law, and governance. Though diverse in language and heritage, these societies reflect traditions formed under Roman influence, separate from but often adjacent to the older Hellenic world."
+
+## Map adjustments
+- Kykladia added as a small naval republic owning a couple islands in the Bahamas.
+- Adjusted the Turko-Roman border.
+- Danish Estonia given to Sweden.
+- Adjusted buildings in the New World colonies.
+
+# New Gov Reforms
+- Added a New World Colony reform for Vinlandic and Elysian cultures.
+
+# misc
+- Various minor adjustments.
 
 # 0.2
 
