@@ -4702,7 +4702,8 @@ building_manager = {
 	market_village = { tag = CYP level = 1 location = famagusta }
 	market_village = { tag = ANA level = 1 location = zile }
 	market_village = { tag = CIL level = 2 location = sis }
-	market_village = { tag = OHS level = 2 location = kapan }
+	forest_village = { tag = OHS level = 1 location = kapan }
+	market_village = { tag = OHS level = 1 location = ulnia }
 	tar_kiln = { tag = CIL level = 2 location = sis }
 	charcoal_maker = { tag = CIL level = 2 location = sis }
 	rural_clothmaker = { tag = CIL level = 1 location = sis }
@@ -5274,13 +5275,12 @@ building_manager = {
 	castle = { tag = AOI level = 1 location = antioch }
 
 	#Holy Sepulchre
-	order_headquarters = { tag = OHS level = 1 location =  kapan } 
+	order_headquarters = { tag = OHS level = 1 location =  ulnia } 
 	order_stronghold = { tag = OHS level = 1	location = ulnia }
-	sergeantry = { tag = DUL level = 1 location = marash }
-	nobility_fortifications = { tag = OHS level = 1 location = ulnia }
-	nobles_recruitment_center = { tag = OHS level = 1 location = kapan }
 	castle = { tag = OHS level = 1 location = ulnia }
-	stockade = { tag = OHS level = 1 location = kapan }
+	nobility_fortifications = { tag = KIL level = 1 location = marash }
+	nobles_recruitment_center = { tag = KIL level = 1 location = marash }
+	sergeantry = { tag = KIL level = 1 location = marash }
 
 	orthodox_order_commandery = { tag = OHS level = 1 location = ankara }
 	orthodox_order_commandery = { tag = OHS level = 1 location = sivas }

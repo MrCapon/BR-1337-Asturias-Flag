@@ -31166,6 +31166,12 @@ countries = {
 				laws = {
 					sharia_law = shafii_policy
 				}
+				timed_modifier = {
+					modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+					start_date = 1333.1.1
+					date = 1395.1.1
+					size = 0.75
+				}
 			}
 			
 			tolerated_cultures = {
@@ -31360,6 +31366,10 @@ countries = {
 				kilis afrin 
 				ayntab dluk
 				khanaser qastal salamiyya
+				kaysun
+				ithriya sukhnah taybah
+				arak huwwarin qaryatayn tadmur
+				deir_ez_zor tabqah rahba
 			}
 			
 			include = "expl_eastern_europe"
@@ -31383,8 +31393,14 @@ countries = {
 					sharia_law = ismaili_policy
 				}
 			}
-			
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1395.1.1
+				size = 0.75
+			}
 			capital = aleppo
+			country_rank = rank_duchy
 			religious_school = ismaili_school
 			tolerated_cultures = {
 				armenian_culture
@@ -31810,12 +31826,11 @@ countries = {
 		KIL = {
 			own_control_core = {
 				trapessac
-				besni enguzud marash elbistan goksun afsin
-				kaysun
+				besni enguzud marash
 
 			}
 			our_cores_conquered_by_others = {
-				ulnia
+				ulnia kaysun elbistan goksun afsin
 			}
 			
 			include = "expl_middle_east"
@@ -32611,15 +32626,9 @@ countries = {
 		#Al Fadl - FDL
 		FDL = {
 			own_control_core = {
-				ithriya sukhnah taybah
-				arak huwwarin qaryatayn tadmur
-			}
-			
-			own_control_integrated = {
 				zubala al_labbah al_thulayma al_waqbi linah lowqah
 				al_anbar hit ayn_tamr karbala
 				anah abu_kemal haditha
-				deir_ez_zor tabqah rahba
 			}
 			
 			starting_technology_level = 3
@@ -50938,6 +50947,9 @@ countries = {
 				#Holy Land cores
 				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
 			}
+		#	control = {
+		#		marash
+		#	}
 			
 			include = "catholic_military_order"
 			
@@ -50992,7 +51004,7 @@ countries = {
 			accepted_cultures = { armenian }
 			
 			country_rank = rank_duchy
-			capital = kapan
+			capital = marash
 
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
@@ -51306,6 +51318,7 @@ countries = {
 			}
 			
 			own_control_integrated = {
+				elbistan goksun afsin
 			}
 			
 			our_cores_conquered_by_others = {
@@ -51314,7 +51327,6 @@ countries = {
 				hacibektas
 				nevsehir
 				aksaray
-				elbistan goksun afsin
 			}
 			
 			starting_technology_level = 3
