@@ -48,6 +48,7 @@
  illyrikoi_dialect: "Dyrrachitinē"
  kilikioi_dialect: "Kilikikē"
  elyrics_dialect: "Elyrics Dialect"
+ gothic_dialect: "East Germanic" #Eastern or Crimean Gothic
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"

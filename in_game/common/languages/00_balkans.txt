@@ -138,6 +138,7 @@
 		illyrikoi_dialect = {}
 		kilikioi_dialect = {}
 		elyrics_dialect = {}
+		gothic_dialect = {} #Crimean Gothic should be a german dialect but trying this so they are not persecuted 
 	}
 }
 
