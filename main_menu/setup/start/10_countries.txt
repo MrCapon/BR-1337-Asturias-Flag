@@ -13718,17 +13718,19 @@ countries = {
 				avila arevalo villatoro #Avila
 				segovia cuellar fuentiduena pedraza sepulveda
 				valladolid medina_de_rioseco medina_del_campo penafiel tordesillas
-				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
+				zamora alba_de_aliste fermoselle toro villalpando
 				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 				palencia palenzuela aranda_de_duero
 				sto_domingo_silos
 				soria almazan berlanga burgo_de_osma
+				calatanazor medinaceli
 			}
 			
 			our_cores_conquered_by_others = {
 				burgos briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
 				santander laredo potes san_vicente_barquera
 				aguilar_de_campoo carrion_de_los_condes monzon_campos saldana reinosa
+				puebla_de_sanabria alcanices benavente
 			}
 			
 			starting_technology_level = 3
@@ -13913,6 +13915,7 @@ countries = {
 				burgos briviesca castrojeriz lerma miranda_de_ebro villadiego villarcayo
 				santander laredo potes san_vicente_barquera
 				aguilar_de_campoo carrion_de_los_condes monzon_campos saldana reinosa
+				puebla_de_sanabria alcanices benavente
 			}
 			
 			our_cores_conquered_by_others = {
@@ -14179,7 +14182,7 @@ countries = {
 				pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
 				saint_jean_pied_de_port #Gascony
 				bilbao anana durango onate salvatierra san_sebastian tolosa valmaseda vitoria
-				calatanazor medinaceli arnedo calahorra agreda
+				arnedo calahorra agreda
 				logrono najera #Burgos
 			}
 			
