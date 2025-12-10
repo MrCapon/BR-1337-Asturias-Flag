@@ -4282,7 +4282,35 @@ countries = {
 			include = "eastern_european_monarchy"
 		}
 		
-		#GAZ #BR REMOVED
+		GAZ = {	# Gazaria
+			own_control_core = {
+				tana kaffa vosporo #Black Sea
+			}
+
+			own_control_integrated = {
+				 
+			}
+
+			starting_technology_level = 3
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+			}
+			capital = tana
+
+			accepted_cultures = {
+				pontic_greek_culture
+			}
+
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_republic"
+		}
+
 		
 		#------------------ British Isles -------------------------
 		# ENG replaced by AGL and associated tags
@@ -4305,7 +4333,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				norwegian
+				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -4330,7 +4358,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				norwegian
+				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -4351,7 +4379,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				norwegian
+				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -4375,7 +4403,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				norwegian
+				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -4399,7 +4427,7 @@ countries = {
 			}
 			
 			accepted_cultures = {
-				norwegian
+				english
 			}
 			court_language = norwegian_dialect
 			country_rank = rank_duchy
@@ -13693,6 +13721,8 @@ countries = {
 				zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
 				salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 				palencia palenzuela aranda_de_duero
+				sto_domingo_silos
+				soria almazan berlanga burgo_de_osma
 			}
 			
 			our_cores_conquered_by_others = {
@@ -13880,7 +13910,7 @@ countries = {
 				ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
 				santiago_compostela finisterre lalin mellid noya pontevedra tuy
 				oviedo aviles cangas castropol llanes mieres tineo villaviciosa
-				burgos briviesca castrojeriz lerma miranda_de_ebro sto_domingo_silos villadiego villarcayo
+				burgos briviesca castrojeriz lerma miranda_de_ebro villadiego villarcayo
 				santander laredo potes san_vicente_barquera
 				aguilar_de_campoo carrion_de_los_condes monzon_campos saldana reinosa
 			}
@@ -14149,7 +14179,7 @@ countries = {
 				pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
 				saint_jean_pied_de_port #Gascony
 				bilbao anana durango onate salvatierra san_sebastian tolosa valmaseda vitoria
-				soria agreda almazan berlanga burgo_de_osma calahorra calatanazor medinaceli arnedo
+				calatanazor medinaceli arnedo calahorra agreda
 				logrono najera #Burgos
 			}
 			
@@ -31876,10 +31906,6 @@ countries = {
 			
 			own_control_integrated = {
 				taman
-				
-				#GAZ
-				tana kaffa vosporo
-				
 			}
 			
 			our_cores_conquered_by_others = {
@@ -31889,6 +31915,8 @@ countries = {
 				amasya merzifon
 				niksar sonisa
 				gadegara ladik_pontus
+				#GAZ
+				tana kaffa vosporo
 			}
 			
 			starting_technology_level = 3
@@ -31936,7 +31964,7 @@ countries = {
 				}
 			}
 			
-			country_rank = rank_kingdom #BR EDIT
+			country_rank = rank_duchy
 			capital = trebizond
 			
 			accepted_cultures = {

@@ -2669,6 +2669,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 1.031	culture = ciboney	religion = zemi_religion }
 	}
 	habana = {
+		define_pop = {	type = peasants		size = 0.206	culture = kykladian_culture religion = hellenism_religion }
 		define_pop = {	type = tribesmen	size = 0.956	culture = ciboney	religion = zemi_religion }
 	}
 	batanabo = {
