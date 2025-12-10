@@ -1,4 +1,5 @@
 ﻿latin_language = {
+
 	color = religion_catholic
 	family = romance_language_family
 
