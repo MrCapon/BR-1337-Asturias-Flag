@@ -1102,7 +1102,7 @@ italian_trading_capital = {
 	marketplace = 12 #BR increased from 5
 	jewelry_guild = 2
 	wharf = 1
-	dock = 1 #BR added
+	#dock = 1 #removed had shipyards added manually 
 	naval_supplies_guild = 2
 	burgher_mansion  = 1 #BR added estate building
 	guild_hall  = 1 #BR added estate building
@@ -1130,6 +1130,7 @@ italian_coastal_city = {
 	marketplace = 5 #BR EDIT
 	wharf = 1
 	naval_supplies_guild = 1
+	dock = 1 #BR added
 	guild_hall  = 1 #BR added estate building
 	artisan_guilds = 1 #BR added estate building
 	merchants_guild = 1 #BR added estate building
@@ -1390,3 +1391,12 @@ majapahit_city = {
 	wharf = 1
 	naval_supplies_guild = 3
 }
+
+#BR Added
+
+#elysian_coastal_town = {
+#}
+
+#elysian_town = {
+#}
+
