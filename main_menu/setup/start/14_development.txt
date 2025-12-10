@@ -156,9 +156,9 @@ development = {
 	ulster_area = -3
 
 	#iberia
-	valencia_area = 3
-	andalusia_area = 5
-	granada_area = 5
+	valencia_area = 5
+	andalusia_area = 10
+	granada_area = 8
 	#italy
 	sardinia_area = -10
 	sicily_area = -5
@@ -180,8 +180,8 @@ development = {
 	rhineland_area = 4
 	hesse_area = 4
 	#south germany
-	bohemia_area = -3
-	moravia_area = -3
+	bohemia_area = -5
+	moravia_area = -5
 	eastern_switzerland_area = -4
 	western_switzerland_area = -4
 	central_switzerland_area = -4
@@ -201,7 +201,8 @@ development = {
 	arkhangelsk_area = -10
 	#Africa
 	#egypt
-	cyrenaica_area = -10
+	cyrenaica_area = -5
+	tunis_area = 5
 	#swahili coast
 	wami_area = 5
 	rufiji_area = 5
@@ -246,6 +247,7 @@ development = {
 	desht_kipchak_area = -5
 	zhetysu_area = -3
 	#Arabia
+	iraq_arabi_area = 10
 	north_yemen_area = 5
 	south_yemen_area = 5
 	#Bengal
@@ -335,26 +337,29 @@ development = {
 	onondowaga_province = 1
 	
 	#unique locations
-	granada = 5
+	granada = 10
 	prague = 5
 	venice = 20
-	milano = 15
+	milano = 25
 	florence = 15
 	genoa = 15
 	antioch = 8
-	cairo = 5
+	cairo = 10
 	alexandria = 5
 	mecca = 10
-	tunis = 10
+	tunis = 15
 	tripoli = 5
 	medina = 8
 	baghdad = 25
+	isfahan = 12
+	rey = 8
+	tabriz = 10
 	damascus = 15
 	dadu = 10
 	paris = 10
 	cordoba = 20
 	lisbon = 5
-	zaragoza = 2
+	zaragoza = 5
 	salamanca = 2
 	segovia = 2
 	magdeburg = 5
@@ -363,6 +368,7 @@ development = {
 	frankfurt = 5
 	cologne = 5
 	aachen = 10
+	metz = 10
 	heidelberg = 3
 	vienna = 2
 	freiberg = 4
@@ -383,8 +389,12 @@ development = {
 	skaniatares = 1
 	tsikahiotsisto = 1
 	canajoharie = 1
-	constantinople = 35
+	constantinople = 40
 	thessaloniki = 15
 	smyrna = 10
+	ani = 10
+	theodoro = 12
+	kaffa = 5
+	tana = 12
 }
 
