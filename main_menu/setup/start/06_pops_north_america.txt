@@ -1231,6 +1231,9 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.318	culture = mikmaq_culture	religion = midewiwin_religion }
 	}
 	menageesenog = {
+		define_pop = {	type = clergy		size = 0.030	culture = kathurlander		religion = norse }
+		define_pop = {	type = peasants		size = 0.864	culture = kathurlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.106	culture = kathurlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.106	culture = mikmaq_culture	religion = midewiwin_religion }
 	}
 	ainslie_lake = {
@@ -4177,6 +4180,8 @@ locations = {
 		define_pop = {	type = tribesmen	size = 4.946	culture = powhatan_culture	religion = midewiwin_religion }
 	}
 	doeg = {
+		define_pop = {	type = peasants		size = 4.912	culture = elyrics_culture	religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 1.912	culture = elyrics_culture	religion = orthodox }
 		define_pop = {	type = tribesmen	size = 2.912	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 4.798	culture = doeg_culture	religion = midewiwin_religion }
 	}

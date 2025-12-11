@@ -473,6 +473,7 @@ countries = {
 				ingonish
 				cheticamp
 				kluskapewiktuk
+				menageesenog
 			}
 			
 			capital = ingonish
@@ -496,13 +497,13 @@ countries = {
 				amqui anagance antigonish apaqtukowatek askataliank aspotogan canso caraquet cascapedia
 				causapscal chebogue chicchoc chignecto chipoudy cobequid elsiktuk esekatik
 				gaspe  jijkwtuk kekwapskuk kennetook kjipuktuk kouchibouguac
-				maccan maleagit malpeque marsoui matane matapedia memramcook menageesenog miramichi mitis
+				maccan maleagit malpeque marsoui matane matapedia memramcook miramichi mitis
 				muinawamek musquedoboit neguac nepisiguit nictaux nisiamk nmejuaqnek oqumkikiak paspebiac
 				petitcodiac pewjeg pictou pogomeg pukusamkek qospemk restigouche richibucto seeboosis shubenacadie sipuk
 				tapu_tuitn tatamagouche tignish tracadie wekwayik weljuik wetewatoqsik wikipoq
 			}
 			our_cores_conquered_by_others = {
-				ingonish cheticamp kluskapewiktuk
+				ingonish cheticamp kluskapewiktuk menageesenog
 			}
 			
 			capital = kjipuktuk

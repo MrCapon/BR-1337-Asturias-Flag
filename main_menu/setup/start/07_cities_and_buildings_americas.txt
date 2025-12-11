@@ -286,6 +286,9 @@ building_manager = {
 	clay_pit = { tag = E1Y level = 1 location = matapeake }
 	parish_church = { tag = E1Y level = 1 location = matapeake }
 	parish_church = { tag = E1Y level = 1 location = patapsco }
+
+	#temple = { tag = DOE level = 1 location = doeg }
+	#mason = { tag = DOE level = 1 location = doeg }
 	
 	# E2Y - Elysium South
 	forest_village = { tag = E2Y level = 1 location = anacostia }
