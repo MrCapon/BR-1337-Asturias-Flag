@@ -4191,18 +4191,6 @@ building_manager = {
 	wharf = { tag = BYZ level = 1 location = smyrna }
 	cathedral = { tag = BYZ level = 1 location = smyrna }
 	marketplace	= { tag = BYZ level = 5 location = smyrna }
-	thema_headquarters = { tag = BYZ level = 1 location = iznik }
-	thema_headquarters = { tag = BYZ level = 1 location = smyrna }
-	thema_headquarters = { tag = BYZ level = 1 location = bursa }
-	thema_headquarters = { tag = BYZ level = 1 location = izmit }
-	thema_headquarters = { tag = BYZ level = 1 location = edirne }
-	thema_headquarters = { tag = BYZ level = 1 location = kutahya }
-	thema_headquarters = { tag = BYZ level = 1 location = karahisar_i_sahib }
-	thema_headquarters = { tag = BYZ level = 1 location = lazkiye }
-	thema_headquarters = { tag = BYZ level = 1 location = antalya }
-	thema_headquarters = { tag = BYZ level = 1 location = milas }
-	thema_headquarters = { tag = BYZ level = 1 location = bergama }
-	thema_headquarters = { tag = BYZ level = 1 location = uluborlu }
 	bridge_infrastructure = { tag = BYZ level = 1 location = edirne }
 	bridge_infrastructure = { tag = BYZ level = 1 location = atpazari }
 	bridge_infrastructure = { tag = BYZ level = 1 location = goynuk }
@@ -4369,6 +4357,139 @@ building_manager = {
 	tar_kiln = { tag = YEM level = 1 location = adan }
 	wharf = { tag = ORM level = 1 location = hormuz }
 	wharf = { tag = FAL level = 1 location = siraf }
+
+	#Manpower buildings added
+	#Anatolia
+	thema_headquarters = { tag = BYZ level = 1 location = iznik }
+	thema_headquarters = { tag = BYZ level = 1 location = smyrna }
+	thema_headquarters = { tag = BYZ level = 1 location = bursa }
+	thema_headquarters = { tag = BYZ level = 1 location = izmit }
+	thema_headquarters = { tag = BYZ level = 1 location = edirne }
+	thema_headquarters = { tag = BYZ level = 1 location = kutahya }
+	thema_headquarters = { tag = BYZ level = 1 location = karahisar_i_sahib }
+	thema_headquarters = { tag = BYZ level = 1 location = lazkiye }
+	thema_headquarters = { tag = BYZ level = 1 location = antalya }
+	thema_headquarters = { tag = BYZ level = 1 location = milas }
+	thema_headquarters = { tag = BYZ level = 1 location = bergama }
+	thema_headquarters = { tag = BYZ level = 1 location = uluborlu }
+	thema_headquarters = { tag = AON level = 1 location = ankara }
+	thema_headquarters = { tag = AON level = 1 location = amasya }
+	thema_headquarters = { tag = ICO level = 1 location = konya }
+	thema_headquarters = { tag = KAP level = 1 location = kayseri }
+	thema_headquarters = { tag = CIL level = 1 location = tarsus }
+	thema_headquarters = { tag = AOI level = 1 location = antioch }
+	thema_headquarters = { tag = PAF level = 1 location = kastamonu}
+	thema_headquarters = { tag = KIL level = 1 location = marash }
+	thema_headquarters = { tag = TRE level = 1 location = trebizond }
+	thema_headquarters = { tag = CYP level = 1 location = nicosia_cyp }
+	thema_headquarters = { tag = KAP level = 1 location = sivas }
+
+	weapon_guild = { tag = AON level = 2 location = ankara }
+	weapon_guild = { tag = ICO level = 2 location = konya }
+	weapon_guild = { tag = KAP level = 2 location = kayseri }
+
+	#Balkans
+	thema_headquarters = { tag = DYR level = 1 location = durres }
+	thema_headquarters = { tag = EPI level = 1 location = ioannina }
+	thema_headquarters = { tag = THE level = 1 location = thessaloniki }
+	thema_headquarters = { tag = THS level = 1 location = larissa }
+	thema_headquarters = { tag = ATH level = 1 location = athens }
+	thema_headquarters = { tag = BUL level = 1 location = plovdiv }
+	sergeantry = { tag = BUL level = 1 location = tarnovo }
+
+
+	#Estate Manpower buildings
+	nobles_recruitment_center = { tag = EPI level = 1 location = arta }
+	nobles_recruitment_center = { tag = EPI level = 1 location = angelokastron }
+	nobles_recruitment_center = { tag = ACH level = 1 location = andravida }
+	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
+	nobles_recruitment_center = { tag = CRO level = 1 location = zagreb }
+	nobles_recruitment_center = { tag = TRE level = 1 location = bafra }
+	nobles_recruitment_center = { tag = CIL level = 1 location = sis }
+	nobles_recruitment_center = { tag = CIL level = 1 location = adana }
+	nobles_recruitment_center = { tag = CIL level = 1 location = tarsus }
+	nobles_recruitment_center = { tag = ARM level = 1 location = ani }
+	nobles_recruitment_center = { tag = ARM level = 1 location = yerevan }
+	nobles_recruitment_center = { tag = GEO level = 1 location = tbilisi }
+	nobles_recruitment_center = { tag = ANA level = 1 location = aksaray }
+	nobles_recruitment_center = { tag = ANA level = 1 location = kirsehir }
+	nobles_recruitment_center = { tag = ANA level = 1 location = bozok }
+	nobles_recruitment_center = { tag = ANA level = 1 location = sungurlu }
+	nobles_recruitment_center = { tag = ANA level = 1 location = zile }
+	nobles_recruitment_center = { tag = ANA level = 1 location = eregli_kar }
+	nobles_recruitment_center = { tag = ANA level = 1 location = nigde }
+	nobles_recruitment_center = { tag = ANA level = 1 location = yalvac }
+	nobles_recruitment_center = { tag = KOG level = 1 location = sebinkarahisar }
+	nobles_recruitment_center = { tag = MES level = 1 location = arguvan }
+	nobles_recruitment_center = { tag = MES level = 1 location = malatya }
+	nobles_recruitment_center = { tag = DER level = 1 location = palu }
+	nobles_recruitment_center = { tag = CIL level = 1 location = alaiye }
+	nobles_recruitment_center = { tag = AOI level = 1 location = antioch }
+	nobles_recruitment_center = { tag = PAF level = 1 location = sinop }
+	nobles_recruitment_center = { tag = PAF level = 1 location = bayat }
+	nobles_recruitment_center = { tag = PAF level = 1 location = gumus }
+	nobles_recruitment_center = { tag = TRE level = 1 location = niksar }
+	nobles_recruitment_center = { tag = TRE level = 1 location = bayramlu }
+	nobles_recruitment_center = { tag = GEO level = 1 location = anaklia }
+	nobles_recruitment_center = { tag = GEO level = 1 location = kutaisi }
+	nobles_recruitment_center = { tag = GEO level = 1 location = rustavi }
+	nobles_recruitment_center = { tag = GEO level = 1 location = dmanisi }
+	peasants_training_grounds = { tag = ARM level = 1 location = yerevan }
+	peasants_training_grounds = { tag = ARM level = 1 location = surmali }
+	peasants_training_grounds = { tag = ARM level = 1 location = kars }
+	peasants_training_grounds = { tag = ARM level = 1 location = karakilise }
+	peasants_training_grounds = { tag = ARM level = 1 location = erzurum }
+	peasants_training_grounds = { tag = ARM level = 1 location = tercan }
+	peasants_training_grounds = { tag = DER level = 1 location = harput }
+	peasants_training_grounds = { tag = MES level = 1 location = arapgir }
+		nobles_recruitment_center = { tag = BUL level = 1 location = tarnovo }
+	nobles_recruitment_center = { tag = BUL level = 1 location = sredets }
+	nobles_recruitment_center = { tag = BUL level = 1 location = vidin }
+	nobles_recruitment_center = { tag = BUL level = 1 location = sliven }
+	nobles_recruitment_center = { tag = BUL level = 1 location = targoviste_BUL }
+	nobles_recruitment_center = { tag = BUL level = 1 location = drastar }
+	nobles_recruitment_center = { tag = BUL level = 1 location = pleven }
+	peasants_training_grounds = { tag = BUL level = 1 location = ruse }
+	peasants_training_grounds = { tag = BUL level = 1 location = cherven }
+	peasants_training_grounds = { tag = BUL level = 1 location = stanimaka }
+	peasants_training_grounds = { tag = BUL level = 1 location = shumen }
+	nobles_recruitment_center = { tag = SER level = 1 location = prizren }
+	nobles_recruitment_center = { tag = SER level = 1 location = ohrid }
+	nobles_recruitment_center = { tag = SER level = 1 location = skopje }
+	nobles_recruitment_center = { tag = SER level = 1 location = nis }
+	nobles_recruitment_center = { tag = SER level = 1 location = smederevo }
+	nobles_recruitment_center = { tag = SER level = 1 location = uzice }
+	nobles_recruitment_center = { tag = SER level = 1 location = soko_grad }
+	peasants_training_grounds = { tag = SER level = 1 location = trebinje }
+	peasants_training_grounds = { tag = SER level = 1 location = shkoder }
+	nobles_recruitment_center = { tag = SER level = 1 location = podgorica }
+	nobles_recruitment_center = { tag = BOS level = 1 location = zenica }
+	peasants_training_grounds = { tag = BOS level = 1 location = zenica }
+	peasants_training_grounds = { tag = BOS level = 1 location = soli }
+	peasants_training_grounds = { tag = BOS level = 1 location = kljuc }
+	peasants_training_grounds = { tag = BOS level = 1 location = mostar }
+	nobles_recruitment_center = { tag = SER level = 1 location = kucevo }
+	nobles_recruitment_center = { tag = SER level = 1 location = stalac }
+	nobles_recruitment_center = { tag = SER level = 1 location = velbuzd }
+	nobles_recruitment_center = { tag = DYR level = 1 location = durres }
+	peasants_training_grounds = { tag = SER level = 1 location = debar }
+	nobles_recruitment_center = { tag = SER level = 1 location = trgoviste_SER }
+	nobles_recruitment_center = { tag = SER level = 1 location = krupanj }
+	nobles_recruitment_center = { tag = BUL level = 1 location = sozopol }
+	nobles_recruitment_center = { tag = BUL level = 1 location = varna }
+	nobles_recruitment_center = { tag = BUL level = 1 location = constanta }
+	nobles_recruitment_center = { tag = BUL level = 1 location = stanimaka }
+	nobles_recruitment_center = { tag = BUL level = 1 location = melnik }
+	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
+	peasants_training_grounds = { tag = ANT level = 1 location = elbasan }
+	peasants_training_grounds = { tag = MTR level = 1 location = devol }
+	peasants_training_grounds = { tag = THP level = 1 location = kruje }
+	peasants_training_grounds = { tag = VEN level = 1 location = modon }
+	peasants_training_grounds = { tag = MOE level = 1 location = tripolitsa }
+	peasants_training_grounds = { tag = MOE level = 1 location = mystras }
+	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
+	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
+	
 
 	#Naval centers
 	lazaretto = { tag = BYZ level = 1 location = constantinople }
@@ -5005,7 +5126,6 @@ building_manager = {
 	clerical_archives = { tag = THE level = 1 location = thessaloniki }
 	merchants_guild = { tag = THE level = 1 location = thessaloniki }
 	artisan_guilds = { tag = THE level = 1 location = thessaloniki }
-	nobles_recruitment_center = { tag = THE level = 1 location = thessaloniki }
 	nobility_fortifications = { tag = BYZ level = 1 location = manavgat }
 	nobility_fortifications = { tag = BYZ level = 1 location = ustra }
 	nobility_fortifications = { tag = THE level = 1 location = edessa }
@@ -5032,67 +5152,19 @@ building_manager = {
 	merchants_guild = { tag = CRT level = 1 location = candia }
 	merchants_guild = { tag = DYR level = 1 location = durres }
 	merchants_guild = { tag = CYP level = 1 location = larnaca }
-	nobles_recruitment_center = { tag = EPI level = 1 location = ioannina }
 	noble_villa = { tag = EPI level = 1 location = arta }
-	peasants_training_grounds = { tag = MOE level = 1 location = tripolitsa }
-	parish_church = { tag = MOE level = 1 location = tripolitsa }
-	peasants_training_grounds = { tag = MOE level = 1 location = mystras }
 	parish_church = { tag = MOE level = 1 location = mystras }
-	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
+	parish_church = { tag = MOE level = 1 location = tripolitsa }
 	parish_church = { tag = ACH level = 1 location = kalamata }
-	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 	peasants_hunting_grounds  = { tag = MOE level = 1 location = karytaina }
 	peasants_hunting_grounds  = { tag = EPI level = 1 location = pyli }
 	local_schools  = { tag = ATH level = 1 location = corinth }
 	local_schools  = { tag = ACH level = 1 location = kalamata }
-	nobles_recruitment_center = { tag = BUL level = 1 location = tarnovo }
-	nobles_recruitment_center = { tag = BUL level = 1 location = sredets }
-	nobles_recruitment_center = { tag = BUL level = 1 location = vidin }
-	nobles_recruitment_center = { tag = BUL level = 1 location = sliven }
-	nobles_recruitment_center = { tag = BUL level = 1 location = targoviste_BUL }
-	nobles_recruitment_center = { tag = BUL level = 1 location = drastar }
-	nobles_recruitment_center = { tag = BUL level = 1 location = pleven }
-	peasants_training_grounds = { tag = BUL level = 1 location = ruse }
-	peasants_training_grounds = { tag = BUL level = 1 location = cherven }
-	peasants_training_grounds = { tag = BUL level = 1 location = stanimaka }
-	peasants_training_grounds = { tag = BUL level = 1 location = shumen }
 	guild_hall = { tag = BUL level = 1 location = plovdiv }
 	merchants_guild = { tag = BUL level = 1 location = plovdiv }
 	burgher_mansion = { tag = BUL level = 1 location = plovdiv }	
 	artisan_guilds = { tag = BUL level = 1 location = plovdiv }
-	nobles_recruitment_center = { tag = SER level = 1 location = prizren }
-	nobles_recruitment_center = { tag = SER level = 1 location = ohrid }
-	nobles_recruitment_center = { tag = SER level = 1 location = skopje }
-	nobles_recruitment_center = { tag = SER level = 1 location = nis }
-	nobles_recruitment_center = { tag = SER level = 1 location = smederevo }
-	nobles_recruitment_center = { tag = SER level = 1 location = uzice }
-	nobles_recruitment_center = { tag = SER level = 1 location = soko_grad }
-	peasants_training_grounds = { tag = SER level = 1 location = trebinje }
-	peasants_training_grounds = { tag = SER level = 1 location = shkoder }
-	nobles_recruitment_center = { tag = SER level = 1 location = podgorica }
-	nobles_recruitment_center = { tag = BOS level = 1 location = zenica }
-	peasants_training_grounds = { tag = BOS level = 1 location = zenica }
-	peasants_training_grounds = { tag = BOS level = 1 location = soli }
-	peasants_training_grounds = { tag = BOS level = 1 location = kljuc }
-	peasants_training_grounds = { tag = BOS level = 1 location = mostar }
-	nobles_recruitment_center = { tag = SER level = 1 location = kucevo }
-	nobles_recruitment_center = { tag = SER level = 1 location = stalac }
-	nobles_recruitment_center = { tag = SER level = 1 location = velbuzd }
-	nobles_recruitment_center = { tag = DYR level = 1 location = durres }
-	peasants_training_grounds = { tag = SER level = 1 location = debar }
-	nobles_recruitment_center = { tag = SER level = 1 location = trgoviste_SER }
-	nobles_recruitment_center = { tag = SER level = 1 location = krupanj }
-	nobles_recruitment_center = { tag = BUL level = 1 location = sozopol }
-	nobles_recruitment_center = { tag = BUL level = 1 location = varna }
-	nobles_recruitment_center = { tag = BUL level = 1 location = constanta }
-	nobles_recruitment_center = { tag = BUL level = 1 location = stanimaka }
-	nobles_recruitment_center = { tag = BUL level = 1 location = melnik }
-	nobles_recruitment_center = { tag = BUL level = 1 location = lardeja }
-	peasants_training_grounds = { tag = ANT level = 1 location = elbasan }
-	peasants_training_grounds = { tag = MTR level = 1 location = devol }
-	peasants_training_grounds = { tag = THP level = 1 location = kruje }
 	parish_church	= { tag = THP level = 1 location = tirana }
-	peasants_training_grounds = { tag = VEN level = 1 location = modon }
 	noble_villa = { tag = BYZ level = 1 location = uskudar }
 	noble_villa = { tag = BYZ level = 1 location = bilecik }
 	noble_villa = { tag = BYZ level = 1 location = akcasehir }
@@ -5131,52 +5203,6 @@ building_manager = {
 	artisan_guilds = { tag = BYZ level = 1 location = bursa }
 	artisan_guilds = { tag = BYZ level = 1 location = iznik }
 	artisan_guilds = { tag = BYZ level = 1 location = izmit }
-	nobles_recruitment_center = { tag = ANA level = 1 location = konya }
-	nobles_recruitment_center = { tag = ANA level = 1 location = ankara }
-	nobles_recruitment_center = { tag = KAP level = 1 location = sivas }
-	nobles_recruitment_center = { tag = KAP level = 1 location = kayseri }
-	nobles_recruitment_center = { tag = PAF level = 1 location = kastamonu }
-	nobles_recruitment_center = { tag = TRE level = 1 location = bafra }
-	nobles_recruitment_center = { tag = TRE level = 1 location = amasya }
-	nobles_recruitment_center = { tag = TRE level = 1 location = trebizond }
-	nobles_recruitment_center = { tag = CYP level = 1 location = nicosia_cyp }
-	nobles_recruitment_center = { tag = CIL level = 1 location = sis }
-	nobles_recruitment_center = { tag = CIL level = 1 location = adana }
-	nobles_recruitment_center = { tag = CIL level = 1 location = tarsus }
-	nobles_recruitment_center = { tag = ARM level = 1 location = ani }
-	nobles_recruitment_center = { tag = ARM level = 1 location = yerevan }
-	nobles_recruitment_center = { tag = GEO level = 1 location = tbilisi }
-	nobles_recruitment_center = { tag = ANA level = 1 location = aksaray }
-	nobles_recruitment_center = { tag = ANA level = 1 location = kirsehir }
-	nobles_recruitment_center = { tag = ANA level = 1 location = bozok }
-	nobles_recruitment_center = { tag = ANA level = 1 location = sungurlu }
-	nobles_recruitment_center = { tag = ANA level = 1 location = zile }
-	nobles_recruitment_center = { tag = ANA level = 1 location = eregli_kar }
-	nobles_recruitment_center = { tag = ANA level = 1 location = nigde }
-	nobles_recruitment_center = { tag = ANA level = 1 location = yalvac }
-	nobles_recruitment_center = { tag = KOG level = 1 location = sebinkarahisar }
-	nobles_recruitment_center = { tag = MES level = 1 location = arguvan }
-	nobles_recruitment_center = { tag = MES level = 1 location = malatya }
-	nobles_recruitment_center = { tag = DER level = 1 location = palu }
-	nobles_recruitment_center = { tag = CIL level = 1 location = alaiye }
-	nobles_recruitment_center = { tag = AOI level = 1 location = antioch }
-	nobles_recruitment_center = { tag = PAF level = 1 location = sinop }
-	nobles_recruitment_center = { tag = PAF level = 1 location = bayat }
-	nobles_recruitment_center = { tag = PAF level = 1 location = gumus }
-	nobles_recruitment_center = { tag = TRE level = 1 location = niksar }
-	nobles_recruitment_center = { tag = TRE level = 1 location = bayramlu }
-	nobles_recruitment_center = { tag = GEO level = 1 location = anaklia }
-	nobles_recruitment_center = { tag = GEO level = 1 location = kutaisi }
-	nobles_recruitment_center = { tag = GEO level = 1 location = rustavi }
-	nobles_recruitment_center = { tag = GEO level = 1 location = dmanisi }
-	peasants_training_grounds = { tag = ARM level = 1 location = yerevan }
-	peasants_training_grounds = { tag = ARM level = 1 location = surmali }
-	peasants_training_grounds = { tag = ARM level = 1 location = kars }
-	peasants_training_grounds = { tag = ARM level = 1 location = karakilise }
-	peasants_training_grounds = { tag = ARM level = 1 location = erzurum }
-	peasants_training_grounds = { tag = ARM level = 1 location = tercan }
-	peasants_training_grounds = { tag = DER level = 1 location = harput }
-	peasants_training_grounds = { tag = MES level = 1 location = arapgir }
 	guild_hall = { tag = AOI level = 1 location = antioch }
 	merchants_guild = { tag = AOI level = 1 location = antioch }
 	burgher_mansion = { tag = AOI level = 1 location = antioch }	
@@ -5230,13 +5256,6 @@ building_manager = {
 	nobility_fortifications = { tag = GEO level = 1 location = surmali }
 	nobility_fortifications = { tag = GEO level = 1 location = kutaisi }
 	nobility_fortifications = { tag = GEO level = 1 location = anaklia }
-	
-	nobles_recruitment_center = { tag = EPI level = 1 location = arta }
-	nobles_recruitment_center = { tag = EPI level = 1 location = angelokastron }
-	nobles_recruitment_center = { tag = ACH level = 1 location = andravida }
-	nobles_recruitment_center = { tag = ACH level = 1 location = kalamata }
-	nobles_recruitment_center = { tag = CRO level = 1 location = zagreb }
-	sergeantry = { tag = AOI level = 1 location = antioch }
 
 	
 #BR added fortifications

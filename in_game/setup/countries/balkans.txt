@@ -317,6 +317,18 @@ N1P = { #Salerno
 	religion_definition = catholic
 }
 
+N2P = { #Capua
+    color = rgb { 125 105 165 }
+    culture_definition = neapolitan
+	religion_definition = catholic
+}
+
+N3P = { #Neápolis
+    color = rgb { 125 65 95 }
+    culture_definition = griko_culture
+	religion_definition = orthodox
+}
+
 S1C = { #Sikelanoi
     color = rgb { 145 60 125 }
     culture_definition = griko_culture

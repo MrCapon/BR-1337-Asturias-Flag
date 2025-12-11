@@ -4284,13 +4284,13 @@ countries = {
 		
 		GAZ = {	# Gazaria
 
-			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
+			#type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
 			own_control_core = {
-				tana kaffa vosporo #Black Sea
+				
 			}
 
-			own_control_integrated = {
-				 
+			our_cores_conquered_by_others = {
+				tana kaffa vosporo #Black Sea
 			}
 
 			starting_technology_level = 3
@@ -4298,6 +4298,7 @@ countries = {
 				type = republic
 				heir_selection = oligarchic_elective
 				ruler = random
+
 			}
 			capital = tana
 
@@ -10668,40 +10669,7 @@ countries = {
 	}
 		
 		#Naples
-		NAP = {
-			own_control_core = {
-				caserta gaeta naples nola
-			}
-			
-			starting_technology_level = 3
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "catholic_monarchy"
-			government = {
-				type = monarchy
-				heir_selection = salic_law
-				ruler = random
-				
-				centralization_vs_decentralization = 30
-				traditionalist_vs_innovative = -30
-				spiritualist_vs_humanist = -50
-				aristocracy_vs_plutocracy = -60
-				mercantilism_vs_free_trade = 0
-				
-				reforms = {
-					feudal_nobility
-				}
-				
-				privilege = {
-					formal_guilds
-				}
-			}
-			capital = naples
-			country_rank = rank_duchy
-		}
+		#Nap removed
 
 		#Provence (Union with Naples)
 		PRO = {
@@ -31910,7 +31878,7 @@ countries = {
 			}
 			
 			own_control_integrated = {
-				taman
+				taman tana kaffa vosporo #Black Sea
 			}
 			
 			our_cores_conquered_by_others = {
@@ -50579,6 +50547,77 @@ countries = {
 			country_rank = rank_duchy
 		}
 
+		N2P = {
+			own_control_core = {
+				caserta gaeta
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = salic_law
+				ruler = random
+				
+				centralization_vs_decentralization = 30
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -60
+				mercantilism_vs_free_trade = 0
+				
+				reforms = {
+					feudal_nobility
+				}
+				
+				privilege = {
+					formal_guilds
+				}
+			}
+			capital = gaeta
+			country_rank = rank_duchy
+		}
+
+		N3P = {
+			own_control_core = {
+				naples nola
+			}
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = salic_law
+				ruler = random
+				
+				centralization_vs_decentralization = 30
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -60
+				mercantilism_vs_free_trade = 0
+				
+				reforms = {
+					feudal_nobility
+				}
+				
+				privilege = {
+					formal_guilds
+				}
+			}
+			capital = gaeta
+			country_rank = rank_duchy
+		}
+
+
 		#Sikelanoi
 		S1C = {
 			own_control_core = {
@@ -50591,7 +50630,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "catholic_monarchy"
+			include = "eastern_european_monarchy"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -50622,7 +50661,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "catholic_monarchy"
+			include = "eastern_european_monarchy"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
@@ -50655,7 +50694,7 @@ countries = {
 			include = "expl_silk_road_center"
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
-			include = "catholic_monarchy"
+			include = "eastern_european_monarchy"
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture

@@ -45,6 +45,10 @@
  BNV_ADJ: "Benevento"
  N1P: "Salerno"
  N1P_ADJ: "Salerno"
+ N2P: "Capua"
+ N2P_ADJ: "Capua"
+ N3P: "Neápolis"
+ N3P_ADJ: "Neápolis"
 
 #Other
 
@@ -52,8 +56,8 @@
 
  rule_byz_name: "Basileía Romaíon Name"
  setting_byz_name_default: "Default"
- setting_byz_name_default_desc: "The [ShowCultureName('greek_culture')] [country|e] centered around [ShowProvinceDefinitionName('constantinople_province')] will be known as the $BYZ_ADJ$ Empire."
- setting_byz_name_ere: "$BYZ_eastern_rome_ADJ$ Empire"
+ setting_byz_name_default_desc: "The [ShowCultureName('greek_culture')] [country|e] centered around [ShowProvinceDefinitionName('constantinople_province')] will be known as the $BYZ_ADJ$"
+ setting_byz_name_ere: "$BYZ_eastern_rome_ADJ$"
  setting_byz_name_ere_desc: "The [ShowCultureName('greek_culture')] [country|e] centered around [ShowProvinceDefinitionName('constantinople_province')] will be known as the $BYZ_eastern_rome_ADJ$."
 
  mamluk: "Fatimid"
