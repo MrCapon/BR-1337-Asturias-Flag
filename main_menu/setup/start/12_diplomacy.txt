@@ -86,10 +86,8 @@ diplomacy_manager = {
 	dependency = { first = NOV second = LYA subject_type = tributary }
 	dependency = { first = NOV second = TBY subject_type = tributary }
 	
-	dependency = { first = GEN second = GAZ subject_type = trade_company }
     dependency = { first = GEN second = ARB subject_type = vassal }
     scripted_oneway = { first = GEN second = ARB type = divert_trade }
-    scripted_oneway = { first = GEN second = GAZ type = divert_trade }
 	
 	# Golden Horde
 	#Moldova
