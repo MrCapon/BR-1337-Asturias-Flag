@@ -2078,4 +2078,13 @@ road_network = {
 	alarcon = cuenca
 
 
+	#Elysium
+	doeg = anacostia
+	anacostia = nentego
+	nentego = patapsco
+	doeg = patawomeck
+	patawomeck = rappahannock
+	rappahannock = kiskiack
+	kiskiack = weyanock
+	weyanock = nansemond
 }
