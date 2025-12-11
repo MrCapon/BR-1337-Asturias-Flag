@@ -14,19 +14,7 @@ elysium.1 = {
 	#orphan = yes 
 
 	trigger = {
-		tag = ELY
-		OR = {
-			culture = culture:aureliani
-			culture = culture:photianoi
-		}
-
-		NOT = { 
-			OR = {
-				culture = culture:elysian_culture
-				capital = location:doeg 
-			}
-		}
-
+		#Should trigger on country formation.
 	}
 
 	immediate = {
