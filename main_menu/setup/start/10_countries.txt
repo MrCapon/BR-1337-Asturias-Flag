@@ -4283,6 +4283,8 @@ countries = {
 		}
 		
 		GAZ = {	# Gazaria
+
+			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
 			own_control_core = {
 				tana kaffa vosporo #Black Sea
 			}
@@ -13688,7 +13690,7 @@ countries = {
 			include = "expl_indian_trade_route"
 			include = "iberian_monarchy"
 			
-			country_rank = rank_kingdom
+			country_rank = rank_duchy #br edit
 			capital = palma
 			government = {
 				ruler = mll_james_iii_mallorca
@@ -50850,7 +50852,7 @@ countries = {
 			own_control_core = {
 				hadibu qulensya goa madgaon
 			}
-			type = building
+			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
 			starting_technology_level = 3
 			
 			capital = goa
@@ -50975,9 +50977,9 @@ countries = {
 				#Holy Land cores
 				jerusalem acre beersheba gaza hebron majdal nablus safed jaffa
 			}
-		#	control = {
-		#		marash
-		#	}
+			control = {
+				marash
+			}
 			
 			include = "catholic_military_order"
 			
