@@ -1767,10 +1767,8 @@ building_manager = {
 	charcoal_maker = { tag = CAS level = 1 location = valmaseda }   #BR edit
 
 
-	dock = { tag = POR level = 1	location = lisbon }
+	dock = { tag = ADU level = 1	location = lisbon }
 	dock = { tag = ARA level = 1	location = barcelona }
-	dock = { tag = CAS level = 1	location = sevilla }   #BR edit
-	dock = { tag = GRA level = 1	location = malaga }
 
 	fishing_village = { tag = CAS level = 1 location = bilbao }   #BR edit
 	fishing_village = { tag = CAS level = 1 location = laredo }   #BR edit
@@ -2138,7 +2136,10 @@ building_manager = {
 
 
 	order_headquarters = { tag = KNI level = 1 location =  malta } #br edit
-	wharf = { tag = KNI level = 1 location =  malta } #br add
+	#wharf = { tag = KNI level = 1 location =  malta } #br add
+	brethren_marsh = { tag = KNI level = 1 location = malta } #BR edit
+	nobility_fortifications = { tag = KNI level = 1 location = malta } #BR edit
+	nobles_recruitment_center = { tag = KNI level = 1 location = malta } #BR edit
 
 	#https://en.wikipedia.org/wiki/List_of_Serbian_Orthodox_monasteries
 	orthodox_monastery = { tag = HUN level = 1 location =  belgrad }
@@ -3482,6 +3483,8 @@ building_manager = {
 	jewelry_guild = { tag = MAM level = 2 location = cairo }
 	jewelry_guild = { tag = MAM level = 1 location = damascus }
 	jewelry_guild = { tag = DUL level = 1 location = aleppo }
+	weapon_guild = { tag = TUN level = 2 location = kairouan }
+	weapon_guild = { tag = TUN level = 2 location = tunis }
 	
 	#Maghreb
 	sergeantry = { tag = MOR level = 1 location = fez } #Sergeants at arms
@@ -4352,7 +4355,7 @@ building_manager = {
 	wharf = { tag = TLE level = 1 location = cherchell }
 	wharf = { tag = TUN level = 1 location = annaba }
 	wharf = { tag = TUN level = 1 location = tunis }
-	dock = { tag = TUN level = 1 location = tunis }
+	dry_dock = { tag = TUN level = 1 location = tunis }
 	tar_kiln = { tag = TUN level = 1 location = tunis }
 	wharf = { tag = TUN level = 1 location = mahdia }
 	wharf = { tag = TRP level = 1 location = tripoli }
@@ -4387,12 +4390,12 @@ building_manager = {
 	coastal_fort = { tag = MAM level = 1 location = alexandria }
 	lazaretto = { tag = MAM level = 1 location = alexandria }
 	protected_harbor = { tag = MAM level = 1 location = alexandria }
-	dock = { tag = MAM level = 1 location = alexandria }
+	dry_dock = { tag = MAM level = 1 location = alexandria }
 	wharf = { tag = MAM level = 1 location = suez }
 	protected_harbor = { tag = ADU level = 1 location = sevilla }
 	coastal_fort = { tag = ADU level = 1 location = sevilla }
 	wharf = { tag = ADU level = 1 location = sevilla }
-	dock = { tag = ADU level = 1 location = sevilla }
+	dry_dock = { tag = ADU level = 1 location = sevilla }
 	lazaretto = { tag = ADU level = 1 location = sevilla }
 	lazaretto = { tag = PIS level = 1 location = pisa }
 	coastal_fort = { tag = PIS level = 1 location = pisa }
