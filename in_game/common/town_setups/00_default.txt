@@ -323,6 +323,7 @@ lowlands_coastal_city = {
 	artisan_guilds = 1 #BR added estate building
 	merchants_guild = 1 #BR added estate building
 	local_schools = 1 #BR added estate building
+	city_guard = 1 #BR added
 }
 
 
@@ -1075,6 +1076,7 @@ italian_city = {
 	furniture_guild = 2 #BR increased
 	dyes_guild = 1
 	marketplace = 6 #BR EDIT
+	city_guard = 1 #br added
 	artisan_guilds = 1 #BR added estate building
 	local_schools = 1 #BR added estate building
 }
@@ -1100,6 +1102,7 @@ italian_trading_capital = {
 	pottery_guild = 2
 	dyes_guild = 1
 	marketplace = 12 #BR increased from 5
+	city_guard = 1 #br added
 	jewelry_guild = 2
 	wharf = 1
 	#dock = 1 #removed had shipyards added manually 
@@ -1128,6 +1131,7 @@ italian_coastal_city = {
 	furniture_guild = 1
 	dyes_guild = 1
 	marketplace = 5 #BR EDIT
+	city_guard = 1 #br added
 	wharf = 1
 	naval_supplies_guild = 1
 	dock = 1 #BR added
