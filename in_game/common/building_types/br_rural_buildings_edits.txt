@@ -1,5 +1,5 @@
 ﻿#br edited Rural Buildings
-bailiff = {
+REPLACE:bailiff = {
 	is_foreign = no
 	max_levels = 1
 	pop_type = soldiers
@@ -38,7 +38,7 @@ bailiff = {
 	
 }
 
-fishing_village = {
+REPLACE:fishing_village = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = peasants
@@ -118,7 +118,7 @@ fishing_village = {
 	}
 }
 
-farming_village = {
+REPLACE:farming_village = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = peasants
@@ -208,7 +208,7 @@ farming_village = {
 	}
 }
 
-forest_village = {
+REPLACE:forest_village = {
 	is_foreign = no
 	max_levels = rural_building_cap
 	pop_type = peasants
