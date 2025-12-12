@@ -35,6 +35,9 @@
  INK_ADJ: "Indikós"
  K1K: "Kykladia"
  K1K_ADJ: "Kykladian"
+ RH0: "Hagiou Vládymirou" #Tágma tou Hagiou Vládymirou # Order of Saint Vladimir
+ RH0_ADJ: "Vládymirou"
+ 
 
  #Armenia and Georgia
  DER: "Terzn"

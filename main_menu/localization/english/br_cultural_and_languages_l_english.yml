@@ -10,6 +10,7 @@
  syrenikoi_greek_culture: "Syrēnikoi"
  illyrikoi_greek_culture: "Illyrikoi"
  kilikioi_greek_culture: "Kilikioi"
+ rhos_culture: "Rhôs" # Other name options that don't have the (rough breathing “h”) without looking funny Rōssian / Rōssioi
  #Possible Eperiote
  #Possible Morean
  roman_group: "Romaiokratía" #Roman Commonwealth
@@ -47,8 +48,9 @@
  indikes_dialect: "Indikē"
  illyrikoi_dialect: "Dyrrachitinē"
  kilikioi_dialect: "Kilikikē"
- elyrics_dialect: "Elyrics Dialect"
+ elyrics_dialect: "Elyrics"
  gothic_dialect: "East Germanic" #Eastern or Crimean Gothic
+ rhos_dialect: "Rhôs"
  
  classical_latin_dialect: "Classical Latin"
  eccelsiastic_latin_dialect: "Ecclesiastic Latin"

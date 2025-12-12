@@ -64,6 +64,7 @@ pontic_greek_culture = {
 
 	opinions = {
 		greek_culture = kindred
+		rhos_culture = kindred
 		cappadocian_greek_culture = positive
 		anatolian_greek_culture = positive
 		gothic_culture = positive
@@ -83,6 +84,7 @@ gothic_culture = {
 
 	opinions = {
 		greek_culture = kindred
+		rhos_culture = kindred
 		pontic_greek_culture = kindred
 		anatolian_greek_culture = positive
 	}
@@ -235,4 +237,27 @@ kilikioi_greek_culture = {
 	culture_groups = {
 		greek_group roman_group
 	}
+}
+
+rhos_culture = {
+	language = rhos_dialect
+	color = rgb { 121 186 138 }
+	
+	tags = { greek_gfx russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+	
+	opinions = {
+		greek_culture = kindred
+		gothic_culture = kindred
+		pontic_greek_culture = kindred
+		varangian = positive
+		ruthenian = positive
+		muscovite = positive
+	}
+	
+	culture_groups = {
+		russian_group roman_group
+	}
+	
+	use_patronym = yes
+	
 }

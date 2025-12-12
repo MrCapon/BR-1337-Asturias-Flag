@@ -4707,51 +4707,46 @@ building_manager = {
 	#Tribal Buildings
 	tribal_war_camp = { tag = GLH level = 1 location =  yenotayevka }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  yenotayevka }
-	tribal_market_villages = { tag = GLH level = 1 location =  yenotayevka }
+	tribal_market_villages = { tag = GLH level = 2 location =  yenotayevka }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  zamyany }
 	tribal_war_camp = { tag = GLH level = 1 location =  zamyany }
-	tribal_market_villages = { tag = GLH level = 1 location =  zamyany }
+	tribal_market_villages = { tag = GLH level = 2 location =  zamyany }
 	tribal_war_camp = { tag = GLH level = 1 location =  malye_derbety }
-	tribal_market_villages = { tag = GLH level = 1 location =  malye_derbety }
+	tribal_market_villages = { tag = GLH level = 2 location =  malye_derbety }
 	tribal_war_camp = { tag = GLH level = 1 location =  tarki }
-	tribal_market_villages = { tag = GLH level = 1 location =  tarki }
+	tribal_market_villages = { tag = GLH level = 2 location =  tarki }
 	tribal_war_camp = { tag = GLH level = 1 location =  terekli_mekteb }
-	tribal_market_villages = { tag = GLH level = 1 location =  terekli_mekteb }
+	tribal_market_villages = { tag = GLH level = 2 location =  terekli_mekteb }
 	tribal_war_camp = { tag = GLH level = 1 location =  nazran }
-	tribal_market_villages = { tag = GLH level = 1 location =  nazran }
+	tribal_market_villages = { tag = GLH level = 2 location =  nazran }
 	tribal_war_camp = { tag = GLH level = 1 location =  majar }
-	tribal_market_villages = { tag = GLH level = 1 location =  majar }
+	tribal_market_villages = { tag = GLH level = 2 location =  majar }
 	tribal_war_camp = { tag = GLH level = 1 location =  cheplak }
-	tribal_market_villages = { tag = GLH level = 1 location =  cheplak }
+	tribal_market_villages = { tag = GLH level = 2 location =  cheplak }
 	tribal_war_camp = { tag = GLH level = 1 location =  bykovo }
-	tribal_market_villages = { tag = GLH level = 1 location =  bykovo }
+	tribal_market_villages = { tag = GLH level = 2 location =  bykovo }
 	tribal_war_camp = { tag = GLH level = 1 location =  zhanybek }
-	tribal_market_villages = { tag = GLH level = 1 location =  zhanybek }
+	tribal_market_villages = { tag = GLH level = 2 location =  zhanybek }
 	tribal_war_camp = { tag = GLH level = 1 location =  ukek }
-	tribal_market_villages = { tag = GLH level = 1 location =  ukek }
+	tribal_market_villages = { tag = GLH level = 2 location =  ukek }
 	tribal_war_camp = { tag = GLH level = 1 location =  chembar }
-	tribal_market_villages = { tag = GLH level = 1 location =  chembar }
+	tribal_market_villages = { tag = GLH level = 2 location =  chembar }
 	tribal_war_camp = { tag = GLH level = 1 location =  insar }
-	tribal_market_villages = { tag = GLH level = 1 location =  insar }
+	tribal_market_villages = { tag = GLH level = 2 location =  insar }
 	tribal_war_camp = { tag = GLH level = 1 location =  karsun }
-	tribal_market_villages = { tag = GLH level = 1 location =  karsun }
+	tribal_market_villages = { tag = GLH level = 2 location =  karsun }
 	tribal_war_camp = { tag = GLH level = 1 location =  simbirsk }
-	tribal_market_villages = { tag = GLH level = 1 location =  simbirsk }
+	tribal_market_villages = { tag = GLH level = 2 location =  simbirsk }
 	tribal_war_camp = { tag = GLH level = 1 location =  koshki }
-	tribal_market_villages = { tag = GLH level = 1 location =  koshki }
+	tribal_market_villages = { tag = GLH level = 2 location =  koshki }
 	tribal_war_camp = { tag = GLH level = 1 location =  bolghar }
-	tribal_market_villages = { tag = GLH level = 1 location =  bolghar }
-
+	tribal_market_villages = { tag = GLH level = 2 location =  bolghar }
 	tribal_war_camp = { tag = GLH level = 1 location =  iagorlic }
-	tribal_market_villages = { tag = GLH level = 1 location =  iagorlic }
-	tribal_war_camp = { tag = GLH level = 1 location =  drahushiv }
-	tribal_market_villages = { tag = GLH level = 1 location =  drahushiv }
-	tribal_war_camp = { tag = GLH level = 1 location =  solkhat }
-	tribal_market_villages = { tag = GLH level = 1 location =  solkhat }
+	tribal_market_villages = { tag = GLH level = 2 location =  iagorlic }
 	tribal_war_camp = { tag = GLH level = 1 location =  or_qapi }
-	tribal_market_villages = { tag = GLH level = 1 location =  or_qapi }
+	tribal_market_villages = { tag = GLH level = 2 location =  or_qapi }
 	tribal_war_camp = { tag = GLH level = 1 location =  tokmak }
-	tribal_market_villages = { tag = GLH level = 1 location =  tokmak }
+	tribal_market_villages = { tag = GLH level = 2 location =  tokmak }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  aqmecit_prybuzhzhya }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  yaransk }
 	tribal_hunting_lodge = { tag = GLH level = 1 location =  karsun }
@@ -5077,6 +5072,7 @@ building_manager = {
 	market_village = { tag = GEN level = 1 location = terranova_pausania }
 	fishing_village = { tag = GEN level = 2 location = terranova_pausania }
 	fishing_village = { tag = KNI level = 4 location = malta }
+	market_village = { tag = KNI level = 2 location = malta }
 	tar_kiln = { tag = KNI level = 1 location = malta }
 	lumber_mill = { tag = KNI level = 1 location = malta }
 	fishing_village = { tag = BQA level = 1 location = derna }
@@ -5382,12 +5378,34 @@ building_manager = {
 	orthodox_order_commandery = { tag = SGO level = 1 location = tbilisi }
 	orthodox_order_commandery = { tag = SGO level = 1 location = trebizond }
 	orthodox_order_commandery = { tag = SGO level = 1 location = tana }
-	orthodox_order_commandery = { tag = SGO level = 1 location = kyiv }
-	orthodox_order_commandery = { tag = SGO level = 1 location = smolensk }
-	orthodox_order_commandery = { tag = SGO level = 1 location = moscow }
-	orthodox_order_commandery = { tag = SGO level = 1 location = tver }
-	orthodox_order_commandery = { tag = SGO level = 1 location = lviv }
-	orthodox_order_commandery = { tag = SGO level = 1 location = theodoro }
+	orthodox_order_commandery = { tag = SGO level = 1 location = bayramlu }
+	orthodox_order_commandery = { tag = SGO level = 1 location = sinop }
+	orthodox_order_commandery = { tag = SGO level = 1 location = bafra }
+
+	order_headquarters = { tag = RH0 level = 1 location = qirq_yer }
+	order_stronghold = { tag = RH0 level = 1 location = qirq_yer }
+	castle = { tag = RH0 level = 1 location = qirq_yer }
+	nobility_fortifications = { tag = RH0 level = 1 location = qirq_yer }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = kyiv }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = smolensk }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = moscow }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = tver }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = lviv }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = novgorod }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = pskov }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = chernihiv }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = polotsk }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = theodoro }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = drastar }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = vidin }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = bucharest }
+	orthodox_order_commandery = { tag = RH0 level = 1 location = suceava }
+	order_stronghold = { tag = RH0 level = 1 location = pohrebyshche }
+	castle = { tag = RH0 level = 1 location = pohrebyshche }
+	nobility_fortifications = { tag = RH0 level = 1 location = pohrebyshche }
+	order_stronghold = { tag = RH0 level = 1 location = drahushiv }
+	castle = { tag = RH0 level = 1 location = drahushiv }
+	nobility_fortifications = { tag = RH0 level = 1 location = drahushiv }
 
 	#Banking families
 	banking_office = { tag = BNK level = 1 location = constantinople }

@@ -3946,7 +3946,7 @@ countries = {
 		GLH = {
 			type = army
 			own_control_core = {
-				qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
+				qarasuvbazar solkhat seyitler kalay kezlev aqmecit or_qapi jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
 				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
@@ -4067,9 +4067,9 @@ countries = {
 				tsaryovo_gorodishche burayevo
 				sarybulak zhanaarka arkat balyktykol kaynar_atbai
 				
-				bratslav balta bershad drahushiv karabul savran
+				bratslav balta bershad karabul savran
 				torhovytsia teplyk tsybuliv uman zavallia
-				vinnytsia buzhskyi pohrebyshche sokilets
+				vinnytsia sokilets
 				armavir
 
 				#Principality of Kursk
@@ -4260,8 +4260,11 @@ countries = {
 			# Theodoro
 			own_control_core = {
 				theodoro
-				#GLH
 				lusta soldaia
+			}
+			our_cores_conquered_by_others = {
+				qirq_yer qarasuvbazar solkhat
+				kaffa vosporo
 			}
 			
 			starting_technology_level = 3
@@ -39874,6 +39877,9 @@ countries = {
 				ruler_term = {	character = vol_boleslaw_jerzy_ii_piast start_date = 1323.1.1 regnal_number = 2	regnal_name = name_george }
 				
 				privilege = {
+					auxilium_et_consilium
+                    primacy_of_nobility
+					peasants_allowed_weapons_privilege
 					#Burghers
 					novi_fori
 					market_fairs
@@ -39886,6 +39892,12 @@ countries = {
 				lesser_polish
 				volhynian_culture
 				moldovan
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1345.1.1
+				size = 1.5
 			}
 			
 			capital = lviv
@@ -39938,6 +39950,9 @@ countries = {
 				ruler_term = {	character = vol_boleslaw_jerzy_ii_piast start_date = 1323.1.1 regnal_number = 2	regnal_name = name_george }
 				
 				privilege = {
+					auxilium_et_consilium
+                    primacy_of_nobility
+					peasants_allowed_weapons_privilege
 					#Burghers
 					novi_fori
 					market_fairs
@@ -39949,6 +39964,12 @@ countries = {
 			tolerated_cultures = {
 				lesser_polish
 				polesian_culture
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1345.1.1
+				size = 1.5
 			}
 			
 			capital = lviv
@@ -40683,6 +40704,9 @@ countries = {
 				ruler_term = { character = kie_teodoras_ivanovich_rurikovich start_date = 1331.1.1 regnal_number = 1	}
 				
 				privilege = {
+					auxilium_et_consilium
+                    primacy_of_nobility
+					peasants_allowed_weapons_privilege
 					#Clergy
 					clergy_powerful_dioceses
 					#Burghers
@@ -40696,6 +40720,12 @@ countries = {
 			tolerated_cultures = {
 				severian
 				polesian_culture
+			}
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1345.1.1
+				size = 1.5
 			}
 			
 			capital = kyiv
@@ -51150,6 +51180,87 @@ countries = {
 				start_date = 1333.1.1
 				date = 1365.1.1
 				size = 2
+			}
+
+		}
+		
+		RH0 = { #Order of Saint Vladimir
+			own_control_core = {
+				qirq_yer buzhskyi pohrebyshche drahushiv
+			}
+			our_cores_conquered_by_others = {
+				#Crimea
+				qarasuvbazar solkhat
+			}
+			control = {
+				bratslav balta bershad karabul savran
+				torhovytsia teplyk tsybuliv uman zavallia
+				vinnytsia sokilets
+				armavir
+				qarasuvbazar solkhat
+			}
+			
+			include = "catholic_military_order"
+			
+			starting_technology_level = 3
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			
+			government = {
+				type = theocracy
+				ruler = random
+				
+				reforms = {
+					military_order_reform
+				}
+				laws = {
+					legal_code_law = byzantine_law
+					distribution_of_power_law = dop_favor_the_ruler
+					feudal_de_jure_law = by_blood
+					#administrative_system = pronoia_system
+					patriarchate_law = state_patriarchate_policy
+					divine_cause_law = safeguard_holy_sites_policy
+					holy_mission_law = external_mission_policy
+				}
+
+                privilege = {
+                    clergy_literacy_rights
+                    auxilium_et_consilium
+                    primacy_of_nobility
+					akritai_privilege
+					peasants_allowed_weapons_privilege
+                }
+				
+				centralization_vs_decentralization = -75
+				aristocracy_vs_plutocracy = -45
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -65
+				spiritualist_vs_humanist = -75
+				offensive_vs_defensive = 75
+				land_vs_naval = -100
+				quality_vs_quantity = -50
+				individualism_vs_communalism = 60
+				
+			}
+			
+			currency_data = {
+				gold = 800
+				stability = 75
+				army_tradition = 100
+			}
+			accepted_cultures = { gothic_culture }
+			
+			country_rank = rank_duchy
+			capital = qirq_yer
+
+			timed_modifier = {
+				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
+				start_date = 1333.1.1
+				date = 1365.1.1
+				size = 4
 			}
 
 		}

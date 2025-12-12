@@ -1,4 +1,5 @@
-﻿AHI = {
+﻿#BR edited
+AHI = {
 	color = map_ahiler
 	color2 = rgb { 241 198 188 }
 
@@ -7,7 +8,6 @@
 	
 	is_historic = yes
 }
-
 
 
 ALY = {
@@ -404,140 +404,4 @@ TVS = {
 	religion_definition = sunni
 	
 	is_historic = yes
-}
-
-#BR ADDITIONS
-
-#Africa
-AGY = { #BR addition
-	color = rgb { 185 58 75 }
-
-	culture_definition = aegyptian_greek_culture
-	religion_definition = orthodox
-
-}
-
-AFK = { #BR addition
-	color = rgb { 115 88 125 }
-
-	culture_definition = african_greek_culture
-	religion_definition = orthodox
-
-}
-
-RIC = { #BR addition
-	color = rgb { 175 38 65 }
-
-	culture_definition = indikes_greek_culture
-	religion_definition = nestorianism
-
-	description_category = administrative
-	difficulty = 3
-}
-
-INK = { #BR addition
-	color = rgb { 175 75 95 }
-
-	culture_definition = indikes_greek_culture
-	religion_definition = nestorianism
-}
-
-#Anatolia
-ANA = { #BR addition
-	color = rgb { 205 38 50 }
-
-	culture_definition = anatolian_greek_culture
-	religion_definition = orthodox
-}
-
-ICO = { #BR addition
-	color = rgb { 155 58 50 }
-
-	culture_definition = anatolian_greek_culture
-	religion_definition = orthodox
-}
-
-AON = { #BR addition
-	color = rgb { 175 38 60 }
-
-	culture_definition = anatolian_greek_culture
-	religion_definition = orthodox
-}
-
-KAP = { #BR addition
-	color = rgb { 150 38 75 }
-
-	culture_definition = cappadocian_greek_culture
-	religion_definition = orthodox
-}
-
-PAF = { #BR addition
-	color = rgb { 175 50 138 }
-
-	culture_definition = pontic_greek_culture
-	religion_definition = orthodox
-}
-
-DER = { #BR addition
-	color = rgb { 75 99 148 }
-
-	culture_definition = armenian_culture
-	religion_definition = miaphysite
-}
-
-KOG = { #BR addition
-	color = rgb { 57 118 88 }
-
-	culture_definition = armenian_culture
-	religion_definition = miaphysite
-}
-
-MES = { #BR addition
-	color = rgb { 137 88 48 }
-
-	culture_definition = armenian_culture
-	religion_definition = miaphysite
-}
-
-VAN = { #BR addition
-	color = rgb { 137 128 68 }
-
-	culture_definition = armenian_culture
-	religion_definition = miaphysite
-}
-
-GAN = { #BR addition
-	color = rgb { 157 98 48 }
-
-	culture_definition = armenian_culture
-	religion_definition = miaphysite
-}
-
-#Levant
-AOI = { #BR addition
-	color = rgb { 205 38 50 }
-
-	culture_definition = syrenikoi_greek_culture
-	religion_definition = orthodox
-}
-
-#Holy Orders
-OHS = {
-	color = rgb { 152 125 104 }
-
-	culture_definition = syrenikoi_greek_culture
-	religion_definition = orthodox
-
-	description_category = military
-	difficulty = 3
-}
-
-SGO = {
-	color = rgb { 162 105 134 }
-
-	culture_definition = georgian_culture
-	religion_definition = orthodox
-
-	description_category = military
-	difficulty = 3
 }

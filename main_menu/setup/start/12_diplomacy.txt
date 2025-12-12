@@ -319,7 +319,7 @@ diplomacy_manager = {
     dependency = { first = BYZ second = KAP subject_type = march } # Thema
     dependency = { first = BYZ second = AOI subject_type = march } # Thema
     dependency = { first = BYZ second = CIL subject_type = march } # Kleisoura
-    dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
+    #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
     dependency = { first = BYZ second = TRE subject_type = march } # Thema
 
     dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
@@ -359,7 +359,7 @@ diplomacy_manager = {
     dependency = { first = ARM second = VAN subject_type = vassal } #BR ADDED
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
-    dependency = { first = GEO second = SGO subject_type = march }
+    #dependency = { first = GEO second = SGO subject_type = march }
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
@@ -374,6 +374,13 @@ diplomacy_manager = {
     scripted_oneway = { first = ATH second = OHS type = military_sponsorship }
 	scripted_oneway = { first = BUL second = OHS type = military_sponsorship }
 	scripted_oneway = { first = SER second = OHS type = military_sponsorship }
+
+    scripted_oneway = { first = KIE second = RH0 type = military_sponsorship }
+	scripted_oneway = { first = HAL second = RH0 type = military_sponsorship }
+	scripted_oneway = { first = VOL second = RH0 type = military_sponsorship }
+    scripted_oneway = { first = BUL second = RH0 type = military_sponsorship }
+	scripted_oneway = { first = WAL second = RH0 type = military_sponsorship }
+    scripted_oneway = { first = NOV second = RH0 type = military_sponsorship }
 
     #-------Low Lands-------
     dependency = { first = HOL second = ZEE subject_type = fiefdom }
