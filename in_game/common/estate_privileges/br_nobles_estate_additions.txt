@@ -26,3 +26,23 @@
 		# As with Ghazi privileges, useful early but a roadblock to centralization.
 	}
 }
+
+boyarski_voiski = {
+	estate = nobles_estate
+
+	potential = {
+		culture ?= { has_culture = bulgarian }
+	}
+
+	country_modifier = {
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 0.4
+
+		# Military boosts
+		nobles_estate_levy_size = 0.25
+		global_levy_size_modifier = 0.10
+		manpower_recovery_speed = 0.10
+
+		monthly_towards_aristocracy = societal_value_minor_monthly_move
+	}
+}

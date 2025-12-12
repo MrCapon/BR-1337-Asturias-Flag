@@ -13401,6 +13401,7 @@ countries = {
 					primacy_of_nobility
 					auxilium_et_consilium
 					joint_assembly_decrees
+					boyarski_voiski
 					#burghers
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -13412,12 +13413,6 @@ countries = {
 			tolerated_cultures = {
 				serbian
 				wallachian
-			}
-			timed_modifier = {
-				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
-				start_date = 1333.1.1
-				date = 1375.1.1
-				size = 0.15
 			}
 			liturgical_language = church_slavonic_language
 			
