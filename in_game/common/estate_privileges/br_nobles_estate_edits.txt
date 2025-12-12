@@ -124,3 +124,23 @@ REPLACE_OR_CREATE:ghazi_privilege = {
 		#when you want to centralize
 	}
 }
+
+REPLACE_OR_CREATE:consolidated_corruption_of_the_nobles = {
+	estate = nobles_estate
+	
+	
+	potential = {
+		has_estate_privilege = estate_privilege:consolidated_corruption_of_the_nobles
+	}
+	
+	can_revoke = {
+		government_power > 95
+	}
+	
+	country_modifier = {
+		nobles_estate_max_tax = -0.1 #reduced from 0.2
+		#land_morale_modifier = -0.2 #removed
+		global_nobles_estate_power = 0.5
+		nobles_estate_levy_size = -0.25 #Added
+	}
+}

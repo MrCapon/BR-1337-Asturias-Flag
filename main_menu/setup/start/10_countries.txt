@@ -12830,7 +12830,7 @@ countries = {
 					noble_serfdom_rights
 					manorial_courts
 					noble_patronage_of_the_arts
-					#consolidated_corruption_of_the_nobles
+					consolidated_corruption_of_the_nobles #readded an edited version
 					
 					#Clergy
 					embellish_great_works_of_faith
