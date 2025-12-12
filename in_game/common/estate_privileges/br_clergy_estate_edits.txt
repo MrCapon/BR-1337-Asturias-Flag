@@ -22,6 +22,7 @@ clergy_military_orders = {
 	
 	country_modifier = {
 		global_clergy_estate_power = 0.25
+		nobles_estate_levy_size = 0.25 #Added 
 	}
 
 	country_modifier = {
