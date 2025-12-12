@@ -1,4 +1,48 @@
 
+# 0.4
+
+## Estate privileges
+- Added new estate privilege: Boiárski Voĭski  
+  The traditional levy of the Bulgarian boyars forms the backbone of our armies. These noble households maintain armed retainers and provide large contingents of horsemen in times of war. By reaffirming their martial rights and obligations, we strengthen our military capacity—though at the cost of granting the boyars greater influence within the realm.
+- Restored and reworked consolidated_corruption_of_the_nobles for BYZ.
+
+## Rhôs Additions
+- Added Rhôs culture as a Greco-Rus hybrid.
+- Added Tágma tou Hagiou Vládymirou (Order of Saint Vladimir).
+- Set up all Holy Order buildings, relationships, and pops.
+- Implemented a starting “Crusade” of the Rhôs supported by the Ruthenians.
+- AI currently loses, but the scenario remains interesting.
+
+## Southern Italy Adjustments
+- Added Capua and Neapolis tags.
+
+## Buildings
+- Improved Sergeantry and City Watch setups.
+
+## Andalusia & Egypt Population Changes
+- Added Berber tribesmen to Andalusia.
+- Added Berber Shia tribesmen to Egypt.
+- Increased total Shia population in Egypt.
+
+## Culture Tweaks
+- Gothic moved into the German group with its own dialect.  
+  (Crimean Gothic ideally fits as a German dialect, but this setup prevents persecution mechanics.)
+
+## Bug Fixes
+- Moved Iberian Holy Order buildings out of the Andalus region.
+- Corrected Orthodox Holy Orders converting into bishoprics.  
+  (The required estate law was previously restricted to Catholics; now correctly applies to Catholic OR Orthodox.)
+
+
+# 0.3.3
+- Changed the Elysium formation to happen on country formation. The trigger I tried to use earlier wasn't firing.
+
+# 0.3.2
+- Created an event for Elysium to move your capitol and change your culture. Should be save game compatible and automatically fire.
+
+# 0.3.1
+- Reverted a file refactor that broke the Greek Language
+
 # 0.3
 
 # Unique government added.
