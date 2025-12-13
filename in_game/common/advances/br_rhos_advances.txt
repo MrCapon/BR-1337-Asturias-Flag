@@ -48,9 +48,9 @@ rhos_court_of_many_tongues = {
 rhos_ostrogs_and_kastra = {
 	age = age_3_discovery
 	potential = { has_culture = rhos }
-	requires = trace_italienne
-	unlock_building = ostrog
-	fort_maintenance_modifier = -0.1
+	requires = pike_and_shot_advance
+	fort_maintenance_modifier = -0.15
+	garrison_size_modifier = 0.1
 }
 
 rhos_varangian_successors = {

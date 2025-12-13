@@ -1,12 +1,50 @@
 ﻿l_english:
 
   # BR New World
+  #Vinland
+ vinlander_thing_of_vinland: "Thing of Vinland"
+ vinlander_thing_of_vinland_desc: "The Thing stands at the heart of Vinlander society, where free men gather to judge disputes, confirm leaders, and affirm the law. Though far from the old world, these assemblies preserve ancient customs in a new land."
+
+ vinlander_woodland_warfare: "Woodland Warfare"
+ vinlander_woodland_warfare_desc: "Vinlander warriors have adapted to forests, rivers, and broken terrain, favoring ambush, mobility, and local knowledge over rigid formations."
+
+ vinlander_river_and_coast_raiding: "River and Coast Raiding"
+ vinlander_river_and_coast_raiding_desc: "Longships and shallow-draft vessels allow Vinlander raiders to strike along coasts and rivers alike, extending the reach of war deep inland before vanishing once more."
+
+ vinlander_trade_with_the_skraelings: "Trade with the Skrælings"
+ vinlander_trade_with_the_skraelings_desc: "Despite conflict, trade persists between Vinlanders and the native peoples of the New World. Furs, timber, and local knowledge flow through these exchanges, enriching both sides."
+
+ vinlander_longhouse_settlement: "Longhouse Settlement"
+ vinlander_longhouse_settlement_desc: "Vinlander communities grow around longhouses that serve as homes, halls, and centers of authority. These settlements anchor Norse society in unfamiliar lands."
+
+ vinlander_pathfinders: "Pathfinders"
+ vinlander_pathfinders_desc: "Experienced explorers and scouts push ever deeper into the wilderness, mapping rivers, passes, and fertile lands for future settlement."
+
+ vinlander_old_gods_endure: "The Old Gods Endure"
+ vinlander_old_gods_endure_desc: "Far from the influence of foreign priests and kings, the ancient gods retain their place among the Vinlanders. Old rites and beliefs persist, shaping both war and daily life."
+
+ vinlander_warrior_cults: "Warrior Cults"
+ vinlander_warrior_cults_desc: "Bands of warriors devote themselves to martial rites and oaths, seeking honor and glory through combat. Their presence strengthens the Vinlander war effort."
+
+ vinlander_jarldoms_of_the_west: "Jarldoms of the West"
+ vinlander_jarldoms_of_the_west_desc: "Jarls rule wide stretches of Vinland in the name of the state, enforcing order and mustering warriors while maintaining strong local authority."
+
+ vinlander_frontier_mobilization: "Frontier Mobilization"
+ vinlander_frontier_mobilization_desc: "Every settlement stands ready to defend itself. When war comes, farmers and hunters alike take up arms, swelling the ranks with hardened frontiersmen."
+
+ vinlander_new_world_identity: "New World Identity"
+ vinlander_new_world_identity_desc: "Generations born in Vinland no longer see themselves as exiles or colonists. A distinct Vinlander identity has emerged, shaped by the land and its challenges."
+
+ vinlander_army_of_the_western_seas: "Army of the Western Seas"
+ vinlander_army_of_the_western_seas_desc: "Combining seamanship with frontier resilience, the Vinlander military dominates both coast and river, projecting power across the western seas."
+
  br_vinland_naval_raiding: "Vinlandic Sea-Raiding Tradition"
  br_vinland_naval_raiding_desc: "The Vinlandic peoples have long relied on swift vessels, coastal cunning, and the harsh demands of frontier life. Their raiding traditions—rooted in necessity as much as heritage—give them the ability to strike quickly, seize opportunities, and sustain their settlements across the rugged shores of the New World."
 
  br_vinland_naval_tradition: "Vinlandic Maritime Heritage"
  br_vinland_naval_tradition_desc: "Life in Vinland is tied to the sea. The currents, fisheries, and long-travel routes of the northern coasts have shaped the Vinlanders into seasoned sailors and skilled navigators. Their mastery of shipcraft and exploration sustains both trade and survival."
 
+  #Elysium
  br_elysian_slaving: "Elysian Slave-Raiding Practices"
  br_elysian_slaving_desc: "Among the frontier polities of the New World, some Elysian communities have adopted raiding systems modeled on Old World precedents. These expeditions, justified through cultural or religious distinctions, bolster local labor supplies and expand the reach of Elysian authority."
 
