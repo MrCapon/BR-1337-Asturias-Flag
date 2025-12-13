@@ -1,0 +1,111 @@
+﻿#unlock_cabinet_action = settle_the_frontier
+#colonial_maintenance_cost = -0.2
+#colonial_migration_size_modifier = 0.5
+#create_colonial_charter_cost_modifier = -0.2
+#unlock_law = colonial_policy
+#global_monthly_food_modifier = 0.10
+#global_population_growth = 0.00025
+#can_invite_settlers = yes
+
+# Rhos (Greco-Rus / Rōssía) Custom Advances
+
+# age_1_traditions
+
+rhos_baptism_of_rhossia = {
+	age = age_1_traditions
+	potential = { has_culture = rhos }
+	requires = feudalism_advance
+	tolerance_own = 1
+	monthly_religious_influence = 0.05
+}
+
+rhos_druzhina_tagmata = {
+	age = age_1_traditions
+	potential = { has_culture = rhos }
+	requires = unlock_feudal_levy_advance
+	global_manpower_modifier = 0.05
+	army_tradition_decay = -0.0005
+}
+
+# age_2_renaissance
+
+rhos_riverine_commerce = {
+	age = age_2_renaissance
+	potential = { has_culture = rhos }
+	requires = maritime_advance
+	trade_range_modifier = 0.15
+}
+
+rhos_court_of_many_tongues = {
+	age = age_2_renaissance
+	potential = { has_culture = rhos }
+	requires = vibrant_court_advance
+	diplomatic_capacity = 1
+}
+
+# age_3_discovery
+
+rhos_ostrogs_and_kastra = {
+	age = age_3_discovery
+	potential = { has_culture = rhos }
+	requires = trace_italienne
+	unlock_building = ostrog
+	fort_maintenance_modifier = -0.1
+}
+
+rhos_varangian_successors = {
+	age = age_3_discovery
+	potential = { has_culture = rhos }
+	requires = professional_army_advance
+	discipline = 0.025
+}
+
+# age_4_reformation
+
+rhos_synod_of_the_north = {
+	age = age_4_reformation
+	potential = { has_culture = rhos }
+	requires = confessional_court
+	orthodox_synod_cost_modifier = -0.15
+	monthly_religious_influence = 0.1
+}
+
+rhos_catechism_of_obedience = {
+	age = age_4_reformation
+	potential = { has_culture = rhos }
+	requires = gov_reform_reformation_a
+	global_pop_conversion_speed_modifier = 0.1
+}
+
+# age_5_absolutism
+
+rhos_autokratoria_tou_boreiou = {
+	age = age_5_absolutism
+	potential = { has_culture = rhos }
+	requires = regiment_reinforcement_speed_absolutism
+	global_integration_speed_modifier = 0.15
+}
+
+rhos_stratiotai_reforms = {
+	age = age_5_absolutism
+	potential = { has_culture = rhos }
+	requires = standing_army_absolutism
+	global_manpower_modifier = 0.1
+}
+
+# age_6_revolutions
+
+rhos_imperial_synthesis = {
+	age = age_6_revolutions
+	potential = { has_culture = rhos }
+	requires = crown_power_advance_revolutions
+	research_speed_modifier = 0.05
+}
+
+rhos_army_of_the_two_traditions = {
+	age = age_6_revolutions
+	potential = { has_culture = rhos }
+	requires = revolutions_agressive_advance
+	global_manpower_modifier = 0.1
+	discipline = 0.025
+}

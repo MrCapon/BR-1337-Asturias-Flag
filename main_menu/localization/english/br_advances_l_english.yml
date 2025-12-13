@@ -1,5 +1,6 @@
 ﻿l_english:
 
+  # BR New World
  br_vinland_naval_raiding: "Vinlandic Sea-Raiding Tradition"
  br_vinland_naval_raiding_desc: "The Vinlandic peoples have long relied on swift vessels, coastal cunning, and the harsh demands of frontier life. Their raiding traditions—rooted in necessity as much as heritage—give them the ability to strike quickly, seize opportunities, and sustain their settlements across the rugged shores of the New World."
 
@@ -11,3 +12,40 @@
 
  br_kykladian_naval_tradition: "Kykladian Sea Lords"
  br_kykladian_naval_tradition_desc: "The Kykladian islanders have forged their own path across the waves—traders, privateers, and adventurers whose lives are defined by the sea. Their fleets roam far beyond their island homes, sustained by maritime skill, opportunism, and a proud tradition of seafaring independence."
+
+  #BR Rhossía
+ rhos_baptism_of_rhossia: "Baptism of Rhōssía"
+ rhos_baptism_of_rhossia_desc: "The adoption of Orthodoxy bound the peoples of Rhōssía into a single spiritual and political community. Through the rites of the Church, disparate tribes and cities were woven into a unified Christian realm, loyal to both faith and ruler."
+
+ rhos_druzhina_tagmata: "Druzhina Tágmata"
+ rhos_druzhina_tagmata_desc: "The old druzhina warbands have been reorganized along Roman lines, forming disciplined tágmata that blend personal loyalty with imperial command. These forces stand as the backbone of Rhōssían military power."
+
+ rhos_riverine_commerce: "Riverine Commerce"
+ rhos_riverine_commerce_desc: "The great rivers of the north serve as the arteries of Rhōssía, linking forests, steppe, and sea. By mastering river trade and navigation, the state enriches itself while binding its vast territories together."
+
+ rhos_court_of_many_tongues: "Court of Many Tongues"
+ rhos_court_of_many_tongues_desc: "Greek, Slavic, Norse, and steppe elites all find a place at the Rhōssían court. Through careful patronage and diplomacy, diversity is transformed from a source of division into an instrument of rule."
+
+ rhos_ostrogs_and_kastra: "Ostrogs and Kastra"
+ rhos_ostrogs_and_kastra_desc: "Rhōssían fortifications unite Rus wooden ostrogs with the enduring principles of Roman kastra. These strongholds secure the frontier, protect settlers, and project authority deep into contested lands."
+
+ rhos_varangian_successors: "Varangian Successors"
+ rhos_varangian_successors_desc: "Where foreign Varangians once stood, native Rhōssían warrior-elites now serve. Hardened by frontier warfare and loyal to the state, they inherit the legacy of the northmen without their dependence."
+
+ rhos_synod_of_the_north: "Synod of the North"
+ rhos_synod_of_the_north_desc: "An autonomous Orthodox synod governs the Church in Rhōssía, preserving doctrinal unity while answering to local realities. Faith and authority march together, reinforcing one another."
+
+ rhos_catechism_of_obedience: "Catechism of Obedience"
+ rhos_catechism_of_obedience_desc: "Religious instruction emphasizes order, loyalty, and submission to rightful authority. Through faith, obedience to the state is sanctified and dissent is cast as impiety."
+
+ rhos_autokratoria_tou_boreiou: "Autokratoria of the North"
+ rhos_autokratoria_tou_boreiou_desc: "Imperial authority in Rhōssía is reshaped in the northern image, drawing upon Roman political theory while adapting to vast distances and frontier realities. Power flows from the center with renewed force."
+
+ rhos_stratiotai_reforms: "Stratiōtai Reforms"
+ rhos_stratiotai_reforms_desc: "Land-for-service obligations are expanded across Rhōssía, creating a class of soldier-settlers bound to both soil and state. These reforms ensure a steady supply of men hardened by labor and war alike."
+
+ rhos_imperial_synthesis: "Imperial Synthesis"
+ rhos_imperial_synthesis_desc: "Greek law and Rus custom are formally harmonized into a single imperial doctrine. This synthesis defines what it means to rule—and be ruled—in Rhōssía."
+
+ rhos_army_of_the_two_traditions: "Army of the Two Traditions"
+ rhos_army_of_the_two_traditions_desc: "The final fusion of Roman discipline and Rus resilience gives rise to a uniquely Rhōssían army. Flexible, enduring, and relentless, it embodies the strength of both worlds."
