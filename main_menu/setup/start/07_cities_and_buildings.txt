@@ -1945,7 +1945,7 @@ building_manager = {
 	city_guard = { tag = VEN level = 1	location = venice }
 
 	#Aegean Pirates
-	pirate_haven = { tag = VEN level = 1 location = amorgos }
+	pirate_haven = { tag = VTC level = 1 location = amorgos }
 	pirate_haven = { tag = BYZ level = 1 location = sporades }
 	pirate_haven = { tag = NAX level = 1 location = kythnos }
 	pirate_haven = { tag = NAX level = 1 location = milos }
@@ -4996,27 +4996,29 @@ building_manager = {
 	sand_pit = { tag = FLO level = 1 location = florence }
 	clay_pit = { tag = MLO level = 1 location = florence }
 
-	market_village = { tag = VEN level = 2 location = corfu }
-	fishing_village = { tag = VEN level = 2 location = corfu }
+	market_village = { tag = VTC level = 2 location = corfu }
+	fishing_village = { tag = VTC level = 2 location = corfu }
 	market_village = { tag = CEP level = 2 location = cephalonia }
 	fishing_village = { tag = CEP level = 2 location = cephalonia }
 	rural_clothmaker = { tag = CEP level = 1 location = cephalonia }
-	market_village = { tag = VEN level = 1 location = modon }
-	fishing_village = { tag = VEN level = 2 location = modon }
-	market_village = { tag = VEN level = 1 location = kythira }
-	fishing_village = { tag = VEN level = 2 location = kythira }
-	market_village = { tag = VEN level = 1 location = andros }
-	fishing_village = { tag = VEN level = 2 location = andros }
-	market_village = { tag = VEN level = 1 location = karpathos }
-	fishing_village = { tag = VEN level = 2 location = karpathos }
-	market_village = { tag = GEN level = 1 location = samos }
-	fishing_village = { tag = GEN level = 2 location = samos }
-	market_village = { tag = GEN level = 1 location = chios }
-	fishing_village = { tag = GEN level = 2 location = chios }
-	market_village = { tag = GEN level = 1 location = foca }
-	fishing_village = { tag = GEN level = 2 location = foca }
-	market_village = { tag = GEN level = 1 location = amasra }
-	fishing_village = { tag = GEN level = 2 location = amasra }
+	market_village = { tag = VTC level = 1 location = modon }
+	fishing_village = { tag = VTC level = 2 location = modon }
+	market_village = { tag = VTC level = 1 location = kythira }
+	fishing_village = { tag = VTC level = 2 location = kythira }
+	market_village = { tag = VTC level = 1 location = andros }
+	fishing_village = { tag = VTC level = 2 location = andros }
+	market_village = { tag = VTC level = 1 location = karpathos }
+	fishing_village = { tag = VTC level = 2 location = karpathos }
+	market_village = { tag = GTC level = 1 location = samos }
+	fishing_village = { tag = GTC level = 2 location = samos }
+	fishing_village = { tag = GTC level = 1 location = ikaria }
+	market_village = { tag = BYZ level = 1 location = chios }
+	fishing_village = { tag = BYZ level = 2 location = chios }
+	fishing_village = { tag = BYZ level = 1 location = lemnos }
+	market_village = { tag = GTC level = 1 location = foca }
+	fishing_village = { tag = GTC level = 2 location = foca }
+	market_village = { tag = GTC level = 1 location = amasra }
+	fishing_village = { tag = GTC level = 2 location = amasra }
 	market_village = { tag = CRT level = 1 location = chania }
 	market_village = { tag = FAE level = 1 location = faenza }
 	market_village = { tag = GUB level = 1 location = gubbio }
@@ -5207,10 +5209,10 @@ building_manager = {
 	merchants_guild = { tag = TRE level = 1 location = kaffa }
 	burgher_mansion = { tag = TRE level = 1 location = kaffa }	
 	artisan_guilds = { tag = TRE level = 1 location = kaffa }
-	guild_hall = { tag = TRE level = 1 location = tana }
-	merchants_guild = { tag = TRE level = 1 location = tana }
-	burgher_mansion = { tag = TRE level = 1 location = tana }	
-	artisan_guilds = { tag = TRE level = 1 location = tana }
+	guild_hall = { tag = GTC level = 1 location = tana }
+	merchants_guild = { tag = GTC level = 1 location = tana }
+	burgher_mansion = { tag = GTC level = 1 location = tana }	
+	artisan_guilds = { tag = GTC level = 1 location = tana }
 	guild_hall = { tag = FEO level = 1 location = theodoro }
 	merchants_guild = { tag = FEO level = 1 location = theodoro }
 	artisan_guilds = { tag = FEO level = 1 location = theodoro }
@@ -5223,7 +5225,7 @@ building_manager = {
 	nobility_fortifications = { tag = CIL level = 1 location = sis }
 	noble_villa = { tag = CRT level = 1 location = chania }
 	local_markets = { tag = CRT level = 1 location = chania }
-	local_markets = { tag = VEN level = 1 location = corfu }
+	local_markets = { tag = VTC level = 1 location = corfu }
 	local_markets = { tag = CEP level = 1 location = cephalonia }
 	nobility_fortifications = { tag = CIL level = 1 location = adana }
 	nobility_fortifications = { tag = CIL level = 1 location = silifke }
@@ -5455,7 +5457,7 @@ building_manager = {
 	marketplace	= { tag = TUN level = 5 location = palermo }
 	marketplace	= { tag = TRE level = 3 location = kaffa }
 	marketplace	= { tag = FEO level = 6 location = theodoro }
-	marketplace	= { tag = TRE level = 4 location = tana }
+	marketplace	= { tag = GTC level = 4 location = tana }
 	marketplace	= { tag = TRE level = 4 location = trebizond }
 	marketplace	= { tag = PAF level = 2 location = sinop }
 	marketplace	= { tag = CRT level = 3 location = candia }
@@ -5542,7 +5544,7 @@ building_manager = {
 	trade_company_garrison = { tag = GTC level = 1 location = kaffa }
 	trade_company_governance = { tag = GTC level = 1 location = genoa }
 	trade_office = { tag = GTC level = 1 location = ismail }
-	trade_office = { tag = GTC level = 4 location = tana }	
+	trade_office = { tag = GEN level = 4 location = tana }	
 	trade_office = { tag = GTC level = 2 location = trebizond }
 	trade_office = { tag = GTC level = 2 location = sinop }
 	trade_office = { tag = GTC level = 1 location = bafra }

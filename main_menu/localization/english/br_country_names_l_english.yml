@@ -43,10 +43,10 @@
  S0K_ADJ: "Sōkōtría"
 
  #Italy
- VTC: "Aegean Trade League"
- VTC_ADJ: "Aegean League"
- GTC: "Black Sea Company"
- GTC_ADJ: "Black Sea"
+ VTC: "Venice Trade League"
+ VTC_ADJ: "Venice League"
+ GTC: "Genonese Trade Guild"
+ GTC_ADJ: "Genonese Guild"
 
  #Armenia and Georgia
  DER: "Terzn"

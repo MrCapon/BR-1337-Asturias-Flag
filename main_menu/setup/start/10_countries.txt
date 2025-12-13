@@ -9950,8 +9950,6 @@ countries = {
 				tortoli
 				orosei terranova_pausania posada tempiopausania
 				sassari
-				samos ikaria foca #Aegean Sea
-				amasra #Black Sea
 			}
 			
 			our_cores_conquered_by_others = {
@@ -11899,7 +11897,6 @@ countries = {
 			}
 			
 			own_control_integrated = {
-				corfu modon kythira andros mykonos amorgos karpathos
 				#CRO
 				sibenik kaseg knin novigrad crikvenica senj
 				krk makarska sinj
@@ -31876,7 +31873,7 @@ countries = {
 			}
 			
 			own_control_integrated = {
-				taman tana kaffa vosporo #Black Sea
+				taman kaffa vosporo #Black Sea
 			}
 			
 			our_cores_conquered_by_others = {
@@ -50739,6 +50736,16 @@ countries = {
 		}
 
 		GTC = {
+			own_control_core = {
+				samos ikaria foca #Aegean Sea
+				tana amasra #Black Sea
+			}
+			our_cores_conquered_by_others = {
+				chios
+				lemnos
+			}
+			
+
 			type = building
 			starting_technology_level = 3
 			
@@ -50799,6 +50806,12 @@ countries = {
 		}
 
 		VTC = {
+			own_control_core = {
+				corfu modon kythira andros mykonos amorgos karpathos
+			}
+			our_cores_conquered_by_others = {
+			}
+
 			type = building
 			starting_technology_level = 3
 			
