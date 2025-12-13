@@ -14,11 +14,12 @@ br_vinland_naval_raiding = {
 
 	potential = { 
 		OR = {
-			#Vinlanders
-            culture = culture:vinlander
-            culture = culture:marklander
-            culture = culture:hellulander
-            culture = culture:kathurlander
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
 		}
 	}
 	global_levy_size_modifier = 0.25
@@ -35,11 +36,12 @@ br_vinland_naval_tradition = {
 
 	potential = { 
 		OR = {
-			#Vinlanders
-            culture = culture:vinlander
-            culture = culture:marklander
-            culture = culture:hellulander
-            culture = culture:kathurlander
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
 		}
 	}
 	trade_range_modifier = 0.25
@@ -60,7 +62,16 @@ br_vinland_naval_tradition = {
 
 vinlander_thing_of_vinland = {
 	age = age_1_traditions
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = legalism_advance
 	government = republic
 	unlock_heir_selection = veche_selection
@@ -68,7 +79,16 @@ vinlander_thing_of_vinland = {
 
 vinlander_woodland_warfare = {
 	age = age_1_traditions
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = unlock_feudal_levy_advance
 	army_tradition_from_battle = 0.2
 }
@@ -77,30 +97,66 @@ vinlander_woodland_warfare = {
 
 vinlander_river_and_coast_raiding = {
 	age = age_2_renaissance
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = maritime_advance
 	naval_morale = 0.1
 }
 
 vinlander_trade_with_the_skraelings = {
 	age = age_2_renaissance
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = market_advance
-	global_trade_power = 0.1
+	global_merchant_power = 0.2
 }
 
 # age_3_discovery
 
 vinlander_longhouse_settlement = {
 	age = age_3_discovery
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = pike_square
 	global_population_growth = 0.0002
 }
 
 vinlander_pathfinders = {
 	age = age_3_discovery
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = cartography
 	create_colonial_charter_cost_modifier = -0.1
 	colonial_maintenance_cost = -0.1
@@ -110,14 +166,32 @@ vinlander_pathfinders = {
 
 vinlander_old_gods_endure = {
 	age = age_4_reformation
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = confessional_court
 	tolerance_heathen = 1
 }
 
 vinlander_warrior_cults = {
 	age = age_4_reformation
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = recruitment_improvements_reformation
 	discipline = 0.025
 }
@@ -126,14 +200,32 @@ vinlander_warrior_cults = {
 
 vinlander_jarldoms_of_the_west = {
 	age = age_5_absolutism
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = standing_army_absolutism
 	legislative_efficiency = 0.05
 }
 
 vinlander_frontier_mobilization = {
 	age = age_5_absolutism
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = regiment_reinforcement_speed_absolutism
 	global_manpower_modifier = 0.1
 }
@@ -142,14 +234,32 @@ vinlander_frontier_mobilization = {
 
 vinlander_new_world_identity = {
 	age = age_6_revolutions
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = crown_power_advance_revolutions
 	research_speed_modifier = 0.05
 }
 
 vinlander_army_of_the_western_seas = {
 	age = age_6_revolutions
-	potential = { has_culture = vinlander }
+	potential = { 
+		OR = {
+			culture = culture:vinlander
+			culture = culture:marklander
+			culture = culture:hellulander
+			culture = culture:kathurlander
+			culture = culture:innulander
+			culture = culture:skraeling_culture
+		}
+	}
 	requires = revolutions_agressive_advance
 	naval_morale = 0.15
 	global_manpower_modifier = 0.05
@@ -198,7 +308,7 @@ br_kykladian_naval_tradition = {
 elysian_civic_syncretism = {
 	age = age_1_traditions
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = feudalism_advance
 	global_pop_assimilation_speed_modifier = 0.1
@@ -208,7 +318,7 @@ elysian_civic_syncretism = {
 elysian_colonial_charters = {
 	age = age_1_traditions
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = legalism_advance
 	global_integration_speed_modifier = 0.1
@@ -219,7 +329,7 @@ elysian_colonial_charters = {
 elysian_senatorial_tradition = {
 	age = age_2_renaissance
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = vibrant_court_advance
 	diplomatic_capacity = 1
@@ -228,7 +338,7 @@ elysian_senatorial_tradition = {
 elysian_emporia_of_the_west = {
 	age = age_2_renaissance
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = market_advance
 	merchant_power_from_maritime = 0.025
@@ -239,7 +349,7 @@ elysian_emporia_of_the_west = {
 elysian_urban_foundations = {
 	age = age_3_discovery
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = pike_square
 	global_population_growth = 0.0002
@@ -248,7 +358,7 @@ elysian_urban_foundations = {
 elysian_mixed_legions = {
 	age = age_3_discovery
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = professional_army_advance
 	discipline = 0.02
@@ -259,7 +369,7 @@ elysian_mixed_legions = {
 elysian_confessional_compromise = {
 	age = age_4_reformation
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = confessional_court
 	tolerance_heretic = 1
@@ -268,7 +378,7 @@ elysian_confessional_compromise = {
 elysian_civic_faith = {
 	age = age_4_reformation
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = gov_reform_reformation_a
 	monthly_religious_influence = 0.1
@@ -279,7 +389,7 @@ elysian_civic_faith = {
 elysian_princeps_and_senate = {
 	age = age_5_absolutism
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = regiment_reinforcement_speed_absolutism
 	global_separatism = -0.05
@@ -288,7 +398,7 @@ elysian_princeps_and_senate = {
 elysian_imperial_citizenship = {
 	age = age_5_absolutism
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = standing_army_absolutism
 	global_pop_assimilation_speed_modifier = 0.15
@@ -299,7 +409,7 @@ elysian_imperial_citizenship = {
 elysian_transoceanic_identity = {
 	age = age_6_revolutions
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = crown_power_advance_revolutions
 	research_speed_modifier = 0.05
@@ -308,7 +418,7 @@ elysian_transoceanic_identity = {
 elysian_army_of_the_new_roman_world = {
 	age = age_6_revolutions
 	potential = {
-		culture = { has_culture_group = elysian_group }
+		culture = { has_culture_group = culture_group:elysian_group }
 	}
 	requires = revolutions_agressive_advance
 	global_manpower_modifier = 0.1

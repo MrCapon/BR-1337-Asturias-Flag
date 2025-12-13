@@ -51,6 +51,42 @@
  br_kykladian_naval_tradition: "Kykladian Sea Lords"
  br_kykladian_naval_tradition_desc: "The Kykladian islanders have forged their own path across the waves—traders, privateers, and adventurers whose lives are defined by the sea. Their fleets roam far beyond their island homes, sustained by maritime skill, opportunism, and a proud tradition of seafaring independence."
 
+ elysian_civic_syncretism: "Civic Syncretism"
+ elysian_civic_syncretism_desc: "In the early years of settlement, Elysian communities blend Roman custom, colonial necessity, and local practice. Civic life adapts to the realities of the New World, fostering coexistence and gradual assimilation rather than rigid conformity."
+
+ elysian_colonial_charters: "Colonial Charters"
+ elysian_colonial_charters_desc: "Charters granted to cities and settlements define rights, obligations, and privileges across Elysium. These documents provide order at a distance, allowing local governance to flourish under imperial authority."
+
+ elysian_senatorial_tradition: "Senatorial Tradition"
+ elysian_senatorial_tradition_desc: "As Elysium grows, advisory councils and senatorial bodies emerge to balance colonial initiative with centralized oversight. Debate, petition, and law once again shape governance across Elysium."
+
+ elysian_emporia_of_the_west: "Emporia of the West"
+ elysian_emporia_of_the_west_desc: "Elysian ports and market cities connect the far-flung colonies, serving as hubs of exchange and migration. Trade strengthens the settlements and fosters economic growth across the region."
+
+ elysian_urban_foundations: "Urban Foundations"
+ elysian_urban_foundations_desc: "Permanent cities rise from former frontier settlements, laid out according to Roman principles yet shaped by colonial conditions. Stone replaces timber, and civic space replaces mere survival."
+
+ elysian_mixed_legions: "Mixed Legions"
+ elysian_mixed_legions_desc: "Elysian armies draw strength from diversity, combining settlers, natives, and Elysian officers into unified formations. Discipline and adaptability coexist within these hybrid legions."
+
+ elysian_confessional_compromise: "Confessional Compromise"
+ elysian_confessional_compromise_desc: "Religious differences are managed through accommodation rather than persecution. The Elysian state prioritizes civic unity, allowing varied expressions of faith so long as public order is maintained."
+
+ elysian_civic_faith: "Civic Faith"
+ elysian_civic_faith_desc: "Religion in Elysium becomes intertwined with public duty and loyalty to the state. Faith is no longer merely personal, but a shared civic institution reinforcing unity and obedience."
+
+ elysian_princeps_and_senate: "Princeps and Senate"
+ elysian_princeps_and_senate_desc: "The balance between ruler and senate defines mature Elysian governance. Colonial improvisation gives way to structured authority, rooted in revived Roman political tradition."
+
+ elysian_imperial_citizenship: "Imperial Citizenship"
+ elysian_imperial_citizenship_desc: "Citizenship is extended beyond origin or birth, binding peoples of many backgrounds into a single imperial identity. To be Elysian is to belong to the state itself."
+
+ elysian_transoceanic_identity: "Transoceanic Identity"
+ elysian_transoceanic_identity_desc: "Elysium defines itself as a pillar of power stretching across distant oceans, its far-flung settlements united under a shared destiny."
+
+ elysian_army_of_the_new_roman_world: "Army of the New Roman World"
+ elysian_army_of_the_new_roman_world_desc: "Forged in distant lands yet guided by ancient principles, the Elysian army stands as the ultimate expression of imperial revival. It is Roman in discipline, colonial in resilience, and universal in purpose."
+
   #BR Rhossía
  rhos_baptism_of_rhossia: "Baptism of Rhōssía"
  rhos_baptism_of_rhossia_desc: "The adoption of Orthodoxy bound the peoples of Rhōssía into a single spiritual and political community. Through the rites of the Church, disparate tribes and cities were woven into a unified Christian realm, loyal to both faith and ruler."

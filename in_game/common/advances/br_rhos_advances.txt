@@ -13,7 +13,13 @@
 
 rhos_baptism_of_rhossia = {
 	age = age_1_traditions
-	potential = { has_culture = rhos }
+	
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = feudalism_advance
 	tolerance_own = 1
 	monthly_religious_influence = 0.05
@@ -21,7 +27,12 @@ rhos_baptism_of_rhossia = {
 
 rhos_druzhina_tagmata = {
 	age = age_1_traditions
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = unlock_feudal_levy_advance
 	global_manpower_modifier = 0.05
 	army_tradition_decay = -0.0005
@@ -31,14 +42,24 @@ rhos_druzhina_tagmata = {
 
 rhos_riverine_commerce = {
 	age = age_2_renaissance
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = maritime_advance
 	trade_range_modifier = 0.15
 }
 
 rhos_court_of_many_tongues = {
 	age = age_2_renaissance
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = vibrant_court_advance
 	diplomatic_capacity = 1
 }
@@ -47,15 +68,25 @@ rhos_court_of_many_tongues = {
 
 rhos_ostrogs_and_kastra = {
 	age = age_3_discovery
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = pike_and_shot_advance
-	fort_maintenance_modifier = -0.15
-	garrison_size_modifier = 0.1
+	fort_maintenance_cost = -0.15
+	global_garrison_size_modifier = 0.1
 }
 
 rhos_varangian_successors = {
 	age = age_3_discovery
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = professional_army_advance
 	discipline = 0.025
 }
@@ -64,7 +95,12 @@ rhos_varangian_successors = {
 
 rhos_synod_of_the_north = {
 	age = age_4_reformation
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = confessional_court
 	orthodox_synod_cost_modifier = -0.15
 	monthly_religious_influence = 0.1
@@ -72,7 +108,12 @@ rhos_synod_of_the_north = {
 
 rhos_catechism_of_obedience = {
 	age = age_4_reformation
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = gov_reform_reformation_a
 	global_pop_conversion_speed_modifier = 0.1
 }
@@ -81,14 +122,24 @@ rhos_catechism_of_obedience = {
 
 rhos_autokratoria_tou_boreiou = {
 	age = age_5_absolutism
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = regiment_reinforcement_speed_absolutism
 	global_integration_speed_modifier = 0.15
 }
 
 rhos_stratiotai_reforms = {
 	age = age_5_absolutism
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = standing_army_absolutism
 	global_manpower_modifier = 0.1
 }
@@ -97,14 +148,24 @@ rhos_stratiotai_reforms = {
 
 rhos_imperial_synthesis = {
 	age = age_6_revolutions
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = crown_power_advance_revolutions
 	research_speed_modifier = 0.05
 }
 
 rhos_army_of_the_two_traditions = {
 	age = age_6_revolutions
-	potential = { has_culture = rhos }
+	potential = { 
+		OR = {
+			has_or_had_tag = RH0 
+			culture = culture:rhos_culture
+		}
+	}
 	requires = revolutions_agressive_advance
 	global_manpower_modifier = 0.1
 	discipline = 0.025
