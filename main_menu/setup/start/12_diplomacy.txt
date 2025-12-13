@@ -231,6 +231,9 @@ diplomacy_manager = {
     scripted_oneway = { first = VEN second = TTE type = divert_trade }
     scripted_oneway = { first = VEN second = CRT type = divert_trade }
     scripted_oneway = { first = VEN second = RAG type = divert_trade }
+
+    dependency = { first = VEN second = VTC subject_type = trade_company }
+    dependency = { first = GEN second = GTC subject_type = trade_company }
 	
 	scripted_mutual = { first = RAV second = CES type = alliance }
 	scripted_mutual = { first = RIM second = CES type = alliance }
@@ -325,8 +328,7 @@ diplomacy_manager = {
     dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
     dependency = { first = BYZ second = DYR subject_type = tributary } # Autonomia
 
-    #dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia
-    #dependency = { first = BYZ second = RIC subject_type = trade_company } # Emporikē Hetaireia tax rights sold off to Venice
+    #dependency = { first = BYZ second = RIC subject_type = trade_company }
 
 
 
@@ -841,5 +843,7 @@ diplomacy_manager = {
     scripted_oneway = { first = JAP second = NTC type = guarantee }
 
     #India
+    dependency = { first = RIC second = INK subject_type = vassal }
+    dependency = { first = RIC second = S0C subject_type = vassal }
     dependency = { first = VIJ second = RIC subject_type = tributary }
 }

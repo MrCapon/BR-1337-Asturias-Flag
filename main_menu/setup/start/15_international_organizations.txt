@@ -748,6 +748,26 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 451.1.1
+		members = { RIC } #AGY
+		variables = { 
+			religion = religion:orthodox
+			seat = location:alexandria
+		}
+		laws = {
+			composite_nature
+			high_christology
+			local_traditions_and_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+			allow_double_sabbath_tenet
+		}
+	}
+
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 451.1.1
 		members = { ETH }
 		variables = { 
 			religion = religion:miaphysite
@@ -788,7 +808,7 @@ international_organization_manager = {
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 1122.1.1
-		members = { RIC }
+		members = { INK S0K }
 		variables = { 
 			religion = religion:nestorianism
 			seat = location:goa #kollam

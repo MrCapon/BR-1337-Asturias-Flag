@@ -137,7 +137,7 @@ indikes_greek_culture = {
 	language = indikes_dialect
 	color = rgb { 150 55 105 }
 	
-	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx indian_gfx }
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx middle_east_gfx }
 
 	opinions = {
 		greek_culture = kindred

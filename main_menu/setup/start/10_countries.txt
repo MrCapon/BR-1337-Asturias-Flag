@@ -50737,6 +50737,127 @@ countries = {
 			
 			capital = syracuse # lecce
 		}
+
+		GTC = {
+			type = building
+			starting_technology_level = 3
+			
+			capital = kaffa
+
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_republic"
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+
+				laws = {
+					republican_foundation_law = meritocratic_rule_policy
+					heir_religion_law = heir_same_religion
+					marriage_law = monogamous_marriage
+					censorship = limited_censorship
+					education_masses_law = apprenticeships_education
+					administrative_system = local_courts_administration
+					cultural_traditions_law = maritime_society
+					legal_code_law = court_of_appeals
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_favor_the_burghers
+				}
+				reforms = {
+					merchant_republic
+					trade_office_network
+				}
+				
+				privilege = {
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
+				}
+
+				centralization_vs_decentralization = 25
+				aristocracy_vs_plutocracy = 75
+				serfdom_vs_free_subjects = 45
+				traditionalist_vs_innovative = 50
+				spiritualist_vs_humanist = 80
+				mercantilism_vs_free_trade = 75
+				offensive_vs_defensive = 40
+				land_vs_naval = 100
+				quality_vs_quantity = -50
+				belligerent_vs_conciliatory = 75
+				capital_economy_vs_traditional_economy = -85
+				individualism_vs_communalism = -75
+				outward_vs_inward = -75
+			}
+			country_rank = rank_duchy
+		}
+
+		VTC = {
+			type = building
+			starting_technology_level = 3
+			
+			capital = thessaloniki
+
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "catholic_republic"
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+
+				laws = {
+					republican_foundation_law = meritocratic_rule_policy
+					heir_religion_law = heir_same_religion
+					marriage_law = monogamous_marriage
+					censorship = limited_censorship
+					education_masses_law = apprenticeships_education
+					administrative_system = local_courts_administration
+					cultural_traditions_law = maritime_society
+					legal_code_law = court_of_appeals
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_favor_the_burghers
+				}
+				reforms = {
+					merchant_republic
+					trade_office_network
+				}
+				
+				privilege = {
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
+				}
+
+				centralization_vs_decentralization = 25
+				aristocracy_vs_plutocracy = 75
+				serfdom_vs_free_subjects = 45
+				traditionalist_vs_innovative = 50
+				spiritualist_vs_humanist = 80
+				mercantilism_vs_free_trade = 75
+				offensive_vs_defensive = 40
+				land_vs_naval = 100
+				quality_vs_quantity = -50
+				belligerent_vs_conciliatory = 75
+				capital_economy_vs_traditional_economy = -85
+				individualism_vs_communalism = -75
+				outward_vs_inward = -75
+			}
+			country_rank = rank_duchy
+		}
+
 		
 		
 		#Balkan Tags
@@ -50911,75 +51032,6 @@ countries = {
 		
 
 		#Anatolian Tags
-		RIC = {
-			#research_advance = advance_type:trade_companies_advance
-			own_control_core = {
-				hadibu qulensya goa madgaon
-			}
-			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
-			starting_technology_level = 3
-			
-			capital = goa
-
-			include = "expl_eastern_europe"
-			include = "expl_mediterranean"
-			include = "expl_silk_road_west"
-			include = "expl_silk_road_center"
-			include = "expl_silk_road_east"
-			include = "expl_indian_trade_route"
-			include = "expl_horn_of_africa_ethiopia"
-			government = {
-				type = republic
-				heir_selection = oligarchic_elective
-				ruler = random
-
-				laws = {
-					republican_foundation_law = meritocratic_rule_policy
-					heir_religion_law = heir_same_religion
-					marriage_law = monogamous_marriage
-					censorship = limited_censorship
-					education_masses_law = apprenticeships_education
-					administrative_system = local_courts_administration
-					cultural_traditions_law = maritime_society
-					legal_code_law = court_of_appeals
-					maritime_law = protect_trade_routes
-					piracy_law = anti_piracy_policy
-					distribution_of_power_law = dop_favor_the_burghers
-				}
-				reforms = {
-					merchant_republic
-					trade_office_network
-				}
-				
-				privilege = {
-					#burghers
-					land_of_commerce
-					sponsor_maritime_contracts
-					shipwright_contracts
-					market_fairs
-				}
-
-				centralization_vs_decentralization = 25
-				aristocracy_vs_plutocracy = 75
-				serfdom_vs_free_subjects = 45
-				traditionalist_vs_innovative = 50
-				spiritualist_vs_humanist = 80
-				mercantilism_vs_free_trade = 75
-				offensive_vs_defensive = 40
-				land_vs_naval = 100
-				quality_vs_quantity = -50
-				belligerent_vs_conciliatory = 75
-				capital_economy_vs_traditional_economy = -85
-				individualism_vs_communalism = -75
-				outward_vs_inward = -75
-			}
-			country_rank = rank_duchy
-			currency_data = {
-				gold = 1000
-				stability = 100
-				government_power = 100
-			}
-		}
 
 		AOI = {
 			own_control_core = {
@@ -51873,10 +51925,12 @@ countries = {
 			capital = tunis
 		}
 		
-		#Inda
-		INK = { #releasable
-			our_cores_conquered_by_others = {
+		#India
+		INK = { 
+			own_control_core = {
 				goa madgaon
+			}
+			our_cores_conquered_by_others = {
 			}
 			
 			include = "expl_india_hindu"
@@ -51887,7 +51941,6 @@ countries = {
 			include = "expl_silk_road_east"
 			include = "expl_indian_trade_route"
 			include = "eastern_european_monarchy"
-
 			country_rank = rank_kingdom
 			government = {
 				type = monarchy
@@ -51896,12 +51949,143 @@ countries = {
 
 				reforms = {
 					autocracy
+					trade_office_network
+				}
+				
+				privilege = {
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
 				}
 
 			}
 			
 			capital = goa
 		}
+
+		RIC = {
+			#research_advance = advance_type:trade_companies_advance
+			own_control_core = {
+				hadibu qulensya
+			}
+			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
+			starting_technology_level = 3
+			
+			capital = goa
+
+			include = "expl_eastern_europe"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "expl_horn_of_africa_ethiopia"
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+
+				laws = {
+					republican_foundation_law = meritocratic_rule_policy
+					heir_religion_law = heir_same_religion
+					marriage_law = monogamous_marriage
+					censorship = limited_censorship
+					education_masses_law = apprenticeships_education
+					administrative_system = local_courts_administration
+					cultural_traditions_law = maritime_society
+					legal_code_law = court_of_appeals
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_favor_the_burghers
+				}
+				reforms = {
+					merchant_republic
+					trade_office_network
+				}
+				
+				privilege = {
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
+				}
+
+				centralization_vs_decentralization = 25
+				aristocracy_vs_plutocracy = 75
+				serfdom_vs_free_subjects = 45
+				traditionalist_vs_innovative = 50
+				spiritualist_vs_humanist = 80
+				mercantilism_vs_free_trade = 75
+				offensive_vs_defensive = 40
+				land_vs_naval = 100
+				quality_vs_quantity = -50
+				belligerent_vs_conciliatory = 75
+				capital_economy_vs_traditional_economy = -85
+				individualism_vs_communalism = -75
+				outward_vs_inward = -75
+			}
+			country_rank = rank_duchy
+			currency_data = {
+				gold = 1000
+				stability = 100
+				government_power = 100
+			}
+		}
+
+		S0K = {
+			own_control_core = {
+				hadibu qulensya
+			}
+			starting_technology_level = 3
+			
+			capital = qulensya
+
+			include = "expl_eastern_europe"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			include = "expl_horn_of_africa_ethiopia"
+			include = "eastern_european_monarchy"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					republican_foundation_law = meritocratic_rule_policy
+					heir_religion_law = heir_same_religion
+					marriage_law = monogamous_marriage
+					censorship = limited_censorship
+					education_masses_law = apprenticeships_education
+					administrative_system = local_courts_administration
+					cultural_traditions_law = maritime_society
+					legal_code_law = court_of_appeals
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_favor_the_burghers
+				}
+				reforms = {
+					merchant_republic
+					trade_office_network
+				}
+				
+				privilege = {
+					#burghers
+					land_of_commerce
+					sponsor_maritime_contracts
+					shipwright_contracts
+					market_fairs
+				}
+
+			}
+			country_rank = rank_county
+		}
+
 		
 		#West HRE
 

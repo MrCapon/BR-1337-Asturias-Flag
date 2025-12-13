@@ -109,6 +109,25 @@ CHY = { #Chrysotrapeziōtai
 }
 
 #Italia
+VTC = { #Venetian Trade Company
+	color = map_venice
+
+	culture_definition = latinoi
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+GTC = { #Genonese Trade Company
+	color = rgb { 200 218 54 }
+
+	culture_definition = latinoi
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 3
+}
+
 BNV = { #Beneveto
     color = rgb { 125 160 95 }
     culture_definition = neapolitan
@@ -168,11 +187,13 @@ AFK = { #BR addition
 
 }
 
+#India
+
 RIC = { #BR addition
-	color = rgb { 175 38 65 }
+	color = rgb { 175 38 95 }
 
 	culture_definition = indikes_greek_culture
-	religion_definition = nestorianism
+	religion_definition = orthodox
 
 	description_category = administrative
 	difficulty = 3
@@ -182,6 +203,13 @@ INK = { #BR addition
 	color = rgb { 175 75 95 }
 
 	culture_definition = indikes_greek_culture
+	religion_definition = nestorianism
+}
+
+S0K = { #BR addition
+	color = rgb { 75 165 65 }
+
+	culture_definition = soqotri_culture
 	religion_definition = nestorianism
 }
 
@@ -224,3 +252,4 @@ RH0 = {
 	difficulty = 3
 }
 #RH1
+
