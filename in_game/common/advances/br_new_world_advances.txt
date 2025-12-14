@@ -107,7 +107,7 @@ vinlander_river_and_coast_raiding = {
 			culture = culture:skraeling_culture
 		}
 	}
-	requires = maritime_advance
+	requires = merchants_and_trade
 	naval_morale = 0.1
 }
 
@@ -123,7 +123,7 @@ vinlander_trade_with_the_skraelings = {
 			culture = culture:skraeling_culture
 		}
 	}
-	requires = market_advance
+	requires = maritime_advance_age_2
 	global_merchant_power = 0.2
 }
 
@@ -157,7 +157,7 @@ vinlander_pathfinders = {
 			culture = culture:skraeling_culture
 		}
 	}
-	requires = cartography
+	requires = age_2_renaissance
 	create_colonial_charter_cost_modifier = -0.1
 	colonial_maintenance_cost = -0.1
 }
@@ -210,7 +210,7 @@ vinlander_jarldoms_of_the_west = {
 			culture = culture:skraeling_culture
 		}
 	}
-	requires = standing_army_absolutism
+	requires = regiment_reinforcement_speed_absolutism
 	legislative_efficiency = 0.05
 }
 
@@ -340,7 +340,7 @@ elysian_emporia_of_the_west = {
 	potential = {
 		culture = { has_culture_group = culture_group:elysian_group }
 	}
-	requires = market_advance
+	requires = merchants_and_trade
 	merchant_power_from_maritime = 0.025
 }
 
@@ -360,7 +360,7 @@ elysian_mixed_legions = {
 	potential = {
 		culture = { has_culture_group = culture_group:elysian_group }
 	}
-	requires = professional_army_advance
+	requires = professional_armies_advance
 	discipline = 0.02
 }
 
@@ -400,7 +400,7 @@ elysian_imperial_citizenship = {
 	potential = {
 		culture = { has_culture_group = culture_group:elysian_group }
 	}
-	requires = standing_army_absolutism
+	requires = regiment_reinforcement_speed_absolutism
 	global_pop_assimilation_speed_modifier = 0.15
 }
 

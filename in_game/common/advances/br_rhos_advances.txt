@@ -48,7 +48,7 @@ rhos_riverine_commerce = {
 			culture = culture:rhos_culture
 		}
 	}
-	requires = maritime_advance
+	requires = maritime_advance_age_2
 	trade_range_modifier = 0.15
 }
 
@@ -87,7 +87,7 @@ rhos_varangian_successors = {
 			culture = culture:rhos_culture
 		}
 	}
-	requires = professional_army_advance
+	requires = professional_armies_advance
 	discipline = 0.025
 }
 
@@ -140,7 +140,7 @@ rhos_stratiotai_reforms = {
 			culture = culture:rhos_culture
 		}
 	}
-	requires = standing_army_absolutism
+	requires = regiment_reinforcement_speed_absolutism
 	global_manpower_modifier = 0.1
 }
 
