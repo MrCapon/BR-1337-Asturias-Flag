@@ -12536,7 +12536,7 @@ countries = {
 			capital = larissa
 		}
 		
-		MOE = { #BR ADDED
+		M0E = { #BR ADDED
 			own_control_core = {
 				#BYZ
 				tripolitsa veligosti karytaina
@@ -12569,7 +12569,7 @@ countries = {
 			country_rank = rank_duchy
 			liturgical_language = khoine_dialect
 			
-			capital = larissa
+			capital = mystras
 		}
 		
 		BYZ = {
@@ -12669,7 +12669,7 @@ countries = {
 				gravia
 				bodonitsa
 				salona
-				#MOE
+				#M0E
 				tripolitsa veligosti karytaina
 				monemvasia mystras oitylo leuktron astros
 				argos nafplio

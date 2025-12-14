@@ -1,6 +1,6 @@
 ﻿###-BR ADDED-###
 #Balkans
-MOE = { #BR addition
+M0E = { #BR addition
 	color = rgb { 95 75 125 }
 
 	culture_definition = greek_culture

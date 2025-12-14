@@ -4485,8 +4485,8 @@ building_manager = {
 	peasants_training_grounds = { tag = MTR level = 1 location = devol }
 	peasants_training_grounds = { tag = THP level = 1 location = kruje }
 	peasants_training_grounds = { tag = VEN level = 1 location = modon }
-	peasants_training_grounds = { tag = MOE level = 1 location = tripolitsa }
-	peasants_training_grounds = { tag = MOE level = 1 location = mystras }
+	peasants_training_grounds = { tag = M0E level = 1 location = tripolitsa }
+	peasants_training_grounds = { tag = M0E level = 1 location = mystras }
 	peasants_training_grounds = { tag = ACH level = 1 location = kalamata }
 	peasants_training_grounds = { tag = ACH level = 1 location = chalandritsa }
 	
@@ -4818,9 +4818,9 @@ building_manager = {
 	sand_pit = { tag = NEG level = 1 location = negroponte }
 	market_village = { tag = ATH level = 1 location = thebes }
 	market_village = { tag = ATH level = 1 location = megara }
-	market_village = { tag = MOE level = 1 location = tripolitsa }
-	market_village = { tag = MOE level = 1 location = mystras }
-	market_village = { tag = MOE level = 1 location = nafplio }
+	market_village = { tag = M0E level = 1 location = tripolitsa }
+	market_village = { tag = M0E level = 1 location = mystras }
+	market_village = { tag = M0E level = 1 location = nafplio }
 	market_village = { tag = ACH level = 1 location = andravida }
 	market_village = { tag = BYZ level = 1 location = bozan }
 	market_village = { tag = BYZ level = 1 location = bandirma }
@@ -5151,10 +5151,10 @@ building_manager = {
 	merchants_guild = { tag = DYR level = 1 location = durres }
 	merchants_guild = { tag = CYP level = 1 location = larnaca }
 	noble_villa = { tag = EPI level = 1 location = arta }
-	parish_church = { tag = MOE level = 1 location = mystras }
-	parish_church = { tag = MOE level = 1 location = tripolitsa }
+	parish_church = { tag = M0E level = 1 location = mystras }
+	parish_church = { tag = M0E level = 1 location = tripolitsa }
 	parish_church = { tag = ACH level = 1 location = kalamata }
-	peasants_hunting_grounds  = { tag = MOE level = 1 location = karytaina }
+	peasants_hunting_grounds  = { tag = M0E level = 1 location = karytaina }
 	peasants_hunting_grounds  = { tag = EPI level = 1 location = pyli }
 	local_schools  = { tag = ATH level = 1 location = corinth }
 	local_schools  = { tag = ACH level = 1 location = kalamata }
@@ -5234,8 +5234,8 @@ building_manager = {
 	nobility_fortifications = { tag = ANA level = 1 location = kirsehir }
 	nobility_fortifications = { tag = ANA level = 1 location = sungurlu }
 	nobility_fortifications = { tag = ANA level = 1 location = zile }
-	nobility_fortifications = { tag = MOE level = 1 location = tripolitsa }
-	nobility_fortifications = { tag = MOE level = 1 location = mystras }
+	nobility_fortifications = { tag = M0E level = 1 location = tripolitsa }
+	nobility_fortifications = { tag = M0E level = 1 location = mystras }
 	nobility_fortifications = { tag = ACH level = 1 location = andravida }
 	local_markets = { tag = TRE level = 1 location = lusta }
 	nobility_fortifications = { tag = MES level = 1 location = arguvan }
@@ -5283,8 +5283,8 @@ building_manager = {
 	stockade = { tag = BYZ level = 1 location = manisa }
 	stockade = { tag = CYP level = 1 location = nicosia_cyp }
 	stockade = { tag = CRT level = 1 location = candia }
-	stockade = { tag = MOE level = 1 location = tripolitsa }
-	stockade = { tag = MOE level = 1 location = mystras }
+	stockade = { tag = M0E level = 1 location = tripolitsa }
+	stockade = { tag = M0E level = 1 location = mystras }
 	stockade = { tag = THS level = 1 location = larissa }
 	stockade = { tag = EPI level = 1 location = ioannina }
 	stockade = { tag = DYR level = 1 location = durres }

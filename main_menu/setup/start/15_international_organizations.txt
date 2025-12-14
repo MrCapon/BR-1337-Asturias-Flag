@@ -572,7 +572,7 @@ international_organization_manager = {
 			FEO	
 			#BR ADDED
 			ICO AON
-			MOE THS	KAP PAF	THE ATH ACH
+			M0E THS	KAP PAF	THE ATH ACH
 			BNK MKB CHY
 		}
 		variables = { 
