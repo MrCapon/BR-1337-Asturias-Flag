@@ -12,3 +12,6 @@
 
 
 # Credits
+
+Greek Dynamic Names - Expansion and Fixes https://steamcommunity.com/sharedfiles/filedetails/?id=3602832678
+Fishe's mods https://steamcommunity.com/sharedfiles/filedetails/?id=3605061066
