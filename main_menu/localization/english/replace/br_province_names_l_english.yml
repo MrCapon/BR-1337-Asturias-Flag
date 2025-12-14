@@ -7,8 +7,8 @@
  bari_province: "Bárion"                   # Bari (Greekized)
  otranto_province: "Longobardía"           # Otranto as Longobardia (Norman/Longobard theme)
  basilicata_province: "Leukanía"           # Basilicata ~ Leucania (classical/Byz)
- calabria_citra_province: "Hypokalavría"   # Calabria Citra -> "Lower Calabria" Greekified
- calabria_ultra_province: "Kalavría"       # Calabria Ultra -> "Calabria" (Upper)
+ calabria_citra_province: "Hypokalavría"   # Calabria Citra -> Lower Calabria
+ calabria_ultra_province: "Kalavría"       # Calabria Ultra -> Calabria (Upper)
  gorizia_province: "Gorizía"               # Gorizia (kept recognizable; medieval Greek form)
 
  # Western Balkans / Dalmatia / Bosnia / Serbia region
@@ -30,7 +30,7 @@
  preslav_province: "Odessos"               # Preslav -> Odessos (use classical Black Sea port name)
  south_dobruja_province: "Notíon Paristríon" # South Paristrion
  sredets_province: "Serdika"               # Sofia/Sredets -> Serdica (classical/Byz)
- tarnovo_province: "Paradoúnavon"          # Tarnovo region as "beyond the Danube" style name
+ tarnovo_province: "Paradoúnavon"          # Tarnovo region as beyond the Danube style name
  vidin_province: "Bononía"                 # Vidin -> Bononia (classical/Byz exonym)
  central_macedonia_province: "Thessaloníkē" # Thessalonike (theme / metropolis)
  chalkidiki_province: "Khalkidhikē"        # Chalkidiki peninsula

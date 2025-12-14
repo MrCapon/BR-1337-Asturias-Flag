@@ -41,7 +41,7 @@ boyarski_voiski = {
 		# Military boosts
 		nobles_estate_levy_size = 0.25
 		global_levy_size_modifier = 0.10
-		manpower_recovery_speed = 0.10
+		global_manpower_modifier = 0.10
 
 		monthly_towards_aristocracy = societal_value_minor_monthly_move
 	}

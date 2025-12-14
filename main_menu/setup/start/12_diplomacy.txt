@@ -844,6 +844,6 @@ diplomacy_manager = {
 
     #India
     dependency = { first = RIC second = INK subject_type = vassal }
-    dependency = { first = RIC second = S0C subject_type = vassal }
+    dependency = { first = RIC second = S0K subject_type = vassal }
     dependency = { first = VIJ second = RIC subject_type = tributary }
 }

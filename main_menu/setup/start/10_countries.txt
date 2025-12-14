@@ -48943,7 +48943,7 @@ countries = {
 			}
 			
 			our_cores_conquered_by_others = {
-				dhufar hadibu qulensya khalfut mirbat qishn raysut
+				dhufar khalfut mirbat qishn raysut
 			}
 			
 			include = "expl_middle_east"
@@ -51981,7 +51981,6 @@ countries = {
 		RIC = {
 			#research_advance = advance_type:trade_companies_advance
 			own_control_core = {
-				hadibu qulensya
 			}
 			type = building #has land but this opens up more buildings remove if it causes errors I am not seeing. 
 			starting_technology_level = 3
