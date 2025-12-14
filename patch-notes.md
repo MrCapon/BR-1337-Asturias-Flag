@@ -1,4 +1,27 @@
 
+
+# 0.5
+
+## Setup Changes
+- Added three new trade companies:
+  - Genoese Trade Guild
+  - Venice Trade League
+  - Hetaireía Indikēs
+- Added Indikē and Sōkōtría to the India region.
+- Assigned appropriate enclave holdings to trade company overlords in their respective regions.
+
+## New Advances
+- Added 12 new Advances for the Rhôs culture (2 per age).
+- Added 12 new Advances for the Vinlander culture (2 per age).
+- Added 12 new Advances for the Elysian culture group (2 per age).
+
+## Localization
+- Incorporated *Greek Dynamic Names – Expansion and Fixes*.  
+  https://steamcommunity.com/sharedfiles/filedetails/?id=3602832678
+
+## Bug Fixes
+- Various minor bug fixes.
+
 # 0.4
 
 ## Estate privileges
