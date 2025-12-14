@@ -1,0 +1,125 @@
+﻿#unlock_cabinet_action = settle_the_frontier
+#colonial_maintenance_cost = -0.2
+#colonial_migration_size_modifier = 0.5
+#create_colonial_charter_cost_modifier = -0.2
+#unlock_law = colonial_policy
+#global_monthly_food_modifier = 0.10
+#global_population_growth = 0.00025
+#can_invite_settlers = yes
+
+# ==================================================
+# Greek Culture Group Advances
+# ==================================================
+
+# AGE 1 – Traditions
+
+roman_romaioi_identity = {
+	age = age_1_traditions
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = written_alphabet
+	tolerance_own = 1
+}
+
+roman_codified_custom = {
+	age = age_1_traditions
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = codified_laws
+	monthly_legitimacy = 0.05
+}
+
+# AGE 2 – Renaissance
+
+roman_scribal_administration = {
+	age = age_2_renaissance
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = renaissance_advance
+	research_speed_modifier = 0.03
+}
+
+roman_court_and_office = {
+	age = age_2_renaissance
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = vibrant_court_advance
+	diplomatic_capacity = 1
+}
+
+# AGE 3 – Discovery
+
+roman_thematic_recruitment = {
+	age = age_3_discovery
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = pike_square
+	global_manpower_modifier = 0.05
+	army_infantry_power = 0.05
+}
+
+roman_stone_and_road_tradition = {
+	age = age_3_discovery
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = professional_armies_advance
+	global_build_buildings_cost = -0.05
+}
+
+# AGE 4 – Reformation
+
+roman_imperial_legitimacy = {
+	age = age_4_reformation
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = confessional_court
+	stability_investment = tiny_stability_investment
+}
+
+roman_civic_order = {
+	age = age_4_reformation
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = confessional_court
+	tolerance_own = 1
+}
+
+# AGE 5 – Absolutism
+
+roman_centralized_command = {
+	age = age_5_absolutism
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = regiment_reinforcement_speed_absolutism
+	tax_income_efficiency = medium_tax_income_efficiency_bonus
+}
+
+roman_law_above_custom = {
+	age = age_5_absolutism
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = war_score_absolutism_advance
+	discipline = 0.02
+	army_infantry_power = 0.02
+}
+
+# AGE 6 – Revolutions
+
+roman_state_identity = {
+	age = age_6_revolutions
+	potential = {
+		culture = { has_culture_group = culture_group:greek_group }
+	}
+	requires = crown_power_advance_revolutions
+	monthly_legitimacy = 0.1
+}
