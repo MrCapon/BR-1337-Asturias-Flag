@@ -490,11 +490,23 @@
             }
         }
 		every_country = {
+			limit = { has_reform = government_reform:military_order_reform }
+
+            if = {
+                limit = {
+					capital ?= { NOT = { region = region:baltic_region } }
+				}
+                research_advance = advance_type:unlock_reformed_crusader_knights_advance
+				research_advance = advance_type:deus_vult
+            }
+        }
+		every_country = {
 			limit = {
 				capital ?= {
 					region = region:italy_region
 				}
 			}
+			research_advance = advance_type:unlock_peasant_levy_advance
 			research_advance = advance_type:unlock_crossbowmen_advance
 			research_advance = advance_type:dock_advance
 			research_advance = advance_type:unlock_m_galley_advance
