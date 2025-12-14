@@ -125,35 +125,36 @@
  rhos_army_of_the_two_traditions_desc: "The final fusion of Roman discipline and Rus resilience gives rise to a uniquely Rhōssían army. Flexible, enduring, and relentless, it embodies the strength of both worlds."
 
  # Roman Culture Group
+
  roman_romaioi_identity: "Romaioi Identity"
- roman_romaioi_identity_desc: "The people of the empire do not see themselves as relics of a fallen past, but as Romaioi who have endured through law, language, and custom. This shared identity binds province and capital alike."
+ roman_romaioi_identity_desc: "The people of the empire see themselves not as relics of a bygone age, but as Romaioi, enduring through law, speech, and custom. This bond unites provinces and capital alike under a shared inheritance."
 
  roman_codified_custom: "Codified Custom"
- roman_codified_custom_desc: "Ancient law and local practice are reconciled through written custom. By recording precedent and tradition, imperial authority is preserved without erasing regional order."
+ roman_codified_custom_desc: "Ancient law and provincial practice are reconciled in written form. By preserving precedent alongside tradition, imperial authority is maintained without uprooting local order."
 
  roman_scribal_administration: "Scribal Administration"
- roman_scribal_administration_desc: "A literate class of clerks and officials sustains the machinery of state. Records, correspondence, and law flow through trained hands, ensuring continuity across generations."
+ roman_scribal_administration_desc: "A learned class of clerks and secretaries sustains the workings of the state. Records, correspondence, and decrees pass through trained hands, ensuring continuity across the ages."
 
  roman_court_and_office: "Court and Office"
- roman_court_and_office_desc: "Imperial governance rests not only on the ruler, but on a network of offices, titles, and dignities. Service at court confers both prestige and responsibility."
+ roman_court_and_office_desc: "Imperial rule rests not only upon the sovereign, but upon a lattice of offices, dignities, and titles. Service at court confers honour as well as duty."
 
- roman_thematic_recruitment: "Thematic Recruitment"
- roman_thematic_recruitment_desc: "Military service is organized through provincial obligations, binding land, soldier, and state together. These thematic forces provide both defense and stability."
+ roman_thematic_recruitment: "Reformed Thematic Recruitment"
+ roman_thematic_recruitment_desc: "The levy of soldiers is bound to the land and its people. Provincial forces stand as both shield and pillar of order, linking citizen, soil, and state."
 
- roman_stone_and_road_tradition: "Stone and Road Tradition"
- roman_stone_and_road_tradition_desc: "Imperial roads, bridges, and fortifications are maintained not as monuments, but as necessities of rule. Stone endures where timber fails."
+ roman_infrastructure: "Roman Infrastructure"
+ roman_infrastructure_desc: "Imperial roads, bridges, and fortifications are maintained as the veins of the realm. Durable construction binds provinces together and reduces the cost of sustaining travel and trade across the empire."
 
  roman_imperial_legitimacy: "Imperial Legitimacy"
- roman_imperial_legitimacy_desc: "Authority flows from continuity and order rather than mere force. Stability is preserved through recognized institutions and accepted rule."
+ roman_imperial_legitimacy_desc: "Power flows from continuity and the rule of law, not from mere might. Stability is secured through recognised offices and accepted authority."
 
  roman_civic_order: "Civic Order"
- roman_civic_order_desc: "Public peace is upheld through shared expectation and custom. Obedience to law, rather than fear, sustains imperial society."
+ roman_civic_order_desc: "Peace is preserved by shared custom and expectation. Obedience springs from respect for law, not fear, binding citizens to the realm."
 
  roman_centralized_command: "Centralized Command"
- roman_centralized_command_desc: "Military and fiscal authority are drawn more tightly into imperial hands. Clear chains of command replace regional improvisation."
+ roman_centralized_command_desc: "Military and fiscal authority is drawn closer to the imperial hand. Clear chains of command supplant local improvisation and disorder."
 
  roman_law_above_custom: "Law Above Custom"
- roman_law_above_custom_desc: "When necessity demands it, imperial law supersedes local tradition. Uniform justice strengthens the state, even where it challenges habit."
+ roman_law_above_custom_desc: "When necessity demands, imperial law prevails over local habit. Uniform justice strengthens the realm, even where it challenges long-standing ways."
 
  roman_state_identity: "Imperial State Identity"
- roman_state_identity_desc: "The empire endures not merely as a ruler's domain, but as a political order unto itself. Loyalty to the state transcends origin, lineage, and province."
+ roman_state_identity_desc: "The empire endures not as the dominion of one alone, but as an order of law and polity. Loyalty to the state surpasses birth, lineage, and province alike."

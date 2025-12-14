@@ -6,6 +6,8 @@
 #global_monthly_food_modifier = 0.10
 #global_population_growth = 0.00025
 #can_invite_settlers = yes
+#global_fur_output_modifier = 0.1
+#global_wild_game_output_modifier = 0.1
 
 #Vinland
 br_vinland_naval_raiding = {
@@ -52,6 +54,8 @@ br_vinland_naval_tradition = {
     exploration_maintenance_cost = -0.50
     navy_maintenance_cost = -0.25
     global_maritime_presence_modifier = 0.1
+	#merchant_power_from_maritime_modifier = 0.2
+	#trade_sea_movement_cost_modifier = -0.2
 
     requires = ship_building_advance
 }
@@ -125,6 +129,7 @@ vinlander_trade_with_the_skraelings = {
 	}
 	requires = maritime_advance_age_2
 	global_merchant_power = 0.2
+	global_fur_output_modifier = 0.1
 }
 
 # age_3_discovery
