@@ -3946,7 +3946,7 @@ countries = {
 		GLH = {
 			type = army
 			own_control_core = {
-				qarasuvbazar solkhat seyitler kalay kezlev aqmecit or_qapi jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
+				seyitler kalay kezlev aqmecit or_qapi jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
 				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
@@ -4067,14 +4067,16 @@ countries = {
 				tsaryovo_gorodishche burayevo
 				sarybulak zhanaarka arkat balyktykol kaynar_atbai
 				
+				#Principality of Kursk
+				kursk fatezh kosozhichi olgov
+				manturovo_kursk oskol troitskoye_na_shchigrakh
+			}
+			own_core = {
 				bratslav balta bershad karabul savran
 				torhovytsia teplyk tsybuliv uman zavallia
 				vinnytsia sokilets
 				armavir
-
-				#Principality of Kursk
-				kursk fatezh kosozhichi olgov
-				manturovo_kursk oskol troitskoye_na_shchigrakh
+				qarasuvbazar solkhat
 			}
 
 			starting_technology_level = 3
@@ -4110,7 +4112,7 @@ countries = {
 				quality_vs_quantity = 50
 				belligerent_vs_conciliatory = -75
 				capital_economy_vs_traditional_economy = 80
-				individualism_vs_communalism = 25
+				individualism_vs_communalism = 45
 				outward_vs_inward = -25
 				
 				reforms = {
@@ -39888,7 +39890,7 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1345.1.1
+				date = 1340.1.1
 				size = 1.5
 			}
 			
@@ -39960,7 +39962,7 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1345.1.1
+				date = 1340.1.1
 				size = 1.5
 			}
 			
@@ -40716,7 +40718,7 @@ countries = {
 			timed_modifier = {
 				modifier = "nap_struggle_for_independence" #todo make unique mod modifier 
 				start_date = 1333.1.1
-				date = 1345.1.1
+				date = 1340.1.1
 				size = 1.5
 			}
 			

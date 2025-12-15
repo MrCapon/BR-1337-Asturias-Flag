@@ -441,9 +441,9 @@ international_organization_manager = {
 		type = guelphs_io
 		creation_date = 1125.5.23
 		members = {
-			NAP PAP BLG PEA FLO ASD FER CNV CHX MND TTN IMO RAV FAE RIM ANC CMR PRA COT PTG SIE GUB MTA PES PAD ATI
+			PAP BLG PEA FLO ASD FER CNV CHX MND TTN IMO RAV FAE RIM ANC CMR PRA COT PTG SIE GUB MTA PES PAD ATI
 			#BR ADDED
-			BNV SPL N1P
+			BNV SPL N1P N2P N3P
 			#Othodox side with Pope until we add a third option.
 			S1C S2C S3C 
 		}
