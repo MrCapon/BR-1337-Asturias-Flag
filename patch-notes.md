@@ -1,5 +1,20 @@
 
 
+# 0.6
+
+Refactor: Morea to avoid conflict with PM's Moesia
+In the future I think the easiest way to avoid tag conflicts is try and sneak a number into the tag should make tag conflict l;ess likely.
+
+Improved Knights and Orthodox Holy Orders starting techs to make them more viable.
+
+Added 12 more advances to the Hellenic Culture Group.
+Make the 12 Colonial Subject advances to also be available to our new world nations regardless of them being subjects.
+Further improved the Trade Companies starting tech and buildings to make them more playable and better subjects to their Merchant Republic overlords.
+
+Adjusted the population of Anatolia
+
+fix some advancement errors
+
 # 0.5
 
 ## Setup Changes
