@@ -365,7 +365,7 @@ elysian_mixed_legions = {
 	potential = {
 		culture = { has_culture_group = culture_group:elysian_group }
 	}
-	requires = professional_armies_advance
+	requires = pike_and_shot_advance
 	discipline = 0.02
 }
 

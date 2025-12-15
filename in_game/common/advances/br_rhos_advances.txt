@@ -87,7 +87,7 @@ rhos_varangian_successors = {
 			culture = culture:rhos_culture
 		}
 	}
-	requires = professional_armies_advance
+	requires = pike_and_shot_advance
 	discipline = 0.025
 }
 

@@ -82,7 +82,7 @@ roman_infrastructure = {
 	potential = {
 		culture = { has_culture_group = culture_group:greek_group }
 	}
-	requires = professional_armies_advance
+	requires = pike_and_shot_advance
 	fort_maintenance_cost = -0.10
 	global_road_building_time = -0.10
 	trade_land_movement_cost_modifier = -0.25
