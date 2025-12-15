@@ -21,6 +21,7 @@ market_manager = {
 	add_market = krakow
 	add_market = moscow
 	add_market = theodoro #moved from kaffa
+	add_market = tana #Br added
 	add_market = astrakhan
 	add_market = pest
 	add_market = prague
@@ -75,7 +76,7 @@ market_manager = {
 	add_market = al_hajr
 	add_market = samarkand
 	add_market = almaty
-	add_market = sarayjuk
+	#add_market = sarayjuk #BR removed
 	add_market = urgench
 	
 	# India
