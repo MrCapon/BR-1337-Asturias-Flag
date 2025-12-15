@@ -50791,18 +50791,23 @@ countries = {
 				}
 
 				centralization_vs_decentralization = 25
-				aristocracy_vs_plutocracy = 75
-				serfdom_vs_free_subjects = 45
+				aristocracy_vs_plutocracy = 100
+				serfdom_vs_free_subjects = 75
 				traditionalist_vs_innovative = 50
 				spiritualist_vs_humanist = 80
 				mercantilism_vs_free_trade = 75
-				offensive_vs_defensive = 40
+				offensive_vs_defensive = 75
 				land_vs_naval = 100
 				quality_vs_quantity = -50
-				belligerent_vs_conciliatory = 75
-				capital_economy_vs_traditional_economy = -85
-				individualism_vs_communalism = -75
-				outward_vs_inward = -75
+				belligerent_vs_conciliatory = 100
+				capital_economy_vs_traditional_economy = -100
+				individualism_vs_communalism = -100
+				outward_vs_inward = -100
+			}
+			currency_data = {
+				gold = 1250
+				prestige = 75
+				stability = 100
 			}
 			country_rank = rank_duchy
 		}
@@ -50857,18 +50862,23 @@ countries = {
 				}
 
 				centralization_vs_decentralization = 25
-				aristocracy_vs_plutocracy = 75
-				serfdom_vs_free_subjects = 45
+				aristocracy_vs_plutocracy = 100
+				serfdom_vs_free_subjects = 75
 				traditionalist_vs_innovative = 50
 				spiritualist_vs_humanist = 80
 				mercantilism_vs_free_trade = 75
-				offensive_vs_defensive = 40
+				offensive_vs_defensive = 75
 				land_vs_naval = 100
 				quality_vs_quantity = -50
-				belligerent_vs_conciliatory = 75
-				capital_economy_vs_traditional_economy = -85
-				individualism_vs_communalism = -75
-				outward_vs_inward = -75
+				belligerent_vs_conciliatory = 100
+				capital_economy_vs_traditional_economy = -100
+				individualism_vs_communalism = -100
+				outward_vs_inward = -100
+			}
+			currency_data = {
+				gold = 1250
+				prestige = 75
+				stability = 100
 			}
 			country_rank = rank_duchy
 		}
@@ -51310,7 +51320,7 @@ countries = {
 			
 			currency_data = {
 				gold = 800
-				stability = 75
+				stability = 100
 				army_tradition = 100
 			}
 			accepted_cultures = { gothic_culture }
@@ -51328,12 +51338,6 @@ countries = {
 		}
 		
 		ANA = {
-			own_control_core = {
-			}
-			
-			own_control_integrated = {
-			}
-			
 			our_cores_conquered_by_others = {
 				#KAR
 				aksaray kochisar insuyu
