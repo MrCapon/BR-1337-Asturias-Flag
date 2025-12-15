@@ -5522,10 +5522,10 @@ building_manager = {
 	fondaco = { tag = GTC level = 1 location = vosporo }
 	fondaco = { tag = GTC level = 1 location = theodoro }
 	trade_company_headquarters = { tag = GTC level = 1 location = kaffa }
-	trade_company_harbor = { tag = GTC level = 1 location = kaffa }
-	trade_company_governance = { tag = GTC level = 1 location = kaffa }
+	trade_company_harbor = { tag = GTC level = 2 location = kaffa }
+	trade_company_governance = { tag = GTC level = 2 location = kaffa }
 	trade_company_garrison = { tag = GTC level = 1 location = kaffa }
-	trade_company_governance = { tag = GTC level = 1 location = genoa }
+	trade_company_governance = { tag = GTC level = 2 location = genoa }
 	trade_office = { tag = GTC level = 2 location = smyrna }
 	trade_office = { tag = GTC level = 6 location = constantinople }
 	trade_office = { tag = GTC level = 1 location = antioch }
