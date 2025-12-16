@@ -80,7 +80,7 @@ war_manager = {
 			}
 		}
 		attacker = {
-			country = NOV
+			country = BUL
 			request = {
 				caller = RH0
 				reason = Scripted
