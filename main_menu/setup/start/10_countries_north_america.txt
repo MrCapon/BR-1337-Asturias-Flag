@@ -208,16 +208,21 @@ countries = {
 		
 		#Stadacona
 		STD = {
-			own_control_core = {
+			type = pop
+
+			add_pops_from_locations = {
 				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate
 			}
 			
-			capital = stadacona
-			include = "woodlands_centralized_natives"
+			#capital = stadacona
+			#include = "woodlands_centralized_natives"
+			include = "amerindian_tribe"
 			court_language = iroquoian_language
 			government = {
-				ruler = random
-			}
+			type = tribe
+			heir_selection = tribal_oldest_male
+			ruler = random
+		}
 			
 			include = "expl_vinland"
 			include = "expl_eastern_seaboard"
@@ -347,7 +352,10 @@ countries = {
 				wipetikil
 				mekapisk
 				red_bay
-				baie_verte walnaypek akilasiewakik
+				notiskuan
+				anticosti
+				natigostec
+				uashat
 			}
 			own_control_integrated = {
 				upsukdaskooch
@@ -429,6 +437,7 @@ countries = {
 				gosaoie nogamsig meelpaeg amasipukwek sibook
 				cape_spear bacalhieu mekwiskajk mollyhuajeck
 				placentia cape_race maqtewey nukamkiajijk miquelon
+				akilasiewakik baie_verte walnaypek
 			}
 			our_cores_conquered_by_others = {
 				belle_isle
@@ -436,7 +445,6 @@ countries = {
 				wipetikil
 				mekapisk
 				upsukdaskooch
-				baie_verte walnaypek akilasiewakik
 			}
 			
 			capital = maqtewey
@@ -451,12 +459,10 @@ countries = {
 		
 		INV = {
 			own_control_core = {
-				notiskuan
-				anticosti
-				natigostec
+				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate ahwendoe
 			}
 			
-			capital = notiskuan
+			capital = stadacona
 			include = "vinland_exposed_natives"
 			court_language = innuland_dialect
 			government = {
