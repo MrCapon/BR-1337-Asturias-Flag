@@ -119,6 +119,7 @@ REPLACE_OR_CREATE:ghazi_privilege = {
 		monthly_towards_decentralization = societal_value_minor_monthly_move
 		monthly_towards_quality = societal_value_minor_monthly_move
 		auto_slave_raid_different_religion = yes #BR added
+		amount_looted_modifier = 0.25
 
 		#This is a privilege you will want early on but eventually it will become a hinderance
 		#when you want to centralize

@@ -1,6 +1,6 @@
 ﻿#generic privileges
 
-clergy_military_orders = {
+REPLACE_OR_CREATE:clergy_military_orders = {
 	estate = clergy_estate
 
 	potential = {
@@ -23,6 +23,7 @@ clergy_military_orders = {
 	country_modifier = {
 		global_clergy_estate_power = 0.25
 		nobles_estate_levy_size = 0.25 #Added 
+		expected_army_size_modifier = 0.5 #BR added
 	}
 
 	country_modifier = {

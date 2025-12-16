@@ -1,4 +1,4 @@
-﻿merchant_republic = {
+﻿REPLACE_OR_CREATE:merchant_republic = {
 	major = yes
 	government = republic
 
