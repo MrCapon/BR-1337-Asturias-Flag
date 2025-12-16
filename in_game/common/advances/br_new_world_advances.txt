@@ -113,6 +113,7 @@ vinlander_river_and_coast_raiding = {
 	}
 	requires = merchants_and_trade
 	naval_morale = 0.1
+	amount_looted_modifier = 0.25
 }
 
 vinlander_trade_with_the_skraelings = {
@@ -268,6 +269,7 @@ vinlander_army_of_the_western_seas = {
 	requires = revolutions_agressive_advance
 	naval_morale = 0.15
 	global_manpower_modifier = 0.05
+	amount_looted_modifier = 0.5
 }
 
 #Elysium
@@ -302,6 +304,7 @@ br_kykladian_naval_tradition = {
     global_sailors_modifier = 0.5
     navy_maintenance_cost = -0.25
     global_maritime_presence_modifier = 0.25
+	amount_looted_modifier = 0.33
 
     requires = ship_building_advance
 }

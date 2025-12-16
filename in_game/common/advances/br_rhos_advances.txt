@@ -89,6 +89,8 @@ rhos_varangian_successors = {
 	}
 	requires = pike_and_shot_advance
 	discipline = 0.025
+	amount_looted_modifier = 0.33
+	allow_privateers_slave_raid = yes
 }
 
 # age_4_reformation
