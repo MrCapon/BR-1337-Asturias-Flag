@@ -2199,6 +2199,7 @@ locations = {
 	patapsco = {
 		feudalism = yes
 		legalism = yes
+		meritocracy = yes #Added to location so they have something to research while waiting for institutions to spread from old world.
 	}
 	wicontiss = {
 		feudalism = yes
@@ -2261,6 +2262,7 @@ locations = {
 	nansemond = {
 		feudalism = yes
 		legalism = yes
+		meritocracy = yes #Added to location so they have something to research while waiting for institutions to spread from old world.
 	}
 	chesapeake = {
 		feudalism = yes
