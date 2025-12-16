@@ -1,19 +1,18 @@
 
 
-# 0.6
+# update éxi - 0.6
 
-Refactor: Morea to avoid conflict with PM's Moesia
-In the future I think the easiest way to avoid tag conflicts is try and sneak a number into the tag should make tag conflict l;ess likely.
-
-Improved Knights and Orthodox Holy Orders starting techs to make them more viable.
-
-Added 12 more advances to the Hellenic Culture Group.
-Make the 12 Colonial Subject advances to also be available to our new world nations regardless of them being subjects.
-Further improved the Trade Companies starting tech and buildings to make them more playable and better subjects to their Merchant Republic overlords.
-
-Adjusted the population of Anatolia
-
-fix some advancement errors
+## Changes
+- Refactored the Morea tag to avoid conflicts with PM’s Moesia.
+Going forward, numeric characters will be used in tags where possible to reduce the likelihood of conflicts.
+- Moved the Innulanders to the mainland, freeing the island for Vinland.
+- Added Bulgaria to the Rhōs Crusade against the Golden Horde.
+- Improved starting technologies for Knights and Orthodox Holy Orders to make them more viable early on.
+- Added 12 new advances to the Hellenic culture group.
+- Enabled the 12 Colonial Subject advances for New World nations, even when they are not subjects.
+- Further improved Trade Company starting technologies and buildings, making them more playable and better subjects for Merchant Republic overlords.
+- Adjusted population distribution across Anatolia.
+- Fixed several advancement-related errors.
 
 # 0.5
 
