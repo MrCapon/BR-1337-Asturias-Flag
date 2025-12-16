@@ -564,6 +564,15 @@
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 		}
 
+		c:TUR = {
+			research_advance = advance_type:seljuk_roots
+			research_advance = advance_type:timariots
+			research_advance = advance_type:slavery_before_death
+			research_advance = advance_type:bashi_bazouks
+			research_advance = advance_type:there_shall_be_no_grass
+			research_advance = advance_type:akinji_cavalry
+		}
+
 	#	c:E1Y = {
 	#		research_advance = advance_type:colonial_tradition
 	#		research_advance = advance_type:colonial_heritage
