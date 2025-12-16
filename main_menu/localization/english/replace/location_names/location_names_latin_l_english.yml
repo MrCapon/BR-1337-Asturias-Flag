@@ -1,0 +1,17 @@
+﻿l_english:
+ adony.latin_language: "Vetus Salina"
+ fehervar.latin_language: "Alba Regia"
+ london.latin_language: "Londinium"
+ szeged.latin_language: "Partiscum"
+ toulouse.latin_language: "$toulouse_occitan_language$"
+ zaragoza.latin_language: "Caesaraugusta"
+
+#East_Coast
+ patapsco.latin_language: "Elyseia"
+ nanticoke.latin_language: "Nea Alexandreia"
+ chesapeake.latin_language: "Eiros"
+ powhatan.latin_language: "Ioannike"
+ rappahannock.latin_language: "Odessos"
+ roanoke.latin_language: "Ikos"
+ mohetan.latin_language: "Aithaia"
+ onandagoa.latin_language: "Platos"

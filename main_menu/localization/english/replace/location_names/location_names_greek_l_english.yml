@@ -1393,3 +1393,12 @@
 #   1. I used Google's standard Modern Greek romanization for spelling, but I generally used archaic Greek grammar to represent that the standard written language was Koine Greek with contemporary 14th century phonology, which was pretty much the same as Modern Greek
 #   2. Google Translate outputs a romanized version of Greek text below the Greek text, which you can use if you don't know how to read Greek
 #   3. Please, for the love of god, do not use un-Hellenized Latin names. In many cases there are better, actual Greek names available, and even an invented name is more authentic
+#East_Coast
+ patapsco.greek_language: "Elyseia"
+ nanticoke.greek_language: "Nea Alexandreia"
+ chesapeake.greek_language: "Eiros"
+ powhatan.greek_language: "Ioannike"
+ rappahannock.greek_language: "Odessos"
+ roanoke.greek_language: "Ikos"
+ mohetan.greek_language: "Aithaia"
+ onandagoa.greek_language: "Platos"
