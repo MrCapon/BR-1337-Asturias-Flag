@@ -8504,4 +8504,76 @@ dynasty_manager = {
 		name = { name = name_han2 }
 		home = qiaoxian
 	}
+
+	#Elysium dynasties
+
+	ely_anthony_dynasty = {
+		name = { name = name_anthony }
+		home = patapsco
+	}
+
+	ely_cassius_dynasty = {
+		name = { name = name_cassius }
+		home = patapsco
+	}
+
+	ely_claude_dynasty = {
+		name = { name = name_claude }
+		home = patapsco
+	}
+
+	ely_cornelius_dynasty = {
+		name = { name = name_cornelius }
+		home = patapsco
+	}
+
+	ely_fabius_dynasty = {
+		name = { name = Fabius }
+		home = patapsco
+	}
+
+	ely_flavius_dynasty = {
+		name = { name = Flavius }
+		home = patapsco
+	}
+
+	ely_julius_dynasty = {
+		name = { name = name_julius }
+		home = patapsco
+	}
+
+	ely_livius_dynasty = {
+		name = { name = name_livius }
+		home = patapsco
+	}
+
+	ely_marius_dynasty = {
+		name = { name = name_marius }
+		home = patapsco
+	}
+
+	ely_octavius_dynasty = {
+		name = { name = name_octavius }
+		home = patapsco
+	}
+
+	ely_pompeius_dynasty = {
+		name = { name = Pompeius }
+		home = patapsco
+	}
+
+	ely_sempronius_dynasty = {
+		name = { name = Sempronius }
+		home = nansemond
+	}
+
+	ely_valerius_dynasty = {
+		name = { name = Valerius }
+		home = nansemond
+	}
+
+	ely_helios_dynasty = {
+		name = { name = name_helios }
+		home = nansemond
+	}
 }
