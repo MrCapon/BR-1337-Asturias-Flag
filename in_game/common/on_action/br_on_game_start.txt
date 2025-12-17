@@ -153,6 +153,24 @@
 				type = paved_road
 			}
 		}
+		location:plovdiv = {
+			add_road_to = {
+				target = location:tarnovo
+				type = paved_road
+			}
+		}
+		location:gynaikokastro = {
+			add_road_to = {
+				target = location:giannitsa
+				type = paved_road
+			}
+		}
+		location:giannitsa = {
+			add_road_to = {
+				target = location:skopje
+				type = paved_road
+			}
+		}
 
 		
 		#Anatolia
@@ -288,24 +306,164 @@
 				type = paved_road
 			}
 		}
-		location:bandirma = {
-			add_road_to = {
-				target = location:gonen
-				type = paved_road
-			}
-		}
-		location:gonen = {
-			add_road_to = {
-				target = location:bergama
-				type = paved_road
-			}
-		}
 		location:bergama = {
 			add_road_to = {
 				target = location:smyrna
 				type = paved_road
 			}
 		}
+		location:aksaray = {
+			add_road_to = {
+				target = location:nevsehir
+				type = paved_road
+			}
+		}
+		location:nevsehir = {
+			add_road_to = {
+				target = location:urgup
+				type = paved_road
+			}
+		}
+		location:urgup = {
+			add_road_to = {
+				target = location:kayseri
+				type = paved_road
+			}
+		}
+		location:kayseri = {
+			add_road_to = {
+				target = location:develi
+				type = paved_road
+			}
+		}
+		location:develi = {
+			add_road_to = {
+				target = location:hargan
+				type = paved_road
+			}
+		}
+		location:hargan = {
+			add_road_to = {
+				target = location:sis
+				type = paved_road
+			}
+		}
+		location:sis = {
+			add_road_to = {
+				target = location:kars_armenia
+				type = paved_road
+			}
+		}
+		location:kars_armenia = {
+			add_road_to = {
+				target = location:ayas
+				type = paved_road
+			}
+		}
+		location:kayseri = {
+			add_road_to = {
+				target = location:gemerek
+				type = paved_road
+			}
+		}
+		location:gemerek = {
+			add_road_to = {
+				target = location:sarkisla
+				type = paved_road
+			}
+		}
+		location:sarkisla = {
+			add_road_to = {
+				target = location:sivas
+				type = paved_road
+			}
+		}
+		location:aksaray = {
+			add_road_to = {
+				target = location:eskil
+				type = paved_road
+			}
+		}
+		location:eskil = {
+			add_road_to = {
+				target = location:obruk
+				type = paved_road
+			}
+		}
+		location:obruk = {
+			add_road_to = {
+				target = location:konya
+				type = paved_road
+			}
+		}
+		location:manisa = {
+			add_road_to = {
+				target = location:birgi
+				type = paved_road
+			}
+		}
+		location:birgi = {
+			add_road_to = {
+				target = location:alasehir
+				type = paved_road
+			}
+		}
+		location:alasehir = {
+			add_road_to = {
+				target = location:karahisar_i_sahib
+				type = paved_road
+			}
+		}
+		location:karahisar_i_sahib = {
+			add_road_to = {
+				target = location:turgut
+				type = paved_road
+			}
+		}
+		location:turgut = {
+			add_road_to = {
+				target = location:konya
+				type = paved_road
+			}
+		}
+		location:karahisar_i_sahib = {
+			add_road_to = {
+				target = location:kutahya
+				type = paved_road
+			}
+		}
+		location:kutahya = {
+			add_road_to = {
+				target = location:sogut
+				type = paved_road
+			}
+		}
+
+		location:kalecik = {
+			add_road_to = {
+				target = location:amasya
+				type = paved_road
+			}
+		}
+		location:amasya = {
+			add_road_to = {
+				target = location:sivas
+				type = paved_road
+			}
+		}
+		location:molevon = {
+			add_road_to = {
+				target = location:anavarza
+				type = paved_road
+			}
+		}
+		location:anavarza = {
+			add_road_to = {
+				target = location:adana
+				type = paved_road
+			}
+		}
+
 
 
 		#Italy
