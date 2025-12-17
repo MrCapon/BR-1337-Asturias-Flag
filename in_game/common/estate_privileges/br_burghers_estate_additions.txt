@@ -15,7 +15,8 @@
 		trade_sea_movement_cost_modifier = -0.25
 		trade_efficiency = large_trade_efficiency_bonus
 		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
-		global_burghers_estate_power = 0.33
-		expected_navy_size_modifier = 2.5
+		global_burghers_estate_power = 0.25
+		expected_navy_size_modifier = 1.0
+		payment_to_overlord_modifier = -0.5
 	}
 }
