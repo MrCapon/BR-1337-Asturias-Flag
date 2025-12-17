@@ -667,24 +667,24 @@ international_organization_manager = {
 	}
 
 	#BR Added Elysian Orthodox
-	#add_international_organization = {
-	#	type = autocephalous_patriarchate
-	#	creation_date = 431.1.1
-	#	members = {  }
-	#	variables = { 
-	#		religion = religion:orthodox
-	#		seat = location:nansemond
-	#	}
-	#	laws = {
-	#		dual_nature
-	#		high_christology
-	#		catholic_influenced_rites
-	#		accept_essence_tenet
-	#		accept_person_tenet
-	#		accept_prosopon_tenet
-	#		allow_christological_debates_tenet
-	#	}
-	#}
+	add_international_organization = {
+		type = autocephalous_patriarchate
+		creation_date = 431.1.1
+		members = { E2Y E4Y }
+		variables = { 
+			religion = religion:orthodox
+			seat = location:nansemond
+		}
+		laws = {
+			dual_nature
+			high_christology
+			catholic_influenced_rites
+			accept_essence_tenet
+			accept_person_tenet
+			accept_prosopon_tenet
+			allow_christological_debates_tenet
+		}
+	}
 	add_international_organization = {
 		type = autocephalous_patriarchate
 		creation_date = 301.1.1
