@@ -50788,6 +50788,7 @@ countries = {
 					sponsor_maritime_contracts
 					shipwright_contracts
 					market_fairs
+					br_special_trade_companies
 				}
 
 				centralization_vs_decentralization = 25
@@ -50859,6 +50860,7 @@ countries = {
 					sponsor_maritime_contracts
 					shipwright_contracts
 					market_fairs
+					br_special_trade_companies
 				}
 
 				centralization_vs_decentralization = 25
@@ -50866,7 +50868,7 @@ countries = {
 				serfdom_vs_free_subjects = 75
 				traditionalist_vs_innovative = 50
 				spiritualist_vs_humanist = 80
-				mercantilism_vs_free_trade = 75
+				mercantilism_vs_free_trade = 75 #Maybe it should be the other direction?
 				offensive_vs_defensive = 75
 				land_vs_naval = 100
 				quality_vs_quantity = -50

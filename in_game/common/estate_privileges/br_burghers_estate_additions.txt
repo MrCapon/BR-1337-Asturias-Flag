@@ -1,0 +1,21 @@
+﻿br_special_trade_companies = {
+	estate = burghers_estate
+
+	potential = {
+		OR = {
+			has_or_had_tag = GTC
+			has_or_had_tag = VTC
+		}
+	}
+
+	country_modifier = {
+		global_trades_per_burgher = 0.25
+		navy_maintenance_cost = -0.25
+		navy_light_ship_maintenance_cost_modifier = -0.25
+		trade_sea_movement_cost_modifier = -0.25
+		trade_efficiency = large_trade_efficiency_bonus
+		burghers_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_burghers_estate_power = 0.33
+		expected_navy_size_modifier = 2.5
+	}
+}
