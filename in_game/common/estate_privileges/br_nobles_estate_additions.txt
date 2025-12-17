@@ -3,7 +3,13 @@
 	estate = nobles_estate
 	
 	potential = {
-		religion ?= religion:orthodox
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			religion ?= religion:orthodox
+		}
 	}
 
 	can_revoke = {
@@ -32,7 +38,13 @@ boyarski_voiski = {
 	estate = nobles_estate
 
 	potential = {
-		culture ?= { has_culture = bulgarian }
+		OR = {
+			has_or_had_tag = BUL			
+			any_overlord_or_above = {
+				has_or_had_tag = BUL
+			}
+			culture ?= { has_culture = bulgarian }
+		}
 	}
 
 	country_modifier = {

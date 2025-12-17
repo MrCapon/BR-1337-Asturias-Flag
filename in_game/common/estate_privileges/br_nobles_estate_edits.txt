@@ -143,5 +143,6 @@ REPLACE_OR_CREATE:consolidated_corruption_of_the_nobles = {
 		#land_morale_modifier = -0.2 #removed
 		global_nobles_estate_power = 0.5
 		nobles_estate_levy_size = -0.25 #Added
+		global_levy_size_modifier = -0.10 #Added
 	}
 }

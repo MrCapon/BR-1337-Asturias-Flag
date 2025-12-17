@@ -5,6 +5,7 @@
 		OR = {
 			has_or_had_tag = GTC
 			has_or_had_tag = VTC
+			has_or_had_tag = RIC
 		}
 	}
 

@@ -24,7 +24,13 @@
 roman_romaioi_identity = {
 	age = age_1_traditions
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = written_alphabet
 	global_pop_assimilation_speed_modifier = 0.25
@@ -33,7 +39,13 @@ roman_romaioi_identity = {
 roman_codified_custom = {
 	age = age_1_traditions
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = codified_laws
 	global_crown_estate_power = 0.05
@@ -45,7 +57,13 @@ roman_codified_custom = {
 roman_scribal_administration = {
 	age = age_2_renaissance
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = renaissance_advance
 	research_speed_modifier = 0.05
@@ -56,7 +74,13 @@ roman_scribal_administration = {
 roman_court_and_office = {
 	age = age_2_renaissance
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = vibrant_court_advance
 	#diplomatic_capacity = 1
@@ -69,7 +93,13 @@ roman_court_and_office = {
 roman_thematic_recruitment = {
 	age = age_3_discovery
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = pike_square
 	#global_manpower_modifier = 0.1
@@ -80,7 +110,13 @@ roman_thematic_recruitment = {
 roman_infrastructure = {
 	age = age_3_discovery
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = pike_and_shot_advance
 	fort_maintenance_cost = -0.10
@@ -93,7 +129,13 @@ roman_infrastructure = {
 roman_imperial_legitimacy = {
 	age = age_4_reformation
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = confessional_court
 	stability_investment = tiny_stability_investment
@@ -103,7 +145,13 @@ roman_imperial_legitimacy = {
 roman_civic_order = {
 	age = age_4_reformation
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = confessional_court
 	tolerance_own = 1
@@ -114,7 +162,13 @@ roman_civic_order = {
 roman_centralized_command = {
 	age = age_5_absolutism
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = regiment_reinforcement_speed_absolutism
 	tax_income_efficiency = medium_tax_income_efficiency_bonus
@@ -124,7 +178,13 @@ roman_centralized_command = {
 roman_law_above_custom = {
 	age = age_5_absolutism
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = war_score_absolutism_advance
 	change_policy_cost_modifier = -0.1
@@ -136,7 +196,13 @@ roman_law_above_custom = {
 roman_state_identity = {
 	age = age_6_revolutions
 	potential = {
-		culture = { has_culture_group = culture_group:greek_group }
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
 	}
 	requires = crown_power_advance_revolutions
 	monthly_legitimacy = 0.1
