@@ -4536,11 +4536,15 @@ building_manager = {
 	#Black Sea
 	pirate_haven = { tag = GLH level = 1 location = melitopol }
 	pirate_haven = { tag = GLH level = 1 location = khadjibey }
+	pirate_haven = { tag = KIP level = 1 location = susaco }
 
 	#Mediterranean
 	pirate_haven = { tag = MLL level = 1 location = ciudadela_de_menorca }
 	pirate_haven = { tag = TLE level = 1 location = algiers }
 	pirate_haven = { tag = TLE level = 1 location = bejaia }
+	pirate_haven = { tag = TUN level = 1 location = ajim }
+	pirate_haven = { tag = BJA level = 1 location = derna }
+	pirate_haven = { tag = MAM level = 1 location = sidon }
 
 	#Mesopotamia
 
@@ -5523,6 +5527,10 @@ building_manager = {
 	fondaco = { tag = GTC level = 1 location = theodoro }
 	trade_company_headquarters = { tag = GTC level = 1 location = kaffa }
 	trade_company_harbor = { tag = GTC level = 2 location = kaffa }
+	trade_company_harbor = { tag = GTC level = 2 location = constantinople }
+	trade_company_harbor = { tag = GTC level = 1 location = trebizond }
+	trade_company_harbor = { tag = GTC level = 1 location = smyrna }
+	trade_company_harbor = { tag = GTC level = 1 location = sinop }
 	trade_company_governance = { tag = GTC level = 2 location = kaffa }
 	trade_company_garrison = { tag = GTC level = 1 location = kaffa }
 	trade_company_governance = { tag = GTC level = 2 location = genoa }
@@ -5581,12 +5589,15 @@ building_manager = {
 	overseas_trading_post = { tag = VEN level = 1 location = zenica }
 
 	#Agean Trade League 
-	trade_company_headquarters = { tag = VTC level = 1 location = thessaloniki }
+	trade_company_headquarters = { tag = VTC level = 1 location = athens }
+	trade_company_harbor = { tag = VTC level = 2 location = constantinople }
+	trade_company_harbor = { tag = VTC level = 1 location = athens }
 	trade_company_harbor = { tag = VTC level = 1 location = thessaloniki }
-	trade_company_governance = { tag = VTC level = 1 location = thessaloniki }
-	trade_company_garrison = { tag = VTC level = 1 location = thessaloniki }
-	trade_company_governance = { tag = VTC level = 1 location = venice }
+	trade_company_harbor = { tag = VTC level = 1 location = alexandria }
+	trade_company_garrison = { tag = VTC level = 1 location = athens }
+	trade_company_governance = { tag = VTC level = 2 location = venice }
 	trade_company_governance = { tag = VTC level = 1 location = split }
+	trade_company_governance = { tag = VTC level = 1 location = athens }
 	fondaco = { tag = VTC level = 2 location = candia }
 	fondaco = { tag = VTC level = 2 location = larnaca }
 	fondaco = { tag = VTC level = 2 location = antioch }
