@@ -39,10 +39,7 @@ boyarski_voiski = {
 
 	potential = {
 		OR = {
-			has_or_had_tag = BUL			
-			any_overlord_or_above = {
-				has_or_had_tag = BUL
-			}
+			has_or_had_tag = BUL
 			culture ?= { has_culture = bulgarian }
 		}
 	}
