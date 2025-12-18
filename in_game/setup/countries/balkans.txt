@@ -78,7 +78,7 @@ BYZ = {
 
 THE = {
 	color = map_THE
-	color2 = rgb { 0 240 60 }
+	color2 = rgb { 75 180 60 }
 
 	culture_definition = greek_culture
 	religion_definition = orthodox
