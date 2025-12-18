@@ -9,7 +9,12 @@
 - Event to make Indikes a BYZ trade Company if they own suez.
 - Event to offer Elysium colonial status if own straits of Hercules and have made contact/have good relations with ai elysian tags. 
 - Third ERE faction in the guelphs_and_ghibellines
+- Varangian buildings
+    - Foreign manpower building
+    - Barracks
+    - etc
 
+## Patriachate tags
 
 Add a couple pirate tags
 
@@ -18,3 +23,7 @@ Add a couple pirate tags
 
 Arthurian type tag
 New Angland 
+
+## Balkans
+- Bulgaria stuff make them a bood rival to ERE
+    - Reform the Bulgarian Empire
