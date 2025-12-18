@@ -5412,6 +5412,8 @@ building_manager = {
 	order_stronghold = { tag = RH0 level = 1 location = drahushiv }
 	castle = { tag = RH0 level = 1 location = drahushiv }
 	nobility_fortifications = { tag = RH0 level = 1 location = drahushiv }
+	stockade = { tag = GLH level = 1 location = or_qapi } #controlled by RH0
+	castle = { tag = HAL level = 1 location = rov }
 
 	#Banking families
 	banking_office = { tag = BNK level = 1 location = constantinople }
