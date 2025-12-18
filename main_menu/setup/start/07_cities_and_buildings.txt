@@ -4585,6 +4585,12 @@ building_manager = {
 	library = { tag = AIA level = 1 location = baghdad }
 	medical_school = { tag = AIA level = 1 location = baghdad }
 
+	tar_kiln = { tag = TRE level = 2 location = trebizond }
+	charcoal_maker = { tag = TRE level = 1 location = gorele }
+	tar_kiln = { tag = AON level = 1 location = cubuk }
+	charcoal_maker = { tag = AON level = 1 location = polatli }
+	charcoal_maker = { tag = TRE level = 1 location = kalecik }
+
 	#IBERIA
 	royal_court = { tag = ADU level = 1 location = cordoba }
 	royal_garden = { tag = ADU level = 1 location =  cordoba } #Gardens of the Great Palace

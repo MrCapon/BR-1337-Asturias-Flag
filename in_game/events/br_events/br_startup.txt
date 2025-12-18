@@ -1,0 +1,158 @@
+﻿namespace = br_startup
+br_startup.1 = {
+	type = country_event
+	title = br_startup.1.title
+	desc = br_startup.1.desc
+	trigger = {
+		tag = E1Y
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		#Balkans
+		location:vostitsa = {
+			change_raw_material = goods:olives
+		}
+		location:patras = {
+			change_raw_material = goods:olives
+		}
+		location:astros = {
+			change_raw_material = goods:fruit
+		}
+		location:demetrias = {
+			change_raw_material = goods:wheat
+		}
+		location:catalca = {
+			change_raw_material = goods:fruit
+		}
+		location:burgas = {
+			change_raw_material = goods:millet
+		}
+
+		#Elysium
+		location:matapeake = {
+			change_raw_material = goods:wine
+		}
+		location:wicontiss = {
+			change_raw_material = goods:fruit
+		}
+		location:rappahannock = {
+			change_raw_material = goods:maize
+		}
+		location:nansemond = {
+			change_raw_material = goods:maize
+		}
+
+		# trigger rgo changes
+		# Vinland changes
+		location:belle_isle = {
+			change_raw_material = goods:millet
+		}
+		location:tikigaksuagusik = {
+			change_raw_material = goods:millet
+		}
+		location:navchak = {
+			change_raw_material = goods:millet
+		}
+		location:uashat = {
+			change_raw_material = goods:millet
+		}
+		location:eimastukwek = {
+			change_raw_material = goods:stone
+		}
+		location:wli_qospem = {
+			change_raw_material = goods:clay
+		}
+		location:cape_spear = {
+			change_raw_material = goods:iron # bell island iron deposits
+		}
+		location:bacalhieu = {
+			change_raw_material = goods:wool
+		}
+		location:placentia = {
+			change_raw_material = goods:wool
+		}
+		location:maqtewey = {
+			change_raw_material = goods:medicaments
+		}
+		location:cape_race = {
+			change_raw_material = goods:wool
+		}
+		location:tignish = {
+			change_raw_material = goods:beeswax
+		}
+		# pei changes
+		location:malpeque = {
+			change_raw_material = goods:wheat
+		}
+		location:epwikek = {
+			change_raw_material = goods:beeswax
+		}
+		location:elsiktuk = {
+			change_raw_material = goods:wine
+		}
+		# nova scotia changes
+		location:qospemk = {
+			change_raw_material = goods:stone
+		}
+		location:sipuk = {
+			change_raw_material = goods:coal # sydney coal deposits
+		}
+		location:kluskapewiktuk = {
+			change_raw_material = goods:coal
+		}
+		location:nictaux = {
+			change_raw_material = goods:clay 
+		}
+		location:cheticamp = {
+			change_raw_material = goods:alum
+		}
+		# new brunswick changes
+		location:oromocto = {
+			change_raw_material = goods:coal # minto coal deposits
+		}
+		location:pocologan = {
+			change_raw_material = goods:tin # mount pleasant tin deposits
+		}
+		location:nepisiguit = {
+			change_raw_material = goods:lead # caribou mine lead deposits, mainly for balance
+		}
+		location:petitcodiac = {
+			change_raw_material = goods:alum
+		}
+		#quebec changes
+		location:chicchoc = {
+			change_raw_material = goods:copper # gaspe copper deposits
+		}
+		location:sartigan = {
+			change_raw_material = goods:goods_gold # beauce gold deposits
+		}
+		location:wolinak = {
+			change_raw_material = goods:fiber_crops
+		}
+		location:wabanaki = {
+			change_raw_material = goods:stone
+		}
+		location:malartic = {
+			change_raw_material = goods:goods_gold # abitibi gold deposits
+		}
+		location:ahwendoe = {
+			change_raw_material = goods:maize
+		}
+		location:stadacona = {
+			change_raw_material = goods:wool
+		}
+		# labrador trough iron locations
+		location:kawachisakau = {
+			change_raw_material = goods:iron
+		}
+		location:ashuanipi = {
+			change_raw_material = goods:iron
+		}
+		location:petitsikapau = {
+			change_raw_material = goods:iron
+		}
+
+	}
+}

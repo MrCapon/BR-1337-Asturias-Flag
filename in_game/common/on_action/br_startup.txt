@@ -1,0 +1,13 @@
+﻿on_game_start = {
+    on_actions = {
+        br_on_game_start
+    }
+}
+
+br_on_game_start = {
+    effect = {
+        c:E1Y = {
+            trigger_event_silently = br_startup.1
+        }
+    }
+}
