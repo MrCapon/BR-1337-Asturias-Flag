@@ -3946,7 +3946,7 @@ countries = {
 		GLH = {
 			type = army
 			own_control_core = {
-				seyitler kalay kezlev aqmecit or_qapi jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
+				seyitler kalay kezlev aqmecit jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
 				balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 				ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
 				mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
@@ -4039,7 +4039,6 @@ countries = {
 				samara shigony morkvash chebarkul miass
 				krasnaya_gorka belekes
 
-				ismail
 				tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
 				lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
 				kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
@@ -4077,6 +4076,8 @@ countries = {
 				vinnytsia sokilets
 				armavir
 				qarasuvbazar solkhat
+				ismail
+				or_qapi
 			}
 
 			starting_technology_level = 3
@@ -4121,21 +4122,29 @@ countries = {
 				privilege = {
 					joint_assembly_decrees
 					ghazi_privilege
-					tribal_host
-					tribal_autonomy
+					urban_development_grants
 
 					dhimmi_abrahamic_communities
-					urban_development_grants
 					dhimmi_military_service
 					dhimmi_traditions
 					dhimmi_administrative_posts
 					dharmic_dhimmi_communities
+					dhimmi_land_rights
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
 
+					tribal_host
+					tribal_autonomy
 					tribes_land_rights
 					tribes_pasture_access
 					tribes_tribal_registry
 					tribes_protected_faith
 					tribes_in_administration
+					tribes_respect_tribal_traditions
+					tribes_tribal_levies
 				}
 				
 				laws = {
@@ -14068,13 +14077,13 @@ countries = {
 					elaborate_court_ceremonies
 					noble_sponsored_navy
 					joint_assembly_decrees
-					ghazi_privilege
 					
 					#Clergy
 					clergy_literacy_rights
 					clergy_enforced_unity
 					embellish_great_works_of_faith
 					clergy_land_rights
+					freedom_of_interpretation
 					
 					#Burghers
 					formal_guilds
@@ -14083,6 +14092,10 @@ countries = {
 					shipwright_contracts
 					sponsor_maritime_contracts
 					land_of_commerce
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
+					allow_trade_center_sponsorship
 					
 					#Peasants
 					partial_yield
@@ -14095,8 +14108,12 @@ countries = {
 					dhimmi_pact_of_umar
 					dhimmi_military_service
 					dhimmi_traditions
-					urban_development_grants
 					dharmic_dhimmi_communities
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
 					
 				}
 				
@@ -21725,8 +21742,11 @@ countries = {
 					auxilium_et_consilium
 
 					#Ulama
-					waqf_payments
+					#waqf_payments
 					embellish_great_works_of_faith
+					clergy_literacy_rights
+					clergy_land_rights
+					freedom_of_interpretation
 					
 					#Burghers
 					trade_monopolies
@@ -21737,6 +21757,9 @@ countries = {
 					sponsor_maritime_contracts
 					land_of_commerce
 					allow_trade_center_sponsorship
+					urban_development_grants
+					commercial_advisory_council
+					burghers_protected_faith
 
 					#peasants
 					peasants_allowed_weapons_privilege
@@ -21748,25 +21771,35 @@ countries = {
 					dhimmi_pact_of_umar
 					dhimmi_military_service
 					dhimmi_traditions
-					urban_development_grants
 					dharmic_dhimmi_communities
+					dhimmi_promote_tolerance
+					dhimmi_legal_autonomy
+					dhimmi_promote_dhimmi_hierarchy
+					dhimmi_mazalim_court
+					dhimmi_in_administration
 
 					#Tribes
 					tribes_tribal_levies
 					tribes_allow_gatherings
+					tribes_land_rights
+					tribes_pasture_access
+					tribes_tribal_registry
+					tribes_protected_faith
+					tribes_in_administration
+
 				}
 				
-				spiritualist_vs_humanist = -10
-				belligerent_vs_conciliatory = -30
-				quality_vs_quantity = -10
-				land_vs_naval = -40
+				spiritualist_vs_humanist = 50
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = 25
+				land_vs_naval = -50
 				laws = {
-					mamluk_rank_system_laws = mam_rigid_system
-					mamluk_army_law = al_mamalik_al_sultaniyya
+					mamluk_rank_system_laws = mam_fluid_system
+					mamluk_army_law = mamalik_al_umara
 					mamluk_promotion_law = merit_basis
-					sharia_law = shafii_policy #maliki_policy
+					sharia_law = ismaili_policy
 					administrative_system = local_courts_administration
-					iqta_law = efficient_tax_farming #lenient_taxation
+					iqta_law = lenient_taxation
 					medieval_levy_law = noble_levies
 					censorship = strict_censorship
 					marriage_law = muslim_marriage
@@ -21783,7 +21816,7 @@ countries = {
 				}
 				
 			}
-			religious_school = shafii_school #While Egypt today is mostly Hanafi, the $mamluks$ favored Shaafi over the rest
+			religious_school = ismaili_school
 			government = { mysticism_vs_jurisprudence = 25 }
 			
 			currency_data = { #To help stabilize them enough to not collapse 
@@ -31995,10 +32028,10 @@ countries = {
 				aristocracy_vs_plutocracy = -50
 				serfdom_vs_free_subjects = 0
 				traditionalist_vs_innovative = 10
-				spiritualist_vs_humanist = 10
+				spiritualist_vs_humanist = 25
 				mercantilism_vs_free_trade = -25
-				offensive_vs_defensive = 0
-				land_vs_naval = -75
+				offensive_vs_defensive = 50
+				land_vs_naval = -100
 				quality_vs_quantity = -30
 				belligerent_vs_conciliatory = -75
 				capital_economy_vs_traditional_economy = 80
@@ -51272,6 +51305,8 @@ countries = {
 				vinnytsia sokilets
 				armavir
 				qarasuvbazar solkhat
+				ismail
+				or_qapi
 			}
 			
 			include = "catholic_military_order"
@@ -52031,6 +52066,7 @@ countries = {
 					sponsor_maritime_contracts
 					shipwright_contracts
 					market_fairs
+					br_special_trade_companies
 				}
 
 				centralization_vs_decentralization = 25
