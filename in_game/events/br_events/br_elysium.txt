@@ -59,6 +59,9 @@ elysium.1 = {
 					change_pop_culture = root.culture
 				}
  			}
+			location:doeg = {
+				change_raw_material = goods:silk
+			}
 		}
 
 		culture = {
