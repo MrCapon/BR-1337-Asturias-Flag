@@ -172,6 +172,110 @@
 			}
 		}
 
+		#Iberia
+		location:cordoba = {
+			add_road_to = {
+				target = location:sevilla
+				type = paved_road
+			}
+		}
+		location:cordoba = {
+			add_road_to = {
+				target = location:granada
+				type = paved_road
+			}
+		}
+		location:granada = {
+			add_road_to = {
+				target = location:malaga
+				type = paved_road
+			}
+		}
+		location:velez_malaga = {
+			add_road_to = {
+				target = location:almeria
+				type = paved_road
+			}
+		}
+		location:almeria = {
+			add_road_to = {
+				target = location:murcia
+				type = paved_road
+			}
+		}
+		location:murcia = {
+			add_road_to = {
+				target = location:orihuela
+				type = paved_road
+			}
+		}
+		location:orihuela = {
+			add_road_to = {
+				target = location:denia
+				type = paved_road
+			}
+		}
+		location:denia = {
+			add_road_to = {
+				target = location:tarragona
+				type = paved_road
+			}
+		}
+		location:tarragona = {
+			add_road_to = {
+				target = location:girona
+				type = paved_road
+			}
+		}
+		location:girona = {
+			add_road_to = {
+				target = location:prades
+				type = paved_road
+			}
+		}
+		location:prades = {
+			add_road_to = {
+				target = location:perpignan
+				type = paved_road
+			}
+		}
+		location:perpignan = {
+			add_road_to = {
+				target = location:agde
+				type = paved_road
+			}
+		}
+		location:agde = {
+			add_road_to = {
+				target = location:arles
+				type = paved_road
+			}
+		}
+		location:arles = {
+			add_road_to = {
+				target = location:marseille
+				type = paved_road
+			}
+		}
+		location:cordoba = {
+			add_road_to = {
+				target = location:toledo
+				type = paved_road
+			}
+		}
+		location:toledo = {
+			add_road_to = {
+				target = location:cuenca
+				type = paved_road
+			}
+		}
+		location:cuenca = {
+			add_road_to = {
+				target = location:valencia
+				type = paved_road
+			}
+		}
+
 		
 		#Anatolia
 		location:uskudar = {
@@ -464,6 +568,117 @@
 			}
 		}
 
+		#Levant
+
+		location:antioch = {
+			add_road_to = {
+				target = location:jaffa
+				type = paved_road
+			}
+		}
+		location:jaffa = {
+			add_road_to = {
+				target = location:jerusalem
+				type = paved_road
+			}
+		}
+		location:jerusalem = {
+			add_road_to = {
+				target = location:gaza
+				type = paved_road
+			}
+		}
+		location:alexandria = {
+			add_road_to = {
+				target = location:cairo
+				type = paved_road
+			}
+		}
+		location:tartus = {
+			add_road_to = {
+				target = location:nabek
+				type = paved_road
+			}
+		}
+		location:nabek = {
+			add_road_to = {
+				target = location:damascus
+				type = paved_road
+			}
+		}
+		location:damascus = {
+			add_road_to = {
+				target = location:acre
+				type = paved_road
+			}
+		}
+
+		location:isfahan = {
+			add_road_to = {
+				target = location:yazd
+				type = gravel_road
+			}
+		}
+		location:isfahan = {
+			add_road_to = {
+				target = location:shiraz
+				type = gravel_road
+			}
+		}
+		location:isfahan = {
+			add_road_to = {
+				target = location:qom
+				type = gravel_road
+			}
+		}
+		location:isfahan = {
+			add_road_to = {
+				target = location:wasit
+				type = gravel_road
+			}
+		}
+		location:isfahan = {
+			add_road_to = {
+				target = location:shiraz
+				type = gravel_road
+			}
+		}
+		location:shiraz = {
+			add_road_to = {
+				target = location:siraf
+				type = gravel_road
+			}
+		}
+		location:shiraz = {
+			add_road_to = {
+				target = location:basra
+				type = gravel_road
+			}
+		}
+		location:tabriz = {
+			add_road_to = {
+				target = location:mosul
+				type = gravel_road
+			}
+		}
+		location:barqaid = {
+			add_road_to = {
+				target = location:urfa
+				type = gravel_road
+			}
+		}
+		location:urfa = {
+			add_road_to = {
+				target = location:dluk
+				type = gravel_road
+			}
+		}
+		location:urfa = {
+			add_road_to = {
+				target = location:gerger
+				type = gravel_road
+			}
+		}
 
 
 		#Italy
@@ -613,7 +828,7 @@
 		}
 		location:toulon = {
 			add_road_to = {
-				target = location:toulon
+				target = location:marseille
 				type = paved_road
 			}
 		}
