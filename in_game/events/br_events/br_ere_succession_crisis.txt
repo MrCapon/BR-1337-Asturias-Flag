@@ -1,0 +1,29 @@
+﻿namespace = br_ere_succession_crisis
+
+
+br_ere_succession_crisis.1 = {
+	type = country_event
+	title = br_ere_succession_crisis.1.title
+	desc = br_ere_succession_crisis.1.desc
+
+	illustration_tags = {
+		10 = regular
+		10 = interior
+	}
+
+	orphan = yes
+
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+	}
+
+	option = {
+		name = br_ere_succession_crisis.1.a
+		every_subject = {
+			limit = {
+				is_loyal = no
+			}
+			ROOT = { cancel_subject = prev }
+		}
+	}
+}
