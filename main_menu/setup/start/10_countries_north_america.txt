@@ -394,6 +394,9 @@ countries = {
 				koroc
 				tupirvialuit
 				kingmirtok
+				okak
+				napaktok
+				aulatsivik
 			}
 			
 			capital = navchak
