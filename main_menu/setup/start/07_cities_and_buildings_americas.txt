@@ -250,6 +250,9 @@ building_manager = {
 	fishing_village = { tag = NRV level = 1 location = walnaypek }
 	fishing_village = { tag = NRV level = 1 location = akilasiewakik }
 	forest_village = { tag = NRV level = 1 location = wipetikil }
+	fruit_orchard = { tag = NRV level = 1 location = uashat }
+	fruit_orchard = { tag = INV level = 1 location = stadacona }
+	fruit_orchard = { tag = NRC level = 1 location = ingonish }
 	
 	####---------- Canada ----------####
 	#--
@@ -304,14 +307,23 @@ building_manager = {
 	tribal_hunting_lodge = { tag = E5Y level = 1 location =  patawomeck }
 	tribal_market_villages = { tag = E5Y level = 1 location =  patawomeck }
 
+	fiber_crops_farm = { tag = K1K level = 1 location = roanoke }
+
 	#kykladia
 	pirate_tavern = { tag = K1K level = 1 location = abacoa }
 	brothel = { tag = K1K level = 1 location = abacoa }
 	smuggler_cove = { tag = K1K level = 1 location = abacoa }
-	black_market = { tag = K1K level = 1 location = abacoa }
 	wharf = { tag = K1K level = 1 location = abacoa }
+	fruit_orchard = { tag = K1K level = 1 location = abacoa }
+	fiber_crops_farm = { tag = K1K level = 1 location = abacoa }
+	clay_pit = { tag = K1K level = 1 location = abacoa }
+	lumber_mill = { tag = K1K level = 1 location = abacoa }
 	#market_village = { tag = K1K level = 1 location = abacoa }
 	#fishing_village = { tag = K1K level = 1 location = abacoa }
+
+	black_market = { tag = K1K level = 1 location = roanoke }
+	black_market = { tag = K1K level = 1 location = nansemond }
+	black_market = { tag = K1K level = 2 location = patapsco }
 
 	fishing_village = { tag = K1K level = 2 location = bahama }
 	fishing_village = { tag = K1K level = 2 location = guanahani }
