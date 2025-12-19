@@ -217,10 +217,13 @@ anglo_norse_culture = {
 
 	opinions = {
 		norn_culture = kindred
-		swedish = kindred
+		norwegian = kindred
 		icelandic = kindred
+		danish = kindred
+		swedish = positive
 		norse_gael = positive
 		vinlander = positive
+		english = positive
 	}
 
 	culture_groups = {
