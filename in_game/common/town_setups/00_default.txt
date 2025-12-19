@@ -256,6 +256,7 @@ lowlands_town = {
 	castle = 1
 	artisan_guilds = 1 #BR added estate building
 	parish_church = 1 #BR added estate building
+	peasants_training_grounds = 1 #BR added estate building
 }
 
 lowlands_costal_town = {
@@ -275,6 +276,7 @@ lowlands_costal_town = {
 	artisan_guilds = 1 #BR added estate building
 	merchants_guild = 1 #BR added estate building
 	local_schools = 1 #BR added estate building
+	peasants_training_grounds = 1 #BR added estate building
 }
 
 lowlands_city = {
@@ -298,6 +300,7 @@ lowlands_city = {
 	tannery = 1
 	artisan_guilds = 1 #BR added estate building
 	nobles_recruitment_center = 1 #BR added estate building
+	peasants_training_grounds = 1 #BR added estate building
 }
 
 lowlands_coastal_city = {
@@ -571,6 +574,7 @@ german_coastal_town = {
 	pottery_guild = 1
 	merchants_guild = 1 #BR added estate building
 	nobility_fortifications = 1 #BR added estate building
+	peasants_training_grounds = 1 #BR added estate building
 }
 
 
