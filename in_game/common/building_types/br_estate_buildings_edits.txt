@@ -1,0 +1,40 @@
+﻿#Nobles
+
+#Clergy
+
+#Burghers
+
+#Peasants
+
+REPLACE:peasants_training_grounds = {
+	is_foreign = no
+	max_levels = estate_building_max_level
+	pop_type = peasants
+	
+	category = estate_category
+	employment_size = estate_peasants_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = no
+	
+	estate = peasants_estate
+	build_time = estate_build_time
+	
+
+
+	possible_production_methods = {
+		estate_building_input
+	}
+
+	country_potential = {
+		has_estate_privilege = estate_privilege:peasants_allowed_weapons_privilege
+	}
+
+	construction_demand = estate_construct_building
+	
+	modifier = {
+		local_peasants_estate_power = 1
+		local_manpower = 0.005 #increased from 0.001
+	}
+}
