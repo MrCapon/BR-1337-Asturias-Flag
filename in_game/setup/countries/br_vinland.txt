@@ -18,7 +18,7 @@ NRH = { # Helluland
 	color = rgb { 76 93 101 }
 	color2 = rgb{ 16 41 202 }
 	
-	culture_definition = marklander
+	culture_definition = hellulander
 	religion_definition = norse
 }
 
