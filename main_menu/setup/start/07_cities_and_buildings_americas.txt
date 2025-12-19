@@ -2,11 +2,11 @@ locations = {
 	####---------- Vinland ----------####
 	belle_isle = {
 		rank = town
-		town_setup = scandinavian_town
+		town_setup = vinland_town
 	}
 	ingonish = {
 		rank = town
-		town_setup = scandinavian_town
+		town_setup = vinland_town
 	}
 	notiskuan = {
 		rank = town
@@ -43,19 +43,19 @@ locations = {
 	####---------- Tsenacommacah ----------####
 	patapsco = {
 		rank = town
-		town_setup = greek_town_port
+		town_setup = elysia_town
 	}
 	nansemond = {
 		rank = town
-		town_setup = greek_town_port
+		town_setup = elysia_town
 	}
 	roanoke = {
 		rank = town
-		town_setup = greek_town_port
+		town_setup = elysia_town
 	}
 	abacoa = {
 		rank = town
-		town_setup = greek_town_port
+		town_setup = kykladia_town
 	}
 	
 	####---------- Great Plains ----------####
