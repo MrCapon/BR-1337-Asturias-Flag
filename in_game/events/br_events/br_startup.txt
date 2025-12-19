@@ -20,9 +20,6 @@ br_startup.1 = {
 		location:astros = {
 			change_raw_material = goods:fruit
 		}
-		location:demetrias = {
-			change_raw_material = goods:wheat
-		}
 		location:catalca = {
 			change_raw_material = goods:fruit
 		}
@@ -43,20 +40,22 @@ br_startup.1 = {
 		location:nansemond = {
 			change_raw_material = goods:maize
 		}
+		location:cocalico = {
+			change_raw_material = goods:tin #need for naval supplies
+		}
+		location:coosaw = {
+			change_raw_material = goods:tin
+		}
+		location:west_sabaneneque = {
+			change_raw_material = goods:sugar #need for liquor
+		}
 
-		# trigger rgo changes
-		# Vinland changes
-		location:belle_isle = {
-			change_raw_material = goods:millet
+		# Vinland
+		location:misha_shipu = {
+			change_raw_material = goods:tin #need for naval supplies
 		}
-		location:tikigaksuagusik = {
-			change_raw_material = goods:millet
-		}
-		location:navchak = {
-			change_raw_material = goods:millet
-		}
-		location:uashat = {
-			change_raw_material = goods:millet
+		location:notiskuan = {
+			change_raw_material = goods:fiber_crops #need for naval supplies
 		}
 		location:eimastukwek = {
 			change_raw_material = goods:stone
@@ -65,7 +64,7 @@ br_startup.1 = {
 			change_raw_material = goods:clay
 		}
 		location:cape_spear = {
-			change_raw_material = goods:iron # bell island iron deposits
+			change_raw_material = goods:iron
 		}
 		location:bacalhieu = {
 			change_raw_material = goods:wool
@@ -82,7 +81,7 @@ br_startup.1 = {
 		location:tignish = {
 			change_raw_material = goods:beeswax
 		}
-		# pei changes
+		# pei
 		location:malpeque = {
 			change_raw_material = goods:wheat
 		}
@@ -92,12 +91,12 @@ br_startup.1 = {
 		location:elsiktuk = {
 			change_raw_material = goods:wine
 		}
-		# nova scotia changes
+		# nova scotia
 		location:qospemk = {
 			change_raw_material = goods:stone
 		}
 		location:sipuk = {
-			change_raw_material = goods:coal # sydney coal deposits
+			change_raw_material = goods:coal
 		}
 		location:kluskapewiktuk = {
 			change_raw_material = goods:coal
@@ -108,25 +107,25 @@ br_startup.1 = {
 		location:cheticamp = {
 			change_raw_material = goods:alum
 		}
-		# new brunswick changes
+		# new brunswick
 		location:oromocto = {
-			change_raw_material = goods:coal # minto coal deposits
+			change_raw_material = goods:coal
 		}
 		location:pocologan = {
-			change_raw_material = goods:tin # mount pleasant tin deposits
+			change_raw_material = goods:tin
 		}
 		location:nepisiguit = {
-			change_raw_material = goods:lead # caribou mine lead deposits, mainly for balance
+			change_raw_material = goods:lead
 		}
 		location:petitcodiac = {
 			change_raw_material = goods:alum
 		}
-		#quebec changes
+		#quebec
 		location:chicchoc = {
-			change_raw_material = goods:copper # gaspe copper deposits
+			change_raw_material = goods:copper
 		}
 		location:sartigan = {
-			change_raw_material = goods:goods_gold # beauce gold deposits
+			change_raw_material = goods:goods_gold
 		}
 		location:wolinak = {
 			change_raw_material = goods:fiber_crops
@@ -135,7 +134,7 @@ br_startup.1 = {
 			change_raw_material = goods:stone
 		}
 		location:malartic = {
-			change_raw_material = goods:goods_gold # abitibi gold deposits
+			change_raw_material = goods:goods_gold
 		}
 		location:ahwendoe = {
 			change_raw_material = goods:maize
@@ -143,7 +142,7 @@ br_startup.1 = {
 		location:stadacona = {
 			change_raw_material = goods:wool
 		}
-		# labrador trough iron locations
+		# labrador
 		location:kawachisakau = {
 			change_raw_material = goods:iron
 		}
