@@ -207,26 +207,6 @@ countries = {
 		}
 		
 		#Stadacona
-		STD = {
-			type = pop
-
-			add_pops_from_locations = {
-				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate
-			}
-			
-			#capital = stadacona
-			#include = "woodlands_centralized_natives"
-			include = "amerindian_tribe"
-			court_language = iroquoian_language
-			government = {
-			type = tribe
-			heir_selection = tribal_oldest_male
-			ruler = random
-		}
-			
-			include = "expl_vinland"
-			include = "expl_eastern_seaboard"
-		}
 		
 		#Atikamekw
 		AKW = {#https://en.wikipedia.org/wiki/Atikamekw
@@ -821,7 +801,7 @@ countries = {
 			country_rank = rank_county
 			government = {
 				type = republic
-				heir_selection = cognatic_primogeniture
+				heir_selection = heir_selection:pirate_elective
 				ruler = random
 
 				reforms = {
@@ -832,6 +812,9 @@ countries = {
 				privilege = {
 					sponsor_maritime_contracts
 					formal_guilds
+				}
+				laws = {
+					piracy_law = state_piracy_policy
 				}
 			}
 			
