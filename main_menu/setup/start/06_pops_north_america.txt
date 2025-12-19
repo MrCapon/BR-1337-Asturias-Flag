@@ -144,31 +144,31 @@ locations = {
 	
 	## Minganie Province
 	mingan = {
-		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.318	culture = innu_culture	religion = midewiwin_religion }
 	}
 	pigou = {
-		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.212	culture = innu_culture	religion = midewiwin_religion }
 	}
 	aguanish = {
-		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.106	culture = innu_culture	religion = midewiwin_religion }
 	}
 	natashquan = {
-		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = peasants		size = 0.360	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.257	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.106	culture = innu_culture	religion = midewiwin_religion }
 	}
 	manapakuaniskau = {
@@ -183,15 +183,15 @@ locations = {
 	magpie_massif = {
 	}
 	notiskuan = {
-		define_pop = {	type = peasants		size = 5.026	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 4.026	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.057	culture = vinlander		religion = norse }
-		define_pop = {	type = peasants		size = 5.543	culture = innulander	religion = norse }
-		define_pop = {	type = tribesmen	size = 3.222	culture = innulander	religion = norse }
+		define_pop = {	type = peasants		size = 2.543	culture = innulander	religion = norse }
+		define_pop = {	type = tribesmen	size = 1.222	culture = innulander	religion = norse }
 	}
 	anticosti = {
 		define_pop = {	type = peasants		size = 3.026	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.057	culture = vinlander		religion = norse }
-		define_pop = {	type = peasants		size = 2.101	culture = innulander	religion = norse }
+		define_pop = {	type = peasants		size = 1.101	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 1.106	culture = innulander	religion = norse }
 	}
 	natigostec = {
@@ -221,8 +221,8 @@ locations = {
 	uashat = {
 		define_pop = {	type = peasants		size = 2.560	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 1.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 1.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = tribesmen	size = 2.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.158	culture = innulander	religion = norse }
 		define_pop = {	type = slaves		size = 0.721	culture = innu_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 0.425	culture = innu_culture	religion = midewiwin_religion }
 	}
@@ -241,8 +241,8 @@ locations = {
 	mistecapiu = {
 		define_pop = {	type = peasants		size = 0.560	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.457	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.229	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.158	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = tribesmen	size = 0.229	culture = innulander	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.158	culture = innulander	religion = norse }
 		define_pop = {	type = tribesmen	size = 0.106	culture = ilnu_culture	religion = midewiwin_religion }
 	}
 	sainte_marguerite_plateau = {
@@ -1105,8 +1105,8 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.106	culture = innu_culture	religion = midewiwin_religion }
 	}
 	red_bay = {
-		define_pop = {	type = peasants		size = 1.026	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.557	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 0.826	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 0.357	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 0.529	culture = skraeling_culture		religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 0.589	culture = skraeling_culture	religion = norse }
 		define_pop = {	type = slaves		size = 0.321	culture = innu_culture	religion = midewiwin_religion }
@@ -1129,46 +1129,58 @@ locations = {
 	belle_isle = {
 		define_pop = {	type = nobles		size = 0.056	culture = vinlander		religion = norse }
 		define_pop = {	type = clergy		size = 0.304	culture = vinlander		religion = norse }
-		define_pop = {	type = peasants		size = 4.106	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 2.117	culture = vinlander		religion = norse }
+		define_pop = {	type = peasants		size = 3.106	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 1.117	culture = vinlander		religion = norse }
 		define_pop = {	type = tribesmen	size = 1.449	culture = skraeling_culture		religion = midewiwin_religion }
-		define_pop = {	type = peasants		size = 0.508	culture = skraeling_culture	religion = norse }
-		define_pop = {	type = slaves		size = 3.712	culture = beothuk_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.508	culture = skraeling_culture	religion = norse }
+		define_pop = {	type = slaves		size = 1.712	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	wipetikil = {
 		define_pop = {	type = nobles		size = 0.032	culture = vinlander		religion = norse }
 		define_pop = {	type = clergy		size = 0.108	culture = vinlander		religion = norse }
-		define_pop = {	type = peasants		size = 3.401	culture = vinlander		religion = norse }
-		define_pop = {	type = tribesmen	size = 0.917	culture = skraeling_culture		religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 2.401	culture = vinlander		religion = norse }
+		define_pop = {	type = tribesmen	size = 1.917	culture = skraeling_culture		religion = midewiwin_religion }
 		define_pop = {	type = slaves		size = 1.712	culture = beothuk_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 0.406	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	naskwotchu = {
 		define_pop = {	type = nobles		size = 0.024	culture = vinlander			religion = norse }
 		define_pop = {	type = clergy		size = 0.098	culture = vinlander			religion = norse }
 		define_pop = {	type = peasants		size = 1.158	culture = vinlander			religion = norse }
-		define_pop = {	type = tribesmen	size = 3.708	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 2.708	culture = vinlander			religion = norse }
 		define_pop = {	type = tribesmen	size = 2.276	culture = skraeling_culture			religion = midewiwin_religion }
 		define_pop = {	type = slaves		size = 1.712	culture = beothuk_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 1.208	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	mekapisk = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	long_range_mountains = {
 	}
 	eimastukwek = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	epwikek = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	kutapuskuj = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	pgotapesg = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	upsukdaskooch = {
 		define_pop = {	type = peasants		size = 1.046	culture = vinlander		religion = norse }
@@ -1179,22 +1191,40 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.306	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	wli_qospem = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	gosaoie = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	nogamsig = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	meelpaeg = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	amasipukwek = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	sibook = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	annieopsquotch_mountains = {
 	}
@@ -1204,7 +1234,7 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.149	culture = skraeling_culture		religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 0.208	culture = skraeling_culture	religion = norse }
 		define_pop = {	type = slaves		size = 0.212	culture = beothuk_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.266	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	walnaypek = {
 		define_pop = {	type = peasants		size = 0.106	culture = vinlander		religion = norse }
@@ -1212,7 +1242,7 @@ locations = {
 		define_pop = {	type = peasants		size = 0.108	culture = skraeling_culture	religion = norse }
 		define_pop = {	type = slaves		size = 0.212	culture = beothuk_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 0.106	culture = skraeling_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.266	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	akilasiewakik = {
 		define_pop = {	type = peasants		size = 0.106	culture = vinlander		religion = norse }
@@ -1220,15 +1250,21 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.490	culture = skraeling_culture		religion = midewiwin_religion }
 		define_pop = {	type = peasants		size = 0.108	culture = skraeling_culture	religion = norse }
 		define_pop = {	type = slaves		size = 0.212	culture = beothuk_culture	religion = midewiwin_religion }
-		define_pop = {	type = tribesmen	size = 0.506	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.266	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	newfoundland_highlands = {
 	}
 	cape_spear = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	bacalhieu = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	mekwiskajk = {
 		define_pop = {	type = peasants		size = 0.460	culture = vinlander		religion = norse }
@@ -1239,19 +1275,34 @@ locations = {
 		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
 	}
 	mollyhuajeck = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	placentia = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	cape_race = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	maqtewey = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	nukamkiajijk = {
-		define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.206	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = slaves		size = 0.075	culture = beothuk_culture	religion = midewiwin_religion }
+		define_pop = {	type = tribesmen	size = 0.108	culture = vinlander			religion = norse }
+		define_pop = {	type = tribesmen	size = 0.176	culture = skraeling_culture	religion = midewiwin_religion }
 	}
 	miquelon = {
 	}
@@ -2774,12 +2825,18 @@ locations = {
 	}
 	exuma = {
 		define_pop = {	type = tribesmen	size = 0.236	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	guanima = {
 		define_pop = {	type = tribesmen	size = 0.278	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	eleuthera = {
 		define_pop = {	type = tribesmen	size = 0.136	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	utiaquia = {
 	}
@@ -2790,17 +2847,25 @@ locations = {
 	}
 	inagua = {
 		define_pop = {	type = tribesmen	size = 0.073	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	samana_cay = {
 	}
 	jumento = {
 		define_pop = {	type = tribesmen	size = 0.093	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	caycos = {
 		define_pop = {	type = tribesmen	size = 0.736	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	lucayoneque = {
 		define_pop = {	type = tribesmen	size = 0.104	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
 	}
 	bahama = {
 		define_pop = {	type = peasants		size = 2.406	culture = kykladian_culture religion = hellenism_religion }
@@ -3917,21 +3982,27 @@ locations = {
 	}
 	assunpink = {
 		define_pop = {	type = tribesmen	size = 3.535	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	muscotnetcong = {
 		define_pop = {	type = tribesmen	size = 3.254	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	hopatcong = {
 		define_pop = {	type = tribesmen	size = 1.851	culture = munsee_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	shackamaxon = {
 		define_pop = {	type = tribesmen	size = 3.535	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	wawassan = {
 		define_pop = {	type = tribesmen	size = 1.992	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	wyomissing = {
 		define_pop = {	type = tribesmen	size = 1.851	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	paxtang = {
 		define_pop = {	type = tribesmen	size = 1.560	culture = atrakwaye_culture	religion = iroquoian_totemism }
@@ -3941,6 +4012,7 @@ locations = {
 	}
 	conewago = {
 		define_pop = {	type = tribesmen	size = 1.820	culture = atrakwaye_culture	religion = iroquoian_totemism }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	cumberland_mountains_9 = {
 	}
@@ -3957,12 +4029,15 @@ locations = {
 	}
 	tesinigh = {
 		define_pop = {	type = tribesmen	size = 2.132	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	attaock = {
 		define_pop = {	type = tribesmen	size = 3.498	culture = nanticoke_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	cocalico = {
 		define_pop = {	type = tribesmen	size = 2.553	culture = unami_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.120	culture = elyrics_culture	religion = hellenism_religion}
 	}
 	shamokin = {
 		define_pop = {	type = tribesmen	size = 0.920	culture = atrakwaye_culture	religion = iroquoian_totemism }
@@ -4207,9 +4282,11 @@ locations = {
 	}
 	cheroenhaka = {
 		define_pop = {	type = tribesmen	size = 3.535	culture = nottoway_culture	religion = iroquoian_totemism }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	waqua = {
 		define_pop = {	type = tribesmen	size = 3.395	culture = nottoway_culture	religion = iroquoian_totemism }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	pamunkey = {
 		define_pop = {	type = nobles	size = 0.016	culture = photianoi	religion = orthodox }
@@ -4385,18 +4462,23 @@ locations = {
 	}
 	croatan = {
 		define_pop = {	type = tribesmen	size = 0.701	culture = croatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	hatteras = {
 		define_pop = {	type = tribesmen	size = 0.701	culture = croatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	chowanoke = {
 		define_pop = {	type = tribesmen	size = 0.701	culture = croatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	pocosin = {
 		define_pop = {	type = tribesmen	size = 0.701	culture = croatan_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	wiccacon = {
 		define_pop = {	type = tribesmen	size = 1.711	culture = nottoway_culture	religion = iroquoian_totemism }
+		define_pop = {	type = peasants		size = 0.912	culture = elyrics_culture	religion = orthodox }
 	}
 	mattamuskeet_lake = {
 	}
@@ -4571,6 +4653,7 @@ locations = {
 		define_pop = {	type = nobles	size = 0.014	culture = cusabo_culture	religion = mississippian_ceremonial }
 		define_pop = {	type = clergy	size = 0.030	culture = cusabo_culture	religion = mississippian_ceremonial }
 		define_pop = {	type = tribesmen	size = 1.442	culture = cusabo_culture	religion = mississippian_ceremonial }
+		define_pop = {	type = peasants		size = 1.250	culture = elyrics_culture	religion = orthodox }
 	}
 	combahee = {
 		define_pop = {	type = clergy	size = 0.016	culture = cusabo_culture	religion = mississippian_ceremonial }
