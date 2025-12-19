@@ -10,6 +10,7 @@ aureliani = {
 		greek_culture = positive
 		median = kindred
 		photianoi = kindred
+		elysian_culture = kindred
 	}	
 	
 	culture_groups = {
@@ -27,6 +28,7 @@ photianoi = {
 		greek_culture = positive
 		median = positive
 		aureliani = kindred
+		elysian_culture = kindred
 	}
 	
 	culture_groups = {
@@ -43,6 +45,7 @@ elyrics_culture = {
 	opinions = {
 		photianoi = kindred
 		aureliani = kindred
+		elysian_culture = kindred
 	}
 	
 	culture_groups = {
@@ -78,6 +81,7 @@ kykladian_culture = {
 	opinions = {
 		aureliani = positive
 		elyrics_culture = positive
+		elysian_culture = positive
 		photianoi = kindred
 	}
 	
