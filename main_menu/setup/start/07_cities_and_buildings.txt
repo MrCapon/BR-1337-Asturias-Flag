@@ -4139,7 +4139,7 @@ building_manager = {
 	royal_court = { tag = BYZ level = 1 location =  constantinople }
 	royal_garden = { tag = BYZ level = 1 location =  constantinople } #Gardens of the Great Palace
 	chancery = { tag = BYZ level = 1 location =  constantinople } #Senate
-	#constantinople_observatory = { tag = BYZ level = 1 location =  constantinople 
+	constantinople_observatory = { tag = BYZ level = 1 location =  constantinople }
 	marketplace	= { tag = BYZ level = 24 location =  constantinople }
 	#merchants_quarters = { tag = BYZ level = 1 location =  constantinople }
 	#grand_marketplace = { tag = BYZ level = 1 location =  constantinople }
@@ -4589,7 +4589,7 @@ building_manager = {
 	charcoal_maker = { tag = TRE level = 1 location = gorele }
 	tar_kiln = { tag = AON level = 1 location = cubuk }
 	charcoal_maker = { tag = AON level = 1 location = polatli }
-	charcoal_maker = { tag = TRE level = 1 location = kalecik }
+	charcoal_maker = { tag = AON level = 1 location = kalecik }
 
 	#IBERIA
 	royal_court = { tag = ADU level = 1 location = cordoba }
@@ -4620,6 +4620,9 @@ building_manager = {
 	sergeantry = { tag = ADU level = 1 location =  cordoba }
 	great_madrasa = { tag = ADU level = 1 location = cordoba }
 	great_madrasa = { tag = MAM level = 1 location = cairo }
+	slave_center = { tag = MAM level = 1 location = dongola }
+	slave_center = { tag = MAM level = 1 location = soba }
+	slave_center = { tag = MAM level = 1 location = kosa }
 	great_madrasa = { tag = AIA level = 1 location = baghdad }
 	madrasa = { tag = ADU level = 1 location = granada }
 	madrasa = { tag = ADU level = 1 location = sevilla }
@@ -5463,12 +5466,17 @@ building_manager = {
 
 	#Major and Important Trade locations
 	marketplace	= { tag = MAM level = 8 location = cairo }
+	entrepot = { tag = MAM level = 1 location =  cairo }
 	marketplace	= { tag = MAM level = 6 location = alexandria }
+	entrepot = { tag = MAM level = 1 location =  alexandria }
 	marketplace	= { tag = MAM level = 6 location = damascus }
+	entrepot = { tag = MAM level = 1 location =  damascus }
 	marketplace	= { tag = TUN level = 6 location = tunis }
+	entrepot = { tag = TUN level = 1 location =  tunis }
 	marketplace	= { tag = TUN level = 5 location = palermo }
 	marketplace	= { tag = TRE level = 3 location = kaffa }
 	marketplace	= { tag = FEO level = 6 location = theodoro }
+	entrepot = { tag = FEO level = 1 location =  theodoro }
 	marketplace	= { tag = GTC level = 4 location = tana }
 	marketplace	= { tag = TRE level = 4 location = trebizond }
 	marketplace	= { tag = PAF level = 2 location = sinop }
@@ -5477,6 +5485,8 @@ building_manager = {
 	marketplace	= { tag = RAG level = 6 location = dubrovnik }
 	marketplace	= { tag = EPI level = 2 location = ioannina }
 	marketplace	= { tag = VEN level = 15 location = venice }
+	entrepot = { tag = VEN level = 1 location =  venice }
+	entrepot = { tag = GEN level = 1 location =  genoa }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
 	marketplace	= { tag = MZF level = 6 location = isfahan }
 	marketplace	= { tag = FRA level = 5 location =  metz }
@@ -5490,21 +5500,22 @@ building_manager = {
 	
 	#Pisan Trade Offices
 	shipyard = { tag = PIS level = 1 location = pisa }
-	trade_office = { tag = PIS level = 1 location = genoa } #1233
-	trade_office = { tag = PIS level = 2 location = tunis } #1253
-	trade_office = { tag = PIS level = 1 location = alexandria } #1264
-	trade_office = { tag = PIS level = 1 location = rome } #1279
+	trade_office = { tag = PIS level = 2 location = genoa } #1233
+	trade_office = { tag = PIS level = 3 location = tunis } #1253
+	trade_office = { tag = PIS level = 2 location = alexandria } #1264
+	trade_office = { tag = PIS level = 2 location = rome } #1279
 	trade_office = { tag = PIS level = 1 location = bejaia } #1281
-	trade_office = { tag = PIS level = 2 location = constantinople } #1281
+	trade_office = { tag = PIS level = 4 location = constantinople } #1281
 	trade_office = { tag = PIS level = 2 location = sevilla } #1282
 	trade_office = { tag = PIS level = 1 location = messina } #1286
 	trade_office = { tag = PIS level = 2 location = palermo } #1286
-	trade_office = { tag = PIS level = 1 location = montpellier } #1301
+	trade_office = { tag = PIS level = 2 location = montpellier } #1301
 	trade_office = { tag = PIS level = 1 location = trapani } #1301
 	overseas_trading_post = { tag = PIS level = 1 location = malta } #1305
 	trade_office = { tag = PIS level = 1 location = oristano } #1325
 	trade_office = { tag = PIS level = 1 location = cagliari }
 	trade_office = { tag = PIS level = 1 location = tripoli }
+	overseas_trading_post = { tag = PIS level = 1 location = selinti }
 
 	#Genoese Trade Offices
 	trade_office = { tag = GEN level = 3 location = rome }
@@ -5543,7 +5554,7 @@ building_manager = {
 	trade_company_garrison = { tag = GTC level = 1 location = kaffa }
 	trade_company_governance = { tag = GTC level = 2 location = genoa }
 	trade_office = { tag = GTC level = 2 location = smyrna }
-	trade_office = { tag = GTC level = 6 location = constantinople }
+	trade_office = { tag = GTC level = 8 location = constantinople }
 	trade_office = { tag = GTC level = 1 location = antioch }
 	trade_office = { tag = GTC level = 2 location = acre }
 	trade_office = { tag = GTC level = 2 location = alexandria }
@@ -5554,7 +5565,7 @@ building_manager = {
 	trade_office = { tag = GTC level = 1 location = bursa }
 	trade_office = { tag = GTC level = 1 location = ismail }
 	trade_office = { tag = GEN level = 4 location = tana }	
-	trade_office = { tag = GTC level = 2 location = trebizond }
+	trade_office = { tag = GTC level = 4 location = trebizond }
 	trade_office = { tag = GTC level = 2 location = sinop }
 	trade_office = { tag = GTC level = 1 location = bafra }
 	trade_office = { tag = GTC level = 1 location = bayramlu }
@@ -5611,12 +5622,12 @@ building_manager = {
 	fondaco = { tag = VTC level = 2 location = antioch }
 	fondaco = { tag = VTC level = 2 location = alexandria }
 	trade_office = { tag = VTC level = 2 location = smyrna }
-	trade_office = { tag = VTC level = 6 location = constantinople }
+	trade_office = { tag = VTC level = 10 location = constantinople }
 	trade_office = { tag = VTC level = 1 location = ismail }
 	trade_office = { tag = VTC level = 1 location = tana }	
 	trade_office = { tag = VTC level = 2 location = antioch }
-	trade_office = { tag = VTC level = 3 location = acre }
-	trade_office = { tag = VTC level = 5 location = alexandria }
+	trade_office = { tag = VTC level = 4 location = acre }
+	trade_office = { tag = VTC level = 10 location = alexandria }
 	trade_office = { tag = VTC level = 1 location = mahdia }
 	trade_office = { tag = VTC level = 1 location = kalamata }
 	trade_office = { tag = VTC level = 2 location = thessaloniki }
@@ -5627,7 +5638,7 @@ building_manager = {
 	trade_office = { tag = VTC level = 1 location = tarsus }
 	trade_office = { tag = VTC level = 1 location = tunis }
 	trade_office = { tag = VTC level = 2 location = athens }
-	overseas_trading_post = { tag = VTC level = 1 location = beirut }
+	overseas_trading_post = { tag = VTC level = 2 location = beirut }
 	overseas_trading_post = { tag = VTC level = 1 location = iskenderun }
 	overseas_trading_post = { tag = VTC level = 1 location = limassol }
 	overseas_trading_post = { tag = VTC level = 1 location = milos }
@@ -5643,7 +5654,7 @@ building_manager = {
 	trade_office = { tag = VTC level = 1 location = rodos }
 
 	#ADU Trade
-	trade_office = { tag = ADU level = 1 location = tunis }
+	trade_office = { tag = ADU level = 2 location = tunis }
 	trade_office = { tag = ADU level = 1 location = fez }
 	trade_office = { tag = ADU level = 1 location = rabat }
 	trade_office = { tag = ADU level = 1 location = azemmour }
@@ -5651,7 +5662,6 @@ building_manager = {
 	trade_office = { tag = ADU level = 1 location = sijilmasa }
 	trade_office = { tag = ADU level = 1 location = valladolid }
 	trade_office = { tag = ADU level = 1 location = barcelona }
-	trade_office = { tag = ADU level = 1 location = tunis }
 	trade_office = { tag = ADU level = 1 location = oran }
 	trade_office = { tag = ADU level = 1 location = algiers }
 	trade_office = { tag = ADU level = 1 location = bejaia }
@@ -5662,6 +5672,7 @@ building_manager = {
 	overseas_trading_post = { tag = ADU level = 1 location = tetouan }
 	fondaco = { tag = ADU level = 1 location = rabat }
 	fondaco = { tag = ADU level = 1 location = oran }
+	slave_center = { tag = ADU level = 1 location = niani }
 
 	#BYZ & Subjects
 	trade_office = { tag = BYZ level = 4 location = theodoro }
