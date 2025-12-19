@@ -26,6 +26,7 @@
         pennsylvania_area
     }
 	form_effect = {
+		set_country_rank_effect = { rank = country_rank:rank_kingdom }
         trigger_event_non_silently = elysium.1 
     }
 }
