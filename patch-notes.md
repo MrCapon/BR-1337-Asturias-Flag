@@ -1,4 +1,23 @@
 
+# update 0.7
+
+## Changes
+- Added meritocracy to Elysia. It would be better if the meritocracy appears after Elysium forms but not sure how to do that.
+- added br_special_trade_companies: "Chartered Trade Companies"
+ br_special_trade_companies_desc: "By granting expansive privileges to powerful trade companies, the state entrusts overseas commerce and naval logistics to mercantile elites. In return, these companies sustain trade dominance, expand maritime reach, and shoulder much of the burden of naval upkeep."
+- Updated the new world colony reform to have colonial_maintenance_cost = -0.50 instead of -0.50 exploration cost. 
+- created 14 elysium dynasties though no unique characters yet but they will create 4 random ones per country at start.
+- updated trade and pirate buildings
+- Made more the most Important Roman Roads start as paved roads.
+- Added more gravel roads to Persia.
+- Founding Elysium now changes the location RGO to silk.
+- Startup effect to change some rgos
+- couple coal and tar buildings to Anatolia.
+- David started updating location names for Elysia
+- created New World town templates 
+- increased peasants_training_grounds manpower from 0.001 to 0.005 and added a few to areas that don't have the noble one where I want peasents to be more powerful for freedom!
+- Basileion Astronomikon
+- fruit orchards added to vinland for mead. Various buildings added to new world tags.
 
 # update éxi - 0.6
 

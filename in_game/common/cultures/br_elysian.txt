@@ -52,7 +52,9 @@ elyrics_culture = {
 }
 
 elysian_culture = {
-	language = elysian_language
+	#language = elysian_language
+	language = elysian_latin_dialect
+
 	color = rgb{  59 19 68 }
 	
 	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
