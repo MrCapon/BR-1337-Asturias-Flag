@@ -1393,12 +1393,274 @@
 #   1. I used Google's standard Modern Greek romanization for spelling, but I generally used archaic Greek grammar to represent that the standard written language was Koine Greek with contemporary 14th century phonology, which was pretty much the same as Modern Greek
 #   2. Google Translate outputs a romanized version of Greek text below the Greek text, which you can use if you don't know how to read Greek
 #   3. Please, for the love of god, do not use un-Hellenized Latin names. In many cases there are better, actual Greek names available, and even an invented name is more authentic
-#East_Coast
- patapsco.greek_language: "Elyseia"
- nanticoke.greek_language: "Nea Alexandreia"
- chesapeake.greek_language: "Eiros"
- powhatan.greek_language: "Ioannike"
- rappahannock.greek_language: "Odessos"
- roanoke.greek_language: "Ikos"
- mohetan.greek_language: "Aithaia"
- onandagoa.greek_language: "Platos"
+
+#Some of the names for the locations are taken from the mod third odyssey back to the motherland (for EU4) where a name already exists. The rest of the locations contain made up city names since EU4 had way less locations/ provinces than EU5 does therefore I had to come up with a few new names - David
+
+#Region_East_Coast  #Actual east coast
+
+#Province Bermuda
+ bermuda.greek_language: "Kauda Elpida" #IMPORTANT TRADE HUB
+
+#Province Patapsco
+ patapsco.greek_language: "Elyseia" #MOST IMPORTANT CITY #ELYSIAN ECUMENICAL PATRIARCH SEAT
+ wicontiss.greek_language: "Cleopatriae"
+ nentego.greek_language: "Nolia"
+ patuxent.greek_language: "Patrinium"
+ 
+#Province Potomac
+ anacostia.greek_language: "Nea Konstantinoupolis" #IMPORTANT CITY
+ potapoco.greek_language: "Oea"
+ monocacy.greek_language: "Doceia"
+ catoctin.greek_language: "Cataphron"
+
+#Province Nanticoke
+ matapeake.greek_language: "Nea Alexandreia" #IMPORTANT CITY
+ chicamacomico.greek_language: "Thalrion"
+ wicomico.greek_language: "Velthoras"
+
+#Province Chesapeake
+ nansemond.greek_language: "Eiros" #IMPORTANT CITY
+ kiskiack.greek_language: "Prosphorion"
+ weyanock.greek_language: "Viatalis"
+ chesapeake.greek_language: "Kepsoria"
+ acoomac.greek_language: "Acrivelia"
+
+#Province Powhatan
+ pamunkey.greek_language: "Ioannike" #IMPORTANT CITY
+ powhatan.greek_language: "Pygros"
+ appamatuck.greek_language: "Appia Matikos"
+ waqua.greek_language: "Quavelis"
+ cheroenhaka.greek_language: "Kheronis"
+
+#Province Tsenacommacah/ Rappahannock
+ patawomeck.greek_language: "Odessos" #IMPORTANT CITY
+ wicocomico.greek_language: "Neriton"
+ nanzatico.greek_language: "Namnetum"
+ rappahannock.greek_language: "Potamyr"
+ werowocomoco.greek_language: "Veroia"
+
+#Province Roanoke
+ roanoke.greek_language: "Ikos" #IMPORTANT CITY
+ hatteras.greek_language: "Mykena"
+ crotan.greek_language: "Nea Dalmatia"
+ pocosin.greek_language: "Piscispolis"
+ chowanoke.greek_language: "Chyronis"
+ wiccacon.greek_language: "Vicalon"
+
+
+#Province Monacan
+ appomatox.greek_language: "Ditaon"
+ massinack.greek_language: "Alexandroupolis"
+ mowhemencho.greek_language: "Eumencho"
+ rassawek.greek_language: "Savaxis"
+ monahassanugh.greek_language: "Assanor"
+ monasukapanough.greek_language: "Skupaion"
+
+#Province Doeg
+ doeg.greek_language: "Detis"
+ manassas.greek_language: "Akragas"
+ tegninateo.greek_language: "Norikos"
+
+#Province Delaware
+ minguannan.greek_language: "Methenai" #IMPORTANT CITY
+ tappahanna.greek_language: "Troizen"
+ assawoman.greek_language: "Asera"
+
+#Province Paxtang
+ conewago.greek_language: "Iuenna"
+ paxtang.greek_language: "Calcaria"
+ connatachequa.greek_language: "Isca"
+
+#Province Tesinigh
+ attaock.greek_language: "Myros"
+ tesinigh.greek_language: "Kydonia"
+ cocalico.greek_language: "Krokopolis"
+
+#Province Shackamaxon
+ shackamaxon.greek_language: "Pythagora"
+ wyomissing.greek_language: "Labinion"
+ wawassan.greek_language: "Avasaria"
+
+#Province Lehigh
+ tohickon.greek_language: "Skyea"
+ schuylkill.greek_language: "Rhodan"
+ lehigh.greek_language: "Lincium"
+ paunacussing.greek_language: "Germanicum"
+
+#Province Lycoming
+ susquehannock.greek_language: "Akanthos"
+ lycoming.greek_language: "Skambonidai"
+ tangasootack.greek_language: "Bostra"
+ loyalsock.greek_language: "Vedinum"
+ andastoerrhonon.greek_language: "Ader"
+
+#Province Wyoming
+ lackawanna.greek_language: "Parasemnos"
+ atrakwaye.greek_language: "Metrion"
+ scahentowanen.greek_language: "Aeminium"
+ lackawaxen.greek_language: "Condate"
+ wappasenig.greek_language: "Styr"
+
+#Province Shamokin
+ wallenpaupack.greek_language: "Julia"
+ mahoning.greek_language: "Aenus"
+ shamokin.greek_language: "Orea"
+ juniata.greek_language: "Iuvenis"
+ mattawana.greek_language: "Saena Julia"
+ tuckahoe.greek_language: "Capena"
+ onojutta.greek_language: "Haenna"
+ massawomeck.greek_language: "Ilerda"
+
+#Province Allegheny
+ loyalhanna.greek_language: "Fidelium"
+ conemaugh.greek_language: "Capreae"
+ quemahoning.greek_language: "Oenipons"
+ allegheny.greek_language: "Resapha"
+ youghiogheny.greek_language: "Tudera"
+
+#Province Kechemeche
+ cohansey.greek_language: "Kaisareia"
+ amintonck.greek_language: "Atlapolis"
+ kechemeche.greek_language: "Chemea"
+ tetamekanch.greek_language: "Tetra"
+
+#Province Raritan
+ hackensack.greek_language: "Sides"
+ raritan.greek_language: "Throkia"
+ piscopeek.greek_language: "Chryse"
+ navisink.greek_language: "Nysia"
+
+#Province Manhattan
+manhattan.greek_language: "Nea Athenae" #IMPORTANT CITY
+nochpeem.greek_language: "Pequana"
+tappan.greek_language: "Tappanum"
+
+#Province Montauk
+ massapequa.greek_language: "Terrapluvialis"
+ unquachog.greek_language: "Agronova"
+ montauk.greek_language: "Populivallis"
+
+#Province Muhhekantuck
+ minisink.greek_language: "Niralia"
+ ponkhockie.greek_language: "Ptloemais"
+ poughkeepsie.greek_language: "Confluensia"
+ kitchawanc.greek_language: "Esopium"
+
+#Province Quinnipiac
+ quinnipiac.greek_language: "Neo Limani"
+ rippowam.greek_language: "Gelirippa"
+ scatacook.greek_language: "Petropolis"
+
+#Province Connecticut
+ nehantuck.greek_language: "Senithyre"
+ siccanemos.greek_language: "Siccanum"
+ willimantic.greek_language: "Hydromantia"
+ saukiog.greek_language: "Saucopia"
+
+#Province Narraganset
+ woonsocket.greek_language: "Rhosphylla"
+ seekonk.greek_language: "Sakonium"
+ pawcatuck.greek_language: "Pacathea"
+
+#Province Nauset
+ assonet.greek_language: "Agrinion"
+ patuxet.greek_language: "Patuxetia"
+ nauset.greek_language: "Marinova"
+ nantucket.greek_language: "Pelagopolis"
+
+#Province Agawam
+ agawam.greek_language: "Thanyx"
+ pocumtuck.greek_language: "Ludium"
+ poontoosuck.greek_language: "Paludara"
+ mahaiwe.greek_language: "Monsmahaia"
+
+#Province Massachusetts
+ assabet.greek_language: "Nea Theodosia"
+ weshacum.greek_language: "Veria"
+ quinsigamond.greek_language: "Maiandros"
+ shawmut.greek_language: "Soldus"
+ naumkeag.greek_language: "Piscinaum"
+
+#Province Merrimac
+ nashua.greek_language: "Phoiene"
+ amoskeag.greek_language: "Phokaia"
+ squamscott.greek_language: "Scotura"
+
+#Province Pennacook
+ pennacook.greek_language: "Deinos"
+ ossipee.greek_language: "Pherox"
+ pemigewasset.greek_language: "Amphissa"
+ umbagog.greek_language: "Ambarnai"
+
+#Province Casco
+ casco.greek_language: "Kourion"
+ kennenbunk.greek_language: "Arenama"
+ pequaket.greek_language: "Pequaria"
+ adroscoggin.greek_language: "Tsakotis"
+ ammoscongon.greek_language: "Ammonium"
+ anasagunticook.greek_language: "Anastir"
+
+#Province Kennebec
+ kennebec.greek_language: "Kourion"
+ sagadahoc.greek_language: "Hyni"
+ messalonskee.greek_language: "Thessyr"
+ norridgewock.greek_language: "Gaion"
+
+#Province Penobscot
+ passagassawkeag.greek_language: "Breios"
+ majabigwaduce.greek_language: "Perseon"
+ penobscot.greek_language: "Mirhypophi" #IMPORTANT CITY
+ piscataquis.greek_language: "Bellereia"
+ katahdin.greek_language: "Altheon"
+ millinocket.greek_language: "Millia"
+
+#Province Passamaquoddy
+ maatawamkeag.greek_language: "Castrovia"
+ nicatous.greek_language: "Nicatium"
+ machias.greek_language: "Thalassara"
+ passamaquoddy.greek_language: "Rivathar"
+
+#Province Aroostook
+ meduxnekeag.greek_language: "Akissa"
+ allagash.greek_language: "Peria"
+ aroostook.greek_language: "Arorum"
+
+#Province Norridgewock
+ kineo.greek_language: "Pyronkion"
+ mittaywanquam.greek_language: "Mitri"
+ caratunk.greek_language: "Caranium"
+ nanrantsouak.greek_language: "Silvarion"
+ kennebango.greek_language: "Nemorium"
+
+#Region_East_Coast  #Appalacian Mountians
+
+#Province Shenandoah
+ onandagoa.greek_language: "Platos" #IMPORTANT CITY
+ shenandoah.greek_language: "Doriskos"
+ massanutten.greek_language: "Asanuthis"
+ schinhandowi.greek_language: "Handorion"
+
+#Province Kanawha
+ mohetan.greek_language: "Aithaia" #IMPORTANT CITY
+ tsalagi.greek_language: "Apeia"
+ anigiduwagi.greek_language: "Ani"
+ ouasioto.greek_language: "Ausias"
+ moneton.greek_language: "Monessa"
+ kanawha.greek_language: "Kanara"
+ pocatalico.greek_language: "Calythico"
+ chinquetana.greek_language: "Quentara"
+ weotowe.greek_language: "Veiotis"
+
+#Province Monogahela
+ onimgohow.greek_language: "Dinia"
+ calicua.greek_language: "Caesarea Caligula"
+ wihlink.greek_language: "Amorion"
+ monongahela.greek_language: "Nea Caenophrurium"
+
+#Province Wappacoma
+ patna_us.greek_language: "Aitaia" #IMPORTANT CITY #ELYSIAN PATRIARCH SEAT
+ wappacoma.greek_language: "Aipeia"
+ calicuas.greek_language: "Calirium"
+ ashby.greek_language: "Anavio"
+ conococheague.greek_language: "Celsa"
+

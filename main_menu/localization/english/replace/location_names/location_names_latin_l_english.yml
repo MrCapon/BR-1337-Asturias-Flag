@@ -6,12 +6,272 @@
  toulouse.latin_language: "$toulouse_occitan_language$"
  zaragoza.latin_language: "Caesaraugusta"
 
-#East_Coast
- patapsco.latin_language: "Elyseia"
- nanticoke.latin_language: "Nea Alexandreia"
- chesapeake.latin_language: "Eiros"
- powhatan.latin_language: "Ioannike"
- rappahannock.latin_language: "Odessos"
- roanoke.latin_language: "Ikos"
- mohetan.latin_language: "Aithaia"
- onandagoa.latin_language: "Platos"
+#Some of the names for the locations are taken from the mod third odyssey back to the motherland (for EU4) where a name already exists. The rest of the locations contain made up city names since EU4 had way less locations/ provinces than EU5 does therefore I had to come up with a few new names - David
+
+#Region_East_Coast  #Actual east coast
+
+#Province Bermuda
+ bermuda.latin_language: "Kauda Elpida" #IMPORTANT TRADE HUB
+
+#Province Patapsco
+ patapsco.latin_language: "Elyseia" #MOST IMPORTANT CITY #ELYSIAN ECUMENICAL PATRIARCH SEAT
+ wicontiss.latin_language: "Cleopatriae"
+ nentego.latin_language: "Nolia"
+ patuxent.latin_language: "Patrinium"
+ 
+#Province Potomac
+ anacostia.latin_language: "Nea Konstantinoupolis" #IMPORTANT CITY
+ potapoco.latin_language: "Oea"
+ monocacy.latin_language: "Doceia"
+ catoctin.latin_language: "Cataphron"
+
+#Province Nanticoke
+ matapeake.latin_language: "Nea Alexandreia" #IMPORTANT CITY
+ chicamacomico.latin_language: "Thalrion"
+ wicomico.latin_language: "Velthoras"
+
+#Province Chesapeake
+ nansemond.latin_language: "Eiros" #IMPORTANT CITY
+ kiskiack.latin_language: "Prosphorion"
+ weyanock.latin_language: "Viatalis"
+ chesapeake.latin_language: "Kepsoria"
+ acoomac.latin_language: "Acrivelia"
+
+#Province Powhatan
+ pamunkey.latin_language: "Ioannike" #IMPORTANT CITY
+ powhatan.latin_language: "Pygros"
+ appamatuck.latin_language: "Appia Matikos"
+ waqua.latin_language: "Quavelis"
+ cheroenhaka.latin_language: "Kheronis"
+
+#Province Tsenacommacah/ Rappahannock
+ patawomeck.latin_language: "Odessos" #IMPORTANT CITY
+ wicocomico.latin_language: "Neriton"
+ nanzatico.latin_language: "Namnetum"
+ rappahannock.latin_language: "Potamyr"
+ werowocomoco.latin_language: "Veroia"
+
+#Province Roanoke
+ roanoke.latin_language: "Ikos" #IMPORTANT CITY
+ hatteras.latin_language: "Mykena"
+ crotan.latin_language: "Nea Dalmatia"
+ pocosin.latin_language: "Piscispolis"
+ chowanoke.latin_language: "Chyronis"
+ wiccacon.latin_language: "Vicalon"
+
+
+#Province Monacan
+ appomatox.latin_language: "Ditaon"
+ massinack.latin_language: "Alexandroupolis"
+ mowhemencho.latin_language: "Eumencho"
+ rassawek.latin_language: "Savaxis"
+ monahassanugh.latin_language: "Assanor"
+ monasukapanough.latin_language: "Skupaion"
+
+#Province Doeg
+ doeg.latin_language: "Detis"
+ manassas.latin_language: "Akragas"
+ tegninateo.latin_language: "Norikos"
+
+#Province Delaware
+ minguannan.latin_language: "Methenai" #IMPORTANT CITY
+ tappahanna.latin_language: "Troizen"
+ assawoman.latin_language: "Asera"
+
+#Province Paxtang
+ conewago.latin_language: "Iuenna"
+ paxtang.latin_language: "Calcaria"
+ connatachequa.latin_language: "Isca"
+
+#Province Tesinigh
+ attaock.latin_language: "Myros"
+ tesinigh.latin_language: "Kydonia"
+ cocalico.latin_language: "Krokopolis"
+
+#Province Shackamaxon
+ shackamaxon.latin_language: "Pythagora"
+ wyomissing.latin_language: "Labinion"
+ wawassan.latin_language: "Avasaria"
+
+#Province Lehigh
+ tohickon.latin_language: "Skyea"
+ schuylkill.latin_language: "Rhodan"
+ lehigh.latin_language: "Lincium"
+ paunacussing.latin_language: "Germanicum"
+
+#Province Lycoming
+ susquehannock.latin_language: "Akanthos"
+ lycoming.latin_language: "Skambonidai"
+ tangasootack.latin_language: "Bostra"
+ loyalsock.latin_language: "Vedinum"
+ andastoerrhonon.latin_language: "Ader"
+
+#Province Wyoming
+ lackawanna.latin_language: "Parasemnos"
+ atrakwaye.latin_language: "Metrion"
+ scahentowanen.latin_language: "Aeminium"
+ lackawaxen.latin_language: "Condate"
+ wappasenig.latin_language: "Styr"
+
+#Province Shamokin
+ wallenpaupack.latin_language: "Julia"
+ mahoning.latin_language: "Aenus"
+ shamokin.latin_language: "Orea"
+ juniata.latin_language: "Iuvenis"
+ mattawana.latin_language: "Saena Julia"
+ tuckahoe.latin_language: "Capena"
+ onojutta.latin_language: "Haenna"
+ massawomeck.latin_language: "Ilerda"
+
+#Province Allegheny
+ loyalhanna.latin_language: "Fidelium"
+ conemaugh.latin_language: "Capreae"
+ quemahoning.latin_language: "Oenipons"
+ allegheny.latin_language: "Resapha"
+ youghiogheny.latin_language: "Tudera"
+
+#Province Kechemeche
+ cohansey.latin_language: "Kaisareia"
+ amintonck.latin_language: "Atlapolis"
+ kechemeche.latin_language: "Chemea"
+ tetamekanch.latin_language: "Tetra"
+
+#Province Raritan
+ hackensack.latin_language: "Sides"
+ raritan.latin_language: "Throkia"
+ piscopeek.latin_language: "Chryse"
+ navisink.latin_language: "Nysia"
+
+#Province Manhattan
+manhattan.latin_language: "Nea Athenae" #IMPORTANT CITY
+nochpeem.latin_language: "Pequana"
+tappan.latin_language: "Tappanum"
+
+#Province Montauk
+ massapequa.latin_language: "Terrapluvialis"
+ unquachog.latin_language: "Agronova"
+ montauk.latin_language: "Populivallis"
+
+#Province Muhhekantuck
+ minisink.latin_language: "Niralia"
+ ponkhockie.latin_language: "Ptloemais"
+ poughkeepsie.latin_language: "Confluensia"
+ kitchawanc.latin_language: "Esopium"
+
+#Province Quinnipiac
+ quinnipiac.latin_language: "Neo Limani"
+ rippowam.latin_language: "Gelirippa"
+ scatacook.latin_language: "Petropolis"
+
+#Province Connecticut
+ nehantuck.latin_language: "Senithyre"
+ siccanemos.latin_language: "Siccanum"
+ willimantic.latin_language: "Hydromantia"
+ saukiog.latin_language: "Saucopia"
+
+#Province Narraganset
+ woonsocket.latin_language: "Rhosphylla"
+ seekonk.latin_language: "Sakonium"
+ pawcatuck.latin_language: "Pacathea"
+
+#Province Nauset
+ assonet.latin_language: "Agrinion"
+ patuxet.latin_language: "Patuxetia"
+ nauset.latin_language: "Marinova"
+ nantucket.latin_language: "Pelagopolis"
+
+#Province Agawam
+ agawam.latin_language: "Thanyx"
+ pocumtuck.latin_language: "Ludium"
+ poontoosuck.latin_language: "Paludara"
+ mahaiwe.latin_language: "Monsmahaia"
+
+#Province Massachusetts
+ assabet.latin_language: "Nea Theodosia"
+ weshacum.latin_language: "Veria"
+ quinsigamond.latin_language: "Maiandros"
+ shawmut.latin_language: "Soldus"
+ naumkeag.latin_language: "Piscinaum"
+
+#Province Merrimac
+ nashua.latin_language: "Phoiene"
+ amoskeag.latin_language: "Phokaia"
+ squamscott.latin_language: "Scotura"
+
+#Province Pennacook
+ pennacook.latin_language: "Deinos"
+ ossipee.latin_language: "Pherox"
+ pemigewasset.latin_language: "Amphissa"
+ umbagog.latin_language: "Ambarnai"
+
+#Province Casco
+ casco.latin_language: "Kourion"
+ kennenbunk.latin_language: "Arenama"
+ pequaket.latin_language: "Pequaria"
+ adroscoggin.latin_language: "Tsakotis"
+ ammoscongon.latin_language: "Ammonium"
+ anasagunticook.latin_language: "Anastir"
+
+#Province Kennebec
+ kennebec.latin_language: "Kourion"
+ sagadahoc.latin_language: "Hyni"
+ messalonskee.latin_language: "Thessyr"
+ norridgewock.latin_language: "Gaion"
+
+#Province Penobscot
+ passagassawkeag.latin_language: "Breios"
+ majabigwaduce.latin_language: "Perseon"
+ penobscot.latin_language: "Mirhypophi" #IMPORTANT CITY
+ piscataquis.latin_language: "Bellereia"
+ katahdin.latin_language: "Altheon"
+ millinocket.latin_language: "Millia"
+
+#Province Passamaquoddy
+ maatawamkeag.latin_language: "Castrovia"
+ nicatous.latin_language: "Nicatium"
+ machias.latin_language: "Thalassara"
+ passamaquoddy.latin_language: "Rivathar"
+
+#Province Aroostook
+ meduxnekeag.latin_language: "Akissa"
+ allagash.latin_language: "Peria"
+ aroostook.latin_language: "Arorum"
+
+#Province Norridgewock
+ kineo.latin_language: "Pyronkion"
+ mittaywanquam.latin_language: "Mitri"
+ caratunk.latin_language: "Caranium"
+ nanrantsouak.latin_language: "Silvarion"
+ kennebango.latin_language: "Nemorium"
+
+#Region_East_Coast  #Appalacian Mountians
+
+#Province Shenandoah
+ onandagoa.latin_language: "Platos" #IMPORTANT CITY
+ shenandoah.latin_language: "Doriskos"
+ massanutten.latin_language: "Asanuthis"
+ schinhandowi.latin_language: "Handorion"
+
+#Province Kanawha
+ mohetan.latin_language: "Aithaia" #IMPORTANT CITY
+ tsalagi.latin_language: "Apeia"
+ anigiduwagi.latin_language: "Ani"
+ ouasioto.latin_language: "Ausias"
+ moneton.latin_language: "Monessa"
+ kanawha.latin_language: "Kanara"
+ pocatalico.latin_language: "Calythico"
+ chinquetana.latin_language: "Quentara"
+ weotowe.latin_language: "Veiotis"
+
+#Province Monogahela
+ onimgohow.latin_language: "Dinia"
+ calicua.latin_language: "Caesarea Caligula"
+ wihlink.latin_language: "Amorion"
+ monongahela.latin_language: "Nea Caenophrurium"
+
+#Province Wappacoma
+ patna_us.latin_language: "Aitaia" #IMPORTANT CITY #ELYSIAN PATRIARCH SEAT
+ wappacoma.latin_language: "Aipeia"
+ calicuas.latin_language: "Calirium"
+ ashby.latin_language: "Anavio"
+ conococheague.latin_language: "Celsa"
