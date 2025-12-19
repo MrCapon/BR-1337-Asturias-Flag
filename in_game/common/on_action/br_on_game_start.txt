@@ -936,6 +936,14 @@
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
 		}
+		c:K1K = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:letters_of_marque
+			research_advance = advance_type:sturdy_privateers
+			research_advance = advance_type:safe_exploration_techniques_advance
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
 
 		c:TUR = {
 			research_advance = advance_type:seljuk_roots
