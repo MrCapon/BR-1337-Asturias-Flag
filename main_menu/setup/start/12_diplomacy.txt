@@ -249,6 +249,8 @@ diplomacy_manager = {
     dependency = { first = PAP second = PES subject_type = vassal }
     dependency = { first = PAP second = GUB subject_type = vassal }
     scripted_mutual = { first = PAP second = BNV type = alliance }
+    scripted_oneway = { first = PAP second = KNI type = military_sponsorship }
+    scripted_oneway = { first = PAP second = KNI type = military_sponsorship }
 	
 	dependency = { first = SAV second = CEV subject_type = vassal }
 	dependency = { first = SAV second = AOS subject_type = fiefdom }
@@ -336,7 +338,6 @@ diplomacy_manager = {
     #scripted_mutual = { first = RIC second = BYZ type = food_access }
     #scripted_mutual = { first = RIC second = BYZ type = sound_toll_exemption }
     #scripted_mutual = { first = RIC second = BYZ type = fleet_basing_rights }
-    #scripted_mutual = { first = BYZ second = RIC type = military_sponsorship }
     scripted_mutual = { first = DLH second = RIC type = trade_access }
     scripted_mutual = { first = VIJ second = RIC type = trade_access }
     scripted_mutual = { first = ETH second = RIC type = trade_access }
