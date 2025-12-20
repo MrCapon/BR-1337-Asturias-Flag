@@ -53,7 +53,7 @@ roman_romaioi_identity = {
 	icon = administrative_leadership
 	potential = {
 		OR = {
-			has_or_had_tag = BYZ			
+			has_or_had_tag = BYZ
 			any_overlord_or_above = {
 				has_or_had_tag = BYZ
 			}
