@@ -18,12 +18,10 @@ br_vinland_naval_raiding = {
 
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	global_levy_size_modifier = 0.25
@@ -40,12 +38,10 @@ br_vinland_naval_tradition = {
 
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	trade_range_modifier = 0.25
@@ -71,12 +67,10 @@ vinlander_thing_of_vinland = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = legalism_advance
@@ -89,12 +83,10 @@ vinlander_woodland_warfare = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = unlock_feudal_levy_advance
@@ -108,12 +100,10 @@ vinlander_river_and_coast_raiding = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = merchants_and_trade
@@ -126,12 +116,10 @@ vinlander_trade_with_the_skraelings = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = maritime_advance_age_2
@@ -146,12 +134,10 @@ vinlander_longhouse_settlement = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = pike_square
@@ -163,12 +149,10 @@ vinlander_pathfinders = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = age_2_renaissance
@@ -183,12 +167,10 @@ vinlander_old_gods_endure = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = confessional_court
@@ -200,12 +182,10 @@ vinlander_warrior_cults = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = recruitment_improvements_reformation
@@ -219,12 +199,10 @@ vinlander_jarldoms_of_the_west = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = regiment_reinforcement_speed_absolutism
@@ -236,12 +214,10 @@ vinlander_frontier_mobilization = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = regiment_reinforcement_speed_absolutism
@@ -255,12 +231,10 @@ vinlander_new_world_identity = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = crown_power_advance_revolutions
@@ -272,12 +246,10 @@ vinlander_army_of_the_western_seas = {
 	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
-			culture = culture:vinlander
-			culture = culture:marklander
-			culture = culture:hellulander
-			culture = culture:kathurlander
-			culture = culture:innulander
-			culture = culture:skraeling_culture
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
 		}
 	}
 	requires = revolutions_agressive_advance
@@ -309,7 +281,7 @@ br_kykladian_naval_tradition = {
 	icon = diplomatic_range_age_1
 
 	potential = { 
-		culture = culture:kykladian_culture
+		has_or_had_tag = K1K
 	}
     allow_privateers_slave_raid = yes
 	can_hire_privateers = yes
@@ -332,7 +304,7 @@ elysian_civic_syncretism = {
 	icon = byz_ancient_greek_studies
 	potential = {
 		OR = {
-			has_or_had_tag = E1Y			
+			has_or_had_tag = E1Y
 			has_or_had_tag = E2Y
 			culture = { has_culture_group = culture_group:elysian_group }
 		}
