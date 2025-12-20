@@ -43,13 +43,13 @@ elysium.1 = {
 				change_location_rank = location_rank:city
 				add_location_modifier = {
 					modifier = birth_of_a_new_city_adm
-					years = 75
+					years = 25
 					mode = add_and_extend
 				}
  			}
 			add_country_modifier = {
 				modifier = br_elysium_formed
-				years = 75
+				years = 10
 				mode = add_and_extend
 			}
  		#}
