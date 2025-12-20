@@ -62,6 +62,8 @@ roman_romaioi_identity = {
 	}
 	requires = written_alphabet
 	global_pop_assimilation_speed_modifier = 0.25
+	cultural_influence_modifier = 0.1
+	cultural_tradition_modifier = 0.1
 }
 
 roman_codified_custom = {
@@ -137,6 +139,7 @@ roman_thematic_recruitment = {
 	#global_manpower_modifier = 0.1
 	global_levy_size_modifier = 0.05
 	levy_recovery_modifier = 0.1
+	global_defensive = 0.1
 }
 
 roman_infrastructure = {
@@ -190,6 +193,8 @@ roman_civic_order = {
 	}
 	requires = confessional_court
 	tolerance_own = 1
+	global_urban_build_buildings_cost = -0.05
+	global_pop_promotion_speed_modifier = 0.1
 }
 
 # AGE 5 – Absolutism
