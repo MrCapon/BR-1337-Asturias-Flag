@@ -51,6 +51,35 @@ PAF = { #BR addition
 	religion_definition = orthodox
 }
 
+K1B = { #BR addition
+	color = rgb { 125 38 160 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+S1Y = { #BR addition
+	color = rgb { 95 138 45 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+B0R = { #BR addition
+	color = rgb { 95 118 85 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+A1G = { #BR addition
+	color = rgb { 95 48 185 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+#Armenia
 DER = { #BR addition
 	color = rgb { 75 99 148 }
 

@@ -33,6 +33,14 @@
  K1K_ADJ: "Kykladian"
  RH0: "Hagiou Vládymirou" #Tágma tou Hagiou Vládymirou # Order of Saint Vladimir
  RH0_ADJ: "Vládymirou"
+ K1B: "Kibyrrhaiōtai"
+ K1B_ADJ: "Kibyrrhaiōtikós"
+ S1Y: "Strymōn"
+ S1Y_ADJ: "Strymōnikós"
+ B0R: "Beroia"
+ B0R_ADJ: "Beroiotikós"
+ A1G: "Aigaíon Pélagos"
+ A1G_ADJ: "Aigaïtikós"
 
  #India
  INK: "Indikē" # Greek-flavored endonym for India

@@ -250,7 +250,10 @@ diplomacy_manager = {
     dependency = { first = PAP second = GUB subject_type = vassal }
     scripted_mutual = { first = PAP second = BNV type = alliance }
     scripted_oneway = { first = PAP second = KNI type = military_sponsorship }
-    scripted_oneway = { first = PAP second = KNI type = military_sponsorship }
+    scripted_oneway = { first = TOU second = KNI type = military_sponsorship }
+    scripted_oneway = { first = PRO second = KNI type = military_sponsorship }
+    scripted_oneway = { first = AQN second = KNI type = military_sponsorship }
+    scripted_oneway = { first = ARA second = KNI type = military_sponsorship }
 	
 	dependency = { first = SAV second = CEV subject_type = vassal }
 	dependency = { first = SAV second = AOS subject_type = fiefdom }
@@ -318,17 +321,25 @@ diplomacy_manager = {
     dependency = { first = BYZ second = M0E subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = ACH subject_type = vassal } # Pronoïakon Ktéma
 
+    dependency = { first = BYZ second = A1G subject_type = vassal } # Pronoïakon Ktéma
+
     dependency = { first = BYZ second = AON subject_type = march } # Thema
     dependency = { first = BYZ second = ICO subject_type = march } # Thema
     dependency = { first = BYZ second = PAF subject_type = march } # Thema
     dependency = { first = BYZ second = KAP subject_type = march } # Thema
     dependency = { first = BYZ second = AOI subject_type = march } # Thema
     dependency = { first = BYZ second = CIL subject_type = march } # Kleisoura
-    #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
     dependency = { first = BYZ second = TRE subject_type = march } # Thema
 
     dependency = { first = BYZ second = EPI subject_type = tributary } # Autonomia
-    dependency = { first = BYZ second = DYR subject_type = tributary } # Autonomia
+
+    #Sub dependencies
+    dependency = { first = THE second = S1Y subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = THE second = B0R subject_type = vassal } # Pronoïakon Ktéma
+    dependency = { first = EPI second = DYR subject_type = vassal } # Autonomia
+
+    #Patiachate dependencies
+    #dependency = { first = BYZ second = OHS subject_type = march } # Kleisoura
 
     #dependency = { first = BYZ second = RIC subject_type = trade_company }
 

@@ -12437,10 +12437,8 @@ countries = {
 		
 		THE = {
 			own_control_core = {
-				sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama
-				ostrovo
-				grevena siatista
+				hatera veria edessa kassandreia polygyros thessaloniki
+				kilkis giannitsa gynaikokastro mount_athos 
 			}
 			our_cores_conquered_by_others = {
 			
@@ -12585,14 +12583,21 @@ countries = {
 		
 		BYZ = {
 			own_control_core = {
-				lemnos imbros molyvos mitilene gallipoli kesan
+				gallipoli kesan
 				edirne hayrabolu corlu
 				rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
 				malgara alasehir
 				uskudar silli biga eregli
 				chios vize
 				ormenio
-				traianopolis demotica xanthia komotini
+				traianopolis demotica
+				komotini
+
+				bodrum  gokabat marmaris megri yuksekkum
+				antalya elmali karahisar_i_teke kas istanoz
+				manavgat finike
+				rodos kos karpathos
+				alaiye selinti
 				
 				#TUR
 				kibrus
@@ -12620,10 +12625,10 @@ countries = {
 				#AYD
 				smyrna ayasuluk cesme menemen urla
 				tire balat birgi guzelhisar nazilli
-				
+
 				#MEN
 				milas
-				mugla bodrum cine gokabat marmaris megri yuksekkum
+				mugla cine
 				
 				#TVS
 				tavas
@@ -12638,12 +12643,7 @@ countries = {
 				isparta burdur dinar egirdir uluborlu
 				golhisar stefani
 				
-				#TEK
-				antalya elmali karahisar_i_teke kas istanoz
-				manavgat finike
-				
-				#KNI
-				rodos kos
+
 			}
 			own_control_integrated = {
 				bukelon ustra
@@ -12652,6 +12652,11 @@ countries = {
 			
 			}
 			our_cores_conquered_by_others = {
+				thasos sporades lemnos imbros molyvos mitilene
+				bodrum gokabat marmaris megri yuksekkum
+				antalya elmali karahisar_i_teke kas istanoz
+				manavgat finike
+				rodos kos karpathos
 				#ANA
 				aksaray kochisar insuyu
 				kirsehir nevsehir sariyahsi
@@ -12671,6 +12676,7 @@ countries = {
 				kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama
 				ostrovo
 				grevena siatista
+				xanthia
 				#THS
 				demetrias farsala elassona larissa stomio trikala tyrnavos karditsa
 				neopatras zetounion
@@ -31231,11 +31237,11 @@ countries = {
 				anavarza sis caxud
 				tarsus corycus candir_cil molevon
 				silifke anamur mut ermenek
-				alaiye selinti
 			}
 			
 			our_cores_conquered_by_others = {
 				hargan comana_cil
+				alaiye selinti
 			}
 			
 			starting_technology_level = 3
@@ -50794,7 +50800,7 @@ countries = {
 			include = "catholic_republic"
 			government = {
 				type = republic
-				heir_selection = oligarchic_elective
+				heir_selection = bank_selection
 				ruler = random
 
 				laws = {
@@ -50866,7 +50872,7 @@ countries = {
 			include = "catholic_republic"
 			government = {
 				type = republic
-				heir_selection = oligarchic_elective
+				heir_selection = bank_selection
 				ruler = random
 
 				laws = {
@@ -51699,6 +51705,184 @@ countries = {
 			capital = kastamonu
 		}
 		
+		K1B = {
+			own_control_core = {
+			}
+
+			our_cores_conquered_by_others = {
+				bodrum  gokabat marmaris megri yuksekkum
+				antalya elmali karahisar_i_teke kas istanoz
+				manavgat finike
+				rodos kos karpathos
+				alaiye selinti
+				golhisar mugla tavas milas cine
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					akritai_privilege
+					primacy_of_nobility
+					auxilium_et_consilium
+					joint_assembly_decrees
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_duchy
+			accepted_cultures = {
+				anatolian_greek_culture
+			}
+			tolerated_cultures = {
+				armenian_culture
+			}
+			
+			capital = antalya
+		}
+
+		S1Y = {
+			own_control_core = {
+				rentina kavala drama serres
+				xanthia
+			}
+
+			our_cores_conquered_by_others = {
+				komotini ustra
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				aromanian
+			}
+			tolerated_cultures = {
+				bulgarian
+			}
+			
+			capital = rentina
+		}
+
+		B0R = {
+			own_control_core = {
+				grevena siatista kastoria servia ostrovo
+			}
+
+			our_cores_conquered_by_others = {
+
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				aromanian
+			}
+			tolerated_cultures = {
+				arvanite
+			}
+			
+			capital = ostrovo
+		}
+
+		A1G = {
+			own_control_core = {
+				thasos sporades lemnos imbros molyvos mitilene
+			}
+
+			our_cores_conquered_by_others = {
+				samos ikaria foca
+				chios lemnos
+				corfu kythira andros mykonos amorgos karpathos
+				negroponte kleisoura karystos kymi oreos eretreia
+				naxos kythnos milos
+			}
+			
+			starting_technology_level = 3
+			include = "expl_eastern_europe"
+			include = "eastern_european_monarchy"
+			include = "expl_mediterranean"
+			include = "expl_silk_road_west"
+			include = "expl_silk_road_center"
+			include = "expl_silk_road_east"
+			include = "expl_indian_trade_route"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				privilege = {
+					#nobles
+					#burghers
+					#peasants
+					peasants_allowed_weapons_privilege
+				}
+			}
+			
+			country_rank = rank_county
+			accepted_cultures = {
+				aromanian
+			}
+			tolerated_cultures = {
+				arvanite
+			}
+			
+			capital = ostrovo
+		}
+
+		#Armenian Tags
 		DER = {
 			own_control_core = {
 				bingol 
@@ -52039,7 +52223,7 @@ countries = {
 			include = "expl_horn_of_africa_ethiopia"
 			government = {
 				type = republic
-				heir_selection = oligarchic_elective
+				heir_selection = bank_selection
 				ruler = random
 
 				laws = {

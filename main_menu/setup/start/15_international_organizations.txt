@@ -571,7 +571,7 @@ international_organization_manager = {
 			VOL HAL KIE POK TUV PNK SSK MSV NRK DRU
 			FEO	
 			#BR ADDED
-			ICO AON
+			ICO AON S1Y B0R A1G #K1B
 			M0E THS	KAP PAF	THE ATH ACH
 			BNK MKB CHY
 		}
