@@ -8,11 +8,13 @@
 #can_invite_settlers = yes
 
 # Rhos (Greco-Rus / Rōssía) Custom Advances
+## to-do balance diversify icons
 
 # age_1_traditions
 
 rhos_baptism_of_rhossia = {
 	age = age_1_traditions
+	icon = byz_reaffirm_synod_powers
 	
 	potential = { 
 		OR = {
@@ -27,6 +29,7 @@ rhos_baptism_of_rhossia = {
 
 rhos_druzhina_tagmata = {
 	age = age_1_traditions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -42,6 +45,7 @@ rhos_druzhina_tagmata = {
 
 rhos_riverine_commerce = {
 	age = age_2_renaissance
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -54,6 +58,7 @@ rhos_riverine_commerce = {
 
 rhos_court_of_many_tongues = {
 	age = age_2_renaissance
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -68,6 +73,7 @@ rhos_court_of_many_tongues = {
 
 rhos_ostrogs_and_kastra = {
 	age = age_3_discovery
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -81,6 +87,7 @@ rhos_ostrogs_and_kastra = {
 
 rhos_varangian_successors = {
 	age = age_3_discovery
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -97,6 +104,7 @@ rhos_varangian_successors = {
 
 rhos_synod_of_the_north = {
 	age = age_4_reformation
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -110,6 +118,7 @@ rhos_synod_of_the_north = {
 
 rhos_catechism_of_obedience = {
 	age = age_4_reformation
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -124,6 +133,7 @@ rhos_catechism_of_obedience = {
 
 rhos_autokratoria_tou_boreiou = {
 	age = age_5_absolutism
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -136,6 +146,7 @@ rhos_autokratoria_tou_boreiou = {
 
 rhos_stratiotai_reforms = {
 	age = age_5_absolutism
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -150,6 +161,7 @@ rhos_stratiotai_reforms = {
 
 rhos_imperial_synthesis = {
 	age = age_6_revolutions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 
@@ -162,6 +174,7 @@ rhos_imperial_synthesis = {
 
 rhos_army_of_the_two_traditions = {
 	age = age_6_revolutions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			has_or_had_tag = RH0 

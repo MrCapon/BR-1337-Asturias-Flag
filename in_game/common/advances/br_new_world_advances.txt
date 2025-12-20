@@ -9,6 +9,8 @@
 #global_fur_output_modifier = 0.1
 #global_wild_game_output_modifier = 0.1
 
+# to-do balance diversify icons
+
 #Vinland
 br_vinland_naval_raiding = {
 	age = age_1_traditions
@@ -66,6 +68,7 @@ br_vinland_naval_tradition = {
 
 vinlander_thing_of_vinland = {
 	age = age_1_traditions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -83,6 +86,7 @@ vinlander_thing_of_vinland = {
 
 vinlander_woodland_warfare = {
 	age = age_1_traditions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -101,6 +105,7 @@ vinlander_woodland_warfare = {
 
 vinlander_river_and_coast_raiding = {
 	age = age_2_renaissance
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -118,6 +123,7 @@ vinlander_river_and_coast_raiding = {
 
 vinlander_trade_with_the_skraelings = {
 	age = age_2_renaissance
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -137,6 +143,7 @@ vinlander_trade_with_the_skraelings = {
 
 vinlander_longhouse_settlement = {
 	age = age_3_discovery
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -153,6 +160,7 @@ vinlander_longhouse_settlement = {
 
 vinlander_pathfinders = {
 	age = age_3_discovery
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -172,6 +180,7 @@ vinlander_pathfinders = {
 
 vinlander_old_gods_endure = {
 	age = age_4_reformation
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -188,6 +197,7 @@ vinlander_old_gods_endure = {
 
 vinlander_warrior_cults = {
 	age = age_4_reformation
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -206,6 +216,7 @@ vinlander_warrior_cults = {
 
 vinlander_jarldoms_of_the_west = {
 	age = age_5_absolutism
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -222,6 +233,7 @@ vinlander_jarldoms_of_the_west = {
 
 vinlander_frontier_mobilization = {
 	age = age_5_absolutism
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -240,6 +252,7 @@ vinlander_frontier_mobilization = {
 
 vinlander_new_world_identity = {
 	age = age_6_revolutions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -256,6 +269,7 @@ vinlander_new_world_identity = {
 
 vinlander_army_of_the_western_seas = {
 	age = age_6_revolutions
+	icon = expand_varangian_guard_advance
 	potential = { 
 		OR = {
 			culture = culture:vinlander
@@ -315,6 +329,7 @@ br_kykladian_naval_tradition = {
 
 elysian_civic_syncretism = {
 	age = age_1_traditions
+	icon = byz_ancient_greek_studies
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -329,6 +344,7 @@ elysian_civic_syncretism = {
 
 elysian_colonial_charters = {
 	age = age_1_traditions
+	icon = byz_crossroads_of_continents
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -344,6 +360,7 @@ elysian_colonial_charters = {
 
 elysian_senatorial_tradition = {
 	age = age_2_renaissance
+	icon = fra_code_civil
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -357,6 +374,7 @@ elysian_senatorial_tradition = {
 
 elysian_emporia_of_the_west = {
 	age = age_2_renaissance
+	icon = byz_crossroads_of_continents
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -372,6 +390,7 @@ elysian_emporia_of_the_west = {
 
 elysian_urban_foundations = {
 	age = age_3_discovery
+	icon = byz_crossroads_of_continents
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -385,6 +404,7 @@ elysian_urban_foundations = {
 
 elysian_mixed_legions = {
 	age = age_3_discovery
+	icon = byz_shield_of_the_west
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -400,6 +420,7 @@ elysian_mixed_legions = {
 
 elysian_confessional_compromise = {
 	age = age_4_reformation
+	icon = church_councils
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -413,6 +434,7 @@ elysian_confessional_compromise = {
 
 elysian_civic_faith = {
 	age = age_4_reformation
+	icon = byz_reaffirm_synod_powers
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -428,6 +450,7 @@ elysian_civic_faith = {
 
 elysian_princeps_and_senate = {
 	age = age_5_absolutism
+	icon = byz_ancient_greek_studies
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -441,6 +464,7 @@ elysian_princeps_and_senate = {
 
 elysian_imperial_citizenship = {
 	age = age_5_absolutism
+	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -456,6 +480,7 @@ elysian_imperial_citizenship = {
 
 elysian_transoceanic_identity = {
 	age = age_6_revolutions
+	icon = chartered_merchant_companies
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			
@@ -469,6 +494,7 @@ elysian_transoceanic_identity = {
 
 elysian_army_of_the_new_roman_world = {
 	age = age_6_revolutions
+	icon = byz_the_new_imperial_army
 	potential = {
 		OR = {
 			has_or_had_tag = E1Y			

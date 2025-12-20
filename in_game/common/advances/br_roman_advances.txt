@@ -15,6 +15,33 @@
 #tolerance_own = 1
 #government_reform_slots = 1
 
+### cool icons ###
+#icon = ara_desperta_ferro
+#icon = administrative_leadership
+#icon = army_country_looting_advance
+#icon = bah_karimis
+#icon = borjigin_blood
+#icon = byz_akritai_advance
+#icon = byz_ancient_greek_studies
+#icon = byz_autokratoria_rhomaion
+#icon = byz_cataphracts_advance
+#icon = byz_crossroads_of_continents
+#icon = byz_modernized_strategikon
+#icon = byz_reaffirm_synod_powers
+#icon = byz_shield_of_the_west
+#icon = byz_the_new_imperial_army
+#icon = church_councils
+#icon = city_of_churches
+#icon = court_cost_advance_renai
+#icon = donation_of_constantine
+#icon = expand_varangian_guard_advance
+#icon = fra_code_civil
+
+#icon = call_of_our_forefathers
+#icon = expand_varangian_guard_advance
+
+
+
 # ==================================================
 # Greek Culture Group Advances
 # ==================================================
@@ -23,6 +50,7 @@
 
 roman_romaioi_identity = {
 	age = age_1_traditions
+	icon = administrative_leadership
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -38,6 +66,7 @@ roman_romaioi_identity = {
 
 roman_codified_custom = {
 	age = age_1_traditions
+	icon = byz_reaffirm_synod_powers
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -56,6 +85,7 @@ roman_codified_custom = {
 
 roman_scribal_administration = {
 	age = age_2_renaissance
+	icon = administrative_leadership
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -73,6 +103,7 @@ roman_scribal_administration = {
 
 roman_court_and_office = {
 	age = age_2_renaissance
+	icon = administrative_leadership
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -92,6 +123,7 @@ roman_court_and_office = {
 
 roman_thematic_recruitment = {
 	age = age_3_discovery
+	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -109,6 +141,7 @@ roman_thematic_recruitment = {
 
 roman_infrastructure = {
 	age = age_3_discovery
+	icon = byz_crossroads_of_continents
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -128,6 +161,7 @@ roman_infrastructure = {
 
 roman_imperial_legitimacy = {
 	age = age_4_reformation
+	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -144,6 +178,7 @@ roman_imperial_legitimacy = {
 
 roman_civic_order = {
 	age = age_4_reformation
+	icon = byz_modernized_strategikon
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -161,6 +196,7 @@ roman_civic_order = {
 
 roman_centralized_command = {
 	age = age_5_absolutism
+	icon = byz_the_new_imperial_army
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -177,6 +213,7 @@ roman_centralized_command = {
 
 roman_law_above_custom = {
 	age = age_5_absolutism
+	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
@@ -195,6 +232,7 @@ roman_law_above_custom = {
 
 roman_state_identity = {
 	age = age_6_revolutions
+	icon = byz_autokratoria_rhomaion
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ			
