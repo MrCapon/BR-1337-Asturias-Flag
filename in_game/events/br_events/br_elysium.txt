@@ -47,6 +47,11 @@ elysium.1 = {
 					mode = add_and_extend
 				}
  			}
+			add_country_modifier = {
+				modifier = br_elysium_formed
+				years = 75
+				mode = add_and_extend
+			}
  		#}
 		hidden_effect = {
 			scope:target_location = {

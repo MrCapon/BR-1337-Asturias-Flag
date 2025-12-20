@@ -10,3 +10,11 @@ br_levy_size_modifier = {
 	global_levy_recruitment_speed_modifier = 0.25
 	global_levy_size_modifier = 1
 }
+
+br_elysium_formed = {
+	game_data = {
+		category = country
+	}
+	global_pop_assimilation_speed_modifier = 1
+	global_crown_estate_power = 0.10
+}
