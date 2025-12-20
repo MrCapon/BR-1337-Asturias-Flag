@@ -1,23 +1,53 @@
 
 # update 0.7
 
-## Changes
-- Added meritocracy to Elysia. It would be better if the meritocracy appears after Elysium forms but not sure how to do that.
-- added br_special_trade_companies: "Chartered Trade Companies"
- br_special_trade_companies_desc: "By granting expansive privileges to powerful trade companies, the state entrusts overseas commerce and naval logistics to mercantile elites. In return, these companies sustain trade dominance, expand maritime reach, and shoulder much of the burden of naval upkeep."
-- Updated the new world colony reform to have colonial_maintenance_cost = -0.50 instead of -0.50 exploration cost. 
-- created 14 elysium dynasties though no unique characters yet but they will create 4 random ones per country at start.
-- updated trade and pirate buildings
-- Made more the most Important Roman Roads start as paved roads.
-- Added more gravel roads to Persia.
-- Founding Elysium now changes the location RGO to silk.
-- Startup effect to change some rgos
-- couple coal and tar buildings to Anatolia.
-- David started updating location names for Elysia
-- created New World town templates 
-- increased peasants_training_grounds manpower from 0.001 to 0.005 and added a few to areas that don't have the noble one where I want peasents to be more powerful for freedom!
-- Basileion Astronomikon
-- fruit orchards added to vinland for mead. Various buildings added to new world tags.
+# Update 0.7 eptá
+
+## Core Mechanics & Reforms
+- Added Meritocracy to Elysia. Ideally this should unlock after Elysium forms, but that trigger still needs to be figured out.
+- Set Elysium formation to upgrade the country to Kingdom rank.
+- Added a 100% assimilation modifier when Elysium is formed.
+- Changed the New World colony reform to use `colonial_maintenance_cost = -0.50` instead of exploration cost reduction.
+- Adjusted mod advances modifiers.
+- Switched Vinlandic advances from culture-based to tag-based.
+- Added icons to mod advances.
+
+## Trade, Economy & Buildings
+- Added `br_special_trade_companies`: “Chartered Trade Companies”
+  - Description: By granting expansive privileges to powerful trade companies, the state entrusts overseas commerce and naval logistics to mercantile elites. In return, these companies sustain trade dominance, expand maritime reach, and shoulder much of the burden of naval upkeep.
+- Updated trade and pirate buildings.
+- Founding Elysium now changes the local RGO to silk.
+- Added startup effects to change certain RGOs.
+- Added several coal and tar buildings to Anatolia.
+- Added fruit orchards to Vinland to support mead production.
+- Added various buildings to New World tags.
+- Added Basileion Astronomikon.
+
+## Infrastructure & Map Changes
+- Converted more major Roman Roads to start as paved roads.
+- Added more gravel roads across Persia.
+- Created new New World town templates.
+- Gave Helluland additional locations for cleaner borders.
+
+## Cultures, Languages & Dynasties
+- Created 14 Elysium dynasties. No unique characters yet; each country will generate 4 random dynasties at game start.
+- Temporarily changed the Elysian language to Elysian Latin due to location name loading issues.
+- Made all cultures in the Elysian Group view Elysian as Kindred.
+- Fixed Helluland having the wrong culture.
+- David began updating location names for Elysian (Latin and Greek).
+
+## Population & Balance
+- Increased `peasants_training_grounds` manpower from `0.001` to `0.005`.
+- Added peasants’ training grounds to areas without noble versions to emphasize stronger peasant power and freedom.
+- Rebalanced Vinland pops.
+
+## Countries & Diplomacy
+- Updated Anglo-Norse cultural opinion modifiers.
+- Made Helluland and Markland Dominions of Vinland.
+- Gave Vinland the Norwegian advances.
+- Gave Andalusia all unique Granada advances.
+- Edited the HRE Free Cities policy so the HSA no longer loses its subjects.
+
 
 # update éxi - 0.6
 

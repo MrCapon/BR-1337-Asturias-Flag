@@ -13,8 +13,11 @@
     - Foreign manpower building
     - Barracks
     - etc
+- Building based themata that work similar to the Shogunate.
 
 ## Patriachate tags
+- landless building based.
+- unique buildings etc needed.
 
 Add a couple pirate tags
 
@@ -25,5 +28,9 @@ Arthurian type tag
 New Angland 
 
 ## Balkans
-- Bulgaria stuff make them a bood rival to ERE
+- Bulgaria stuff make them a good rival to ERE
     - Reform the Bulgarian Empire
+
+- activate base game content for our tags where it makes sense
+
+# Pop based countries
