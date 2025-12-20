@@ -937,7 +937,7 @@ locations={
 	bergama = { rank = town		town_setup = greek_town_port }
 	birgi = { rank = town		town_setup = anatolian_town }
 	iznik = { rank = town		town_setup = greek_town_port }
-	alaiye = { rank = town		town_setup = anatolian_town }
+	alaiye = { rank = town		town_setup = greek_town_port }
 	mardin = { rank = town		town_setup = anatolian_town }
 	bafra = { rank = town		town_setup = anatolian_town }
 	kastamonu = { rank = town		town_setup = anatolian_town }
@@ -950,11 +950,11 @@ locations={
 	lazkiye = { rank = town		town_setup = anatolian_town }
 	ladik_pontus = { rank = town		town_setup = anatolian_town }
 	balikesir = { rank = town		town_setup = anatolian_town }
-	milas = { rank = town		town_setup = anatolian_town }
+	milas = { rank = town		town_setup = greek_town_port }
 	karahisar_i_sahib = { rank = town		town_setup = anatolian_town }
 	manisa = { rank = town		town_setup = anatolian_town }
 	niksar = { rank = town		town_setup = anatolian_town }
-	antalya = { rank = town		town_setup = anatolian_town }
+	antalya = { rank = town		town_setup = greek_town_port }
 	alasehir = { rank = town		town_setup = anatolian_town }
 
 	#Central Asia
@@ -5027,7 +5027,13 @@ building_manager = {
 	fishing_village = { tag = GTC level = 1 location = ikaria }
 	market_village = { tag = BYZ level = 1 location = chios }
 	fishing_village = { tag = BYZ level = 2 location = chios }
-	fishing_village = { tag = BYZ level = 1 location = lemnos }
+	fishing_village = { tag = A1G level = 1 location = lemnos }
+	fishing_village = { tag = A1G level = 1 location = sporades }
+	fishing_village = { tag = A1G level = 1 location = thasos }
+	fishing_village = { tag = A1G level = 1 location = imbros }
+	fishing_village = { tag = A1G level = 1 location = molyvos }
+	market_village = { tag = A1G level = 1 location = molyvos }
+	fishing_village = { tag = A1G level = 1 location = mitilene }
 	market_village = { tag = GTC level = 1 location = foca }
 	fishing_village = { tag = GTC level = 2 location = foca }
 	market_village = { tag = GTC level = 1 location = amasra }
