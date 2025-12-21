@@ -38,7 +38,7 @@ br_startup.1 = {
 			change_raw_material = goods:maize
 		}
 		location:nansemond = {
-			change_raw_material = goods:maize
+			change_raw_material = goods:beeswax
 		}
 		location:cocalico = {
 			change_raw_material = goods:tin #need for naval supplies
@@ -46,9 +46,91 @@ br_startup.1 = {
 		location:coosaw = {
 			change_raw_material = goods:tin
 		}
-		location:west_sabaneneque = {
+		location:bahama = {
 			change_raw_material = goods:sugar #need for liquor
 		}
+		location:patuxent = {
+			change_raw_material = goods:wheat
+		}
+		location:nentego = {
+			change_raw_material = goods:wheat
+		}
+		location:patawomeck = {
+			change_raw_material = goods:maize
+		}
+
+		location:unquachog = {
+            change_raw_material = goods:tin
+        }
+        location:otse = {
+            change_raw_material = goods:tin
+        }
+        location:conecuh = {
+            change_raw_material = goods:iron
+        }
+        location:timucua = {
+            change_raw_material = goods:alum
+        }
+        location:tampruns = {
+            change_raw_material = goods:tin
+        }
+        location:coropo = {
+            change_raw_material = goods:iron
+        }
+        location:tamaholipa = {
+            change_raw_material = goods:tin
+        }
+        location:samana = {
+            change_raw_material = goods:tin
+        }
+        location:wyomissing = {
+            change_raw_material = goods:livestock
+        }
+        location:quinnipiac = {
+            change_raw_material = goods:livestock
+        }
+        location:omusee = {
+            change_raw_material = goods:livestock
+        }
+        location:waccamaw = {
+            change_raw_material = goods:tin
+        }
+        location:xualae = {
+            change_raw_material = goods:marble
+        }
+        location:tullahoma = {
+            change_raw_material = goods:marble
+        }
+        location:tombigby = {
+            change_raw_material = goods:marble
+        }
+        location:ombu = {
+            change_raw_material = goods:tin
+        }
+        location:carapachay = {
+            change_raw_material = goods:iron
+        }
+        location:watappo = {
+            change_raw_material = goods:beeswax
+        }
+        location:tortuga = {
+            change_raw_material = goods:wine
+        }
+        location:bayono = {
+            change_raw_material = goods:tin
+        }
+        location:maybrat = {
+            change_raw_material = goods:tin
+        }
+        location:awngthim = {
+            change_raw_material = goods:tin
+        }
+        location:wardandi = {
+            change_raw_material = goods:tin
+        }
+        location:jarrakan = {
+            change_raw_material = goods:tin
+        }
 
 		# Vinland
 		location:misha_shipu = {
