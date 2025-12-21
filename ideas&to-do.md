@@ -33,4 +33,15 @@ New Angland
 
 - activate base game content for our tags where it makes sense
 
-# Pop based countries
+## Pop based countries
+
+## Estate privleges
+
+## Government Reforms
+
+## Balance and or Fix added content thats out of whack.
+- New advances need refinement replace any that seem redundent with something more unique. 
+- Balance 
+
+## fix errors
+- error spam related to government, may be caused by giving countries reforms that they are not supposed to have but not sure.
