@@ -40,7 +40,7 @@ br_ere_subjugation.2 = {
 
 	trigger = {
 		owns = location:suez
-		location:suez = { has_building = building_type:wharf }
+		#location:suez = { has_building = building_type:wharf }
 		at_war = no
 		is_during_bankruptcy = no
 		country_exists = c:RIC
