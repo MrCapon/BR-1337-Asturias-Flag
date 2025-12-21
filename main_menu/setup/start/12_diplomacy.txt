@@ -546,10 +546,14 @@ diplomacy_manager = {
     #-------------East Africa------------
     #Ethiopia
     dependency = { first = ETH second = IFA subject_type = tributary }
-    dependency = { first = ETH second = ENN subject_type = tributary }
+    dependency = { first = ETH second = ENN subject_type = vassal }
     dependency = { first = ETH second = HDY subject_type = vassal }
     dependency = { first = ETH second = BLE subject_type = vassal }
     dependency = { first = ETH second = DAW subject_type = vassal }
+    dependency = { first = ETH second = DBE subject_type = vassal }
+    dependency = { first = ETH second = DAM subject_type = vassal }
+
+    dependency = { first = ALO second = ABW subject_type = vassal }
 
     dependency = { first = IFA second = HRL subject_type = vassal }
     dependency = { first = IFA second = WAR subject_type = tributary }
