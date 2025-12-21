@@ -18,3 +18,23 @@ roman_group = {
 	}
 }
 
+egypt_group = {
+	country_modifier = {
+	}
+	character_modifier = {
+	}
+	location_modifier = {
+	}
+}
+
+syria_group = {
+	country_modifier = {
+	}
+	character_modifier = {
+	}
+	location_modifier = {
+	}
+}
+
+
+

@@ -91,8 +91,50 @@ REPLACE_OR_CREATE:coptic_culture = {
 		libyan_arabic_culture = positive
 	}
 	culture_groups = {
-		roman_group
+		egypt_group roman_group
 	}
+}
+
+REPLACE_OR_CREATE:lower_egyptian_culture = {
+	language = egyptian_dialect
+	
+	color = color_culture_egyptian
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	opinions = {
+		upper_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+		eastern_amazigh = positive
+		coptic_culture = positive
+		aegyptian_greek_culture = positive
+	}
+	
+	culture_groups = {
+		egypt_group arabic_group
+	}		
+}
+
+REPLACE_OR_CREATE:upper_egyptian_culture = { # Upper Egypt
+	language = egyptian_dialect 
+	
+	color = color_culture_saidi
+	
+	tags = { egyptian_gfx middle_east_gfx}
+
+	opinions = {
+		lower_egyptian_culture = kindred
+		bedouin_culture = kindred
+		libyan_arabic_culture = kindred
+		eastern_amazigh = positive
+		coptic_culture = positive
+		aegyptian_greek_culture = positive
+	}	
+	
+	culture_groups = {
+		egypt_group arabic_group
+	}	
 }
 
 REPLACE_OR_CREATE:syriac_culture = {
@@ -104,11 +146,45 @@ REPLACE_OR_CREATE:syriac_culture = {
 
 	opinions = {
 		greek_culture = positive
+		syrenikoi_greek_culture = kindred
+	}
+	
+	culture_groups = {
+		syria_group roman_group
+	}
+}
+
+REPLACE_OR_CREATE:alawite_culture = {
+	language = levantine_dialect
+	
+	color = color_culture_alawite
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	opinions = {
+		syrenikoi_greek_culture = positive
 		syriac_culture = positive
 	}
 	
 	culture_groups = {
-		arabic_group roman_group
+		syria_group arabic_group
+	}	
+}
+
+REPLACE_OR_CREATE:levantine_culture = {
+	language = levantine_dialect
+	
+	color = color_culture_levantine
+	
+	tags = { levantine_gfx middle_east_gfx }
+
+	opinions = {
+		syrenikoi_greek_culture = positive
+		syriac_culture = positive
+	}
+	
+	culture_groups = {
+		syria_group arabic_group
 	}
 }
 
@@ -226,7 +302,7 @@ REPLACE_OR_CREATE:dalmatian = {
 	}
 	
 	culture_groups = {
-		italian_group
+		italian_group roman_group
 	}
 }
 
