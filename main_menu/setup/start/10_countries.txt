@@ -12227,6 +12227,11 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					theme_system
+				}
 			}
 			
 			tolerated_cultures = {
@@ -12420,6 +12425,11 @@ countries = {
 					name_nicholas = 1
 					name_john = 1
 				}
+
+				reforms = {
+					autocracy
+					theme_system
+				}
 			}
 			
 			accepted_cultures = {
@@ -12469,6 +12479,11 @@ countries = {
 					name_demetrius = 2
 					name_emmanuel = 1
 					name_john = 1
+				}
+
+				reforms = {
+					autocracy
+					theme_system
 				}
 			}
 			
@@ -12532,6 +12547,11 @@ countries = {
 					name_stephen = 1
 					name_nikephoros = 1
 				}
+
+				reforms = {
+					autocracy
+					theme_system
+				}
 				
 			}
 			
@@ -12573,6 +12593,10 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+				reforms = {
+					autocracy
+					theme_system
+				}
 			}
 			
 			country_rank = rank_duchy
@@ -51084,6 +51108,11 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = random
+
+				reforms = {
+					autocracy
+					theme_system
+				}
 			}
 			
 			tolerated_cultures = {
@@ -51121,6 +51150,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					primacy_of_nobility
@@ -51452,6 +51485,7 @@ countries = {
 
 				reforms = {
 					autocracy
+					theme_system
 				}
 				privilege = {
 					#nobles
@@ -51511,6 +51545,7 @@ countries = {
 
 				reforms = {
 					autocracy
+					theme_system
 				}
 				privilege = {
 					#nobles
@@ -51574,6 +51609,7 @@ countries = {
 
 				reforms = {
 					autocracy
+					theme_system
 				}
 				privilege = {
 					#nobles
@@ -51633,6 +51669,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					akritai_privilege
@@ -51682,6 +51722,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					akritai_privilege
@@ -51731,6 +51775,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					akritai_privilege
@@ -51777,6 +51825,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					#burghers
@@ -51863,6 +51915,10 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = random
 				
+				reforms = {
+					autocracy
+					theme_system
+				}
 				privilege = {
 					#nobles
 					#burghers
@@ -52113,6 +52169,7 @@ countries = {
 
 				reforms = {
 					autocracy
+					theme_system
 				}
 
 			}
@@ -52158,6 +52215,7 @@ countries = {
 
 				reforms = {
 					autocracy
+					theme_system
 				}
 
 			}
