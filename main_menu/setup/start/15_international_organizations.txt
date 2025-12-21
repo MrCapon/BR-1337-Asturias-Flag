@@ -477,7 +477,7 @@ international_organization_manager = {
 
 			TUR ARD ATZ DML HBN HDR HLL HNY IHB KEL KKL KLR KRI KTW MKW RKL SLI SRV SYY ZBR
 			BHT BIT DIL DMB DSN EGL HKK HZN HZR JLM MZJ SOH ZRQ ZZR #Sutayids
-			AIA
+			AIA SYU KCN GAN
 
 			#Unaligned
 
@@ -493,7 +493,7 @@ international_organization_manager = {
 		}
 
 		ilkhan_claimant = {
-			TUR ERE KAR
+			TUR ERE KAR ATQ
 		}
 		ruler_term = {	 character = tur_orhan start_date = 1324.1.1 regnal_number = 1	}
 
