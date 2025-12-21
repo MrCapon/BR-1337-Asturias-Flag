@@ -875,6 +875,14 @@
 				research_advance = advance_type:deus_vult
             }
         }
+		#Trying to encourage new world tag to colonize
+		every_country = {
+			limit = { has_reform = government_reform:br_new_world_colonial_reform }
+
+            research_advance = advance_type:colonial_charters
+			research_advance = advance_type:colonial_policy_advance
+			research_advance = advance_type:send_people_to_the_colonies_advance
+        }
 		every_country = {
 			limit = {
 				capital ?= {
@@ -898,6 +906,8 @@
 			research_advance = advance_type:merchants_and_trade
 			research_advance = advance_type:trade_range_advance_age_2
 			research_advance = advance_type:rudimentary_coastal_ship_repair
+			research_advance = advance_type:send_people_to_colonial_charter_advance
+			research_advance = advance_type:chartered_companies
 		}
 		c:VTC = {
 			research_advance = advance_type:unlock_barque_advance
