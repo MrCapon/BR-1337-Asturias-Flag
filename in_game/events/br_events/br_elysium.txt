@@ -18,7 +18,7 @@ elysium.1 = {
 	}
 
 	immediate = {
-		location:doeg = {
+		location:anacostia = {
 			save_scope_as = target_location
 		}
 		capital = {
@@ -64,7 +64,7 @@ elysium.1 = {
 					change_pop_culture = root.culture
 				}
  			}
-			location:doeg = {
+			location:anacostia = {
 				change_raw_material = goods:silk
 			}
 		}

@@ -4193,7 +4193,9 @@ locations = {
 		define_pop = {	type = slaves	size = 1.000	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	anacostia = {
-		define_pop = {	type = tribesmen	size = 3.212	culture = elyrics_culture	religion = midewiwin_religion }
+		define_pop = {	type = peasants		size = 1.106	culture = aureliani religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 5.912	culture = elyrics_culture	religion = hellenism_religion }
+		define_pop = {	type = tribesmen	size = 1.212	culture = elyrics_culture	religion = midewiwin_religion }
 		define_pop = {	type = tribesmen	size = 3.815	culture = piscataway_culture	religion = midewiwin_religion }
 	}
 	monocacy = {
