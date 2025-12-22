@@ -7,81 +7,81 @@ work_of_art_manager = {
 	# MONUMENTS / ARCHITECTURE
 	# ------------------------------------------
 
-	monument = { location = constantinople origin = constantinople quality = 78 creation_date = 1100.1.1 key = church_of_chora } # artist: imperial architects
-	monument = { location = constantinople origin = constantinople quality = 72 creation_date = 462.1.1 key = monastery_of_stoudios } # artist: monastic architects
+	monument = { location = constantinople origin = constantinople quality = 75 creation_date = 1100.1.1 key = church_of_chora } # artist: imperial architects
+	monument = { location = constantinople origin = constantinople quality = 70 creation_date = 462.1.1 key = monastery_of_stoudios } # artist: monastic architects
 	monument = { location = constantinople origin = constantinople quality = 68 creation_date = 900.1.1 key = great_palace_triklinos } # artist: court architects
-	monument = { location = thessaloniki origin = thessaloniki quality = 76 creation_date = 315.1.1 key = rotunda_of_galerius } # artist: imperial architects
+	monument = { location = thessaloniki origin = thessaloniki quality = 75 creation_date = 315.1.1 key = rotunda_of_galerius } # artist: imperial architects
 	monument = { location = iznik origin = iznik quality = 63 creation_date = 1065.1.1 key = church_of_hagia_sophia_nicaea } # artist: ecclesiastical architects
-	monument = { location = mystras origin = mystras quality = 70 creation_date = 1263.1.1 key = mystras_palace_complex } # artist: despotate architects
+	monument = { location = mystras origin = mystras quality = 65 creation_date = 1263.1.1 key = mystras_palace_complex } # artist: despotate architects
 
 	# ------------------------------------------
 	# ICONS / MOSAICS / FRESCOES
 	# ------------------------------------------
 
-	icon = { location = mount_athos origin = constantinople quality = 76 creation_date = 1150.1.1 key = vladimir_icon_of_mary } # artist: court iconographers
-	icon = { location = constantinople origin = constantinople quality = 72 creation_date = 1300.1.1 key = theo_metochites_donor_mosaic } # artist: palace mosaicists
-	icon = { location = athens origin = athens quality = 70 creation_date = 1100.1.1 key = daphni_christ_pantokrator } # artist: monastic mosaicists
-	icon = { location = chios origin = constantinople quality = 71 creation_date = 1050.1.1 key = nea_moni_mosaic_cycle } # artist: imperial workshop
-	icon = { location = mount_athos origin = athens quality = 69 creation_date = 1310.1.1 key = dionysiou_fresco_cycle } # artist: Athonite painters
-	icon = { location = thessaloniki origin = thessaloniki quality = 67 creation_date = 1164.1.1 key = nerezi_fresco_cycle } # artist: Komnenian painters
+	icon = { location = mount_athos origin = constantinople quality = 74 creation_date = 1150.1.1 key = vladimir_icon_of_mary } # artist: court iconographers
+	icon = { location = constantinople origin = constantinople quality = 70 creation_date = 1300.1.1 key = theo_metochites_donor_mosaic } # artist: palace mosaicists
+	icon = { location = athens origin = athens quality = 65 creation_date = 1100.1.1 key = daphni_christ_pantokrator } # artist: monastic mosaicists
+	icon = { location = chios origin = constantinople quality = 68 creation_date = 1050.1.1 key = nea_moni_mosaic_cycle } # artist: imperial workshop
+	icon = { location = mount_athos origin = athens quality = 67 creation_date = 1310.1.1 key = dionysiou_fresco_cycle } # artist: Athonite painters
+	icon = { location = thessaloniki origin = thessaloniki quality = 65 creation_date = 1164.1.1 key = nerezi_fresco_cycle } # artist: Komnenian painters
 	# ------------------------------------------
 	# ILLUMINATED MANUSCRIPTS / SCRIPTURE
 	# ------------------------------------------
 
-	chronicle = { location = constantinople origin = constantinople quality = 72 creation_date = 950.1.1 key = paris_psalter } # artist: court scribes
-	chronicle = { location = constantinople origin = constantinople quality = 68 creation_date = 900.1.1 key = leo_bible } # artist: palace scribes
-	chronicle = { location = constantinople origin = constantinople quality = 66 creation_date = 1000.1.1 key = menologion_of_basil } # artist: imperial atelier
+	chronicle = { location = constantinople origin = constantinople quality = 69 creation_date = 950.1.1 key = paris_psalter } # artist: court scribes
+	chronicle = { location = constantinople origin = constantinople quality = 65 creation_date = 900.1.1 key = leo_bible } # artist: palace scribes
+	chronicle = { location = constantinople origin = constantinople quality = 63 creation_date = 1000.1.1 key = menologion_of_basil } # artist: imperial atelier
 
 	# ------------------------------------------
 	# HISTORICAL & PHILOSOPHICAL WORKS
 	# ------------------------------------------
 
-	chronicle = { location = constantinople origin = constantinople quality = 74 creation_date = 1148.1.1 key = alexiad } # artist: Anna Komnene
-	chronicle = { location = constantinople origin = constantinople quality = 70 creation_date = 1081.1.1 key = synopsis_historion } # artist: John Skylitzes
-	chronicle = { location = constantinople origin = constantinople quality = 67 creation_date = 950.1.1 key = theophanes_continuatus } # artist: court historians
-	treatise  = { location = constantinople origin = constantinople quality = 68 creation_date = 1078.1.1 key = chronographia } # artist: Michael Psellos
+	chronicle = { location = constantinople origin = constantinople quality = 72 creation_date = 1148.1.1 key = alexiad } # artist: Anna Komnene
+	chronicle = { location = constantinople origin = constantinople quality = 69 creation_date = 1081.1.1 key = synopsis_historion } # artist: John Skylitzes
+	chronicle = { location = constantinople origin = constantinople quality = 65 creation_date = 950.1.1 key = theophanes_continuatus } # artist: court historians
+	treatise  = { location = constantinople origin = constantinople quality = 66 creation_date = 1078.1.1 key = chronographia } # artist: Michael Psellos
 
 	# ------------------------------------------
 	# LAW, STATECRAFT & MILITARY SCIENCE
 	# ------------------------------------------
 
-	treatise = { location = constantinople origin = constantinople quality = 72 creation_date = 900.1.1 key = taktika_of_leo } # artist: Leo VI
-	treatise = { location = constantinople origin = constantinople quality = 71 creation_date = 600.1.1 key = strategikon } # artist: attributed to Maurice
-	treatise = { location = constantinople origin = constantinople quality = 68 creation_date = 1335.1.1 key = syntagma_canonum } # artist: Matthew Blastares
+	treatise = { location = constantinople origin = constantinople quality = 70 creation_date = 900.1.1 key = taktika_of_leo } # artist: Leo VI
+	treatise = { location = constantinople origin = constantinople quality = 69 creation_date = 600.1.1 key = strategikon } # artist: attributed to Maurice
+	treatise = { location = constantinople origin = constantinople quality = 66 creation_date = 1335.1.1 key = syntagma_canonum } # artist: Matthew Blastares
 
 	# ------------------------------------------
 	# HYMNS & RELIGIOUS MUSIC
 	# ------------------------------------------
 
-	hymnal = { location = constantinople origin = constantinople quality = 73 creation_date = 550.1.1 key = kontakia_of_romanos } # artist: Romanos the Melodist
-	hymnal = { location = constantinople origin = constantinople quality = 70 creation_date = 800.1.1 key = kontakion_hymn_tradition } # artist: cathedral choirs
+	hymnal = { location = constantinople origin = constantinople quality = 71 creation_date = 550.1.1 key = kontakia_of_romanos } # artist: Romanos the Melodist
+	hymnal = { location = constantinople origin = constantinople quality = 69 creation_date = 800.1.1 key = kontakion_hymn_tradition } # artist: cathedral choirs
 
 	# ------------------------------------------
 	# REGALIA & CEREMONIAL OBJECTS
 	# ------------------------------------------
 
-	regalia = { location = constantinople origin = constantinople quality = 72 creation_date = 900.1.1 key = imperial_consular_diptych } # artist: imperial metalsmiths
-	regalia = { location = constantinople origin = constantinople quality = 69 creation_date = 950.1.1 key = loros_imperial_regalia } # artist: court goldsmiths
-	regalia = { location = constantinople origin = constantinople quality = 67 creation_date = 900.1.1 key = relics_of_saint_basil } # artist: reliquary craftsmen
+	regalia = { location = constantinople origin = constantinople quality = 70 creation_date = 900.1.1 key = imperial_consular_diptych } # artist: imperial metalsmiths
+	regalia = { location = constantinople origin = constantinople quality = 68 creation_date = 950.1.1 key = loros_imperial_regalia } # artist: court goldsmiths
+	regalia = { location = constantinople origin = constantinople quality = 66 creation_date = 900.1.1 key = relics_of_saint_basil } # artist: reliquary craftsmen
 
 	# ------------------------------------------
 	# ANATOLIA – ADDITIONAL WORKS
 	# ------------------------------------------
 
 	# Monuments / Architecture
-	monument = { location = antalya origin = antalya quality = 63 creation_date = 520.1.1 key = church_of_saint_nicholas_myra } # artist: ecclesiastical architects
-	monument = { location = bergama origin = bergama quality = 64 creation_date = 500.1.1 key = red_basilica_pergamon } # artist: imperial architects
-	monument = { location = trebizond origin = trebizond quality = 67 creation_date = 386.1.1 key = sumela_monastery } # artist: monastic architects
+	monument = { location = antalya origin = antalya quality = 62 creation_date = 520.1.1 key = church_of_saint_nicholas_myra } # artist: ecclesiastical architects
+	monument = { location = bergama origin = bergama quality = 63 creation_date = 500.1.1 key = red_basilica_pergamon } # artist: imperial architects
+	monument = { location = trebizond origin = trebizond quality = 65 creation_date = 386.1.1 key = sumela_monastery } # artist: monastic architects
 
 	# Icons / Frescoes
 	icon = { location = nevsehir origin = nevsehir quality = 65 creation_date = 950.1.1 key = cappadocian_church_frescoes } # artist: provincial painters
 	icon = { location = trebizond origin = trebizond quality = 64 creation_date = 1238.1.1 key = trebizond_hagia_sophia_frescoes } # artist: Komnenian painters
 
 	# Manuscripts / Learning
-	chronicle = { location = kayseri origin = kayseri quality = 63 creation_date = 1000.1.1 key = cappadocian_monastic_scriptoria } # artist: monastic scribes
+	chronicle = { location = kayseri origin = kayseri quality = 62 creation_date = 1000.1.1 key = cappadocian_monastic_scriptoria } # artist: monastic scribes
 
 	# Military & Frontier Architecture
-	monument = { location = kayseri origin = kayseri quality = 62 creation_date = 900.1.1 key = eastern_theme_fortifications } # artist: military engineers
+	monument = { location = kayseri origin = kayseri quality = 59 creation_date = 900.1.1 key = eastern_theme_fortifications } # artist: military engineers
 
 
 }
