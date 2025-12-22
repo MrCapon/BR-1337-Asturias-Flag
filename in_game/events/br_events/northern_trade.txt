@@ -36,7 +36,7 @@ northern_trade.2={
     type=country_event
     title=northern_trade.2.title
     desc=northern_trade.2.desc
-    outcome=neutral
+    outcome=negative
 
     trigger={
 
@@ -51,19 +51,66 @@ northern_trade.2={
 
     dynamic_historical_event = { 	# Used to make the event fire for the right tags
         tag = NRV# tag that this event can fire for, can provide multiple
-        from = 1337.1.1	# the earliest date at which this event can fire
-        to = 1338.1.1 		# the latest date at which this event can fire
-        monthly_chance = 100	# monthly chance to fire the event (10 = 10%)
+        from = 1350.1.1	# the earliest date at which this event can fire
+        to = 1360.1.1 		# the latest date at which this event can fire
+        monthly_chance = 5	# monthly chance to fire the event (10 = 10%)
     }
 
     option = {
         name = northern_trade.2.a
-        hidden_effect = {
-             spawn_disease={
-                 disease=bubonic_plague
-                 value=belle_isle
-             }
-            add_gold=25
+            capital = {
+                spawn_disease = {
+                    disease = disease:bubonic_plague
+                    value = 1
+            }
+        }
+    }
+}
+
+northern_trade.3= {
+
+    type = country_event
+    title = northern_trade.3.title
+    desc = northern_trade.3.desc
+    outcome = positive
+
+    trigger = {
+
+    }
+
+    illustration_tags = {
+        10 = armed
+        10 = exterior
+    }
+
+    fire_only_once = yes
+
+    dynamic_historical_event = {
+        # Used to make the event fire for the right tags
+        tag = NRV# tag that this event can fire for, can provide multiple
+        from = 1370.1.1    # the earliest date at which this event can fire
+        to = 1380.1.1        # the latest date at which this event can fire
+        monthly_chance = 5    # monthly chance to fire the event (10 = 10%)
+    }
+
+    option = {
+        name = northern_trade.3.a
+            capital = {
+                change_institution_progress = {
+                    type = institution:professional_armies
+                    value = 100
+                }
+            }
+            create_character = {
+                age=34
+                add_trait=trait:glory_seeker
+                estate=estate_type:nobles_estate
+                adm=84
+                dip=37
+                mil=95
+                culture=culture:danish
+                religion=religion:catholic
+
         }
     }
 }

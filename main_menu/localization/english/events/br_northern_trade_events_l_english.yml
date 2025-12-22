@@ -4,5 +4,9 @@
  northern_trade.1.a: "You'd think they'd stop looking for us!"
 
  northern_trade.2.title: "The Derelict"
- northern_trade.2.desc: "A derelict ship"
- northern_trade.2.a: "You'd think they'd stop looking for us!"
+ northern_trade.2.desc: "A few fisherman spotted a derelict ship floating just off the coast of Belle Isle. After boarding the ship, they found all but one member of the crew had died. We took in the survivor, who perished while raving about the end of days and divine punishments."
+ northern_trade.2.a: "I'm sure that's nothing to worry about."
+
+ northern_trade.3.title: "The General"
+ northern_trade.3.desc: "For the first time in a century, an old-world vessel landed on our shores with crew still intact. A wealthy danish general looking for glory set sail across the ocean to search for new unspoiled lands. He found us instead. After a night of partying and drinking, we have decided to bring him into our court."
+ northern_trade.3.a: "His skills and knowledge will be put to use."
