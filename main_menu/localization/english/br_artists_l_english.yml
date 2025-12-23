@@ -12,7 +12,7 @@
  nea_moni_mosaic_cycle: "Mosaic Cycle of Nea Moni"
  dionysiou_fresco_cycle: "Fresco Cycle of Dionysiou"
  nerezi_fresco_cycle: "Fresco Cycle of Nerezi"
- paris_psalter: "Paris Psalter"
+ #paris_psalter: "Paris Psalter"
  leo_bible: "Bible of Leo"
  menologion_of_basil: "Menologion of Basil II"
  alexiad: "The Alexiad"
@@ -48,7 +48,7 @@
  nea_moni_mosaic_cycle_desc: "An extensive mosaic program distinguished by luminous color, refined figures, and theological coherence."
  dionysiou_fresco_cycle_desc: "A monumental series of frescoes reflecting mature monastic painting and disciplined narrative composition."
  nerezi_fresco_cycle_desc: "Expressive frescoes noted for their emotional intensity and elegant rendering of sacred figures."
- paris_psalter_desc: "An illuminated manuscript blending classical imagery with sacred text, exemplifying elite court production."
+ #paris_psalter_desc: "An illuminated manuscript blending classical imagery with sacred text, exemplifying elite court production."
  leo_bible_desc: "A lavishly produced scripture associated with imperial patronage and refined calligraphic tradition."
  menologion_of_basil_desc: "A richly illustrated liturgical calendar portraying saints and feasts in a unified visual program."
  alexiad_desc: "A historical narrative combining personal insight with political analysis, offering a detailed account of imperial affairs."
@@ -101,8 +101,8 @@
  ohrid_fresco_cycle: "Ohrid Fresco Cycle"
  ohrid_fresco_cycle_desc: "An influential series of frescoes combining expressive figures with formal Roman composition."
 
- mileseva_white_angel: "The White Angel of Mileševa"
- mileseva_white_angel_desc: "A celebrated angelic figure renowned for its serenity, balance, and spiritual presence."
+ #mileseva_white_angel: "The White Angel of Mileševa"
+ #mileseva_white_angel_desc: "A celebrated angelic figure renowned for its serenity, balance, and spiritual presence."
 
  hosios_loukas_monastery: "Hosios Loukas Monastery"
  hosios_loukas_monastery_desc: "A masterwork of middle-period Roman architecture, famed for its harmonious proportions and mosaics."
