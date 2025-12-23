@@ -52,6 +52,12 @@ elysium.1 = {
 				years = 10
 				mode = add_and_extend
 			}
+			capital = {
+                change_institution_progress = {
+                    type = institution:meritocracy
+                    value = 100
+                }
+            }
  		#}
 		hidden_effect = {
 			scope:target_location = {
