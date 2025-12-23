@@ -84,4 +84,65 @@ work_of_art_manager = {
 	monument = { location = kayseri origin = kayseri quality = 59 creation_date = 900.1.1 key = eastern_theme_fortifications } # artist: military engineers
 
 
+	# ------------------------------------------
+	# ITALY – Roman Continuity
+	# ------------------------------------------
+
+	monument = { location = ravenna origin = ravenna quality = 74 creation_date = 547.1.1 key = san_vitale_ravenna } # artist: imperial architects
+	monument = { location = ravenna origin = ravenna quality = 69 creation_date = 549.1.1 key = sant_apollinare_classe } # artist: ecclesiastical architects
+	monument = { location = palermo origin = palermo quality = 72 creation_date = 1140.1.1 key = cappella_palatina } # artist: royal architects
+	monument = { location = palermo origin = palermo  quality = 71 creation_date = 1174.1.1 key = monreale_mosaic_cycle } # artist: royal mosaicists
+
+	icon = { location = ravenna origin = ravenna quality = 71 creation_date = 547.1.1 key = ravenna_imperial_mosaics } # artist: court mosaicists
+	icon = { location = venice origin = constantinople quality = 70 creation_date = 1100.1.1 key = san_marco_mosaic_program } # artist: imperial workshop
+
+	# ------------------------------------------
+	# BALKANS – Southern & Central
+	# ------------------------------------------
+
+	monument = { location = trgoviste_SER origin = trgoviste_SER quality = 69 creation_date = 1196.1.1 key = studenica_monastery } # artist: monastic architects
+	monument = { location = pristina origin = pristina quality = 68 creation_date = 1321.1.1 key = gracanica_monastery } # artist: court architects
+	monument = { location = thessaloniki origin = thessaloniki quality = 74 creation_date = 1315.1.1 key = holy_apostles_thessaloniki } # artist: metropolitan architects
+
+	icon = { location = ohrid origin = ohrid quality = 69 creation_date = 1100.1.1 key = ohrid_fresco_cycle } # artist: regional painters
+	icon = { location = brskovo origin = brskovo quality = 67 creation_date = 1235.1.1 key = mileseva_white_angel } # artist: monastic painters
+
+	# ------------------------------------------
+	# ANATOLIA – Provincial Roman Centers
+	# ------------------------------------------
+
+	monument = { location = athens origin = athens quality = 68 creation_date = 1011.1.1 key = hosios_loukas_monastery } # artist: imperial architects
+	monument = { location = tarsus origin = tarsus quality = 67 creation_date = 470.1.1 key = alahan_monastery } # artist: early ecclesiastical architects
+
+	icon = { location = milas origin = milas quality = 68 creation_date = 1100.1.1 key = latmos_frescoes } # artist: monastic painters
+	icon = { location = antalya origin = antalya quality = 66 creation_date = 1000.1.1 key = lycia_church_mosaics } # artist: provincial workshops
+
+	# ------------------------------------------
+	# LEVANT – Sacred & Imperial Art
+	# ------------------------------------------
+
+	monument = { location = jerusalem origin = jerusalem quality = 74 creation_date = 565.1.1 key = nativity_church_mosaics } # artist: imperial restoration workshops
+	monument = { location = saint_katrine origin = saint_katrine quality = 72 creation_date = 565.1.1 key = saint_catherine_monastery } # artist: imperial architects
+
+	icon = { location = saint_katrine origin = saint_katrine quality = 72 creation_date = 550.1.1 key = sinai_christ_pantokrator } # artist: early iconographers
+	icon = { location = saint_katrine origin = saint_katrine quality = 70 creation_date = 700.1.1 key = sinai_icon_collection } # artist: monastic ateliers
+
+	# ------------------------------------------
+	# EGYPT – Roman Christian Art
+	# ------------------------------------------
+
+	monument = { location = asyut origin = asyut quality = 69 creation_date = 460.1.1 key = red_monastery_sohag } # artist: monastic architects
+	monument = { location = asyut origin = asyut quality = 68 creation_date = 440.1.1 key = white_monastery_sohag } # artist: monastic architects
+
+	icon = { location = alexandria origin = alexandria quality = 68 creation_date = 900.1.1 key = coptic_roman_icon_tradition } # artist: regional iconographers
+
+	# ------------------------------------------
+	# BLACK SEA & CAUCASUS (Roman Influence)
+	# ------------------------------------------
+
+	monument = { location = kutaisi origin = kutaisi quality = 68 creation_date = 1003.1.1 key = bagrati_cathedral } # artist: royal architects
+	monument = { location = kutaisi origin = kutaisi quality = 70 creation_date = 1106.1.1 key = gelati_monastery } # artist: scholarly architects
+
+
+
 }
