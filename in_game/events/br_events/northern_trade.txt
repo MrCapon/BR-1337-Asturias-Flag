@@ -42,10 +42,7 @@ northern_trade.2={
 
     }
 
-    illustration_tags = {
-        10 = armed
-        10 = exterior
-    }
+    image = "gfx/interface/illustrations/situation/black_death.dds"
 
     fire_only_once = yes
 
@@ -53,7 +50,7 @@ northern_trade.2={
         tag = NRV# tag that this event can fire for, can provide multiple
         from = 1350.1.1	# the earliest date at which this event can fire
         to = 1360.1.1 		# the latest date at which this event can fire
-        monthly_chance = 5	# monthly chance to fire the event (10 = 10%)
+        monthly_chance = 1	# monthly chance to fire the event (10 = 10%)
     }
 
     option = {
@@ -78,10 +75,7 @@ northern_trade.3= {
 
     }
 
-    illustration_tags = {
-        10 = armed
-        10 = exterior
-    }
+    image = "gfx/interface/illustrations/institutions/professional_armies.dds"
 
     fire_only_once = yes
 
@@ -90,7 +84,7 @@ northern_trade.3= {
         tag = NRV# tag that this event can fire for, can provide multiple
         from = 1370.1.1    # the earliest date at which this event can fire
         to = 1380.1.1        # the latest date at which this event can fire
-        monthly_chance = 5    # monthly chance to fire the event (10 = 10%)
+        monthly_chance = 1    # monthly chance to fire the event (10 = 10%)
     }
 
     option = {
