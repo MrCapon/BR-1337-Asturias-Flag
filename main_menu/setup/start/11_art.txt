@@ -81,7 +81,7 @@ work_of_art_manager = {
 	#Byzantium - BYZ
 	statue = { location = constantinople origin = chios  quality = 60 creation_date = 200.1.1  key = saint_mark_horses } #https://en.wikipedia.org/wiki/Horses_of_Saint_Mark #BR EDIT
 	monument = { location = constantinople origin = constantinople  quality = 57 creation_date = 548.1.1  key = hagia_irene } #https://en.wikipedia.org/wiki/Hagia_Irene
-	monument = { location = constantinople origin = constantinople  quality = 91 creation_date = 537.1.1  key = hagia_sophia } #https://en.wikipedia.org/wiki/Hagia_Sophia
+	monument = { location = constantinople origin = constantinople  quality = 95 creation_date = 537.1.1  key = hagia_sophia } #https://en.wikipedia.org/wiki/Hagia_Sophia
 	monument = { location = constantinople origin = constantinople  quality = 48 creation_date = 413.1.1  key = theodosian_walls } #https://en.wikipedia.org/wiki/Walls_of_Constantinople
 	chronicle = { location = constantinople origin = constantinople  quality = 44 creation_date = 950.1.1  key = paris_psalter } #https://en.wikipedia.org/wiki/Paris_Psalter
 	treatise = { artist = byz_matthew_blastares location = thessaloniki origin = thessaloniki  quality = 51 creation_date = 1335.1.1  key = syntagma_canonum } #https://en.wikipedia.org/wiki/Syntagma_Canonum
@@ -126,10 +126,10 @@ work_of_art_manager = {
 	#Upper Bavaria - UBV
 	monument = { location = munich origin = munich quality = 50 creation_date = 1200.1.1  key = marienkapelle }
 	#Imperial Regalia of the HRE will move with each emperor - starting in Upper Bavaria
-	regalia = { location = munich origin = cologne  quality = 99 creation_date = 960.1.1  key = imperial_crown_hre } #https://en.wikipedia.org/wiki/Imperial_Crown_of_the_Holy_Roman_Empire
-	regalia = { location = munich origin = rome  quality = 90 creation_date = 1191.1.1  key = imperial_orb_hre } #https://en.wikipedia.org/wiki/Imperial_Regalia
-	regalia = { location = munich origin = jerusalem  quality = 90 creation_date = 830.1.1  key = saint_stephans_purse } #https://en.wikipedia.org/wiki/St._Stephen%27s_Purse #this is technically in aachen, but it can not be in aachen and owned by the emperor
-	regalia = { location = munich origin = aachen  quality = 85 creation_date = 799.1.1  key = coronation_gospel_hre } #https://en.wikipedia.org/wiki/Vienna_Coronation_Gospels #this is technically in aachen, but it can not be in aachen and owned by the emperor
+	regalia = { location = metz origin = cologne  quality = 99 creation_date = 960.1.1  key = imperial_crown_hre } #https://en.wikipedia.org/wiki/Imperial_Crown_of_the_Holy_Roman_Empire
+	regalia = { location = metz origin = rome  quality = 90 creation_date = 1191.1.1  key = imperial_orb_hre } #https://en.wikipedia.org/wiki/Imperial_Regalia
+	regalia = { location = metz origin = jerusalem  quality = 90 creation_date = 830.1.1  key = saint_stephans_purse } #https://en.wikipedia.org/wiki/St._Stephen%27s_Purse #this is technically in aachen, but it can not be in aachen and owned by the emperor
+	regalia = { location = metz origin = aachen  quality = 85 creation_date = 799.1.1  key = coronation_gospel_hre } #https://en.wikipedia.org/wiki/Vienna_Coronation_Gospels #this is technically in aachen, but it can not be in aachen and owned by the emperor
 	#Karamanids - KAR
 	monument = { location = mosul origin = mosul quality = 67 creation_date = 1258.1.1  key = sahib_ata_kulliyesi } #https://en.wikipedia.org/wiki/Sahib_Ata_Complex #BR EDIT
 	#Eretnids - ERE
@@ -165,7 +165,7 @@ work_of_art_manager = {
 	monument = { location = samarra origin = samarra  quality = 72 creation_date = 851.1.1  key = great_mosque_of_samarra  }
 	monument = { location = amesbury origin = amesbury  quality = 10 creation_date = -2500.1.1  key = stonehenge }
 	monument = { location = rome origin = rome  quality = 72 creation_date = 80.1.1  key = colosseum_of_rome }
-	monument = { location = athens origin = athens  quality = 59 creation_date = -432.1.1  key = parthenon_of_athens }
+	monument = { location = athens origin = athens  quality = 65 creation_date = -432.1.1  key = parthenon_of_athens }
 	monument = { location = giza origin = giza quality = 87 creation_date = -2560.1.1 key = pyramid_art_key }
 	monument = { location = bhopal origin = bhopal  quality = 72 creation_date = -250.1.1  key = sanchi_stupa }
 	monument = { location = longyou_jiading origin = longyou_jiading  quality = 59 creation_date = 803.1.1  key = leshan_giant_buddha }
