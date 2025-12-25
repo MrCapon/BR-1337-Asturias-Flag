@@ -1,5 +1,48 @@
 ﻿#Nobles
 
+REPLACE:nobility_fortifications = {
+	is_foreign = no
+	max_levels = estate_building_max_level
+	pop_type = peasants
+	
+	category = estate_category
+	
+	employment_size = estate_peasants_employment
+	
+	rural_settlement = yes
+	
+	country_potential = {
+		has_estate_privilege = estate_privilege:noble_fortification_licenses 
+	}
+	
+	estate = nobles_estate
+	
+	build_time = estate_build_time
+
+
+	
+	
+	possible_production_methods = {
+		basic_castle_maintenance
+	}
+
+	construction_demand = estate_construct_building
+	
+
+	modifier = {
+		local_garrison_size = 0.025 #br added
+		local_nobles_desired_pop = 0.01
+		#local_defensive = 0.25 #br removed
+	}
+	#br added tiny fort
+	raw_modifier = {
+		fort_level = 1
+		propagating_zone_of_control = no
+	}
+	graphical_tags = { small_military }
+	
+}
+
 #Clergy
 
 #Burghers
