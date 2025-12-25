@@ -12,16 +12,31 @@ br_startup.1 = {
 	immediate = {
 		#Balkans
 		location:vostitsa = {
-			change_raw_material = goods:olives
+			change_raw_material = goods:millet
 		}
 		location:patras = {
-			change_raw_material = goods:olives
+			change_raw_material = goods:millet
 		}
 		location:astros = {
 			change_raw_material = goods:fruit
 		}
 		location:catalca = {
 			change_raw_material = goods:fruit
+		}
+		location:silivri = {
+			change_raw_material = goods:wheat
+		}
+		location:kiyikoy = {
+			change_raw_material = goods:wheat
+		}
+		location:uskudar = {
+			change_raw_material = goods:wheat
+		}
+		location:izmit = {
+			change_raw_material = goods:fruit
+		}
+		location:konrapa = {
+			change_raw_material = goods:lumber
 		}
 		location:burgas = {
 			change_raw_material = goods:millet
