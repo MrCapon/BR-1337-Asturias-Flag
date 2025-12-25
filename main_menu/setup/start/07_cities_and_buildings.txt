@@ -4214,6 +4214,12 @@ building_manager = {
 	sand_pit = { tag = BYZ level = 1 location = izmit }
 	sand_pit = { tag = BYZ level = 1 location = uskudar }
 	sand_pit = { tag = BYZ level = 2 location = constantinople }
+	sand_pit = { tag = BYZ level = 1 location = bursa }
+	sand_pit = { tag = A1G level = 1 location = molyvos }
+	sand_pit = { tag = AON level = 1 location = ankara }
+	sand_pit = { tag = THS level = 1 location = larissa }
+	sand_pit = { tag = CIL level = 1 location = adana }
+	sand_pit = { tag = AOI level = 1 location = antioch }
 	lumber_mill = { tag = FEO level = 1 location = theodoro }
 	stone_quarry = { tag = FEO level = 1 location = theodoro }
 	lumber_mill = { tag = FEO level = 1 location = lusta }
@@ -4225,6 +4231,8 @@ building_manager = {
 	horse_breeders = { tag = THS level = 1 location = larissa }
 
 	farming_village = { tag = BYZ level = 1 location = silivri }
+	farming_village = { tag = BYZ level = 1 location = catalca }
+	farming_village = { tag = BYZ level = 1 location = vize }
 	farming_village = { tag = CIL level = 1 location = iskenderun }
 	farming_village = { tag = CIL level = 1 location = sis }
 	farming_village = { tag = BYZ level = 1 location = gonen }
@@ -5471,13 +5479,13 @@ building_manager = {
 	######Trade Buildings######
 
 	#Major and Important Trade locations
-	marketplace	= { tag = MAM level = 8 location = cairo }
+	marketplace	= { tag = MAM level = 10 location = cairo }
 	entrepot = { tag = MAM level = 1 location =  cairo }
-	marketplace	= { tag = MAM level = 6 location = alexandria }
+	marketplace	= { tag = MAM level = 10 location = alexandria }
 	entrepot = { tag = MAM level = 1 location =  alexandria }
-	marketplace	= { tag = MAM level = 6 location = damascus }
+	marketplace	= { tag = MAM level = 8 location = damascus }
 	entrepot = { tag = MAM level = 1 location =  damascus }
-	marketplace	= { tag = TUN level = 6 location = tunis }
+	marketplace	= { tag = TUN level = 8 location = tunis }
 	entrepot = { tag = TUN level = 1 location =  tunis }
 	marketplace	= { tag = TUN level = 5 location = palermo }
 	marketplace	= { tag = TRE level = 3 location = kaffa }
@@ -5487,12 +5495,14 @@ building_manager = {
 	marketplace	= { tag = TRE level = 4 location = trebizond }
 	marketplace	= { tag = PAF level = 2 location = sinop }
 	marketplace	= { tag = CRT level = 3 location = candia }
-	marketplace	= { tag = DYR level = 3 location = durres }
+	marketplace	= { tag = DYR level = 4 location = durres }
 	marketplace	= { tag = RAG level = 6 location = dubrovnik }
 	marketplace	= { tag = EPI level = 2 location = ioannina }
 	marketplace	= { tag = VEN level = 15 location = venice }
+	trading_hub = { tag = VEN level = 1 location =  venice }
 	entrepot = { tag = VEN level = 1 location =  venice }
 	entrepot = { tag = GEN level = 1 location =  genoa }
+	trading_hub = { tag = GEN level = 1 location =  genoa }
 	marketplace	= { tag = TUR level = 6 location = tabriz }
 	marketplace	= { tag = MZF level = 6 location = isfahan }
 	marketplace	= { tag = FRA level = 5 location =  metz }
@@ -5501,6 +5511,9 @@ building_manager = {
 	marketplace	= { tag = ADU level = 5 location =  murcia }
 	marketplace	= { tag = ADU level = 5 location =  valencia }
 	marketplace	= { tag = ADU level = 5 location =  toledo }
+	marketplace	= { tag = AOI level = 6 location = antioch }
+	entrepot = { tag = AOI level = 1 location =  antioch }
+	marketplace	= { tag = ARM level = 4 location = ani }
 
 	#Italian Republics
 	
