@@ -2079,10 +2079,10 @@ road_network = {
 
 
 	#Elysium
-	doeg = anacostia
+	potapoco = anacostia
 	anacostia = nentego
 	nentego = patapsco
-	doeg = patawomeck
+	potapoco = patawomeck
 	patawomeck = rappahannock
 	rappahannock = kiskiack
 	kiskiack = weyanock
