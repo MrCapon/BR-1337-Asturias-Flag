@@ -4170,7 +4170,7 @@ building_manager = {
 	wharf = { tag = BYZ level = 1 location =  constantinople }
 	grand_shipyard = { tag = BYZ level = 1 location = constantinople }
 	protected_harbor = { tag = BYZ level = 1 location =  constantinople }
-	coastal_fort = { tag = BYZ level = 1 location =  constantinople }
+	#coastal_fort  = { tag = BYZ level = 1 location =  constantinople }
 	construction_center = { tag = BYZ level = 1 location =  constantinople }
 	dock = { tag = THE level = 1 location = thessaloniki }
 	wharf = { tag = THE level = 1 location = thessaloniki }
@@ -4505,40 +4505,40 @@ building_manager = {
 	lazaretto = { tag = BYZ level = 1 location = smyrna }
 	lazaretto = { tag = BYZ level = 1 location = izmit }
 	lazaretto = { tag = BYZ level = 1 location = bursa }
-	coastal_fort = { tag = VEN level = 1 location = venice }
+	#coastal_fort  = { tag = VEN level = 1 location = venice }
 	lazaretto = { tag = VEN level = 1 location = venice }
 	protected_harbor = { tag = VEN level = 1 location = venice }
 	port_authority = { tag = VEN level = 1 location = venice }
-	coastal_fort = { tag = GEN level = 1 location = genoa }
+	#coastal_fort  = { tag = GEN level = 1 location = genoa }
 	lazaretto = { tag = GEN level = 1 location = genoa }
 	protected_harbor = { tag = GEN level = 1 location = genoa }
 	port_authority = { tag = GEN level = 1 location = genoa }
-	coastal_fort = { tag = TUN level = 1 location = tunis }
+	#coastal_fort  = { tag = TUN level = 1 location = tunis }
 	lazaretto = { tag = TUN level = 1 location = tunis }
 	protected_harbor = { tag = TUN level = 1 location = tunis }
-	coastal_fort = { tag = MAM level = 1 location = alexandria }
+	#coastal_fort  = { tag = MAM level = 1 location = alexandria }
 	lazaretto = { tag = MAM level = 1 location = alexandria }
 	protected_harbor = { tag = MAM level = 1 location = alexandria }
 	dry_dock = { tag = MAM level = 1 location = alexandria }
 	wharf = { tag = MAM level = 1 location = suez }
 	protected_harbor = { tag = ADU level = 1 location = sevilla }
-	coastal_fort = { tag = ADU level = 1 location = sevilla }
+	#coastal_fort  = { tag = ADU level = 1 location = sevilla }
 	wharf = { tag = ADU level = 1 location = sevilla }
 	dry_dock = { tag = ADU level = 1 location = sevilla }
 	lazaretto = { tag = ADU level = 1 location = sevilla }
 	lazaretto = { tag = PIS level = 1 location = pisa }
-	coastal_fort = { tag = PIS level = 1 location = pisa }
+	#coastal_fort  = { tag = PIS level = 1 location = pisa }
 	lazaretto = { tag = PAF level = 1 location = sinop }
 	lazaretto = { tag = FEO level = 1 location = theodoro }
-	coastal_fort = { tag = FEO level = 1 location = theodoro }
+	#coastal_fort  = { tag = FEO level = 1 location = theodoro }
 	lazaretto = { tag = AOI level = 1 location = antioch }
 	lazaretto = { tag = TRP level = 1 location = tripoli }
-	coastal_fort = { tag = VEN level = 1 location = split }
+	#coastal_fort  = { tag = VEN level = 1 location = split }
 	lazaretto = { tag = RAG level = 1 location = dubrovnik }
-	coastal_fort = { tag = RAG level = 1 location = dubrovnik }
-	coastal_fort = { tag = DYR level = 1 location = durres }
+	#coastal_fort  = { tag = RAG level = 1 location = dubrovnik }
+	#coastal_fort  = { tag = DYR level = 1 location = durres }
 	lazaretto = { tag = DYR level = 1 location = durres }
-	coastal_fort = { tag = BYZ level = 1 location = rodos }
+	#coastal_fort  = { tag = BYZ level = 1 location = rodos }
 
 	#Added Pirates
 	#Black Sea
@@ -4566,12 +4566,12 @@ building_manager = {
 	madrasa = { tag = TUR level = 1 location = diyarbekir }
 	madrasa = { tag = TUR level = 1 location = mosul }
 	madrasa = { tag = TUR level = 1 location = tabriz }
-	seljuk_mint = { tag = TUR level = 1 location = mosul }
+	seljuk_mint = { tag = TUR level = 2 location = mosul }
+	counting_house = { tag = TUR level = 1 location = mosul }
 	weapon_guild = { tag = TUR level = 2 location = mosul }
-	seljuk_mint = { tag = TUR level = 1 location = tabriz }
+	seljuk_mint = { tag = TUR level = 2 location = tabriz }
 	weapon_guild = { tag = TUR level = 4 location = tabriz }
-	seljuk_mint = { tag = AIA level = 1 location = baghdad }
-	seljuk_mint = { tag = TUR level = 1 location = tabriz }
+	seljuk_mint = { tag = AIA level = 2 location = baghdad }
 	marketplace	= { tag = AIA level = 15 location = baghdad }
 	trading_hub = { tag = AIA level = 1 location = baghdad }
 	entrepot = { tag = AIA level = 1 location = baghdad }
@@ -4592,6 +4592,8 @@ building_manager = {
 	hospital = { tag = AIA level = 1 location = baghdad }
 	library = { tag = AIA level = 1 location = baghdad }
 	medical_school = { tag = AIA level = 1 location = baghdad }
+	counting_house = { tag = AIA level = 1 location = baghdad }
+	great_madrasa = { tag = AIA level = 1 location = baghdad }
 
 	tar_kiln = { tag = TRE level = 2 location = trebizond }
 	charcoal_maker = { tag = TRE level = 1 location = gorele }
@@ -4628,10 +4630,10 @@ building_manager = {
 	sergeantry = { tag = ADU level = 1 location =  cordoba }
 	great_madrasa = { tag = ADU level = 1 location = cordoba }
 	great_madrasa = { tag = MAM level = 1 location = cairo }
+	counting_house = { tag = MAM level = 1 location = cairo }
 	slave_center = { tag = MAM level = 1 location = dongola }
 	slave_center = { tag = MAM level = 1 location = soba }
 	slave_center = { tag = MAM level = 1 location = kosa }
-	great_madrasa = { tag = AIA level = 1 location = baghdad }
 	madrasa = { tag = ADU level = 1 location = granada }
 	madrasa = { tag = ADU level = 1 location = sevilla }
 	fortress_granary = { tag = ADU level = 1 location = sevilla }
@@ -5763,18 +5765,18 @@ building_manager = {
 	wharf = { tag = INK level = 1 location = goa }
 	dock = { tag = INK level = 1 location = goa }
 	lazaretto = { tag = INK level = 1 location = goa }
-	coastal_fort = { tag = INK level = 1 location = goa }
+	#coastal_fort  = { tag = INK level = 1 location = goa }
 	trading_hub = { tag = INK level = 1 location =  goa }
 	entrepot = { tag = INK level = 1 location =  goa }
 	market_warehouse = { tag = INK level = 4 location =  goa }
 	trade_company_headquarters = { tag = RIC level = 1 location = goa }
-	trade_company_harbor = { tag = RIC level = 1 location = goa }
-	trade_company_governance = { tag = RIC level = 1 location = goa }
-	trade_company_garrison = { tag = RIC level = 1 location = goa }
+	trade_company_harbor = { tag = RIC level = 2 location = goa }
+	trade_company_governance = { tag = RIC level = 2 location = goa }
+	trade_company_garrison = { tag = RIC level = 2 location = goa }
 	trade_office = { tag = RIC level = 12 location = goa }
 	trade_company_harbor = { tag = RIC level = 2 location = bombay }
 	trade_office = { tag = RIC level = 8 location = bombay }
-	trade_company_governance = { tag = RIC level = 1 location = bombay }
+	trade_company_governance = { tag = RIC level = 2 location = bombay }
 	trade_company_garrison = { tag = RIC level = 1 location = bombay }
 	trade_company_harbor = { tag = RIC level = 1 location = kozhikode }
 	trade_office = { tag = RIC level = 4 location = kozhikode }
