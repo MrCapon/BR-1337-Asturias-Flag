@@ -1,0 +1,57 @@
+### edited unites
+
+### New Units age 1
+
+#Heavy Infantry
+br_tagmata_skoutatoi = {
+	category = army_infantry
+	copy_from = a_age_1_traditions_infantry
+
+	build_time_modifier = 0.50
+	morale_damage_taken = -0.15
+	strength_damage_taken = -0.015
+	max_strength = 0.1
+	combat_power = 1
+	buildable = yes
+	
+	age = "age_1_traditions"
+
+	maintenance_demand =  early_heavy_infantry_maintenance
+	construction_demand = early_heavy_infantry_construction
+
+	location_potential = {
+		unit_akritai_location_trigger = yes
+	}
+	gfx_tags = { heavy_tag }	
+}
+
+#Ranged Infantry
+
+br_tagmata_toxotai = {
+	category = army_infantry
+	copy_from = a_age_1_traditions_infantry
+	light = yes
+
+	initiative = 5
+	strength_damage= -0.20
+	strength_damage_taken = 0.10
+	morale_damage_taken = 0.175
+	
+	buildable = yes
+	location_potential = {
+		unit_akritai_location_trigger = yes
+	}
+
+	maintenance_demand =  archer_infantry_maintenance
+	construction_demand = archer_infantry_construction
+
+	#root = location. Checks location_potential first so don't need that scripting in
+	mercenaries_per_location = {
+		pop_type = peasants
+		multiply = 0.01
+	}
+
+	
+	age = "age_1_traditions"
+	gfx_tags = { longbow_tag archer_tag light_tag }
+}
