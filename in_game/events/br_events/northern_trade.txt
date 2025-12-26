@@ -61,7 +61,7 @@ northern_trade.2={
                     value = 1
             }
         }
-        c:E1y= {
+        c:E1Y= {
             trigger_event_silently = northern_trade.2
         }
         c:E2Y= {
@@ -75,7 +75,7 @@ northern_trade.2a= {
     type = country_event
     title = northern_trade.2a.title
     desc = northern_trade.2a.desc
-    outcome = neutral
+    outcome = negative
 
 
     illustration_tags = {
@@ -85,12 +85,6 @@ northern_trade.2a= {
 
     fire_only_once = yes
 
-    dynamic_historical_event = {
-        # Used to make the event fire for the right tags
-        tag = E1Y
-        tag = E2Y# tag that this event can fire for, can provide multiple
-
-    }
 
     option = {
         name = northern_trade.2.a
