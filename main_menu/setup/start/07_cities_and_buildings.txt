@@ -5342,6 +5342,12 @@ building_manager = {
 	castle = { tag = VEN level = 1 location = dubrovnik }
 	castle = { tag = AOI level = 1 location = antioch }
 
+	#Varangian Recruitment
+	varangian_recruitment_building = { tag = BYZ level = 1 location = stockholm }
+	varangian_recruitment_building = { tag = BYZ level = 1 location = moscow }
+	varangian_recruitment_building = { tag = BYZ level = 1 location = london }
+	varangian_recruitment_building = { tag = BYZ level = 1 location = vienna }
+
 	#Iberian Holy Orders
 	order_stronghold = { tag = CAS level = 1	location = segovia } # BR added
 	order_stronghold = { tag = CAS level = 1	location = salamanca } # BR added

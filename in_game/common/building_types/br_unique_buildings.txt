@@ -77,3 +77,63 @@
 	}
 	graphical_tags = { small_military }
 }
+
+br_varangian_recruitment_building = {
+	is_foreign = yes
+	stronger_power_projection = no
+	need_good_relation = yes
+	pop_type = soldiers
+	
+	category = military_category
+	
+	max_levels = 1
+	employment_size = order_religious_building_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	allow_wrong_startup = yes
+	
+	
+	location_potential = {
+		OR = {
+			region = region:scandinavian_region
+			region = region:north_german_region
+			region = region:south_german_region
+			region = region:great_britain_region
+			region = region:baltic_region
+			region = region:carpathia_region
+			region = region:ruthenia_region
+			region = region:russian_region
+		}
+	}
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	
+	build_time = soldier_building
+	
+	allow = {
+		OR = {
+			region = region:scandinavian_region
+			region = region:north_german_region
+			region = region:south_german_region
+			region = region:great_britain_region
+			region = region:baltic_region
+			region = region:carpathia_region
+			region = region:ruthenia_region
+			region = region:russian_region
+		}
+	}
+
+	modifier = {
+		manpower_to_building_owner = 0.01
+		num_of_varangian_units = 1
+	}
+	construction_demand = order_commandery_construction
+	possible_production_methods = {
+		order_commandery_maintenance
+	}
+	graphical_tags = { small_military }
+}

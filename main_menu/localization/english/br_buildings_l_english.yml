@@ -4,6 +4,9 @@
  orthodox_order_commandery_desc: "An $orthodox_order_commandery$ is a building owned by the military orders outside their own territory that serves two purposes: getting revenues from the exploitation of the surrounding lands and drafting new members for the order."
  orthodox_order_commandery_tt: "Owner gives [ShowRelationTypeName('military_sponsorship')] to us"
 
+ br_varangian_recruitment_building: "Varangian Commandery"
+ br_varangian_recruitment_building_desc: "Imperial offices and compounds maintained by Roman envoys for the enlistment of hardy foreign warriors from the northern lands. From these offices, seasoned Varangians are inducted into imperial service, pledging their strength, loyalty, and martial skill in return for pay, privilege, and honor under the Emperor’s banner."
+
 
  #Rural 
  fishing_village_pearl_maintenance: "Pearl Farming"
