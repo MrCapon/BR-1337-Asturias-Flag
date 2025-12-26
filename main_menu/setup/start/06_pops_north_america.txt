@@ -2825,58 +2825,62 @@ locations = {
 	kaiman = {
 	}
 	abacoa = {
-		define_pop = {	type = peasants		size = 6.106	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = burghers		size = 1.250	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 5.106	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 2.175	culture = kykladian_culture religion = orthodox }
 		define_pop = {	type = slaves		size = 2.270	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = tribesmen	size = 3.945	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 3.945	culture = lucayo	religion = zemi_religion }
 	}
 	exuma = {
 		define_pop = {	type = tribesmen	size = 0.236	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	guanima = {
 		define_pop = {	type = tribesmen	size = 0.278	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	eleuthera = {
 		define_pop = {	type = tribesmen	size = 0.136	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	utiaquia = {
 	}
 	guanahani = {
 		define_pop = {	type = peasants		size = 2.106	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.475	culture = kykladian_culture religion = orthodox }
 		define_pop = {	type = slaves		size = 1.270	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = tribesmen	size = 0.870	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.870	culture = lucayo	religion = zemi_religion }
 	}
 	inagua = {
 		define_pop = {	type = tribesmen	size = 0.073	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	samana_cay = {
 	}
 	jumento = {
 		define_pop = {	type = tribesmen	size = 0.093	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	caycos = {
 		define_pop = {	type = tribesmen	size = 0.736	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	lucayoneque = {
 		define_pop = {	type = tribesmen	size = 0.104	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = slaves		size = 0.150	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = peasants		size = 0.075	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 0.150	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.175	culture = kykladian_culture religion = hellenism_religion }
 	}
 	bahama = {
 		define_pop = {	type = peasants		size = 2.406	culture = kykladian_culture religion = hellenism_religion }
+		define_pop = {	type = peasants		size = 1.475	culture = kykladian_culture religion = orthodox }
 		define_pop = {	type = slaves		size = 1.270	culture = lucayo	religion = zemi_religion }
-		define_pop = {	type = tribesmen	size = 0.696	culture = lucayo	religion = zemi_religion }
+		define_pop = {	type = peasants		size = 0.696	culture = lucayo	religion = zemi_religion }
 	}
 	bavaro = {
 		define_pop = {	type = tribesmen	size = 0.931	culture = ciguayo_culture	religion = zemi_religion }

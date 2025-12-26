@@ -33,11 +33,13 @@ kykladia_town = {
 	distillers_guild = 1
 	weapon_guild = 1
 	cloth_guild = 1
+	tools_guild = 1
 	mason = 1
 	pottery_guild = 1
 	granary = 1
 	naval_supplies_guild = 1
 	wharf = 1
 	marketplace = 1
+	nobility_fortifications = 1 #BR added estate building
 	peasants_training_grounds = 1 #BR added estate building
 }

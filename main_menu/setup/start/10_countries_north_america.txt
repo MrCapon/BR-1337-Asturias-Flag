@@ -802,13 +802,28 @@ countries = {
 			capital = abacoa
 			include = "elysian_foothold"
 			country_rank = rank_county
+			#type = navy
 			government = {
 				type = republic
 				heir_selection = heir_selection:pirate_elective
 				ruler = random
 
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -25
+				aristocracy_vs_plutocracy = 100
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 50
+				belligerent_vs_conciliatory = -75
+				quality_vs_quantity = 100
+				offensive_vs_defensive = -100
+				land_vs_naval = 100
+				capital_economy_vs_traditional_economy = -50
+				individualism_vs_communalism = 100
+				outward_vs_inward = -50
+
 				reforms = {
-					harbor_administration
+					#harbor_administration
 					pirate_brethren_reform
 				}
 				
@@ -818,7 +833,16 @@ countries = {
 				}
 				laws = {
 					piracy_law = state_piracy_policy
+					cabinet_laws = council_of_captains
+					legal_code_law = articles_of_agreement
+					maritime_law = smugglers_haven
+					army_doctrine_law = authority_of_the_captain
+					battle_leadership_law = loyal_pirate_crews
+					naval_doctrine_law = ship_boarding
+					add_recruitment_law = benefits_for_privateers
+					bureaucracy_law = port_logs
 				}
+
 			}
 			
 			tolerated_cultures = {
