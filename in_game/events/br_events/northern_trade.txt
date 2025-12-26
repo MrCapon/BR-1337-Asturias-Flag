@@ -61,19 +61,22 @@ northern_trade.2={
                     value = 1
             }
         }
+        c:E1y= {
+            trigger_event_silently = northern_trade.2
+        }
+        c:E2Y= {
+            trigger_event_silently = northern_trade.2
+        }
     }
 }
 
 northern_trade.2a= {
-
+    orphan=yes
     type = country_event
     title = northern_trade.2a.title
     desc = northern_trade.2a.desc
     outcome = neutral
 
-    trigger = {
-
-    }
 
     illustration_tags = {
         10 = armed
@@ -86,13 +89,9 @@ northern_trade.2a= {
         # Used to make the event fire for the right tags
         tag = E1Y
         tag = E2Y# tag that this event can fire for, can provide multiple
-        monthly_chance = 100    # monthly chance to fire the event (10 = 10%)
 
     }
 
-    triger = {
-        has_fired_unique_event = northern_trade.2a
-    }
     option = {
         name = northern_trade.2.a
         capital = {
