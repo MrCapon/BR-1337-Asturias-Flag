@@ -54,9 +54,6 @@ roman_romaioi_identity = {
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ
-			any_overlord_or_above = {
-				has_or_had_tag = BYZ
-			}
 			culture = { has_culture_group = culture_group:greek_group }
 		}
 	}
