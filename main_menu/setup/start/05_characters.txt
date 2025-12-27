@@ -8818,7 +8818,7 @@ character_db={
 		birth = paris
 		father = fra_philippe_iii_capet
 		mother = fra_elisabet_arago
-		dynasty = valois_dynasty #Founder of the house
+		dynasty = carolingian_dynasty #Founder of the house
 		tag = VLS
 		ruler_trait = bold_fighter
 		ruler_trait = babbling_buffoon
@@ -8837,7 +8837,7 @@ character_db={
 		birth = paris
 		father = fra_charles_valois
 		mother = fra_margaret_anjou
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = FRA
 	}
 
@@ -8852,7 +8852,7 @@ character_db={
 		birth = le_mans
 		father = fra_charles_valois #fra_philip_vi_valois #BR edit
 		mother = fra_jeanne_burgundy
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = NRM
 	}
 
@@ -8867,7 +8867,7 @@ character_db={
 		birth = paris
 		father = fra_philip_vi_valois
 		mother = fra_jeanne_burgundy
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = FRA
 	}
 
@@ -8884,7 +8884,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_margaret_anjou
 		spouse = hai_guillaume_de_hainault
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = HAI
 		ruler_trait = fierce_negotiator
 	}
@@ -8901,7 +8901,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_margaret_anjou
 		spouse = bls_guy_i_chatillon
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = BLS
 	}
 
@@ -8919,7 +8919,7 @@ character_db={
 		birth = paris
 		father = fra_charles_valois
 		mother = fra_margaret_anjou
-		dynasty = valois_dynasty # Should be dynasty = valois_alencon_dynasty # Founder of the Alençon line of the House of Valois
+		dynasty = carolingian_dynasty # Should be dynasty = valois_alencon_dynasty # Founder of the Alençon line of the House of Valois
 		tag = ALE
 	}
 
@@ -8934,7 +8934,7 @@ character_db={
 		birth = paris
 		father = ale_charles_ii_valois
 		mother = ale_maria_burgundy_castile
-		dynasty = valois_dynasty # Should be dynasty = valois_alencon_dynasty
+		dynasty = carolingian_dynasty # Should be dynasty = valois_alencon_dynasty
 		tag = ALE
 		child_trait = child_intelligent
 	}
@@ -8949,7 +8949,7 @@ character_db={
 		female = yes
 		birth_date = 1303.4.1
 		birth = siena
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		father = fra_charles_valois
 		mother = fra_catherine_i_courtenay
 		#spouse = alb_filippo_i_taranto
@@ -8969,7 +8969,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_catherine_i_courtenay
 		spouse = eng_robert_iii_artois
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = FRA # Prisoner of his brother the King in 1337
 	}
 
@@ -8985,7 +8985,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_mahaut_chatillon
 		spouse = nap_carlo_anjou
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = NAP
 	}
 	
@@ -9001,7 +9001,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_mahaut_chatillon
 		spouse = bou_pierre_i_bourbon
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = BOU
 	}
 	
@@ -9018,7 +9018,7 @@ character_db={
 		father = fra_charles_valois
 		mother = fra_mahaut_chatillon
 		spouse = boh_charles_iv_luxembourg
-		dynasty = valois_dynasty
+		dynasty = carolingian_dynasty
 		tag = MVA
 	}
 
