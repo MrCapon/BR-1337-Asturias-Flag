@@ -1,7 +1,9 @@
 
 
+# Update 0.8 októ
 
-# Update 0.8
+## Art Expansion
+- 51 additional works of art added to the Roman World From my Treasures of the Roman World Mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3628883955
 
 ## New Countries & Subjects
 - Added four new ERE minor states.
@@ -9,11 +11,15 @@
   - Kibyrrhaiōtai added as a new releasable nation.
 
 ## Events & Mechanics
-- Added a dynamic event to subjugate the Hetaireía Indikēs when the Suez Wharf is acquired.
-  - TODO: Test and restrict the event to only fire when RIC is AI-controlled.
-
-- Removed Meritocracy from Elysium at game start.
+- Added a dynamic event to subjugate the Hetaireía Indikēs when the Suez is acquired.
+  - TODO: Test and restrict the event to only fire when Hetaireía Indikēs is AI-controlled.
+- Removed Meritocracy from Elysians at game start.
   - Meritocracy is now granted upon forming the Elysium tag.
+- Added start Up events to Kykladia, Hagiou Vládymirou, Hagion Taphon and Hetaireía Indikēs. These are not major tags and these events are primarily to spawn additional units/resources via hidden effects to boost these nations.
+### New World Events
+- Added Events for Black Death and Standing Armies to spread to Vinland.
+- Added a follow-up event intended to spread the Bubonic Plague from Vinland to Elysium.
+
 
 ## Culture Groups
 - Added new culture groups:
@@ -24,21 +30,20 @@ syria_group: "Syrian"
 syria_group_desc: "Cultures linked through a shared regional heritage formed at the crossroads of Anatolia, Mesopotamia, and the eastern Mediterranean. Influenced by indigenous Levantine traditions, Roman-era institutions, and Arab cultural continuity, these societies reflect enduring urban life, commercial exchange, and religious plurality."
 
 ## Theme System
-- Expanded the theme system to include additional Roman and Hellenic checks:
+- Expanded the theme system to be available to all Roman and Hellenic Cultures:
 
 ## Map Changes
-- Moved Elysium from the west bank of the Doeg River to the east bank at Anacostia.
+- Moved the city of Elysium from the west bank of the Doeg River to the east bank at Anacostia.
 - Adjusted the New World starting road network to account for Elysium’s new location.
-
-## New World Events
-- Added Black Death and Standing Armies events to Vinland.
-- Added a follow-up event intended to spread the Bubonic Plague from Vinland to Elysium.
 
 ## Units
 - Added unique Age I Roman units:
   - Skoutatoi (Heavy Infantry)
   - Toxotai (Ranged Infantry)
 - Edited Akritai and Katáphraktoi to be available to all countries with a Roman or Hellenic culture.
+- Varangian units size increased and allowed 4 units by default without buildings or techs that add additional capacity.
+
+*Some Units are redundant when You have the PM mod active. Will edit the compatch to prioritize their units to avoid duplicates when both active.
 
 ## Buildings
 - Added the Varangian Commandery.
@@ -50,7 +55,7 @@ syria_group_desc: "Cultures linked through a shared regional heritage formed at 
 - Adjusted Ethiopian vassal setup.
 - Minor population adjustments in Egypt.
 - Continued rebalancing of New World RGOs.
-- Moved the Rise of the Turks situation out of Anatolia; it now applies to the Persia and Crescent regions.
+- Moved the Rise of the Turks situation out of Anatolia; it now should only apply to the Persia and Crescent regions.
 - Reworked Noble Fortifications:
   - Now provide a small fort with a garrison of 25.
   - Removed the previous 25% modifier bonus.
@@ -66,8 +71,8 @@ syria_group_desc: "Cultures linked through a shared regional heritage formed at 
 
 ## Building Distribution
 - Added additional fishing villages to Aigaíon Pélagos-controlled land to support sailor pops.
-- Added more markets in Egypt and the Levant.
-- Added additional sand-region buildings across ERE territory.
+- Added more market buildings to Egypt and the Levant.
+- Added additional sand production buildings across ERE territory.
 - Temporarily removed coastal forts.
 - Added several other minor buildings.
 
@@ -80,6 +85,7 @@ syria_group_desc: "Cultures linked through a shared regional heritage formed at 
 - Seljuk Mint can no longer be built in Anatolia; valid locations are now limited to Tabriz and Mosul.
 - Fixed Hellenism conversion logic.
 - Resolved several encoding-related errors.
+- Dozens of other small bugs fixed.
 
 
 # Update 0.7 eptá
