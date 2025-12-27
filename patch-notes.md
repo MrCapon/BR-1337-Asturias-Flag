@@ -1,5 +1,86 @@
 
-# update 0.7
+
+
+# Update 0.8
+
+## New Countries & Subjects
+- Added four new ERE minor states.
+  - Strymōn, Beroia, and Aigaíon Pélagos created as country-tier subjects.
+  - Kibyrrhaiōtai added as a new releasable nation.
+
+## Events & Mechanics
+- Added a dynamic event to subjugate the Hetaireía Indikēs when the Suez Wharf is acquired.
+  - TODO: Test and restrict the event to only fire when RIC is AI-controlled.
+
+- Removed Meritocracy from Elysium at game start.
+  - Meritocracy is now granted upon forming the Elysium tag.
+
+## Culture Groups
+- Added new culture groups:
+egypt_group: "Egyptian"  
+egypt_group_desc: "Cultures linked through a shared regional heritage shaped by the Nile, the eastern Mediterranean, and millennia of continuous settlement. Drawing from native Egyptian traditions, Greco-Roman administration, and later Arab influences, these societies developed layered identities rooted in long-standing institutions, trade networks, and religious diversity."
+
+syria_group: "Syrian"  
+syria_group_desc: "Cultures linked through a shared regional heritage formed at the crossroads of Anatolia, Mesopotamia, and the eastern Mediterranean. Influenced by indigenous Levantine traditions, Roman-era institutions, and Arab cultural continuity, these societies reflect enduring urban life, commercial exchange, and religious plurality."
+
+## Theme System
+- Expanded the theme system to include additional Roman and Hellenic checks:
+
+## Map Changes
+- Moved Elysium from the west bank of the Doeg River to the east bank at Anacostia.
+- Adjusted the New World starting road network to account for Elysium’s new location.
+
+## New World Events
+- Added Black Death and Standing Armies events to Vinland.
+- Added a follow-up event intended to spread the Bubonic Plague from Vinland to Elysium.
+
+## Units
+- Added unique Age I Roman units:
+  - Skoutatoi (Heavy Infantry)
+  - Toxotai (Ranged Infantry)
+- Edited Akritai and Katáphraktoi to be available to all countries with a Roman or Hellenic culture.
+
+## Buildings
+- Added the Varangian Commandery.
+  "Imperial offices and compounds maintained by Roman envoys for the enlistment of hardy foreign warriors from the northern lands. From these offices, seasoned Varangians are inducted into imperial service, pledging their strength, loyalty, and martial skill in return for pay, privilege, and honor under the Emperor’s banner."
+
+## Balance Changes
+- Granted Knights additional military sponsorships.
+- Removed Morocco’s starting war.
+- Adjusted Ethiopian vassal setup.
+- Minor population adjustments in Egypt.
+- Continued rebalancing of New World RGOs.
+- Moved the Rise of the Turks situation out of Anatolia; it now applies to the Persia and Crescent regions.
+- Reworked Noble Fortifications:
+  - Now provide a small fort with a garrison of 25.
+  - Removed the previous 25% modifier bonus.
+- Added a 10-year truce between Norway and Sweden to reduce early-game annexation.
+- Further standardized Akritai and Katáphraktoi availability across Hellenic cultures.
+
+## Assimilation Overhaul
+- May be split into a separate mod depending on feedback.
+- Reduced base assimilation and conversion rates by 50%.
+- Rural settlements receive an additional 50% assimilation penalty.
+- Reduced strength of the Assimilate Area cabinet action by roughly half.
+- Reduced strength of the Promote Culture cabinet action by roughly half.
+
+## Building Distribution
+- Added additional fishing villages to Aigaíon Pélagos-controlled land to support sailor pops.
+- Added more markets in Egypt and the Levant.
+- Added additional sand-region buildings across ERE territory.
+- Temporarily removed coastal forts.
+- Added several other minor buildings.
+
+## Localization
+- Renamed Mizrahi to Musta'arabi.
+- Renamed Cataphracts to Katáphraktoi.
+- Various minor localization and flavor improvements.
+
+## Bug Fixes
+- Seljuk Mint can no longer be built in Anatolia; valid locations are now limited to Tabriz and Mosul.
+- Fixed Hellenism conversion logic.
+- Resolved several encoding-related errors.
+
 
 # Update 0.7 eptá
 
