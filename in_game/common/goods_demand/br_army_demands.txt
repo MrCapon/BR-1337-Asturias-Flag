@@ -1,0 +1,34 @@
+﻿#Land Units
+
+#br_tagmata_akritai_construction = {
+#	weaponry = 0.1
+#	leather = 0.05
+#	category = regiment_construction
+#}
+#br_tagmata_skoutatoi_construction = {
+#	weaponry = 0.22
+#	leather = 0.06
+#	tools = 0.1
+#	category = regiment_construction
+#}
+
+#Maintenance:
+
+
+#br_tagmata_akritai_maintenance = {
+#	weaponry = 0.05
+#	leather = 0.03
+#	category = regiment_maintenance
+#}
+
+#br_tagmata_skoutatoi_maintenance = {
+#	weaponry = 0.07
+#	leather = 0.04
+#	category = regiment_maintenance
+#}
+
+#br_tagmata_varangian_maintenance = {
+#	weaponry = 0.09
+#	leather = 0.05
+#	category = regiment_maintenance
+#}

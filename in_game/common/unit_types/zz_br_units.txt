@@ -1,4 +1,84 @@
-### edited unites
+﻿### edited unites
+
+REPLACE_OR_CREATE:a_byzantine_cataphracts = {
+	category = army_cavalry
+	copy_from = a_age_1_traditions_cavalry
+
+	build_time_modifier = 0.50
+	
+	construction_demand = expensive_heavy_cavalry_construction
+	maintenance_demand =  expensive_heavy_cavalry_maintenance
+	
+	buildable = yes
+
+	#movement_speed = -0.5
+	strength_damage_taken = -0.25
+	morale_damage_done = 0.35
+	initiative = 4
+	max_strength = 0.1 #increased from 0.05
+	combat = { 
+		grasslands = 0.2
+		wetlands = -0.10
+	}
+
+	location_potential = {
+		unit_byzantine_cataphracts_location_trigger = yes
+	}
+
+	gfx_tags = { 
+		cataphract_tag 
+		heavy_tag 
+	}
+}
+
+REPLACE_OR_CREATE:a_akritai = {
+	category = army_infantry
+	copy_from = a_age_1_traditions_infantry
+
+	build_time_modifier = 0.25 #br edited from 0.5
+
+	#maintenance_demand =  br_tagmata_akritai_maintenance
+	#construction_demand = br_tagmata_akritai_construction
+
+	morale_damage_taken = -0.1
+	max_strength = 0.2
+	buildable = yes
+
+	location_potential = {
+		unit_akritai_location_trigger = yes
+	}
+	
+	gfx_tags = { medium_tag }	
+}
+
+REPLACE_OR_CREATE:a_varangians = {
+	category = army_infantry
+
+	copy_from = a_age_1_traditions_infantry
+
+	#maintenance_demand =  br_tagmata_varangian_maintenance
+	#construction_demand = br_tagmata_skoutatoi_construction
+	
+	max_strength = 0.2 #increased from 0.1
+	strength_damage_done = 0.2
+	morale_damage_done = 0.35 #br increased from 0.2
+
+	location_potential = {
+		is_capital = yes
+	}
+
+	country_potential = {
+		has_or_had_tag = BYZ
+	}
+	
+	buildable = yes
+	limit = {
+		value = 4 #increased from 1
+		add = modifier:num_of_varangian_units
+	}
+
+	gfx_tags = { axe_tag heavy_tag }
+}
 
 ### New Units age 1
 
@@ -10,7 +90,7 @@ br_tagmata_skoutatoi = {
 	build_time_modifier = 0.50
 	morale_damage_taken = -0.15
 	strength_damage_taken = -0.015
-	max_strength = 0.1
+	max_strength = 0.2
 	combat_power = 1
 	buildable = yes
 	
@@ -18,6 +98,8 @@ br_tagmata_skoutatoi = {
 
 	maintenance_demand =  early_heavy_infantry_maintenance
 	construction_demand = early_heavy_infantry_construction
+	#maintenance_demand =  br_tagmata_skoutatoi_maintenance
+	#construction_demand = br_tagmata_skoutatoi_construction
 
 	location_potential = {
 		unit_akritai_location_trigger = yes
@@ -36,6 +118,7 @@ br_tagmata_toxotai = {
 	strength_damage= -0.20
 	strength_damage_taken = 0.10
 	morale_damage_taken = 0.175
+	max_strength = 0.2
 	
 	buildable = yes
 	location_potential = {
