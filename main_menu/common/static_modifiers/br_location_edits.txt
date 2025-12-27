@@ -2,7 +2,7 @@
 # Hardcoded
 ###################################
 #multiplied with 1-control
-inverse_control = {
+REPLACE_OR_CREATE:inverse_control = {
 	game_data = {
 		category = location
 	}

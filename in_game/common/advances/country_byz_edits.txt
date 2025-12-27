@@ -1,5 +1,4 @@
-﻿
-REPLACE_OR_CREATE:byz_cataphracts_advance = {
+﻿REPLACE_OR_CREATE:byz_cataphracts_advance = {
 	potential = {
 		OR = {
 			has_or_had_tag = BYZ
@@ -21,30 +20,4 @@ REPLACE_OR_CREATE:byz_akritai_advance = {
 	age = age_1_traditions
 	requires = unlock_feudal_levy_advance
 	unlock_unit = a_akritai
-}
-
-REPLACE_OR_CREATE:a_varangians = {
-	category = army_infantry
-
-	copy_from = a_age_1_traditions_infantry
-	
-	max_strength = 0.1	
-	strength_damage_done = 0.2
-	morale_damage_done = 0.2
-
-	location_potential = {
-		is_capital = yes
-	}
-
-	country_potential = {
-		has_or_had_tag = BYZ
-	}
-	
-	buildable = yes
-	limit = {
-		value = 4
-		add = modifier:num_of_varangian_units
-	}
-
-	gfx_tags = { axe_tag heavy_tag }
 }

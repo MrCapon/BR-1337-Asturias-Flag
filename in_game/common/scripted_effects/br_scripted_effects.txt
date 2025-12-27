@@ -1,6 +1,6 @@
 ﻿
 
-hre_setup_hre_variables = {
+REPLACE_OR_CREATE:hre_setup_hre_variables = {
 	hidden_effect = {
 		international_organization:hre = {
 			set_variable = { name = hre_imperial_religion value = religion:catholic }
