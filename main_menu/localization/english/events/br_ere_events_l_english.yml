@@ -17,4 +17,9 @@
  br_ere_succession_crisis.1.desc: "The death of the Emperor has cast a long shadow over the Empire. With no undisputed heir to command universal loyalty, the great houses whisper, governors hesitate, and oaths once sworn grow uncertain. From the capital to the provinces, power is weighed anew, and those who sense weakness move quickly to secure their own advantage. The unity of the Roman world now hangs upon the resolution of the succession."
  br_ere_succession_crisis.1.a: "The bonds of loyalty are tested"
 
+ br_country_startup.2.title: "Raising the Host"
+ br_country_startup.2.desc: "With sovereignty secured, the foundations of military power must be laid at once. Infantry are mustered from loyal households, cavalry assembled from trusted retainers, and auxiliary forces organized to support the core host. Though modest in size, this army represents the first assertion of authority and the promise of defense in the years ahead."
+ br_country_startup.2.a: "The banners are raised."
+
+
 

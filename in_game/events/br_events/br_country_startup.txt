@@ -4,7 +4,7 @@ br_country_startup.1 = {
 	title = br_country_startup.1.title
 	desc = br_country_startup.1.desc
 
-	orphan = yes
+	#orphan = yes
 
 	trigger = {
 		tag = K1K
@@ -27,6 +27,91 @@ br_country_startup.1 = {
 
 	option = {
 		name = br_country_startup.1.a
+
+		historical_option = yes
+
+	}
+}
+
+br_country_startup.2 = {
+	type = country_event
+	title = br_country_startup.2.title
+	desc = br_country_startup.2.desc
+
+	#orphan = yes
+
+	trigger = {
+		tag = RH0
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		c:RH0 = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+
+	}
+
+	option = {
+		name = br_country_startup.2.a
+
+		historical_option = yes
+
+	}
+}
+
+br_country_startup.3 = {
+	type = country_event
+	title = br_country_startup.2.title
+	desc = br_country_startup.2.desc
+
+	#orphan = yes
+
+	trigger = {
+		tag = OHS
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		c:OHS = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+
+	}
+
+	option = {
+		name = br_country_startup.2.a
 
 		historical_option = yes
 

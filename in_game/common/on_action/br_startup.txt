@@ -15,5 +15,11 @@ br_on_game_start = {
         c:K1K = {
             trigger_event_silently = br_country_startup.1
         }
+        c:RH0 = {
+            trigger_event_silently = br_country_startup.2
+        }
+        c:OHS = {
+            trigger_event_silently = br_country_startup.3
+        }
     }
 }
