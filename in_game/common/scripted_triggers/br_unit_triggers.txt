@@ -1,4 +1,4 @@
-### Roman - Unit Triggers ###
+﻿### Roman - Unit Triggers ###
 
 REPLACE_OR_CREATE:unit_akritai_location_trigger = {
 	dominant_culture = { has_culture_group = culture_group:greek_group }
