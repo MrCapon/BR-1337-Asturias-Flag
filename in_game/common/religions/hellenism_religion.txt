@@ -1,4 +1,4 @@
-﻿hellenism_religion = { #https://en.wikipedia.org/wiki/Hellenism_(modern_religion) 
+﻿REPLACE_OR_CREATE:hellenism_religion = { #https://en.wikipedia.org/wiki/Hellenism_(modern_religion) 
     color = map_greek
     group = folk_european_group
 

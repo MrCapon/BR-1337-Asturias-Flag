@@ -1,4 +1,4 @@
-REPLACE:sergeantry = {
+﻿REPLACE:sergeantry = {
 	is_foreign = no
 	pop_type = soldiers
 	max_levels = 1

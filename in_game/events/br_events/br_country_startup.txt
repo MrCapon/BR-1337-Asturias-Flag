@@ -24,4 +24,11 @@ br_country_startup.1 = {
 			}
 
 	}
+
+	option = {
+		name = br_country_startup.1.a
+
+		historical_option = yes
+
+	}
 }

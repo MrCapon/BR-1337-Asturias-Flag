@@ -1,4 +1,4 @@
-﻿REPLACE:seljuk_mint = {
+﻿REPLACE_OR_CREATE:seljuk_mint = {
 	is_foreign = no
 	pop_type = burghers
 	
