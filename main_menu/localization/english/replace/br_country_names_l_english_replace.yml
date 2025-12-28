@@ -52,7 +52,9 @@
 
 #Other
 
- rank_empire: ""
+#Other
+
+ #rank_empire: "Empire"
 
  rule_byz_name: "Basileía Romaíon Name"
  setting_byz_name_default: "Default"
