@@ -2214,7 +2214,9 @@ building_manager = {
 	orthodox_monastery = { tag = MAM level = 1 location =  saint_katrine }
 	local_shrine = { tag = MAM level = 1 location =  saint_katrine }
 	parish_church = { tag = MAM level = 1 location =  saint_katrine }
+	scriptorium = { tag = MAM level = 1 location = saint_katrine }
 	local_shrine = { tag = MAM level = 1 location =  alexandria }
+	scriptorium = { tag = MAM level = 4 location = alexandria }
 
 	#missionary_building = { tag = FEO level = 1 location = sarai_al_jadid }
 
@@ -5115,6 +5117,10 @@ building_manager = {
 	fishing_village = { tag = MAM level = 2 location = sidon }
 	fishing_village = { tag = MAM level = 2 location = beirut }
 	lumber_mill = { tag = MAM level = 1 location = beirut }
+	forest_village = { tag = MAM level = 1 location = beirut }
+	scriptorium = { tag = MAM level = 1 location = beirut }
+	lumber_mill = { tag = MAM level = 1 location = deir_qamar }
+	forest_village = { tag = MAM level = 1 location = deir_qamar }
 	fishing_village = { tag = MAM level = 1 location = tripoli_syria }
 	fishing_village = { tag = MAM level = 1 location = baniyas }
 	fishing_village = { tag = MAM level = 1 location = jableh }
