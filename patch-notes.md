@@ -1,4 +1,13 @@
 
+# Hotfix 0.8.1
+
+## Fixes
+- HUGE FIX: Our New World countries will now colonize and expand outward.
+- Empire rank fix thanks to Azrael
+- Combined the Caroling and Carolingian dynasty history. Now uses the Historical dynasty and Coart of Arms.
+- Simplified the new ERE unit names
+- Increase to Elysians population a bit to offset the black death.
+
 
 # Update 0.8 októ
 
