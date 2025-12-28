@@ -19,10 +19,99 @@ br_country_startup.1 = {
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+			}
+		}
+		c:GEN = {
+			capital = {
 				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
 			}
+		}
+		c:GTC = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
 			}
-
+		}
+		c:VEN = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+			}
+		}
+		c:VTC = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+			}
+		}
+		c:KNI = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_light_ship
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:navy_transport
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+			}
+		}
 	}
 
 	option = {
@@ -56,6 +145,22 @@ br_country_startup.2 = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:BUL = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
@@ -99,11 +204,58 @@ br_country_startup.3 = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
 				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:SGO = {
+			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_infantry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:ARM = {
+			capital = {
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
 				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:GEO = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:LOT = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
+			}
+		}
+		c:FRA = {
+			capital = {
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_cavalry
+				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 				create_sub_unit_of_category = sub_unit_category:army_auxiliary
 			}
 		}
