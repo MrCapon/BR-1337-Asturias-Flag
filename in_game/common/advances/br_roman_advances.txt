@@ -58,7 +58,7 @@ roman_romaioi_identity = {
 		}
 	}
 	requires = written_alphabet
-	global_pop_assimilation_speed_modifier = 0.25
+	global_pop_assimilation_speed_modifier = 0.5
 	cultural_influence_modifier = 0.1
 	cultural_tradition_modifier = 0.1
 }
