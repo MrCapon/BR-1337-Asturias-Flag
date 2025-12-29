@@ -13,3 +13,12 @@
  northern_trade.3.title: "The General"
  northern_trade.3.desc: "For the first time in a century, an old-world vessel landed on our shores with crew still intact. A wealthy danish general looking for glory set sail across the ocean to search for new unspoiled lands. He found us instead. After a night of partying and drinking, we have decided to bring him into our court."
  northern_trade.3.a: "His skills and knowledge will be put to use."
+
+
+ southern_trade.1.title: "The Southern Trade"
+ southern_trade.1.desc: "A few upstart explorers have returned from the south. They brought two envoys with them from the two major nations in the south, each calling themselves the successors to the Roman Empire. They provide us with detailed maps of their territories."
+ southern_trade.1.a: "New friends! Or enemies?"
+
+ southern_trade.2.title: "The Northmen Reach Out"
+ southern_trade.2.desc: "A small group of northern explorers reached our shores, wishing to trade. Stories of a seafaring people in the north have been spreading, but this is confirmation. We exchange maps with the explorers and send an envoy with them."
+ southern_trade.2.a: "New friends! Or enemies?"
