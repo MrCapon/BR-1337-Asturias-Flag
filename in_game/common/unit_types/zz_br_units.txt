@@ -170,3 +170,28 @@ br_tagmata_ballistai = {
 		unit_akritai_location_trigger = yes
 	}
 }
+
+br_unit_trebuchet = {
+	category = army_artillery
+	copy_from = a_age_1_traditions_artillery
+
+	build_time_modifier = 0.75
+	#max_strength = 0.025
+
+
+	buildable = yes
+	age = "age_1_traditions"
+
+	combat = {
+		grasslands = 0.1
+		forests = -0.25
+		wetlands = -0.30
+		hills = -0.1
+	}
+
+	construction_demand = br_early_artillery_construction
+	maintenance_demand =  br_early_artillery_maintenance
+
+	upgrades_to = a_houfnice
+
+}

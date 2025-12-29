@@ -9,4 +9,6 @@
  br_tagmata_ballistai: "Ballistai"
  br_tagmata_ballistai_desc: "An evolution of classical Roman siegecraft adapted for the battlefield. These torsion-powered engines hurl bolts and stones to break enemy cohesion, favoring open ground and disciplined support from infantry formations."
 
+ br_unit_trebuchet: "Trebuchets"
+ br_unit_trebuchet_desc: "Large counterweight-driven siege engines designed to batter fortifications and undermine enemy morale. Trebuchets are powerful but slow to deploy, requiring secure positions and extensive logistical support to operate effectively."
 
