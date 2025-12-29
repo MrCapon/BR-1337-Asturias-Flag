@@ -55,7 +55,7 @@ northern_trade.2={
 
     option = {
         name = northern_trade.2.a
-            capital = {
+        capital = {
                 spawn_disease = {
                     disease = disease:bubonic_plague
                     value = 1
