@@ -12,6 +12,15 @@
 #	category = regiment_construction
 #}
 
+br_early_artillery_construction = {
+	lumber = 1.0
+	copper = 1.0
+	cloth = 0.1
+	tin = 0.1
+    tools = 0.1
+	category = regiment_construction
+}
+
 #Maintenance:
 
 
@@ -32,3 +41,12 @@
 #	leather = 0.05
 #	category = regiment_maintenance
 #}
+
+br_early_artillery_maintenance = {
+	lumber = 0.2
+	copper = 0.2
+	tin = 0.05
+	tools = 0.05
+	cloth = 0.05
+	category = regiment_maintenance
+}
