@@ -6,9 +6,9 @@
 
 	movement_speed = 8
 	hull_size = 6
-	cannons = 6
+	cannons = 2
 	crew_size = 0.040
-	blockade_capacity = 0.75
+	maritime_presence = .18
 
 	#root = location. Checks location_potential first so don't need that scripting in
 	country_potential = {
