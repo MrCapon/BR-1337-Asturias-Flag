@@ -59,6 +59,7 @@ REPLACE_OR_CREATE:crusade_sea_reform = {
 		allow_privateers_slave_raid = yes
 		navy_maintenance_cost = -0.25 #BR added
 		expected_navy_size_modifier = 1.0 #BR added
+		global_navy_levy_size_modifier = 0.5
 	}
 	years = 2
 }
