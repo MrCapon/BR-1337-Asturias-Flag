@@ -13,6 +13,7 @@
 
 		navy_maintenance_cost = -0.10 #BR added
 		expected_navy_size_modifier = 0.50 #BR added
+		global_navy_levy_size_modifier = 0.25
 		
 	}
 	
