@@ -38,10 +38,7 @@ boyarski_voiski = {
 	estate = nobles_estate
 
 	potential = {
-		OR = {
-			has_or_had_tag = BUL
-			culture ?= { has_culture = bulgarian }
-		}
+		has_or_had_tag = BUL
 	}
 
 	country_modifier = {
