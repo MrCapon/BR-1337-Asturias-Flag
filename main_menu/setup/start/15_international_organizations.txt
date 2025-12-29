@@ -100,7 +100,7 @@ international_organization_manager = {
 		}
 		archbishop_elector = {
 				# The 3 bishops
-				#TRI	# Trier
+				SLZ	# Trier
 				KOL # Cologne
 				MAI # Mainz
 		}
@@ -108,6 +108,8 @@ international_organization_manager = {
 			AAC BRM FRN GOS HAM KNZ MEM NUR REG ROT RVA ULM LUB DTM AGC KMP WTZ WRM BRN BSC ZUR CFC MUL
 			#Should be but can't because they only have "rural settlements"
 			# MLH BIB NHS OFB SWH WDB WEI SLT
+			#BR Added Italian Free cities
+			ATI ASD PST VLT PRA PAV PAR PAD LUC MOD
 		}
 		imperial_peasant_republic = {
 			FRI
