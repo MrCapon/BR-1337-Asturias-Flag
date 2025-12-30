@@ -149,6 +149,7 @@ br_tagmata_ballistai = {
 
 	build_time_modifier = 0.75
 	max_strength = 0.025
+	combat_power = 3
 
 
 	buildable = yes
@@ -176,7 +177,9 @@ br_unit_trebuchet = {
 	copy_from = a_age_1_traditions_artillery
 
 	build_time_modifier = 0.75
-	#max_strength = 0.025
+	max_strength = 0.025
+	combat_power = 1
+	artillery_barrage = 3
 
 
 	buildable = yes
