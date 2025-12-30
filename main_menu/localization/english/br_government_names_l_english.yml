@@ -29,5 +29,12 @@
  country_rank_br_exarchate_ruler_male: "Exárchēs"
  country_rank_br_exarchate_ruler_female: "Exárchissa"
 
- #Apoikía #Domestikos
- #Katepaníkion
+ country_rank_br_katapanate: "Katepaníkion"
+ country_rank_br_katapanate_ADJ: "Katapanikós"
+ country_rank_br_katapanate_ruler_male: "Katapánō"
+ country_rank_br_katapanate_ruler_female: "Katapaníssa"
+
+ country_rank_br_apoikia: "Apoikía"
+ country_rank_br_apoikia_ADJ: "Apoikía"
+ country_rank_br_apoikia_ruler_male: "Domestikos"
+ country_rank_br_apoikia_ruler_female: "Domestika"
