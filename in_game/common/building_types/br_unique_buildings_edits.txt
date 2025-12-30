@@ -51,3 +51,49 @@
 	}
 	construction_demand = castle_construction
 }
+
+REPLACE_OR_CREATE:order_stronghold = {
+	is_foreign = no
+	pop_type = clergy
+	
+	category = religious_category
+	
+	max_levels = 1
+	employment_size = large_religious_building_employment
+	
+	rural_settlement = yes
+	town = yes
+	city = yes
+	
+	
+	
+	
+	country_potential = {
+		has_reform = government_reform:military_order_reform
+	}
+	
+	build_time = soldier_building
+	
+	modifier = {
+		local_clergy_estate_power = 1.0
+		local_garrison_size = 0.1 #br added
+		#local_defensive = 0.25 #br removed
+		
+		local_manpower = 0.001
+
+
+		can_recruit_regiment_in_this_location = yes
+
+	}
+	raw_modifier = {
+		fort_level = 1
+		propagating_zone_of_control = no
+	}
+	
+	
+	
+	possible_production_methods = {
+		order_commandery_maintenance
+	}
+	construction_demand = order_stronghold_construction
+}
