@@ -6068,7 +6068,7 @@ countries = {
 			religious_school = chishti_school
 			include = "indian_muslim_monarchy"
 			country_rank = rank_kingdom
-			capital = sargadwari
+			capital = delhi
 			#Originally Delhi but moved recently to Daulautabad in Deccan
 			#In 1335 the Sultan allowed people to go back to Delhi
 			#In 1337 the capital has been temporarily transferred to Sargadwari due to famine and disease in Delhi.
