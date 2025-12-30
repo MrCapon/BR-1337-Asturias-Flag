@@ -11,7 +11,12 @@
 
 	#root = location. Checks location_potential first so don't need that scripting in
 	country_potential = {
-		has_or_had_tag = NRV
+		OR = {
+			has_or_had_tag = NRV
+			has_or_had_tag = NRR
+			has_or_had_tag = NRH
+			has_or_had_tag = NRC
+		}
 	}
 }
 
