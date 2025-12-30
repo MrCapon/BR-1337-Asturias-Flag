@@ -1,7 +1,7 @@
 ﻿orthodox_order_commandery = {
 	is_foreign = yes
 	stronger_power_projection = no
-	need_good_relation = yes
+	need_good_relation = no
 	pop_type = clergy
 	
 	category = religious_category
@@ -81,7 +81,7 @@
 br_varangian_recruitment_building = {
 	is_foreign = yes
 	stronger_power_projection = no
-	need_good_relation = yes
+	need_good_relation = no
 	pop_type = soldiers
 	
 	category = military_category
@@ -97,16 +97,7 @@ br_varangian_recruitment_building = {
 	
 	
 	location_potential = {
-		OR = {
-			region = region:scandinavian_region
-			region = region:north_german_region
-			region = region:south_german_region
-			region = region:great_britain_region
-			region = region:baltic_region
-			region = region:carpathia_region
-			region = region:ruthenia_region
-			region = region:russian_region
-		}
+		is_capital = yes
 	}
 	country_potential = {
 		has_or_had_tag = BYZ
@@ -115,16 +106,8 @@ br_varangian_recruitment_building = {
 	build_time = soldier_building
 	
 	allow = {
-		OR = {
-			region = region:scandinavian_region
-			region = region:north_german_region
-			region = region:south_german_region
-			region = region:great_britain_region
-			region = region:baltic_region
-			region = region:carpathia_region
-			region = region:ruthenia_region
-			region = region:russian_region
-		}
+		#market = { in_trade_range_of = scope:actor }
+		#NOT = { dominant_religion = scope:actor.religion }
 	}
 
 	modifier = {
