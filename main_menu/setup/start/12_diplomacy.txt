@@ -317,8 +317,8 @@ diplomacy_manager = {
     dependency = { first = BYZ second = FEO subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = THE subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = BYZ second = THS subject_type = vassal } # Pronoïakon Ktéma
-    dependency = { first = BYZ second = ATH subject_type = vassal } # Pronoïakon Ktéma
 
+    dependency = { first = BYZ second = ATH subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = ATH second = M0E subject_type = vassal } # Pronoïakon Ktéma
     dependency = { first = ATH second = ACH subject_type = vassal } # Pronoïakon Ktéma
 
@@ -344,7 +344,8 @@ diplomacy_manager = {
 
     #dependency = { first = BYZ second = RIC subject_type = trade_company }
 
-
+    scripted_oneway = { first = BYZ second = ARM type = guarantee }
+	scripted_oneway = { first = BYZ second = GEO type = guarantee }
 
     scripted_mutual = { first = SER second = BYZ type = alliance }
     #scripted_mutual = { first = RIC second = BYZ type = food_access }
@@ -375,6 +376,7 @@ diplomacy_manager = {
     dependency = { first = ARM second = VDZ subject_type = vassal }
     scripted_mutual = { first = GEO second = ARM type = alliance }
     #dependency = { first = GEO second = SGO subject_type = march }
+    scripted_oneway = { first = GEO second = SGO type = guarantee }
 
 	scripted_oneway = { first = AON second = OHS type = military_sponsorship }
     scripted_oneway = { first = ICO second = OHS type = military_sponsorship }
@@ -456,7 +458,7 @@ diplomacy_manager = {
     scripted_mutual = { first = HUN second = POL type = alliance }
     dependency = { first = HUN second = CRO subject_type = fiefdom }
     dependency = { first = HUN second = BOS subject_type = tributary } #BR EDIT
-    dependency = { first = BUL second = WAL subject_type = tributary } #BR ADDED
+    dependency = { first = HUN second = WAL subject_type = tributary } #BR ADDED
     scripted_mutual = { first = EPI second = DYR type = alliance }
     scripted_mutual = { first = EPI second = S2C type = alliance }
     dependency = { first = DYR second = ANT subject_type = vassal } #BR EDIT
@@ -493,6 +495,7 @@ diplomacy_manager = {
     dependency = { first = TUR second = AIA subject_type = vassal }
     dependency = { first = TUR second = SRV subject_type = vassal }
     dependency = { first = TUR second = SYU subject_type = vassal }
+    dependency = { first = TUR second = ATZ subject_type = vassal }
     dependency = { first = TUR second = KCN subject_type = vassal }
     dependency = { first = TUR second = ATC subject_type = vassal }
     dependency = { first = TUR second = GAN subject_type = vassal }
