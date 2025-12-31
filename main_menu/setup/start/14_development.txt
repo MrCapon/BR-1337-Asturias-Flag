@@ -47,24 +47,24 @@ development = {
 
 	# regions
 	#western europe
-	scandinavian_region = 10
+	scandinavian_region = 8
 	north_atlantic_islands_region = 5
-	north_german_region = 18
-	south_german_region = 23
-	great_britain_region = 18
-	ireland_region = 12
+	north_german_region = 15
+	south_german_region = 20
+	great_britain_region = 15
+	ireland_region = 10
 	france_region = 20
 	iberia_region = 20
 	italy_region = 25
 	#eastern europe
-	carpathia_region = 15
-	baltic_region = 15
-	caucasus_region = 15
+	carpathia_region = 13
+	baltic_region = 12
+	caucasus_region = 14
 	steppes_region = 5
-	russian_region = 15
-	ruthenia_region = 15
+	russian_region = 12
+	ruthenia_region = 12
 	ural_region = 5
-	balkan_region = 15
+	balkan_region = 14
 	#africa
 	egypt_region = 25
 	macaronesia_region = 5
@@ -139,8 +139,8 @@ development = {
 	karelia_area = -5
 	kola_area = -5
 	#balkan region
-	thrace_area = 5
-	morea_area = 5
+	thrace_area = 6
+	morea_area = 4
 	slovenia_area = 5
 	#great britain
 	home_counties_area = 5
@@ -159,29 +159,30 @@ development = {
 	valencia_area = 5
 	andalusia_area = 10
 	granada_area = 8
+	murcia_area = 5
 	#italy
-	sardinia_area = -10
-	sicily_area = -5
+	sardinia_area = -8
+	sicily_area = -4
 	basilicata_area = -3
-	apulia_area = -5
-	campania_area = -3
-	lazio_area = -5
-	marche_area = -5
+	apulia_area = -4
+	campania_area = -2
+	lazio_area = -4
+	marche_area = -4
 	#carpathia
 	north_alfold_area = 3
 	transdanubia_area = 3
-	slovakia_area = 5
+	slovakia_area = 4
 	moldavia_area = -5
 	transylvania_area = 5
 	#north germany
-	flanders_area = 7
-	holland_area = 5
-	brabant_area = 5
-	rhineland_area = 4
+	flanders_area = 8
+	holland_area = 6
+	brabant_area = 6
+	rhineland_area = 5
 	hesse_area = 4
 	#south germany
-	bohemia_area = -5
-	moravia_area = -5
+	bohemia_area = -6
+	moravia_area = -6
 	eastern_switzerland_area = -4
 	western_switzerland_area = -4
 	central_switzerland_area = -4
@@ -299,10 +300,11 @@ development = {
 	#Russia
 	bogdanovo_province = -3
 	#Ethiopia
-	begemder_province = 5
-	semien_province = 5
-	tigray_province = 5
+	begemder_province = 6
+	semien_province = 6
+	tigray_province = 6
 	lasta_province = 5
+	amhara_province = 5
 	#Manchuria
 	jinzhou_province = 5
 	liaoyang_province = 5
@@ -335,30 +337,55 @@ development = {
 	onondagega_province = 2
 	gayogohono_province = 1
 	onondowaga_province = 1
+
+	ani_province = 4
+	van_province = 4
+
+	#BR New World
+
+	#Elysium
+	patapsco_province = 5
+	nanticoke_province = 5
+	potomac_province = 4
+	chesapeake_province = 4
+	bahamas_province = 8
+
+	roanoke = 10
+	nansemond = 5
+	patapsco = 5
+	anacostia = 5
+	abacoa = 5
+
+	#Vinland
+	belle_isle = 14
+	ingonish = 14
+	notiskuan = 5
+	uashat = 5
+	stadacona = 5
 	
 	#unique locations
 	granada = 10
 	prague = 5
 	venice = 20
-	milano = 25
-	florence = 15
-	genoa = 15
+	milano = 26
+	florence = 18
+	genoa = 16
 	antioch = 8
-	cairo = 10
+	cairo = 12
 	alexandria = 5
 	mecca = 10
-	tunis = 15
-	tripoli = 5
-	medina = 8
+	tunis = 16
+	tripoli = 8
+	medina = 10
 	baghdad = 25
 	isfahan = 12
 	rey = 8
 	tabriz = 10
-	damascus = 15
+	damascus = 16
 	dadu = 10
-	paris = 10
-	cordoba = 20
-	lisbon = 5
+	paris = 12
+	cordoba = 22
+	lisbon = 4
 	zaragoza = 5
 	salamanca = 2
 	segovia = 2
@@ -368,12 +395,12 @@ development = {
 	frankfurt = 5
 	cologne = 5
 	aachen = 10
-	metz = 10
+	metz = 12
 	heidelberg = 3
 	vienna = 2
 	freiberg = 4
 	great_zimbabwe = 8
-	samarkand = 3
+	samarkand = 6
 	nishapur = 3
 	sarai_al_jadid = 5
 	astrakhan = 15
