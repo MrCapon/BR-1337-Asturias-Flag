@@ -82,4 +82,34 @@ elysium.1 = {
 
 	}
 
+	option = {
+		name = elysium.1.b
+		historical_option = yes
+		high_reward_option = yes
+
+		add_prestige = prestige_extreme_bonus
+
+		
+		add_country_modifier = {
+			modifier = br_elysium_formed
+			years = 10
+			mode = add_and_extend
+		}
+		capital = {
+            change_institution_progress = {
+                type = institution:meritocracy
+                value = 100
+             }
+        }
+		location:anacostia = {
+			change_raw_material = goods:silk
+		}
+
+		culture = {
+			add_cultural_tradition = cultural_tradition_extreme_bonus
+			add_cultural_influence = cultural_influence_radical_bonus
+		}
+
+	}
+
 }
