@@ -8940,7 +8940,7 @@ locations = {
 	cordoba = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	baena = {
 		feudalism = yes
@@ -10341,7 +10341,7 @@ locations = {
 	venice = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	mestre = {
 		feudalism = yes
@@ -19545,7 +19545,7 @@ locations = {
 	constantinople = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	vize = {
 		feudalism = yes
@@ -19814,7 +19814,7 @@ locations = {
 	athens = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	atalanti = {
 		feudalism = yes
@@ -19831,7 +19831,7 @@ locations = {
 	thebes = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	corfu = {
 		feudalism = yes
@@ -23243,7 +23243,7 @@ locations = {
 	baghdad = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	badra = {
 		feudalism = yes
@@ -46523,7 +46523,7 @@ locations = {
 	goa = {
 		feudalism = yes
 		legalism = yes
-		meritocracy = yes #BR EDIT
+		#meritocracy = yes #BR EDIT
 	}
 	madgaon = {
 		feudalism = yes

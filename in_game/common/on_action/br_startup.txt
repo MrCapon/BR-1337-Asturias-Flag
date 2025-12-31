@@ -21,5 +21,164 @@ br_on_game_start = {
         c:OHS = {
             trigger_event_silently = br_country_startup.3
         }
+
+        c:BYZ = {
+			research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:educated_bureaucrats
+			research_advance = advance_type:efficient_bureaucracy
+            research_advance = advance_type:efficient_logistics
+            research_advance = advance_type:power_projection_advance_1
+            research_advance = advance_type:non_inheritable_offices
+			research_advance = advance_type:province_governors
+			research_advance = advance_type:temporary_appointments
+			research_advance = advance_type:government_sanctioned_celebrations
+			research_advance = advance_type:organized_religion
+			research_advance = advance_type:scholasticism
+			research_advance = advance_type:diplomatic_capacity_traditions
+			byz_historiography_advance
+		}
+
+        #BR added Trade Company
+		every_country = {
+			limit = { has_reform = government_reform:merchant_republic }
+
+            if = {
+                limit = { NOT = { has_advance = trade_companies_advance } }
+                research_advance = advance_type:trade_companies_advance
+            }
+        }
+		every_country = {
+			limit = { has_reform = government_reform:banking_country }
+
+            if = {
+                limit = { NOT = { has_advance = banking_advance } }
+                research_advance = advance_type:banking_advance
+				research_advance = advance_type:merchants_and_trade
+				research_advance = advance_type:trade_range_advance_age_2
+            }
+        }
+		every_country = {
+			limit = { has_reform = government_reform:military_order_reform }
+
+            if = {
+                limit = {
+					capital ?= { NOT = { region = region:baltic_region } }
+				}
+                research_advance = advance_type:unlock_reformed_crusader_knights_advance
+				research_advance = advance_type:deus_vult
+			    research_advance = advance_type:organized_religion
+		    	research_advance = advance_type:scholasticism
+		    	research_advance = advance_type:diplomatic_capacity_traditions
+            }
+        }
+		#Trying to encourage new world tag to colonize
+		every_country = {
+			limit = { has_reform = government_reform:br_new_world_colonial_reform }
+
+            research_advance = advance_type:colonial_charters
+			research_advance = advance_type:colonial_policy_advance
+			research_advance = advance_type:send_people_to_the_colonies_advance
+        }
+		every_country = {
+			limit = {
+				capital ?= {
+					region = region:italy_region
+				}
+			}
+			research_advance = advance_type:unlock_peasant_levy_advance
+			research_advance = advance_type:unlock_crossbowmen_advance
+			research_advance = advance_type:dock_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_hulk_advance
+        }
+		c:RIC = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_early_carrack_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:unlock_men_at_arms_advance
+			research_advance = advance_type:unlock_crossbowmen_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+			research_advance = advance_type:send_people_to_colonial_charter_advance
+			research_advance = advance_type:chartered_companies
+		}
+		c:VTC = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_early_carrack_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:unlock_men_at_arms_advance
+			research_advance = advance_type:unlock_crossbowmen_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+		c:GTC = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:unlock_m_galley_advance
+			research_advance = advance_type:unlock_early_carrack_advance
+			research_advance = advance_type:unlock_hulk_advance
+			research_advance = advance_type:unlock_men_at_arms_advance
+			research_advance = advance_type:unlock_crossbowmen_advance
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+		c:VEN = {
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:diplomatic_capacity_traditions
+		}
+		c:GEN = {
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:diplomatic_capacity_traditions
+		}
+		c:PIS = {
+			research_advance = advance_type:merchants_and_trade
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+            research_advance = advance_type:meritocracy_advance
+			research_advance = advance_type:diplomatic_capacity_traditions
+		}
+		c:K1K = {
+			research_advance = advance_type:unlock_barque_advance
+			research_advance = advance_type:letters_of_marque
+			research_advance = advance_type:sturdy_privateers
+			research_advance = advance_type:safe_exploration_techniques_advance
+			research_advance = advance_type:trade_range_advance_age_2
+			research_advance = advance_type:rudimentary_coastal_ship_repair
+		}
+     #	c:E1Y = {
+	#		research_advance = advance_type:colonial_tradition
+	#		research_advance = advance_type:colonial_heritage
+	#		research_advance = advance_type:founding_fathers
+	#		research_advance = advance_type:colonial_militia
+	#		research_advance = advance_type:new_frontiers
+	#	}
+	#	c:E2Y = {
+	#		research_advance = advance_type:colonial_tradition
+	#		research_advance = advance_type:colonial_heritage
+	#		research_advance = advance_type:founding_fathers
+	#		research_advance = advance_type:colonial_militia
+	#		research_advance = advance_type:new_frontiers
+	#	}
+
+		c:TUR = {
+			research_advance = advance_type:seljuk_roots
+			research_advance = advance_type:timariots
+			research_advance = advance_type:slavery_before_death
+			research_advance = advance_type:bashi_bazouks
+			research_advance = advance_type:there_shall_be_no_grass
+			research_advance = advance_type:akinji_cavalry
+		}
+
     }
 }
