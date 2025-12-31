@@ -78,7 +78,44 @@ roman_codified_custom = {
 	requires = codified_laws
 	global_crown_estate_power = 0.05
 	monthly_legitimacy = 0.05
+	diplomatic_reputation = diplomatic_reputation_mild_bonus
 }
+
+roman_pronoial_administration = {
+	age = age_1_traditions
+	icon = byz_modernized_strategikon
+	potential = {
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+	}
+	requires = codified_laws
+
+	subject_loyalty = 5
+	diplomatic_annexation_cost = -0.05
+}
+
+roman_akritic_reforms = {
+	age = age_1_traditions
+	icon = byz_modernized_strategikon
+	potential = {
+		OR = {
+			has_or_had_tag = BYZ			
+			any_overlord_or_above = {
+				has_or_had_tag = BYZ
+			}
+			culture = { has_culture_group = culture_group:greek_group }
+		}
+	}
+	requires = roman_pronoial_administration
+
+	unlock_subject_type = march
+}
+
 
 # AGE 2 – Renaissance
 
@@ -116,6 +153,7 @@ roman_court_and_office = {
 	#diplomatic_capacity = 1
 	monthly_diplomats = 0.1
 	global_monthly_control = 0.001
+
 }
 
 # AGE 3 – Discovery
@@ -174,6 +212,7 @@ roman_imperial_legitimacy = {
 	requires = confessional_court
 	stability_investment = tiny_stability_investment
 	global_integration_speed_modifier = 0.1
+	diplomatic_reputation = diplomatic_reputation_mild_bonus
 }
 
 roman_civic_order = {

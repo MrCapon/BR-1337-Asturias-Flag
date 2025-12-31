@@ -132,6 +132,13 @@
  roman_codified_custom: "Codified Custom"
  roman_codified_custom_desc: "Ancient law and provincial practice are reconciled in written form. By preserving precedent alongside tradition, imperial authority is maintained without uprooting local order."
 
+ roman_pronoial_administration: "Pronoial Administration"
+ roman_pronoial_administration_desc: "The empire formalizes the granting of pronoiai, codifying the rights and obligations of landholders who rule in the Emperor’s name. By binding local rulers to Roman law, service, and fiscal oversight, the state strengthens loyalty while preserving flexibility in provincial governance."
+ 
+ roman_akritic_reforms: "Akritic Reforms"
+ roman_akritic_reforms_desc: "The empire restores the military theme system along its frontiers, uniting civil authority, land grants, and permanent military service under imperial command. Soldier-settlers are bound to their districts by law and obligation, ensuring that the borderlands remain defended, governed, and unmistakably Roman."
+
+
  roman_scribal_administration: "Scribal Administration"
  roman_scribal_administration_desc: "A learned class of clerks and secretaries sustains the workings of the state. Records, correspondence, and decrees pass through trained hands, ensuring continuity across the ages."
 
