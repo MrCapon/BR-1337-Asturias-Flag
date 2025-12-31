@@ -1016,7 +1016,7 @@ locations={
 	adan = { rank = town 	town_setup = levant_city }
 
 	# Crimea
-	kaffa = { rank = city town_setup = greek_town_port } #br edit
+	kaffa = { rank = town town_setup = greek_town_port } #br edit
 	soldaia = { rank = town town_setup = greek_town }
 	tana = { rank = town town_setup = greek_town_port }
 	theodoro = { rank = city town_setup = greek_city_port }
