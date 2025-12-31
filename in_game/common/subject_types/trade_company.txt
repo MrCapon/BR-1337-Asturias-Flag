@@ -1,4 +1,4 @@
-﻿trade_company = {
+﻿REPLACE_OR_CREATE:trade_company = {
 	type = building
 	color = subject_trade_company
 	level = 1
