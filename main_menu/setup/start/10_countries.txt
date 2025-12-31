@@ -21936,7 +21936,7 @@ countries = {
 				eastern_amazigh
 			}
 			
-			capital = barca
+			capital = benghazi
 			dynasty = heib_dynasty
 		}
 		

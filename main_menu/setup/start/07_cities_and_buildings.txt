@@ -460,28 +460,28 @@ locations={
 	targoviste = { rank = town 			town_setup = carpathian_town }
 	
 	# Iberia
-	barcelona = { rank = city 	town_setup = iberian_city_port	 }
+	barcelona = { rank = city 	town_setup = iberian_city_port }
 	cordoba = { rank = city town_setup = iberian_city }
 	granada = { rank = city town_setup = iberian_city }
-	lisbon = { rank = city town_setup = iberian_city_port }
+	lisbon = { rank = town town_setup = iberian_town_port }
 	malaga = { rank = city town_setup = iberian_city_port }
 	sevilla = { rank = city town_setup = iberian_city }
 	toledo = { rank = city town_setup = iberian_city }
 	valencia = { rank = city town_setup = iberian_city_port }
-	valladolid = { rank = city town_setup = iberian_city }
+	valladolid = { rank = town town_setup = iberian_town }
 	
 	alcala_de_henares = { rank = town town_setup = iberian_town }
 	almeria = { rank = town town_setup = iberian_town_port }
 	badajoz = { rank = town town_setup = iberian_town }
 	burgos = { rank = town town_setup = iberian_town }
-	calatayud = { rank = town town_setup = iberian_town }
-	castellon_de_la_plana = { rank = town town_setup = iberian_town_port }
+	#calatayud = { rank = town town_setup = iberian_town }
+	#castellon_de_la_plana = { rank = town town_setup = iberian_town_port }
 	cervera = { rank = town town_setup = iberian_town }
-	ciudad_rodrigo = { rank = town town_setup = iberian_town }
+	#ciudad_rodrigo = { rank = town town_setup = iberian_town }
 	coimbra = { rank = town town_setup = iberian_town }
 	cuenca = { rank = town town_setup = iberian_town }
 	ecija = { rank = town town_setup = iberian_town }
-	viseu = { rank = town town_setup = iberian_town }
+	#viseu = { rank = town town_setup = iberian_town }
 	evora = { rank = town town_setup = iberian_town }
 	faro = { rank = town town_setup = iberian_town_port }
 	girona = { rank = town town_setup = iberian_town_port }
@@ -491,24 +491,24 @@ locations={
 	jerez_de_la_frontera = { rank = town town_setup = iberian_town }
 	leon = { rank = town town_setup = iberian_town }
 	lleida = { rank = town town_setup = iberian_town }
-	medina_del_campo = { rank = town town_setup = iberian_town }
+	#medina_del_campo = { rank = town town_setup = iberian_town }
 	caceres = { rank = town town_setup = iberian_town }
-	morella = { rank = town town_setup = iberian_town }
+	#morella = { rank = town town_setup = iberian_town }
 	murcia = { rank = town town_setup = iberian_town_port }
 	orihuela = { rank = town town_setup = iberian_town_port }
 	palma = { rank = town town_setup = iberian_town_port }
 	pamplona = { rank = town town_setup = iberian_town }
 	porto = { rank = town town_setup = iberian_town_port }
-	salamanca = { rank = town town_setup = iberian_town }
+	#salamanca = { rank = town town_setup = iberian_town }
 	santander = { rank = town town_setup = iberian_town_port }
 	santarem = { rank = town town_setup = iberian_town }
 	santiago_compostela = { rank = town town_setup = iberian_town }
 	oviedo = { rank = town town_setup = iberian_town }
-	segovia = { rank = town town_setup = iberian_town }
+	#segovia = { rank = town town_setup = iberian_town }
 	tarragona = { rank = town town_setup = iberian_town }
-	teruel = { rank = town town_setup = iberian_town }
+	#teruel = { rank = town town_setup = iberian_town }
 	tortosa = { rank = town town_setup = iberian_town_port }
-	tudela = { rank = town town_setup = iberian_town }
+	#tudela = { rank = town town_setup = iberian_town }
 	zamora = { rank = town town_setup = iberian_town }
 	zaragoza = { rank = town town_setup = iberian_town }
 	
@@ -569,6 +569,8 @@ locations={
 	mansoura = { rank = city 	town_setup	 = egyptian_city }
 	qus = { rank = city 		town_setup	 = egyptian_city }
 	tripoli = { rank = town 	town_setup	 = maghreb_town }
+	benghazi = { rank = town 	town_setup	 = maghreb_town }
+	suez = { rank = town 		town_setup	 = maghreb_town }
 
 	#Japan and Korea
 	kyoto = { rank = city 		town_setup = japan_city }
@@ -942,20 +944,23 @@ locations={
 	bafra = { rank = town		town_setup = anatolian_town }
 	kastamonu = { rank = town		town_setup = anatolian_town }
 	sinop = { rank = town		town_setup = greek_town_port } #BR EDIT
-	kozluk = { rank = town		town_setup = anatolian_town }
+	#kozluk = { rank = town		town_setup = anatolian_town }
 	#elbistan = { rank = town		town_setup = anatolian_town }
 	kutahya = { rank = town		town_setup = anatolian_town }
 	uluborlu = { rank = town		town_setup = anatolian_town }
 	bayramlu = { rank = town		town_setup = anatolian_town }
 	lazkiye = { rank = town		town_setup = anatolian_town }
-	ladik_pontus = { rank = town		town_setup = anatolian_town }
+	#ladik_pontus = { rank = town		town_setup = anatolian_town }
 	balikesir = { rank = town		town_setup = anatolian_town }
 	milas = { rank = town		town_setup = greek_town_port }
 	karahisar_i_sahib = { rank = town		town_setup = anatolian_town }
 	manisa = { rank = town		town_setup = anatolian_town }
-	niksar = { rank = town		town_setup = anatolian_town }
+	#niksar = { rank = town		town_setup = anatolian_town }
 	antalya = { rank = town		town_setup = greek_town_port }
 	alasehir = { rank = town		town_setup = anatolian_town }
+
+	sebinkarahisar = { rank = town		town_setup = anatolian_town }
+	mus = { rank = town		town_setup = anatolian_town }
 
 	#Central Asia
 	bukhara = { rank = city town_setup = central_asian_city }
@@ -1010,17 +1015,17 @@ locations={
 	medina = { rank = town 	town_setup = levant_city }
 	al_hajr = { rank = town 	town_setup = levant_town }
 	al_ahsa = { rank = city 	town_setup = levant_city }
-	marash = { rank = town 	town_setup = levant_town }
+	#marash = { rank = town 	town_setup = levant_town }
 
 	wasit = { rank = town 	town_setup = levant_city }
 	adan = { rank = town 	town_setup = levant_city }
 
 	# Crimea
 	kaffa = { rank = town town_setup = greek_town_port } #br edit
-	soldaia = { rank = town town_setup = greek_town }
+	#soldaia = { rank = town town_setup = greek_town }
 	tana = { rank = town town_setup = greek_town_port }
 	theodoro = { rank = city town_setup = greek_city_port }
-	vosporo = { rank = town town_setup = greek_town }
+	#vosporo = { rank = town town_setup = greek_town }
 
 
 	#India
@@ -4393,7 +4398,6 @@ building_manager = {
 	thema_headquarters = { tag = CIL level = 1 location = tarsus }
 	thema_headquarters = { tag = AOI level = 1 location = antioch }
 	thema_headquarters = { tag = PAF level = 1 location = kastamonu}
-	thema_headquarters = { tag = KIL level = 1 location = marash }
 	thema_headquarters = { tag = TRE level = 1 location = trebizond }
 	thema_headquarters = { tag = CYP level = 1 location = nicosia_cyp }
 	thema_headquarters = { tag = KAP level = 1 location = sivas }
@@ -5117,9 +5121,9 @@ building_manager = {
 	market_village = { tag = KNI level = 2 location = malta }
 	tar_kiln = { tag = KNI level = 1 location = malta }
 	lumber_mill = { tag = KNI level = 1 location = malta }
-	fishing_village = { tag = BQA level = 1 location = derna }
-	fishing_village = { tag = BQA level = 2 location = benghazi }
-	fishing_village = { tag = MAM level = 1 location = tobruk }
+	fishing_village = { tag = BQA level = 2 location = derna }
+	wharf = { tag = BQA level = 1 location = benghazi }
+	fishing_village = { tag = MAM level = 2 location = tobruk }
 	fishing_village = { tag = MAM level = 1 location = rashid }
 	fishing_village = { tag = MAM level = 1 location = tinnis }
 	fishing_village = { tag = MAM level = 1 location = suez }

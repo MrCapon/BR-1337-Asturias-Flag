@@ -160,6 +160,29 @@ development = {
 	andalusia_area = 10
 	granada_area = 8
 	murcia_area = 5
+
+	castellon_province = -10
+	teruel_province = -10
+	calatayud_province = -10
+	soria_province = -10
+	segovia_province = -10
+	avila_province = -10
+	salamanca_province = -10
+	ciudad_rodrigo_province = -10
+	beira_alta_province = -10
+	beira_litoral_province = -10
+
+	guadalajara_province = -10
+	cuenca_province = -10
+
+	zamora = 8
+	leon = 5
+
+	beira_baixa_province = -5
+	caceres_province = -5
+	plasencia_province = -5
+	madrid_province = -5
+
 	#italy
 	sardinia_area = -8
 	sicily_area = -4
@@ -257,8 +280,10 @@ development = {
 	monyul_area = -10
 	#Hindustan
 	upper_indus_area = -7
+
 	#Anatolia
 	armenian_highlands_area = -3
+
 	#Cresent
 	levant_area = 2
 	#Indonesia
@@ -341,6 +366,9 @@ development = {
 	ani_province = 4
 	van_province = 4
 
+	marash_province = -10
+	ayntab_province = -10
+
 	#BR New World
 
 	#Elysium
@@ -385,10 +413,7 @@ development = {
 	dadu = 10
 	paris = 12
 	cordoba = 22
-	lisbon = 4
 	zaragoza = 5
-	salamanca = 2
-	segovia = 2
 	magdeburg = 5
 	lubeck = 4
 	wittenberg = 5
@@ -419,7 +444,7 @@ development = {
 	constantinople = 40
 	thessaloniki = 15
 	smyrna = 10
-	ani = 10
+	ani = 5
 	theodoro = 12
 	kaffa = 5
 	tana = 12
