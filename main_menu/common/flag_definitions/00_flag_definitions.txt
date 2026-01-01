@@ -3899,28 +3899,12 @@ LIV = { # Livonia
 	}
 }
 
-LON = { # Leon
+LON = { # BR edit (repurposed as asturias)
 	flag_definition = {
-		coa = LON
+		coa = ASU
 		priority = 1
 	}
-	flag_definition = {
-		coa = CAS_leon_castile
-		priority = 3
-		trigger = {
-			NOR = { 
-				country_exists = c:CAS
-				country_exists = c:SPA
-			}
-		}
-	}
-	flag_definition = {
-		coa = LON_tricolor
-		priority = 150
-		trigger = {
-			coa_def_revolutionary_republic_trigger = yes
-		}
-	}
+
 }
 
 LOR = { # Lorraine
