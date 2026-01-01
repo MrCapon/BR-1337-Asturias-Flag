@@ -26,6 +26,7 @@ ASU = { #BR edit Asturias with LON tag (Leon)
     pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "yellow"
+
 	colored_emblem = {
 		texture = "ce_cross_asturias.dds"
 		color1 = "yellow"
